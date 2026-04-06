@@ -1944,7 +1944,7 @@
         "Ajax: i e iii\nJson: ii e iv",
         "Ajax: i e iv\nJson: ii e iii"
       ],
-      "resposta": "Ajax: i e iv                                    \nJson: ii e iii"
+      "resposta": "Ajax: ii e iii                                    \nJson: i e iv"
     },
     {
       "titulo": "Definição de AJAX",
