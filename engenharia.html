@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevQuest - Engenharia de Software</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #09090b; /* zinc-950 */
+            color: #e4e4e7; /* zinc-200 */
+        }
+        
+        /* Scrollbar customizada para a caixa de código */
+        pre::-webkit-scrollbar {
+            height: 8px;
+        }
+        pre::-webkit-scrollbar-track {
+            background: #18181b;
+            border-radius: 0 0 8px 8px;
+        }
+        pre::-webkit-scrollbar-thumb {
+            background: #3f3f46;
+            border-radius: 4px;
+        }
+        
+        @keyframes pulse-slow {
+            0%, 100% { opacity: 0.3; }
+            50% { opacity: 0.6; }
+        }
+        .animate-pulse-slow {
+            animation: pulse-slow 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col selection:bg-orange-500 selection:text-white overflow-x-hidden">
+
+    <header class="w-full py-6 px-6 flex justify-between items-center border-b border-zinc-800/50 bg-zinc-950/50 backdrop-blur-sm sticky top-0 z-50">
+        <div class="flex items-center gap-3 group cursor-pointer" onclick="window.location.href='index.html'">
+            <div class="p-2 bg-zinc-900 rounded-lg border border-zinc-800 group-hover:border-orange-500/50 transition-colors">
+                <i data-lucide="terminal" class="text-orange-400 w-6 h-6"></i>
+            </div>
+            <div>
+                <h1 class="text-xl font-bold tracking-tight text-zinc-100 group-hover:text-orange-300 transition-colors">
+                    Dev<span class="text-orange-500">Quest</span>
+                </h1>
+            </div>
+        </div>
+        
+        <nav class="hidden md:flex gap-6 text-sm font-medium text-zinc-400">
+            <a href="#" class="hover:text-orange-400 transition-colors">Início</a>
+            <a href="#" class="hover:text-amber-400 transition-colors">Ir para Arquitetura</a>
+        </nav>
+    </header>
+
+    <main class="flex-grow flex flex-col items-center justify-center px-4 py-12 relative w-full max-w-4xl mx-auto">
+        
+        <div class="absolute top-0 left-1/4 w-96 h-96 bg-orange-600/10 rounded-full blur-3xl -z-10 animate-pulse-slow"></div>
+
+        <div class="text-center mb-10 z-10">
+            <div class="inline-flex items-center justify-center p-3 bg-zinc-900/50 rounded-2xl border border-zinc-800 mb-4">
+                <i data-lucide="workflow" class="text-orange-400 w-8 h-8"></i>
+            </div>
+            <h1 class="text-3xl md:text-4xl font-extrabold tracking-tight mb-2 text-white">
+                Quiz Engenharia de Software
+            </h1>
+            <p class="text-zinc-400">Analise o enunciado e responda.</p>
+        </div>
+        
+        <div id="loading" class="text-orange-400 font-bold text-xl animate-pulse">Aguarde, buscando dados...</div>
+
+        <div id="quiz-container" class="w-full max-w-3xl z-10 hidden">
+            <div id="question-area" class="bg-zinc-900/60 backdrop-blur-md border border-zinc-800 p-6 md:p-8 rounded-3xl shadow-2xl"></div>
+            
+            <button id="next-btn" onclick="nextQuestion()" class="hidden w-full mt-6 py-4 bg-white text-zinc-950 font-bold rounded-xl hover:bg-zinc-200 transition-colors shadow-lg transform active:scale-95">
+                Próxima Pergunta ➡️
+            </button>
+        </div>
+
+        <div id="final-screen" class="hidden w-full max-w-2xl text-center bg-zinc-900/60 backdrop-blur-md border border-zinc-800 p-10 rounded-3xl shadow-2xl z-10">
+            <h2 class="text-3xl font-bold text-white mb-4">Mandou bem! 🚀</h2>
+            <p id="score-text" class="text-2xl text-orange-400 font-bold mb-8"></p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <button onclick="location.reload()" class="px-8 py-3 bg-white text-zinc-950 font-bold rounded-xl hover:bg-zinc-200 transition-colors">Jogar Novamente</button>
+                <a href="index.html" class="px-8 py-3 bg-zinc-800 text-white font-bold rounded-xl hover:bg-zinc-700 transition-colors border border-zinc-700">Voltar ao Início</a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="w-full py-8 border-t border-zinc-800/50 bg-zinc-950 relative z-10 mt-auto">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <p class="text-zinc-500 text-sm flex items-center justify-center gap-1">Feito com <i data-lucide="coffee" class="text-amber-700 w-3 h-3"></i> por Vinicius</p>
+        </div>
+    </footer>
+
+    <div class="fixed bottom-4 right-4 z-50 cursor-pointer group" onclick="handleCatClick()" title="Miau!">
+        <div id="cat-bubble" class="absolute -top-12 -left-8 bg-white text-zinc-900 text-xs font-bold px-3 py-1 rounded-xl rounded-br-none transform transition-all duration-300 shadow-lg opacity-0 scale-90 translate-y-2 pointer-events-none">Miau! 🐾</div>
+        <svg width="80" height="80" viewBox="0 0 100 100" id="cat-svg" class="transform transition-transform duration-500 group-hover:-translate-y-2">
+            <path d="M30 80 Q30 40 60 40 Q90 40 90 80 L90 100 L30 100 Z" fill="#18181b" stroke="#27272a" stroke-width="2" />
+            <circle cx="60" cy="45" r="25" fill="#18181b" stroke="#27272a" stroke-width="2" />
+            <path d="M40 30 L35 10 L55 25 Z" fill="#18181b" stroke="#27272a" stroke-width="2" />
+            <path d="M80 30 L85 10 L65 25 Z" fill="#18181b" stroke="#27272a" stroke-width="2" />
+            <circle cx="50" cy="40" r="3" fill="#fb923c" class="animate-pulse" />
+            <circle cx="70" cy="40" r="3" fill="#fb923c" class="animate-pulse" />
+            <path d="M58 50 L62 50 L60 53 Z" fill="#e4e4e7" />
+            <line x1="45" y1="52" x2="25" y2="50" stroke="#52525b" stroke-width="1" />
+            <line x1="45" y1="55" x2="25" y2="58" stroke="#52525b" stroke-width="1" />
+            <line x1="75" y1="52" x2="95" y2="50" stroke="#52525b" stroke-width="1" />
+            <line x1="75" y1="55" x2="95" y2="58" stroke="#52525b" stroke-width="1" />
+        </svg>
+    </div>
+
+    <script>
+        lucide.createIcons();
+        let questions = [];
+        let currentQuestion = 0;
+        let score = 0;
+
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+            return array;
+        }
+
+        async function loadQuestions() {
+            document.getElementById('loading').classList.remove('hidden');
+            try {
+                const response = await fetch('perguntas.json');
+                if (!response.ok) throw new Error(`Erro: ${response.status}`);
+                
+                const data = await response.json();
+                questions = data.engenharia || [];
+                shuffleArray(questions);
+
+                if (questions.length > 0) {
+                    document.getElementById('loading').classList.add('hidden');
+                    document.getElementById('quiz-container').classList.remove('hidden');
+                    showQuestion();
+                } else {
+                    document.getElementById('loading').innerText = "Nenhuma pergunta encontrada.";
+                }
+            } catch (error) {
+                console.error(error);
+                document.getElementById('loading').innerText = "Erro ao carregar JSON.";
+            }
+        }
+
+        function showQuestion() {
+            const container = document.getElementById('question-area');
+            const nextBtn = document.getElementById('next-btn');
+            const q = questions[currentQuestion];
+            
+            nextBtn.classList.add('hidden');
+
+            const escapeHtml = (unsafe) => {
+                if (!unsafe) return "";
+                return unsafe
+                    .replace(/&/g, "&amp;")
+                    .replace(/</g, "&lt;")
+                    .replace(/>/g, "&gt;")
+                    .replace(/"/g, "&quot;")
+                    .replace(/'/g, "&#039;");
+            };
+
+            container.innerHTML = `
+                <div class="mb-6">
+                    <span class="text-xs font-bold tracking-widest text-orange-400 uppercase">
+                        Questão ${currentQuestion + 1} de ${questions.length}
+                    </span>
+
+                    <h2 class="text-xl md:text-2xl font-bold text-white mt-2 leading-relaxed">
+                        ${q.titulo || ''}
+                    </h2>
+                    
+                    <p class="text-zinc-300 mt-4 text-sm leading-relaxed whitespace-pre-line">
+                        ${q.descricao || ''}
+                    </p>
+
+                    ${q.imagem ? `
+                        <div class="my-6 rounded-xl overflow-hidden border border-zinc-700 shadow-2xl bg-zinc-950/40">
+                            <img
+                                src="${q.imagem}"
+                                alt="${q.titulo || 'Imagem da questão'}"
+                                class="w-full h-auto object-contain rounded-xl"
+                                loading="lazy"
+                            >
+                        </div>
+                    ` : ''}
+                    
+                    ${q.codigo ? `
+                        <div class="my-6 rounded-xl overflow-hidden border border-zinc-700 shadow-2xl">
+                            <div class="bg-zinc-800 px-4 py-2 text-xs text-zinc-400 flex gap-2 items-center border-b border-zinc-700">
+                                <div class="w-3 h-3 rounded-full bg-red-500/80"></div>
+                                <div class="w-3 h-3 rounded-full bg-yellow-500/80"></div>
+                                <div class="w-3 h-3 rounded-full bg-green-500/80"></div>
+                                <span class="ml-2 font-mono opacity-50">code</span>
+                            </div>
+                            <pre class="m-0"><code class="language-css text-sm font-light leading-relaxed">${escapeHtml(q.codigo)}</code></pre>
+                        </div>
+                    ` : ''}
+
+                    ${q.afirmacoes ? `
+                        <div class="my-6 flex flex-col gap-2">
+                            <span class="text-xs text-zinc-500 uppercase tracking-wider font-bold mb-2">Analise:</span>
+                            ${q.afirmacoes.map(item => `
+                                <div class="flex gap-4 p-3 rounded-lg bg-zinc-900/40 border border-zinc-800/50 hover:border-orange-500/30 transition-colors">
+                                    <span class="font-bold text-orange-400 text-sm shrink-0 select-none pt-0.5">${item.id}</span>
+                                    <span class="text-zinc-300 text-sm font-light leading-relaxed">${item.texto}</span>
+                                </div>
+                            `).join('')}
+                        </div>
+                    ` : ''}
+                </div>
+                <div id="options-box" class="flex flex-col gap-3"></div>
+            `;
+
+            hljs.highlightAll();
+
+            const optionsBox = document.getElementById('options-box');
+            const letters = ['A', 'B', 'C', 'D', 'E', 'F'];
+
+            let shuffledOptions = [...(q.opcoes || [])];
+            shuffleArray(shuffledOptions);
+
+            shuffledOptions.forEach((opcaoTexto, index) => {
+                const btn = document.createElement('button');
+                btn.className = "w-full text-left p-4 rounded-xl border border-zinc-800 bg-zinc-950/50 hover:bg-zinc-900 hover:border-orange-500/50 transition-all duration-200 text-zinc-300 font-medium group flex items-center justify-start gap-3";
+                
+                const textoLimpo = opcaoTexto.replace(/</g, "&lt;").replace(/>/g, "&gt;");
+                
+                btn.innerHTML = `
+                    <span class="font-bold text-orange-500 group-hover:text-orange-400 transition-colors">${letters[index]})</span>
+                    <span class="group-hover:text-white transition-colors font-light">${textoLimpo}</span>
+                `;
+                
+                btn.onclick = () => checkAnswer(btn, opcaoTexto, q.resposta);
+                optionsBox.appendChild(btn);
+            });
+        }
+
+        function checkAnswer(selectedBtn, selectedText, correctText) {
+            const allOptions = document.querySelectorAll('#options-box button');
+            const nextBtn = document.getElementById('next-btn');
+            
+            const cleanSelected = (selectedText || '').trim().toLowerCase();
+            const cleanCorrect = (correctText || '').trim().toLowerCase();
+            const isCorrect = cleanSelected === cleanCorrect;
+
+            allOptions.forEach(btn => {
+                btn.disabled = true;
+                btn.classList.remove('hover:bg-zinc-900', 'hover:border-orange-500/50');
+                btn.classList.add('cursor-default', 'opacity-50');
+            });
+
+            selectedBtn.classList.remove('opacity-50');
+
+            if (isCorrect) {
+                selectedBtn.classList.remove('bg-zinc-950/50', 'border-zinc-800');
+                selectedBtn.classList.add('bg-emerald-500/10', 'border-emerald-500');
+                selectedBtn.querySelectorAll('span').forEach(s => s.classList.add('text-emerald-400'));
+                selectedBtn.querySelector('span:first-child').classList.remove('text-orange-500');
+                score++;
+            } else {
+                selectedBtn.classList.remove('bg-zinc-950/50', 'border-zinc-800');
+                selectedBtn.classList.add('bg-red-500/10', 'border-red-500');
+                selectedBtn.querySelectorAll('span').forEach(s => s.classList.add('text-red-400'));
+                selectedBtn.querySelector('span:first-child').classList.remove('text-orange-500');
+
+                allOptions.forEach(btn => {
+                    const btnText = btn.querySelector('span:last-child').innerText.trim().toLowerCase();
+                    
+                    if (btnText === cleanCorrect) {
+                        btn.classList.remove('opacity-50', 'bg-zinc-950/50', 'border-zinc-800');
+                        btn.classList.add('bg-emerald-500/10', 'border-emerald-500');
+                        btn.querySelectorAll('span').forEach(s => s.classList.add('text-emerald-400'));
+                        btn.querySelector('span:first-child').classList.remove('text-orange-500');
+                    }
+                });
+            }
+
+            nextBtn.classList.remove('hidden');
+        }
+
+        function nextQuestion() {
+            currentQuestion++;
+            if (currentQuestion < questions.length) {
+                showQuestion();
+            } else {
+                showResults();
+            }
+        }
+
+        function showResults() {
+            document.getElementById('quiz-container').classList.add('hidden');
+            document.getElementById('final-screen').classList.remove('hidden');
+            document.getElementById('score-text').innerText = `Você acertou ${score} de ${questions.length} questões!`;
+        }
+
+        function handleCatClick() {
+            const bubble = document.getElementById('cat-bubble');
+            const catSvg = document.getElementById('cat-svg');
+            bubble.classList.remove('opacity-0', 'scale-90', 'translate-y-2');
+            bubble.classList.add('opacity-100', 'scale-100', 'translate-y-0');
+            catSvg.classList.add('translate-y-2');
+            setTimeout(() => {
+                bubble.classList.remove('opacity-100', 'scale-100', 'translate-y-0');
+                bubble.classList.add('opacity-0', 'scale-90', 'translate-y-2');
+                catSvg.classList.remove('translate-y-2');
+            }, 1000);
+        }
+
+        loadQuestions();
+    </script>
+</body>
+</html>
