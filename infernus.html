@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevQuest - Modo Infernus</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #09090b;
+            color: #e4e4e7;
+        }
+        
+        pre::-webkit-scrollbar {
+            height: 8px;
+        }
+        pre::-webkit-scrollbar-track {
+            background: #18181b;
+            border-radius: 0 0 8px 8px;
+        }
+        pre::-webkit-scrollbar-thumb {
+            background: #3f3f46;
+            border-radius: 4px;
+        }
+        
+        @keyframes pulse-slow {
+            0%, 100% { opacity: 0.25; }
+            50% { opacity: 0.55; }
+        }
+
+        .animate-pulse-slow {
+            animation: pulse-slow 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+
+        @keyframes shake-screen {
+            0% { transform: translateX(0); }
+            20% { transform: translateX(-8px); }
+            40% { transform: translateX(8px); }
+            60% { transform: translateX(-6px); }
+            80% { transform: translateX(6px); }
+            100% { transform: translateX(0); }
+        }
+
+        .shake-screen {
+            animation: shake-screen 0.35s ease-in-out;
+        }
+
+        @keyframes fire-rise {
+            0% {
+                transform: translateY(0) scale(1);
+                opacity: 0.16;
+            }
+            50% {
+                opacity: 0.30;
+            }
+            100% {
+                transform: translateY(-140px) scale(1.38);
+                opacity: 0;
+            }
+        }
+
+        @keyframes fire-flicker {
+            0%, 100% { opacity: 0.16; }
+            20% { opacity: 0.28; }
+            40% { opacity: 0.12; }
+            60% { opacity: 0.30; }
+            80% { opacity: 0.18; }
+        }
+
+        .fire-bg {
+            position: fixed;
+            inset: 0;
+            overflow: hidden;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .fire-core {
+            position: absolute;
+            bottom: -90px;
+            border-radius: 9999px;
+            filter: blur(42px);
+            background: radial-gradient(circle, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.58) 28%, rgba(255,255,255,0.18) 56%, rgba(255,255,255,0) 76%);
+            animation: fire-rise linear infinite, fire-flicker ease-in-out infinite;
+        }
+
+        .fire-sm { width: 120px; height: 180px; }
+        .fire-md { width: 180px; height: 260px; }
+        .fire-lg { width: 260px; height: 360px; }
+
+        .content-layer {
+            position: relative;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col selection:bg-white selection:text-black overflow-x-hidden">
+
+    <!-- FOGO BRANCO -->
+    <div class="fire-bg">
+        <div class="fire-core fire-lg" style="left: 3%; animation-duration: 4.8s, 2.1s; animation-delay: 0s, 0s;"></div>
+        <div class="fire-core fire-md" style="left: 12%; animation-duration: 5.2s, 1.9s; animation-delay: 0.7s, 0.3s;"></div>
+        <div class="fire-core fire-sm" style="left: 21%; animation-duration: 4.4s, 2.4s; animation-delay: 1.2s, 0.4s;"></div>
+        <div class="fire-core fire-lg" style="left: 30%; animation-duration: 5.6s, 2.2s; animation-delay: 0.4s, 0.2s;"></div>
+        <div class="fire-core fire-md" style="left: 40%; animation-duration: 4.9s, 2.5s; animation-delay: 1.1s, 0.8s;"></div>
+        <div class="fire-core fire-sm" style="left: 50%; animation-duration: 4.3s, 1.7s; animation-delay: 0.3s, 0.1s;"></div>
+        <div class="fire-core fire-lg" style="left: 60%; animation-duration: 5.4s, 2.0s; animation-delay: 1.4s, 0.6s;"></div>
+        <div class="fire-core fire-md" style="left: 71%; animation-duration: 4.7s, 2.3s; animation-delay: 0.8s, 0.5s;"></div>
+        <div class="fire-core fire-sm" style="left: 82%; animation-duration: 4.2s, 1.8s; animation-delay: 0.2s, 0.2s;"></div>
+        <div class="fire-core fire-lg" style="left: 90%; animation-duration: 5.1s, 2.4s; animation-delay: 1.0s, 0.7s;"></div>
+    </div>
+
+    <header class="content-layer w-full py-6 px-6 flex justify-between items-center border-b border-zinc-800/50 bg-zinc-950/50 backdrop-blur-sm sticky top-0 z-50">
+        <div class="flex items-center gap-3 group cursor-pointer" onclick="window.location.href='index.html'">
+            <div class="p-2 bg-zinc-900 rounded-lg border border-zinc-800 group-hover:border-white/50 transition-colors">
+                <i data-lucide="flame" class="text-white w-6 h-6"></i>
+            </div>
+            <div>
+                <h1 class="text-xl font-bold tracking-tight text-zinc-100 group-hover:text-white transition-colors">
+                    Dev<span class="text-white">Quest</span>
+                </h1>
+            </div>
+        </div>
+        
+        <nav class="hidden md:flex gap-6 text-sm font-medium text-zinc-400">
+            <a href="index.html" class="hover:text-white transition-colors">Início</a>
+            <a href="engenharia.html" class="hover:text-white transition-colors">Modo Normal</a>
+        </nav>
+    </header>
+
+    <main id="main-wrapper" class="content-layer flex-grow flex flex-col items-center justify-center px-4 py-12 relative w-full max-w-5xl mx-auto">
+        
+        <div class="absolute top-0 left-1/4 w-96 h-96 bg-white/10 rounded-full blur-3xl -z-10 animate-pulse-slow"></div>
+        <div class="absolute bottom-10 right-1/4 w-96 h-96 bg-zinc-300/10 rounded-full blur-3xl -z-10 animate-pulse-slow" style="animation-duration: 6s;"></div>
+
+        <div class="text-center mb-10 z-10">
+            <div class="inline-flex items-center justify-center p-3 bg-zinc-900/50 rounded-2xl border border-zinc-800 mb-4">
+                <i data-lucide="swords" class="text-white w-8 h-8"></i>
+            </div>
+            <h1 class="text-3xl md:text-5xl font-extrabold tracking-tight mb-2 text-white">
+                Modo Infernus
+            </h1>
+            <p class="text-zinc-400">Engenharia + Backend + Estruturas de Dados. Errou 3, reinicia.</p>
+        </div>
+
+        <div class="mb-6 flex flex-wrap items-center justify-center gap-3 z-10">
+            <div class="px-4 py-2 rounded-xl border border-zinc-800 bg-zinc-900/50 text-zinc-300 text-sm">
+                Acertos: <span id="hits-count" class="font-bold text-white">0</span>
+            </div>
+            <div class="px-4 py-2 rounded-xl border border-zinc-800 bg-zinc-900/50 text-zinc-300 text-sm">
+                Erros: <span id="errors-count" class="font-bold text-red-400">0</span>/3
+            </div>
+        </div>
+        
+        <div id="loading" class="text-white font-bold text-xl animate-pulse">Aguarde, reunindo questões...</div>
+
+        <div id="quiz-container" class="w-full max-w-4xl z-10 hidden">
+            <div id="question-area" class="bg-zinc-900/60 backdrop-blur-md border border-zinc-800 p-6 md:p-8 rounded-3xl shadow-2xl"></div>
+            
+            <button id="next-btn" onclick="nextQuestion()" class="hidden w-full mt-6 py-4 bg-white text-zinc-950 font-bold rounded-xl hover:bg-zinc-200 transition-colors shadow-lg transform active:scale-95">
+                Próxima Pergunta ➡️
+            </button>
+        </div>
+
+        <div id="final-screen" class="hidden w-full max-w-2xl text-center bg-zinc-900/60 backdrop-blur-md border border-zinc-800 p-10 rounded-3xl shadow-2xl z-10">
+            <h2 class="text-3xl font-bold text-white mb-4">Fim do Infernus. ☠️</h2>
+            <p id="score-text" class="text-2xl text-white font-bold mb-8"></p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <button onclick="location.reload()" class="px-8 py-3 bg-white text-zinc-950 font-bold rounded-xl hover:bg-zinc-200 transition-colors">
+                    Jogar Novamente
+                </button>
+                <a href="index.html" class="px-8 py-3 bg-zinc-800 text-white font-bold rounded-xl hover:bg-zinc-700 transition-colors border border-zinc-700">
+                    Voltar ao Início
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="content-layer w-full py-8 border-t border-zinc-800/50 bg-zinc-950 relative z-10 mt-auto">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <p class="text-zinc-500 text-sm flex items-center justify-center gap-1">
+                Feito com <i data-lucide="coffee" class="text-amber-700 w-3 h-3"></i> por Vinicius
+            </p>
+        </div>
+    </footer>
+
+    <!-- PANTERA -->
+    <div class="fixed bottom-4 right-4 z-50 cursor-pointer group" onclick="handlePantherClick()" title="Raaawr!">
+        <div id="panther-bubble" class="absolute -top-12 -left-12 bg-white text-zinc-900 text-xs font-bold px-3 py-1 rounded-xl rounded-br-none transform transition-all duration-300 shadow-lg opacity-0 scale-90 translate-y-2 pointer-events-none">
+            Raaawr! ⚡
+        </div>
+
+        <svg width="96" height="96" viewBox="0 0 120 120" id="panther-svg" class="transform transition-transform duration-500 group-hover:-translate-y-2">
+            <path d="M26 86 Q24 45 60 34 Q96 45 94 86 L84 104 L36 104 Z" fill="#0a0a0a" stroke="#27272a" stroke-width="3"/>
+            <path d="M38 42 L28 16 L50 30 Z" fill="#0a0a0a" stroke="#27272a" stroke-width="3"/>
+            <path d="M82 42 L92 16 L70 30 Z" fill="#0a0a0a" stroke="#27272a" stroke-width="3"/>
+
+            <ellipse cx="47" cy="53" rx="6" ry="5" fill="#ffffff"/>
+            <ellipse cx="73" cy="53" rx="6" ry="5" fill="#ffffff"/>
+            <circle cx="47" cy="53" r="2.4" fill="#e5e7eb" class="animate-pulse"/>
+            <circle cx="73" cy="53" r="2.4" fill="#e5e7eb" class="animate-pulse"/>
+
+            <path d="M56 64 L64 64 L60 69 Z" fill="#d4d4d8"/>
+
+            <path d="M44 73 Q60 96 76 73 Q72 102 60 104 Q48 102 44 73 Z" fill="#111827" stroke="#3f3f46" stroke-width="2"/>
+
+            <path d="M49 73 L53 82 L57 73 Z" fill="#ffffff"/>
+            <path d="M57 73 L60 85 L63 73 Z" fill="#ffffff"/>
+            <path d="M63 73 L67 82 L71 73 Z" fill="#ffffff"/>
+
+            <path d="M46 72 L49 87 L52 72 Z" fill="#ffffff"/>
+            <path d="M68 72 L71 87 L74 72 Z" fill="#ffffff"/>
+
+            <line x1="42" y1="70" x2="18" y2="66" stroke="#52525b" stroke-width="1.5"/>
+            <line x1="42" y1="75" x2="16" y2="79" stroke="#52525b" stroke-width="1.5"/>
+            <line x1="78" y1="70" x2="102" y2="66" stroke="#52525b" stroke-width="1.5"/>
+            <line x1="78" y1="75" x2="104" y2="79" stroke="#52525b" stroke-width="1.5"/>
+        </svg>
+    </div>
+
+    <script>
+        lucide.createIcons();
+
+        let questions = [];
+        let currentQuestion = 0;
+        let score = 0;
+        let errors = 0;
+
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+            return array;
+        }
+
+        function escapeHtml(unsafe) {
+            if (!unsafe) return "";
+            return unsafe
+                .replace(/&/g, "&amp;")
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;")
+                .replace(/"/g, "&quot;")
+                .replace(/'/g, "&#039;");
+        }
+
+        function getOptionContent(option) {
+            if (typeof option === "string") return option;
+            if (option && typeof option === "object") return option.conteudo || "";
+            return "";
+        }
+
+        function isCodeOption(option) {
+            return typeof option === "object" && option !== null && option.tipo === "codigo";
+        }
+
+        function normalizeText(text) {
+            return (text || "").trim().toLowerCase();
+        }
+
+        function updateCounters() {
+            document.getElementById("hits-count").innerText = score;
+            document.getElementById("errors-count").innerText = errors;
+        }
+
+        function triggerResetByErrors() {
+            const wrapper = document.getElementById("main-wrapper");
+            wrapper.classList.add("shake-screen");
+
+            setTimeout(() => {
+                alert("Modo Infernus: você errou 3 questões. O quiz será reiniciado.");
+                location.reload();
+            }, 350);
+        }
+
+        async function loadQuestions() {
+            document.getElementById("loading").classList.remove("hidden");
+
+            try {
+                const response = await fetch("perguntas.json");
+                if (!response.ok) throw new Error(`Erro: ${response.status}`);
+
+                const data = await response.json();
+
+                let mergedQuestions = [];
+
+                const engenharia = Array.isArray(data.engenharia) ? data.engenharia.map(q => ({ ...q, materia: "engenharia" })) : [];
+                const backend = Array.isArray(data.backend) ? data.backend.map(q => ({ ...q, materia: "backend" })) : [];
+                const estruturas = (
+                    Array.isArray(data.estruturasDeDados) ? data.estruturasDeDados :
+                    Array.isArray(data.estruturas_dados) ? data.estruturas_dados :
+                    Array.isArray(data.estruturas) ? data.estruturas :
+                    []
+                ).map(q => ({ ...q, materia: "estruturas de dados" }));
+
+                mergedQuestions = [...engenharia, ...backend, ...estruturas];
+                questions = shuffleArray(mergedQuestions);
+
+                if (questions.length > 0) {
+                    document.getElementById("loading").classList.add("hidden");
+                    document.getElementById("quiz-container").classList.remove("hidden");
+                    updateCounters();
+                    showQuestion();
+                } else {
+                    document.getElementById("loading").innerText = "Nenhuma pergunta encontrada para o Modo Infernus.";
+                }
+            } catch (error) {
+                console.error(error);
+                document.getElementById("loading").innerText = "Erro ao carregar JSON.";
+            }
+        }
+
+        function showQuestion() {
+            const container = document.getElementById("question-area");
+            const nextBtn = document.getElementById("next-btn");
+            const q = questions[currentQuestion];
+
+            nextBtn.classList.add("hidden");
+
+            container.innerHTML = `
+                <div class="mb-6">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        <span class="text-xs font-bold tracking-widest text-white uppercase">
+                            Questão ${currentQuestion + 1} de ${questions.length}
+                        </span>
+                        <span class="text-[10px] font-bold tracking-[0.2em] uppercase px-3 py-1 rounded-full bg-white/10 text-zinc-200 border border-white/10">
+                            ${q.materia || "geral"}
+                        </span>
+                    </div>
+
+                    <h2 class="text-xl md:text-2xl font-bold text-white mt-2 leading-relaxed">
+                        ${q.titulo || ""}
+                    </h2>
+                    
+                    <p class="text-zinc-300 mt-4 text-sm leading-relaxed whitespace-pre-line">
+                        ${q.descricao || ""}
+                    </p>
+
+                    ${q.imagem ? `
+                        <div class="my-6 rounded-xl overflow-hidden border border-zinc-700 shadow-2xl bg-zinc-950/40">
+                            <img
+                                src="${q.imagem}"
+                                alt="${q.titulo || "Imagem da questão"}"
+                                class="w-full h-auto object-contain rounded-xl"
+                                loading="lazy"
+                            >
+                        </div>
+                    ` : ""}
+                    
+                    ${q.codigo ? `
+                        <div class="my-6 rounded-xl overflow-hidden border border-zinc-700 shadow-2xl">
+                            <div class="bg-zinc-800 px-4 py-2 text-xs text-zinc-400 flex gap-2 items-center border-b border-zinc-700">
+                                <div class="w-3 h-3 rounded-full bg-red-500/80"></div>
+                                <div class="w-3 h-3 rounded-full bg-yellow-500/80"></div>
+                                <div class="w-3 h-3 rounded-full bg-green-500/80"></div>
+                                <span class="ml-2 font-mono opacity-50">python</span>
+                            </div>
+                            <pre class="m-0"><code class="language-python text-sm font-light leading-relaxed">${escapeHtml(q.codigo)}</code></pre>
+                        </div>
+                    ` : ""}
+
+                    ${q.afirmacoes ? `
+                        <div class="my-6 flex flex-col gap-2">
+                            <span class="text-xs text-zinc-500 uppercase tracking-wider font-bold mb-2">Analise:</span>
+                            ${q.afirmacoes.map(item => `
+                                <div class="flex gap-4 p-3 rounded-lg bg-zinc-900/40 border border-zinc-800/50 hover:border-white/30 transition-colors">
+                                    <span class="font-bold text-white text-sm shrink-0 select-none pt-0.5">${item.id}</span>
+                                    <span class="text-zinc-300 text-sm font-light leading-relaxed">${item.texto}</span>
+                                </div>
+                            `).join("")}
+                        </div>
+                    ` : ""}
+                </div>
+                <div id="options-box" class="flex flex-col gap-3"></div>
+            `;
+
+            const optionsBox = document.getElementById("options-box");
+            const letters = ["A", "B", "C", "D", "E", "F"];
+            let shuffledOptions = [...(q.opcoes || [])];
+            shuffleArray(shuffledOptions);
+
+            shuffledOptions.forEach((opcao, index) => {
+                const btn = document.createElement("button");
+                btn.className = "w-full text-left p-4 rounded-xl border border-zinc-800 bg-zinc-950/50 hover:bg-zinc-900 hover:border-white/40 transition-all duration-200 text-zinc-300 font-medium group";
+
+                const content = getOptionContent(opcao);
+                const contentEscaped = escapeHtml(content);
+
+                let innerBlock = "";
+
+                if (isCodeOption(opcao)) {
+                    innerBlock = `
+                        <div class="flex gap-3 items-start">
+                            <span class="font-bold text-white group-hover:text-zinc-200 transition-colors shrink-0 pt-1">${letters[index]})</span>
+                            <div class="flex-1 min-w-0">
+                                <div class="rounded-xl overflow-hidden border border-zinc-700 bg-zinc-900/80">
+                                    <div class="bg-zinc-800 px-4 py-2 text-xs text-zinc-400 border-b border-zinc-700 font-mono opacity-80">python</div>
+                                    <pre class="m-0"><code class="language-python text-sm font-light leading-relaxed block p-4">${contentEscaped}</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                } else {
+                    innerBlock = `
+                        <div class="flex gap-3 items-start justify-start">
+                            <span class="font-bold text-white group-hover:text-zinc-200 transition-colors shrink-0">${letters[index]})</span>
+                            <span class="group-hover:text-white transition-colors font-light">${contentEscaped}</span>
+                        </div>
+                    `;
+                }
+
+                btn.innerHTML = innerBlock;
+                btn.dataset.optionValue = content;
+                btn.onclick = () => checkAnswer(btn, opcao, q.resposta);
+                optionsBox.appendChild(btn);
+            });
+
+            hljs.highlightAll();
+        }
+
+        function checkAnswer(selectedBtn, selectedOption, correctText) {
+            const allOptions = document.querySelectorAll("#options-box button");
+            const nextBtn = document.getElementById("next-btn");
+
+            const cleanSelected = normalizeText(getOptionContent(selectedOption));
+            const cleanCorrect = normalizeText(correctText);
+            const isCorrect = cleanSelected === cleanCorrect;
+
+            allOptions.forEach(btn => {
+                btn.disabled = true;
+                btn.classList.remove("hover:bg-zinc-900", "hover:border-white/40");
+                btn.classList.add("cursor-default", "opacity-50");
+            });
+
+            selectedBtn.classList.remove("opacity-50");
+
+            if (isCorrect) {
+                selectedBtn.classList.remove("bg-zinc-950/50", "border-zinc-800");
+                selectedBtn.classList.add("bg-emerald-500/10", "border-emerald-500");
+                selectedBtn.querySelectorAll("span").forEach(s => s.classList.add("text-emerald-400"));
+                score++;
+                updateCounters();
+            } else {
+                selectedBtn.classList.remove("bg-zinc-950/50", "border-zinc-800");
+                selectedBtn.classList.add("bg-red-500/10", "border-red-500");
+                selectedBtn.querySelectorAll("span").forEach(s => s.classList.add("text-red-400"));
+
+                allOptions.forEach(btn => {
+                    const btnText = normalizeText(btn.dataset.optionValue || "");
+                    if (btnText === cleanCorrect) {
+                        btn.classList.remove("opacity-50", "bg-zinc-950/50", "border-zinc-800");
+                        btn.classList.add("bg-emerald-500/10", "border-emerald-500");
+                        btn.querySelectorAll("span").forEach(s => s.classList.add("text-emerald-400"));
+                    }
+                });
+
+                errors++;
+                updateCounters();
+
+                if (errors >= 3) {
+                    triggerResetByErrors();
+                    return;
+                }
+            }
+
+            nextBtn.classList.remove("hidden");
+        }
+
+        function nextQuestion() {
+            currentQuestion++;
+            if (currentQuestion < questions.length) {
+                showQuestion();
+            } else {
+                showResults();
+            }
+        }
+
+        function showResults() {
+            document.getElementById("quiz-container").classList.add("hidden");
+            document.getElementById("final-screen").classList.remove("hidden");
+            document.getElementById("score-text").innerText = `Você acertou ${score} de ${questions.length} questões antes do fim do modo.`;
+        }
+
+        function handlePantherClick() {
+            const bubble = document.getElementById("panther-bubble");
+            const pantherSvg = document.getElementById("panther-svg");
+
+            bubble.classList.remove("opacity-0", "scale-90", "translate-y-2");
+            bubble.classList.add("opacity-100", "scale-100", "translate-y-0");
+
+            pantherSvg.classList.add("translate-y-2", "scale-105");
+
+            setTimeout(() => {
+                bubble.classList.remove("opacity-100", "scale-100", "translate-y-0");
+                bubble.classList.add("opacity-0", "scale-90", "translate-y-2");
+                pantherSvg.classList.remove("translate-y-2", "scale-105");
+            }, 1000);
+        }
+
+        loadQuestions();
+    </script>
+</body>
+</html>

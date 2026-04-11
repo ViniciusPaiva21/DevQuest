@@ -1,0 +1,3649 @@
+{
+  "frontend": [
+    {
+      "titulo": "Definição e História do CSS",
+      "descricao": "CSS significa Cascading Style Sheets, essa tecnologia descreve como os elementos HTML devem ser exibidos na tela, no papel ou em outra mídia. O CSS economiza muito trabalho. Ele pode controlar o layout de várias páginas da web de uma só vez.\n\nSobre o papel do CSS na história do desenvolvimento web podemos afirmar:",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "O uso de CSS reduziu a desordem de marcação e criou um código mais limpo em layouts web. O CSS também facilitou a manutenção de sites porque o conteúdo e os elementos de design foram separados."
+        },
+        {
+          "id": "II",
+          "texto": "Hoje não é possível mudar toda a aparência de um site baseado em CSS, sendo necessário adaptar também o conteúdo."
+        },
+        {
+          "id": "III",
+          "texto": "Os tamanhos dos documentos de designs CSS são geralmente menores do que as alternativas, o que se traduz em uma melhora nos tempos de resposta da página."
+        },
+        {
+          "id": "IV",
+          "texto": "Os desenvolvedores começaram a incluir mais e mais CSS, embora isso tenha começado principalmente inline, escrito junto do documento HTML, eventualmente se tornou mais aceito que CSS deveria ser derivado por classes, e a maior parte do estilo deveria ser carregada em folhas de estilo."
+        }
+      ],
+      "opcoes": [
+        "I, III e IV",
+        "Somente I e IV",
+        "I, II e III",
+        "II, III e IV",
+        "II e IV"
+      ],
+      "resposta": "I, III e IV"
+    },
+    {
+      "titulo": "Manipulação de DOM com JavaScript",
+      "descricao": "Você está em uma nova empresa trabalhando como desenvolvedor em um projeto de manutenção e se deparou com o código abaixo.\n\nAo clicar no botão 'Alterar', qual será o resultado do conteúdo exibido no parágrafo com o id 'paragrafo'?",
+      "codigo": "<!DOCTYPE html>\n<html>\n<head>\n  <script>\n    function alterarConteudo() {\n      document.getElementById(\"paragrafo\").innerHTML = \"Novo Conteúdo!\";\n    }\n  </script>\n</head>\n<body>\n  <p id=\"paragrafo\">Conteúdo Inicial</p>\n  <button onclick=\"alterarConteudo()\">Alterar</button>\n</body>\n</html>",
+      "afirmacoes": null,
+      "opcoes": [
+        "Conteúdo Inicial",
+        "Novo Conteúdo!",
+        "<script> alterarConteudo(); </script>",
+        "document.getElementById(\"paragrafo\").innerHTML = \"Novo Conteúdo!\";",
+        "alterarConteudo();"
+      ],
+      "resposta": "Novo Conteúdo!"
+    },
+    {
+      "titulo": "Estrutura e Tags HTML",
+      "descricao": "[FONTE PRÓPRIA] Sabendo que a linguagem HTML utiliza certos elementos para organização do conteúdo em uma página web. A ferramenta utilizada para realizar essa tarefa é conhecida como tag.\n\nQual afirmação abaixo está correta?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "As tags HTML são usadas apenas para estilizar o conteúdo de uma página web.",
+        "Cada tag HTML é responsável por uma única funcionalidade complexa em uma página web.",
+        "Tags HTML são utilizadas para organizar o conteúdo de uma página web, desde funcionalidades simples até as mais complexas.",
+        "HTML não utiliza tags para organizar o conteúdo; elas são exclusivas de linguagens de estilo como CSS.",
+        "Todas as afirmações anteriores estão corretas"
+      ],
+      "resposta": "Tags HTML são utilizadas para organizar o conteúdo de uma página web, desde funcionalidades simples até as mais complexas."
+    },
+    {
+      "titulo": "Siglas Fundamentais da Web",
+      "descricao": "HTML, CSS e W3C são siglas fundamentais no universo da criação de páginas web. Cada uma delas desempenha um papel vital na construção e no design de sites, bem como na definição e manutenção de padrões para a web.\n\nQual é o significado das siglas HTML, CSS e W3C?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "HTML: HyperText Markup Language, CSS: Creative Style Sheets, W3C: World Wide Computer.",
+        "HTML: HyperText Markup Language, CSS: Cascading Style Sheets, W3C: Web 3.0 Consortium.",
+        "HTML: HyperText Makeup Language, CSS: Computer Style Sheets, W3C: World Web Consortium.",
+        "HTML: HyperText Markup Language, CSS: Computer Style Sheets, W3C: World Wide Consortium.",
+        "HTML: HyperText Markup Language, CSS: Cascading Style Sheets, W3C: World Wide Web Consortium."
+      ],
+      "resposta": "HTML: HyperText Markup Language, CSS: Cascading Style Sheets, W3C: World Wide Web Consortium."
+    },
+    {
+      "titulo": "Definição e Objetos do DOM",
+      "descricao": "Document Object Model, o DOM, fornece mecanismos de integração que possibilitam a ação de objetos em uma página web. Por exemplo, uma página web do tipo formulário é construída com a estrutura do DOM, e essa estrutura permite que os formulários processem dados inseridos pelo usuário quando esse usuário clica em um botão.\n\nAnalise as afirmações a seguir e escolha a alternativa que contém todas as afirmações corretas.",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "Um objeto é uma entidade de software que representa algo tangível."
+        },
+        {
+          "id": "II",
+          "texto": "Nos bastidores, alguns elementos em uma página web são representados como objetos."
+        },
+        {
+          "id": "III",
+          "texto": "Não existe um objeto que possa ser associado ao todo conteúdo completo de uma página web."
+        },
+        {
+          "id": "IV",
+          "texto": "Cada objeto tem um conjunto de propriedades relacionadas, mais um conjunto de comportamentos."
+        }
+      ],
+      "opcoes": [
+        "Somente I e IV.",
+        "Somente I e II.",
+        "Somente I e III.",
+        "I, II e III.",
+        "II, III e IV."
+      ],
+      "resposta": "Somente I e IV."
+    },
+    {
+      "titulo": "Significado da Sigla HTML",
+      "descricao": "HTML é uma linguagem que utiliza tags de marcação para formatação e a capacidade de navegar por outras páginas web.\n\nQual o significado da sigla HTML?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Hypertool Markup Language",
+        "Hypertext Markup Language",
+        "Hyper Term Model Lead",
+        "Hyper Technology Model Language",
+        "Nenhuma das alternativas"
+      ],
+      "resposta": "Hypertext Markup Language"
+    },
+    {
+      "titulo": "Características e Sintaxe do JavaScript",
+      "descricao": "Muitos navegadores usam JavaScript como linguagem de script para fazer coisas dinâmicas na web. Sempre que você vir um menu suspenso \"clique para mostrar\" e cores de elementos que mudam dinamicamente em uma página, você está vendo os efeitos do JavaScript.\n\nAnalise as afirmativas a seguir e selecione a alternativa que elenca todas as afirmativas verdadeiras sobre a linguagem JavaScript:",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "É uma linguagem de programação que não compila o programa em instruções de máquina."
+        },
+        {
+          "id": "II",
+          "texto": "É uma linguagem tipada dinamicamente."
+        },
+        {
+          "id": "III",
+          "texto": "O tipo de uma variável em JavaScript pode mudar durante sua vida útil."
+        },
+        {
+          "id": "IV",
+          "texto": "Para acessar as propriedades de um objeto, você especifica o nome do objeto, um ponto e o nome da propriedade."
+        }
+      ],
+      "opcoes": [
+        "Todas as afirmativas estão corretas.",
+        "I, II e III.",
+        "II, III e IV.",
+        "Somente I e II.",
+        "Somente III e IV."
+      ],
+      "resposta": "Todas as afirmativas estão corretas."
+    },
+    {
+      "titulo": "Browser Object Model (BOM) e Timeouts",
+      "descricao": "O Browser Object Model (BOM) é o núcleo do JavaScript na web. O BOM fornece objetos que expõem a funcionalidade do navegador web, sendo o objeto global do JavaScript no navegador o objeto window.\n\nO código HTML a seguir implementa um botão que, ao ser clicado, deve chamar uma função responsável por mostrar uma caixa de diálogo após 3 segundos. Escolha a alternativa que completa corretamente a lógica.",
+      "codigo": "<p>Teste o seu Javascript</p>\n<button onclick=\"mostrarCaixa();\">Mostrar</button>",
+      "afirmacoes": null,
+      "opcoes": [
+        "setTimeout(alert, 3000, 'Javascript Testado!');",
+        "warning(mostrarCaixa, 3000, 'Javascript Testado!');",
+        "alert(3000, confirm, 'Javascript Testado!');",
+        "setTineout(alert, 3, 'Javascript Testado!');",
+        "alert(setTimeout, 3000, 'Javascript Testado!');"
+      ],
+      "resposta": "setTimeout(alert, 3000, 'Javascript Testado!');"
+    },
+    {
+      "titulo": "Sintaxe de Tags HTML",
+      "descricao": "[Fonte: Autor Próprio] HTML é uma linguagem que oferece suporte a tags de marcação para formatação e a capacidade de navegar por outras páginas web. O uso de tags é a principal característica de uma linguagem de marcação. Uma linguagem de marcação 'marca' um documento circundando partes de seu conteúdo com tags.\n\nComplete a frase: No HTML, as tags são compostas por um elemento de __________ conteúdo e um elemento de __________",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "abertura / formatação",
+        "início / fim",
+        "abertura / fechamento",
+        "inicial / conclusão",
+        "marcação / identificação"
+      ],
+      "resposta": "abertura / fechamento"
+    },
+    {
+      "titulo": "Métodos do Objeto Window",
+      "descricao": "O Browser Object Model (BOM) é o núcleo do JavaScript na web. O BOM fornece objetos que expõem a funcionalidade do navegador web, sendo o objeto global o window. Isso significa que todas as variáveis e funções declaradas globalmente tornam-se propriedades e métodos do objeto window.\n\nSobre os métodos relacionados ao objeto window, escolha a alternativa que melhor preenche o espaço vazio (_) no código a seguir para que ele funcione apropriadamente.",
+      "codigo": "let idadeStr = _('Quantos anos você tem?');\nlet idade = Number(idadeStr);\n\nlet feedback = idade >= 16 ? \n  'Você está qualificado para aderir.' : \n  'Você deve ter pelo menos 16 anos de idade para aderir.';\n\nalert(feedback);",
+      "afirmacoes": null,
+      "opcoes": [
+        "prompt",
+        "alert",
+        "confirm",
+        "question"
+      ],
+      "resposta": "prompt"
+    },
+    {
+      "titulo": "Referenciando CSS Externo",
+      "descricao": "HTML (HyperText Markup Language) e CSS (Cascading Style Sheets) são fundamentais para a construção e estilização de páginas web. Para aplicar estilos consistentes em várias páginas ou em todo um site, é comum utilizar folhas de estilo externas.\n\nPergunta-se: Qual é a forma correta de referenciar uma folha de estilo externa (arquivo CSS) em um documento HTML?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "<link rel=\"stylesheet\" type=\"text/css\" src=\"estilo.css\">",
+        "<style type=\"text/css\" link=\"estilo.css\"></style>",
+        "<stylesheet type=\"text/css\" href=\"estilo.css\">",
+        "<link type=\"text/css\" rel=\"stylesheet\" href=\"estilo.css\">",
+        "<css type=\"text/css\" link=\"estilo.css\">"
+      ],
+      "resposta": "<link type=\"text/css\" rel=\"stylesheet\" href=\"estilo.css\">"
+    },
+    {
+      "titulo": "Seletores CSS: Classes",
+      "descricao": "No CSS, os seletores são nomenclaturas padronizadas destinadas a selecionar elementos para aplicação de estilo. Usamos os seletores para selecionar o elemento que desejamos estilizar.\n\nO seletor \".nome\" seleciona os elementos que possuem:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "o atributo class=\"nome\".",
+        "o atributo id=\"nome\".",
+        "o atributo name=\"nome\".",
+        "a tag <nome>",
+        "a tag <nome> e são filhos do elemento raiz"
+      ],
+      "resposta": "o atributo class=\"nome\"."
+    },
+    {
+      "titulo": "Lógica de Repetição em JavaScript",
+      "descricao": "[AUTORIA PRÓPRIA] Considere o seguinte cenário: você precisa criar uma função em JavaScript que receba um número como parâmetro e retorne a soma de todos os números inteiros de 1 até o número fornecido.\n\nQual das opções a seguir representa corretamente a implementação dessa função utilizando uma estrutura de repetição?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "function somarNumeros(n) { let res = 0; for (let i = 1; i < n; i++) { res += n; } return res; }",
+        "function somarNumeros(n) { let res = 0; for (let i = 1; i <= n; i++) { res += i; } return res; }",
+        "function somarNumeros(n) { let res = 0; while (res <= n) { res += n; } return res; }",
+        "function somarNumeros(n) { let res = 0; while (res <= n) { res += res; } return res; }",
+        "function somarNumeros(n) { let res = 0; for (let i = 1; i <= n; i++) { res += i; } return res; }"
+      ],
+      "resposta": "function somarNumeros(n) { let res = 0; for (let i = 1; i <= n; i++) { res += i; } return res; }"
+    },
+    {
+      "titulo": "Concatenação de String e Número",
+      "descricao": "Muitos navegadores usam JavaScript como linguagem de script para fazer coisas dinâmicas na web. Veja o código JavaScript fornecido e selecione a alternativa que melhor representa a saída correta entre as seguintes:",
+      "codigo": "var string01 = \"20\";\nvar valor = 50;\nalert( string01 + valor);",
+      "afirmacoes": null,
+      "opcoes": [
+        "2050.",
+        "70.",
+        "5020.",
+        "30.",
+        "NaN."
+      ],
+      "resposta": "2050."
+    },
+    {
+      "titulo": "Loop While e Console.log",
+      "descricao": "A função \"console.log()\" é uma das funções predefinidas do JavaScript. Ela recebe valores como argumentos e exibe esse valor dentro do console quando o código é executado.\n\nAdicione essa informação aos seus conhecimentos prévios e analise o código a seguir. O que acontecerá se ele for executado?",
+      "codigo": "var contagem = 0;\nwhile (contagem < 20) {\n  console.log(contagem);\n  contagem++;\n}",
+      "afirmacoes": null,
+      "opcoes": [
+        "O valor da contagem de 0 a 19 é exibido no console.",
+        "O valor 19 é exibido no console.",
+        "Um erro é exibido no console.",
+        "Uma janela de alerta é exibida no navegador mostrando o valor atual da variável contagem, 20.",
+        "O código não é executado porque a variável contagem não foi inicializada da maneira correta."
+      ],
+      "resposta": "O valor da contagem de 0 a 19 é exibido no console."
+    },
+    {
+      "titulo": "Manipulação de DOM e Eventos",
+      "descricao": "Você está em uma nova empresa trabalhando como desenvolvedor em um projeto de manutenção e se deparou com o código abaixo.\n\nAo clicar no botão 'Alterar', qual será o resultado do conteúdo exibido no parágrafo com o id 'paragrafo'?",
+      "codigo": "<!DOCTYPE html>\n<html>\n<head>\n<script>\nfunction alterarConteudo() {\n  document.getElementById(\"paragrafo\").innerHTML = \"Novo Conteúdo!\";\n}\n</script>\n</head>\n<body>\n<p id=\"paragrafo\">Conteúdo Inicial</p>\n<button onclick=\"alterarConteudo()\">Alterar</button>\n</body>\n</html>",
+      "afirmacoes": null,
+      "opcoes": [
+        "Conteúdo Inicial",
+        "Novo Conteúdo!",
+        "document.getElementById(\"paragrafo\").innerHTML = \"Novo Conteúdo!\";",
+        "alterarConteudo();"
+      ],
+      "resposta": "Novo Conteúdo!"
+    },
+    {
+      "titulo": "Seletores CSS: Classes (.nome)",
+      "descricao": "No CSS, os seletores são nomenclaturas padronizadas destinadas a selecionar elementos para aplicação de estilo. Usamos os seletores para selecionar o elemento que desejamos estilizar.\n\nO seletor \".nome\" seleciona os elementos que possuem:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "o atributo class=\"nome\".",
+        "o atributo id=\"nome\".",
+        "o atributo name=\"nome\".",
+        "a tag <nome>",
+        "a tag <nome> e são filhos do elemento raiz"
+      ],
+      "resposta": "o atributo class=\"nome\"."
+    },
+    {
+      "titulo": "Sequência de Tags HTML",
+      "descricao": "Uma página da web é um documento normalmente escrito em HTML e traduzido por um navegador da web. Um documento HTML é feito de muitas tags HTML e cada tag HTML contém um conteúdo diferente.\n\nA sequência correta de tags HTML para iniciar uma página da web é:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "HTML, Head, Title, Body",
+        "Head, Title, HTML, Body",
+        "HTML, Body, Title, Head",
+        "HTML, Head, Title, HTML",
+        "Title, Head, Body, HTML"
+      ],
+      "resposta": "HTML, Head, Title, Body"
+    },
+    {
+      "titulo": "Interação e Manipulação de Strings",
+      "descricao": "JavaScript é uma linguagem de script orientada a objetos, multiplataforma. É uma linguagem pequena e leve que pode rodar num navegador web.\n\nAnalise o trecho de código abaixo, escrito em JavaScript. Sobre esse trecho, assinale a afirmação CORRETA:",
+      "codigo": "var signo = prompt(\"Qual é o seu signo?\");\n\nif (signo.toLowerCase() == \"escorpião\") {\n    alert(\"Legal! Eu sou de escorpião também!\");\n}\nelse {\n    alert(\"Hoje seu dia será maravilhoso!\");\n}",
+      "afirmacoes": null,
+      "opcoes": [
+        "A função toLowerCase() irá converter o texto da variável signo em letra minúscula.",
+        "Na primeira linha do código, ao declarar a variável 'signo' o tipo de dado string deve ser especificado para o funcionamento do script ocorrer sem erros.",
+        "Para esse código JavaScript ser executado, há necessidade de instalação de complemento no navegador Mozilla Firefox.",
+        "A caixa de diálogo de aviso (alert) contém uma caixa de texto de linha única, um botão Cancelar, e um botão OK, e retorna o texto que o usuário digitou naquela caixa de texto.",
+        "Uma caixa de diálogo prompt deve ser utilizada para mensagens que não requeiram nenhuma resposta da parte do usuário, a não ser o reconhecimento da mensagem."
+      ],
+      "resposta": "A função toLowerCase() irá converter o texto da variável signo em letra minúscula."
+    },
+    {
+      "titulo": "Manipulação do Objeto History",
+      "descricao": "Quando você inicia o navegador e abre uma nova página web, o navegador cria uma nova entrada na sua pilha de histórico. Se você navegar para outra página web, o navegador também criará uma nova entrada na pilha de histórico.\n\nA pilha de histórico armazena a página atual e as páginas anteriores que você visitou. Para manipular a pilha de histórico, você usa o objeto history, que é uma propriedade do objeto window.\n\nSobre o objeto History, escolha a alternativa que possui o Código correto que permite atualizar a página atual.",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "history.go()",
+        "history.back(-1)",
+        "history.forward(-1)",
+        "history forward(0)",
+        "history.back(0)"
+      ],
+      "resposta": "history.go()"
+    },
+    {
+      "titulo": "Siglas Fundamentais: HTML, CSS e W3C",
+      "descricao": "HTML, CSS e W3C são siglas fundamentais no universo da criação de páginas web. Cada uma delas desempenha um papel vital na construção e no design de sites, bem como na definição e manutenção de padrões para a web.\n\nQual é o significado das siglas HTML, CSS e W3C?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "HTML: HyperText Markup Language, CSS: Creative Style Sheets, W3C: World Wide Computer.",
+        "HTML: HyperText Markup Language, CSS: Cascading Style Sheets, W3C: Web 3.0 Consortium.",
+        "HTML: HyperText Makeup Language, CSS: Computer Style Sheets, W3C: World Web Consortium.",
+        "HTML: HyperText Markup Language, CSS: Computer Style Sheets, W3C: World Wide Consortium.",
+        "HTML: HyperText Markup Language, CSS: Cascading Style Sheets, W3C: World Wide Web Consortium."
+      ],
+      "resposta": "HTML: HyperText Markup Language, CSS: Cascading Style Sheets, W3C: World Wide Web Consortium."
+    },
+    {
+      "titulo": "Objetos Globais: String",
+      "descricao": "O objeto global fornece variáveis e funções que podem estar disponíveis em qualquer lugar. Por padrão, eles são integrados à linguagem, sendo uma ferramenta muito útil pois diversas implementações lógicas comuns já estão resolvidas e prontas para uso.\n\nNesse contexto, analise a declaração a seguir e escolha a alternativa que representa o tipo de objeto que está sendo criado.",
+      "codigo": "var minhaVar = new String(string);",
+      "afirmacoes": null,
+      "opcoes": [
+        "String.",
+        "Array.",
+        "Number.",
+        "Math.",
+        "Boolean."
+      ],
+      "resposta": "String."
+    },
+    {
+      "titulo": "Elementos de Formulário HTML",
+      "descricao": "Embora os formulários possam ser usados simplesmente para exibir informações, o HTML os fornece para funcionar como uma maneira de o usuário interagir com um servidor web.\n\nO código a seguir implementa um elemento pertencente ao grupo formulário. Sobre o elemento acima, escolha a alternativa que corresponde ao seu uso:",
+      "codigo": "<input type=\"text\" name=\"exemplo\" />",
+      "afirmacoes": null,
+      "opcoes": [
+        "Input de texto de uma única linha.",
+        "Input de texto multilinhas.",
+        "Exibição de um bloco de texto.",
+        "Exibição de um parágrafo.",
+        "Seleciona um tipo de título."
+      ],
+      "resposta": "Input de texto de uma única linha."
+    },
+    {
+      "titulo": "Frameworks CSS",
+      "descricao": "No desenvolvimento de aplicações para web podemos contar com o auxílio de ferramentas que nos ajudam a ser mais produtivos. A principal vantagem é que economizamos tempo, pois não é necessário começar do zero.\n\nAnalise o parágrafo a seguir e escolha a alternativa que contém a palavra que completa corretamente o sentido do texto.\n\nUm _______ é uma biblioteca de código que abstrai designs web comuns e torna os designs mais fáceis para um desenvolvedor implementar em suas aplicações web.",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Framework CSS",
+        "Framework HTML",
+        "Library CSS",
+        "Directory HTML",
+        "Servidor Web"
+      ],
+      "resposta": "Framework CSS"
+    },
+    {
+      "titulo": "Métodos de Array: Filter",
+      "descricao": "Os objetos nativos, ou como também são conhecidos, objetos globais, são objetos inerentes à linguagem JavaScript e são ferramentas muito úteis. O objeto Array é usado para armazenar vários valores em uma única variável.\n\nNesse contexto, analise o código a seguir e escolha a alternativa que responde o que será impresso no console.",
+      "codigo": "var variedade = [2, 4, 6, 7, 8, 10];\nvar meuVetor = variedade.filter(v => v % 2 === 0);\nconsole.log(meuVetor);",
+      "afirmacoes": null,
+      "opcoes": [
+        "2, 4, 6, 8, 10",
+        "2, 4, 6, 7, 8, 10",
+        "7",
+        "meuVetor",
+        "Console Error"
+      ],
+      "resposta": "2, 4, 6, 8, 10"
+    },
+    {
+      "titulo": "Características Gerais do JavaScript",
+      "descricao": "Muitos navegadores usam JavaScript como linguagem de script para fazer coisas dinâmicas na web. Sempre que você vir um menu suspenso \"clique para mostrar\" e cores de elementos que mudam dinamicamente em uma página, você está vendo os efeitos do JavaScript.\n\nAnalise as afirmativas a seguir e selecione a alternativa que elenca todas as afirmativas verdadeiras sobre a linguagem JavaScript:",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "É uma linguagem de programação que não compila o programa em instruções de máquina."
+        },
+        {
+          "id": "II",
+          "texto": "É uma linguagem tipada dinamicamente."
+        },
+        {
+          "id": "III",
+          "texto": "O tipo de uma variável em JavaScript pode mudar durante sua vida útil."
+        },
+        {
+          "id": "IV",
+          "texto": "Para acessar as propriedades de um objeto, você especifica o nome do objeto, um ponto e o nome da propriedade."
+        }
+      ],
+      "opcoes": [
+        "Todas as afirmativas estão corretas.",
+        "I, II e III.",
+        "II, III e IV.",
+        "Somente I e II.",
+        "Somente III e IV."
+      ],
+      "resposta": "Todas as afirmativas estão corretas."
+    },
+    {
+      "titulo": "Objeto Date e Formatação",
+      "descricao": "Os objetos nativos, ou como também são conhecidos, objetos globais, são objetos inerentes à linguagem Javascript. O objeto Date é um desses objetos, sendo usado para armazenar valores relacionados a datas e frações de tempo.\n\nNesse contexto, analise o código a seguir e escolha a alternativa que responde: o que será impresso no console?\n\n**NOTA:** Considere que o código foi executado em 09/05/2019.",
+      "codigo": "var dataAtual = new Date();\nconsole.log(dataAtual.toLocaleString());",
+      "afirmacoes": null,
+      "opcoes": [
+        "2019-5-9 15:02:35",
+        "2019-5-9",
+        "15:00:34",
+        "2019-05-09T09:29:53.181Z",
+        "05-09-2019"
+      ],
+      "resposta": "2019-5-9 15:02:35"
+    }
+  ],
+  "uxui": [
+    {
+      "titulo": "Multidisciplinaridade e Consolidação de UX",
+      "descricao": "Os estudos de UX buscam mapear e analisar a interação homem-computador para melhorar a produtividade e reduzir erros. Com base nisso, avalie as asserções:\n\nI. O design gráfico ajudou a UX a se consolidar como campo de estudo, pois os projetos de tela/sistema auxiliaram na interação com a máquina.\nPORQUE\nII. O UX tem por objetivo melhorar a relação entre usuário e interface, trazendo uma adaptação da jornada à necessidade do usuário.",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "As asserções I e II são proposições verdadeiras, mas a asserção II não é uma justificativa correta da asserção I.",
+        "As asserções I e II são proposições falsas.",
+        "A asserção I é uma proposição verdadeira e a asserção II é uma proposição falsa.",
+        "A asserção I é uma proposição falsa e a asserção II é uma proposição verdadeira.",
+        "As asserções I e II são proposições verdadeiras e a asserção II é uma justificativa correta da asserção I."
+      ],
+      "resposta": "As asserções I e II são proposições verdadeiras, mas a asserção II não é uma justificativa correta da asserção I."
+    },
+    {
+      "titulo": "Princípios do Design Centrado no Usuário",
+      "descricao": "Qual dos seguintes é um princípio chave do design centrado no usuário?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Desenvolver com base no código",
+        "Focar na estética acima de tudo",
+        "Envolver os usuários no processo de design",
+        "Utilizar animações em todas as interfaces",
+        "Maximizar o número de funcionalidades"
+      ],
+      "resposta": "Envolver os usuários no processo de design"
+    },
+    {
+      "titulo": "Conceito: Interação vs. Interface",
+      "descricao": "Segundo Irla Rebelo: 'Em determinado momento da história, chegou-se à conclusão que a interação é um termo mais amplo em conceitos do que a interface. Imagine um grande conjunto chamado interação, que para existir necessita de um elemento que permita a comunicação - a interface. O resultado disso é que, entendendo a interação, será mais fácil projetar a interface.'\n\nAcerca disso, leia as asserções abaixo:",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "Interação é o meio utilizado para que o homem \"converse\" com a interface."
+        },
+        {
+          "id": "II",
+          "texto": "Interação é o oposto de interface."
+        },
+        {
+          "id": "III",
+          "texto": "Interação é a resposta que a interface dá à pessoa de forma unilateral."
+        }
+      ],
+      "opcoes": [
+        "I é verdadeira e II é falsa",
+        "I e II são verdadeiras, mas a III não é",
+        "II e III são verdadeiras, mas a I não é",
+        "Apenas a II é verdadeira",
+        "Todas são verdadeiras"
+      ],
+      "resposta": "I é verdadeira e II é falsa"
+    },
+    {
+      "titulo": "Metodologia Card Sorting",
+      "descricao": "\"A técnica de card sorting envolve diretamente os usuários e os colocam em uma posição participativa na definição da organização do conteúdo...\" (Wagner Guimarães, 2018).\n\nSobre os seus conhecimentos da metodologia de card sorting, é correto afirmar:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "É uma técnica rápida e de baixo custo.",
+        "Card Sorting aberto é aquele que o usuário tem a liberdade para criar a metodologia.",
+        "Card Sorting fechado é indicada para quando não se tem um grupo de categorias pré-estabelecido.",
+        "Não é possível combinar o modelo fechado e aberto para não misturar as duas metodologias.",
+        "É super recomendado que o card sorting seja aplicado para pessoas individuais, não sendo viável a aplicação para grupos fechados."
+      ],
+      "resposta": "É uma técnica rápida e de baixo custo."
+    },
+    {
+      "titulo": "Acessibilidade e Inclusão",
+      "descricao": "Desenvolver para pessoas com necessidades especiais é sempre um desafio, mas também é muito gratificante. Pensar e traçar um mapa de interação baseado em um contexto normativo é um desafio redobrado.\n\nAcerca disso, leia as asserções abaixo:",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "A classificação de acessibilidade de um produto em A, AA e AAA não diz respeito ao investimento em acessibilidade e sim na forma como ela é apresentada."
+        },
+        {
+          "id": "II",
+          "texto": "Apenas deficiências físicas ficam de fora dos processos de acessibilidade para dispositivos móveis."
+        },
+        {
+          "id": "III",
+          "texto": "Existem pelo menos três tipos de discapacidades: a temporária, a situacional e a permanente."
+        }
+      ],
+      "opcoes": [
+        "Apenas a III é verdadeira",
+        "I e II são verdadeiras",
+        "II e III são verdadeiras",
+        "Apenas a II é verdadeira",
+        "Apenas a I é verdadeira"
+      ],
+      "resposta": "Apenas a III é verdadeira"
+    },
+    {
+      "titulo": "Critérios Ergonômicos e Carga de Percepção",
+      "descricao": "A respeito dos critérios ergonômicos de usabilidade, estes têm como norte a interação do usuário, para que seja fluida e, principalmente, intuitiva. Trabalhar com a intuição do utilizador irá reduzir a atividade cerebral.\n\nAvalie as asserções a seguir e a relação proposta entre elas:\n\nI. A carga de percepção é responsável por avaliar o quão instintivo é o sistema. Essa análise é feita percebendo o tempo de percepção do usuário.\nPORQUE\nII. A carga de percepção trabalha com a instintividade do sistema, diminuindo o tempo de percepção e aumentando o tempo de uso do usuário e sua carga cognitiva.",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "A asserção I é uma proposição verdadeira e a asserção II é uma proposição falsa.",
+        "As asserções I e II são proposições falsas.",
+        "A asserção I é uma proposição verdadeira e a asserção II é uma proposição verdadeira.",
+        "As asserções I e II são proposições verdadeiras, mas a asserção II não é uma justificativa correta da asserção I.",
+        "As asserções I e II são proposições verdadeiras e a asserção II é uma justificativa correta da asserção I."
+      ],
+      "resposta": "A asserção I é uma proposição verdadeira e a asserção II é uma proposição falsa."
+    },
+    {
+      "titulo": "Storyboard em UX Design",
+      "descricao": "Utilizar Storyboard é uma forma de apresentar e convencer o seu cliente sobre as funcionalidades da experiência que sua equipe esteja desenvolvendo. Essa ferramenta serve como auxílio no processo criativo da equipe.\n\nAcerca do texto e de todas as informações que aprendemos sobre storyboard, leia as alternativas abaixo:",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "Storyboard é como uma história em quadrinhos em que a cada desenho uma cena é descrita, formando, ao final, uma história."
+        },
+        {
+          "id": "II",
+          "texto": "Para o UX Design é um documento de cunho textual que ajudará a descrever as personas do produto."
+        },
+        {
+          "id": "III",
+          "texto": "Por não se tratar de um modelo visual, é pouco utilizada pelas equipes de design."
+        }
+      ],
+      "opcoes": [
+        "Apenas a alternativa I é verdadeira",
+        "Apenas as alternativas I e II são verdadeiras",
+        "Apenas as alternativas II e III são verdadeiras",
+        "Apenas a alternativa II é verdadeira",
+        "Apenas as alternativas II, III e IV são verdadeiras"
+      ],
+      "resposta": "Apenas a alternativa I é verdadeira"
+    },
+    {
+      "titulo": "Usabilidade: Facilidade de Uso e Satisfação",
+      "descricao": "Para Morais e Loper (2014) a usabilidade está relacionada à satisfação do usuário e com a operacionalidade eficiente e agradável de uma interação, permitindo que o usuário consiga realizar suas tarefas sem maiores problemas.\n\nCom relação à satisfação do usuário quanto a usabilidade, é correto afirmar:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "O que determina a facilidade de uso é o esforço cognitivo empregado para utilizar a aplicação.",
+        "A eficiência de produtividade não analisa se o usuário consegue realizar as funções prometidas pelo sistema, analisando apenas o tempo empregado no processo.",
+        "A satisfação do usuário foca na avaliação do sistema. Essa avaliação não pode incluir vieses externos, como emoções, ambiente, etc.",
+        "A flexibilidade tem o foco na adaptabilidade do sistema diante das mensagens de feedback apresentadas por ele.",
+        "A barreira está diretamente relacionada ao obstáculo que o usuário pode encontrar diversas vezes ao utilizar a interface, mas que não atrapalha a experiência ou impede o usuário de utilizar o sistema."
+      ],
+      "resposta": "O que determina a facilidade de uso é o esforço cognitivo empregado para utilizar a aplicação."
+    },
+    {
+      "titulo": "Definição de Design Responsivo",
+      "descricao": "O que é \"design responsivo\"?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Design que responde rapidamente a mudanças de requisitos",
+        "Design que se ajusta automaticamente a diferentes tamanhos de tela e dispositivos",
+        "Design focado exclusivamente em desktops",
+        "Design que responde a comandos de voz",
+        "Design que se adapta às preferências do usuário"
+      ],
+      "resposta": "Design que se ajusta automaticamente a diferentes tamanhos de tela e dispositivos"
+    },
+    {
+      "titulo": "Método de Avaliação de Comunicabilidade (MAC)",
+      "descricao": "Um dos problemas de usabilidade muito importante de ser validado é quando se trata da comunicabilidade. Para poder qualificar a comunicabilidade, existe um método de avaliação chamado MAC.\n\nEste método tem como objetivo observar como usuário interage com a interface e identificar possíveis problemas. Leia as alternativas abaixo:",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "O processo MAC consiste em preparação, execução e análise, sendo o processo de preparação o responsável por definir o objetivo do teste."
+        },
+        {
+          "id": "II",
+          "texto": "A etiquetagem durante a realização da avaliação MAC não auxilia o avaliador a identificar quais são os problemas de comunicabilidade e porque eles ocorreram."
+        },
+        {
+          "id": "III",
+          "texto": "Não é necessário interpretar os significados do conjunto de todas as etiquetas que foram identificadas na avaliação."
+        }
+      ],
+      "opcoes": [
+        "I é verdadeira e II é falsa;",
+        "I e II são verdadeiras, mas a III não é;",
+        "II e III são verdadeiras, mas a I não é;",
+        "Apenas a II é verdadeira;",
+        "I, II e III são verdadeiras."
+      ],
+      "resposta": "I é verdadeira e II é falsa;"
+    },
+    {
+      "titulo": "Definição de Design de Interação",
+      "descricao": "Qual das seguintes afirmações é verdadeira sobre o design de interação, de acordo com Preece, Rogers e Sharp (2008)?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Design de interação é o design de produtos interativos que fornecem suporte às atividades cotidianas das pessoas, seja no lar ou no trabalho.",
+        "Design de interação é apenas sobre a estética de um produto.",
+        "Design de interação não tem relação com a produtividade das pessoas.",
+        "Design de interação é apenas sobre a funcionalidade de um produto, não levando em consideração a experiência do usuário.",
+        "Design de interação é o mesmo que engenharia de software."
+      ],
+      "resposta": "Design de interação é o design de produtos interativos que fornecem suporte às atividades cotidianas das pessoas, seja no lar ou no trabalho."
+    },
+    {
+      "titulo": "Tipos de Interface: Lógica e Física",
+      "descricao": "A interface é tida como a ponte para a interação, funcionando como dispositivo de entrada e saída. Existem dois tipos de interfaces: a interface lógica e a interface física.\n\nCom base nos conceitos aprendidos sobre interface, marque a opção correta:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "A interação só é possível graças a combinação dos dois tipos de interface.",
+        "A interface lógica é acessada por meio de interface fisica, isto é, com dispositivos de entrada, exclusivamente.",
+        "A interface lógica não é encontrada em interações máquina/máquina.",
+        "A interface fisica não é exclusiva de hardware.",
+        "A interface é uma barreira que atrapalha a interação entre homem-computador."
+      ],
+      "resposta": "A interação só é possível graças a combinação dos dois tipos de interface."
+    },
+    {
+      "titulo": "Princípios de Design: Visibilidade",
+      "descricao": "\"Para o usuário comum, não existe nada mais frustrante do que se deparar com um ótimo sistema, com a interface linda e não conseguir utilizá-lo. Sabe aquele pacote de biscoitos que tem uma fitinha vermelha pronta para ser puxada... mas que volta e meia você não consegue puxá-la? É sobre isso.\"\n\nEm relação ao trecho destacado, é correto afirmar a respeito dos princípios de design que:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "A visibilidade apresenta a descoberta por exposição, isto é, a utilização é simplificada, pois as funcionalidades estão expostas, disponíveis na tela da interface.",
+        "Visibilidade e affordance são duas coisas distintas.",
+        "Um bom modelo conceitual é aquele que disponibiliza as informações de forma que o usuário consiga consultá-las sempre que tiver dúvidas durante a experiência.",
+        "O feedback atua apenas como resposta aos erros do usuário.",
+        "A usabilidade tem como seu foco o sistema na forma como ele é apresentado e na sua melhoria interna."
+      ],
+      "resposta": "A visibilidade apresenta a descoberta por exposição, isto é, a utilização é simplificada, pois as funcionalidades estão expostas, disponíveis na tela da interface."
+    },
+    {
+      "titulo": "Wireframes vs. Protótipos de Alta Fidelidade",
+      "descricao": "Muito vimos sobre as principais diferenças entre wireframe e protótipos. Com base nos conceitos apresentados, associe as sequências:\n\nA) Wireframe.\nB) Protótipo de alta fidelidade.\n\n(   ) Apresenta funcionalidade completa.\n(   ) Totalmente interativo.\n(   ) É de fácil execução.\n(   ) Tem custo e tempo de produção elevados.\n(   ) Mesmo look and feel do produto.\n(   ) O seu uso deve ser conduzido pelo facilitador.\n\nQual a sequência correta?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "B; B; A; B; B; A",
+        "A; B; A; B; B; A",
+        "B; A; A; B; B; A",
+        "A; A; A; B; B; A",
+        "B; B; B; B; B; A"
+      ],
+      "resposta": "B; B; A; B; B; A"
+    },
+    {
+      "titulo": "Definição de Interação Homem-Computador (IHC)",
+      "descricao": "Qual das seguintes afirmações é verdadeira sobre a interação homem-computador (IHC)?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "IHC é focada apenas na produtividade, não levando em consideração a experiência do usuário.",
+        "IHC surgiu da necessidade de adaptar as interfaces ao ser humano.",
+        "IHC é um campo que não tem relação com a cognição humana.",
+        "IHC é um campo que só se preocupa com a interação entre humanos, não envolvendo computadores.",
+        "IHC é um campo que só se preocupa com a interação entre computadores, não envolvendo humanos."
+      ],
+      "resposta": "IHC surgiu da necessidade de adaptar as interfaces ao ser humano."
+    },
+    {
+      "titulo": "Percurso Cognitivo",
+      "descricao": "Sobre o percurso cognitivo, é possível afirmar que ele analisa, focando no design, a facilidade de aprendizado do usuário, considerando o esforço mental empregado pelo utilizador.\n\nCom base nos conceitos aprendidos sobre percurso cognitivo, marque a opção **incorreta**:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "O percurso cognitivo tem duas fases, a antecessora e a fase de análise.",
+        "O usuário comum prefere aprender a utilizar uma interface por meio do uso. Manuais ou tutoriais são, no geral, maçantes e desmotivadores para grande parte dessas pessoas.",
+        "As tarefas analisadas devem ser definidas de antemão, podendo ser uma ou mais tarefas. É importante ressaltar que a tarefa analisada pode ser para algo simples (uma função) ou complexa (mais de uma função).",
+        "A interface que será utilizada precisa descrever os prompts que antecedem a ação requerida para conclusão da tarefa. É importante ressaltar em interfaces que já foram lançadas, o tempo de resposta, cores, temporização em interface com fala e demais interações.",
+        "O importante é a forma que você irá analisar essas tarefas, tentando trazer os objetivos mais realistas e próximos da realidade e contextualizando todos os encargos."
+      ],
+      "resposta": "O percurso cognitivo tem duas fases, a antecessora e a fase de análise."
+    },
+    {
+      "titulo": "Fase de Esboço e Produção em UX",
+      "descricao": "\"O design da experiência do usuário [...] é a disciplina que os designers de UX fazem e o design centrado no usuário (UCD) é o processo UX. O design thinking é outro termo amplamente usado...\"\n\nEm relação ao trecho destacado, é correto afirmar a respeito da fase de esboço e produção:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "A fase de esboço e produção geralmente vem após o cotejamento dos dados que se julgarem necessários. Essa fase é o start para a criação futura de um protótipo e dos periféricos que concernem o interesse da marca.",
+        "Esboços geralmente são de baixa fidelidade, contudo muitas empresas optam por realizar diretamente a prototipagem de alta fidelidade para ganharem tempo de execução.",
+        "O ideal é usar protótipos em produtos mais consolidados, quando são lançadas novas funcionalidades.",
+        "Esboços são para clientes e não devemos testar seus protótipos de telas e fluxos com os clientes.",
+        "A parte de produção consolida os esboços como um avanço das intenções do projeto, mas não tem grande importância no final das contas."
+      ],
+      "resposta": "A fase de esboço e produção geralmente vem após o cotejamento dos dados que se julgarem necessários. Essa fase é o start para a criação futura de um protótipo e dos periféricos que concernem o interesse da marca."
+    },
+    {
+      "titulo": "Conceito de Wireframe",
+      "descricao": "O que é um 'wireframe'?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Uma versão final do design",
+        "Um esquema básico que representa a estrutura de um design",
+        "Uma ferramenta de análise de dados",
+        "Uma técnica de prototipagem de alta fidelidade",
+        "Um teste de usabilidade"
+      ],
+      "resposta": "Um esquema básico que representa a estrutura de um design"
+    },
+    {
+      "titulo": "Classificação de Problemas de Usabilidade",
+      "descricao": "Analisando-se sob o viés de problemas de usabilidade, podemos definir, segundo Morais e Loper (2014):\n\n**Problemas primários:** são os principais problemas que atrapalham o usuário a concluir ou realizar atividades de cunho emergente, principal e/ou importantes.\n**Problemas secundários:** idem aos problemas primários, mas com questões secundárias, menos emergentes.\n\nCom base no texto acima, seus conhecimentos de causa e nas afirmativas abaixo, marque a alternativa correta:",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "Além dos problemas secundários e primários, existem também os problemas gerais que atrapalham a todos os tipos de usuários."
+        },
+        {
+          "id": "II",
+          "texto": "Problemas de inicialização são os que impedem o usuário de começar a interação. Problemas avançados são específicos para usuários que detém um conhecimento maior do sistema. Por fim, problemas \"especiais\" abarcam usuários com alguma necessidade especial."
+        },
+        {
+          "id": "III",
+          "texto": "Problemas falsos e novos são problemas de interface que ocorrem por culpa exclusiva do usuário."
+        }
+      ],
+      "opcoes": [
+        "As alternativas I e II estão corretas",
+        "As alternativas I e III estão corretas",
+        "As alternativas II e III estão corretas",
+        "As alternativas II e III estão incorretas",
+        "As alternativas I e III estão incorretas"
+      ],
+      "resposta": "As alternativas I e II estão corretas"
+    },
+    {
+      "titulo": "Interface Gráfica e UX",
+      "descricao": "\"Quando se pensa em interface, logo a referência que vem a mente é layout ou aparência. Em um site a interface traz ao usuário tudo que foi desenvolvido de forma lógica e codificada, de uma forma simples e clara.\"\n\nAcerca disso, leia as asserções abaixo:",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "Para o usuário de uma loja on-line, pouco importa o processo feito, o que ele tem acesso é o que está visualmente exposto. Por isso o cuidado com interface gráfica é tão importante."
+        },
+        {
+          "id": "II",
+          "texto": "UX e UI são duas coisas distintas e não se complementam."
+        },
+        {
+          "id": "III",
+          "texto": "O desenvolvimento UI deve simplesmente colocar ícones e cores que ficam bonitos visualmente, validar a reação do usuário é trabalho do UX."
+        }
+      ],
+      "opcoes": [
+        "Apenas a alternativa I é verdadeira",
+        "I e II são verdadeiras",
+        "II e III são verdadeiras",
+        "Apenas a II é verdadeira",
+        "Todas são verdadeiras"
+      ],
+      "resposta": "Apenas a alternativa I é verdadeira"
+    },
+    {
+      "titulo": "Definição de Design de Interação (Preece, Rogers e Sharp)",
+      "descricao": "Qual das seguintes afirmações é verdadeira sobre o design de interação, de acordo com Preece, Rogers e Sharp (2008)?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Design de interação é o design de produtos interativos que fornecem suporte às atividades cotidianas das pessoas, seja no lar ou no trabalho.",
+        "Design de interação é apenas sobre a estética de um produto.",
+        "Design de interação não tem relação com a produtividade das pessoas.",
+        "Design de interação é apenas sobre a funcionalidade de um produto, não levando em consideração a experiência do usuário.",
+        "Design de interação é o mesmo que engenharia de software."
+      ],
+      "resposta": "Design de interação é o design de produtos interativos que fornecem suporte às atividades cotidianas das pessoas, seja no lar ou no trabalho."
+    },
+    {
+      "titulo": "UX Writing: A Arte da Concisão",
+      "descricao": "\"A arte de ser conciso. Sim, eu chamo de arte porque é um trabalho que poucos conseguem dominar. A concisão é basicamente você dizer mais com menos. Quando se trata de UX Writing você deve ter em mente que menos é mais...\"\n\nAcerca disso, leia as asserções abaixo:",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "Um texto conciso é preciso, direto ao ponto. Esse tipo de prática é adotado em UX porque, em muitos casos, temos poucos caracteres disponíveis para trabalhar em cima."
+        },
+        {
+          "id": "II",
+          "texto": "Concisão é o oposto de clareza."
+        },
+        {
+          "id": "III",
+          "texto": "Uma forma de ser conciso é ser breve, condensar os sentidos no menor número de palavras que conseguir e usar a pontuação a seu favor."
+        }
+      ],
+      "opcoes": [
+        "A alternativa I é verdadeira",
+        "As alternativas I e II são verdadeiras",
+        "As alternativas II e III são verdadeiras",
+        "Apenas a II é verdadeira",
+        "I e III são verdadeiras"
+      ],
+      "resposta": "A alternativa I é verdadeira"
+    },
+    {
+      "titulo": "Definição de Persona em UX",
+      "descricao": "O que é um \"persona\" em design de UX?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Um teste de usabilidade",
+        "Um perfil fictício que representa um usuário típico",
+        "Um modelo de protótipo",
+        "Um estudo de caso",
+        "Um feedback do usuário"
+      ],
+      "resposta": "Um perfil fictício que representa um usuário típico"
+    },
+    {
+      "titulo": "Desafios da Prototipagem de Alta Fidelidade",
+      "descricao": "Uma prototipação de alta fidelidade apresenta, além dos seus inúmeros pontos positivos, algumas questões relevantes que podem causar algum tipo de problema. A construção de uma alta fidelidade gera mais tempo e custo. Com isso, as pessoas podem apresentar resistência para modificá-lo.\n\nAcerca disso, leia as asserções seguintes:",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "O desenvolvimento de um protótipo de alta fidelidade é mais caro, porém apresenta a funcionalidade completa."
+        },
+        {
+          "id": "II",
+          "texto": "Como desvantagem temos que o protótipo de alta fidelidade limita os fluxos de navegação."
+        },
+        {
+          "id": "III",
+          "texto": "Um protótipo de alta fidelidade pode servir para coleta de requisitos."
+        }
+      ],
+      "opcoes": [
+        "I é verdadeira",
+        "I e II são verdadeiras",
+        "I e III são verdadeiras",
+        "Apenas a II é verdadeira",
+        "As alternativas I, II e III são verdadeiras"
+      ],
+      "resposta": "I é verdadeira"
+    },
+    {
+      "titulo": "Estatísticas de Uso e Interação Mobile",
+      "descricao": "Segundo Teixeira (2015):\n\n* O número de smartphones no mundo é de 60% e esse número só cresce.\n* O tamanho de tela mais comum destes aparelhos é de 4\" à 5,5\", sendo os modelos de 4\" apenas 20% deste número.\n* 94% das pessoas utilizam o aparelho para navegar na web em modo retrato (vertical) e apenas 6% deitado.\n* Enquanto utilizado no modo retrato, 49% das pessoas utilizam o aparelho com uma só mão, 26% usam uma mão de apoio e o polegar, 15% usam as duas mãos e 10% usam uma mão de apoio e o indicador.\n\nAcerca de interações restritivas, veja as afirmativas abaixo:",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "Podemos considerar que a maioria dos aparelhos no mercado possui tela igual ou inferior a 4\"."
+        },
+        {
+          "id": "II",
+          "texto": "Considerando que apenas 6% das pessoas utilizam o celular para navegação em modo paisagem, pode-se afirmar que o ideal é elaborar 100% das experiências em modo retrato."
+        },
+        {
+          "id": "III",
+          "texto": "De acordo com os dados apresentados, podemos afirmar que mais da metade das pessoas realiza as ações com mais de um dedo."
+        }
+      ],
+      "opcoes": [
+        "I, II e III são falsas.",
+        "I e II são verdadeiras, mas a III não é.",
+        "II e III são verdadeiras, mas a I não é.",
+        "Apenas a alternativa II é verdadeira.",
+        "I, II e III são verdadeiras."
+      ],
+      "resposta": "I, II e III são falsas."
+    },
+    {
+      "titulo": "Processos Cognitivos na IHC",
+      "descricao": "Qual das seguintes afirmações é verdadeira sobre os processos cognitivos na interação homem-computador?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Os processos cognitivos não têm relação com a capacidade de aprendizagem do ser humano.",
+        "Os processos cognitivos não influenciam a maneira como interagimos com interfaces computacionais.",
+        "A cognição não é responsável pelos processos mentais de aquisição de conhecimento ou experiências.",
+        "O papel do designer de UX não envolve a criação de uma interface que seja intuitiva e que facilite o esforço cognitivo do usuário.",
+        "Os processos cognitivos são a base do raciocínio lógico humano e influenciam diretamente a capacidade de aprendizagem, permitindo uma interação mais intuitiva com interfaces computacionais."
+      ],
+      "resposta": "Os processos cognitivos são a base do raciocínio lógico humano e influenciam diretamente a capacidade de aprendizagem, permitindo uma interação mais intuitiva com interfaces computacionais."
+    },
+    {
+      "titulo": "Heurísticas de Nielsen",
+      "descricao": "Qual das opções abaixo *NÃO* é uma heurística de Nielsen para a usabilidade?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Consistência e padrões",
+        "Controle e liberdade do usuário",
+        "Estética e design minimalista",
+        "Alto contraste de cores",
+        "Prevenção de erros"
+      ],
+      "resposta": "Alto contraste de cores"
+    },
+    {
+      "titulo": "Interfaces Gráficas e Personas",
+      "descricao": "\"As atuais interfaces gráficas explicitamente representam o que vem a ser esse meio de significados comum... Enganos, resultados inesperados e mensagens de erro são evidência típica de uma quebra na conversação.\" (Rocha e Baranauskas, 2003).\n\nA partir do texto, avalie as asserções a seguir e a relação entre elas:",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "Para elaborarmos interfaces gráficas (IG), não podemos nos esquecer de elencar os principais pontos das personas, ou pessoas usuárias dessa experiência."
+        },
+        {
+          "id": "II",
+          "texto": "Utilizar essas características ao seu favor permitirá que você desenhe uma IG funcional e adequada ao utilizador, além, claro, de te poupar trabalhos de uma grande readequação por fugir do escopo ou do objetivo central do projeto."
+        }
+      ],
+      "opcoes": [
+        "As asserções I e II são proposições verdadeiras, e a asserção II é uma justificativa correta da asserção I",
+        "As asserções I e II são proposições falsas",
+        "A asserção I é uma proposição verdadeira, e a asserção II é uma proposição falsa",
+        "A asserção I é uma proposição falsa, e a asserção II é uma proposição verdadeira",
+        "As asserções I e II são proposições verdadeiras, mas a asserção II não é uma justificativa correta da asserção I"
+      ],
+      "resposta": "As asserções I e II são proposições verdadeiras, e a asserção II é uma justificativa correta da asserção I"
+    },
+    {
+      "titulo": "UX Writing: Concisão",
+      "descricao": "\"A arte de ser conciso... A concisão é basicamente você dizer mais com menos. Quando se trata de UX Writing você deve ter em mente que menos é mais...\"\n\nAcerca disso, leia as asserções abaixo:",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "Um texto conciso é preciso, direto ao ponto. Esse tipo de prática é adotado em UX porque, em muitos casos, temos poucos caracteres disponíveis para trabalhar em cima."
+        },
+        {
+          "id": "II",
+          "texto": "Concisão é o oposto de clareza."
+        },
+        {
+          "id": "III",
+          "texto": "Uma forma de ser conciso é ser breve, condensar os sentidos no menor número de palavras que conseguir e usar a pontuação a seu favor."
+        }
+      ],
+      "opcoes": [
+        "A alternativa I é verdadeira",
+        "As alternativas I e II são verdadeiras",
+        "As alternativas II e III são verdadeiras",
+        "Apenas a II é verdadeira",
+        "I, II e III são verdadeiras"
+      ],
+      "resposta": "A alternativa I é verdadeira"
+    }
+  ],
+  "logica": [
+    {
+      "titulo": "Lógica Proposicional: Silogismo",
+      "descricao": "Considere as seguintes proposições:\n\n1. Todos os programadores são lógicos.\n2. Alguns matemáticos são programadores.\n\nQual é a conclusão correta que pode ser inferida destas premissas?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Alguns matemáticos são lógicos.",
+        "Todos os matemáticos são lógicos.",
+        "Todos os matemáticos são programadores.",
+        "Alguns matemáticos não são lógicos.",
+        "Nenhum matemático é lógico."
+      ],
+      "resposta": "Alguns matemáticos são lógicos."
+    },
+    {
+      "titulo": "Sistemas de Numeração",
+      "descricao": "Qual é o equivalente em hexadecimal do número binário 1011?",
+      "codigo": "Binário: 1011\nHexadecimal: ?",
+      "afirmacoes": null,
+      "opcoes": [
+        "000B",
+        "1101",
+        "1011",
+        "B",
+        "11"
+      ],
+      "resposta": "B"
+    },
+    {
+      "titulo": "Conectivos Lógicos",
+      "descricao": "Considere as proposições lógicas abaixo:\np: A linguagem de programação é robusta.\nq: A linguagem de programação é popular.\n\nQual das seguintes opções representa corretamente a proposição composta \"A linguagem de programação é robusta mas não é popular\"?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "p ∨ q",
+        "p ∧ ~q",
+        "p ∧ q",
+        "~p ∧ q",
+        "~p ∨ ~q"
+      ],
+      "resposta": "p ∧ ~q"
+    },
+    {
+      "titulo": "Teoria dos Conjuntos",
+      "descricao": "Em um congresso, foram realizadas as palestras A e B. Dos 500 inscritos nesse congresso, sabe-se que:\n\n- 300 inscritos participaram da palestra A.\n- 380 inscritos participaram da palestra B.\n- 20 inscritos não participaram de nenhuma palestra.\n\nNesse contexto, pode-se concluir que o número de inscritos desse congresso que participaram de ambas as palestras é igual a:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "80",
+        "100",
+        "170",
+        "180",
+        "200"
+      ],
+      "resposta": "200"
+    },
+    {
+      "titulo": "Algoritmos e Soma",
+      "descricao": "Considere um algoritmo que soma todos os números de 1 até n (Progressão Aritmética). Qual é a fórmula que representa a soma total S desses números?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "S = n(n + 1)(n - 1)/3",
+        "S = {n(n-1)}/2",
+        "S = 2n",
+        "S = {n(n+1)}/2",
+        "S = n^2"
+      ],
+      "resposta": "S = {n(n+1)}/2"
+    },
+    {
+      "titulo": "Tabela-Verdade: Número de Linhas",
+      "descricao": "Se P, Q, R e S são proposições simples, então o número de linhas da tabela-verdade da proposição composta abaixo é:",
+      "codigo": "(P ∨ Q) ↔ (~R → S)",
+      "afirmacoes": null,
+      "opcoes": [
+        "4",
+        "8",
+        "16",
+        "32",
+        "64"
+      ],
+      "resposta": "16"
+    },
+    {
+      "titulo": "Argumento Lógico (Silogismo Hipotético)",
+      "descricao": "Dado o argumento lógico:\n\n1. Se um sistema é seguro, então ele é confiável.\n2. Se um sistema é confiável, então ele tem backups regulares.\n3. Um sistema é seguro.\n\nQual é a conclusão lógica que segue dessas premissas?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "O sistema tem backups regulares.",
+        "O sistema não é seguro.",
+        "O sistema não é confiável",
+        "Não podemos concluir nada sobre backups.",
+        "O sistema é inseguro."
+      ],
+      "resposta": "O sistema tem backups regulares."
+    },
+    {
+      "titulo": "Definição de Proposição",
+      "descricao": "Leia as frases abaixo sobre lógica proposicional e assinale a sequência correta:",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "A frase \"Hoje está chovendo?\" é uma proposição."
+        },
+        {
+          "id": "II",
+          "texto": "A frase \"O triplo de três é igual a oito\" é uma proposição."
+        },
+        {
+          "id": "III",
+          "texto": "A frase \"O número natural é divisível por 5 se, e somente se, o seu último algarismo é zero ou cinco\" trata-se de uma bicondicional."
+        },
+        {
+          "id": "IV",
+          "texto": "A frase \"Maria é uma ótima estudante ou é rica\" é uma conjunção."
+        }
+      ],
+      "opcoes": [
+        "Apenas as assertivas II e III estão corretas.",
+        "Apenas as assertivas I, II e IV estão corretas.",
+        "Apenas as assertivas II, III e IV estão corretas.",
+        "Apenas as assertivas I e III estão corretas.",
+        "Todas estão corretas."
+      ],
+      "resposta": "Apenas as assertivas II e III estão corretas."
+    },
+    {
+      "titulo": "Preenchimento de Tabela-Verdade",
+      "descricao": "Observe a tabela-verdade abaixo, parcialmente preenchida.\n\nPara preencher corretamente os espaços em branco (representados por '?'), deverão ser utilizados:",
+      "codigo": "p | q | ~p | ~q | (~p → ~q)\nV | V |  ? |  F |     V\nV | F |  F |  ? |     ?\nF | V |  ? |  F |     ?\nF | F |  V |  V |     V",
+      "afirmacoes": null,
+      "opcoes": [
+        "1 valor lógico V e 4 valores lógicos F.",
+        "2 valores lógicos V e 3 valores lógicos F.",
+        "3 valores lógicos V e 2 valores lógicos F.",
+        "4 valores lógicos V e 1 valor lógico F.",
+        "Apenas 5 valores lógicos V."
+      ],
+      "resposta": "3 valores lógicos V e 2 valores lógicos F."
+    },
+    {
+      "titulo": "Negação de Proposições (Quantificadores)",
+      "descricao": "Considere a proposição 5: \"todos os homens são bons motoristas\".\n\nDadas as opções abaixo, qual representa a negação correta dessa proposição?",
+      "codigo": null,
+      "afirmacoes": [
+        { "id": "1", "texto": "toda mulher é boa motorista" },
+        { "id": "2", "texto": "nenhum homem é bom motorista" },
+        { "id": "3", "texto": "todos os homens são maus motoristas" },
+        { "id": "4", "texto": "pelo menos um homem é mau motorista" }
+      ],
+      "opcoes": [
+        "Opção 1",
+        "Opção 2",
+        "Opção 3",
+        "Opção 4",
+        "Nenhuma das alternativas."
+      ],
+      "resposta": "Opção 4"
+    },
+    {
+      "titulo": "Reformulação Lógica",
+      "descricao": "Considere a proposição composta: \"Se um software é eficiente então ele não tem bugs ou é regularmente atualizado.\"\n\nQual das seguintes reformulações expressa corretamente a proposição original utilizando conectivos lógicos?",
+      "codigo": "Eficiente → (~Bugs ... Atualizado)",
+      "afirmacoes": null,
+      "opcoes": [
+        "Eficiente → (~Bugs e Atualizado)",
+        "Eficiente → (~Bugs ou Atualizado)",
+        "Eficiente → (Bugs e ~Atualizado)",
+        "Eficiente e (~Bugs ou Atualizado)",
+        "Eficiente → (Bugs ou Atualizado)"
+      ],
+      "resposta": "Eficiente → (~Bugs ou Atualizado)"
+    },
+    {
+      "titulo": "Regras de Inferência (Modus Ponens)",
+      "descricao": "Considere as seguintes premissas:\n1. Se um aluno estuda diligentemente, então ele entenderá a matéria.\n2. Pedro estudou diligentemente.\n\nCom base nas premissas acima, qual das seguintes conclusões é corretamente inferida?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Não podemos inferir nada sobre Pedro.",
+        "Estudar diligentemente não ajuda a entender a matéria.",
+        "Pedro entendeu a matéria.",
+        "Pedro não entendeu a matéria.",
+        "Todos os alunos entenderam a matéria."
+      ],
+      "resposta": "Pedro entendeu a matéria."
+    },
+    {
+      "titulo": "Equivalência Lógica (Contrapositiva)",
+      "descricao": "Uma proposição equivalente de P → Q é:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "~Q → ~P",
+        "Q → P",
+        "Q ∨ P",
+        "Q ∧ P",
+        "Q ↔ P"
+      ],
+      "resposta": "~Q → ~P"
+    },
+    {
+      "titulo": "Lógica de Predicados",
+      "descricao": "Considere as seguintes afirmações:\n- Todos os carros em um estacionamento são vermelhos.\n- Algumas bicicletas no mesmo estacionamento são verdes.\n\nCom base nessas afirmações, qual das seguintes conclusões é logicamente válida?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Todos os veículos no estacionamento são vermelhos.",
+        "Nenhuma bicicleta no estacionamento é vermelha.",
+        "Algumas bicicletas no estacionamento não são vermelhas.",
+        "Todos os veículos no estacionamento não são verdes.",
+        "Algumas bicicletas são também carros."
+      ],
+      "resposta": "Algumas bicicletas no estacionamento não são vermelhas."
+    },
+    {
+      "titulo": "Falácia da Afirmação do Consequente",
+      "descricao": "Considere as seguintes afirmações:\n1. Se um dispositivo é um computador, então ele possui um processador.\n2. O objeto em análise possui um processador.\n\nQual é a conclusão correta baseada nas afirmações acima?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "O objeto é um computador.",
+        "O objeto não é um computador.",
+        "Não podemos concluir se o objeto é um computador apenas com as informações fornecidas.",
+        "O objeto possui outros componentes além de um processador.",
+        "O objeto não possui um processador."
+      ],
+      "resposta": "Não podemos concluir se o objeto é um computador apenas com as informações fornecidas."
+    },
+    {
+      "titulo": "Indução Matemática",
+      "descricao": "Considere a afirmação: \"Para todo número inteiro positivo n, n² >= n\".\n\nQual das opções melhor representa um argumento correto, baseado na indução matemática, para provar esta afirmação?",
+      "codigo": "n² ≥ n",
+      "afirmacoes": null,
+      "opcoes": [
+        "Primeiro, mostramos que a afirmação é verdadeira para n=1. Em seguida, assumimos que é verdadeira para k+1 e mostramos que isso implica que (k+1)² >= k.",
+        "Mostramos que se a afirmação não é verdadeira para algum k, então não será verdadeira para k+1.",
+        "Primeiro, mostramos que a afirmação é verdadeira para n=1. Em seguida, assumimos que é verdadeira para k e mostramos que isso implica que (k+1)² >= k+1.",
+        "Primeiro, mostramos que a afirmação é verdadeira para n=1. Em seguida, mostramos diretamente que é verdadeira para todos os números inteiros positivos.",
+        "Assumimos que a afirmação é verdadeira para n=1 sem mostrar."
+      ],
+      "resposta": "Primeiro, mostramos que a afirmação é verdadeira para n=1. Em seguida, assumimos que é verdadeira para k e mostramos que isso implica que (k+1)² >= k+1."
+    },
+    {
+      "titulo": "Classificação de Proposições",
+      "descricao": "Leia as frases abaixo sobre lógica proposicional e assinale a sequência correta:",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "A frase \"Hoje está chovendo?\" é uma proposição."
+        },
+        {
+          "id": "II",
+          "texto": "A frase \"O triplo de três é igual a oito\" é uma proposição."
+        },
+        {
+          "id": "III",
+          "texto": "A frase \"O número natural é divisível por 5 se, e somente se, o seu último algarismo é zero ou cinco\" trata-se de uma bicondicional."
+        },
+        {
+          "id": "IV",
+          "texto": "A frase \"Maria é uma ótima estudante ou é rica\" é uma conjunção."
+        }
+      ],
+      "opcoes": [
+        "Apenas as assertivas II e III estão corretas.",
+        "Apenas as assertivas I, II e IV estão corretas.",
+        "Apenas as assertivas II, III e IV estão corretas.",
+        "Apenas as assertivas I e III estão corretas.",
+        "Todas as assertivas estão corretas."
+      ],
+      "resposta": "Apenas as assertivas II e III estão corretas."
+    },
+    {
+      "titulo": "Argumento Lógico (Silogismo)",
+      "descricao": "Dado o argumento lógico:\n\n\"Se um sistema é seguro, então ele é confiável.\nSe um sistema é confiável, então ele tem backups regulares.\nUm sistema é seguro.\"\n\nQual é a conclusão lógica que segue dessas premissas?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "O sistema tem backups regulares.",
+        "O sistema não é seguro.",
+        "O sistema não é confiável",
+        "Não podemos concluir nada sobre backups.",
+        "O sistema é inseguro."
+      ],
+      "resposta": "O sistema tem backups regulares."
+    }
+  ],
+  "estruturasDeDados": [
+    {
+      "titulo": "Busca Binária em Vetor Ordenado",
+      "descricao": "A busca binária é uma técnica eficiente para buscar elementos em vetores ou listas ordenadas.\n\nPergunta:\nDas seguintes sequências de acessos em um vetor, qual é válida em uma execução de busca binária?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "3, 5, 6",
+        "3, 7, 5",
+        "3, 1, 5",
+        "5, 3, 6",
+        "1, 5, 3"
+      ],
+      "resposta": "3, 5, 6"
+    },
+    {
+      "titulo": "Particionamento no Quick Sort",
+      "descricao": "O algoritmo de ordenação rápida utiliza um pivô para recursivamente ordenar o vetor. Em cada chamada da função de partição, os elementos menores que o pivô são colocados à esquerda e os maiores que o pivô à direita. Essa operação é repetida até restar apenas um elemento.\n\nDado o vetor:\n[13, 77, 61, 93, 57]\n\nE usando como pivô o elemento central: 61, qual das opções a seguir é válida após a primeira execução da função de partição?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "[13, 57, 61, 93, 77]",
+        "[57, 13, 61, 77, 93]",
+        "[93, 77, 61, 57, 13]",
+        "[13, 77, 57, 61, 93]",
+        "[13, 77, 61, 57, 93]"
+      ],
+      "resposta": "[13, 57, 61, 93, 77]"
+    },
+    {
+      "titulo": "Conceito do TAD Pilha",
+      "descricao": "Avaliando o TAD pilha, é correto afirmar:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "É um tipo de lista linear em que as operações de inserção e remoção são realizadas na extremidade denominada topo.",
+        "É uma lista do tipo LILO.",
+        "É uma lista do tipo FIFO.",
+        "É um tipo de lista linear em que as operações de inserção e remoção são realizadas aleatoriamente.",
+        "É um tipo de lista linear em que as operações de inserção são realizadas em uma extremidade e as operações de remoção em outra extremidade."
+      ],
+      "resposta": "É um tipo de lista linear em que as operações de inserção e remoção são realizadas na extremidade denominada topo."
+    },
+    {
+      "titulo": "Análise sobre Lista, Pilha e Fila",
+      "descricao": "Avalie as afirmativas sobre os TADs lista, pilha e fila e assinale a alternativa correta:",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "As estruturas de dados pilhas, filas e listas armazenam coleções de itens. A característica que as distingue é a ordem em que os itens podem ser retirados em relação à ordem em que foram inseridos."
+        },
+        {
+          "id": "II",
+          "texto": "Considere que os itens A, B, C, D, E foram inseridos nessa ordem em uma fila. Necessariamente, o primeiro elemento a ser removido dessa fila é o elemento A."
+        },
+        {
+          "id": "III",
+          "texto": "Considere que os itens A, B, C, D, E foram inseridos nessa ordem em uma pilha. Necessariamente, o último elemento a ser removido dessa pilha é o elemento E."
+        },
+        {
+          "id": "IV",
+          "texto": "Considere que os itens A, B, C, D, E foram inseridos nessa ordem em uma lista. Necessariamente, o primeiro elemento a ser removido dessa lista é o elemento A."
+        }
+      ],
+      "opcoes": [
+        "I e II somente",
+        "I e IV somente",
+        "III e IV somente",
+        "I, II e III somente",
+        "II, III e IV somente"
+      ],
+      "resposta": "I e II somente"
+    },
+    {
+      "titulo": "Otimização da Busca Sequencial",
+      "descricao": "A busca sequencial é uma técnica simples e intuitiva para buscar elementos em vetores ou listas.\n\nTendo a informação de que os dados estão ordenados de forma crescente, qual otimização você pode aplicar na busca sequencial?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Parar a execução e informar que o valor não existe, quando o valor atual for maior que o buscado.",
+        "Calcular a função hash e descobrir em qual posição o elemento deveria estar.",
+        "Descobrir se o elemento está na lista, apenas comparando o elemento do meio.",
+        "Parar a execução e informar que o valor não existe quando o valor atual for menor que o buscado.",
+        "Descobrir onde está o elemento buscado, testando apenas a primeira posição do vetor."
+      ],
+      "resposta": "Parar a execução e informar que o valor não existe, quando o valor atual for maior que o buscado."
+    },
+    {
+  "titulo": "Busca em Fila",
+  "descricao": "Analise a alternativa que implementa corretamente a função que verifica se um dado elemento está presente na fila, sem destruir a fila original.",
+  "codigo": null,
+  "imagem": null,
+  "afirmacoes": null,
+  "opcoes": [
+    {
+      "tipo": "codigo",
+      "conteudo": "def existeElemento(fila, elem):\n    if (fila.is_empty()):\n        return False\n    else:\n        copia = copiarFila(fila)\n        while(copia):\n            if(elem == copia.dequeue()):\n                copia = None\n                return True\n        copia = None\n        return False"
+    },
+    {
+      "tipo": "codigo",
+      "conteudo": "def existeElemento(fila, elem):\n    if (fila.is_empty()):\n        return False\n    else:\n        copia = copiarFila(fila)\n        while(copia):\n            if(elem == copia.dequeue()):\n                copia = None\n                return False\n        copia = None\n        return True"
+    },
+    {
+      "tipo": "codigo",
+      "conteudo": "def existeElemento(fila, elem):\n    if (fila.is_empty()):\n        return False\n    else:\n        copia = copiarFila(fila)\n        while(copia):\n            if(elem == copia.dequeue()):\n                copia = None\n                return True\n        copia = None\n        return False"
+    },
+    {
+      "tipo": "codigo",
+      "conteudo": "def existeElemento(fila, elem):\n    if (fila.is_empty()):\n        return True\n    else:\n        copia = copiarFila(fila)\n        while(copia):\n            if(elem == copia.dequeue()):\n                copia = None\n                return True\n        copia = None\n        return False"
+    }
+  ],
+  "resposta": "def existeElemento(fila, elem):\n    if (fila.is_empty()):\n        return False\n    else:\n        copia = copiarFila(fila)\n        while(copia):\n            if(elem == copia.dequeue()):\n                copia = None\n                return False\n        copia = None\n        return True"
+},
+{
+  "titulo": "Fila - Impressão sem Destruir",
+  "descricao": "Sejam as operações de Fila abaixo...\n\nQual código imprime o conteúdo de uma Fila e depois restaura a Fila original?",
+  "imagem": "photoest/est4.jpg",
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    {
+      "tipo": "codigo",
+      "conteudo": "def printFila(q):\n    copia = Fila()\n    print('[', end='')\n    while(not q.is_empty()):\n        print(q.first(), end=' ')\n        copia.enqueue(q.dequeue())\n    while(not copia.is_empty()):\n        q.queue(copia.dequeue())\n    copia = None\n    print(']')"
+    },
+    {
+      "tipo": "codigo",
+      "conteudo": "def printFila(q):\n    copia = Fila()\n    print('[', end='')\n    while(not q.is_empty()):\n        print(q.first(), end=' ')\n        copia.queue(q.dequeue())\n    while(not copia.is_empty()):\n        q.enqueue(copia.dequeue())\n    copia = None\n    print(']')"
+    },
+    {
+      "tipo": "codigo",
+      "conteudo": "def printFila(q):\n    copia = Fila()\n    print('[', end='')\n    while(not q.is_empty()):\n        print(q.first(), end=' ')\n        copia.enqueue(q.dequeue())\n    while(not copia.is_empty()):\n        q.enqueue(copia.dequeue())\n    copia = None\n    print(']')"
+    },
+    {
+      "tipo": "codigo",
+      "conteudo": "def printFila(q):\n    copia = Fila()\n    print('[', end='')\n    while(q.is_empty()):\n        print(q.first(), end=' ')\n        copia.enqueue(q.dequeue())\n    while(not copia.is_empty()):\n        q.enqueue(copia.dequeue())\n    copia = None\n    print(']')"
+    },
+    {
+      "tipo": "codigo",
+      "conteudo": "def printFila(q):\n    copia = Fila()\n    print('[', end='')\n    while(not q.is_empty()):\n        print(q.first(), end=' ')\n        copia.enqueue(q.dequeue())\n    while(not copia.is_empty()):\n        copia.enqueue(q.dequeue())\n    copia = None\n    print(']')"
+    }
+  ],
+  "resposta": "def printFila(q):\n    copia = Fila()\n    print('[', end='')\n    while(not q.is_empty()):\n        print(q.first(), end=' ')\n        copia.enqueue(q.dequeue())\n    while(not copia.is_empty()):\n        q.enqueue(copia.dequeue())\n    copia = None\n    print(']')"
+},
+{
+  "titulo": "Fila com Vetor Circular - enqueue",
+  "descricao": "Considerando a Fila (ArrayQueue) como um Vetor Circular, conforme o construtor descrito abaixo, determine qual a implementação correta da função def enqueue(elem):",
+  "imagem": null,
+  "codigo": "class ArrayQueue:\n    DEFAULT_CAPACITY = 100\n\n    def __init__(self):\n        self._data = [None] * ArrayQueue.DEFAULT_CAPACITY  # vetor circular\n        self._size = 0  # quantidade de elementos adicionados\n        self._first = -1  # posição do primeiro elemento\n        self._last = -1  # posição do último elemento",
+  "afirmacoes": null,
+  "opcoes": [
+    {
+      "tipo": "codigo",
+      "conteudo": "def enqueue(self, e):\n    if self.is_empty():\n        self._data[self._last + 1] = e\n        self._size += 1\n        self._first = self._last = self._first + 1\n    elif not ((self._last + 1) % ArrayQueue.DEFAULT_CAPACITY == self._first):\n        self._last = (self._last + 1) % ArrayQueue.DEFAULT_CAPACITY - 1\n        self._data[self._last] = e\n\n        self._size += 1"
+    },
+    {
+      "tipo": "codigo",
+      "conteudo": "def enqueue(self, e):\n    if self.is_empty():\n        self._data[self._first + 1] = e\n        self._first = self._last = self._first + 1\n    elif not ((self._last + 1) % ArrayQueue.DEFAULT_CAPACITY == self._first):\n        self._last = (self._last + 1) % ArrayQueue.DEFAULT_CAPACITY\n        self._data[self._last] = e\n\n    self._size += 1"
+    },
+    {
+      "tipo": "codigo",
+      "conteudo": "def enqueue(self, e):\n    if self.is_empty():\n        self._data[self._first] = e\n        self._size += 1\n        self._first = self._last = 0\n    elif not ((self._last + 1) % ArrayQueue.DEFAULT_CAPACITY == self._first):\n        self._last = (self._last + 1) % ArrayQueue.DEFAULT_CAPACITY\n        self._data[self._last] = e\n\n        self._size += 1"
+    },
+    {
+      "tipo": "codigo",
+      "conteudo": "def enqueue(self, e):\n    if self.is_empty():\n        self._data[self._last + 1] = e\n        self._size += 1\n        self._first = self._last = self._first + 1\n    elif not ((self._last + 1) % ArrayQueue.DEFAULT_CAPACITY == self._first):\n        self._data[self._last] = e\n\n        self._size += 1"
+    },
+    {
+      "tipo": "codigo",
+      "conteudo": "def enqueue(self, e):\n    if self.is_empty():\n        self._data[self._last + 1] = e\n        self._size += 1\n        self._first = self._last = self._first + 1\n    elif not ((self._last + 1) % ArrayQueue.DEFAULT_CAPACITY == self._first):\n        self._last = (self._last + 1) % ArrayQueue.DEFAULT_CAPACITY\n        self._data[self._last] = e\n\n        self._size += 1"
+    }
+  ],
+  "resposta": "def enqueue(self, e):\n    if self.is_empty():\n        self._data[self._last + 1] = e\n        self._size += 1\n        self._first = self._last = self._first + 1\n    elif not ((self._last + 1) % ArrayQueue.DEFAULT_CAPACITY == self._first):\n        self._last = (self._last + 1) % ArrayQueue.DEFAULT_CAPACITY\n        self._data[self._last] = e\n\n        self._size += 1"
+},
+    {
+      "titulo": "Estruturas de Dados Implementadas com Lista",
+      "descricao": "Em relação às estruturas de dados implementadas usando o tipo lista, analise as assertivas abaixo:",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "Uma implementação de fila por meio de listas: para enfileirar um item, basta usar o método pop; para desenfileirar um item, basta usar o método append."
+        },
+        {
+          "id": "II",
+          "texto": "Em uma lista duplamente encadeada, todas as inserções são realizadas em um extremo da lista, enquanto as exclusões e acessos são realizados no outro extremo da lista."
+        },
+        {
+          "id": "III",
+          "texto": "Filas são utilizadas quando se deseja processar itens de acordo com a ordem FIFO."
+        },
+        {
+          "id": "IV",
+          "texto": "Uma pilha é uma lista linear na qual inserções, exclusões e acessos a itens ocorrem sempre em um dos extremos da lista."
+        }
+      ],
+      "opcoes": [
+        "F - F - V - V",
+        "V - F - F - V",
+        "V - V - F - F",
+        "V - F - V - F",
+        "F - V - F - V"
+      ],
+      "resposta": "F - F - V - V"
+    },
+    {
+      "titulo": "Operações em Pilha com LIFO",
+      "descricao": "No contexto das estruturas de dados, considere uma pilha (stack) inicialmente vazia, onde as seguintes operações foram executadas:\n\nOperações de LIFO\ntop(): retorna o elemento do topo da pilha, sem removê-lo\npush(x): adiciona um elemento no topo da pilha\npop(): remove e retorna o elemento do topo da pilha\nisEmpty(): retorna true se a pilha estiver vazia\n\nP = Pilha()\nP.push(12)\nP.push(14)\nP.pop()\nP.push(20)\nP.push(15)\n\nif (P.top() % 3 == 0 and P.top() % 5 != 0):\n    P.push(19)\nelse:\n    P.pop()\n\nAssinale a opção que indica o número de elementos e o valor do elemento localizado no topo da pilha, ao final das operações.",
+      "codigo": "P = Pilha()\nP.push(12)\nP.push(14)\nP.pop()\nP.push(20)\nP.push(15)\n\nif (P.top() % 3 == 0 and P.top() % 5 != 0):\n    P.push(19)\nelse:\n    P.pop()",
+      "afirmacoes": null,
+      "opcoes": [
+        "4 e 19",
+        "4 e 15",
+        "3 e 15",
+        "3 e 19",
+        "3 e 20"
+      ],
+      "resposta": "4 e 19"
+    },
+    {
+      "titulo": "Comparações no Bubble Sort com Lista Ordenada",
+      "descricao": "Você foi contratado como consultor por uma empresa de desenvolvimento de sistemas. Um dos clientes solicitou o desenvolvimento de uma nova funcionalidade que permite ordenar os clientes por idade e renda.\n\nEssa funcionalidade será utilizada diversas vezes ao dia, o que indica que, após uma ordenação, novas ordenações só serão necessárias caso haja atualizações no banco de dados.\n\nPergunta:\nQuantas comparações serão feitas pelo algoritmo de ordenação por bolha (Bubble Sort), caso a entrada seja uma lista de 100 elementos já ordenados?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "99",
+        "98",
+        "49",
+        "24",
+        "100"
+      ],
+      "resposta": "99"
+    },
+    {
+      "titulo": "Estado Final de FIFO e LIFO - Caso 1",
+      "descricao": "As Filas ou FIFO's (First In-First Out) e as Pilhas ou LIFO's (Last In-First Out) são estruturas que permitem a manipulação de dados de maneira transparente.\n\nConsidere uma FIFO F com os seguintes elementos F=[10,20,30,40] (esquerda representa o início e direita o final) e uma LIFO L vazia, L=[] (esquerda representa a base e direita o topo).\n\nAssinale a alternativa que represente os estados da FIFO F e da LIFO L após a execução da sequência de operações descritas abaixo:",
+      "codigo": "L.push(F.first())\nF.dequeue()\nL.push(F.dequeue())\nL.push(F.first())\nF.dequeue()\nL.push(F.first())\nF.dequeue()\nF.enqueue(L.top())\nL.pop()\nIf(!F.is_empty() and F.first() % 3 < 2):\n    L.push(L.top()+10)",
+      "afirmacoes": null,
+      "opcoes": [
+        "F=[40]. L=[10,20,30,40]",
+        "F=[40]. L=[10,20,30,50]",
+        "F=[]. L=[40,30,20,10]",
+        "F=[40]. L=[40,30,20,10]",
+        "F=[]. L=[10,20,30,40]"
+      ],
+      "resposta": "F=[40]. L=[10,20,30,40]"
+    },
+    {
+      "titulo": "Estado Final de FIFO e LIFO - Caso 2",
+      "descricao": "As Filas ou FIFO's (First In-First Out) e as Pilhas ou LIFO's (Last In-First Out) são estruturas que permitem a manipulação de dados de maneira transparente.\n\nConsidere uma FIFO F com os seguintes elementos F=[80,3,5,9,10,13] (esquerda representa o início e direita o final) e uma LIFO L vazia, L=[] (esquerda representa a base e direita o topo).\n\nCom base na sequência de instruções a seguir, assinale a alternativa que mostre o estado de F e L após a execução da sequência de operações.",
+      "codigo": "num1 = 2\nnum2 = 3\nwhile valendo:\n    if(F.first()%num1 != 0 and F.first()%num2 != 0):\n        L.push(F.dequeue())\n    valendo = F.isEmpty()\n    elif (not(not L.isEmpty())):\n        L.push(F.first())\n    F.dequeue()\n    F.enqueue(L.top())\n    num2 = 2",
+      "afirmacoes": null,
+      "opcoes": [
+        "F=[9,10,13,80,3] e L=[80,3]",
+        "F=[9,10,13,80,3] e L=[80]",
+        "F=[9,10,13,80,3] e L=[3]",
+        "F=[3,9,10,13,80,3] e L=[80,3]",
+        "F=[3,9,10,13,80,3] e L=[3]"
+      ],
+      "resposta": "F=[9,10,13,80,3] e L=[80,3]"
+    },
+    {
+      "titulo": "TAD Lista Simplesmente Encadeada",
+      "descricao": "Assinale alternativa correta sobre o TAD Lista Simplesmente Encadeada:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "A implementação de lista por meio de apontadores/referências permite utilizar posições não contíguas de memória, de modo a se poder inserir e retirar elementos sem que haja necessidade de deslocar os itens seguintes da lista.",
+        "Só é possível inserir elementos no final da estrutura, ou seja, no ponteiro para o último elemento.",
+        "Utiliza o mecanismo FIFO, ou seja, o primeiro elemento a entrar é o primeiro elemento a sair da estrutura.",
+        "Não utiliza o mecanismo LIFO, ou seja, o último elemento a ser inserido não pode ser o primeiro a ser removido.",
+        "Não é possível implementá-las com arrays."
+      ],
+      "resposta": "A implementação de lista por meio de apontadores/referências permite utilizar posições não contíguas de memória, de modo a se poder inserir e retirar elementos sem que haja necessidade de deslocar os itens seguintes da lista."
+    },
+    {
+      "titulo": "Bubble Sort - Segunda Passagem",
+      "descricao": "Dada a sequência numérica (25, 18, 12, 30, 8, 16, 22, 10, 5, 20), qual é a sequência parcialmente ordenada após a segunda passagem do Bubble Sort?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "18, 12, 25, 8, 16, 22, 10, 5, 20, 30",
+        "25, 12, 18, 8, 16, 10, 5, 20, 22, 30",
+        "12, 18, 8, 16, 22, 10, 5, 20, 25, 30",
+        "12, 8, 16, 18, 10, 5, 20, 22, 25, 30",
+        "25, 18, 12, 30, 8, 16, 22, 10, 5, 20"
+      ],
+      "resposta": "12, 18, 8, 16, 22, 10, 5, 20, 25, 30"
+    },
+    {
+      "titulo": "Bubble Sort - Terceira Passagem",
+      "descricao": "Dada a sequência numérica (6, 10, 4, 8, 2, 12, 14, 16, 18, 20), qual é a sequência parcialmente ordenada após a terceira passagem do Bubble Sort?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "6, 10, 4, 8, 2, 12, 14, 16, 18, 20",
+        "6, 4, 8, 2, 10, 12, 14, 16, 18, 20",
+        "4, 6, 2, 8, 10, 12, 14, 16, 18, 20",
+        "4, 2, 6, 8, 10, 12, 14, 16, 18, 20",
+        "6, 10, 4, 8, 2, 12, 14, 16, 18, 20"
+      ],
+      "resposta": "4, 2, 6, 8, 10, 12, 14, 16, 18, 20"
+    },
+    {
+      "titulo": "Pilha e Fila em Sequência de DNA",
+      "descricao": "(ENADE - 2011) No desenvolvimento de um software que analisa bases de DNA, representadas pelas letras A, C, G, T, utilizou-se as estruturas de dados: pilha e fila. Considere que, se uma sequência representa uma pilha, o topo é o elemento mais à esquerda; e se uma sequência representa uma fila, a sua frente é o elemento mais à esquerda.\n\nAnalise o seguinte cenário:\nA sequência inicial ficou armazenada na primeira estrutura de dados na seguinte ordem: (A,G,T,C,A,G,T,T). Cada elemento foi retirado da primeira estrutura de dados e inserido na segunda estrutura de dados, e a sequência ficou armazenada na seguinte ordem: (T,T,G,A,C,T,G,A). Finalmente, cada elemento foi retirado da segunda estrutura de dados e inserido na terceira estrutura de dados e a sequência ficou armazenada na seguinte ordem: (T,T,G,A,C,T,G,A).\n\nQual a única sequência de estruturas de dados apresentadas a seguir pode ter sido usada no cenário descrito acima?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Fila - Pilha - Fila",
+        "Fila - Fila - Pilha",
+        "Fila - Pilha - Pilha",
+        "Pilha - Fila - Pilha",
+        "Pilha - Pilha - Pilha"
+      ],
+      "resposta": "Fila - Pilha - Fila"
+    },
+    {
+      "titulo": "Característica Principal de uma Árvore AVL",
+      "descricao": "Qual é a principal característica de uma árvore AVL?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Possui um fator de balanceamento igual a 1",
+        "Mantém-se balanceada após inserções e remoções",
+        "É uma árvore binária sem ordenação específica",
+        "Tem um tempo de busca pior que de uma lista encadeada simples",
+        "Nenhuma das anteriores"
+      ],
+      "resposta": "Mantém-se balanceada após inserções e remoções"
+    },
+    {
+      "titulo": "Fator de Balanceamento em Árvore AVL",
+      "descricao": "Em uma árvore AVL, como é calculado o fator de balanceamento de um nó?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Grau da subárvore esquerda menos grau da subárvore direita",
+        "Altura da subárvore esquerda menos altura da subárvore direita",
+        "Grau da subárvore esquerda mais grau da subárvore direita",
+        "Altura da subárvore esquerda mais altura da subárvore direita",
+        "Nenhuma das anteriores"
+      ],
+      "resposta": "Altura da subárvore esquerda menos altura da subárvore direita"
+    },
+    {
+      "titulo": "Correções em Algoritmo de Ordenação",
+      "descricao": "O algoritmo a seguir recebe um vetor v de números inteiros e rearranja esse vetor de tal forma que seus elementos, ao final, estejam ordenados de forma crescente.\n\nConsiderando que nesse algoritmo há erros de lógica que devem ser corrigidos para que os elementos sejam ordenados de forma crescente, assinale a opção correta no que se refere às correções adequadas.",
+      "codigo": "def ordena(v):\n    n = len(v)\n    for i in range(1, n):\n        chave = v[i]\n        j = i - 1\n        while j >= 0 and v[j] < chave:\n            v[j - 1] = v[j]\n            j = 1\n        v[j + 1] = chave",
+      "afirmacoes": null,
+      "opcoes": [
+        "A linha 03 deve ser corrigida da seguinte forma: for i in range(1, n-1): e a linha 09, do seguinte modo: v[j-1] = chave",
+        "A linha 06 deve ser corrigida da seguinte forma: while j >= 0 and v[j] > chave e a linha 07, do seguinte modo: v[j+1] = v[j]",
+        "A linha 05 deve ser corrigida da seguinte forma: j = i+1 e a linha 06, do seguinte modo: while j >= 0 and v[j] > chave",
+        "A linha 07 deve ser corrigida da seguinte forma: v[j + 1] = v[j] e a linha 09, do seguinte modo: v[j-1] = chave",
+        "A linha 04 deve ser corrigida da seguinte forma: for i in range(1, n-1): e a linha 05, do seguinte modo: j = i+1"
+      ],
+      "resposta": "A linha 06 deve ser corrigida da seguinte forma: while j >= 0 and v[j] > chave e a linha 07, do seguinte modo: v[j+1] = v[j]"
+    },
+    {
+      "titulo": "Asserções sobre Listas Encadeadas",
+      "descricao": "As listas encadeadas são estruturas versáteis que permitem que uma quantidade indeterminada de dados seja armazenada em tempo de execução na memória primária de um computador. Com base no texto acima, avalie as seguintes asserções e a relação proposta entre elas.",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "A única forma de se navegar em uma lista encadeada é por meio dos endereços dos nós, que geralmente são salvos em campos específicos da estrutura do nó ou struct ListaNo."
+        },
+        {
+          "id": "II",
+          "texto": "De forma similar aos vetores, uma lista encadeada é contígua na memória."
+        }
+      ],
+      "opcoes": [
+        "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa",
+        "As asserções I e II são proposições verdadeiras, e a II é justificativa da I",
+        "As asserções I e II são proposições verdadeiras, mas a II não é justificativa da I",
+        "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira",
+        "As asserções I e II são proposições falsas"
+      ],
+      "resposta": "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa"
+    },
+    {
+      "titulo": "Leitura Pré-Ordem em Árvore Binária",
+      "descricao": "Árvores binárias possibilitam maior organização dos elementos adicionados, o que facilita separar os elementos a cada nível de crescimento da árvore.\n\nDada a seguinte lista de caracteres [P, R, O, G, R, A, M, A, D, O, R, U, M], como ficaria seu resultado final em uma leitura pré-ordem, caso seus valores fossem adicionados sequencialmente, do primeiro ao último elemento, em uma árvore binária? Para montar uma árvore binária, os elementos menores ou iguais ao nó mais abaixo entrarão à esquerda; caso contrário, ficarão à direita.",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "POGAADMMORRRU",
+        "AADGMMOOPRRRU",
+        "ADAMOMGORRURP",
+        "MOOPRRRUGORR",
+        "ADAMOMGORURRP"
+      ],
+      "resposta": "POGAADMMORRRU"
+    },
+    {
+  "titulo": "Lista Encadeada - Saída do Código",
+  "descricao": "Dada a seguinte implementação do TAD Lista, determine o que será exibido na saída.",
+  "codigo": "class ListNode:\n    def __init__(self):\n        self.data = None\n        self.nextNode = None\n\n\ndef inicia_valores(node, elem, outroNode):\n    node.data = elem\n    node.nextNode = outroNode\n\nif __name__ == '__main__':\n    n = ListNode(); n1 = ListNode()\n    inicia_valores(n, 'a', n1)\n    inicia_valores(n1, 'b', n)\n\n    print('1:', n.data)\n    print('2:', n1.nextNode.data)\n    print('3:', n1.nextNode.nextNode.data)\n    print('4:', n1.nextNode.nextNode.nextNode.data)",
+  "afirmacoes": null,
+  "opcoes": [
+    "a, a, b, a",
+    "a, a, a, b",
+    "b, b, a, b",
+    "a, b, a, b",
+    "a, b, b, a"
+  ],
+  "resposta": "a, b, a, b"
+},
+{
+  "titulo": "Balanceamento de Parênteses com Pilha",
+  "descricao": "Dada a implementação do TAD Pilha em Python, qual implementação da função verifica_balanceamento_parenteses está correta para validar uma sequência de parênteses?",
+  "codigo": "class Stack:\n    def __init__(self):\n        self.items = []\n\n    def isEmpty(self):\n        return self.items == []\n\n    def push(self, item):\n        self.items.append(item)\n\n    def pop(self):\n        return self.items.pop()\n\n    def peek(self):\n        return self.items[len(self.items)-1]\n\n    def size(self):\n        return len(self.items)",
+  "opcoes": [
+    "def verifica_balanceamento_parenteses(string):\n    pilha = Stack()\n    esta_balanceado = True\n    posicao = 0\n    while posicao < len(string) and esta_balanceado:\n        caracter_lido = string[posicao]\n        if caracter_lido == '(':\n            pilha.push(caracter_lido)\n        else:\n            if pilha.isEmpty():\n                esta_balanceado = False\n            else:\n                pilha.pop()\n        posicao = posicao + 1\n    if esta_balanceado and pilha.isEmpty():\n        return True\n    else:\n        return False",
+    "def verifica_balanceamento_parenteses(string):\n    pilha = Stack()\n    esta_balanceado = True\n    posicao = 0\n    while posicao < len(string) and not esta_balanceado:\n        caracter_lido = string[posicao]\n        if caracter_lido == '(':\n            pilha.push(caracter_lido)\n        else:\n            if pilha.isEmpty():\n                esta_balanceado = False\n            else:\n                pilha.pop()\n        posicao = posicao + 1\n    if esta_balanceado and pilha.isEmpty():\n        return True\n    else:\n        return False",
+    "def verifica_balanceamento_parenteses(string):\n    pilha = Stack()\n    esta_balanceado = False\n    posicao = 0\n    while posicao < len(string) and not esta_balanceado:\n        caracter_lido = string[posicao]\n        if caracter_lido == '(':\n            pilha.push(caracter_lido)\n        else:\n            if pilha.isEmpty():\n                esta_balanceado = False\n            else:\n                pilha.pop()\n        posicao = posicao + 1\n    if esta_balanceado and pilha.isEmpty():\n        return True\n    else:\n        return False",
+    "def verifica_balanceamento_parenteses(string):\n    pilha = Stack()\n    esta_balanceado = False\n    posicao = 0\n    while posicao < len(string) and not esta_balanceado:\n        caracter_lido = string[posicao]\n        if caracter_lido == '(':\n            pilha.push(caracter_lido)\n        else:\n            if pilha.isEmpty():\n                esta_balanceado = False\n            else:\n                pilha.pop()\n        posicao = posicao + 1\n    if esta_balanceado and pilha.isEmpty():\n        return True\n    else:\n        return False",
+    "def verifica_balanceamento_parenteses(string):\n    pilha = Stack()\n    esta_balanceado = False\n    posicao = 0\n    while posicao < len(string) and not esta_balanceado:\n        caracter_lido = string[posicao]\n        if caracter_lido == '(':\n            pilha.push(caracter_lido)\n        else:\n            if pilha.isEmpty():\n                esta_balanceado = True\n            else:\n                pilha.pop()\n        posicao = posicao + 1\n    if esta_balanceado and pilha.isEmpty():\n        return False\n    else:\n        return True"
+  ],
+  "resposta": "def verifica_balanceamento_parenteses(string):\n    pilha = Stack()\n    esta_balanceado = True\n    posicao = 0\n    while posicao < len(string) and esta_balanceado:\n        caracter_lido = string[posicao]\n        if caracter_lido == '(':\n            pilha.push(caracter_lido)\n        else:\n            if pilha.isEmpty():\n                esta_balanceado = False\n            else:\n                pilha.pop()\n        posicao = posicao + 1\n    if esta_balanceado and pilha.isEmpty():\n        return True\n    else:\n        return False"
+},
+{
+  "titulo": "Lista Duplamente Encadeada - Reconstrução de Conteúdo",
+  "descricao": "(IFSP - 2019) Abaixo tem-se uma tabela que ilustra o conjunto de nós de uma lista duplamente encadeada, contendo um total de 5 nós.\n\nAo imprimir a estrutura na ordem crescente, o conteúdo apresentado será:",
+  "codigo": "Elemento | Anterior | Próximo | Conteúdo\n------------------------------------------\n1        | 3        | 4       | ?\n2        | ?        | 5       | ?\n3        | 5        | 1       | ?\n4        | 1        | ?       | ?\n5        | 2        | 3       | ?",
+  "afirmacoes": null,
+  "opcoes": [
+    "P - I - S - F - 2019",
+    "2019 - P - S - F - I",
+    "S - P - I - F - 2019",
+    "S - I - F - 2019 - P",
+    "Nenhuma das anteriores"
+  ],
+  "resposta": "P - I - S - F - 2019"
+},
+{
+  "titulo": "Busca Binária - Número de Iterações",
+  "descricao": "Considere a busca binária aplicada sobre o seguinte vetor ordenado:\n\n[2, 5, 8, 12, 16, 23, 38, 56, 72, 91]\n\nInicialmente:\nlow = 0\nhigh = 9\n\nUtiliza-se a fórmula:\nM = (low + high) // 2\n\nRegras:\n- Se M == x → termina\n- Se M > x → high = M - 1\n- Se M < x → low = M + 1\n\nQuantas iterações são necessárias para encontrar x = 23?",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
+  "resposta": "1"
+},
+{
+  "titulo": "Pilha com Array - Operações",
+  "descricao": "Considere a implementação de uma pilha utilizando vetor. Determine quais afirmações são corretas após execução das operações.",
+  "codigo": "class ArrayStack:\n    def __init__(self):\n        self._data = [None] * 100\n        self.topo = -1  # pilha vazia\n\n    def is_empty(self):\n        return self.topo == -1\n\n    def push(self, e):\n        if self.topo >= 99:\n            return\n        self.topo += 1\n        self._data[self.topo] = e\n\n    def top(self):\n        if self.is_empty():\n            print('pilha vazia')\n            return None\n        else:\n            return self._data[self.topo]\n\n    def pop(self):\n        if self.is_empty():\n            print('pilha vazia')\n            return None\n        else:\n            elem = self._data[self.topo]\n            self.topo -= 1\n            return elem\n\nif __name__ == '__main__':\n    S = ArrayStack()\n    S.push(2)\n    S.push(3)\n    S.push(4)\n    S.pop()\n    S.push(2)\n    elem = S.pop() + S.pop()\n    S.push(elem)\n    elem = S.pop()\n    print(elem)",
+  "afirmacoes": null,
+  "opcoes": [
+    "I apenas",
+    "II apenas",
+    "III apenas",
+    "I e II apenas",
+    "II e III apenas"
+  ],
+  "resposta": "I e II apenas"
+},
+{
+  "titulo": "Busca em Fila",
+  "descricao": "Assinale a alternativa que implementa corretamente a função que verifica se um dado elemento está presente em uma fila, sem destruí-la.",
+  "codigo": "def existeElemento(fila, elem):\n    if fila.is_empty():\n        return False\n    else:\n        copia = copiaFila(fila)\n        while(copia):\n            if(elem == copia.dequeue()):\n                return True\n        return False",
+  "afirmacoes": null,
+  "opcoes": [
+    "Implementação A",
+    "Implementação B",
+    "Implementação C",
+    "Implementação D",
+    "Implementação E"
+  ],
+  "resposta": "Implementação A"
+},
+{
+  "titulo": "Fila Circular - Enqueue",
+  "descricao": "Considere uma fila implementada como vetor circular. Qual é a implementação correta da função enqueue?",
+  "codigo": "def enqueue(self, e):\n    if self.is_empty():\n        self._data[self._first] = e\n    else:\n        self._last = (self._last + 1) % ArrayQueue.DEFAULT_CAPACITY\n        self._data[self._last] = e\n    self._size += 1",
+  "afirmacoes": null,
+  "opcoes": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "resposta": "A"
+},
+{
+  "titulo": "Impressão de Fila sem Perder Dados",
+  "descricao": "Qual código imprime o conteúdo de uma fila e depois restaura a fila original?",
+  "codigo": "def printFila(q):\n    copia = Fila()\n    while(not q.is_empty()):\n        print(q.first(), end=' ')\n        copia.enqueue(q.dequeue())\n\n    while(not copia.is_empty()):\n        q.enqueue(copia.dequeue())",
+  "afirmacoes": null,
+  "opcoes": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "resposta": "A"
+}
+  ],
+  
+  "backend": [
+    {
+      "titulo": "Tipos Estruturados no JSON",
+      "descricao": "JSON possui duas categorias de tipos de dados: elementares e estruturados.\nSobre os tipos estruturados, podemos afirmar que:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Possuem infinitos tipos de combinações.",
+        "São exemplos: strings, inteiros e arquivos HTML.",
+        "Não podem ser decompostos.",
+        "São exemplos: Real, Inteiro e Booleanos.",
+        "Salvam seus valores em binário, sendo interpretados apenas pelo browser."
+      ],
+      "resposta": "Possuem infinitos tipos de combinações."
+    },
+    [
+  {
+    "tipo": "discursiva",
+    "titulo": "Framework no lado do cliente",
+    "descricao": "Framework é uma abstração que une códigos comuns entre vários projetos de software, provendo uma funcionalidade genérica. Portanto, trata-se de uma forma mais simples de desenvolver aplicações pelo reuso de componentes. Os frameworks no lado do cliente possuem algumas características (tecnologias) em comum, que estarão no core business da implementação e na criação da maioria dos frameworks.\n\nDetalhe melhor o que são os frameworks no lado do cliente, descreve quais são as tecnologias principais de composição e sua função.",
+    "criterios": {
+      "gruposConceito": [
+        [
+          "conjunto de codigos reutilizaveis",
+          "conjunto de códigos reutilizáveis",
+          "reuso de componentes",
+          "estrutura reutilizavel",
+          "estrutura reutilizável"
+        ],
+        [
+          "agiliza o desenvolvimento",
+          "facilita o desenvolvimento",
+          "otimiza tempo",
+          "aumenta produtividade"
+        ],
+        [
+          "front end",
+          "lado do cliente",
+          "cliente",
+          "interface"
+        ],
+        [
+          "html css javascript",
+          "html, css e javascript",
+          "html css js",
+          "tecnologias principais html css javascript"
+        ],
+        [
+          "componentes",
+          "interface reutilizavel",
+          "interface reutilizável",
+          "organizacao da aplicacao",
+          "organização da aplicação"
+        ],
+        [
+          "angular",
+          "react",
+          "vue"
+        ]
+      ],
+      "minGrupos": 3
+    },
+    "respostaModelo": [
+      "Framework é um conjunto de códigos reutilizáveis que agiliza o desenvolvimento de aplicações.",
+      "No lado do cliente, ele é usado no front-end para organizar a interface e reutilizar componentes.",
+      "Suas principais tecnologias de composição costumam ser HTML, CSS e JavaScript.",
+      "Exemplos: Angular, React e Vue."
+    ]
+  },
+  {
+    "tipo": "discursiva",
+    "titulo": "O que é JSON?",
+    "descricao": "Neste módulo de Desenvolvimento Web Back-End citamos muito a tecnologia JSON.\n\nDescreva o que é o JSON e cite exemplos de aplicação da tecnologia para sistemas de software.",
+    "criterios": {
+      "gruposConceito": [
+        [
+          "formato de texto para troca de dados",
+          "formato de troca de dados",
+          "padrao de troca de dados",
+          "padrão de troca de dados",
+          "serializacao de dados",
+          "serialização de dados"
+        ],
+        [
+          "pares chave valor",
+          "chave valor",
+          "estrutura chave valor",
+          "objeto com chave e valor"
+        ],
+        [
+          "apis",
+          "api",
+          "web services",
+          "servicos web",
+          "serviços web"
+        ],
+        [
+          "sistemas",
+          "aplicacoes",
+          "aplicações",
+          "integracao entre sistemas",
+          "integração entre sistemas"
+        ]
+      ],
+      "minGrupos": 2
+    },
+    "respostaModelo": [
+      "JSON é um formato de texto usado para troca de dados.",
+      "Ele organiza informações geralmente em pares chave-valor.",
+      "É muito utilizado em APIs, serviços web e integração entre sistemas."
+    ]
+  },
+  {
+    "tipo": "discursiva",
+    "titulo": "Arquitetura MVC",
+    "descricao": "Na arquitetura MVC a divisão em camadas permite a melhor separação de responsabilidades e, consequentemente, a decomposição da complexidade da implementação do sistema de informação.\n\nSobre o modelo MVC, descreva como funciona a arquitetura, explicando as camadas existentes, sua função e como se relaciona com as outras camadas.",
+    "criterios": {
+      "gruposConceito": [
+        [
+          "model view controller",
+          "mvc",
+          "tres partes",
+          "três partes"
+        ],
+        [
+          "model gerencia dados e logica",
+          "model gerencia dados e lógica",
+          "model dados e logica",
+          "model dados e lógica",
+          "model representa os dados"
+        ],
+        [
+          "view interface com o usuario",
+          "view interface com o usuário",
+          "view apresenta ao usuario",
+          "view apresenta ao usuário",
+          "view camada de interface"
+        ],
+        [
+          "controller intermedia as acoes",
+          "controller intermedia as ações",
+          "controller liga model e view",
+          "controller recebe entradas e coordena",
+          "controller faz a intermediacao",
+          "controller faz a intermediação"
+        ],
+        [
+          "separacao de responsabilidades",
+          "separação de responsabilidades",
+          "facilita manutencao",
+          "facilita manutenção",
+          "organização do sistema"
+        ]
+      ],
+      "minGrupos": 3
+    },
+    "respostaModelo": [
+      "MVC organiza o sistema em três partes: Model, View e Controller.",
+      "O Model gerencia os dados e a lógica da aplicação.",
+      "A View representa a interface com o usuário.",
+      "O Controller intermedia as ações entre Model e View.",
+      "Essa separação facilita manutenção, organização e evolução do sistema."
+    ]
+  }
+],
+    {
+  "titulo": "Percurso em Árvore Binária",
+  "descricao": "Dada a árvore a seguir, assinale a alternativa que apresenta o passeio em ordem (in-order) para essa árvore.",
+  "imagem": "photoest/est1.jpg",
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "1 2 4 3 5 6 7",
+    "1 2 3 4 5 6 7",
+    "4 2 1 7 5 6 3",
+    "4 2 1 5 3 7 6",
+    "7 4 5 6 2 3 1"
+  ],
+  "resposta": "4 2 1 5 3 7 6"
+},
+    {
+      "titulo": "Características do Modelo MVC",
+      "descricao": "É uma característica de um modelo MVC, a afirmativa que se encontra na alternativa:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Permite profissionais que não dominam determinadas camadas atuem em um mesmo projeto, através da separação das camadas e características.",
+        "Define que a camada model interage com a camada view para o controller apresentar dados.",
+        "Especifica que a camada controller faz o controle das regras de negócio.",
+        "Define que todas as camadas tenham interação entre si.",
+        "Define que o modelo MVC foi elaborado para o uso exclusivo de linguagens Web."
+      ],
+      "resposta": "Permite profissionais que não dominam determinadas camadas atuem em um mesmo projeto, através da separação das camadas e características."
+    },
+    {
+      "titulo": "Arquitetura de Software em Camadas",
+      "descricao": "A arquitetura de um software ou de um sistema de informação é a organização ou a estrutura dos componentes significativos do sistema de software.\nQual é a abordagem que podemos utilizar em nossa arquitetura de forma a isolar diferentes funcionalidades em níveis diferentes?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Camadas de Software.",
+        "Softwares Caixa Preta.",
+        "Arquitetura Isolada.",
+        "Arquitetura Multivalorada.",
+        "Hierarquia de Software."
+      ],
+      "resposta": "Camadas de Software."
+    },
+    {
+      "titulo": "Versionamento Local no Git",
+      "descricao": "Considerando as definições do Git, de que forma ele organiza localmente as informações das versões dos arquivos?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Utiliza uma pasta chamada .git e nela deposita as informações dos arquivos.",
+        "Registra as informações dos arquivos no arquivo readme.md.",
+        "Cria uma pasta chamada src e registra nela as informações dos projetos.",
+        "O gerenciamento ocorre pelo modo GNU, que possui as configurações dos arquivos.",
+        "Registra as informações das versões dos arquivos em uma pasta chamada model."
+      ],
+      "resposta": "Utiliza uma pasta chamada .git e nela deposita as informações dos arquivos."
+    },
+    {
+      "titulo": "Tipos de Dados Não Estruturados",
+      "descricao": "Existem três tipos de dados, que visam refletir sua estrutura em um banco de dados, a partir do formato destes. Define-se como \"Tipos de dados não estruturados\":",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Aqueles que existem em seu estado original (bruto).",
+        "Aqueles que são resultado da obtenção de dados não estruturados e de sua formatação (estruturação).",
+        "Aqueles que já foram parcialmente processados.",
+        "Aqueles que podem ser salvos em arquivos JSON.",
+        "Aqueles compatíveis com SGBD e seus tipos nativos."
+      ],
+      "resposta": "Aqueles que existem em seu estado original (bruto)."
+    },
+    {
+      "titulo": "Importância da Comunicação Assíncrona com XMLHttpRequest",
+      "descricao": "O objeto XMLHttpRequest permite que as requisições HTTP sejam feitas via browser e permite a comunicação assíncrona com o servidor por script.\nQual a importância desta comunicação assíncrona?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Sua importância está diretamente ligada ao fato de que não é necessária a iniciação de uma nova janela para atualização do conteúdo da página.",
+        "Sua importância é permitir ao desenvolvedor controlar a interface do usuário através de comandos vindos do servidor.",
+        "Sua importância está no fato de criar uma cache no servidor, economizando transferência de dados.",
+        "Sua importância vem de resolver o problema de compatibilidade das páginas Web e os browsers, permitindo a sincronia no funcionamento em qualquer página.",
+        "A importância está no fato de permitir comunicação síncrona e assíncrona entre diferentes clientes."
+      ],
+      "resposta": "Sua importância está diretamente ligada ao fato de que não é necessária a iniciação de uma nova janela para atualização do conteúdo da página."
+    },
+    {
+      "titulo": "Tecnologias para Manipulação de Dados na Web",
+      "descricao": "Quais tecnologias devem ser utilizadas quando queremos executar uma das operações a seguir?\nArmazenar os valores analisados nas variáveis para processamento adicional antes de exibi-los na página da Web. \nAtribuir diretamente os dados aos elementos DOM na página da Web, para que sejam exibidos no site.",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Ajax e JavaScript",
+        "Ajax e HTML",
+        "HTML e CSS",
+        "HTML e SQL",
+        "C# e HTML"
+      ],
+      "resposta": "Ajax e JavaScript"
+    },
+    {
+      "titulo": "Linguagem Base da Sintaxe JSON",
+      "descricao": "O formato JSON permite representar objetos e classes como estruturas de dados e arrays.\nSua sintaxe é simples, e é baseada na linguagem:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "JavaScript",
+        "C#",
+        "PHP",
+        "XML",
+        "HTML"
+      ],
+      "resposta": "JavaScript"
+    },
+    {
+      "titulo": "Conceitos de View, Controller e Model",
+      "descricao": "Qual alternativa apresenta o nome dos conceitos apresentados nos itens a seguir?\ni - Camada que contém os formulários que exibem ou coletam os dados dos usuários.\nii - Camada que contém as rotas que direcionam as requisições da view para a model e vice-versa.\niii - Camada que contém as regras de negócio e as classes que fazem o acesso ao banco de dados.",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "i - View, ii - Controller, iii - Model.",
+        "i - Controller, ii - Model, iii - View.",
+        "i - Model, ii - View, iii - Controller.",
+        "i - Visão, ii - Controle, iii - Dados.",
+        "i - Visão, ii - Dados, iii - Negócio."
+      ],
+      "resposta": "i - View, ii - Controller, iii - Model."
+    },
+    {
+      "titulo": "Alternativa ao XML em Aplicativos AJAX",
+      "descricao": "Uma alternativa à XML para representar dados, comumente utilizada em aplicativos AJAX, é o(a):",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "JSON - JavaScript Object Notation.",
+        "SOAP - Simple Object Access Protocol.",
+        "POCO - Plain Old C# Object.",
+        "REST - Representational State Transfer.",
+        "SQL - Structured Query Language."
+      ],
+      "resposta": "JSON - JavaScript Object Notation."
+    },
+    {
+      "titulo": "Definição de Framework",
+      "descricao": "O que é um Framework?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "É uma abstração que une códigos comuns entre vários projetos de software, provendo uma funcionalidade genérica.",
+        "É uma linguagem de programação abstrata que facilita o desenvolvimento de softwares.",
+        "É um conjunto de rotinas e padrões de programação para acesso a um aplicativo de software ou plataforma baseado na Web.",
+        "É um processo que engloba todas as atividades que contribuem para a produção de um documento de requisitos e sua manutenção ao longo do tempo.",
+        "É uma ferramenta voltada à especificação, desenvolvimento, manutenção e criação de software, com a aplicação de tecnologias e práticas de gerência de projetos."
+      ],
+      "resposta": "É uma abstração que une códigos comuns entre vários projetos de software, provendo uma funcionalidade genérica."
+    },
+    {
+      "titulo": "Principais Características da Linguagem C#",
+      "descricao": "Quais dos itens a seguir apresentam as principais características da linguagem C#:\ni - Orientada a componentes\nii - Orientada a objetos\niii - Fortemente tipada\niv - Ambiente gerenciado",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "i, ii, iii e iv.",
+        "Apenas i e ii.",
+        "Apenas iii e iv.",
+        "Apenas i e iii.",
+        "Apenas ii e iv."
+      ],
+      "resposta": "i, ii, iii e iv."
+    },
+    {
+      "titulo": "Comentário de Uma Linha em C#",
+      "descricao": "Como você escreve um comentário de uma linha em C#?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "-- Comentário --",
+        "/* Comentário */",
+        "# Comentário",
+        "// Comentário",
+        "' Comentário"
+      ],
+      "resposta": "// Comentário"
+    },
+    {
+      "titulo": "Palavra-Chave para Método sem Retorno em C#",
+      "descricao": "Qual palavra-chave é usada para indicar que um método não retorna nenhum valor em C#?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "int",
+        "void",
+        "string",
+        "null",
+        "double"
+      ],
+      "resposta": "void"
+    },
+    {
+      "titulo": "Camada de Lógica de Negócio no MVC",
+      "descricao": "No modelo MVC, a camada responsável pela abstração das funções do sistema, ou seja, pela lógica de negócio é a:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Camada Model.",
+        "Camada View.",
+        "Camada Controller.",
+        "Camada Cliente.",
+        "Camada Business."
+      ],
+      "resposta": "Camada Model."
+    },
+    {
+      "titulo": "Palavra-Chave para Criar Classe em C#",
+      "descricao": "Qual palavra-chave é usada para criar uma classe em C#?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "class",
+        "struct",
+        "interface",
+        "package",
+        "method"
+      ],
+      "resposta": "class"
+    },
+    {
+      "titulo": "Linguagens para Implementação da Camada Controller",
+      "descricao": "Na arquitetura MVC, diversas linguagens podem ser utilizadas para a implementação da camada de Controller.\nA alternativa que apresenta corretamente essas linguagens é:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "C#, PHP e Java",
+        "HTML e SQL",
+        "SQL, C# e Java",
+        "HTML, Java e PHP",
+        "HTML, C# e PHP"
+      ],
+      "resposta": "C#, PHP e Java"
+    },
+    {
+      "titulo": "Correlação entre JSON e AJAX",
+      "descricao": "Descrição\nOs itens a seguir detalham características de algumas tecnologias usadas no desenvolvimento Web.\nQual alternativa apresenta a correlação correta de características pertencentes ao JSON e AJAX?\ni - Ajudar a armazenar informações de maneira organizada\nii - Usada para preencher dados relacionados ao servidor na página de visualização\niii - É usado para projetar a página Web corretamente, especialmente quando a página precisa de dados do servidor\niv - É usado para transmitir dados entre um servidor e um navegador\n(OBS: Verifica de fato se está certo)",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Ajax: ii e iii\nJson: i e iv",
+        "Ajax: ii e iv\nJson: i e iii",
+        "Ajax: i e iii\nJson: ii e iv",
+        "Ajax: i e iv\nJson: ii e iii"
+      ],
+      "resposta": "Ajax: ii e iii\nJson: i e iv"
+    },
+    {
+      "titulo": "Definição de AJAX",
+      "descricao": "AJAX é um termo que descreve um(a):",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Conjunto de técnicas.",
+        "Protocolo.",
+        "Banco de dados.",
+        "Linguagem de programação.",
+        "Linguagem de marcação."
+      ],
+      "resposta": "Conjunto de técnicas."
+    },
+    {
+      "titulo": "Conversão de String para Inteiro em C#",
+      "descricao": "Qual método é usado para converter uma string para um número inteiro em C#?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Int32.Parse()",
+        "Int32.ToString()",
+        "Int32.ToInt32()",
+        "String.ToInt()",
+        "Parse.Int()"
+      ],
+      "resposta": "Int32.Parse()"
+    },
+    {
+      "titulo": "Tipo de Dado Decimal em C#",
+      "descricao": "Para criar uma variável numérica que pode armazenar valores decimais em C#, qual tipo de dado você usaria?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "int",
+        "double",
+        "char",
+        "boolean",
+        "long"
+      ],
+      "resposta": "double"
+    },
+    {
+      "titulo": "Tipo de Dado Primitivo em C#",
+      "descricao": "Qual dos seguintes é um tipo de dado primitivo em C#?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "String",
+        "Boolean",
+        "PictureBox",
+        "Form",
+        "Button"
+      ],
+      "resposta": "Boolean"
+    },
+    {
+      "titulo": "Etapa de Compreensão do Problema no Desenvolvimento",
+      "descricao": "Se dá o nome à etapa no desenvolvimento de softwares, onde ocorre a compreensão do problema a ser resolvido com o objetivo de proporcionar a mesma visão do problema, tanto para os usuários como para os desenvolvedores, de:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Levantamento de Requisitos.",
+        "Engenharia de Software.",
+        "Testes.",
+        "Arquitetura de Software.",
+        "Entrevista com o Cliente."
+      ],
+      "resposta": "Levantamento de Requisitos."
+    },
+    {
+      "titulo": "Objeto Utilizado no Ajax",
+      "descricao": "Uma forma de usar Ajax (Asynchronous JavaScript And XML) é utilizar um objeto específico, localizado no cliente, baseado em JavaScript, para interagir com os scripts no servidor.\nDessa forma, é possível efetuar solicitações ao servidor web de forma assíncrona, sem ter que atualizar toda a página.\nEsse objeto é conhecido por:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "XMLHttpRequest",
+        "XMLHttpReset",
+        "XMLHttpRewrite",
+        "XMLHttpResponse",
+        "XMLHttpRead"
+      ],
+      "resposta": "XMLHttpRequest"
+    }
+  ],
+  
+  "designThinking": [
+    {
+      "titulo": "Fase de Ideação no Design Thinking",
+      "descricao": "Brown (2010) define Design Thinking como uma metodologia para solução de problemas complexos, na qual, necessariamente, deve-se atuar de forma criativa e baseando-se nos princípios inspiração, ideação e implementação. Sobre a fase ideação é esperado que você:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "reconheça como o espaço onde se conceitua a ideia principal de seu projeto. É a fase que o estudo caminha de uma ideia abstrata para uma ideia real, factível e executável.",
+        "compreenda questões do tipo: como essa pessoa se sentiria no lugar do usuário? Em suma, se colocar na pele do outro. Buscar conhecer, compreender e observar as pessoas que você quer servir.",
+        "domine as técnicas de coleta de dados, tenha a capacidade de conduzir entrevistas de forma produtiva e consiga, de fato, se aprofundar nas questões que possibilitarão gerar ideias para se construir soluções.",
+        "Reconheça que este é o momento da escalabilidade do seu negócio, crie um negócio escalável, que atinja resultados exponenciais, e que torne sua solução algo reconhecido e desejado por todos ainda mais.",
+        "entenda que a fase da ideação possui uma característica peculiar, que é o processo de validação junto ao seu público. É justamente nesta fase que o produto se torna algo valioso, ao ser validado no mercado."
+      ],
+      "resposta": "reconheça como o espaço onde se conceitua a ideia principal de seu projeto. É a fase que o estudo caminha de uma ideia abstrata para uma ideia real, factível e executável."
+    },
+    {
+      "titulo": "Elemento Humano no Design Thinking",
+      "descricao": "Considerando o elemento humano no processo de design thinking como ele deve ser tratado dentro do contexto da etapa de análise e interpretação?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "O elemento humano é irrelevante na análise de soluções, já que o foco está nas características técnicas e na viabilidade da solução.",
+        "O elemento humano deve receber menor importância nessa fase, pois o foco principal está nas interações sociais dentro dos grupos e nas dinâmicas entre as tecnologias.",
+        "O elemento humano é visto como parte de uma pesquisa estatística, sendo tratado como um conjunto de desvios padrão, sem considerar suas necessidades individuais ou emocionais.",
+        "O elemento humano deve ser considerado na fase final do processo, quando as soluções estão sendo implementadas.",
+        "O elemento humano, incluindo suas emoções, sentimentos e características, deve ser o centro do processo de análise, orientando a criação de soluções que atendam às suas expectativas e gerem valor à sua experiência."
+      ],
+      "resposta": "O elemento humano, incluindo suas emoções, sentimentos e características, deve ser o centro do processo de análise, orientando a criação de soluções que atendam às suas expectativas e gerem valor à sua experiência."
+    },
+    {
+      "titulo": "Briefing no Design Thinking",
+      "descricao": "Identifique a afirmação que melhor condiz com o papel do briefing no processo da metodologia do Design Thinking, conforme explicado por Ambrose e Harris (2011) apresentado na lição 1 sobre a fase da Descoberta:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "O briefing é um momento em que o cliente apresenta todas as soluções prontas para serem implementadas pela equipe de design.",
+        "O briefing é a reunião onde o cliente expõe suas exigências, o design busca transformar essas exigências em soluções ou produtos acabados.",
+        "O briefing é apenas uma etapa inicial para definir a estética do projeto, sem considerar as metas do cliente.",
+        "O briefing é um documento escrito que descreve todas as limitações do projeto, sem permitir espaço para interpretações ou inovações.",
+        "O briefing serve como uma referência para a equipe de design desenvolver apenas incrementos em produtos já existentes, sem explorar novas soluções."
+      ],
+      "resposta": "O briefing é a reunião onde o cliente expõe suas exigências, o design busca transformar essas exigências em soluções ou produtos acabados."
+    },
+    {
+      "titulo": "Inovação - Caso Havaianas",
+      "descricao": "Texto baseado na evolução da marca Havaianas.\nIdentifique a qual tipo de inovação o texto se refere:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Inovação de Processo e Inovação Organizacional",
+        "Inovação de Produto e Inovação de Marketing",
+        "Inovação de Mercado e Inovação Tecnológica",
+        "Inovação de Critérios e Inovação de Distribuição",
+        "Inovação de Conceitos e Inovação de Marca"
+      ],
+      "resposta": "Inovação de Produto e Inovação de Marketing"
+    },
+    {
+      "titulo": "MVP - Afirmação Incorreta",
+      "descricao": "Sobre MVP identifique a afirmação INCORRETA:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "MVP orienta o desenvolvimento do negócio.",
+        "MVP testa a viabilidade do negócio.",
+        "MVP é um modelo de negócio.",
+        "MVP é um produto pequeno.",
+        "MVP sempre será um protótipo."
+      ],
+      "resposta": "MVP é um produto pequeno."
+    },
+    {
+      "titulo": "Protótipo no Design Thinking",
+      "descricao": "Chegar na fase de prototipagem é realmente um desafio.\nAnalise as afirmações:\nI - Prototipagem é colocar a mão na massa.\nII - Testar, criar, testar, errar, corrigir os erros e aprender.\nIII - Testar é desnecessário.\nAssinale a alternativa correta:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "I apenas está correta.",
+        "II apenas está correta.",
+        "III apenas está correta.",
+        "I e II apenas estão corretas.",
+        "I, II e III estão corretas."
+      ],
+      "resposta": "I, II e III estão corretas."
+    },
+    {
+      "titulo": "Escalabilidade e Desejo",
+      "descricao": "Considerando negócios inovadores:\nI - produzir algo repetível com baixo custo\nII - ser escalado\nIII - despertar desejo\nAssinale a alternativa correta:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "As afirmações I, II e III estão corretas.",
+        "Apenas I e II estão corretas.",
+        "Apenas I está correta.",
+        "Apenas II está correta.",
+        "Apenas III está correta."
+      ],
+      "resposta": "As afirmações I, II e III estão corretas."
+    },
+    {
+      "titulo": "Papel da Prototipagem",
+      "descricao": "Qual é o papel da prototipagem no Design Thinking?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "É uma técnica opcional sem impacto relevante.",
+        "Restrita à ideação.",
+        "Usada apenas na implementação.",
+        "Serve como ferramenta para visualizar, interagir, testar e aprimorar ideias.",
+        "É apenas etapa final."
+      ],
+      "resposta": "Serve como ferramenta para visualizar, interagir, testar e aprimorar ideias."
+    },
+    {
+      "titulo": "Imersão no Design Thinking",
+      "descricao": "Marque a sequência correta:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "(v), (f), (f), (f).",
+        "(f), (v), (v), (f).",
+        "(v), (f), (f), (v).",
+        "(v), (f), (v), (f).",
+        "(f), (v), (f), (v)."
+      ],
+      "resposta": "(v), (f), (f), (f)."
+    },
+    {
+      "titulo": "Diferença Design Thinking x Tradicional",
+      "descricao": "Qual a principal diferença?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Processo linear.",
+        "Foco apenas em viabilidade.",
+        "Considera desejabilidade, viabilidade e praticabilidade.",
+        "Foco apenas tecnológico.",
+        "Foco financeiro."
+      ],
+      "resposta": "Considera desejabilidade, viabilidade e praticabilidade."
+    }
+  ],
+
+  "engenharia": [
+    {
+      "titulo": "Implementação de Arquitetura de Sistemas",
+      "descricao": "Implementar efetivamente uma arquitetura de sistemas previamente selecionada pode ser entendido tanto como uma arte quanto como uma ciência:\n\n● Arte, porque envolve criatividade e visão.\n● Ciência, porque requer conhecimento técnico e metodologia.\n\nAssinale a alternativa correta sobre a implementação de uma arquitetura de sistemas em uma organização:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Pode ser realizada sem planejamento prévio.",
+        "Dispensa a análise de impacto nos negócios.",
+        "É exclusivamente uma responsabilidade de TI.",
+        "É algo alheio a questões de segurança dos dados.",
+        "Requer planejamento estratégico e técnico."
+      ],
+      "resposta": "Requer planejamento estratégico e técnico."
+    },
+    {
+  "tipo": "discursiva",
+  "titulo": "Integração Contínua (CI)",
+  "descricao": "Como o processo de CI contribui para reduzir o débito técnico e otimizar o ciclo de desenvolvimento?",
+  "criterios": {
+    "gruposConceito": [
+      [
+        "integracao continua",
+        "ci",
+        "automacao de testes",
+        "pipeline de integracao"
+      ],
+      [
+        "feedback rapido",
+        "detectar erros cedo",
+        "falhas rapidamente",
+        "identificacao precoce de erros",
+        "validacao continua"
+      ],
+      [
+        "reduzir debito tecnico",
+        "menos debito tecnico",
+        "melhorar qualidade",
+        "codigo mais confiavel"
+      ],
+      [
+        "acelerar desenvolvimento",
+        "otimizar ciclo",
+        "entrega mais rapida",
+        "deploy mais rapido"
+      ]
+    ],
+    "minGrupos": 2
+  },
+  "respostaModelo": [
+    "A integração contínua reduz o débito técnico ao detectar e corrigir erros rapidamente.",
+    "A automação de testes e o feedback rápido evitam o acúmulo de problemas.",
+    "Isso melhora a qualidade do código e acelera o ciclo de desenvolvimento."
+  ]
+},
+{
+  "tipo": "discursiva",
+  "titulo": "O que é diagrama de classes?",
+  "descricao": "O projeto de um software, assim como sua documentação, traz os detalhes acerca das diversas partes de um software, seja arquitetural, de implementação e até de design, se for preciso. Um recurso que auxilia a equipe de desenvolvimento, principalmente na etapa de documentação e posteriormente de implementação do software, é o uso de diagramas, que são baseados na UML. Dentre dos diagramas estruturais, encontra-se o diagrama de classes, que oferece um diagrama muito interessante em termos de estrutura, devido à sua riqueza de elementos.\n\nDescreva o que é o diagrama de classes, sua utilização e em que etapa do projeto ele é criado.",
+  "criterios": {
+    "gruposConceito": [
+      [
+        "representa a estrutura do sistema",
+        "mostra a estrutura do sistema",
+        "descreve a estrutura do sistema",
+        "modelo estrutural do sistema",
+        "estrutura do software"
+      ],
+      [
+        "classes atributos e metodos",
+        "classes atributos e métodos",
+        "classes metodos e atributos",
+        "classes métodos e atributos",
+        "classes com atributos e metodos",
+        "classes com atributos e métodos"
+      ],
+      [
+        "usado na analise e projeto",
+        "usado na análise e projeto",
+        "utilizado na analise e projeto",
+        "utilizado na análise e projeto",
+        "usado no projeto do software",
+        "utilizado no projeto do software"
+      ],
+      [
+        "documentacao",
+        "documentação",
+        "modelagem",
+        "entender o sistema",
+        "auxiliar o desenvolvimento"
+      ]
+    ],
+    "minGrupos": 2
+  },
+  "respostaModelo": [
+    "Um diagrama de classes representa a estrutura do sistema com classes, atributos e métodos.",
+    "Ele é utilizado na análise e no projeto do software.",
+    "Também ajuda na documentação, modelagem e entendimento do sistema."
+  ]
+},
+{
+  "tipo": "discursiva",
+  "titulo": "Requisitos funcionais e não funcionais",
+  "descricao": "Requisitos funcionais podem ser considerados, com toda a segurança, os itens mais importantes durante a modelagem de um produto de software, pois é a partir dos requisitos funcionais que todo o projeto é desenvolvido. Os requisitos funcionais são suportados por requisitos não funcionais.\n\nDescreva o que são requisitos funcionais e requisitos não funcionais. Exemplifique cada um.",
+  "criterios": {
+    "gruposConceito": [
+      [
+        "o que o sistema faz",
+        "funcionalidades do sistema",
+        "acoes do sistema",
+        "ações do sistema",
+        "servicos do sistema",
+        "serviços do sistema"
+      ],
+      [
+        "como o sistema se comporta",
+        "como o sistema funciona internamente",
+        "caracteristicas de qualidade",
+        "características de qualidade",
+        "desempenho seguranca usabilidade",
+        "desempenho segurança usabilidade"
+      ],
+      [
+        "exemplo funcional",
+        "cadastrar usuario",
+        "login",
+        "processar pedido",
+        "emitir relatorio",
+        "emitir relatório"
+      ],
+      [
+        "exemplo nao funcional",
+        "tempo de resposta",
+        "seguranca",
+        "segurança",
+        "escalabilidade",
+        "performance",
+        "disponibilidade"
+      ]
+    ],
+    "minGrupos": 2
+  },
+  "respostaModelo": [
+    "Requisitos funcionais definem o que o sistema faz, ou seja, suas funcionalidades.",
+    "Requisitos não funcionais definem como o sistema se comporta, como desempenho, segurança e usabilidade.",
+    "Exemplo funcional: login de usuário. Exemplo não funcional: tempo de resposta do sistema."
+  ]
+},
+{
+  "tipo": "discursiva",
+  "titulo": "Levantamento de requisitos",
+  "descricao": "Cite pelo menos 2 técnicas para realizar o levantamento de requisitos e explique cada uma delas.",
+  "criterios": {
+    "tecnicasValidas": [
+      ["entrevista", "entrevistas"],
+      ["prototipacao", "prototipação", "prototipo", "protótipo"],
+      ["questionario", "questionário", "questionarios", "questionários"],
+      ["observacao", "observação"],
+      ["workshop", "workshops"],
+      ["brainstorming"]
+    ],
+    "minTecnicas": 2,
+    "exigirExplicacao": true,
+    "minPalavrasExplicacao": 8
+  },
+  "respostaModelo": [
+    "Entrevistas: conversa direta com stakeholders para entender necessidades e expectativas.",
+    "Prototipação: criação de modelos do sistema para que os usuários visualizem e forneçam feedback."
+  ]
+},
+{
+  "tipo": "discursiva",
+  "titulo": "O que é caso de uso?",
+  "descricao": "Explique de forma resumida o que é um caso de uso.",
+  "criterios": {
+    "gruposConceito": [
+      ["usuario interage com o sistema", "interacao entre usuario e sistema", "interação entre usuário e sistema", "como o usuario usa o sistema", "como o usuário usa o sistema"],
+      ["realizar uma acao", "realizar uma ação", "executar uma funcionalidade", "atingir um objetivo", "cumprir uma tarefa"],
+      ["passo a passo", "fluxo", "sequencia de interacoes", "sequência de interações", "etapas da interacao", "etapas da interação"],
+      ["entender o sistema", "guiar o desenvolvimento", "auxiliar nos testes", "ajudar nos testes", "validar requisitos"]
+    ],
+    "minGrupos": 2
+  },
+  "respostaModelo": [
+    "Um caso de uso descreve como um usuário interage com o sistema para realizar uma ação.",
+    "Ele pode representar o fluxo ou passo a passo dessa interação.",
+    "Serve para entender o sistema, orientar o desenvolvimento e apoiar os testes."
+  ]
+},
+    {
+  "titulo": "Diagrama de Casos de Uso",
+  "descricao": "Dado o diagrama de casos de uso abaixo. Este representa uma parte dos requisitos funcionais referente ao sistema de vendas de uma loja.\n\nSegundo esse diagrama, conclui-se que:",
+  "imagem": "photoeng/eng1.jpg",
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "todo gerente pode realizar uma venda.",
+    "o cancelamento de uma venda que tenha sido paga com cartão de crédito gera uma notificação ao sistema da operadora de cartões de crédito.",
+    "o sistema de operadora de cartões de crédito é acionado diretamente pelo sistema de vendas, logo ele é interno ao sistema de vendas.",
+    "qualquer funcionário pode cancelar uma venda, pois todo gerente é um funcionário.",
+    "clientes participam do caso de uso Realiza Venda, porém eles apenas recebem informações do sistema."
+  ],
+  "resposta": "todo gerente pode realizar uma venda."
+  },
+  {
+  "titulo": "Diagrama de Atividade",
+  "descricao": "Avalie o diagrama de atividades abaixo.\n\nA alternativa correta sobre este diagrama de atividade é:",
+  "imagem": "photoeng/eng2.jpg",
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "A barra de sincronização que está entre a ação “Ação01” e as ações “Ação02” e “Ação03” é denominada de Fork que possui a finalidade de dividir o fluxo do processo em vários fluxos que podem ser executados de forma concorrente.",
+    "O elemento que está entre a ação “Ação01” e as ações “Ação02” e “Ação03” é uma barra de sincronização denominada de Join que possui a finalidade de dividir o fluxo do processo em vários fluxos que podem ser executados de forma paralela.",
+    "A barra de sincronização que está entre as ações “Ação02” e “Ação03” e a ação “Ação04” é denominada de Fork e representa a situação em que a “Ação04” só poderá ser executada após o término das ações “Ação02” e “Ação03”.",
+    "As ações “Ação02” e “Ação03” são mutuamente exclusivas, ou seja, serão executadas de acordo com o estado da barra de sincronização que está após a ação “Ação01”.",
+    "A barra de sincronização do tipo Fork que está após as ações “Ação02” e “Ação03”, fará com que a ação “Ação04” seja executada imediatamente após o encerramento da “Ação02” ou da “Ação03”."
+  ],
+  "resposta": "A barra de sincronização que está entre a ação “Ação01” e as ações “Ação02” e “Ação03” é denominada de Fork que possui a finalidade de dividir o fluxo do processo em vários fluxos que podem ser executados de forma concorrente."
+  },
+  {
+  "titulo": "Atores e Generalização",
+  "descricao": "Com base no diagrama, considere as seguintes afirmativas:",
+  "imagem": "photoeng/eng3.jpg",
+  "codigo": null,
+  "afirmacoes": [
+    {
+      "id": "I.",
+      "texto": "O diagrama de componentes apresentado tem como componentes principais Cadastrar Produto e Cadastrar Nota Fiscal."
+    },
+    {
+      "id": "II.",
+      "texto": "O ator Estoquista Chefe pode participar do caso de uso Cadastrar Produto e do caso de uso Cadastrar Nota Fiscal."
+    },
+    {
+      "id": "III.",
+      "texto": "Neste diagrama de sequência Cadastrar Produto sempre deverá ocorrer antes de Cadastrar Nota Fiscal."
+    },
+    {
+      "id": "IV.",
+      "texto": "Existe uma relação de generalização entre os atores Estoquista (ator base) e Estoquista Chefe (ator especializado)."
+    }
+  ],
+  "opcoes": [
+    "II e IV",
+    "III e IV",
+    "I",
+    "II",
+    "III"
+  ],
+  "resposta": "II e IV"
+  },
+  {
+  "titulo": "Diagrama de Sequência",
+  "descricao": "Seja o diagrama de sequência dado pela figura. Avalie as seguintes afirmativas:",
+  "imagem": "photoeng/eng4.jpg",
+  "codigo": null,
+  "afirmacoes": [
+    {
+      "id": "I.",
+      "texto": "A mensagem 1 depois de executada, criará o objeto ItemPedido."
+    },
+    {
+      "id": "II.",
+      "texto": "A mensagem 2 depois de executada terá como efeito a destruição do objeto ItemPedido."
+    },
+    {
+      "id": "III.",
+      "texto": "Os objetos em questão já existem antes que o processo de troca de mensagens comece."
+    },
+    {
+      "id": "IV.",
+      "texto": "A mensagem 2 é executada pelo objeto pedido."
+    },
+    {
+      "id": "V.",
+      "texto": "O objeto pedido foi criado durante a execução da mensagem 2."
+    }
+  ],
+  "opcoes": [
+    "I somente",
+    "II e III somente",
+    "II somente",
+    "IV e V somente",
+    "III e V somente"
+  ],
+  "resposta": "I somente"
+  },
+    {
+      "titulo": "Consistência no Design de Interfaces",
+      "descricao": "Os usuários esperam que os elementos de interface funcionem de maneira previsível, e isso pode ser alcançado através da aplicação consistente de padrões de design em todo o sistema. A consistência não se refere apenas à aparência visual, mas também ao comportamento funcional dos elementos, como botões, menus e formulários.\n\nFonte: criação do autor.\n\nSobre a importância da consistência no design de interfaces, marque a alternativa correta a seguir:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Melhora a eficiência do uso ao reduzir a curva de aprendizado.",
+        "É nociva para a aparência visual dos elementos.",
+        "Pouco afeta a confiança dos usuários nas interfaces.",
+        "Aumenta a necessidade de reaprendizagem em novas telas.",
+        "Torna os elementos de interface menos previsíveis."
+      ],
+      "resposta": "Melhora a eficiência do uso ao reduzir a curva de aprendizado."
+    },
+    {
+  "titulo": "Diagrama de Atividades - Sistema de Transporte",
+  "descricao": "Uma software house quer desenvolver um App que una empresas que precisam transportar mercadorias de condutores autônomos de veículos de carga.\n\nCom base no diagrama acima, avalie as seguintes afirmativas:",
+  "imagem": "photoeng/eng5.jpg",
+  "codigo": null,
+  "afirmacoes": [
+    {
+      "id": "I.",
+      "texto": "Os serviços oferecidos por outros Apps, como mapas para cálculo de rotas, por exemplo, poderão ser usados no desenvolvimento do aplicativo, mesmo que não tenham sido representados no diagrama."
+    },
+    {
+      "id": "II.",
+      "texto": "Os fluxos paralelos indicados nos pontos de decisão 2 e 3 levam a erros no funcionamento do aplicativo, uma vez que permitem a continuidade do processo mesmo que não haja rota, destino ou tipo de veículo adequado."
+    },
+    {
+      "id": "III.",
+      "texto": "O diagrama apresenta atividades desempenhadas pela \"Empresa que precisa de transporte\" e pelo \"Transportador\", no entanto, as atividades que precisam ser modeladas no sistema restringem-se às desempenhadas pelo \"Aplicativo\"."
+    },
+    {
+      "id": "IV.",
+      "texto": "As ações \"Informar indisponibilidade\" e \"Confirmar disponibilidade\" correspondem a funcionalidades distintas no sistema, visto que a primeira se relaciona à existência de tipo de veículo, rota e destino e a segunda se relaciona à agenda do transportador."
+    }
+  ],
+  "opcoes": [
+    "I e IV",
+    "I e II",
+    "II e III",
+    "I, III e IV",
+    "II, III e IV"
+  ],
+  "resposta": "I e IV"
+  },
+  {
+  "titulo": "Diagrama de Classes",
+  "descricao": "O laboratório XYZ abriu uma licitação para a construção de um sistema que irá controlar os exames que são realizados pelos seus pacientes. Após o levantamento de requisitos, foi gerado o diagrama de classes abaixo.\n\nAssinale a alternativa correta sobre o diagrama de classes gerado:",
+  "imagem": "photoeng/eng6.jpg",
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "os objetos da classe Empresa possuem dois atributos: o seu nome e o número de seu CNPJ.",
+    "cada objeto da classe Reativos só pode ser instanciado a partir de algum método da classe Exame.",
+    "o pacote associado à classe Pedido especifica a implementação de um método de controle do construtor da classe Pedido.",
+    "um cliente realiza nenhum ou vários pedidos envolvendo vários exames, cada qual composto por um ou mais reativos.",
+    "um mesmo cliente pode realizar um mesmo exame mais de uma vez, com a diferenciação dos pedidos realizada pela data da coleta."
+  ],
+  "resposta": "os objetos da classe Empresa possuem dois atributos: o seu nome e o número de seu CNPJ."
+},
+{
+  "titulo": "Diagrama de Caso de Uso",
+  "descricao": "Considere o diagrama de caso de uso da UML abaixo.\n\nCom base no diagrama, analise as afirmativas abaixo:",
+  "imagem": "photoeng/eng7.jpg",
+  "codigo": null,
+  "afirmacoes": [
+    {
+      "id": "1.",
+      "texto": "Decorrente do relacionamento de generalização entre os atores, o ator Vendedor executa uma tarefa comum com o ator Coordenador que é emitir relatórios de vendas."
+    },
+    {
+      "id": "2.",
+      "texto": "Decorrente do relacionamento de generalização entre os atores, o ator Coordenador executa uma tarefa comum com o ator Vendedor que é Manter o Pedido e Atualizar o Cadastro do Cliente."
+    },
+    {
+      "id": "3.",
+      "texto": "O relacionamento «extend» entre os casos de uso define que o caso de uso Manter Pedido invoca, obrigatoriamente, o caso de uso Atualizar Cadastro do Cliente."
+    },
+    {
+      "id": "4.",
+      "texto": "O relacionamento entre ator Coordenador com o caso de uso Emitir relatório de vendas é do tipo associação (ou comunicação)."
+    }
+  ],
+  "opcoes": [
+    "É correta apenas a afirmativa 1.",
+    "São corretas apenas as afirmativas 1 e 4.",
+    "São corretas apenas as afirmativas 2 e 4.",
+    "São corretas apenas as afirmativas 3 e 4.",
+    "São corretas apenas as afirmativas 1 e 3."
+  ],
+  "resposta": "São corretas apenas as afirmativas 2 e 4."
+},
+{
+  "titulo": "Diagrama de Caso de Uso - Include e Extend",
+  "descricao": "Considere o diagrama de caso de uso da UML abaixo.\n\nCom base no diagrama, analise as afirmativas abaixo:",
+  "imagem": "photoeng/eng8.jpg",
+  "codigo": null,
+  "afirmacoes": [
+    {
+      "id": "1.",
+      "texto": "O ator Proprietário tem acesso aos casos de uso do ator Gerente."
+    },
+    {
+      "id": "2.",
+      "texto": "O caso de uso Ativar Sistema sempre realiza o caso de uso Autorizar Acesso."
+    },
+    {
+      "id": "3.",
+      "texto": "O caso de uso Responder Evento, eventualmente, realiza o caso de uso Registrar Erro."
+    },
+    {
+      "id": "4.",
+      "texto": "O ator Proprietário tem acesso apenas ao caso de uso Alterar Senha."
+    }
+  ],
+  "opcoes": [
+    "Todas as afirmativas estão corretas.",
+    "São corretas apenas as afirmativas 1 e 4.",
+    "São corretas apenas as afirmativas 2, 3 e 4.",
+    "São corretas apenas as afirmativas 3 e 4.",
+    "São corretas apenas as afirmativas 1, 2 e 3."
+  ],
+  "resposta": "São corretas apenas as afirmativas 1, 2 e 3."
+},
+{
+  "titulo": "Herança de Métodos",
+  "descricao": "Observe o diagrama de classes abaixo.\n\nQual alternativa apresenta todos os métodos herdados pela classe S:",
+  "imagem": "photoeng/eng9.jpg",
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "metodoP(), metodoR()",
+    "metodoP()",
+    "metodoQ(), metodoR(), metodoP()",
+    "metodoR(), metodoQ()",
+    "metodoR()"
+  ],
+  "resposta": "metodoQ(), metodoR(), metodoP()"
+},
+{
+  "titulo": "Associação e Multiplicidade",
+  "descricao": "O clube de regatas Álvares Cabral deseja ser todo informatizado. E alguns módulos foram modelados conforme a figura.\n\nAvalie as seguintes afirmativas:",
+  "imagem": "photoeng/eng10.jpg",
+  "codigo": null,
+  "afirmacoes": [
+    {
+      "id": "I.",
+      "texto": "Todo associado pode ter muitas mensalidades para pagar, mas no máximo 12, uma para cada mês do ano."
+    },
+    {
+      "id": "II.",
+      "texto": "Um tipo de associado sempre terá muitos associados."
+    },
+    {
+      "id": "III.",
+      "texto": "Todo associado tem muitas mensalidades para pagar."
+    },
+    {
+      "id": "IV.",
+      "texto": "Alguns tipos de associados, podem ter associados com somente uma mensalidade para pagar."
+    },
+    {
+      "id": "V.",
+      "texto": "Todo associado tem um código que representa o tipo do associado."
+    },
+    {
+      "id": "VI.",
+      "texto": "Alguns tipos de associados, podem ter associados com 12 mensalidades para pagar."
+    }
+  ],
+  "opcoes": [
+    "IV e VI somente.",
+    "I, II e V somente.",
+    "III, III e VI somente.",
+    "II e V somente.",
+    "III e V somente."
+  ],
+  "resposta": "IV e VI somente."
+},
+{
+  "titulo": "Herança e Modificadores de Acesso",
+  "descricao": "Considere o diagrama de classes apresentado.\n\nAvalie as seguintes afirmativas:",
+  "imagem": "photoeng/eng11.jpg",
+  "codigo": null,
+  "afirmacoes": [
+    {
+      "id": "I.",
+      "texto": "A função + getSalario() : float do Vendedor é privada."
+    },
+    {
+      "id": "II.",
+      "texto": "O atributo - nome : String do Funcionário é privado."
+    },
+    {
+      "id": "III.",
+      "texto": "A função + getSalario() : void do Gerente é pública."
+    },
+    {
+      "id": "IV.",
+      "texto": "Vendedor e Gerente são classes herdeiras de Funcionário."
+    },
+    {
+      "id": "V.",
+      "texto": "Vendedor herda todos os atributos e funções de Funcionário."
+    }
+  ],
+  "opcoes": [
+    "II, III e IV somente.",
+    "III, IV e V somente.",
+    "I e V somente.",
+    "IV e V somente.",
+    "V somente."
+  ],
+  "resposta": "II, III e IV somente."
+},
+{
+  "titulo": "Composição e Multiplicidade",
+  "descricao": "Considere o diagrama de classes abaixo.\n\nSobre o diagrama apresentado, considere as afirmativas abaixo.\n\nEstão corretas APENAS as afirmativas:",
+  "imagem": "photoeng/eng12.jpg",
+  "codigo": null,
+  "afirmacoes": [
+    {
+      "id": "I.",
+      "texto": "Uma instância de uma NotaFiscal pode não conter Item."
+    },
+    {
+      "id": "II.",
+      "texto": "A relação entre as classes NotaFiscal e Item é uma composição."
+    },
+    {
+      "id": "III.",
+      "texto": "Um Item pode pertencer a mais de uma NotaFiscal."
+    },
+    {
+      "id": "IV.",
+      "texto": "A operação getFaturamento() é estática."
+    }
+  ],
+  "opcoes": [
+    "I e III",
+    "I e IV",
+    "II e IV",
+    "III e IV",
+    "II, III e IV"
+  ],
+  "resposta": "II e IV"
+},
+{
+  "titulo": "Diagrama de Sequência UML",
+  "descricao": "A figura a seguir ilustra um diagrama de sequência UML. Qual das alternativas abaixo está correta com relação a esse tópico?",
+  "imagem": "photoeng/eng13.jpg",
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "O diagrama de sequência UML mostra interações de objetos arranjados em uma sequência de tempo. Ele apresenta os objetos e os ads envolvidos no cenário e a sequência de mensagens trocadas entre tais objetos necessárias para executar a funcionalidade do cenário.",
+    "O diagrama de sequência UML é útil apenas quando se quer modelar a conexão entre clientes e servidores, não sendo necessário em aplicações que executam apenas no cliente.",
+    "Recentemente o diagrama de sequência foi descontinuado da UML por ter caráter ambíguo e abstrato.",
+    "Diagramas de sequência UML são criados derivados diretamente do diagrama de classes e não faz sentido eles serem originados dos diagramas de caso de uso.",
+    "É desnecessário utilizar diagramas de sequência UML para modelar ou documentar interações entre classes ou objetos que já estão presentes no diagrama de classes. Os mesmos devem aparecer em apenas um dos dois diagramas."
+  ],
+  "resposta": "O diagrama de sequência UML mostra interações de objetos arranjados em uma sequência de tempo. Ele apresenta os objetos e os ads envolvidos no cenário e a sequência de mensagens trocadas entre tais objetos necessárias para executar a funcionalidade do cenário."
+},
+    {
+      "titulo": "Kubernetes em Produção",
+      "descricao": "Uma equipe de DevOps está implementando contêineres e orquestração com Docker e Kubernetes para um grande projeto de software em produção. O objetivo principal é garantir a escalabilidade da aplicação e a sua capacidade de recuperação automática em caso de falhas. A equipe precisa configurar o Kubernetes para que a solução produza o efeito que dela se espera.\n\nFonte: criação do autor.\n\nConsiderando esse cenário, marque a alternativa que contém a afirmativa correta sobre o Kubernetes:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Oferece escalabilidade automática e recuperação de contêineres com falhas, garantindo alta disponibilidade.",
+        "Não suporta o escalonamento automático, necessitando que todos os contêineres sejam manualmente gerenciados.",
+        "É limitado à gestão de contêineres em um único nó, sem suporte para clusters distribuídos.",
+        "Carece de mecanismos de recuperação automática em caso de falhas nos contêineres.",
+        "Impossibilita o balanceamento de carga entre contêineres, exigindo uma abordagem manual para distribuir o tráfego."
+      ],
+      "resposta": "Oferece escalabilidade automática e recuperação de contêineres com falhas, garantindo alta disponibilidade."
+    },
+    {
+      "titulo": "Metodologias Ágeis no Design de Interfaces",
+      "descricao": "Métodos ágeis encontram um formidável território de aplicação junto ao design de interface de sistemas informatizados, até mesmo por uma especial capacidade de contribuição no que diz respeito à prevenção dos erros mais corriqueiros dessa atividade.\n\nFonte: criação do autor.\n\nConsidere as afirmações a seguir sobre metodologias ágeis no design de interfaces. Marque V para verdadeiro e F para falso.",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "Scrum organiza o trabalho em sprints curtos, geralmente de duas a quatro semanas."
+        },
+        {
+          "id": "II",
+          "texto": "Kanban descarta o fluxo de trabalho e a visualização das tarefas."
+        },
+        {
+          "id": "III",
+          "texto": "Ambas as metodologias, Scrum e Kanban, ajudam a manter a flexibilidade e a eficiência."
+        }
+      ],
+      "opcoes": [
+        "V - F - V",
+        "V - F - F",
+        "V - V - F",
+        "F - V - V",
+        "F - F - V"
+      ],
+      "resposta": "V - F - V"
+    },
+    {
+      "titulo": "Adoção de SOA",
+      "descricao": "O paradigma da arquitetura orientada a serviços (SOA - Service-Oriented Architecture) foi criado com foco em prover serviços fracamente acoplados e coesos como resposta à demanda de integração tecnológica global com diversidade em tecnologias, plataformas e regras de negócio.\n\nApesar de ser utilizada em diversas aplicações, nos dias atuais esse paradigma ainda não é altamente difundido, isso se deve principalmente porque:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "não existe interesse genuíno das grandes empresas tecnológicas em adotar a SOA e sim em manter estrutura de sistemas orientado a objetos.",
+        "esse paradigma levaria a um alto custo, pois pressupõe alterar a forma de modelar algo que já está pronto e funcional.",
+        "não existem vantagens concretas em sua adoção, sendo um paradigma específico para sistemas ineficientes.",
+        "é muito vantajoso propor uma nova arquitetura para algo que já está em pleno funcionamento.",
+        "essa tecnologia está em ascensão, sendo ainda muito recente para que ocorra sua completa adoção."
+      ],
+      "resposta": "esse paradigma levaria a um alto custo, pois pressupõe alterar a forma de modelar algo que já está pronto e funcional."
+    },
+    {
+      "titulo": "Terraform e Infraestrutura como Código",
+      "descricao": "Uma startup de tecnologia está migrando sua infraestrutura para um modelo de Infraestrutura com Código (IaC) para aumentar a eficiência e reduzir erros manuais. O CTO da empresa solicitou que a equipe de DevOps configure todo o ambiente de produção usando ferramentas de IaC, permitindo que a infraestrutura seja versionada e replicada facilmente. A equipe está considerando o uso de Terraform para essa tarefa, mas precisa garantir que as configurações sejam consistentes entre os diferentes ambientes de desenvolvimento, teste e produção.\n\nFonte: criação do autor.\n\nConsiderando esse cenário, marque a alternativa que contém a afirmativa correta sobre o Terraform:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Permite o provisionamento de infraestrutura em múltiplos provedores de nuvem, mantendo consistência entre ambientes.",
+        "Não suporta controle de versão, necessitando que as configurações sejam gerenciadas manualmente.",
+        "Requer que as configurações sejam feitas diretamente em cada servidor, sem automação de provisionamento.",
+        "É limitado a provisionar infraestrutura apenas em ambientes locais, sem suporte para nuvens públicas.",
+        "Inibe a replicação de infraestrutura entre ambientes de teste e produção de maneira automatizada."
+      ],
+      "resposta": "Permite o provisionamento de infraestrutura em múltiplos provedores de nuvem, mantendo consistência entre ambientes."
+    },
+    {
+      "titulo": "Monitoramento Contínuo em DevOps",
+      "descricao": "No DevOps, a prática de monitoramento contínuo desempenha um papel de suma importância para garantir a estabilidade e o desempenho de aplicações em produção. Além disso, o uso de ferramentas como Prometheus e Grafana permite a visualização em tempo real das métricas, auxiliando no diagnóstico de falhas e na melhoria da performance.\n\nFonte: criação do autor.\n\nA partir disso, veja as assertões abaixo:",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "O monitoramento contínuo em DevOps ajuda a detectar falhas antes que impactem os usuários."
+        },
+        {
+          "id": "II",
+          "texto": "Ferramentas como Prometheus são utilizadas apenas para monitorar redes, sem integração com aplicações."
+        },
+        {
+          "id": "III",
+          "texto": "O Grafana permite a criação de dashboards personalizados para acompanhar métricas de desempenho."
+        }
+      ],
+      "opcoes": [
+        "Somente I e II.",
+        "Somente I e III.",
+        "Somente a III.",
+        "I, II e III.",
+        "Somente a II e III."
+      ],
+      "resposta": "Somente I e III."
+    },
+    {
+      "titulo": "Elemento do Diagrama de Sequência UML",
+      "descricao": "No diagrama de sequência da UML, o nome do elemento que indica o período de duração pelo qual os objetos estão cooperando para realizar um comportamento é:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Linha de Vida",
+        "Marcador de interação",
+        "Foco de controle",
+        "Ponto de transição",
+        "Auto mensagem"
+      ],
+      "resposta": "Linha de Vida"
+    },
+    {
+      "titulo": "Requisitos Não Funcionais",
+      "descricao": "Considere os requisitos listados a seguir:",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "O sistema deve ser compatível com navegadores executando em smartphones."
+        },
+        {
+          "id": "II",
+          "texto": "O sistema deve permitir o cadastro de médicos, sua matrícula e suas áreas de especialização."
+        },
+        {
+          "id": "III",
+          "texto": "O sistema deve permitir a emissão de relatórios contendo a alocação das salas e turmas."
+        },
+        {
+          "id": "IV",
+          "texto": "O sistema deve ser desenvolvido na linguagem PHP."
+        },
+        {
+          "id": "V",
+          "texto": "O sistema deve fornecer uma solução de interoperabilidade com o sistema financeiro e de recursos humanos já existentes na instituição."
+        }
+      ],
+      "opcoes": [
+        "I, IV, V somente",
+        "I, II e IV somente",
+        "II, III e V somente",
+        "III e VI somente",
+        "II e V somente"
+      ],
+      "resposta": "I, IV, V somente"
+    },
+    {
+      "titulo": "Afirmações sobre Diagramas UML",
+      "descricao": "Considere as seguintes afirmações sobre Diagramas UML. Quais estão corretas?",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "O Diagrama de Estado UML modela os estados de um objeto, as ações executadas que dependem desses estados do objeto e as transições entre os estados do objeto."
+        },
+        {
+          "id": "II",
+          "texto": "O Diagrama de Sequência UML é utilizado para indicar as comunicações dinâmicas entre objetos durante a execução de uma tarefa, mas não mostra a ordem temporal na qual as mensagens são enviadas entre os objetos para executar tarefa."
+        },
+        {
+          "id": "III",
+          "texto": "No Diagrama de Classes UML, a superclasse é a especialização da subclasse. A superclasse herda todos os atributos e operações associados à sua subclasse, mas não pode incorporar atributos ou operações adicionais específicas."
+        }
+      ],
+      "opcoes": [
+        "Apenas I",
+        "Apenas I e II",
+        "Apenas I e III",
+        "Apenas II e III",
+        "I, II e III"
+      ],
+      "resposta": "Apenas I"
+    },
+    {
+      "titulo": "Importância das Histórias de Usuário",
+      "descricao": "Por que as histórias de usuário são importantes no desenvolvimento de software?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Porque priorizam requisitos técnicos",
+        "Porque mantêm o foco nas expectativas dos desenvolvedores.",
+        "Porque facilitam a comunicação entre equipes de desenvolvimento e usuários/clientes do projeto.",
+        "Porque definem a arquitetura do sistema.",
+        "Porque são focadas em testes de usabilidade."
+      ],
+      "resposta": "Porque facilitam a comunicação entre equipes de desenvolvimento e usuários/clientes do projeto."
+    },
+    {
+      "titulo": "Regras de Negócio, RF e RNF - Pipocas",
+      "descricao": "Durante a fase de levantamento de requisitos é preciso identificar as regras que regem o negócio, bem como os requisitos funcionais e não funcionais.\n\nDado o cenário, onde um vendedor de pipocas tem o objetivo de gerenciar suas vendas utilizando um aplicativo, considere as afirmativas abaixo:\n\nRN: Regra de negócio\nRF: Requisito funcional\nRNF: Requisito não funcional",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "RN01: O cliente somente recebe a pipoca com pagamento antecipado.\nRF01: O estoque deve ser reabastecido quando a quantidade de milho para pipoca atingir a quantidade mínima.\nRNF01: Determinar o tempo mínimo de resposta do aplicativo."
+        },
+        {
+          "id": "II",
+          "texto": "RN02: Durante a venda da pipoca, aplicar as promoções para aquele mês.\nRF02: Computar a quantidade de milho de pipoca no estoque.\nRNF02: Mostrar o relatório com todas as vendas."
+        },
+        {
+          "id": "III",
+          "texto": "RN03: A pipoca deve ser paga em dinheiro ou com cartão de débito.\nRF03: Consultar a quantidade de vendas.\nRNF03: Avaliar os casos em que o aplicativo fica indisponível."
+        },
+        {
+          "id": "IV",
+          "texto": "RN04: Os clientes que comprarem 3 pipocas recebem um desconto de 20%.\nRF04: Efetuar a venda da pipoca.\nRNF04: Avaliar o tempo utilizado no treinamento para aprender a usar o aplicativo."
+        }
+      ],
+      "opcoes": [
+        "III e IV somente",
+        "I e II somente",
+        "II e III somente",
+        "I, II e IV somente",
+        "I, III e IV somente"
+      ],
+      "resposta": "III e IV somente"
+    },
+    {
+      "titulo": "Principais Tipos de Diagramas UML",
+      "descricao": "A Linguagem de Modelagem Unificada UML (Unified Modeling Language) é uma linguagem padrão para a elaboração da estrutura de projetos de software. Também é muito utilizada para visualização, especificação, construção e documentação de artefatos que façam uso de sistemas complexos de software. Em outras palavras, na área de Engenharia de Software, a UML é uma linguagem de modelagem que permite representar um sistema de forma padronizada com intuito de facilitar a compreensão.\n\nPergunta: Qual das alternativas listam apenas exemplos dos principais tipos de diagramas UML?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Classe; Caso de Uso; Sequência",
+        "Classe; Espiral; Sequência",
+        "Classe; Espiral; Iterativo-incremental",
+        "Classe; Caso de Uso; Espiral",
+        "Classe; Caso de Uso; Iterativo-incremental"
+      ],
+      "resposta": "Classe; Caso de Uso; Sequência"
+    },
+    {
+  "titulo": "Diagrama de Caso de Uso - Include e Extend",
+  "descricao": "Considere o diagrama de caso de uso da UML abaixo.\n\nCom base no diagrama, analise as afirmativas abaixo:",
+  "imagem": "photoeng/eng14.jpg",
+  "codigo": null,
+  "afirmacoes": [
+    {
+      "id": "I.",
+      "texto": "O relacionamento <<include>> representa uma inclusão obrigatória de comportamento."
+    },
+    {
+      "id": "II.",
+      "texto": "O relacionamento <<extend>> representa uma execução sempre obrigatória do caso de uso estendido."
+    },
+    {
+      "id": "III.",
+      "texto": "Um ator especializado herda as interações do ator mais geral."
+    },
+    {
+      "id": "IV.",
+      "texto": "Casos de uso servem para representar principalmente a estrutura interna das classes."
+    }
+  ],
+  "opcoes": [
+    "I e III apenas",
+    "I, II e III apenas",
+    "II e IV apenas",
+    "III e IV apenas",
+    "I, III e IV apenas"
+  ],
+  "resposta": "I e III apenas"
+},
+    {
+  "titulo": "Regras de Negócio, RF e RNF - Sapatos",
+  "descricao": "Na fase de levantamento de requisito do processo de desenvolvimento de software, devem-se identificar as regras de negócio, os requisitos funcionais e não funcionais do sistema. Considerando um cenário em que um vendedor de sapatos tenha o objetivo de gerenciar suas vendas com o uso de um aplicativo, avalie os itens a seguir:",
+  "codigo": null,
+  "afirmacoes": [
+    {
+      "id": "I",
+      "texto": "Regra de negócio: entregar o sapato ao cliente somente mediante pagamento. Requisito funcional: reabastecer o estoque quando a quantidade de sapatos chegar ao estoque mínimo. Requisito não funcional: registrar quantidade vendida do produto."
+    },
+    {
+      "id": "II",
+      "texto": "Regra de negócio: aplicar promoções vigentes na realização da venda. Requisito funcional: calcular a quantidade de sapatos no estoque. Requisito não funcional: exibir relatório com o balanço de vendas."
+    },
+    {
+      "id": "III",
+      "texto": "Regra de negócio: aceitar somente pagamentos com cartão de débito ou crédito. Requisito funcional: consultar a quantidade de vendas. Requisito não funcional: verificar a possibilidade de indisponibilidade do sistema."
+    },
+    {
+      "id": "IV",
+      "texto": "Regra de negócio: conceder aos clientes que comprarem 2 sapatos um desconto de 10%. Requisito funcional: processar a venda do sapato. Requisito não funcional: tempo de processamento não pode ser superior a 2 segundos."
+    }
+  ],
+  "opcoes": [
+    "III e IV",
+    "I e II",
+    "II e III",
+    "I, II e IV",
+    "I, III e IV"
+  ],
+  "resposta": "III e IV"
+},
+    {
+      "titulo": "Sprint Retrospective no Scrum",
+      "descricao": "Uma equipe de desenvolvimento está trabalhando em um novo sistema de gerenciamento de projetos usando o framework Scrum. Ao longo do ciclo de desenvolvimento, eles realizam várias reuniões específicas para planejar, monitorar o progresso e revisar o trabalho realizado.\n\nCom base nesse cenário, qual das alternativas a seguir descreve corretamente o propósito da cerimônia Sprint Retrospective no Scrum?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "A Sprint Retrospective é uma reunião onde o Product Owner revisa o trabalho entregue pela equipe e define as prioridades para o próximo Sprint.",
+        "A Sprint Retrospective é uma reunião diária onde a equipe compartilha o que fez no dia anterior e planeja as tarefas do dia seguinte, buscando identificar bloqueios.",
+        "A Sprint Retrospective é realizada ao final do Sprint, onde a equipe reflete sobre o que funcionou bem, o que pode ser melhorado e como otimizar o processo no próximo Sprint.",
+        "A Sprint Retrospective é uma apresentação formal do trabalho concluído para os stakeholders, visando obter feedback sobre as funcionalidades desenvolvidas.",
+        "A Sprint Retrospective é o momento em que o Scrum Master atribui novas tarefas à equipe e ajusta o backlog com base nas mudanças identificadas durante o Sprint."
+      ],
+      "resposta": "A Sprint Retrospective é realizada ao final do Sprint, onde a equipe reflete sobre o que funcionou bem, o que pode ser melhorado e como otimizar o processo no próximo Sprint."
+    },
+    {
+      "titulo": "Modelos Prescritivos de Processo de Software",
+      "descricao": "Um Modelo Prescritivo de Processo de Software é um conjunto de elementos que inclui ações de engenharia de software, produtos de trabalho e mecanismos que garantam a qualidade e controle de modificações em cada projeto necessárias para o desenvolvimento de um sistema de software (PRESSMAN, 2010). Avalie as afirmativas abaixo:",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "O Modelo Espiral é um modelo evolutivo que permite o desenvolvimento de versões mais completas a cada iteração. E a análise de risco pode ser deixada para a última iteração."
+        },
+        {
+          "id": "II",
+          "texto": "No ciclo de vida em cascata o foco está em resolver riscos de requisitos bem entendidos. A resolução de riscos de requisitos que não foram bem entendidos fica para mais tarde, dando tempo suficiente para que estes possam ser entendidos e codificados."
+        },
+        {
+          "id": "III",
+          "texto": "O Modelo incremental reduz os riscos e incertezas, permitindo entregas com funcionalidades limitadas."
+        },
+        {
+          "id": "IV",
+          "texto": "Usar prototipação no modelo espiral permite diminuir os riscos."
+        },
+        {
+          "id": "V",
+          "texto": "No modelo evolucionário, é desenvolvida uma versão do produto, que é validada com o cliente e depois são criadas novas versões, mais completas, com base no feedback recebido."
+        }
+      ],
+      "opcoes": [
+        "IV e V somente",
+        "I, II e V somente",
+        "II, IV e V somente",
+        "III e IV somente",
+        "II, III e V somente"
+      ],
+      "resposta": "IV e V somente"
+    }
+  ],
+  "estruturascc": [
+    {
+      "titulo": "Funcionamento e Propriedades da Fila Circular",
+      "descricao": "Está correto o que se afirma em:",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "Uma fila circular evita o desperdício de espaço ao reaproveitar posições de um array quando ele 'dá a volta'."
+        },
+        {
+          "id": "II",
+          "texto": "O ponteiro 'frente' sempre aponta para o ultimo elemento da fila."
+        },
+        {
+          "id": "III",
+          "texto": "A fila circular pode ser implementada usando arrays ou listas encadeadas." 
+        },
+        {
+          "id": "IV",
+          "texto": "O tamanho da fila circular é fixo quando implementada com um array."
+        }
+      ],
+      "opcoes": [
+        "I e II",
+        "II, III e IV",
+        "I, II e III",
+        "I, III e IV"
+      ],
+      "resposta": "I, III e IV"
+    },
+    {
+      "titulo": "Características da Lista Simplesmente Encadeada",
+      "descricao": "Considere uma lista simplemente encadeada, Qual das seguintes afirmações é verdadeira?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "A inserção no final da lista exige percorrer toda a lista",
+        "O ultimo elemento da lista aponta para o primeiro nó, formando um ciclo",
+        "Cada nó armazena um ponteiro para o próximo nó e o anterior",
+        "O acesso aleatório a qualquer nó é O(log n)"
+      ],
+      "resposta": "A inserção no final da lista exige percorrer toda a lista"
+    },
+    {
+      "titulo": "Definição de Tipo Abstrato de Dados (TAD)",
+      "descricao": "O que melhor define um tipo Abstrato de Dados (TAD)?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Um tipo de dado definido por uma interface e cuja operações e valores são ocultados do usuário",
+        "Um tipo de dados que contém métodos publicos e privados",
+        "Uma Implementação concreta de uma estrutura de dados",
+        "Um tipo de dado que armazena dados em memória volátil e permanente"
+      ],
+      "resposta": "Um tipo de dado definido por uma interface e cuja operações e valores são ocultados do usuário"
+    },
+    {
+      "titulo": "Vantagens das Listas Encadeadas vs. Contíguas",
+      "descricao": "Qual é a principal vantagem de uma lista emcadeada sobre uma lista Contígua (array)?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Facilita a inserção e remoção de elementos em qualquer posição",
+        "Acesso direto aos elementos",
+        "Reduzir o uso de memória",
+        "Melhor desempenho de busca"
+      ],
+      "resposta": "Facilita a inserção e remoção de elementos em qualquer posição"
+    },
+    {
+      "titulo": "Complexidade de Acesso em Arrays (Listas Contíguas)",
+      "descricao": "Qual a complexidade de tempo para acessar um elemento em uma lista contígua pelo indice?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "O(1)",
+        "O(n)",
+        "O(log n)",
+        "O(n log n)"
+      ],
+      "resposta": "O(1)"
+    },
+    {
+      "titulo": "Conceitos e Operações de Pilhas (Stack)",
+      "descricao": "Está correto o que se afirma em:",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "A pilha segue o princípio LIFO (Last In, First Out)"
+        },
+        {
+          "id": "II",
+          "texto": "A operação de inserção em uma pilha é chamada de 'push'"
+        },
+        {
+          "id": "III",
+          "texto": "A operação de remoção em uma pilha é chamada de 'enqueue'"
+        },
+        {
+          "id": "IV",
+          "texto": "Em uma pilha, os elemento são removidos no mesmo lugar que são inseridos"
+        }
+      ],
+      "opcoes": [
+        "I, II e III",
+        "I, II, III e IV",
+        "I, II e IV",
+        "I, III e IV"
+      ],
+      "resposta": "I, II e IV"
+    },
+    {
+      "titulo": "Comparativo de Performance: Listas Encadeadas e Contíguas",
+      "descricao": "Está correto o que se afirma em:",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "A inserção no inicio de uma lista encadeada tem complexidade O(n)."
+        },
+        {
+          "id": "II",
+          "texto": "A pesquisa Binaria é eficiente em listas encadeadas do que em listas contíguas."
+         },
+         {
+           "id": "III",
+           "texto": "A pesquisa linear em listas contíguas e encadeadas tem a mesma complexidade de tempo no pior caso."
+         },
+         {
+           "id": "IV",
+           "texto": "Listas contíguas permitem acesso direto a qualquer elemento usando o seu índice."
+         }
+      ],
+      "opcoes": [
+        "I e II",
+        "II e IV",
+        "III e IV",
+        "I e III"
+      ],
+      "resposta": "II e IV"
+    },
+      {
+        "titulo": "Aplicabilidade da Busca Binária em Estruturas de Dados",
+        "descricao": "Está correto o que se afirma em:",
+        "codigo": null,
+        "afirmacoes": [
+          {
+            "id": "I",
+            "texto": "Em uma lista encadeada, não é possivel realizar pesquisa Binária"
+          },
+          {
+            "id": "II",
+            "texto": "A pesquisa linear em uma lista encadeada ordenada é sempre mais eficiente que uma lista desordenada."
+           },
+           {
+             "id": "III",
+             "texto": "A pesquisa linear em uma lista encadeada tem complexidade O(n)."
+           },
+           {
+             "id": "IV",
+             "texto": "Para realizar pesquisa Binária, é nescessário acesso direto por índices."
+           }
+         ],
+        "opcoes": [
+          "I e II",
+          "II e III",
+          "I, III e IV",
+          "II e IV"
+        ],
+        "resposta": "I, III e IV"
+      },
+      {
+        "titulo": "Abstração e Independência de Implementação em TADs",
+        "descricao": "Em um TAD, a implementaçãode uma estrutura de dados pode ser alterada sem afetar o código que utiliza o TAD. qual conceito torna isso possível?",
+        "codigo": null,
+        "afirmacoes": null,
+        "opcoes": [
+          "Emcapsulamento",
+          "Sobrecarga",
+          "Polimorfismo",
+          "Abstração"
+        ],
+        "resposta": "Abstração"
+      },
+      {
+        "titulo": "Fundamentos de Algoritmos de Pesquisa (Linear vs. Binária)",
+        "descricao": "Está correto o que se afirma em:",
+        "codigo": null,
+        "afirmacoes": [
+          {
+            "id": "I",
+            "texto": "A pesquisa lenear pode ser usada em listas desordenadas."
+          },
+          {
+            "id": "II",
+            "texto": "A pesquisa binária só funciona  corretamente em listas ordenadas."
+           },
+           {
+             "id": "III",
+             "texto": "A pesquisa linear tem complexidade O(log n)."
+           },
+           {
+             "id": "IV",
+             "texto": "A pesquisa Binária tem complexidade O(n) no melhor caso."
+           }
+         ],
+        "opcoes": [
+          "I e II",
+          "I e III",
+          "II e IV",
+          "I, II e IV"
+        ],
+        "resposta": "I e II"
+      },
+      {
+        "titulo": "Tratamento de Colisões em Tabelas Hash",
+        "descricao": "Quais são as abordagens comuns para tratar colisões em tabelas de hash?",
+        "codigo": null,
+        "afirmacoes": null,
+        "opcoes": [
+          "Lista encadeada e busca binária",
+          "Encadeamento e endereçamento aberto",
+          "Tabela de dispersão perfeita e busca sequencial",
+          "Hashing perfeito e lista duplamente encadeada"
+        ],
+        "resposta": "Encadeamento e endereçamento aberto"
+      },
+      {
+        "titulo": "Estratégia do Algoritmo de Ordenação Quicksort",
+        "descricao": "O quicksort é um algoritmo de ordenação que se baseia em qual técnica?",
+        "codigo": null,
+        "afirmacoes": null,
+        "opcoes": [
+          "Divisão e conquista",
+          "Trocas sucessivas entre elementos",
+          "Ordenação por comparação direta entre elementos adjacentes",
+          "Utilização de um vetor auxiliar para guardar os resultados"
+        ],
+        "resposta": "Divisão e conquista"
+      },
+      {
+      "titulo": "Princípios e Operações de Estruturas de Fila (Queue)",
+      "descricao": "Sobre o funcionamento de uma Fila, está correto o que se afirma em:",
+      "codigo": null,
+      "afirmacoes":[
+        {
+          "id": "I",
+          "texto": "A fila segue o princípio LIFO (Last In, First Out)."
+        },
+        {
+          "id": "II",
+          "texto": "Em uma fila, o elemento é sempre inserido no final e removido no início."
+         },
+         {
+           "id": "III",
+           "texto": "A operação de inserção em uma fila é chamada de 'enqueue'."
+         },
+         {
+           "id": "IV",
+           "texto": "A operação de remoção em uma fila é chamada de 'peek'."
+         }  
+      ],
+      "opcoes": [
+        "II e III",
+        "I e III",
+        "I, II e III",
+        "II e IV"
+      ],
+      "resposta": "II e III"
+    },
+      {
+        "titulo": "Exemplos e Classificação de Estruturas de Dados",
+        "descricao": "Qual das opções a seguir é um exemplo de estrutura de dados?",
+        "codigo": null,
+        "afirmacoes": null,
+        "opcoes": [
+          "Vetores, registros e listas encadeadas",
+          "Funções e operações de uma linguagem de programação",
+          "Tipos de dados como char, int e float",
+          "Linguagens de programação como C e Java"
+        ],
+        "resposta": "Vetores, registros e listas encadeadas"
+      },
+      {
+        "titulo": "Eficiência de Busca em Vetores Ordenados",
+        "descricao": "Dado um Array ordenado de n elementos, qual algoritmo de busca apresenta o melhor custos(em termo de complexidade de tempo) e qual a sua complexidade?",
+        "codigo": null,
+        "afirmacoes": null,
+        "opcoes": [
+          "Busca binária O(log n)",
+          "Busca linear O(log n)",
+          "Busca binária O(n)",
+          "Busca Exponencial O(n²)"
+        ],
+        "resposta": "Busca binária O(log n)"
+      },
+      {
+        "titulo": "Mecanismo de Funcionamento do Mergesort",
+        "descricao": "Como o Mergersort funciona para ordenar uma lista de vetores?",
+        "codigo": null,
+        "afirmacoes": null,
+        "opcoes": [
+          "Ele divide o vetor original em subvetores menores, os ordena recursivamente e depois os combina.",
+          "Ele realiza trocas sucessivas entre elementos adjacentes até que a lista esteja ordenada.",
+          "Ele escolhe um pivô e divide a lista em duas partes, baseadas no valor do pivô.",
+          "Ele utiliza a tecnica de ordenação por inserção em cada subvetor"
+        ],
+        "resposta": "Ele divide o vetor original em subvetores menores, os ordena recursivamente e depois os combina."
+      }
+  ]
+}
