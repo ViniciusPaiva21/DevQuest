@@ -1,37 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DevQuest - Modo Infernus</title>
-    
+
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
-    
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
-    
+
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
-        
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
         body {
             font-family: 'Inter', sans-serif;
             background-color: #09090b;
             color: #e4e4e7;
         }
-        
+
         pre::-webkit-scrollbar {
             height: 8px;
         }
+
         pre::-webkit-scrollbar-track {
             background: #18181b;
             border-radius: 0 0 8px 8px;
         }
+
         pre::-webkit-scrollbar-thumb {
             background: #3f3f46;
             border-radius: 4px;
         }
-        
+
         @keyframes pulse-slow {
             0%, 100% { opacity: 0.25; }
             50% { opacity: 0.55; }
@@ -101,11 +103,32 @@
             position: relative;
             z-index: 1;
         }
+
+        .subject-select-card {
+            transition: all 0.22s ease;
+        }
+
+        .subject-select-card:hover {
+            transform: translateY(-3px);
+            border-color: rgba(255,255,255,0.16);
+            background: rgba(24,24,27,0.85);
+        }
+
+        .subject-select-card.selected {
+            border-color: rgba(255,255,255,0.45);
+            background: rgba(255,255,255,0.08);
+            box-shadow: 0 0 40px -18px rgba(255,255,255,0.22);
+        }
+
+        .setup-chip {
+            border: 1px solid rgba(255,255,255,0.08);
+            background: rgba(255,255,255,0.04);
+        }
     </style>
 </head>
 <body class="min-h-screen flex flex-col selection:bg-white selection:text-black overflow-x-hidden">
 
-    <!-- FOGO BRANCO -->
+    <!-- FOGO -->
     <div class="fire-bg">
         <div class="fire-core fire-lg" style="left: 3%; animation-duration: 4.8s, 2.1s; animation-delay: 0s, 0s;"></div>
         <div class="fire-core fire-md" style="left: 12%; animation-duration: 5.2s, 1.9s; animation-delay: 0.7s, 0.3s;"></div>
@@ -119,6 +142,7 @@
         <div class="fire-core fire-lg" style="left: 90%; animation-duration: 5.1s, 2.4s; animation-delay: 1.0s, 0.7s;"></div>
     </div>
 
+    <!-- HEADER -->
     <header class="content-layer w-full py-6 px-6 flex justify-between items-center border-b border-zinc-800/50 bg-zinc-950/50 backdrop-blur-sm sticky top-0 z-50">
         <div class="flex items-center gap-3 group cursor-pointer" onclick="window.location.href='index.html'">
             <div class="p-2 bg-zinc-900 rounded-lg border border-zinc-800 group-hover:border-white/50 transition-colors">
@@ -130,15 +154,14 @@
                 </h1>
             </div>
         </div>
-        
+
         <nav class="hidden md:flex gap-6 text-sm font-medium text-zinc-400">
             <a href="index.html" class="hover:text-white transition-colors">Início</a>
-            <a href="engenharia.html" class="hover:text-white transition-colors">Modo Normal</a>
         </nav>
     </header>
 
-    <main id="main-wrapper" class="content-layer flex-grow flex flex-col items-center justify-center px-4 py-12 relative w-full max-w-5xl mx-auto">
-        
+    <!-- MAIN -->
+    <main id="main-wrapper" class="content-layer flex-grow flex flex-col items-center justify-center px-4 py-12 relative w-full max-w-6xl mx-auto">
         <div class="absolute top-0 left-1/4 w-96 h-96 bg-white/10 rounded-full blur-3xl -z-10 animate-pulse-slow"></div>
         <div class="absolute bottom-10 right-1/4 w-96 h-96 bg-zinc-300/10 rounded-full blur-3xl -z-10 animate-pulse-slow" style="animation-duration: 6s;"></div>
 
@@ -149,32 +172,198 @@
             <h1 class="text-3xl md:text-5xl font-extrabold tracking-tight mb-2 text-white">
                 Modo Infernus
             </h1>
-            <p class="text-zinc-400">Engenharia + Backend + Estruturas de Dados. Errou 3, reinicia.</p>
+            <p class="text-zinc-400 max-w-2xl mx-auto">
+                Escolha as matérias que quer misturar. Você precisa selecionar no mínimo <span class="text-white font-bold">2</span>.
+            </p>
         </div>
 
-        <div class="mb-6 flex flex-wrap items-center justify-center gap-3 z-10">
+        <!-- SETUP -->
+        <div id="setup-screen" class="w-full max-w-5xl z-10">
+            <div class="bg-zinc-900/60 backdrop-blur-md border border-zinc-800 p-6 md:p-8 rounded-3xl shadow-2xl">
+                <div class="mb-8 text-center">
+                    <h2 class="text-2xl md:text-3xl font-bold text-white mb-3">
+                        Monte o seu Infernus
+                    </h2>
+                    <p class="text-zinc-400 max-w-3xl mx-auto">
+                        As questões serão embaralhadas entre todas as matérias selecionadas, incluindo trilhas de ADS e CC.
+                    </p>
+                </div>
+
+                <div id="subject-selection" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 mb-8">
+                    <button type="button" class="subject-select-card text-left rounded-2xl border border-zinc-800 bg-zinc-950/50 p-5" data-subject="frontend">
+                        <div class="flex items-center gap-3 mb-3">
+                            <div class="p-3 rounded-xl bg-zinc-900 border border-zinc-800">
+                                <i data-lucide="code-2" class="w-6 h-6 text-violet-400"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-white font-bold text-lg">Frontend</h3>
+                                <p class="text-zinc-500 text-xs uppercase tracking-widest">ADS</p>
+                            </div>
+                        </div>
+                        <p class="text-zinc-400 text-sm leading-relaxed">
+                            HTML, CSS, JS, React e construção de interfaces.
+                        </p>
+                    </button>
+
+                    <button type="button" class="subject-select-card text-left rounded-2xl border border-zinc-800 bg-zinc-950/50 p-5" data-subject="ux">
+                        <div class="flex items-center gap-3 mb-3">
+                            <div class="p-3 rounded-xl bg-zinc-900 border border-zinc-800">
+                                <i data-lucide="palette" class="w-6 h-6 text-fuchsia-400"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-white font-bold text-lg">UX / UI Design</h3>
+                                <p class="text-zinc-500 text-xs uppercase tracking-widest">ADS</p>
+                            </div>
+                        </div>
+                        <p class="text-zinc-400 text-sm leading-relaxed">
+                            Heurísticas, Figma e experiência do usuário.
+                        </p>
+                    </button>
+
+                    <button type="button" class="subject-select-card text-left rounded-2xl border border-zinc-800 bg-zinc-950/50 p-5" data-subject="engenharia">
+                        <div class="flex items-center gap-3 mb-3">
+                            <div class="p-3 rounded-xl bg-zinc-900 border border-zinc-800">
+                                <i data-lucide="git-branch" class="w-6 h-6 text-orange-400"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-white font-bold text-lg">Engenharia</h3>
+                                <p class="text-zinc-500 text-xs uppercase tracking-widest">ADS</p>
+                            </div>
+                        </div>
+                        <p class="text-zinc-400 text-sm leading-relaxed">
+                            Ciclo de vida, metodologias ágeis e qualidade.
+                        </p>
+                    </button>
+
+                    <button type="button" class="subject-select-card text-left rounded-2xl border border-zinc-800 bg-zinc-950/50 p-5" data-subject="backend">
+                        <div class="flex items-center gap-3 mb-3">
+                            <div class="p-3 rounded-xl bg-zinc-900 border border-zinc-800">
+                                <i data-lucide="server" class="w-6 h-6 text-red-400"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-white font-bold text-lg">Back End</h3>
+                                <p class="text-zinc-500 text-xs uppercase tracking-widest">ADS</p>
+                            </div>
+                        </div>
+                        <p class="text-zinc-400 text-sm leading-relaxed">
+                            APIs, banco de dados, infraestrutura e lógica de servidor.
+                        </p>
+                    </button>
+
+                    <button type="button" class="subject-select-card text-left rounded-2xl border border-zinc-800 bg-zinc-950/50 p-5" data-subject="estruturas">
+                        <div class="flex items-center gap-3 mb-3">
+                            <div class="p-3 rounded-xl bg-zinc-900 border border-zinc-800">
+                                <i data-lucide="layers" class="w-6 h-6 text-yellow-400"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-white font-bold text-lg">Estruturas de Dados</h3>
+                                <p class="text-zinc-500 text-xs uppercase tracking-widest">ADS</p>
+                            </div>
+                        </div>
+                        <p class="text-zinc-400 text-sm leading-relaxed">
+                            Arrays, listas e complexidade de algoritmos.
+                        </p>
+                    </button>
+
+                    <button type="button" class="subject-select-card text-left rounded-2xl border border-zinc-800 bg-zinc-950/50 p-5" data-subject="designthinking">
+                        <div class="flex items-center gap-3 mb-3">
+                            <div class="p-3 rounded-xl bg-zinc-900 border border-zinc-800">
+                                <i data-lucide="lightbulb" class="w-6 h-6 text-lime-400"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-white font-bold text-lg">Design Thinking</h3>
+                                <p class="text-zinc-500 text-xs uppercase tracking-widest">CC</p>
+                            </div>
+                        </div>
+                        <p class="text-zinc-400 text-sm leading-relaxed">
+                            Empatia, ideação, prototipagem e inovação.
+                        </p>
+                    </button>
+
+                    <button type="button" class="subject-select-card text-left rounded-2xl border border-zinc-800 bg-zinc-950/50 p-5" data-subject="logica">
+                        <div class="flex items-center gap-3 mb-3">
+                            <div class="p-3 rounded-xl bg-zinc-900 border border-zinc-800">
+                                <i data-lucide="binary" class="w-6 h-6 text-blue-400"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-white font-bold text-lg">Lógica</h3>
+                                <p class="text-zinc-500 text-xs uppercase tracking-widest">CC</p>
+                            </div>
+                        </div>
+                        <p class="text-zinc-400 text-sm leading-relaxed">
+                            Algoritmos e pensamento computacional.
+                        </p>
+                    </button>
+
+                    <button type="button" class="subject-select-card text-left rounded-2xl border border-zinc-800 bg-zinc-950/50 p-5" data-subject="estruturascc">
+                        <div class="flex items-center gap-3 mb-3">
+                            <div class="p-3 rounded-xl bg-zinc-900 border border-zinc-800">
+                                <i data-lucide="layers" class="w-6 h-6 text-emerald-400"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-white font-bold text-lg">Estruturas CC</h3>
+                                <p class="text-zinc-500 text-xs uppercase tracking-widest">CC</p>
+                            </div>
+                        </div>
+                        <p class="text-zinc-400 text-sm leading-relaxed">
+                            Pilhas, filas e complexidade Big O.
+                        </p>
+                    </button>
+                </div>
+
+                <div class="flex flex-wrap items-center justify-center gap-3 mb-6">
+                    <div class="setup-chip px-4 py-2 rounded-xl text-zinc-300 text-sm">
+                        Selecionadas: <span id="selected-count" class="font-bold text-white">0</span>
+                    </div>
+                    <div class="setup-chip px-4 py-2 rounded-xl text-zinc-300 text-sm">
+                        Mínimo necessário: <span class="font-bold text-white">2</span>
+                    </div>
+                </div>
+
+                <div id="setup-error" class="hidden mb-5 text-center text-red-400 font-medium">
+                    Selecione pelo menos 2 matérias para iniciar.
+                </div>
+
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <button onclick="startInfernus()" class="px-8 py-4 bg-white text-zinc-950 font-bold rounded-xl hover:bg-zinc-200 transition-colors shadow-lg transform active:scale-95">
+                        Começar Infernus
+                    </button>
+                    <button onclick="clearSelection()" class="px-8 py-4 bg-zinc-800 text-white font-bold rounded-xl hover:bg-zinc-700 transition-colors border border-zinc-700">
+                        Limpar seleção
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- STATUS -->
+        <div id="stats-bar" class="mb-6 flex flex-wrap items-center justify-center gap-3 z-10 hidden">
             <div class="px-4 py-2 rounded-xl border border-zinc-800 bg-zinc-900/50 text-zinc-300 text-sm">
                 Acertos: <span id="hits-count" class="font-bold text-white">0</span>
             </div>
             <div class="px-4 py-2 rounded-xl border border-zinc-800 bg-zinc-900/50 text-zinc-300 text-sm">
                 Erros: <span id="errors-count" class="font-bold text-red-400">0</span>/3
             </div>
+            <div class="px-4 py-2 rounded-xl border border-zinc-800 bg-zinc-900/50 text-zinc-300 text-sm">
+                Matérias: <span id="selected-subjects-label" class="font-bold text-white">-</span>
+            </div>
         </div>
-        
-        <div id="loading" class="text-white font-bold text-xl animate-pulse">Aguarde, reunindo questões...</div>
 
+        <div id="loading" class="hidden text-white font-bold text-xl animate-pulse">Aguarde, reunindo questões...</div>
+
+        <!-- QUIZ -->
         <div id="quiz-container" class="w-full max-w-4xl z-10 hidden">
             <div id="question-area" class="bg-zinc-900/60 backdrop-blur-md border border-zinc-800 p-6 md:p-8 rounded-3xl shadow-2xl"></div>
-            
+
             <button id="next-btn" onclick="nextQuestion()" class="hidden w-full mt-6 py-4 bg-white text-zinc-950 font-bold rounded-xl hover:bg-zinc-200 transition-colors shadow-lg transform active:scale-95">
                 Próxima Pergunta ➡️
             </button>
         </div>
 
+        <!-- FINAL -->
         <div id="final-screen" class="hidden w-full max-w-2xl text-center bg-zinc-900/60 backdrop-blur-md border border-zinc-800 p-10 rounded-3xl shadow-2xl z-10">
             <h2 class="text-3xl font-bold text-white mb-4">Fim do Infernus. ☠️</h2>
             <p id="score-text" class="text-2xl text-white font-bold mb-8"></p>
-            
+
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
                 <button onclick="location.reload()" class="px-8 py-3 bg-white text-zinc-950 font-bold rounded-xl hover:bg-zinc-200 transition-colors">
                     Jogar Novamente
@@ -186,6 +375,7 @@
         </div>
     </main>
 
+    <!-- FOOTER -->
     <footer class="content-layer w-full py-8 border-t border-zinc-800/50 bg-zinc-950 relative z-10 mt-auto">
         <div class="max-w-6xl mx-auto px-6 text-center">
             <p class="text-zinc-500 text-sm flex items-center justify-center gap-1">
@@ -211,7 +401,6 @@
             <circle cx="73" cy="53" r="2.4" fill="#e5e7eb" class="animate-pulse"/>
 
             <path d="M56 64 L64 64 L60 69 Z" fill="#d4d4d8"/>
-
             <path d="M44 73 Q60 96 76 73 Q72 102 60 104 Q48 102 44 73 Z" fill="#111827" stroke="#3f3f46" stroke-width="2"/>
 
             <path d="M49 73 L53 82 L57 73 Z" fill="#ffffff"/>
@@ -235,6 +424,42 @@
         let currentQuestion = 0;
         let score = 0;
         let errors = 0;
+        let selectedSubjects = [];
+
+        const subjectMap = {
+            frontend: {
+                keys: ["frontend"],
+                label: "Frontend"
+            },
+            ux: {
+                keys: ["ux", "uxui", "ux_ui", "uiux", "ui_ux"],
+                label: "UX / UI Design"
+            },
+            engenharia: {
+                keys: ["engenharia"],
+                label: "Engenharia"
+            },
+            backend: {
+                keys: ["backend", "backEnd", "back_end"],
+                label: "Back End"
+            },
+            estruturas: {
+                keys: ["estruturasDeDados", "estruturas_dados", "estruturas"],
+                label: "Estruturas de Dados"
+            },
+            designthinking: {
+                keys: ["designthinking", "design_thinking", "designThinking"],
+                label: "Design Thinking"
+            },
+            logica: {
+                keys: ["logica", "lógica"],
+                label: "Lógica"
+            },
+            estruturascc: {
+                keys: ["estruturascc", "estruturas_cc", "estruturasCC"],
+                label: "Estruturas CC"
+            }
+        };
 
         function shuffleArray(array) {
             for (let i = array.length - 1; i > 0; i--) {
@@ -273,6 +498,27 @@
             document.getElementById("errors-count").innerText = errors;
         }
 
+        function updateSelectedCount() {
+            document.getElementById("selected-count").innerText = selectedSubjects.length;
+        }
+
+        function updateSelectedSubjectsLabel() {
+            const labels = selectedSubjects
+                .map(subject => subjectMap[subject]?.label)
+                .filter(Boolean);
+
+            document.getElementById("selected-subjects-label").innerText = labels.join(", ");
+        }
+
+        function clearSelection() {
+            selectedSubjects = [];
+            document.querySelectorAll(".subject-select-card").forEach(card => {
+                card.classList.remove("selected");
+            });
+            document.getElementById("setup-error").classList.add("hidden");
+            updateSelectedCount();
+        }
+
         function triggerResetByErrors() {
             const wrapper = document.getElementById("main-wrapper");
             wrapper.classList.add("shake-screen");
@@ -283,6 +529,27 @@
             }, 350);
         }
 
+        function setupSubjectSelection() {
+            const buttons = document.querySelectorAll(".subject-select-card");
+
+            buttons.forEach(button => {
+                button.addEventListener("click", () => {
+                    const subject = button.dataset.subject;
+
+                    if (selectedSubjects.includes(subject)) {
+                        selectedSubjects = selectedSubjects.filter(item => item !== subject);
+                        button.classList.remove("selected");
+                    } else {
+                        selectedSubjects.push(subject);
+                        button.classList.add("selected");
+                    }
+
+                    document.getElementById("setup-error").classList.add("hidden");
+                    updateSelectedCount();
+                });
+            });
+        }
+
         async function loadQuestions() {
             document.getElementById("loading").classList.remove("hidden");
 
@@ -291,33 +558,56 @@
                 if (!response.ok) throw new Error(`Erro: ${response.status}`);
 
                 const data = await response.json();
-
                 let mergedQuestions = [];
 
-                const engenharia = Array.isArray(data.engenharia) ? data.engenharia.map(q => ({ ...q, materia: "engenharia" })) : [];
-                const backend = Array.isArray(data.backend) ? data.backend.map(q => ({ ...q, materia: "backend" })) : [];
-                const estruturas = (
-                    Array.isArray(data.estruturasDeDados) ? data.estruturasDeDados :
-                    Array.isArray(data.estruturas_dados) ? data.estruturas_dados :
-                    Array.isArray(data.estruturas) ? data.estruturas :
-                    []
-                ).map(q => ({ ...q, materia: "estruturas de dados" }));
+                selectedSubjects.forEach(subjectId => {
+                    const subjectConfig = subjectMap[subjectId];
+                    if (!subjectConfig) return;
 
-                mergedQuestions = [...engenharia, ...backend, ...estruturas];
+                    let foundQuestions = [];
+
+                    subjectConfig.keys.forEach(key => {
+                        if (Array.isArray(data[key])) {
+                            foundQuestions.push(...data[key]);
+                        }
+                    });
+
+                    if (foundQuestions.length > 0) {
+                        mergedQuestions.push(
+                            ...foundQuestions.map(q => ({
+                                ...q,
+                                materia: subjectConfig.label.toLowerCase()
+                            }))
+                        );
+                    }
+                });
+
                 questions = shuffleArray(mergedQuestions);
 
                 if (questions.length > 0) {
                     document.getElementById("loading").classList.add("hidden");
                     document.getElementById("quiz-container").classList.remove("hidden");
+                    document.getElementById("stats-bar").classList.remove("hidden");
                     updateCounters();
+                    updateSelectedSubjectsLabel();
                     showQuestion();
                 } else {
-                    document.getElementById("loading").innerText = "Nenhuma pergunta encontrada para o Modo Infernus.";
+                    document.getElementById("loading").innerText = "Nenhuma pergunta encontrada para as matérias selecionadas.";
                 }
             } catch (error) {
                 console.error(error);
                 document.getElementById("loading").innerText = "Erro ao carregar JSON.";
             }
+        }
+
+        function startInfernus() {
+            if (selectedSubjects.length < 2) {
+                document.getElementById("setup-error").classList.remove("hidden");
+                return;
+            }
+
+            document.getElementById("setup-screen").classList.add("hidden");
+            loadQuestions();
         }
 
         function showQuestion() {
@@ -341,7 +631,7 @@
                     <h2 class="text-xl md:text-2xl font-bold text-white mt-2 leading-relaxed">
                         ${q.titulo || ""}
                     </h2>
-                    
+
                     <p class="text-zinc-300 mt-4 text-sm leading-relaxed whitespace-pre-line">
                         ${q.descricao || ""}
                     </p>
@@ -356,7 +646,7 @@
                             >
                         </div>
                     ` : ""}
-                    
+
                     ${q.codigo ? `
                         <div class="my-6 rounded-xl overflow-hidden border border-zinc-700 shadow-2xl">
                             <div class="bg-zinc-800 px-4 py-2 text-xs text-zinc-400 flex gap-2 items-center border-b border-zinc-700">
@@ -507,7 +797,7 @@
             }, 1000);
         }
 
-        loadQuestions();
+        setupSubjectSelection();
     </script>
 </body>
 </html>
