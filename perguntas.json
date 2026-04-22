@@ -3483,6 +3483,56 @@
         "resposta": "Busca binária O(log n)"
       },
       {
+  "titulo": "Pesquisa em Lista Encadeada",
+  "descricao": "Em uma lista encadeada, qual das alternativas abaixo descreve corretamente o método de pesquisa?",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "A pesquisa é sempre O(1)",
+    "A pesquisa requer percorrer todos os elementos a partir do final da lista",
+    "A pesquisa é O(log n) para listas encadeadas ordenadas",
+    "A pesquisa é mais eficiente que em listas contíguas",
+    "A pesquisa requer percorrer os elementos um por um, até encontrar o elemento procurado ou alcançar o final da lista"
+  ],
+  "resposta": "A pesquisa requer percorrer os elementos um por um, até encontrar o elemento procurado ou alcançar o final da lista"
+},
+{
+  "titulo": "Função de Dispersão (Hash)",
+  "descricao": "Qual é o objetivo principal de uma função de dispersão (hash function) em uma tabela hash?",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "Transformar uma chave em um índice no array que compõe a tabela hash.",
+    "Aumentar a segurança dos dados.",
+    "Garantir que os dados sejam armazenados de forma ordenada.",
+    "Reduzir o tamanho dos dados armazenados.",
+    "Evitar a ocorrência de colisões"
+  ],
+  "resposta": "Transformar uma chave em um índice no array que compõe a tabela hash."
+},
+{
+  "titulo": "Fila com Lista Encadeada",
+  "descricao": "Considere as afirmações sobre uma fila implementada com lista encadeada:\n\nI. Em uma fila implementada usando lista encadeada, não há necessidade de gerenciar a capacidade, pois ela cresce dinamicamente.\n\nII. A inserção de um elemento em uma fila implementada usando lista encadeada é feita na frente da fila.\n\nIII. A remoção de um elemento em uma fila implementada usando lista encadeada ocorre no final da fila.\n\nIV. A complexidade das operações de inserção e remoção em uma fila implementada usando lista encadeada é O(1).\n\nEstá correto o que se afirma em:",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": [
+    "I",
+    "II",
+    "III",
+    "IV"
+  ],
+  "opcoes": [
+    "Somente I",
+    "I e IV",
+    "II, III e IV",
+    "II e III",
+    "Somente IV"
+  ],
+  "resposta": "Somente I"
+},
+      {
         "titulo": "Mecanismo de Funcionamento do Mergesort",
         "descricao": "Como o Mergersort funciona para ordenar uma lista de vetores?",
         "codigo": null,
