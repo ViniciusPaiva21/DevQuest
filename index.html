@@ -175,6 +175,15 @@
       background: linear-gradient(135deg, rgba(16,185,129,0.10), transparent 55%);
     }
 
+    .accent-green-dark:hover {
+      border-color: rgba(22,163,74,0.55);
+      box-shadow: 0 0 50px -14px rgba(22,163,74,0.35);
+    }
+
+    .accent-green-dark::before {
+      background: linear-gradient(135deg, rgba(22,163,74,0.12), transparent 55%);
+    }
+
     .course-chip {
       border: 1px solid rgba(255,255,255,0.08);
       background: rgba(255,255,255,0.04);
@@ -251,7 +260,7 @@
 
       <nav class="hidden md:flex gap-6 text-sm font-medium text-zinc-400">
         <a href="#" class="hover:text-violet-400 transition-colors">Sobre</a>
-        <a href="#" class="hover:text-violet-400 transition-colors">Contribuir</a>
+        <a href="contribuir.html" class="hover:text-violet-400 transition-colors">Contribuir</a>
         <a href="#" class="hover:text-violet-400 transition-colors">Login</a>
       </nav>
     </div>
@@ -265,21 +274,12 @@
 
     <section class="max-w-7xl mx-auto px-6 pt-14 pb-20">
       <div class="max-w-4xl mx-auto text-center mb-14">
-        <div class="/60 text-xs font-semibold tracking-[0.18em] uppercase text-zinc-400 mb-6">
-          
-          
-        </div>
-
         <h2 class="text-4xl md:text-6xl font-black tracking-tight leading-none mb-5 bg-clip-text text-transparent bg-gradient-to-r from-white via-zinc-100 to-zinc-500">
           DevQuest<br />
           <span id="heroCourseText" class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-violet-400">
-            
+            com as matérias organizadas
           </span>
         </h2>
-
-        <p class="text-base md:text-lg text-zinc-400 max-w-2xl mx-auto leading-relaxed mb-10">
-          
-        </p>
 
         <div class="flex items-center justify-center mb-8">
           <div class="inline-flex items-center gap-3 p-2 rounded-[2rem] border border-zinc-800 bg-zinc-950/80 shadow-2xl">
@@ -305,7 +305,7 @@
 
         <div class="flex flex-wrap items-center justify-center gap-3" id="courseSummary">
           <span id="summaryCourse" class="course-chip px-4 py-2 rounded-full text-sm font-semibold">Curso selecionado: ADS</span>
-          <span id="summaryCount" class="course-chip px-4 py-2 rounded-full text-sm font-semibold">5 disciplinas</span>
+          <span id="summaryCount" class="course-chip px-4 py-2 rounded-full text-sm font-semibold">7 disciplinas</span>
           <span id="summaryHint" class="course-chip px-4 py-2 rounded-full text-sm font-semibold">Sem misturar matérias</span>
         </div>
       </div>
@@ -327,7 +327,7 @@
             </h3>
 
             <p class="text-zinc-400 max-w-2xl mx-auto leading-relaxed">
-              O Modo Infernus mistura questões de múltiplas áreas em uma sequência caótica. Não é uma disciplina comum é um teste de resistência.
+              O Modo Infernus mistura questões de múltiplas áreas em uma sequência caótica. Não é uma disciplina comum, é um teste de resistência.
             </p>
           </div>
 
@@ -432,7 +432,7 @@
       ADS: {
         label: 'ADS',
         heroText: 'com as matérias organizadas',
-        count: '5 disciplinas',
+        count: '7 disciplinas',
         hint: 'Sem misturar matérias',
         subjects: [
           {
@@ -471,7 +471,7 @@
             iconColor: 'text-red-400',
             arrowColor: 'group-hover:text-red-400'
           },
-           {
+          {
             title: 'Estruturas de Dados',
             description: 'Arrays, Listas e Complexidade de Algoritmos.',
             href: 'estruturas.html',
@@ -482,12 +482,21 @@
           },
           {
             title: 'Arquitetura de Dados Relacionais II',
-            description: 'preencher',
-            href: 'preencher',
+            description: 'Normalização (1FN, 2FN, 3FN), SQL avançado e modelagem de dados.',
+            href: 'adrii.html',
             icon: 'database',
-            accentClass: 'accent-lime',
-            iconColor: 'text-lime-400',
-            arrowColor: 'group-hover:text-lime-400'
+            accentClass: 'accent-green-dark',
+            iconColor: 'text-green-500',
+            arrowColor: 'group-hover:text-green-400'
+          },
+          {
+            title: 'Sistemas Operacionais',
+            description: 'Escalonamento de processos, Gerenciamento de memória e Sistemas de arquivos.',
+            href: 'preencher',
+            icon: 'cpu',
+            accentClass: 'accent-fuchsia',
+            iconColor: 'text-fuchsia-400',
+            arrowColor: 'group-hover:text-fuchsia-400'
           }
         ]
       },
@@ -495,7 +504,7 @@
       CC: {
         label: 'CC',
         heroText: 'com as matérias organizadas',
-        count: '6 disciplinas',
+        count: '8 disciplinas',
         hint: 'Apenas matérias de Ciência da Computação',
         subjects: [
           {
@@ -551,6 +560,24 @@
             accentClass: 'accent-emerald',
             iconColor: 'text-emerald-400',
             arrowColor: 'group-hover:text-emerald-400'
+          },
+          {
+            title: 'Arquitetura de Dados Relacionais II',
+            description: 'Normalização (1FN, 2FN, 3FN), SQL avançado e modelagem de dados.',
+            href: 'adrii.html',
+            icon: 'database',
+            accentClass: 'accent-green-dark',
+            iconColor: 'text-green-500',
+            arrowColor: 'group-hover:text-green-400'
+          },
+          {
+            title: 'Sistemas Operacionais',
+            description: 'Escalonamento de processos, Gerenciamento de memória e Sistemas de arquivos.',
+            href: 'preencher',
+            icon: 'cpu',
+            accentClass: 'accent-fuchsia',
+            iconColor: 'text-fuchsia-400',
+            arrowColor: 'group-hover:text-fuchsia-400'
           }
         ]
       }

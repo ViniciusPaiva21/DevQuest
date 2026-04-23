@@ -3184,7 +3184,7 @@
       "resposta": "IV e V somente"
     }
   ],
-  "estruturascc": [
+    "estruturascc": [
     {
       "titulo": "Funcionamento e Propriedades da Fila Circular",
       "descricao": "Está correto o que se afirma em:",
@@ -3545,5 +3545,544 @@
         ],
         "resposta": "Ele divide o vetor original em subvetores menores, os ordena recursivamente e depois os combina."
       }
+    ],
+  "adrii": [
+    {
+      "titulo": "Transações em SQL",
+      "descricao": "Em SQL, quais os comandos utilizados para iniciar uma transação, para reverter uma transação e para confirmar uma transação no banco de dados?",
+      "imagem": null,
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "BEGIN TRANSACTION para iniciar, ROLLBACK para reverter e COMMIT para confirmar",
+        "CREATE AS TRANSACTION para iniciar, ROLLBACK para reverter e CONFIRM para confirmar",
+        "CREATE TRANSACTION para iniciar, CANCEL TRANSACTION para reverter e UPDATE para confirmar",
+        "INIT TRANSACTION para iniciar, UNDO TRANSACTION para reverter e CLOSE TRANSACTION para confirmar",
+        "OPEN TRANSACTION para iniciar, CANCEL TRANSACTION para reverter e CLOSE TRANSACTION para confirmar"
+      ],
+      "resposta": "BEGIN TRANSACTION para iniciar, ROLLBACK para reverter e COMMIT para confirmar"
+    },
+    {
+      "titulo": "Trigger vs Stored Procedure",
+      "descricao": "Qual das seguintes afirmações distingue corretamente um trigger de uma stored procedure?",
+      "imagem": null,
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Um trigger é geralmente usado para validação de dados, enquanto uma stored procedure é usada para processamento de consultas complexas.",
+        "Um trigger não pode acessar tabelas além daquelas para as quais foi definido, enquanto uma stored procedure pode acessar qualquer tabela.",
+        "Um trigger é executado automaticamente quando determinados eventos de uma tabela ocorrem, enquanto uma stored procedure precisa ser executada explicitamente.",
+        "Um trigger pode conter comandos como Drop e Create enquanto uma stored procedure não.",
+        "Uma stored procedure é executada automaticamente pelo banco de dados, enquanto um trigger precisa ser executado explicitamente."
+      ],
+      "resposta": "Um trigger é executado automaticamente quando determinados eventos de uma tabela ocorrem, enquanto uma stored procedure precisa ser executada explicitamente."
+    },
+    {
+      "titulo": "Comandos SQL - Alteração de Tabela",
+      "descricao": "Considerando a linguagem SQL, assinale a afirmativa correta:",
+      "imagem": null,
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "O comando Drop table Alunos irá excluir todos os registros da tabela Alunos, mantendo a estrutura da mesma",
+        "O comando Delete table Alunos irá excluir todos os registros da tabela Alunos, mantendo a estrutura da mesma",
+        "O comando Erase table Alunos irá excluir todos os registros da tabela Alunos, mantendo a estrutura da mesma",
+        "O comando Alter table ALUNOS Delete column Nome irá excluir a coluna Nome na tabela Alunos, mantendo todas as demais colunas e registros intactos",
+        "O comando Alter table Alunos add CPF varchar(30), irá incluir corretamente um novo campo varchar com tamanho 30 na tabela Alunos"
+      ],
+      "resposta": "O comando Alter table Alunos add CPF varchar(30), irá incluir corretamente um novo campo varchar com tamanho 30 na tabela Alunos"
+    },
+    {
+      "titulo": "Trigger em Banco de Dados",
+      "descricao": "O que é um trigger em um sistema de gerenciamento de banco de dados?",
+      "imagem": null,
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Um trigger é um tipo especial de consulta SQL que é executada automaticamente quando o usuário faz login no banco de dados",
+        "Um trigger é uma ferramenta para backup de dados automáticos.",
+        "Um trigger é um procedimento armazenado que não está vinculado a eventos específicos nas tabelas.",
+        "Um trigger é um comando que cria uma nova tabela baseada em uma tabela existente.",
+        "Um trigger é um bloco de código executado automaticamente em resposta a certos eventos em tabelas específicas."
+      ],
+      "resposta": "Um trigger é um bloco de código executado automaticamente em resposta a certos eventos em tabelas específicas."
+    },
+    {
+      "titulo": "ALTER TABLE - Análise de Execução",
+      "descricao": "Após definidos, os esquemas de bancos de dados podem demandar modificações nas estruturas de seus elementos (tabelas, tipos de dados, restrições, índices etc). Essas modificações podem ser a inclusão de novos elementos, a remoção de elementos não mais necessários, ou ainda a alteração estrutural de algum elemento. Para isso, a SQL disponibiliza comandos para implementar essas atualizações sem que ocorra inconsistência no banco de dados.\n\nSendo o ALTER um exemplo desse tipo de comando, analise a seguinte sentença SQL acima e assinale a alternativa correta.",
+      "imagem": null,
+      "codigo": "ALTER TABLE livro_didatico\nADD COLUMN editora VARCHAR(40) DEFAULT 'Campus';",
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "A tabela livro_didatico terá uma coluna a mais, denominada editora."
+        },
+        {
+          "id": "II",
+          "texto": "A tabela livro_didatico terá uma coluna a mais, denominada editora e todas as tuplas existentes antes da alteração terão o valor do atributo editora igual à palavra 'Campus', assim como os próximos itens a serem inseridos no banco de dados."
+        },
+        {
+          "id": "III",
+          "texto": "A tabela livro_didatico terá uma nova coluna denominada Campus."
+        },
+        {
+          "id": "IV",
+          "texto": "A tabela livro_didatico terá uma nova coluna denominada editora, cujo valor padrão será a palavra 'Campus'."
+        }
+      ],
+      "opcoes": [
+        "V, F, F, V",
+        "F, F, F, V",
+        "V, V, F, V",
+        "V, F, V, F",
+        "F, F, V, V"
+      ],
+      "resposta": "V, F, F, V"
+    },
+    {
+      "titulo": "Perda de Dados - CNPq",
+      "descricao": "No ano de 2021, a plataforma do CNPq ficou fora do ar, colocando em risco dados de currículos e pesquisas científicas. Considerando o cenário apresentado, qual o principal risco evidenciado?",
+      "imagem": null,
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Perdas de dados potencialmente catastróficas.",
+        "Problemas de hardware: disco danificado ou perda de um servidor.",
+        "Remoções de tabelas por engano.",
+        "Ações de desastres naturais.",
+        "Falhas de mídia."
+      ],
+      "resposta": "Perdas de dados potencialmente catastróficas."
+    },
+    {
+      "titulo": "Transações em SQL - Objetivo",
+      "descricao": "Uma transação em SQL é uma sequência de operações que é executada como uma única unidade lógica e atômica. Em um banco de dados, o gerenciamento incorreto de transações normalmente leva a problemas de contenção e de desempenho em sistemas com muitos usuários. À medida que o número de usuários que acessam os dados aumenta, torna-se importante ter aplicações que utilizem as transações de maneira eficaz. Sendo isso, podemos definir que o principal propósito de uma transação em SQL é:",
+      "imagem": null,
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Realizar operações de leitura em um banco de dados.",
+        "Executar operações em várias tabelas ao mesmo tempo.",
+        "Garantir que um conjunto de operações seja executado como uma única unidade, preservando a consistência do banco de dados.",
+        "Excluir registros de uma tabela.",
+        "Adicionar novas colunas a uma tabela."
+      ],
+      "resposta": "Garantir que um conjunto de operações seja executado como uma única unidade, preservando a consistência do banco de dados."
+    },
+    {
+      "titulo": "Tipos de Backup",
+      "descricao": "Analise as afirmações abaixo e assinale a alternativa correta:",
+      "imagem": null,
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "Um backup diferencial captura todas as alterações feitas desde o último backup completo."
+        },
+        {
+          "id": "II",
+          "texto": "Um backup incremental captura apenas as alterações desde o último backup feito, seja ele completo, diferencial ou incremental."
+        },
+        {
+          "id": "III",
+          "texto": "O tamanho do backup diferencial geralmente é menor que o incremental."
+        },
+        {
+          "id": "IV",
+          "texto": "Os backups incrementais e diferenciais, quando usados em conjunto, substituem o backup completo."
+        }
+      ],
+      "opcoes": [
+        "II e IV",
+        "I e II",
+        "I e III",
+        "I e IV",
+        "II e III"
+      ],
+      "resposta": "I e II"
+    },
+    {
+      "titulo": "Propriedades ACID",
+      "descricao": "As transações em SQL devem seguir as propriedades ACID, que representam Atomicidade, Consistência, Isolamento e Durabilidade. Qual das propriedades ACID garante que, uma vez que uma transação seja concluída, as alterações feitas no banco de dados sejam permanentes e não se percam, mesmo em caso de falhas?",
+      "imagem": null,
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Atomicidade",
+        "Consistência",
+        "Isolamento",
+        "Durabilidade",
+        "Disponibilidade"
+      ],
+      "resposta": "Durabilidade"
+    },
+    {
+      "titulo": "Views em Banco de Dados",
+      "descricao": "Qual das seguintes afirmações melhor descreve uma view em um banco de dados?",
+      "imagem": null,
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Uma view é uma cópia física dos dados derivados de uma ou mais tabelas que pode ser modificada sem afetar as tabelas originais.",
+        "Uma view é uma tabela virtual que não mantém qualquer vínculo com as tabelas originais após sua criação.",
+        "Uma view é uma tabela virtual que representa dados derivados de uma consulta ou de uma ou mais tabelas originais.",
+        "Uma view é um procedimento armazenado que automatiza tarefas no banco de dados.",
+        "Uma view é um conjunto de regras aplicadas ao banco de dados para garantir a segurança dos dados."
+      ],
+      "resposta": "Uma view é uma tabela virtual que representa dados derivados de uma consulta ou de uma ou mais tabelas originais."
+    },
+    {
+      "titulo": "Funções Agregadas e GROUP BY",
+      "descricao": "Observe a seguinte sentença SQL e assinale a alternativa correta:",
+      "imagem": null,
+      "codigo": "SELECT a.Nome_Aluno, AVG(n.Nota)\nFROM TbAluno AS a, TbMatricula AS m\nWHERE a.Cod_Aluno = m.Mat_Aluno\nGROUP BY a.Cod_Aluno",
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "O GROUP BY ordena e agrupa as tuplas para cálculo da média por aluno."
+        },
+        {
+          "id": "II",
+          "texto": "A cláusula WHERE compara as chaves entre as tabelas."
+        },
+        {
+          "id": "III",
+          "texto": "AS permite dar um alias para a tabela."
+        },
+        {
+          "id": "IV",
+          "texto": "O resultado é uma lista com nome do aluno e sua maior nota."
+        },
+        {
+          "id": "V",
+          "texto": "O resultado é uma lista com nome dos alunos e suas médias."
+        }
+      ],
+      "opcoes": [
+        "F, V, V, F, V",
+        "F, F, V, V, V",
+        "V, F, V, F, V",
+        "V, F, F, F, F",
+        "F, V, F, V, F"
+      ],
+      "resposta": "F, V, V, F, V"
+    },
+    {
+      "titulo": "Índice e Desempenho",
+      "descricao": "Qual operação, quando aplicada a um campo indexado, é menos impactada negativamente em termos de desempenho?",
+      "imagem": null,
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "SELECT",
+        "DELETE",
+        "INSERT",
+        "UPDATE",
+        "Todas as operações são igualmente afetadas"
+      ],
+      "resposta": "SELECT"
+    },
+    {
+      "titulo": "Isolation Level",
+      "descricao": "Considerando o isolamento de transações em SQL, qual nível permite leituras de dados não confirmados (dirty read)?",
+      "imagem": null,
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "READ UNCOMMITTED",
+        "READ COMMITTED",
+        "REPEATABLE READ",
+        "SERIALIZABLE",
+        "SNAPSHOT"
+      ],
+      "resposta": "READ UNCOMMITTED"
+    },
+    {
+      "titulo": "Data Warehouse - Modelos",
+      "descricao": "Durante a construção de um data warehouse, existem dois tipos de arquitetura lógica multidimensional para organização dos dados. Quais são?",
+      "imagem": null,
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "star schema e snowflake",
+        "star schema e junk dimension",
+        "junk dimension e snowflake",
+        "fact e dimension",
+        "starborn e fact tables"
+      ],
+      "resposta": "star schema e snowflake"
+    },
+    {
+      "titulo": "Sistema de Banco de Dados",
+      "descricao": "Um sistema de banco de dados (SBD) pode ser definido como:",
+      "imagem": null,
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Uma coleção de dados inter-relacionados representando um domínio",
+        "Um conjunto composto por dados, SGBD, usuários e hardware",
+        "Um software para manipulação de dados",
+        "Um conjunto de elementos dispersos organizados",
+        "Nenhuma das anteriores"
+      ],
+      "resposta": "Um conjunto composto por dados, SGBD, usuários e hardware"
+    },
+    {
+      "titulo": "Recuperação de Banco - REDO/UNDO",
+      "descricao": "Considerando atualização adiada, onde os dados não são gravados antes do commit, qual algoritmo de recuperação é utilizado?",
+      "imagem": null,
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "NO-UNDO/REDO",
+        "UNDO/REDO",
+        "NO-UNDO/NO-REDO",
+        "UNDO/NO-REDO",
+        "NO-UNDO/CHECKPOINT"
+      ],
+      "resposta": "NO-UNDO/REDO"
+    },
+    {
+      "titulo": "Índice em Consulta SQL",
+      "descricao": "Dada a consulta SQL a seguir, qual índice melhora o desempenho?",
+      "imagem": null,
+      "codigo": "CREATE INDEX IDX_TITLES_ATUAL ON titles (____, ____);",
+      "afirmacoes": null,
+      "opcoes": [
+        "to_date, emp_no",
+        "to_date, title",
+        "emp_no, title",
+        "emp_no, first_name",
+        "emp_no, last_name"
+      ],
+      "resposta": "to_date, emp_no"
+    },
+    {
+      "titulo": "Operador SQL",
+      "descricao": "Em um banco de dados com múltiplas tabelas relacionadas, qual operador SQL é mais apropriado para recuperar dados combinados entre tabelas?",
+      "imagem": null,
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Join",
+        "Select",
+        "Where",
+        "Group By",
+        "Order By"
+      ],
+      "resposta": "Join"
+    },
+    {
+      "titulo": "Estados de uma Transação",
+      "descricao": "Os sistemas gerenciadores de banco de dados são capazes de processar diversas transações simultaneamente, sendo que algumas delas em algum momento irão falhar e ter seu estado revertido a um momento consistente.\n\nTransações com final confirmada necessariamente passam por quais estágios?",
+      "imagem": null,
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Ativa, parcialmente confirmada e confirmada.",
+        "Ativa, em progresso e executada.",
+        "Aberta, parcialmente confirmada e executada.",
+        "Ativa, bloqueada e confirmada.",
+        "Ativa, log e confirmada."
+      ],
+      "resposta": "Ativa, parcialmente confirmada e confirmada."
+    },
+    {
+      "titulo": "Índices - Operações Não Prejudicadas",
+      "descricao": "Considere as operações e assinale a alternativa correta:",
+      "imagem": null,
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "INSERT"
+        },
+        {
+          "id": "II",
+          "texto": "UPDATE"
+        },
+        {
+          "id": "III",
+          "texto": "DELETE"
+        },
+        {
+          "id": "IV",
+          "texto": "SELECT"
+        }
+      ],
+      "opcoes": [
+        "IV está correta.",
+        "I está correta.",
+        "I e II estão corretas.",
+        "II e III estão corretas.",
+        "II e IV estão corretas."
+      ],
+      "resposta": "IV está correta."
+    },
+    {
+      "titulo": "Índices - Operação Não Otimizada",
+      "descricao": "Qual destas operações de nenhuma maneira é otimizada com a criação de um índice?",
+      "imagem": null,
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "INSERT",
+        "SELECT",
+        "UPDATE",
+        "DELETE",
+        "MERGE"
+      ],
+      "resposta": "INSERT"
+    },
+    {
+      "titulo": "Deadlock - Condição Necessária",
+      "descricao": "Em sistemas de banco de dados, um deadlock ocorre quando duas ou mais transações estão bloqueadas e incapazes de progredir devido ao bloqueio mútuo de recursos. O que é necessário para desencadear um deadlock em SQL?",
+      "imagem": null,
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Iniciar uma transação.",
+        "Requerer acesso exclusivo a um recurso.",
+        "Compartilhar recursos de maneira ordenada.",
+        "Liberação imediata de recursos após o uso.",
+        "Isolamento total de todas as transações."
+      ],
+      "resposta": "Requerer acesso exclusivo a um recurso."
+    },
+    {
+      "titulo": "Backup MySQL",
+      "descricao": "O MySQL possui diversos programas utilitários para administração de banco de dados. Qual comando permite gerar um backup de um banco em arquivo?",
+      "imagem": null,
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "mysqldump nome-do-banco-de-dados > nome-do-arquivo.sql",
+        "mydumpsql nome-do-banco-de-dados % nome-do-arquivo.sql",
+        "sqldump nome-do-banco-de-dados / nome-do-arquivo.sql",
+        "mydumpsql nome-do-banco-de-dados $ nome-do-arquivo.sql",
+        "dumpmysql nome-do-banco-de-dados <> nome-do-arquivo.sql"
+      ],
+      "resposta": "mysqldump nome-do-banco-de-dados > nome-do-arquivo.sql"
+    },
+    {
+      "titulo": "Consulta SQL - Valores NULL com JOIN",
+      "descricao": "Considere o contexto de uma tabela de alunos onde alguns registros possuem RG como NULL. O diretor solicitou uma listagem de todos os alunos que não informaram RG no cadastro.\n\nAnalise as sentenças SQL abaixo e assinale quais atendem corretamente ao solicitado:",
+      "imagem": "tbaluno_rg_null",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "SELECT a.Nome_Aluno AS \"Aluno\", a.RG_Aluno AS \"RG\"\nFROM TBAluno AS a\nWHERE a.RG_Aluno IS NULL;"
+        },
+        {
+          "id": "II",
+          "texto": "SELECT a.Nome_Aluno AS \"Aluno\", c.Nome_Curso AS \"Curso\", a.RG_Aluno AS \"RG\"\nFROM TBAluno AS a, TBCurso AS c\nWHERE a.RG_Aluno IS NULL AND a.Curso_Aluno = c.Cod_Curso\nORDER BY c.Nome_Curso;"
+        },
+        {
+          "id": "III",
+          "texto": "SELECT a.Nome_Aluno AS \"Aluno\", c.Nome_Curso AS \"Curso\", a.RG_Aluno AS \"RG\"\nFROM TBAluno AS a, TBCurso AS c\nWHERE a.RG_Aluno IS NULL AND a.Curso_Aluno = c.Cod_Curso\nGROUP BY c.Nome_Curso;"
+        }
+      ],
+      "opcoes": [
+        "Sentenças I e II.",
+        "Sentenças II e III.",
+        "Sentenças I e III.",
+        "Apenas a sentença I.",
+        "Apenas a sentença II."
+      ],
+      "resposta": "Sentenças I e II."
+    },
+    {
+      "titulo": "Objetos no MySQL",
+      "descricao": "Durante o desenvolvimento de um sistema com MySQL, é necessário criar um objeto que contenha operações de leitura (SELECT) e manipulação de dados (INSERT, UPDATE e DELETE) dentro do seu código. Qual é esse objeto?",
+      "imagem": null,
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Procedures.",
+        "Functions.",
+        "Views.",
+        "Tables.",
+        "Triggers."
+      ],
+      "resposta": "Procedures."
+    },
+    {
+      "titulo": "Tipos de Índices",
+      "descricao": "No MySQL, são suportados diferentes tipos de índices. Considere as afirmações e assinale a alternativa correta:",
+      "imagem": null,
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "B-Tree"
+        },
+        {
+          "id": "II",
+          "texto": "BITMAP"
+        },
+        {
+          "id": "III",
+          "texto": "HASH"
+        },
+        {
+          "id": "IV",
+          "texto": "FUNCTION"
+        }
+      ],
+      "opcoes": [
+        "I e III estão corretas.",
+        "II e III estão corretas.",
+        "I e II estão corretas.",
+        "III e IV estão corretas.",
+        "II e IV estão corretas."
+      ],
+      "resposta": "I e III estão corretas."
+    },
+    {
+      "titulo": "INFORMATION_SCHEMA vs PERFORMANCE_SCHEMA",
+      "descricao": "Os SGBDs possuem catálogos de dados que armazenam metadados. Um usuário afirmou que o INFORMATION_SCHEMA guarda dados estatísticos e eventos para análise de desempenho. Essa afirmação está correta?",
+      "imagem": null,
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Errado, esta informação está no PERFORMANCE_SCHEMA",
+        "Correto",
+        "Errado, esta informação está no TUNING_SCHEMA",
+        "Errado, esta informação está no SYS_SCHEMA",
+        "Errado, esta informação está no DIAGNOSTIC_SCHEMA"
+      ],
+      "resposta": "Errado, esta informação está no PERFORMANCE_SCHEMA"
+    },
+    {
+      "titulo": "Views - Aplicabilidade",
+      "descricao": "As views (visões) podem ser utilizadas em bancos de dados para diversos fins. Considerando suas aplicações, marque a alternativa incorreta:",
+      "imagem": null,
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Permitir auditoria no banco de dados.",
+        "Permitir que os usuários não tenham acesso total ao banco de dados.",
+        "Permitir a implementação de segurança, restringindo a leitura de dados a somente alguns registros.",
+        "Permitir abstrair as relações entre as tabelas.",
+        "Permitir a criação de uma tabela virtual, contendo o resultado de um SELECT."
+      ],
+      "resposta": "Permitir auditoria no banco de dados."
+    },
+    {
+      "titulo": "Estados de Transação",
+      "descricao": "Os sistemas gerenciadores de banco de dados são capazes de processar diversas transações simultaneamente, sendo que algumas delas podem falhar e ter seu estado revertido.\n\nÉ verdade que as transações iniciam seu estado ______ e podem ter o fim ______ ou ______.\n\nComplete com a alternativa correta.",
+      "imagem": null,
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Ativa, abortada e confirmada.",
+        "Ativa, executando, confirmada.",
+        "Ativa, excluída e confirmada.",
+        "Aberta, ignorada e cancelada.",
+        "Aberta, em progresso e fechada."
+      ],
+      "resposta": "Ativa, abortada e confirmada."
+    }
   ]
 }
