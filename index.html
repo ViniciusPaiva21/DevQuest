@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Quizzes de ADS e Ciência da Computação organizados por trilha.">
+  <title>DevQuest - Início</title>
+
+  <script src="js/theme.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@0.468.0"></script>
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/themes.css">
+</head>
+
+<body data-page="home" class="min-h-screen flex flex-col selection:bg-violet-500 selection:text-white overflow-x-hidden">
+  <header class="site-header w-full px-5 md:px-6 py-4 sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto flex items-center justify-between gap-4">
+      <a href="index.html" class="brand flex items-center gap-3 group" aria-label="Página inicial do DevQuest">
+        <span class="brand-icon p-2.5 rounded-xl">
+          <i data-lucide="terminal" class="text-violet-400 w-6 h-6"></i>
+        </span>
+        <span>
+          <span class="block text-xl font-extrabold tracking-tight text-zinc-100">
+            Dev<span class="text-violet-500">Quest</span>
+          </span>
+          <span class="block text-[11px] text-zinc-500">De alunos para alunos</span>
+        </span>
+      </a>
+
+      <nav class="flex items-center gap-2" aria-label="Navegação principal">
+        <a href="#destaques" class="header-link hidden md:inline-flex">Destaques</a>
+        <a href="disciplinas.html" class="header-link hidden sm:inline-flex">Todas</a>
+        <a href="infernus.html" class="header-infernus-link">
+          <i data-lucide="skull" class="w-4 h-4"></i>
+          <span>Infernus</span>
+        </a>
+        <div data-theme-slot></div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="flex-1 relative">
+    <div class="ambient ambient--blue" aria-hidden="true"></div>
+    <div class="ambient ambient--violet" aria-hidden="true"></div>
+
+    <section class="max-w-7xl mx-auto px-5 md:px-6 pt-14 md:pt-20 pb-20">
+      <div class="hero max-w-4xl mx-auto text-center">
+        <span class="hero-eyebrow">
+          <i data-lucide="sparkles" class="w-4 h-4"></i>
+          Novidades ADS · 120 questões
+        </span>
+
+        <h1 class="text-4xl sm:text-5xl md:text-7xl font-black tracking-[-0.055em] leading-[0.95] mt-6 mb-6">
+          Três novas matérias,<br>
+          <span class="hero-gradient">prontas para revisar.</span>
+        </h1>
+
+        <p class="text-zinc-400 text-base md:text-lg leading-relaxed max-w-2xl mx-auto">
+          Arquitetura de Sistemas, Fundamentos de Redes e Governança de TI estão em destaque. O catálogo completo de ADS e Ciência da Computação continua a um clique.
+        </p>
+
+        <div class="course-jumps" aria-label="Atalhos principais">
+          <a href="#destaques" class="course-jump course-jump--ads">
+            <span class="course-jump-dot" aria-hidden="true"></span>
+            <span class="course-jump-copy">
+              <strong>Destaques</strong>
+              <small>3 matérias</small>
+            </span>
+            <i data-lucide="arrow-down" class="w-4 h-4"></i>
+          </a>
+
+          <a href="disciplinas.html" class="course-jump course-jump--cc">
+            <span class="course-jump-dot" aria-hidden="true"></span>
+            <span class="course-jump-copy">
+              <strong>Catálogo completo</strong>
+              <small>18 cards</small>
+            </span>
+            <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+          </a>
+        </div>
+      </div>
+
+      <section id="destaques" class="course-section course-section--ads scroll-mt-28" aria-labelledby="featured-heading">
+        <div class="catalog-intro">
+          <span>Novidades ADS</span>
+          <h2 id="featured-heading">Disciplinas em destaque</h2>
+          <p>As três matérias recém-adicionadas, cada uma com cor própria e acesso direto ao quiz.</p>
+        </div>
+
+        <div id="featuredCardsGrid" class="cards-grid" aria-label="Disciplinas de ADS em destaque"></div>
+      </section>
+
+      <section id="infernus" class="infernus-section" aria-labelledby="infernus-heading">
+        <a href="infernus.html" class="infernus-card group">
+          <span class="infernus-scratch infernus-scratch--one" aria-hidden="true"></span>
+          <span class="infernus-scratch infernus-scratch--two" aria-hidden="true"></span>
+
+          <div class="infernus-symbol" aria-hidden="true">
+            <i data-lucide="skull" class="w-9 h-9"></i>
+            <span>III</span>
+          </div>
+
+          <div class="infernus-copy">
+            <span class="infernus-kicker">
+              <span class="infernus-status-dot"></span>
+              Protocolo interditado · modo especial
+            </span>
+            <h2 id="infernus-heading">Modo Infernus</h2>
+            <p>Misture matérias, enfrente tudo embaralhado e tente sobreviver ao ciclo: três erros fazem o desafio renascer do zero.</p>
+            <div class="infernus-tags" aria-label="Regras do modo Infernus">
+              <span>Múltiplas matérias</span>
+              <span>3 erros = reinício</span>
+              <span>Ordem caótica</span>
+            </div>
+          </div>
+
+          <div class="infernus-action">
+            <span>Entrar por sua conta</span>
+            <i data-lucide="arrow-up-right" class="w-5 h-5"></i>
+          </div>
+        </a>
+      </section>
+
+      <section class="catalog-gateway" aria-labelledby="catalog-gateway-heading">
+        <div>
+          <span class="catalog-gateway-kicker">ADS + Ciência da Computação</span>
+          <h2 id="catalog-gateway-heading">Quer ver o acervo inteiro?</h2>
+          <p>Abra a página de disciplinas para navegar pelos 18 cards, separados por curso e com cores exclusivas.</p>
+        </div>
+        <a href="disciplinas.html" class="catalog-gateway-action">
+          Ver todas as disciplinas
+          <i data-lucide="arrow-right" class="w-5 h-5"></i>
+        </a>
+      </section>
+    </section>
+  </main>
+
+  <footer class="site-footer w-full relative z-10">
+    <div class="max-w-7xl mx-auto px-6 py-8 flex flex-col md:flex-row justify-between items-center gap-4">
+      <div class="text-center md:text-left">
+        <p class="text-zinc-500 text-sm flex items-center justify-center md:justify-start gap-1.5">
+          Feito com
+          <i data-lucide="coffee" class="text-amber-700 w-3.5 h-3.5"></i>
+          e
+          <i data-lucide="bot" class="w-3.5 h-3.5 stroke-[#ff0000]"></i>
+          por Vinicius
+        </p>
+        <p class="text-zinc-600 text-xs mt-1">© 2026 Acervo de Questões. Open Source.</p>
+      </div>
+    </div>
+  </footer>
+
+  <audio id="meow1" src="audios/miado1.mp3" preload="none"></audio>
+  <audio id="meow2" src="audios/miado2.mp3" preload="none"></audio>
+  <audio id="meow3" src="audios/miado3.mp3" preload="none"></audio>
+  <audio id="meow4" src="audios/miado4.mp3" preload="none"></audio>
+  <audio id="meow5" src="audios/miado5.mp3" preload="none"></audio>
+
+  <button id="cat-button" type="button" class="fixed bottom-4 right-4 z-50 group" aria-label="Ouvir o mascote">
+    <span id="cat-bubble" class="absolute -top-12 -left-8 bg-white text-zinc-900 text-xs font-bold px-3 py-1 rounded-xl rounded-br-none transform transition-all duration-300 shadow-lg opacity-0 scale-90 translate-y-2 pointer-events-none">
+      Miau! 🐾
+    </span>
+    <img id="cat-svg" src="icons/gato.svg" alt="" class="w-32 h-32 md:w-40 md:h-40 object-contain transform transition-transform duration-500 group-hover:-translate-y-2">
+  </button>
+
+  <script src="js/subjects.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/courseData.js"></script>
+  <script src="js/cat.js"></script>
+</body>
+</html>

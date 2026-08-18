@@ -1,0 +1,298 @@
+{
+  "fundamentosRedes": [
+    {
+      "titulo": "Endereço de rede e broadcast",
+      "descricao": "Foi solicitado que um engenheiro projetasse um esquema de endereçamento IP para uma rede que usará 192.168.30.0/24. Ele alocou 254 endereços para hosts, mas excluiu 192.168.30.0 e 192.168.30.255. Por que esses dois endereços devem ser excluídos?",
+      "opcoes": [
+        "São reservados para os servidores DNS e de e-mail.",
+        "São reservados para a conexão externa com a Internet.",
+        "192.168.30.0 é o endereço da rede e 192.168.30.255 é o endereço de broadcast.",
+        "192.168.30.0 é reservado para o gateway padrão e 192.168.30.255 é reservado para o servidor DHCP.",
+        "Nenhuma das alternativas indicadas."
+      ],
+      "resposta": "192.168.30.0 é o endereço da rede e 192.168.30.255 é o endereço de broadcast."
+    },
+    {
+      "titulo": "Cabo straight-through",
+      "descricao": "Quando um cabo straight-through é usado em uma rede?",
+      "opcoes": [
+        "Ao conectar um host a outro host.",
+        "Ao conectar um host a um roteador.",
+        "Ao conectar um roteador a outro roteador.",
+        "Ao conectar um host a um switch.",
+        "Nenhuma das alternativas indicadas."
+      ],
+      "resposta": "Ao conectar um host a um switch."
+    },
+    {
+      "titulo": "Conversão de número binário",
+      "descricao": "Qual é o valor decimal equivalente ao número binário 10111011?",
+      "opcoes": ["197", "133", "235", "187", "109"],
+      "resposta": "187"
+    },
+    {
+      "titulo": "Protocolo Web seguro",
+      "descricao": "Qual protocolo é usado pelos servidores Web para atender de modo seguro uma página da Web?",
+      "opcoes": ["FTP", "HTTP", "DNS", "HTTPS", "SHTTP"],
+      "resposta": "HTTPS"
+    },
+    {
+      "titulo": "Atribuição automática de IP",
+      "descricao": "Qual protocolo é usado para atribuir automaticamente endereços IP aos hosts? Considere exatamente as siglas apresentadas nas alternativas.",
+      "opcoes": ["DNS", "NAT", "DHPP", "HTTP", "Nenhuma das alternativas indicadas."],
+      "resposta": "Nenhuma das alternativas indicadas."
+    },
+    {
+      "titulo": "Camada de acesso à rede",
+      "descricao": "Quais duas camadas do modelo OSI correspondem à camada de acesso à rede do modelo TCP/IP?",
+      "opcoes": [
+        "Aplicação e física.",
+        "Sessão e transporte.",
+        "Transporte e rede.",
+        "Rede e sessão.",
+        "Enlace e física."
+      ],
+      "resposta": "Enlace e física."
+    },
+    {
+      "titulo": "Descoberta DHCP",
+      "descricao": "Um dispositivo cliente em um segmento Ethernet precisa de um endereço IP. Um servidor DHCP de endereço 192.168.1.1 foi configurado e ativado na rede. Como o cliente obtém um endereço IP utilizável?",
+      "opcoes": [
+        "Envia um pacote DHCPREQUEST para o endereço IP 255.255.255.255.",
+        "Envia um pacote DHCPACK para o endereço do gateway padrão.",
+        "Usa um endereço IP configurado estaticamente do pool oferecido pelo servidor DHCP.",
+        "Envia uma mensagem DHCPDISCOVER para o endereço físico FF-FF-FF-FF-FF-FF.",
+        "Nenhuma das alternativas indicadas."
+      ],
+      "resposta": "Envia uma mensagem DHCPDISCOVER para o endereço físico FF-FF-FF-FF-FF-FF."
+    },
+    {
+      "titulo": "Proteção de dados em rede sem fio",
+      "descricao": "Qual medida avançada de segurança sem fio permite manter dados confidenciais protegidos enquanto trafegam pelo ar?",
+      "opcoes": [
+        "Senha forte com WEP.",
+        "Criptografia.",
+        "Autenticação.",
+        "Filtragem de segurança de tráfego.",
+        "Filtragem de endereços MAC."
+      ],
+      "resposta": "Criptografia."
+    },
+    {
+      "titulo": "TCP no modelo TCP/IP",
+      "descricao": "Em qual camada do modelo TCP/IP ocorre o TCP?",
+      "opcoes": ["Transporte.", "Aplicação.", "Internet.", "Acesso à rede.", "Nenhuma das alternativas indicadas."],
+      "resposta": "Transporte."
+    },
+    {
+      "titulo": "Filtro em ponto de acesso",
+      "descricao": "Que tipo de filtro de dispositivo pode ser ativado em alguns pontos de acesso ou roteadores sem fio?",
+      "opcoes": ["Autenticação.", "Endereço IP.", "ID de usuário.", "Endereço MAC.", "Filtro de segurança de dispositivo."],
+      "resposta": "Endereço MAC."
+    },
+    {
+      "titulo": "Transferência de páginas Web",
+      "descricao": "Qual protocolo é usado para transferir páginas da Web de um servidor para um dispositivo cliente?",
+      "opcoes": ["HTML", "SMTP", "HTTP", "SSH", "WEB PROTOCOL"],
+      "resposta": "HTTP"
+    },
+    {
+      "titulo": "Faixa de rede privada",
+      "descricao": "Qual endereço IP pertence a uma rede privada?",
+      "opcoes": ["128.37.255.6", "172.68.83.35", "198.168.6.18", "172.30.18.6", "198.162.0.1"],
+      "resposta": "172.30.18.6"
+    },
+    {
+      "titulo": "Informações de uma URL",
+      "descricao": "São partes das informações identificadas por uma URL, exceto:",
+      "opcoes": [
+        "O protocolo que está sendo usado.",
+        "O nome do domínio que está sendo acessado.",
+        "O endereço IP do gateway.",
+        "O local do recurso.",
+        "Nenhuma das alternativas indicadas."
+      ],
+      "resposta": "O endereço IP do gateway."
+    },
+    {
+      "titulo": "Endereço IPv6 válido",
+      "descricao": "Qual agrupamento de números é um endereço IPv6 válido?",
+      "opcoes": [
+        "1234:1230::1238::1299:1000::",
+        "12aa::1298:1200::129b",
+        "1b10::1100::2001::2900::ab11::1102::0000::2900",
+        "2001:0db8:3c55:0015:1010:0000:abed:ff13",
+        "Nenhuma das alternativas indicadas."
+      ],
+      "resposta": "2001:0db8:3c55:0015:1010:0000:abed:ff13"
+    },
+    {
+      "titulo": "Expansão de endereço IPv6",
+      "descricao": "Qual é a representação descompactada completa do endereço IPv6 2001:DB8:0:0:AA::200?",
+      "opcoes": [
+        "2001:0DB8:0000:0000:00AA:0000:0200:0000",
+        "2001:DB80:0000:0000:AA00:0000:0000:0200",
+        "2001:0DB8:0000:0000:00AA:0000:0000:0200",
+        "2001:0DB8:0000:00AA:0000:0000:0000:0200",
+        "Nenhuma das alternativas indicadas."
+      ],
+      "resposta": "2001:0DB8:0000:0000:00AA:0000:0000:0200"
+    },
+    {
+      "titulo": "Protocolo de comunicação",
+      "descricao": "Qual afirmação define um protocolo de comunicação de dados?",
+      "opcoes": [
+        "Uma parceria de fabricantes de dispositivos de rede.",
+        "Um conjunto de regras que regem o processo de comunicação.",
+        "Um conjunto de padrões de produto para tipos de dispositivos de rede.",
+        "Um documento assinado e protocolado por um organismo de controle internacional.",
+        "Um acordo de troca de dispositivos de rede entre fornecedores."
+      ],
+      "resposta": "Um conjunto de regras que regem o processo de comunicação."
+    },
+    {
+      "titulo": "Endereços privados e NAT",
+      "descricao": "São vantagens de usar endereços IP privados e NAT, exceto:",
+      "opcoes": [
+        "Preservar endereços IP públicos registrados.",
+        "Ocultar o endereçamento da LAN privada de dispositivos externos conectados à Internet.",
+        "Permitir a expansão da LAN sem endereços IP públicos adicionais.",
+        "Permitir que empresas utilizem IPs privados.",
+        "Criar vários endereços IP públicos."
+      ],
+      "resposta": "Criar vários endereços IP públicos."
+    },
+    {
+      "titulo": "Tabela de endereços do switch",
+      "descricao": "Qual informação um switch Ethernet examina e usa para criar sua tabela de endereços?",
+      "opcoes": ["Endereço IP de origem.", "Endereço MAC de origem.", "Endereço IP de destino.", "Endereço MAC de destino.", "Nenhuma das alternativas indicadas."],
+      "resposta": "Endereço MAC de origem."
+    },
+    {
+      "titulo": "Identificação de uma WLAN",
+      "descricao": "Qual tecnologia é usada para identificar exclusivamente uma rede WLAN?",
+      "opcoes": ["Tabela de endereços MAC.", "SSID.", "WEP.", "WPA.", "Nenhuma das alternativas indicadas."],
+      "resposta": "SSID."
+    },
+    {
+      "titulo": "Áudio e vídeo com UDP",
+      "descricao": "Por que os aplicativos de transmissão de áudio e vídeo usam UDP em vez de TCP?",
+      "opcoes": [
+        "O UDP é um sistema de fornecimento de melhor esforço que não requer confirmação de recebimento.",
+        "O UDP garante o fornecimento de segmentos para proporcionar fluxos de vídeo e áudio confiáveis.",
+        "Nenhuma das alternativas indicadas, pois aplicativos de áudio e vídeo usam TCP em vez de UDP.",
+        "Aplicativos de transmissão de áudio e vídeo exigem o recebimento de todos os pacotes, independentemente de atrasos.",
+        "O handshake triplo usado em UDP acelera os fluxos de áudio e vídeo."
+      ],
+      "resposta": "O UDP é um sistema de fornecimento de melhor esforço que não requer confirmação de recebimento."
+    },
+    {
+      "titulo": "Porta de destino",
+      "descricao": "Um cliente envia uma mensagem para solicitar informações de um servidor Web na Internet. Qual parâmetro da mensagem indica o serviço ou a aplicação específica solicitada?",
+      "opcoes": ["Porta de origem.", "Porta de destino.", "Portas de origem e destino.", "Endereço IP de destino.", "Nome de domínio do servidor."],
+      "resposta": "Porta de destino."
+    },
+    {
+      "titulo": "Internet em área remota",
+      "descricao": "Que tipo de conexão com a Internet seria melhor para uma residência em área remota, sem cobertura de celular nem conectividade cabeada?",
+      "opcoes": ["Dial-up.", "Celular.", "DSL.", "ISDN.", "Satélite."],
+      "resposta": "Satélite."
+    },
+    {
+      "titulo": "Motivação para o IPv6",
+      "descricao": "Qual foi o motivo para a criação e a implementação do IPv6?",
+      "opcoes": [
+        "Facilitar a leitura de um endereço de 32 bits.",
+        "Aliviar a redução de endereços IPv4 disponíveis.",
+        "Fornecer mais espaço de endereço no registro de nomes da Internet.",
+        "Permitir o suporte de NAT para o endereçamento privado.",
+        "Nenhuma das alternativas indicadas."
+      ],
+      "resposta": "Aliviar a redução de endereços IPv4 disponíveis."
+    },
+    {
+      "titulo": "Propósito do endereço IP",
+      "descricao": "Qual é um dos propósitos de um endereço IP?",
+      "opcoes": [
+        "Identificar a localização física de um data center.",
+        "Identificar uma posição na memória a partir da qual um programa é executado.",
+        "Identificar um endereço do remetente para responder às mensagens de e-mail.",
+        "Identificar a origem e o destino de pacotes de dados.",
+        "Nenhuma das alternativas indicadas."
+      ],
+      "resposta": "Identificar a origem e o destino de pacotes de dados."
+    },
+    {
+      "titulo": "Cabo para computadores de escritório",
+      "descricao": "Que tipo de cabo de rede normalmente é usado para conectar computadores de escritório à rede local? Considere exatamente os nomes apresentados nas alternativas.",
+      "opcoes": [
+        "Cabo coaxial.",
+        "Cabo de par transacionado.",
+        "Cabo de fibra ótica de vidro.",
+        "Cabo de fibra ótica de plástico.",
+        "Nenhuma das respostas indicadas."
+      ],
+      "resposta": "Nenhuma das respostas indicadas."
+    },
+    {
+      "titulo": "Endereço MAC",
+      "descricao": "Qual afirmação descreve melhor um endereço MAC?",
+      "opcoes": [
+        "Tem 128 bits de comprimento.",
+        "Contém duas partes: a porção de rede e a porção de host.",
+        "É um endereço físico atribuído a uma placa de rede pelo fabricante.",
+        "Identifica os endereços de origem e destino de hosts na Internet.",
+        "Nenhuma das alternativas indicadas."
+      ],
+      "resposta": "É um endereço físico atribuído a uma placa de rede pelo fabricante."
+    },
+    {
+      "titulo": "Desvantagem da rede peer-to-peer",
+      "descricao": "Qual é uma desvantagem de implantar um modelo de rede peer-to-peer?",
+      "opcoes": ["Dificuldade de instalação.", "Falta de administração centralizada.", "Complexidade de alto nível.", "Alto custo.", "Nenhuma das respostas indicadas."],
+      "resposta": "Falta de administração centralizada."
+    },
+    {
+      "titulo": "Pagamento por aproximação",
+      "descricao": "Um cliente aproxima um smartphone de um terminal de pagamento e a compra é paga corretamente. Qual tecnologia de conexão sem fio foi usada?",
+      "opcoes": ["Bluetooth.", "NFC.", "Wi-Fi.", "3G ou 4G.", "Nenhuma das alternativas indicadas."],
+      "resposta": "NFC."
+    },
+    {
+      "titulo": "Tamanho mínimo do quadro Ethernet",
+      "descricao": "Qual é o tamanho mínimo de um quadro Ethernet válido, em bytes?",
+      "opcoes": ["48", "64", "96", "128", "256"],
+      "resposta": "64"
+    },
+    {
+      "titulo": "Áudio e vídeo com TCP",
+      "descricao": "Por que os aplicativos de transmissão de áudio e vídeo usam TCP em vez de UDP?",
+      "opcoes": [
+        "Aplicativos de transmissão de áudio e vídeo exigem o recebimento de todos os pacotes, independentemente de atrasos.",
+        "O handshake triplo usado em UDP acelera os fluxos de áudio e vídeo.",
+        "Aplicativos de transmissão de áudio e vídeo conseguem tolerar o atraso causado pela retransmissão.",
+        "O TCP garante o fornecimento de segmentos para proporcionar fluxos de vídeo e áudio confiáveis.",
+        "Nenhuma das alternativas indicadas, pois aplicativos de áudio e vídeo usam UDP em vez de TCP."
+      ],
+      "resposta": "Nenhuma das alternativas indicadas, pois aplicativos de áudio e vídeo usam UDP em vez de TCP."
+    },
+    {
+      "titulo": "Multicast IPv4",
+      "descricao": "Qual é o intervalo de prefixos de endereço reservado para multicast IPv4?",
+      "opcoes": [
+        "240.0.0.0 – 254.255.255.255",
+        "224.0.0.0 – 239.255.255.255",
+        "169.254.0.0 – 169.254.255.255",
+        "127.0.0.0 – 127.255.255.255",
+        "Nenhuma das alternativas indicadas."
+      ],
+      "resposta": "224.0.0.0 – 239.255.255.255"
+    },
+    {
+      "titulo": "Carga útil de um quadro Ethernet",
+      "descricao": "Quantos dados podem ser encapsulados em um quadro Ethernet de tamanho normal antes de serem enviados pela rede?",
+      "opcoes": ["0 a 1.024 bytes.", "32 a 1.500 bytes.", "46 a 1.500 bytes.", "64 a 1.518 bytes.", "Nenhuma das alternativas indicadas."],
+      "resposta": "46 a 1.500 bytes."
+    }
+  ]
+}

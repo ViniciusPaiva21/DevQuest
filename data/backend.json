@@ -1,0 +1,354 @@
+{
+    "backend": [
+    {
+      "titulo": "Tipos Estruturados no JSON",
+      "descricao": "JSON possui duas categorias de tipos de dados: elementares e estruturados.\nSobre os tipos estruturados, podemos afirmar que:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Possuem infinitos tipos de combinações.",
+        "São exemplos: strings, inteiros e arquivos HTML.",
+        "Não podem ser decompostos.",
+        "São exemplos: Real, Inteiro e Booleanos.",
+        "Salvam seus valores em binário, sendo interpretados apenas pelo browser."
+      ],
+      "resposta": "Possuem infinitos tipos de combinações."
+    },
+    {
+  "titulo": "Percurso em Árvore Binária",
+  "descricao": "Dada a árvore a seguir, assinale a alternativa que apresenta o passeio em ordem (in-order) para essa árvore.",
+  "imagem": "images/arvore-percurso-em-ordem.svg",
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "1 2 4 3 5 6 7",
+    "1 2 3 4 5 6 7",
+    "4 2 1 7 5 6 3",
+    "4 2 1 5 3 7 6",
+    "7 4 5 6 2 3 1"
+  ],
+  "resposta": "4 2 1 5 3 7 6"
+},
+    {
+      "titulo": "Características do Modelo MVC",
+      "descricao": "É uma característica de um modelo MVC, a afirmativa que se encontra na alternativa:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Permite profissionais que não dominam determinadas camadas atuem em um mesmo projeto, através da separação das camadas e características.",
+        "Define que a camada model interage com a camada view para o controller apresentar dados.",
+        "Especifica que a camada controller faz o controle das regras de negócio.",
+        "Define que todas as camadas tenham interação entre si.",
+        "Define que o modelo MVC foi elaborado para o uso exclusivo de linguagens Web."
+      ],
+      "resposta": "Permite profissionais que não dominam determinadas camadas atuem em um mesmo projeto, através da separação das camadas e características."
+    },
+    {
+      "titulo": "Arquitetura de Software em Camadas",
+      "descricao": "A arquitetura de um software ou de um sistema de informação é a organização ou a estrutura dos componentes significativos do sistema de software.\nQual é a abordagem que podemos utilizar em nossa arquitetura de forma a isolar diferentes funcionalidades em níveis diferentes?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Camadas de Software.",
+        "Softwares Caixa Preta.",
+        "Arquitetura Isolada.",
+        "Arquitetura Multivalorada.",
+        "Hierarquia de Software."
+      ],
+      "resposta": "Camadas de Software."
+    },
+    {
+      "titulo": "Versionamento Local no Git",
+      "descricao": "Considerando as definições do Git, de que forma ele organiza localmente as informações das versões dos arquivos?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Utiliza uma pasta chamada .git e nela deposita as informações dos arquivos.",
+        "Registra as informações dos arquivos no arquivo readme.md.",
+        "Cria uma pasta chamada src e registra nela as informações dos projetos.",
+        "O gerenciamento ocorre pelo modo GNU, que possui as configurações dos arquivos.",
+        "Registra as informações das versões dos arquivos em uma pasta chamada model."
+      ],
+      "resposta": "Utiliza uma pasta chamada .git e nela deposita as informações dos arquivos."
+    },
+    {
+      "titulo": "Tipos de Dados Não Estruturados",
+      "descricao": "Existem três tipos de dados, que visam refletir sua estrutura em um banco de dados, a partir do formato destes. Define-se como \"Tipos de dados não estruturados\":",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Aqueles que existem em seu estado original (bruto).",
+        "Aqueles que são resultado da obtenção de dados não estruturados e de sua formatação (estruturação).",
+        "Aqueles que já foram parcialmente processados.",
+        "Aqueles que podem ser salvos em arquivos JSON.",
+        "Aqueles compatíveis com SGBD e seus tipos nativos."
+      ],
+      "resposta": "Aqueles que existem em seu estado original (bruto)."
+    },
+    {
+      "titulo": "Importância da Comunicação Assíncrona com XMLHttpRequest",
+      "descricao": "O objeto XMLHttpRequest permite que as requisições HTTP sejam feitas via browser e permite a comunicação assíncrona com o servidor por script.\nQual a importância desta comunicação assíncrona?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Sua importância está diretamente ligada ao fato de que não é necessária a iniciação de uma nova janela para atualização do conteúdo da página.",
+        "Sua importância é permitir ao desenvolvedor controlar a interface do usuário através de comandos vindos do servidor.",
+        "Sua importância está no fato de criar uma cache no servidor, economizando transferência de dados.",
+        "Sua importância vem de resolver o problema de compatibilidade das páginas Web e os browsers, permitindo a sincronia no funcionamento em qualquer página.",
+        "A importância está no fato de permitir comunicação síncrona e assíncrona entre diferentes clientes."
+      ],
+      "resposta": "Sua importância está diretamente ligada ao fato de que não é necessária a iniciação de uma nova janela para atualização do conteúdo da página."
+    },
+    {
+      "titulo": "Tecnologias para Manipulação de Dados na Web",
+      "descricao": "Quais tecnologias devem ser utilizadas quando queremos executar uma das operações a seguir?\nArmazenar os valores analisados nas variáveis para processamento adicional antes de exibi-los na página da Web. \nAtribuir diretamente os dados aos elementos DOM na página da Web, para que sejam exibidos no site.",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Ajax e JavaScript",
+        "Ajax e HTML",
+        "HTML e CSS",
+        "HTML e SQL",
+        "C# e HTML"
+      ],
+      "resposta": "Ajax e JavaScript"
+    },
+    {
+      "titulo": "Linguagem Base da Sintaxe JSON",
+      "descricao": "O formato JSON permite representar objetos e classes como estruturas de dados e arrays.\nSua sintaxe é simples, e é baseada na linguagem:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "JavaScript",
+        "C#",
+        "PHP",
+        "XML",
+        "HTML"
+      ],
+      "resposta": "JavaScript"
+    },
+    {
+      "titulo": "Conceitos de View, Controller e Model",
+      "descricao": "Qual alternativa apresenta o nome dos conceitos apresentados nos itens a seguir?\ni - Camada que contém os formulários que exibem ou coletam os dados dos usuários.\nii - Camada que contém as rotas que direcionam as requisições da view para a model e vice-versa.\niii - Camada que contém as regras de negócio e as classes que fazem o acesso ao banco de dados.",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "i - View, ii - Controller, iii - Model.",
+        "i - Controller, ii - Model, iii - View.",
+        "i - Model, ii - View, iii - Controller.",
+        "i - Visão, ii - Controle, iii - Dados.",
+        "i - Visão, ii - Dados, iii - Negócio."
+      ],
+      "resposta": "i - View, ii - Controller, iii - Model."
+    },
+    {
+      "titulo": "Alternativa ao XML em Aplicativos AJAX",
+      "descricao": "Uma alternativa à XML para representar dados, comumente utilizada em aplicativos AJAX, é o(a):",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "JSON - JavaScript Object Notation.",
+        "SOAP - Simple Object Access Protocol.",
+        "POCO - Plain Old C# Object.",
+        "REST - Representational State Transfer.",
+        "SQL - Structured Query Language."
+      ],
+      "resposta": "JSON - JavaScript Object Notation."
+    },
+    {
+      "titulo": "Definição de Framework",
+      "descricao": "O que é um Framework?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "É uma abstração que une códigos comuns entre vários projetos de software, provendo uma funcionalidade genérica.",
+        "É uma linguagem de programação abstrata que facilita o desenvolvimento de softwares.",
+        "É um conjunto de rotinas e padrões de programação para acesso a um aplicativo de software ou plataforma baseado na Web.",
+        "É um processo que engloba todas as atividades que contribuem para a produção de um documento de requisitos e sua manutenção ao longo do tempo.",
+        "É uma ferramenta voltada à especificação, desenvolvimento, manutenção e criação de software, com a aplicação de tecnologias e práticas de gerência de projetos."
+      ],
+      "resposta": "É uma abstração que une códigos comuns entre vários projetos de software, provendo uma funcionalidade genérica."
+    },
+    {
+      "titulo": "Principais Características da Linguagem C#",
+      "descricao": "Quais dos itens a seguir apresentam as principais características da linguagem C#:\ni - Orientada a componentes\nii - Orientada a objetos\niii - Fortemente tipada\niv - Ambiente gerenciado",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "i, ii, iii e iv.",
+        "Apenas i e ii.",
+        "Apenas iii e iv.",
+        "Apenas i e iii.",
+        "Apenas ii e iv."
+      ],
+      "resposta": "i, ii, iii e iv."
+    },
+    {
+      "titulo": "Comentário de Uma Linha em C#",
+      "descricao": "Como você escreve um comentário de uma linha em C#?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "-- Comentário --",
+        "/* Comentário */",
+        "# Comentário",
+        "// Comentário",
+        "' Comentário"
+      ],
+      "resposta": "// Comentário"
+    },
+    {
+      "titulo": "Palavra-Chave para Método sem Retorno em C#",
+      "descricao": "Qual palavra-chave é usada para indicar que um método não retorna nenhum valor em C#?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "int",
+        "void",
+        "string",
+        "null",
+        "double"
+      ],
+      "resposta": "void"
+    },
+    {
+      "titulo": "Camada de Lógica de Negócio no MVC",
+      "descricao": "No modelo MVC, a camada responsável pela abstração das funções do sistema, ou seja, pela lógica de negócio é a:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Camada Model.",
+        "Camada View.",
+        "Camada Controller.",
+        "Camada Cliente.",
+        "Camada Business."
+      ],
+      "resposta": "Camada Model."
+    },
+    {
+      "titulo": "Palavra-Chave para Criar Classe em C#",
+      "descricao": "Qual palavra-chave é usada para criar uma classe em C#?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "class",
+        "struct",
+        "interface",
+        "package",
+        "method"
+      ],
+      "resposta": "class"
+    },
+    {
+      "titulo": "Linguagens para Implementação da Camada Controller",
+      "descricao": "Na arquitetura MVC, diversas linguagens podem ser utilizadas para a implementação da camada de Controller.\nA alternativa que apresenta corretamente essas linguagens é:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "C#, PHP e Java",
+        "HTML e SQL",
+        "SQL, C# e Java",
+        "HTML, Java e PHP",
+        "HTML, C# e PHP"
+      ],
+      "resposta": "C#, PHP e Java"
+    },
+    {
+      "titulo": "Correlação entre JSON e AJAX",
+      "descricao": "Descrição\nOs itens a seguir detalham características de algumas tecnologias usadas no desenvolvimento Web.\nQual alternativa apresenta a correlação correta de características pertencentes ao JSON e AJAX?\ni - Ajudar a armazenar informações de maneira organizada\nii - Usada para preencher dados relacionados ao servidor na página de visualização\niii - É usado para projetar a página Web corretamente, especialmente quando a página precisa de dados do servidor\niv - É usado para transmitir dados entre um servidor e um navegador\n(OBS: Verifica de fato se está certo)",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Ajax: ii e iii\nJson: i e iv",
+        "Ajax: ii e iv\nJson: i e iii",
+        "Ajax: i e iii\nJson: ii e iv",
+        "Ajax: i e iv\nJson: ii e iii"
+      ],
+      "resposta": "Ajax: ii e iii\nJson: i e iv"
+    },
+    {
+      "titulo": "Definição de AJAX",
+      "descricao": "AJAX é um termo que descreve um(a):",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Conjunto de técnicas.",
+        "Protocolo.",
+        "Banco de dados.",
+        "Linguagem de programação.",
+        "Linguagem de marcação."
+      ],
+      "resposta": "Conjunto de técnicas."
+    },
+    {
+      "titulo": "Conversão de String para Inteiro em C#",
+      "descricao": "Qual método é usado para converter uma string para um número inteiro em C#?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Int32.Parse()",
+        "Int32.ToString()",
+        "Int32.ToInt32()",
+        "String.ToInt()",
+        "Parse.Int()"
+      ],
+      "resposta": "Int32.Parse()"
+    },
+    {
+      "titulo": "Tipo de Dado Decimal em C#",
+      "descricao": "Para criar uma variável numérica que pode armazenar valores decimais em C#, qual tipo de dado você usaria?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "int",
+        "double",
+        "char",
+        "boolean",
+        "long"
+      ],
+      "resposta": "double"
+    },
+    {
+      "titulo": "Tipo de Dado Primitivo em C#",
+      "descricao": "Qual dos seguintes é um tipo de dado primitivo em C#?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "String",
+        "Boolean",
+        "PictureBox",
+        "Form",
+        "Button"
+      ],
+      "resposta": "Boolean"
+    },
+    {
+      "titulo": "Etapa de Compreensão do Problema no Desenvolvimento",
+      "descricao": "Se dá o nome à etapa no desenvolvimento de softwares, onde ocorre a compreensão do problema a ser resolvido com o objetivo de proporcionar a mesma visão do problema, tanto para os usuários como para os desenvolvedores, de:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Levantamento de Requisitos.",
+        "Engenharia de Software.",
+        "Testes.",
+        "Arquitetura de Software.",
+        "Entrevista com o Cliente."
+      ],
+      "resposta": "Levantamento de Requisitos."
+    },
+    {
+      "titulo": "Objeto Utilizado no Ajax",
+      "descricao": "Uma forma de usar Ajax (Asynchronous JavaScript And XML) é utilizar um objeto específico, localizado no cliente, baseado em JavaScript, para interagir com os scripts no servidor.\nDessa forma, é possível efetuar solicitações ao servidor web de forma assíncrona, sem ter que atualizar toda a página.\nEsse objeto é conhecido por:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "XMLHttpRequest",
+        "XMLHttpReset",
+        "XMLHttpRewrite",
+        "XMLHttpResponse",
+        "XMLHttpRead"
+      ],
+      "resposta": "XMLHttpRequest"
+    }
+  ]
+}

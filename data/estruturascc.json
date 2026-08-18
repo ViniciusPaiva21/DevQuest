@@ -1,0 +1,366 @@
+{
+    
+  
+    "estruturascc": [
+    {
+      "titulo": "Funcionamento e Propriedades da Fila Circular",
+      "descricao": "Está correto o que se afirma em:",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "Uma fila circular evita o desperdício de espaço ao reaproveitar posições de um array quando ele 'dá a volta'."
+        },
+        {
+          "id": "II",
+          "texto": "O ponteiro 'frente' sempre aponta para o ultimo elemento da fila."
+        },
+        {
+          "id": "III",
+          "texto": "A fila circular pode ser implementada usando arrays ou listas encadeadas." 
+        },
+        {
+          "id": "IV",
+          "texto": "O tamanho da fila circular é fixo quando implementada com um array."
+        }
+      ],
+      "opcoes": [
+        "I e II",
+        "II, III e IV",
+        "I, II e III",
+        "I, III e IV"
+      ],
+      "resposta": "I, III e IV"
+    },
+    {
+      "titulo": "Características da Lista Simplesmente Encadeada",
+      "descricao": "Considere uma lista simplemente encadeada, Qual das seguintes afirmações é verdadeira?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "A inserção no final da lista exige percorrer toda a lista",
+        "O ultimo elemento da lista aponta para o primeiro nó, formando um ciclo",
+        "Cada nó armazena um ponteiro para o próximo nó e o anterior",
+        "O acesso aleatório a qualquer nó é O(log n)"
+      ],
+      "resposta": "A inserção no final da lista exige percorrer toda a lista"
+    },
+    {
+      "titulo": "Definição de Tipo Abstrato de Dados (TAD)",
+      "descricao": "O que melhor define um tipo Abstrato de Dados (TAD)?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Um tipo de dado definido por uma interface e cuja operações e valores são ocultados do usuário",
+        "Um tipo de dados que contém métodos publicos e privados",
+        "Uma Implementação concreta de uma estrutura de dados",
+        "Um tipo de dado que armazena dados em memória volátil e permanente"
+      ],
+      "resposta": "Um tipo de dado definido por uma interface e cuja operações e valores são ocultados do usuário"
+    },
+    {
+      "titulo": "Vantagens das Listas Encadeadas vs. Contíguas",
+      "descricao": "Qual é a principal vantagem de uma lista emcadeada sobre uma lista Contígua (array)?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Facilita a inserção e remoção de elementos em qualquer posição",
+        "Acesso direto aos elementos",
+        "Reduzir o uso de memória",
+        "Melhor desempenho de busca"
+      ],
+      "resposta": "Facilita a inserção e remoção de elementos em qualquer posição"
+    },
+    {
+      "titulo": "Complexidade de Acesso em Arrays (Listas Contíguas)",
+      "descricao": "Qual a complexidade de tempo para acessar um elemento em uma lista contígua pelo indice?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "O(1)",
+        "O(n)",
+        "O(log n)",
+        "O(n log n)"
+      ],
+      "resposta": "O(1)"
+    },
+    {
+      "titulo": "Conceitos e Operações de Pilhas (Stack)",
+      "descricao": "Está correto o que se afirma em:",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "A pilha segue o princípio LIFO (Last In, First Out)"
+        },
+        {
+          "id": "II",
+          "texto": "A operação de inserção em uma pilha é chamada de 'push'"
+        },
+        {
+          "id": "III",
+          "texto": "A operação de remoção em uma pilha é chamada de 'enqueue'"
+        },
+        {
+          "id": "IV",
+          "texto": "Em uma pilha, os elemento são removidos no mesmo lugar que são inseridos"
+        }
+      ],
+      "opcoes": [
+        "I, II e III",
+        "I, II, III e IV",
+        "I, II e IV",
+        "I, III e IV"
+      ],
+      "resposta": "I, II e IV"
+    },
+    {
+      "titulo": "Comparativo de Performance: Listas Encadeadas e Contíguas",
+      "descricao": "Está correto o que se afirma em:",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "A inserção no inicio de uma lista encadeada tem complexidade O(n)."
+        },
+        {
+          "id": "II",
+          "texto": "A pesquisa Binaria é eficiente em listas encadeadas do que em listas contíguas."
+         },
+         {
+           "id": "III",
+           "texto": "A pesquisa linear em listas contíguas e encadeadas tem a mesma complexidade de tempo no pior caso."
+         },
+         {
+           "id": "IV",
+           "texto": "Listas contíguas permitem acesso direto a qualquer elemento usando o seu índice."
+         }
+      ],
+      "opcoes": [
+        "I e II",
+        "II e IV",
+        "III e IV",
+        "I e III"
+      ],
+      "resposta": "II e IV"
+    },
+      {
+        "titulo": "Aplicabilidade da Busca Binária em Estruturas de Dados",
+        "descricao": "Está correto o que se afirma em:",
+        "codigo": null,
+        "afirmacoes": [
+          {
+            "id": "I",
+            "texto": "Em uma lista encadeada, não é possivel realizar pesquisa Binária"
+          },
+          {
+            "id": "II",
+            "texto": "A pesquisa linear em uma lista encadeada ordenada é sempre mais eficiente que uma lista desordenada."
+           },
+           {
+             "id": "III",
+             "texto": "A pesquisa linear em uma lista encadeada tem complexidade O(n)."
+           },
+           {
+             "id": "IV",
+             "texto": "Para realizar pesquisa Binária, é nescessário acesso direto por índices."
+           }
+         ],
+        "opcoes": [
+          "I e II",
+          "II e III",
+          "I, III e IV",
+          "II e IV"
+        ],
+        "resposta": "I, III e IV"
+      },
+      {
+        "titulo": "Abstração e Independência de Implementação em TADs",
+        "descricao": "Em um TAD, a implementaçãode uma estrutura de dados pode ser alterada sem afetar o código que utiliza o TAD. qual conceito torna isso possível?",
+        "codigo": null,
+        "afirmacoes": null,
+        "opcoes": [
+          "Emcapsulamento",
+          "Sobrecarga",
+          "Polimorfismo",
+          "Abstração"
+        ],
+        "resposta": "Abstração"
+      },
+      {
+        "titulo": "Fundamentos de Algoritmos de Pesquisa (Linear vs. Binária)",
+        "descricao": "Está correto o que se afirma em:",
+        "codigo": null,
+        "afirmacoes": [
+          {
+            "id": "I",
+            "texto": "A pesquisa lenear pode ser usada em listas desordenadas."
+          },
+          {
+            "id": "II",
+            "texto": "A pesquisa binária só funciona  corretamente em listas ordenadas."
+           },
+           {
+             "id": "III",
+             "texto": "A pesquisa linear tem complexidade O(log n)."
+           },
+           {
+             "id": "IV",
+             "texto": "A pesquisa Binária tem complexidade O(n) no melhor caso."
+           }
+         ],
+        "opcoes": [
+          "I e II",
+          "I e III",
+          "II e IV",
+          "I, II e IV"
+        ],
+        "resposta": "I e II"
+      },
+      {
+        "titulo": "Tratamento de Colisões em Tabelas Hash",
+        "descricao": "Quais são as abordagens comuns para tratar colisões em tabelas de hash?",
+        "codigo": null,
+        "afirmacoes": null,
+        "opcoes": [
+          "Lista encadeada e busca binária",
+          "Encadeamento e endereçamento aberto",
+          "Tabela de dispersão perfeita e busca sequencial",
+          "Hashing perfeito e lista duplamente encadeada"
+        ],
+        "resposta": "Encadeamento e endereçamento aberto"
+      },
+      {
+        "titulo": "Estratégia do Algoritmo de Ordenação Quicksort",
+        "descricao": "O quicksort é um algoritmo de ordenação que se baseia em qual técnica?",
+        "codigo": null,
+        "afirmacoes": null,
+        "opcoes": [
+          "Divisão e conquista",
+          "Trocas sucessivas entre elementos",
+          "Ordenação por comparação direta entre elementos adjacentes",
+          "Utilização de um vetor auxiliar para guardar os resultados"
+        ],
+        "resposta": "Divisão e conquista"
+      },
+      {
+      "titulo": "Princípios e Operações de Estruturas de Fila (Queue)",
+      "descricao": "Sobre o funcionamento de uma Fila, está correto o que se afirma em:",
+      "codigo": null,
+      "afirmacoes":[
+        {
+          "id": "I",
+          "texto": "A fila segue o princípio LIFO (Last In, First Out)."
+        },
+        {
+          "id": "II",
+          "texto": "Em uma fila, o elemento é sempre inserido no final e removido no início."
+         },
+         {
+           "id": "III",
+           "texto": "A operação de inserção em uma fila é chamada de 'enqueue'."
+         },
+         {
+           "id": "IV",
+           "texto": "A operação de remoção em uma fila é chamada de 'peek'."
+         }  
+      ],
+      "opcoes": [
+        "II e III",
+        "I e III",
+        "I, II e III",
+        "II e IV"
+      ],
+      "resposta": "II e III"
+    },
+      {
+        "titulo": "Exemplos e Classificação de Estruturas de Dados",
+        "descricao": "Qual das opções a seguir é um exemplo de estrutura de dados?",
+        "codigo": null,
+        "afirmacoes": null,
+        "opcoes": [
+          "Vetores, registros e listas encadeadas",
+          "Funções e operações de uma linguagem de programação",
+          "Tipos de dados como char, int e float",
+          "Linguagens de programação como C e Java"
+        ],
+        "resposta": "Vetores, registros e listas encadeadas"
+      },
+      {
+        "titulo": "Eficiência de Busca em Vetores Ordenados",
+        "descricao": "Dado um Array ordenado de n elementos, qual algoritmo de busca apresenta o melhor custos(em termo de complexidade de tempo) e qual a sua complexidade?",
+        "codigo": null,
+        "afirmacoes": null,
+        "opcoes": [
+          "Busca binária O(log n)",
+          "Busca linear O(log n)",
+          "Busca binária O(n)",
+          "Busca Exponencial O(n²)"
+        ],
+        "resposta": "Busca binária O(log n)"
+      },
+      {
+  "titulo": "Pesquisa em Lista Encadeada",
+  "descricao": "Em uma lista encadeada, qual das alternativas abaixo descreve corretamente o método de pesquisa?",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "A pesquisa é sempre O(1)",
+    "A pesquisa requer percorrer todos os elementos a partir do final da lista",
+    "A pesquisa é O(log n) para listas encadeadas ordenadas",
+    "A pesquisa é mais eficiente que em listas contíguas",
+    "A pesquisa requer percorrer os elementos um por um, até encontrar o elemento procurado ou alcançar o final da lista"
+  ],
+  "resposta": "A pesquisa requer percorrer os elementos um por um, até encontrar o elemento procurado ou alcançar o final da lista"
+},
+{
+  "titulo": "Função de Dispersão (Hash)",
+  "descricao": "Qual é o objetivo principal de uma função de dispersão (hash function) em uma tabela hash?",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "Transformar uma chave em um índice no array que compõe a tabela hash.",
+    "Aumentar a segurança dos dados.",
+    "Garantir que os dados sejam armazenados de forma ordenada.",
+    "Reduzir o tamanho dos dados armazenados.",
+    "Evitar a ocorrência de colisões"
+  ],
+  "resposta": "Transformar uma chave em um índice no array que compõe a tabela hash."
+},
+{
+  "titulo": "Fila com Lista Encadeada",
+  "descricao": "Considere as afirmações sobre uma fila implementada com lista encadeada:\n\nI. Em uma fila implementada usando lista encadeada, não há necessidade de gerenciar a capacidade, pois ela cresce dinamicamente.\n\nII. A inserção de um elemento em uma fila implementada usando lista encadeada é feita na frente da fila.\n\nIII. A remoção de um elemento em uma fila implementada usando lista encadeada ocorre no final da fila.\n\nIV. A complexidade das operações de inserção e remoção em uma fila implementada usando lista encadeada é O(1).\n\nEstá correto o que se afirma em:",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": [
+    "I",
+    "II",
+    "III",
+    "IV"
+  ],
+  "opcoes": [
+    "Somente I",
+    "I e IV",
+    "II, III e IV",
+    "II e III",
+    "Somente IV"
+  ],
+  "resposta": "Somente I"
+},
+      {
+        "titulo": "Mecanismo de Funcionamento do Mergesort",
+        "descricao": "Como o Mergersort funciona para ordenar uma lista de vetores?",
+        "codigo": null,
+        "afirmacoes": null,
+        "opcoes": [
+          "Ele divide o vetor original em subvetores menores, os ordena recursivamente e depois os combina.",
+          "Ele realiza trocas sucessivas entre elementos adjacentes até que a lista esteja ordenada.",
+          "Ele escolhe um pivô e divide a lista em duas partes, baseadas no valor do pivô.",
+          "Ele utiliza a tecnica de ordenação por inserção em cada subvetor"
+        ],
+        "resposta": "Ele divide o vetor original em subvetores menores, os ordena recursivamente e depois os combina."
+      }
+    ]
+}

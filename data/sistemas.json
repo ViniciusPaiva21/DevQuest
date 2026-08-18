@@ -1,0 +1,798 @@
+{
+    
+  "sistemas": [
+{
+  "descricao": "O principal objetivo do Gerenciamento de Dispositivos em um Sistema Operacional é:",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "Aumentar a velocidade do processador.",
+    "Reduzir o tamanho dos arquivos no disco.",
+    "Traduzir os comandos de aplicativos em instruções que o hardware possa entender.",
+    "Impedir que processos acessem a memória.",
+    "Atualizar automaticamente o firmware dos dispositivos."
+  ],
+  "resposta": "Traduzir os comandos de aplicativos em instruções que o hardware possa entender."
+},
+{
+  "descricao": "Quando um arquivo é removido com o comando rm no Linux:",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "O conteúdo é imediatamente sobrescrito com zeros.",
+    "O espaço ocupado é marcado como \"disponível\", mas os dados podem continuar no disco.",
+    "Os metadados e o inode são apagados fisicamente.",
+    "O arquivo é criptografado e ocultado.",
+    "O sistema reinicializa para atualizar a tabela de alocação."
+  ],
+  "resposta": "O espaço ocupado é marcado como \"disponível\", mas os dados podem continuar no disco."
+},
+{
+  "descricao": "A camada do sistema que gerencia dispositivos de bloco, como discos rígidos e SSDs, é chamada de:",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "File System Layer",
+    "Block I/O Layer",
+    "Memory Management Unit",
+    "Network Stack",
+    "Cache Layer"
+  ],
+  "resposta": "Block I/O Layer"
+},
+{
+  "descricao": "O papel do Virtual File System (VFS) é:",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "Definir o formato físico dos setores de disco.",
+    "Converter dados binários em ASCII.",
+    "Fornecer uma interface uniforme entre os aplicativos e diferentes sistemas de arquivos.",
+    "Gerenciar a inicialização do kernel.",
+    "Formatar automaticamente partições de armazenamento."
+  ],
+  "resposta": "Fornecer uma interface uniforme entre os aplicativos e diferentes sistemas de arquivos."
+},
+{
+  "descricao": "No Linux, os dispositivos são representados como arquivos localizados em qual diretório?",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "/bin",
+    "/lib",
+    "/proc",
+    "/dev",
+    "/etc"
+  ],
+  "resposta": "/dev"
+},
+{
+  "descricao": "O principal objetivo de um sistema de arquivos é:",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "Controlar os processos que acessam a CPU.",
+    "Gerenciar a comunicação entre dispositivos externos.",
+    "Organizar, armazenar e recuperar dados em dispositivos de armazenamento.",
+    "Criar partições físicas no disco.",
+    "Traduzir linguagens de programação para código binário."
+  ],
+  "resposta": "Organizar, armazenar e recuperar dados em dispositivos de armazenamento."
+},
+{
+  "descricao": "Em sistemas Linux, cada arquivo ou diretório possui um inode, que:",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "Armazena metadados, como permissões, tamanhos e horários, mas não o nome do arquivo.",
+    "Contém o nome e o conteúdo textual do arquivo.",
+    "Define a estrutura lógica dos diretórios pai.",
+    "É utilizado apenas para arquivos executáveis.",
+    "Controla as permissões do usuário root."
+  ],
+  "resposta": "Armazena metadados, como permissões, tamanhos e horários, mas não o nome do arquivo."
+},
+{
+  "descricao": "O componente responsável por atuar como tradutor entre o sistema operacional e o hardware é o:",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "Scheduler",
+    "Kernel",
+    "BIOS",
+    "Driver de dispositivo",
+    "Bootloader"
+  ],
+  "resposta": "Driver de dispositivo"
+},
+{
+  "descricao": "O que representa a sequência de permissões -rw-r--r-- em um arquivo no Linux?",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "O arquivo é um diretório e tem permissões de leitura e escrita para o dono, leitura para o grupo e outros.",
+    "O arquivo é um diretório e tem permissões de leitura, escrita e execução para o dono, leitura para o grupo e outros.",
+    "O arquivo é regular e tem permissões de leitura e execução para o dono, leitura para o grupo e outros.",
+    "O arquivo é regular e tem permissões de leitura e escrita para o dono, leitura para o grupo e outros.",
+    "O arquivo é regular e tem permissões de escrita e execução para o dono, leitura para o grupo e outros."
+  ],
+  "resposta": "O arquivo é regular e tem permissões de leitura e escrita para o dono, leitura para o grupo e outros."
+},
+{
+  "descricao": "Sobre a evolução dos sistemas operacionais, é correto afirmar que:",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "O sistema Unix foi criado para uso da Apple.",
+    "O Linux surgiu como uma versão não comercial do Windows NT.",
+    "O Unix influenciou o desenvolvimento de diversos sistemas operacionais modernos, como o Linux e o macOS.",
+    "Os primeiros sistemas operacionais já contavam com interface gráfica e suporte multitarefa.",
+    "O conceito de tempo compartilhado surgiu após o ano 2000."
+  ],
+  "resposta": "O Unix influenciou o desenvolvimento de diversos sistemas operacionais modernos, como o Linux e o macOS."
+},
+{
+  "descricao": "Qual das alternativas abaixo descreve corretamente a principal função do shell em um sistema operacional?",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "Gerenciar o hardware do sistema diretamente, sem intermediários.",
+    "Substituir completamente o sistema operacional durante a execução de programas.",
+    "Fornecer uma interface gráfica para instalação de programas.",
+    "Atuar como interface de comunicação entre o usuário e o sistema operacional.",
+    "Controlar a memória RAM e a CPU de forma exclusiva."
+  ],
+  "resposta": "Atuar como interface de comunicação entre o usuário e o sistema operacional."
+},
+{
+  "descricao": "Em sistemas que utilizam memória virtual, o espaço de swap e o algoritmo LRU desempenham papéis importantes. Qual das afirmações abaixo descreve corretamente como esses componentes funcionam?",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "O espaço de swap armazena dados permanentemente, enquanto o algoritmo LRU remove dados que foram acessados recentemente.",
+    "O swap serve para armazenar processos de alta prioridade, e o LRU substitui páginas mais antigas com base na ordem de chegada.",
+    "O espaço de swap funciona como uma extensão da RAM, armazenando páginas inativas, e o algoritmo LRU decide quais páginas menos acessadas serão movidas para o swap quando a RAM estiver cheia.",
+    "O LRU prioriza páginas mais recentes para armazenamento no swap, enquanto páginas mais antigas permanecem na RAM.",
+    "O swap e o LRU mantêm dados na memória RAM para evitar a troca frequente de páginas."
+  ],
+  "resposta": "O espaço de swap funciona como uma extensão da RAM, armazenando páginas inativas, e o algoritmo LRU decide quais páginas menos acessadas serão movidas para o swap quando a RAM estiver cheia."
+},
+{
+  "descricao": "Qual comando pode ser usado para alterar a propriedade de um arquivo para um novo proprietário?",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "chown",
+    "chmod",
+    "chgrp",
+    "usermod",
+    "passwd"
+  ],
+  "resposta": "chown"
+},
+{
+  "descricao": "Qual é a finalidade do caractere de dólar ou cifrão ( $ ) no prompt do shell do Linux?",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "Indicar que o usuário é root.",
+    "Mostrar o caminho do diretório atual.",
+    "Indicar que o usuário é um usuário regular.",
+    "Indicar que o usuário é um superusuário.",
+    "Indicar que o usuário é um administrador."
+  ],
+  "resposta": "Indicar que o usuário é um usuário regular."
+},
+{
+  "descricao": "Qual comando é utilizado para mudar o diretório atual no terminal?",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "ls",
+    "mv",
+    "cd",
+    "pwd",
+    "cp"
+  ],
+  "resposta": "cd"
+},
+{
+  "descricao": "A situação em que se tem vários fluxos de controle no mesmo espaço de endereçamento, executando quase em paralelo, conceitua-se",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "Thread.",
+    "Processo.",
+    "Kernel.",
+    "Semáforo.",
+    "Multiprogramação."
+  ],
+  "resposta": "Thread."
+},
+{
+  "descricao": "A fragmentação é um fenômeno que ocorre na alocação de memória, onde o espaço disponível é dividido de maneira ineficiente, resultando em blocos livres que não podem ser usados adequadamente para novas alocações, afetando o desempenho e a utilização do sistema. A fragmentação interna ocorre quando:",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "A memória disponível é insuficiente para um processo.",
+    "Existem espaços livres suficientes, mas não contíguos, para atender a uma solicitação de alocação.",
+    "Um bloco de memória alocado possui mais espaço do que o necessário pelo processo.",
+    "A memória é alocada em blocos de tamanho variável, ajustando-se ao tamanho exato requerido.",
+    "O sistema operacional não consegue encontrar espaço suficiente para armazenar dados."
+  ],
+  "resposta": "Um bloco de memória alocado possui mais espaço do que o necessário pelo processo."
+},
+{
+  "descricao": "A hierarquia de memória organiza o armazenamento de dados no computador com base no tempo de resposta e tempo de resposta está relacionado com a complexidade e capacidade do meio de armazenamento, portanto os níveis também podem ser diferenciados por suas tecnologias de desempenho e controle. Nesse sentido, a hierarquia de memória afeta o desempenho no projeto de arquitetura do computador. Analise as seguintes afirmações sobre hierarquia de memória.",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": [
+    {
+      "id": "I",
+      "texto": "O armazenamento interno que compreende registradores e cache possui melhor desempenho, porém menor capacidade de armazenamento quando comparados à memória principal, como por exemplo a RAM."
+    },
+    {
+      "id": "II",
+      "texto": "O disco rígido possui maior capacidade de armazenamento e maior velocidade de acesso aos dados quando comparado à memória RAM."
+    },
+    {
+      "id": "III",
+      "texto": "Cache é um meio de armazenamento permanente enquanto a memória RAM é um meio de armazenamento temporário."
+    },
+    {
+      "id": "IV",
+      "texto": "A memória física é um meio de armazenamento rápido, se comparado aos discos e é usado para armazenar instruções de programas em execução pelo processador."
+    }
+  ],
+  "opcoes": [
+    "I e III.",
+    "III e IV.",
+    "II, III e IV.",
+    "I e IV.",
+    "I, II, III e IV."
+  ],
+  "resposta": "I e IV."
+},
+{
+  "descricao": "O conceito de endereçamento em sistemas de computador se refere à maneira como a memória é identificada e acessada. Em um sistema de memória virtual, o endereço lógico (ou virtual):",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "É a localização física exata na RAM onde os dados estão armazenados.",
+    "É utilizado pelo sistema operacional para acessar diretamente a memória RAM.",
+    "Refere-se à localização de memória vista pelo programa, não à localização real na RAM.",
+    "Não precisa de tradução, pois já está no formato adequado para a MMU.",
+    "É gerado somente durante o processo de compactação da memória."
+  ],
+  "resposta": "Refere-se à localização de memória vista pelo programa, não à localização real na RAM."
+},
+{
+  "descricao": "Em relação à técnica de Swapping é correto afirmar que:",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "Uma técnica de escalonamento de processos usada em sistemas de tempo real.",
+    "Uma área de memória de alta velocidade onde são armazenados os processos mais prioritários.",
+    "Amplia a capacidade de memória total do sistema possuindo o mesmo desempenho que a memória física.",
+    "É uma área de memória cache usada nos casos em que a memória física do sistema está esgotada.",
+    "É um mecanismo permitindo que alguns processos possam ser movidos para a memória secundária a fim de liberar espaço."
+  ],
+  "resposta": "É um mecanismo permitindo que alguns processos possam ser movidos para a memória secundária a fim de liberar espaço."
+},
+{
+  "descricao": "Qual é uma característica fundamental do sistema operacional Linux?",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "Interface gráfica altamente customizável.",
+    "Modelo de negócios para fins comerciais.",
+    "Uso restrito a servidores de alto desempenho.",
+    "Colaboração da comunidade de desenvolvedores.",
+    "Foco exclusivo em dispositivos móveis."
+  ],
+  "resposta": "Colaboração da comunidade de desenvolvedores."
+},
+{
+  "descricao": "Qual das seguintes opções descreve corretamente o que acontece quando você usa o operador de redirecionamento > ?",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "O comando é executado em segundo plano.",
+    "A saída do comando é exibida no terminal.",
+    "A saída do comando é passada como entrada para outro comando.",
+    "A saída do comando é salva em um arquivo, sobrescrevendo o arquivo se ele já existir.",
+    "A saída do comando é adicionada ao final de um arquivo existente."
+  ],
+  "resposta": "A saída do comando é salva em um arquivo, sobrescrevendo o arquivo se ele já existir."
+},
+{
+  "descricao": "Qual é a função principal de um sistema operacional?",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "Facilitar a comunicação entre os dispositivos de entrada e saída.",
+    "Criar documentos de texto.",
+    "Criar interfaces gráficas personalizadas.",
+    "Implementar protocolos de rede avançados.",
+    "Realizar análises de dados em tempo real."
+  ],
+  "resposta": "Facilitar a comunicação entre os dispositivos de entrada e saída."
+},
+{
+  "descricao": "O mecanismo de escalonamento, não preemptivo, conhecido como tarefa mais curta primeiro – SJF se caracteriza por:",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "Definir uma fatia de tempo pequena para cada processo, também chamado de quantum.",
+    "Ordenar a execução dos processos de acordo com o tempo de CPU onde os processos com menor tempo de CPU são selecionados primeiro.",
+    "Seleciona os processos para execução de acordo com a ordem de chegada.",
+    "Seleciona o processo cujo tempo de execução restante é o mais curto.",
+    "Cada processo recebe uma prioridade e o processo pronto com prioridade mais alta é selecionado para executar."
+  ],
+  "resposta": "Ordenar a execução dos processos de acordo com o tempo de CPU onde os processos com menor tempo de CPU são selecionados primeiro."
+},
+{
+  "descricao": "Qual é o componente responsável por gerenciar os recursos de hardware em um sistema operacional?",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "Software aplicativo.",
+    "Kernel.",
+    "Interface gráfica.",
+    "Memória RAM.",
+    "Disco rígido."
+  ],
+  "resposta": "Kernel."
+},
+{
+  "descricao": "A situação em que cada recurso só pode estar alocado a um único processo em um determinado instante é conhecida como:",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "Espera por recurso.",
+    "Espera circular.",
+    "Preempção.",
+    "Deadlock.",
+    "Exclusão mútua."
+  ],
+  "resposta": "Exclusão mútua."
+},
+{
+  "descricao": "A fragmentação é um fenômeno que ocorre na alocação de memória, onde o espaço disponível é dividido de maneira ineficiente, resultando em blocos livres que não podem ser usados adequadamente para novas alocações, afetando o desempenho e a utilização do sistema. A fragmentação externa ocorre quando:",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "A memória disponível não é suficiente para armazenar o programa de um processo.",
+    "Existem blocos de memória livres que, somados, são suficientes, mas não há espaço contíguo disponível.",
+    "Um bloco de memória alocado é maior que o necessário pelo programa.",
+    "A memória é alocada de forma a evitar espaços livres não utilizados.",
+    "A MMU falha ao traduzir endereços lógicos para físicos corretamente."
+  ],
+  "resposta": "Existem blocos de memória livres que, somados, são suficientes, mas não há espaço contíguo disponível."
+},
+{
+  "descricao": "Qual operador é utilizado para passar a saída de um comando como entrada para outro comando?",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    ">",
+    ">>",
+    "|",
+    "<",
+    ";"
+  ],
+  "resposta": "|"
+},
+{
+  "descricao": "Por que as senhas no arquivo /etc/shadow são armazenadas como hashes criptográficos?",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "Para facilitar a leitura",
+    "Para permitir a recuperação das senhas originais",
+    "Para aumentar a segurança, tornando inviável recuperar a senha original",
+    "Para economizar espaço de armazenamento",
+    "Para facilitar a edição manual"
+  ],
+  "resposta": "Para aumentar a segurança, tornando inviável recuperar a senha original"
+},
+{
+  "descricao": "Qual dos seguintes tipos de sistemas operacionais é projetado para compartilhar o acesso de recursos do processador ao mesmo tempo?",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "Sistema operacional de tempo real com capacidade de agendamento.",
+    "Ambiente de sistema operacional para múltiplos usuários.",
+    "Sistema operacional de gerenciamento de tarefas em lote.",
+    "Sistema operacional monotarefa.",
+    "Sistema operacional para servidores de rede."
+  ],
+  "resposta": "Ambiente de sistema operacional para múltiplos usuários."
+},
+{
+  "descricao": "Qual sistema operacional, criado na década de 1960 e mencionado no texto, deu origem aos sistemas operacionais da família Linux que utilizam sua estrutura no kernel?",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "Windows",
+    "MacOS",
+    "Linux",
+    "Unix",
+    "Android"
+  ],
+  "resposta": "Unix"
+},
+{
+  "descricao": "Qual é o principal papel do shell em um sistema operacional?",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "Executar automaticamente todos os programas instalados no sistema",
+    "Proteger o sistema contra vírus e malwares",
+    "Fornecer uma interface para os usuários se comunicarem com o sistema operacional",
+    "Controlar o acesso à internet",
+    "Facilitar o design gráfico de interfaces no sistema"
+  ],
+  "resposta": "Fornecer uma interface para os usuários se comunicarem com o sistema operacional"
+},
+{
+  "descricao": "Qual termo descreve a parte da linha de comando que ajusta o comportamento de um comando?",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "Argumento",
+    "Comando",
+    "Opção",
+    "Prompt",
+    "Atalho"
+  ],
+  "resposta": "Opção"
+},
+{
+  "descricao": "Ao usar o comando chmod 750 arquivo.txt, quais permissões estão sendo concedidas?",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "Leitura e execução para todos.",
+    "Leitura e escrita para o proprietário, escrita e execução para o grupo, nenhuma permissão para outros.",
+    "Leitura, escrita e execução para o proprietário, leitura e execução para o grupo, nenhuma permissão para outros.",
+    "Nenhuma permissão para ninguém.",
+    "Leitura e execução para o grupo, escrita para outros."
+  ],
+  "resposta": "Leitura, escrita e execução para o proprietário, leitura e execução para o grupo, nenhuma permissão para outros."
+},
+{
+  "descricao": "Para que serve o comando chmod em um sistema Unix-like?",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "Para mudar o proprietário de um arquivo",
+    "Para criar um novo diretório",
+    "Para alterar as permissões de um arquivo ou diretório",
+    "Para mover arquivos para outro diretório",
+    "Para listar arquivos em um diretório"
+  ],
+  "resposta": "Para alterar as permissões de um arquivo ou diretório"
+},
+{
+  "descricao": "Um sistema interativo deve ser adequado para lidar com usuários interagindo com o sistema. Por esse motivo, o mecanismo de escalonamento deve ser adequado para este propósito. Um mecanismo ideal para este tipo de sistema é:",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "Round-robin.",
+    "Tarefa mais curta primeiro (Shortest Job First - SJF).",
+    "First-come-first-served - FCS.",
+    "Escalonamento estático.",
+    "Escalonamento dinâmico."
+  ],
+  "resposta": "Round-robin."
+},
+{
+  "descricao": "Em um sistema local não distribuído, uma das soluções para resolver problemas de comunicação entre processos é o uso de semáforos. Em relação a este mecanismo é correto afirmar que:",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "A operação dormir (sleep) é executada quando o semáforo é maior do que 0 (zero).",
+    "A operação Wake up (acordar) permite que o processo permaneça aguardando.",
+    "O processo é acordado (Wake up) caso o valor do semáforo seja maior do que 0 (zero), dando continuidade ao processo.",
+    "Quando as operações Wake up e sleep são executadas, isso permite que qualquer outro processo acesse o semáforo.",
+    "Quando um semáforo executa a operação sleep, significa que o processo será finalizado."
+  ],
+  "resposta": "O processo é acordado (Wake up) caso o valor do semáforo seja maior do que 0 (zero), dando continuidade ao processo."
+},
+{
+  "descricao": "Em alguns casos, o compartilhamento de recursos em sistemas operacionais pode gerar situações indesejadas. A situação em que um processo aguarda por um recurso que nunca estará disponível ou um evento que nunca ocorrerá é conhecida como",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "Starvation",
+    "Condições de corrida.",
+    "Page fault",
+    "Deadlock",
+    "Exclusão mútua."
+  ],
+  "resposta": "Deadlock"
+},
+{
+  "descricao": "Os sistemas operacionais multitarefa possuem como característica:",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "executar somente um programa (tarefa) por vez o que aumenta o desempenho, uma vez que o computador terá todos os recursos disponíveis para esse programa.",
+    "a existência de vários processadores, aumentando o desempenho na execução dos programas.",
+    "executar mais de um programa (tarefa) ao mesmo tempo, compartilhando os recursos do computador.",
+    "acessar a internet de forma mais otimizada, pois permite a comunicação com vários servidores simultaneamente.",
+    "não permite o compartilhamento dos recursos do computador."
+  ],
+  "resposta": "executar mais de um programa (tarefa) ao mesmo tempo, compartilhando os recursos do computador."
+},
+{
+  "descricao": "Em relação as transições de estados de um processo é correto afirmar que:",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "Um processo no estado de pronto pode transitar para o estado de espera.",
+    "Um processo no estado de espera só pode alternar para o estado de execução.",
+    "Um processo no estado de pronto pode ir para o estado de execução, ou estado de espera.",
+    "Um processo no estado de término pode voltar ao estado de pronto caso seja finalizado por engano.",
+    "Um processo no estado de execução pode mudar para o estado de término ou para o estado de espera ou para o estado de pronto, somente."
+  ],
+  "resposta": "Um processo no estado de execução pode mudar para o estado de término ou para o estado de espera ou para o estado de pronto, somente."
+},
+{
+  "descricao": "O sistema operacional é considerado uma camada intermediária responsável por fazer a interface hardware e softwares aplicativos. Nesse sentido, quando a aplicação utilizada pelo usuário deseja utilizar um arquivo do disco,",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "o sistema operacional recebe a solicitação da aplicação e faz a solicitação do arquivo ao disco.",
+    "a aplicação do usuário faz a solicitação diretamente ao disco.",
+    "a aplicação não tem acesso ao disco, portanto não pode acessar o arquivo.",
+    "o próprio usuário deve manipular o disco para obter acesso ao arquivo.",
+    "tanto a aplicação quanto o sistema operacional possuem acesso direto ao hardware e podem obter o arquivo diretamente."
+  ],
+  "resposta": "o sistema operacional recebe a solicitação da aplicação e faz a solicitação do arquivo ao disco."
+},
+{
+  "descricao": "É uma característica da memória virtual por segmentação:",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "Ocorrência do problema conhecido como fragmentação interna.",
+    "Os segmentos nunca são armazenados na memória principal.",
+    "Segmentos não podem ser substituídos na memória.",
+    "Os segmentos possuem tamanhos variados.",
+    "É difícil trabalhar com estruturas de dados dinâmicas, ou seja, que crescem ou diminuem."
+  ],
+  "resposta": "Os segmentos possuem tamanhos variados."
+},
+{
+  "descricao": "O que é um sistema operacional?",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "Um conjunto de instruções de baixo nível responsável pelo funcionamento dos dispositivos de hardware em um computador.",
+    "Uma camada de software que gerencia recursos de hardware, fornece serviços para aplicativos e atua como intermediário entre o usuário e o hardware do computador.",
+    "Um mecanismo de controle de qualidade que verifica a segurança de todos os programas instalados em um computador.",
+    "Um dispositivo de hardware essencial em todos os computadores.",
+    "Um ambiente de design gráfico usado para criar interfaces de usuário para aplicativos de computador."
+  ],
+  "resposta": "Uma camada de software que gerencia recursos de hardware, fornece serviços para aplicativos e atua como intermediário entre o usuário e o hardware do computador."
+},
+{
+  "descricao": "Um sistema de tempo real é aquele em que o tempo desempenha função fundamental. Portanto, esse tipo de sistema deve atender necessidades rígidas de tempo. Cada tarefa deve executar em um tempo específico e atrasos não são desejáveis ou até mesmo não são toleráveis. Esses sistemas são conhecidos como hard real time ou soft real time. Para atender essa característica, o mecanismo de escalonamento mais indicado é",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "escalonamento por múltiplas filas.",
+    "round-robin",
+    "prioridade que podem ser estáticas ou dinâmicas.",
+    "escalonamento SJF (tarefa mais curta primeiro)",
+    "escalonamento FCS (tarefas são executadas na ordem que chegam."
+  ],
+  "resposta": "prioridade que podem ser estáticas ou dinâmicas."
+},
+{
+  "descricao": "Quando ocorre uma falha de página, o sistema operacional precisa escolher uma página para remover da memória, para liberar espaço para a página que precisa ser trazida. O sistema operacional possui algumas estratégias conhecidas como Algoritmos de Substituição de Páginas para realizar essa tarefa. Em relação ao algoritmo do relógio para substituição de página, é correto afirmar que:",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "Possui apenas uma referência temporal, substituindo a página mais antiga na memória.",
+    "Descarta a página que não foi utilizada por mais tempo.",
+    "Possui uma referência temporal e um bit de referência. Logo, escolhe para substituir a página mais antiga que está a mais tempo sem ser referenciada.",
+    "Possui um contador para indicar a frequência de utilização das páginas, escolhendo a de menor contador para ser substituída.",
+    "Substitui as páginas com base em um bit de referência e outro de modificação."
+  ],
+  "resposta": "Possui uma referência temporal e um bit de referência. Logo, escolhe para substituir a página mais antiga que está a mais tempo sem ser referenciada."
+},
+{
+  "descricao": "Um sistema operacional faz o gerenciamento do acesso ao hardware de modo a oferecer facilidade aos usuários e segurança no acesso aos dispositivos. Entre as funções de um sistema operacional, estão",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": [
+    {
+      "id": "I",
+      "texto": "Realizar o agendamento de backups para garantir a permanência dos dados em situações de falha."
+    },
+    {
+      "id": "II",
+      "texto": "Gerenciar arquivos organizando e armazenando os dados e métodos de acesso aos dados."
+    },
+    {
+      "id": "III",
+      "texto": "Gerenciamento de dispositivos para garantir o acesso aos periféricos, através dos drivers dos dispositivos."
+    },
+    {
+      "id": "IV",
+      "texto": "Fornecer uma interface de programação para que os programadores possam desenvolver softwares através das linguagens de programação."
+    }
+  ],
+  "opcoes": [
+    "I e II.",
+    "II e III.",
+    "III e IV.",
+    "II, III e IV.",
+    "I, II, III e IV."
+  ],
+  "resposta": "II e III."
+},
+{
+  "descricao": "No esquema de memória virtual por paginação a característica principal é",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "O espaço de memória virtual e real (quadros) é dividido em unidades de tamanhos diferentes",
+    "O espaço de memória virtual e real (quadros) é dividido em unidades de mesmo tamanho.",
+    "Para alocar os dados é necessário haver espaço livre contíguo na memória.",
+    "Não permite programas maiores do que a capacidade de memória física do sistema.",
+    "Possui baixo desempenho pois os dados precisam estar armazenados na área de memória secundária."
+  ],
+  "resposta": "O espaço de memória virtual e real (quadros) é dividido em unidades de mesmo tamanho."
+},
+{
+  "descricao": "Qual técnica de gerenciamento de memória gera um problema conhecido como fragmentação externa?",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "Alocação particionada dinâmica.",
+    "Paginação.",
+    "Segmentação.",
+    "Segmentação com paginação.",
+    "RAM."
+  ],
+  "resposta": "Alocação particionada dinâmica."
+},
+{
+  "descricao": "Em relação ao conceito de threads, marque a alternativa correta:",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "Os threads em modo usuário possuem baixo desempenho pois o sistema deve trocar o modo de acesso usuário-kernel-usuário a cada thread escalonado para execução.",
+    "Threads em modo usuário possuem maior desempenho mas possui a desvantagem de rotinas de E/S. Pois nesse caso, o processo inteiro é bloqueado.",
+    "Threads são usados nos sistemas operacionais atuais em menor número que processos, em razão do seu baixo desempenho.",
+    "Os threads em modo kernel possui alto desempenho e caso uma thread entre em bloqueio, os demais threads não são afetados.",
+    "Threads em modo usuário são implementados no espaço de usuários. Quando uma operação de E/S é executada, não afeta os demais threads."
+  ],
+  "resposta": "Threads em modo usuário possuem maior desempenho mas possui a desvantagem de rotinas de E/S. Pois nesse caso, o processo inteiro é bloqueado."
+},
+{
+  "descricao": "A respeito dos mecanismos de sincronização e comunicação de processos, analise as afirmações abaixo.",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": [
+    {
+      "id": "I",
+      "texto": "Condições de corrida podem ocorrer se múltiplas threads fazem leituras de um dado compartilhado, mesmo que nenhuma realize escritas."
+    },
+    {
+      "id": "II",
+      "texto": "O uso de mutex para a exclusão mútua em seções críticas garante que não haja condição de corrida, porém pode ocasionar deadlocks se não for corretamente empregado."
+    },
+    {
+      "id": "III",
+      "texto": "Monitores são baseados em um tipo abstrato de dados e um controle de acesso aos dados. Apenas funções do monitor acessam os dados e apenas uma thread ou processo pode executar funções de um monitor por vez."
+    },
+    {
+      "id": "IV",
+      "texto": "Semáforos têm duas operações, P() ou Down e V() ou UP, sendo que apenas a operação P() pode bloquear um processo ou thread."
+    }
+  ],
+  "opcoes": [
+    "apenas as afirmativas I, II e III são verdadeiras.",
+    "nenhuma das afirmativas é verdadeira.",
+    "apenas as afirmativas II, III e IV são verdadeiras.",
+    "apenas as afirmativas II e IV são verdadeiras.",
+    "apenas as afirmativas I, III e IV são verdadeiras."
+  ],
+  "resposta": "apenas as afirmativas II, III e IV são verdadeiras."
+},
+{
+  "descricao": "Seis processos deverão ser executados em um computador. Os tempos de execução previstos para cada um dos processos são 10, 8, 4, 6, 2 e X medidos em alguma unidade de tempo. O responsável pela administração do sistema operacional desse computador decide organizar a ordem de execução desses processos, objetivando minimizar o tempo médio de resposta utilizando o critério SJF (shortest job first). Sabe-se que o processo com tempo X será o terceiro processo a ser executado. Nessas condições, um valor possível para X é:",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "5.",
+    "11.",
+    "3.",
+    "7.",
+    "9."
+  ],
+  "resposta": "5."
+},
+{
+  "descricao": "Em relação ao conceito de processos, marque a alternativa correta:",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "Um subprocesso é criado a partir de um outro processo em execução mas não possui nenhuma relação com o processo criador.;",
+    "Um processo pode ser entendido como um programa em execução e é composto por três partes conhecidas como contexto de hardware, contexto de software e espaço de processamento.;",
+    "O contexto de software é fundamental para a implementação de sistemas multiprogramáveis, permitindo que os processos se alternem na utilização da CPU, sejam interrompidos e depois restaurados.;",
+    "O contexto de hardware de um processo armazena o conteúdo dos registradores gerais da CPU, além dos registradores específicos como PC (program counter), SP (stack pointer) e registrador de status.;",
+    "Um processo muda do estado de espera (bloqueado) para o estado de execução assim que um recurso necessário é concedido ou uma operação de entrada e saída é concluída."
+  ],
+  "resposta": "O contexto de hardware de um processo armazena o conteúdo dos registradores gerais da CPU, além dos registradores específicos como PC (program counter), SP (stack pointer) e registrador de status.;"
+},
+{
+  "descricao": "Em relação aos métodos de armazenamento de arquivos em disco, na alocação encadeada:",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "cada bloco pode ser usado integralmente, não sendo necessários armazenar ponteiros para o bloco seguinte.",
+    "armazena os arquivos como uma sequência contígua de blocos.",
+    "um arquivo inteiro pode ser lido do disco em uma única operação.",
+    "com o tempo, o disco se torna fragmentado.",
+    "todos os blocos do disco podem ser utilizados e nenhum espaço é perdido com fragmentação de disco."
+  ],
+  "resposta": "todos os blocos do disco podem ser utilizados e nenhum espaço é perdido com fragmentação de disco."
+}
+  ]
+}

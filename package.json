@@ -1,0 +1,10 @@
+{
+  "name": "devquest",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Quiz estático de tecnologia com questões organizadas por matéria.",
+  "scripts": {
+    "validate": "node scripts/validate-data.mjs",
+    "test": "node scripts/validate-data.mjs && node scripts/validate-ui.mjs && node scripts/test-theme.mjs && node scripts/test-utils.mjs"
+  }
+}

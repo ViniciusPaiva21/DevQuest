@@ -1,0 +1,723 @@
+{
+    
+  "engenharia": [
+    {
+      "titulo": "Implementação de Arquitetura de Sistemas",
+      "descricao": "Implementar efetivamente uma arquitetura de sistemas previamente selecionada pode ser entendido tanto como uma arte quanto como uma ciência:\n\n● Arte, porque envolve criatividade e visão.\n● Ciência, porque requer conhecimento técnico e metodologia.\n\nAssinale a alternativa correta sobre a implementação de uma arquitetura de sistemas em uma organização:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Pode ser realizada sem planejamento prévio.",
+        "Dispensa a análise de impacto nos negócios.",
+        "É exclusivamente uma responsabilidade de TI.",
+        "É algo alheio a questões de segurança dos dados.",
+        "Requer planejamento estratégico e técnico."
+      ],
+      "resposta": "Requer planejamento estratégico e técnico."
+    },
+    {
+  "titulo": "Diagrama de Casos de Uso",
+  "descricao": "Dado o diagrama de casos de uso abaixo. Este representa uma parte dos requisitos funcionais referente ao sistema de vendas de uma loja.\n\nSegundo esse diagrama, conclui-se que:",
+  "imagem": "photoeng/eng1.jpg",
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "todo gerente pode realizar uma venda.",
+    "o cancelamento de uma venda que tenha sido paga com cartão de crédito gera uma notificação ao sistema da operadora de cartões de crédito.",
+    "o sistema de operadora de cartões de crédito é acionado diretamente pelo sistema de vendas, logo ele é interno ao sistema de vendas.",
+    "qualquer funcionário pode cancelar uma venda, pois todo gerente é um funcionário.",
+    "clientes participam do caso de uso Realiza Venda, porém eles apenas recebem informações do sistema."
+  ],
+  "resposta": "todo gerente pode realizar uma venda."
+  },
+  {
+  "titulo": "Diagrama de Atividade",
+  "descricao": "Avalie o diagrama de atividades abaixo.\n\nA alternativa correta sobre este diagrama de atividade é:",
+  "imagem": "photoeng/eng2.jpg",
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "A barra de sincronização que está entre a ação “Ação01” e as ações “Ação02” e “Ação03” é denominada de Fork que possui a finalidade de dividir o fluxo do processo em vários fluxos que podem ser executados de forma concorrente.",
+    "O elemento que está entre a ação “Ação01” e as ações “Ação02” e “Ação03” é uma barra de sincronização denominada de Join que possui a finalidade de dividir o fluxo do processo em vários fluxos que podem ser executados de forma paralela.",
+    "A barra de sincronização que está entre as ações “Ação02” e “Ação03” e a ação “Ação04” é denominada de Fork e representa a situação em que a “Ação04” só poderá ser executada após o término das ações “Ação02” e “Ação03”.",
+    "As ações “Ação02” e “Ação03” são mutuamente exclusivas, ou seja, serão executadas de acordo com o estado da barra de sincronização que está após a ação “Ação01”.",
+    "A barra de sincronização do tipo Fork que está após as ações “Ação02” e “Ação03”, fará com que a ação “Ação04” seja executada imediatamente após o encerramento da “Ação02” ou da “Ação03”."
+  ],
+  "resposta": "A barra de sincronização que está entre a ação “Ação01” e as ações “Ação02” e “Ação03” é denominada de Fork que possui a finalidade de dividir o fluxo do processo em vários fluxos que podem ser executados de forma concorrente."
+  },
+  {
+  "titulo": "Atores e Generalização",
+  "descricao": "Com base no diagrama, considere as seguintes afirmativas:",
+  "imagem": "photoeng/eng3.jpg",
+  "codigo": null,
+  "afirmacoes": [
+    {
+      "id": "I.",
+      "texto": "O diagrama de componentes apresentado tem como componentes principais Cadastrar Produto e Cadastrar Nota Fiscal."
+    },
+    {
+      "id": "II.",
+      "texto": "O ator Estoquista Chefe pode participar do caso de uso Cadastrar Produto e do caso de uso Cadastrar Nota Fiscal."
+    },
+    {
+      "id": "III.",
+      "texto": "Neste diagrama de sequência Cadastrar Produto sempre deverá ocorrer antes de Cadastrar Nota Fiscal."
+    },
+    {
+      "id": "IV.",
+      "texto": "Existe uma relação de generalização entre os atores Estoquista (ator base) e Estoquista Chefe (ator especializado)."
+    }
+  ],
+  "opcoes": [
+    "II e IV",
+    "III e IV",
+    "I",
+    "II",
+    "III"
+  ],
+  "resposta": "II e IV"
+  },
+  {
+  "titulo": "Diagrama de Sequência",
+  "descricao": "Seja o diagrama de sequência dado pela figura. Avalie as seguintes afirmativas:",
+  "imagem": "photoeng/eng4.jpg",
+  "codigo": null,
+  "afirmacoes": [
+    {
+      "id": "I.",
+      "texto": "A mensagem 1 depois de executada, criará o objeto ItemPedido."
+    },
+    {
+      "id": "II.",
+      "texto": "A mensagem 2 depois de executada terá como efeito a destruição do objeto ItemPedido."
+    },
+    {
+      "id": "III.",
+      "texto": "Os objetos em questão já existem antes que o processo de troca de mensagens comece."
+    },
+    {
+      "id": "IV.",
+      "texto": "A mensagem 2 é executada pelo objeto pedido."
+    },
+    {
+      "id": "V.",
+      "texto": "O objeto pedido foi criado durante a execução da mensagem 2."
+    }
+  ],
+  "opcoes": [
+    "I somente",
+    "II e III somente",
+    "II somente",
+    "IV e V somente",
+    "III e V somente"
+  ],
+  "resposta": "I somente"
+  },
+    {
+      "titulo": "Consistência no Design de Interfaces",
+      "descricao": "Os usuários esperam que os elementos de interface funcionem de maneira previsível, e isso pode ser alcançado através da aplicação consistente de padrões de design em todo o sistema. A consistência não se refere apenas à aparência visual, mas também ao comportamento funcional dos elementos, como botões, menus e formulários.\n\nFonte: criação do autor.\n\nSobre a importância da consistência no design de interfaces, marque a alternativa correta a seguir:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Melhora a eficiência do uso ao reduzir a curva de aprendizado.",
+        "É nociva para a aparência visual dos elementos.",
+        "Pouco afeta a confiança dos usuários nas interfaces.",
+        "Aumenta a necessidade de reaprendizagem em novas telas.",
+        "Torna os elementos de interface menos previsíveis."
+      ],
+      "resposta": "Melhora a eficiência do uso ao reduzir a curva de aprendizado."
+    },
+    {
+  "titulo": "Diagrama de Atividades - Sistema de Transporte",
+  "descricao": "Uma software house quer desenvolver um App que una empresas que precisam transportar mercadorias de condutores autônomos de veículos de carga.\n\nCom base no diagrama acima, avalie as seguintes afirmativas:",
+  "imagem": "photoeng/eng5.jpg",
+  "codigo": null,
+  "afirmacoes": [
+    {
+      "id": "I.",
+      "texto": "Os serviços oferecidos por outros Apps, como mapas para cálculo de rotas, por exemplo, poderão ser usados no desenvolvimento do aplicativo, mesmo que não tenham sido representados no diagrama."
+    },
+    {
+      "id": "II.",
+      "texto": "Os fluxos paralelos indicados nos pontos de decisão 2 e 3 levam a erros no funcionamento do aplicativo, uma vez que permitem a continuidade do processo mesmo que não haja rota, destino ou tipo de veículo adequado."
+    },
+    {
+      "id": "III.",
+      "texto": "O diagrama apresenta atividades desempenhadas pela \"Empresa que precisa de transporte\" e pelo \"Transportador\", no entanto, as atividades que precisam ser modeladas no sistema restringem-se às desempenhadas pelo \"Aplicativo\"."
+    },
+    {
+      "id": "IV.",
+      "texto": "As ações \"Informar indisponibilidade\" e \"Confirmar disponibilidade\" correspondem a funcionalidades distintas no sistema, visto que a primeira se relaciona à existência de tipo de veículo, rota e destino e a segunda se relaciona à agenda do transportador."
+    }
+  ],
+  "opcoes": [
+    "I e IV",
+    "I e II",
+    "II e III",
+    "I, III e IV",
+    "II, III e IV"
+  ],
+  "resposta": "I e IV"
+  },
+  {
+  "titulo": "Diagrama de Classes",
+  "descricao": "O laboratório XYZ abriu uma licitação para a construção de um sistema que irá controlar os exames que são realizados pelos seus pacientes. Após o levantamento de requisitos, foi gerado o diagrama de classes abaixo.\n\nAssinale a alternativa correta sobre o diagrama de classes gerado:",
+  "imagem": "photoeng/eng6.jpg",
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "os objetos da classe Empresa possuem dois atributos: o seu nome e o número de seu CNPJ.",
+    "cada objeto da classe Reativos só pode ser instanciado a partir de algum método da classe Exame.",
+    "o pacote associado à classe Pedido especifica a implementação de um método de controle do construtor da classe Pedido.",
+    "um cliente realiza nenhum ou vários pedidos envolvendo vários exames, cada qual composto por um ou mais reativos.",
+    "um mesmo cliente pode realizar um mesmo exame mais de uma vez, com a diferenciação dos pedidos realizada pela data da coleta."
+  ],
+  "resposta": "os objetos da classe Empresa possuem dois atributos: o seu nome e o número de seu CNPJ."
+},
+{
+  "titulo": "Diagrama de Caso de Uso",
+  "descricao": "Considere o diagrama de caso de uso da UML abaixo.\n\nCom base no diagrama, analise as afirmativas abaixo:",
+  "imagem": "photoeng/eng7.jpg",
+  "codigo": null,
+  "afirmacoes": [
+    {
+      "id": "1.",
+      "texto": "Decorrente do relacionamento de generalização entre os atores, o ator Vendedor executa uma tarefa comum com o ator Coordenador que é emitir relatórios de vendas."
+    },
+    {
+      "id": "2.",
+      "texto": "Decorrente do relacionamento de generalização entre os atores, o ator Coordenador executa uma tarefa comum com o ator Vendedor que é Manter o Pedido e Atualizar o Cadastro do Cliente."
+    },
+    {
+      "id": "3.",
+      "texto": "O relacionamento «extend» entre os casos de uso define que o caso de uso Manter Pedido invoca, obrigatoriamente, o caso de uso Atualizar Cadastro do Cliente."
+    },
+    {
+      "id": "4.",
+      "texto": "O relacionamento entre ator Coordenador com o caso de uso Emitir relatório de vendas é do tipo associação (ou comunicação)."
+    }
+  ],
+  "opcoes": [
+    "É correta apenas a afirmativa 1.",
+    "São corretas apenas as afirmativas 1 e 4.",
+    "São corretas apenas as afirmativas 2 e 4.",
+    "São corretas apenas as afirmativas 3 e 4.",
+    "São corretas apenas as afirmativas 1 e 3."
+  ],
+  "resposta": "São corretas apenas as afirmativas 2 e 4."
+},
+{
+  "titulo": "Diagrama de Caso de Uso - Include e Extend",
+  "descricao": "Considere o diagrama de caso de uso da UML abaixo.\n\nCom base no diagrama, analise as afirmativas abaixo:",
+  "imagem": "photoeng/eng8.jpg",
+  "codigo": null,
+  "afirmacoes": [
+    {
+      "id": "1.",
+      "texto": "O ator Proprietário tem acesso aos casos de uso do ator Gerente."
+    },
+    {
+      "id": "2.",
+      "texto": "O caso de uso Ativar Sistema sempre realiza o caso de uso Autorizar Acesso."
+    },
+    {
+      "id": "3.",
+      "texto": "O caso de uso Responder Evento, eventualmente, realiza o caso de uso Registrar Erro."
+    },
+    {
+      "id": "4.",
+      "texto": "O ator Proprietário tem acesso apenas ao caso de uso Alterar Senha."
+    }
+  ],
+  "opcoes": [
+    "Todas as afirmativas estão corretas.",
+    "São corretas apenas as afirmativas 1 e 4.",
+    "São corretas apenas as afirmativas 2, 3 e 4.",
+    "São corretas apenas as afirmativas 3 e 4.",
+    "São corretas apenas as afirmativas 1, 2 e 3."
+  ],
+  "resposta": "São corretas apenas as afirmativas 1, 2 e 3."
+},
+{
+  "titulo": "Herança de Métodos",
+  "descricao": "Observe o diagrama de classes abaixo.\n\nQual alternativa apresenta todos os métodos herdados pela classe S:",
+  "imagem": "photoeng/eng9.jpg",
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "metodoP(), metodoR()",
+    "metodoP()",
+    "metodoQ(), metodoR(), metodoP()",
+    "metodoR(), metodoQ()",
+    "metodoR()"
+  ],
+  "resposta": "metodoQ(), metodoR(), metodoP()"
+},
+{
+  "titulo": "Associação e Multiplicidade",
+  "descricao": "O clube de regatas Álvares Cabral deseja ser todo informatizado. E alguns módulos foram modelados conforme a figura.\n\nAvalie as seguintes afirmativas:",
+  "imagem": "photoeng/eng10.jpg",
+  "codigo": null,
+  "afirmacoes": [
+    {
+      "id": "I.",
+      "texto": "Todo associado pode ter muitas mensalidades para pagar, mas no máximo 12, uma para cada mês do ano."
+    },
+    {
+      "id": "II.",
+      "texto": "Um tipo de associado sempre terá muitos associados."
+    },
+    {
+      "id": "III.",
+      "texto": "Todo associado tem muitas mensalidades para pagar."
+    },
+    {
+      "id": "IV.",
+      "texto": "Alguns tipos de associados, podem ter associados com somente uma mensalidade para pagar."
+    },
+    {
+      "id": "V.",
+      "texto": "Todo associado tem um código que representa o tipo do associado."
+    },
+    {
+      "id": "VI.",
+      "texto": "Alguns tipos de associados, podem ter associados com 12 mensalidades para pagar."
+    }
+  ],
+  "opcoes": [
+    "IV e VI somente.",
+    "I, II e V somente.",
+    "III, III e VI somente.",
+    "II e V somente.",
+    "III e V somente."
+  ],
+  "resposta": "IV e VI somente."
+},
+{
+  "titulo": "Herança e Modificadores de Acesso",
+  "descricao": "Considere o diagrama de classes apresentado.\n\nAvalie as seguintes afirmativas:",
+  "imagem": "photoeng/eng11.jpg",
+  "codigo": null,
+  "afirmacoes": [
+    {
+      "id": "I.",
+      "texto": "A função + getSalario() : float do Vendedor é privada."
+    },
+    {
+      "id": "II.",
+      "texto": "O atributo - nome : String do Funcionário é privado."
+    },
+    {
+      "id": "III.",
+      "texto": "A função + getSalario() : void do Gerente é pública."
+    },
+    {
+      "id": "IV.",
+      "texto": "Vendedor e Gerente são classes herdeiras de Funcionário."
+    },
+    {
+      "id": "V.",
+      "texto": "Vendedor herda todos os atributos e funções de Funcionário."
+    }
+  ],
+  "opcoes": [
+    "II, III e IV somente.",
+    "III, IV e V somente.",
+    "I e V somente.",
+    "IV e V somente.",
+    "V somente."
+  ],
+  "resposta": "II, III e IV somente."
+},
+{
+  "titulo": "Composição e Multiplicidade",
+  "descricao": "Considere o diagrama de classes abaixo.\n\nSobre o diagrama apresentado, considere as afirmativas abaixo.\n\nEstão corretas APENAS as afirmativas:",
+  "imagem": "photoeng/eng12.jpg",
+  "codigo": null,
+  "afirmacoes": [
+    {
+      "id": "I.",
+      "texto": "Uma instância de uma NotaFiscal pode não conter Item."
+    },
+    {
+      "id": "II.",
+      "texto": "A relação entre as classes NotaFiscal e Item é uma composição."
+    },
+    {
+      "id": "III.",
+      "texto": "Um Item pode pertencer a mais de uma NotaFiscal."
+    },
+    {
+      "id": "IV.",
+      "texto": "A operação getFaturamento() é estática."
+    }
+  ],
+  "opcoes": [
+    "I e III",
+    "I e IV",
+    "II e IV",
+    "III e IV",
+    "II, III e IV"
+  ],
+  "resposta": "II e IV"
+},
+{
+  "titulo": "Diagrama de Sequência UML",
+  "descricao": "A figura a seguir ilustra um diagrama de sequência UML. Qual das alternativas abaixo está correta com relação a esse tópico?",
+  "imagem": "photoeng/eng13.jpg",
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "O diagrama de sequência UML mostra interações de objetos arranjados em uma sequência de tempo. Ele apresenta os objetos e os ads envolvidos no cenário e a sequência de mensagens trocadas entre tais objetos necessárias para executar a funcionalidade do cenário.",
+    "O diagrama de sequência UML é útil apenas quando se quer modelar a conexão entre clientes e servidores, não sendo necessário em aplicações que executam apenas no cliente.",
+    "Recentemente o diagrama de sequência foi descontinuado da UML por ter caráter ambíguo e abstrato.",
+    "Diagramas de sequência UML são criados derivados diretamente do diagrama de classes e não faz sentido eles serem originados dos diagramas de caso de uso.",
+    "É desnecessário utilizar diagramas de sequência UML para modelar ou documentar interações entre classes ou objetos que já estão presentes no diagrama de classes. Os mesmos devem aparecer em apenas um dos dois diagramas."
+  ],
+  "resposta": "O diagrama de sequência UML mostra interações de objetos arranjados em uma sequência de tempo. Ele apresenta os objetos e os ads envolvidos no cenário e a sequência de mensagens trocadas entre tais objetos necessárias para executar a funcionalidade do cenário."
+},
+    {
+      "titulo": "Kubernetes em Produção",
+      "descricao": "Uma equipe de DevOps está implementando contêineres e orquestração com Docker e Kubernetes para um grande projeto de software em produção. O objetivo principal é garantir a escalabilidade da aplicação e a sua capacidade de recuperação automática em caso de falhas. A equipe precisa configurar o Kubernetes para que a solução produza o efeito que dela se espera.\n\nFonte: criação do autor.\n\nConsiderando esse cenário, marque a alternativa que contém a afirmativa correta sobre o Kubernetes:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Oferece escalabilidade automática e recuperação de contêineres com falhas, garantindo alta disponibilidade.",
+        "Não suporta o escalonamento automático, necessitando que todos os contêineres sejam manualmente gerenciados.",
+        "É limitado à gestão de contêineres em um único nó, sem suporte para clusters distribuídos.",
+        "Carece de mecanismos de recuperação automática em caso de falhas nos contêineres.",
+        "Impossibilita o balanceamento de carga entre contêineres, exigindo uma abordagem manual para distribuir o tráfego."
+      ],
+      "resposta": "Oferece escalabilidade automática e recuperação de contêineres com falhas, garantindo alta disponibilidade."
+    },
+    {
+      "titulo": "Metodologias Ágeis no Design de Interfaces",
+      "descricao": "Métodos ágeis encontram um formidável território de aplicação junto ao design de interface de sistemas informatizados, até mesmo por uma especial capacidade de contribuição no que diz respeito à prevenção dos erros mais corriqueiros dessa atividade.\n\nFonte: criação do autor.\n\nConsidere as afirmações a seguir sobre metodologias ágeis no design de interfaces. Marque V para verdadeiro e F para falso.",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "Scrum organiza o trabalho em sprints curtos, geralmente de duas a quatro semanas."
+        },
+        {
+          "id": "II",
+          "texto": "Kanban descarta o fluxo de trabalho e a visualização das tarefas."
+        },
+        {
+          "id": "III",
+          "texto": "Ambas as metodologias, Scrum e Kanban, ajudam a manter a flexibilidade e a eficiência."
+        }
+      ],
+      "opcoes": [
+        "V - F - V",
+        "V - F - F",
+        "V - V - F",
+        "F - V - V",
+        "F - F - V"
+      ],
+      "resposta": "V - F - V"
+    },
+    {
+      "titulo": "Adoção de SOA",
+      "descricao": "O paradigma da arquitetura orientada a serviços (SOA - Service-Oriented Architecture) foi criado com foco em prover serviços fracamente acoplados e coesos como resposta à demanda de integração tecnológica global com diversidade em tecnologias, plataformas e regras de negócio.\n\nApesar de ser utilizada em diversas aplicações, nos dias atuais esse paradigma ainda não é altamente difundido, isso se deve principalmente porque:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "não existe interesse genuíno das grandes empresas tecnológicas em adotar a SOA e sim em manter estrutura de sistemas orientado a objetos.",
+        "esse paradigma levaria a um alto custo, pois pressupõe alterar a forma de modelar algo que já está pronto e funcional.",
+        "não existem vantagens concretas em sua adoção, sendo um paradigma específico para sistemas ineficientes.",
+        "é muito vantajoso propor uma nova arquitetura para algo que já está em pleno funcionamento.",
+        "essa tecnologia está em ascensão, sendo ainda muito recente para que ocorra sua completa adoção."
+      ],
+      "resposta": "esse paradigma levaria a um alto custo, pois pressupõe alterar a forma de modelar algo que já está pronto e funcional."
+    },
+    {
+      "titulo": "Terraform e Infraestrutura como Código",
+      "descricao": "Uma startup de tecnologia está migrando sua infraestrutura para um modelo de Infraestrutura com Código (IaC) para aumentar a eficiência e reduzir erros manuais. O CTO da empresa solicitou que a equipe de DevOps configure todo o ambiente de produção usando ferramentas de IaC, permitindo que a infraestrutura seja versionada e replicada facilmente. A equipe está considerando o uso de Terraform para essa tarefa, mas precisa garantir que as configurações sejam consistentes entre os diferentes ambientes de desenvolvimento, teste e produção.\n\nFonte: criação do autor.\n\nConsiderando esse cenário, marque a alternativa que contém a afirmativa correta sobre o Terraform:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Permite o provisionamento de infraestrutura em múltiplos provedores de nuvem, mantendo consistência entre ambientes.",
+        "Não suporta controle de versão, necessitando que as configurações sejam gerenciadas manualmente.",
+        "Requer que as configurações sejam feitas diretamente em cada servidor, sem automação de provisionamento.",
+        "É limitado a provisionar infraestrutura apenas em ambientes locais, sem suporte para nuvens públicas.",
+        "Inibe a replicação de infraestrutura entre ambientes de teste e produção de maneira automatizada."
+      ],
+      "resposta": "Permite o provisionamento de infraestrutura em múltiplos provedores de nuvem, mantendo consistência entre ambientes."
+    },
+    {
+      "titulo": "Monitoramento Contínuo em DevOps",
+      "descricao": "No DevOps, a prática de monitoramento contínuo desempenha um papel de suma importância para garantir a estabilidade e o desempenho de aplicações em produção. Além disso, o uso de ferramentas como Prometheus e Grafana permite a visualização em tempo real das métricas, auxiliando no diagnóstico de falhas e na melhoria da performance.\n\nFonte: criação do autor.\n\nA partir disso, veja as assertões abaixo:",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "O monitoramento contínuo em DevOps ajuda a detectar falhas antes que impactem os usuários."
+        },
+        {
+          "id": "II",
+          "texto": "Ferramentas como Prometheus são utilizadas apenas para monitorar redes, sem integração com aplicações."
+        },
+        {
+          "id": "III",
+          "texto": "O Grafana permite a criação de dashboards personalizados para acompanhar métricas de desempenho."
+        }
+      ],
+      "opcoes": [
+        "Somente I e II.",
+        "Somente I e III.",
+        "Somente a III.",
+        "I, II e III.",
+        "Somente a II e III."
+      ],
+      "resposta": "Somente I e III."
+    },
+    {
+      "titulo": "Elemento do Diagrama de Sequência UML",
+      "descricao": "No diagrama de sequência da UML, o nome do elemento que indica o período de duração pelo qual os objetos estão cooperando para realizar um comportamento é:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Linha de Vida",
+        "Marcador de interação",
+        "Foco de controle",
+        "Ponto de transição",
+        "Auto mensagem"
+      ],
+      "resposta": "Linha de Vida"
+    },
+    {
+      "titulo": "Requisitos Não Funcionais",
+      "descricao": "Considere os requisitos listados a seguir:",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "O sistema deve ser compatível com navegadores executando em smartphones."
+        },
+        {
+          "id": "II",
+          "texto": "O sistema deve permitir o cadastro de médicos, sua matrícula e suas áreas de especialização."
+        },
+        {
+          "id": "III",
+          "texto": "O sistema deve permitir a emissão de relatórios contendo a alocação das salas e turmas."
+        },
+        {
+          "id": "IV",
+          "texto": "O sistema deve ser desenvolvido na linguagem PHP."
+        },
+        {
+          "id": "V",
+          "texto": "O sistema deve fornecer uma solução de interoperabilidade com o sistema financeiro e de recursos humanos já existentes na instituição."
+        }
+      ],
+      "opcoes": [
+        "I, IV, V somente",
+        "I, II e IV somente",
+        "II, III e V somente",
+        "III e VI somente",
+        "II e V somente"
+      ],
+      "resposta": "I, IV, V somente"
+    },
+    {
+      "titulo": "Afirmações sobre Diagramas UML",
+      "descricao": "Considere as seguintes afirmações sobre Diagramas UML. Quais estão corretas?",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "O Diagrama de Estado UML modela os estados de um objeto, as ações executadas que dependem desses estados do objeto e as transições entre os estados do objeto."
+        },
+        {
+          "id": "II",
+          "texto": "O Diagrama de Sequência UML é utilizado para indicar as comunicações dinâmicas entre objetos durante a execução de uma tarefa, mas não mostra a ordem temporal na qual as mensagens são enviadas entre os objetos para executar tarefa."
+        },
+        {
+          "id": "III",
+          "texto": "No Diagrama de Classes UML, a superclasse é a especialização da subclasse. A superclasse herda todos os atributos e operações associados à sua subclasse, mas não pode incorporar atributos ou operações adicionais específicas."
+        }
+      ],
+      "opcoes": [
+        "Apenas I",
+        "Apenas I e II",
+        "Apenas I e III",
+        "Apenas II e III",
+        "I, II e III"
+      ],
+      "resposta": "Apenas I"
+    },
+    {
+      "titulo": "Importância das Histórias de Usuário",
+      "descricao": "Por que as histórias de usuário são importantes no desenvolvimento de software?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Porque priorizam requisitos técnicos",
+        "Porque mantêm o foco nas expectativas dos desenvolvedores.",
+        "Porque facilitam a comunicação entre equipes de desenvolvimento e usuários/clientes do projeto.",
+        "Porque definem a arquitetura do sistema.",
+        "Porque são focadas em testes de usabilidade."
+      ],
+      "resposta": "Porque facilitam a comunicação entre equipes de desenvolvimento e usuários/clientes do projeto."
+    },
+    {
+      "titulo": "Regras de Negócio, RF e RNF - Pipocas",
+      "descricao": "Durante a fase de levantamento de requisitos é preciso identificar as regras que regem o negócio, bem como os requisitos funcionais e não funcionais.\n\nDado o cenário, onde um vendedor de pipocas tem o objetivo de gerenciar suas vendas utilizando um aplicativo, considere as afirmativas abaixo:\n\nRN: Regra de negócio\nRF: Requisito funcional\nRNF: Requisito não funcional",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "RN01: O cliente somente recebe a pipoca com pagamento antecipado.\nRF01: O estoque deve ser reabastecido quando a quantidade de milho para pipoca atingir a quantidade mínima.\nRNF01: Determinar o tempo mínimo de resposta do aplicativo."
+        },
+        {
+          "id": "II",
+          "texto": "RN02: Durante a venda da pipoca, aplicar as promoções para aquele mês.\nRF02: Computar a quantidade de milho de pipoca no estoque.\nRNF02: Mostrar o relatório com todas as vendas."
+        },
+        {
+          "id": "III",
+          "texto": "RN03: A pipoca deve ser paga em dinheiro ou com cartão de débito.\nRF03: Consultar a quantidade de vendas.\nRNF03: Avaliar os casos em que o aplicativo fica indisponível."
+        },
+        {
+          "id": "IV",
+          "texto": "RN04: Os clientes que comprarem 3 pipocas recebem um desconto de 20%.\nRF04: Efetuar a venda da pipoca.\nRNF04: Avaliar o tempo utilizado no treinamento para aprender a usar o aplicativo."
+        }
+      ],
+      "opcoes": [
+        "III e IV somente",
+        "I e II somente",
+        "II e III somente",
+        "I, II e IV somente",
+        "I, III e IV somente"
+      ],
+      "resposta": "III e IV somente"
+    },
+    {
+      "titulo": "Principais Tipos de Diagramas UML",
+      "descricao": "A Linguagem de Modelagem Unificada UML (Unified Modeling Language) é uma linguagem padrão para a elaboração da estrutura de projetos de software. Também é muito utilizada para visualização, especificação, construção e documentação de artefatos que façam uso de sistemas complexos de software. Em outras palavras, na área de Engenharia de Software, a UML é uma linguagem de modelagem que permite representar um sistema de forma padronizada com intuito de facilitar a compreensão.\n\nPergunta: Qual das alternativas listam apenas exemplos dos principais tipos de diagramas UML?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Classe; Caso de Uso; Sequência",
+        "Classe; Espiral; Sequência",
+        "Classe; Espiral; Iterativo-incremental",
+        "Classe; Caso de Uso; Espiral",
+        "Classe; Caso de Uso; Iterativo-incremental"
+      ],
+      "resposta": "Classe; Caso de Uso; Sequência"
+    },
+    {
+  "titulo": "Diagrama de Caso de Uso - Include e Extend",
+  "descricao": "Com base nos conceitos de casos de uso da UML, analise as afirmativas abaixo:",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": [
+    {
+      "id": "I.",
+      "texto": "O relacionamento <<include>> representa uma inclusão obrigatória de comportamento."
+    },
+    {
+      "id": "II.",
+      "texto": "O relacionamento <<extend>> representa uma execução sempre obrigatória do caso de uso estendido."
+    },
+    {
+      "id": "III.",
+      "texto": "Um ator especializado herda as interações do ator mais geral."
+    },
+    {
+      "id": "IV.",
+      "texto": "Casos de uso servem para representar principalmente a estrutura interna das classes."
+    }
+  ],
+  "opcoes": [
+    "I e III apenas",
+    "I, II e III apenas",
+    "II e IV apenas",
+    "III e IV apenas",
+    "I, III e IV apenas"
+  ],
+  "resposta": "I e III apenas"
+},
+    {
+  "titulo": "Regras de Negócio, RF e RNF - Sapatos",
+  "descricao": "Na fase de levantamento de requisito do processo de desenvolvimento de software, devem-se identificar as regras de negócio, os requisitos funcionais e não funcionais do sistema. Considerando um cenário em que um vendedor de sapatos tenha o objetivo de gerenciar suas vendas com o uso de um aplicativo, avalie os itens a seguir:",
+  "codigo": null,
+  "afirmacoes": [
+    {
+      "id": "I",
+      "texto": "Regra de negócio: entregar o sapato ao cliente somente mediante pagamento. Requisito funcional: reabastecer o estoque quando a quantidade de sapatos chegar ao estoque mínimo. Requisito não funcional: registrar quantidade vendida do produto."
+    },
+    {
+      "id": "II",
+      "texto": "Regra de negócio: aplicar promoções vigentes na realização da venda. Requisito funcional: calcular a quantidade de sapatos no estoque. Requisito não funcional: exibir relatório com o balanço de vendas."
+    },
+    {
+      "id": "III",
+      "texto": "Regra de negócio: aceitar somente pagamentos com cartão de débito ou crédito. Requisito funcional: consultar a quantidade de vendas. Requisito não funcional: verificar a possibilidade de indisponibilidade do sistema."
+    },
+    {
+      "id": "IV",
+      "texto": "Regra de negócio: conceder aos clientes que comprarem 2 sapatos um desconto de 10%. Requisito funcional: processar a venda do sapato. Requisito não funcional: tempo de processamento não pode ser superior a 2 segundos."
+    }
+  ],
+  "opcoes": [
+    "III e IV",
+    "I e II",
+    "II e III",
+    "I, II e IV",
+    "I, III e IV"
+  ],
+  "resposta": "III e IV"
+},
+    {
+      "titulo": "Sprint Retrospective no Scrum",
+      "descricao": "Uma equipe de desenvolvimento está trabalhando em um novo sistema de gerenciamento de projetos usando o framework Scrum. Ao longo do ciclo de desenvolvimento, eles realizam várias reuniões específicas para planejar, monitorar o progresso e revisar o trabalho realizado.\n\nCom base nesse cenário, qual das alternativas a seguir descreve corretamente o propósito da cerimônia Sprint Retrospective no Scrum?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "A Sprint Retrospective é uma reunião onde o Product Owner revisa o trabalho entregue pela equipe e define as prioridades para o próximo Sprint.",
+        "A Sprint Retrospective é uma reunião diária onde a equipe compartilha o que fez no dia anterior e planeja as tarefas do dia seguinte, buscando identificar bloqueios.",
+        "A Sprint Retrospective é realizada ao final do Sprint, onde a equipe reflete sobre o que funcionou bem, o que pode ser melhorado e como otimizar o processo no próximo Sprint.",
+        "A Sprint Retrospective é uma apresentação formal do trabalho concluído para os stakeholders, visando obter feedback sobre as funcionalidades desenvolvidas.",
+        "A Sprint Retrospective é o momento em que o Scrum Master atribui novas tarefas à equipe e ajusta o backlog com base nas mudanças identificadas durante o Sprint."
+      ],
+      "resposta": "A Sprint Retrospective é realizada ao final do Sprint, onde a equipe reflete sobre o que funcionou bem, o que pode ser melhorado e como otimizar o processo no próximo Sprint."
+    },
+    {
+      "titulo": "Modelos Prescritivos de Processo de Software",
+      "descricao": "Um Modelo Prescritivo de Processo de Software é um conjunto de elementos que inclui ações de engenharia de software, produtos de trabalho e mecanismos que garantam a qualidade e controle de modificações em cada projeto necessárias para o desenvolvimento de um sistema de software (PRESSMAN, 2010). Avalie as afirmativas abaixo:",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "O Modelo Espiral é um modelo evolutivo que permite o desenvolvimento de versões mais completas a cada iteração. E a análise de risco pode ser deixada para a última iteração."
+        },
+        {
+          "id": "II",
+          "texto": "No ciclo de vida em cascata o foco está em resolver riscos de requisitos bem entendidos. A resolução de riscos de requisitos que não foram bem entendidos fica para mais tarde, dando tempo suficiente para que estes possam ser entendidos e codificados."
+        },
+        {
+          "id": "III",
+          "texto": "O Modelo incremental reduz os riscos e incertezas, permitindo entregas com funcionalidades limitadas."
+        },
+        {
+          "id": "IV",
+          "texto": "Usar prototipação no modelo espiral permite diminuir os riscos."
+        },
+        {
+          "id": "V",
+          "texto": "No modelo evolucionário, é desenvolvida uma versão do produto, que é validada com o cliente e depois são criadas novas versões, mais completas, com base no feedback recebido."
+        }
+      ],
+      "opcoes": [
+        "IV e V somente",
+        "I, II e V somente",
+        "II, IV e V somente",
+        "III e IV somente",
+        "II, III e V somente"
+      ],
+      "resposta": "IV e V somente"
+    }
+  ]
+}

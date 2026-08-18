@@ -1,0 +1,447 @@
+{
+  "frontend": [
+    {
+      "titulo": "Definição e História do CSS",
+      "descricao": "CSS significa Cascading Style Sheets, essa tecnologia descreve como os elementos HTML devem ser exibidos na tela, no papel ou em outra mídia. O CSS economiza muito trabalho. Ele pode controlar o layout de várias páginas da web de uma só vez.\n\nSobre o papel do CSS na história do desenvolvimento web podemos afirmar:",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "O uso de CSS reduziu a desordem de marcação e criou um código mais limpo em layouts web. O CSS também facilitou a manutenção de sites porque o conteúdo e os elementos de design foram separados."
+        },
+        {
+          "id": "II",
+          "texto": "Hoje não é possível mudar toda a aparência de um site baseado em CSS, sendo necessário adaptar também o conteúdo."
+        },
+        {
+          "id": "III",
+          "texto": "Os tamanhos dos documentos de designs CSS são geralmente menores do que as alternativas, o que se traduz em uma melhora nos tempos de resposta da página."
+        },
+        {
+          "id": "IV",
+          "texto": "Os desenvolvedores começaram a incluir mais e mais CSS, embora isso tenha começado principalmente inline, escrito junto do documento HTML, eventualmente se tornou mais aceito que CSS deveria ser derivado por classes, e a maior parte do estilo deveria ser carregada em folhas de estilo."
+        }
+      ],
+      "opcoes": [
+        "I, III e IV",
+        "Somente I e IV",
+        "I, II e III",
+        "II, III e IV",
+        "II e IV"
+      ],
+      "resposta": "I, III e IV"
+    },
+    {
+      "titulo": "Manipulação de DOM com JavaScript",
+      "descricao": "Você está em uma nova empresa trabalhando como desenvolvedor em um projeto de manutenção e se deparou com o código abaixo.\n\nAo clicar no botão 'Alterar', qual será o resultado do conteúdo exibido no parágrafo com o id 'paragrafo'?",
+      "codigo": "<!DOCTYPE html>\n<html>\n<head>\n  <script>\n    function alterarConteudo() {\n      document.getElementById(\"paragrafo\").innerHTML = \"Novo Conteúdo!\";\n    }\n  </script>\n</head>\n<body>\n  <p id=\"paragrafo\">Conteúdo Inicial</p>\n  <button onclick=\"alterarConteudo()\">Alterar</button>\n</body>\n</html>",
+      "afirmacoes": null,
+      "opcoes": [
+        "Conteúdo Inicial",
+        "Novo Conteúdo!",
+        "<script> alterarConteudo(); </script>",
+        "document.getElementById(\"paragrafo\").innerHTML = \"Novo Conteúdo!\";",
+        "alterarConteudo();"
+      ],
+      "resposta": "Novo Conteúdo!"
+    },
+    {
+      "titulo": "Estrutura e Tags HTML",
+      "descricao": "[FONTE PRÓPRIA] Sabendo que a linguagem HTML utiliza certos elementos para organização do conteúdo em uma página web. A ferramenta utilizada para realizar essa tarefa é conhecida como tag.\n\nQual afirmação abaixo está correta?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "As tags HTML são usadas apenas para estilizar o conteúdo de uma página web.",
+        "Cada tag HTML é responsável por uma única funcionalidade complexa em uma página web.",
+        "Tags HTML são utilizadas para organizar o conteúdo de uma página web, desde funcionalidades simples até as mais complexas.",
+        "HTML não utiliza tags para organizar o conteúdo; elas são exclusivas de linguagens de estilo como CSS.",
+        "Todas as afirmações anteriores estão corretas"
+      ],
+      "resposta": "Tags HTML são utilizadas para organizar o conteúdo de uma página web, desde funcionalidades simples até as mais complexas."
+    },
+    {
+      "titulo": "Siglas Fundamentais da Web",
+      "descricao": "HTML, CSS e W3C são siglas fundamentais no universo da criação de páginas web. Cada uma delas desempenha um papel vital na construção e no design de sites, bem como na definição e manutenção de padrões para a web.\n\nQual é o significado das siglas HTML, CSS e W3C?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "HTML: HyperText Markup Language, CSS: Creative Style Sheets, W3C: World Wide Computer.",
+        "HTML: HyperText Markup Language, CSS: Cascading Style Sheets, W3C: Web 3.0 Consortium.",
+        "HTML: HyperText Makeup Language, CSS: Computer Style Sheets, W3C: World Web Consortium.",
+        "HTML: HyperText Markup Language, CSS: Computer Style Sheets, W3C: World Wide Consortium.",
+        "HTML: HyperText Markup Language, CSS: Cascading Style Sheets, W3C: World Wide Web Consortium."
+      ],
+      "resposta": "HTML: HyperText Markup Language, CSS: Cascading Style Sheets, W3C: World Wide Web Consortium."
+    },
+    {
+      "titulo": "Definição e Objetos do DOM",
+      "descricao": "Document Object Model, o DOM, fornece mecanismos de integração que possibilitam a ação de objetos em uma página web. Por exemplo, uma página web do tipo formulário é construída com a estrutura do DOM, e essa estrutura permite que os formulários processem dados inseridos pelo usuário quando esse usuário clica em um botão.\n\nAnalise as afirmações a seguir e escolha a alternativa que contém todas as afirmações corretas.",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "Um objeto é uma entidade de software que representa algo tangível."
+        },
+        {
+          "id": "II",
+          "texto": "Nos bastidores, alguns elementos em uma página web são representados como objetos."
+        },
+        {
+          "id": "III",
+          "texto": "Não existe um objeto que possa ser associado ao todo conteúdo completo de uma página web."
+        },
+        {
+          "id": "IV",
+          "texto": "Cada objeto tem um conjunto de propriedades relacionadas, mais um conjunto de comportamentos."
+        }
+      ],
+      "opcoes": [
+        "Somente I e IV.",
+        "Somente I e II.",
+        "Somente I e III.",
+        "I, II e III.",
+        "II, III e IV."
+      ],
+      "resposta": "Somente I e IV."
+    },
+    {
+      "titulo": "Significado da Sigla HTML",
+      "descricao": "HTML é uma linguagem que utiliza tags de marcação para formatação e a capacidade de navegar por outras páginas web.\n\nQual o significado da sigla HTML?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Hypertool Markup Language",
+        "Hypertext Markup Language",
+        "Hyper Term Model Lead",
+        "Hyper Technology Model Language",
+        "Nenhuma das alternativas"
+      ],
+      "resposta": "Hypertext Markup Language"
+    },
+    {
+      "titulo": "Características e Sintaxe do JavaScript",
+      "descricao": "Muitos navegadores usam JavaScript como linguagem de script para fazer coisas dinâmicas na web. Sempre que você vir um menu suspenso \"clique para mostrar\" e cores de elementos que mudam dinamicamente em uma página, você está vendo os efeitos do JavaScript.\n\nAnalise as afirmativas a seguir e selecione a alternativa que elenca todas as afirmativas verdadeiras sobre a linguagem JavaScript:",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "É uma linguagem de programação que não compila o programa em instruções de máquina."
+        },
+        {
+          "id": "II",
+          "texto": "É uma linguagem tipada dinamicamente."
+        },
+        {
+          "id": "III",
+          "texto": "O tipo de uma variável em JavaScript pode mudar durante sua vida útil."
+        },
+        {
+          "id": "IV",
+          "texto": "Para acessar as propriedades de um objeto, você especifica o nome do objeto, um ponto e o nome da propriedade."
+        }
+      ],
+      "opcoes": [
+        "Todas as afirmativas estão corretas.",
+        "I, II e III.",
+        "II, III e IV.",
+        "Somente I e II.",
+        "Somente III e IV."
+      ],
+      "resposta": "Todas as afirmativas estão corretas."
+    },
+    {
+      "titulo": "Browser Object Model (BOM) e Timeouts",
+      "descricao": "O Browser Object Model (BOM) é o núcleo do JavaScript na web. O BOM fornece objetos que expõem a funcionalidade do navegador web, sendo o objeto global do JavaScript no navegador o objeto window.\n\nO código HTML a seguir implementa um botão que, ao ser clicado, deve chamar uma função responsável por mostrar uma caixa de diálogo após 3 segundos. Escolha a alternativa que completa corretamente a lógica.",
+      "codigo": "<p>Teste o seu Javascript</p>\n<button onclick=\"mostrarCaixa();\">Mostrar</button>",
+      "afirmacoes": null,
+      "opcoes": [
+        "setTimeout(alert, 3000, 'Javascript Testado!');",
+        "warning(mostrarCaixa, 3000, 'Javascript Testado!');",
+        "alert(3000, confirm, 'Javascript Testado!');",
+        "setTineout(alert, 3, 'Javascript Testado!');",
+        "alert(setTimeout, 3000, 'Javascript Testado!');"
+      ],
+      "resposta": "setTimeout(alert, 3000, 'Javascript Testado!');"
+    },
+    {
+      "titulo": "Sintaxe de Tags HTML",
+      "descricao": "[Fonte: Autor Próprio] HTML é uma linguagem que oferece suporte a tags de marcação para formatação e a capacidade de navegar por outras páginas web. O uso de tags é a principal característica de uma linguagem de marcação. Uma linguagem de marcação 'marca' um documento circundando partes de seu conteúdo com tags.\n\nComplete a frase: No HTML, as tags são compostas por um elemento de __________ conteúdo e um elemento de __________",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "abertura / formatação",
+        "início / fim",
+        "abertura / fechamento",
+        "inicial / conclusão",
+        "marcação / identificação"
+      ],
+      "resposta": "abertura / fechamento"
+    },
+    {
+      "titulo": "Métodos do Objeto Window",
+      "descricao": "O Browser Object Model (BOM) é o núcleo do JavaScript na web. O BOM fornece objetos que expõem a funcionalidade do navegador web, sendo o objeto global o window. Isso significa que todas as variáveis e funções declaradas globalmente tornam-se propriedades e métodos do objeto window.\n\nSobre os métodos relacionados ao objeto window, escolha a alternativa que melhor preenche o espaço vazio (_) no código a seguir para que ele funcione apropriadamente.",
+      "codigo": "let idadeStr = _('Quantos anos você tem?');\nlet idade = Number(idadeStr);\n\nlet feedback = idade >= 16 ? \n  'Você está qualificado para aderir.' : \n  'Você deve ter pelo menos 16 anos de idade para aderir.';\n\nalert(feedback);",
+      "afirmacoes": null,
+      "opcoes": [
+        "prompt",
+        "alert",
+        "confirm",
+        "question"
+      ],
+      "resposta": "prompt"
+    },
+    {
+      "titulo": "Referenciando CSS Externo",
+      "descricao": "HTML (HyperText Markup Language) e CSS (Cascading Style Sheets) são fundamentais para a construção e estilização de páginas web. Para aplicar estilos consistentes em várias páginas ou em todo um site, é comum utilizar folhas de estilo externas.\n\nPergunta-se: Qual é a forma correta de referenciar uma folha de estilo externa (arquivo CSS) em um documento HTML?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "<link rel=\"stylesheet\" type=\"text/css\" src=\"estilo.css\">",
+        "<style type=\"text/css\" link=\"estilo.css\"></style>",
+        "<stylesheet type=\"text/css\" href=\"estilo.css\">",
+        "<link type=\"text/css\" rel=\"stylesheet\" href=\"estilo.css\">",
+        "<css type=\"text/css\" link=\"estilo.css\">"
+      ],
+      "resposta": "<link type=\"text/css\" rel=\"stylesheet\" href=\"estilo.css\">"
+    },
+    {
+      "titulo": "Seletores CSS: Classes",
+      "descricao": "No CSS, os seletores são nomenclaturas padronizadas destinadas a selecionar elementos para aplicação de estilo. Usamos os seletores para selecionar o elemento que desejamos estilizar.\n\nO seletor \".nome\" seleciona os elementos que possuem:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "o atributo class=\"nome\".",
+        "o atributo id=\"nome\".",
+        "o atributo name=\"nome\".",
+        "a tag <nome>",
+        "a tag <nome> e são filhos do elemento raiz"
+      ],
+      "resposta": "o atributo class=\"nome\"."
+    },
+    {
+      "titulo": "Lógica de Repetição em JavaScript",
+      "descricao": "[AUTORIA PRÓPRIA] Considere o seguinte cenário: você precisa criar uma função em JavaScript que receba um número como parâmetro e retorne a soma de todos os números inteiros de 1 até o número fornecido.\n\nQual das opções a seguir representa corretamente a implementação dessa função utilizando uma estrutura de repetição?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "function somarNumeros(n) { let res = 0; for (let i = 1; i < n; i++) { res += n; } return res; }",
+        "function somarNumeros(n) { let res = 0; for (let i = 1; i <= n; i++) { res += i; } return res; }",
+        "function somarNumeros(n) { let res = 0; while (res <= n) { res += n; } return res; }",
+        "function somarNumeros(n) { let res = 0; while (res <= n) { res += res; } return res; }"
+      ],
+      "resposta": "function somarNumeros(n) { let res = 0; for (let i = 1; i <= n; i++) { res += i; } return res; }"
+    },
+    {
+      "titulo": "Concatenação de String e Número",
+      "descricao": "Muitos navegadores usam JavaScript como linguagem de script para fazer coisas dinâmicas na web. Veja o código JavaScript fornecido e selecione a alternativa que melhor representa a saída correta entre as seguintes:",
+      "codigo": "var string01 = \"20\";\nvar valor = 50;\nalert( string01 + valor);",
+      "afirmacoes": null,
+      "opcoes": [
+        "2050.",
+        "70.",
+        "5020.",
+        "30.",
+        "NaN."
+      ],
+      "resposta": "2050."
+    },
+    {
+      "titulo": "Loop While e Console.log",
+      "descricao": "A função \"console.log()\" é uma das funções predefinidas do JavaScript. Ela recebe valores como argumentos e exibe esse valor dentro do console quando o código é executado.\n\nAdicione essa informação aos seus conhecimentos prévios e analise o código a seguir. O que acontecerá se ele for executado?",
+      "codigo": "var contagem = 0;\nwhile (contagem < 20) {\n  console.log(contagem);\n  contagem++;\n}",
+      "afirmacoes": null,
+      "opcoes": [
+        "O valor da contagem de 0 a 19 é exibido no console.",
+        "O valor 19 é exibido no console.",
+        "Um erro é exibido no console.",
+        "Uma janela de alerta é exibida no navegador mostrando o valor atual da variável contagem, 20.",
+        "O código não é executado porque a variável contagem não foi inicializada da maneira correta."
+      ],
+      "resposta": "O valor da contagem de 0 a 19 é exibido no console."
+    },
+    {
+      "titulo": "Manipulação de DOM e Eventos",
+      "descricao": "Você está em uma nova empresa trabalhando como desenvolvedor em um projeto de manutenção e se deparou com o código abaixo.\n\nAo clicar no botão 'Alterar', qual será o resultado do conteúdo exibido no parágrafo com o id 'paragrafo'?",
+      "codigo": "<!DOCTYPE html>\n<html>\n<head>\n<script>\nfunction alterarConteudo() {\n  document.getElementById(\"paragrafo\").innerHTML = \"Novo Conteúdo!\";\n}\n</script>\n</head>\n<body>\n<p id=\"paragrafo\">Conteúdo Inicial</p>\n<button onclick=\"alterarConteudo()\">Alterar</button>\n</body>\n</html>",
+      "afirmacoes": null,
+      "opcoes": [
+        "Conteúdo Inicial",
+        "Novo Conteúdo!",
+        "document.getElementById(\"paragrafo\").innerHTML = \"Novo Conteúdo!\";",
+        "alterarConteudo();"
+      ],
+      "resposta": "Novo Conteúdo!"
+    },
+    {
+      "titulo": "Seletores CSS: Classes (.nome)",
+      "descricao": "No CSS, os seletores são nomenclaturas padronizadas destinadas a selecionar elementos para aplicação de estilo. Usamos os seletores para selecionar o elemento que desejamos estilizar.\n\nO seletor \".nome\" seleciona os elementos que possuem:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "o atributo class=\"nome\".",
+        "o atributo id=\"nome\".",
+        "o atributo name=\"nome\".",
+        "a tag <nome>",
+        "a tag <nome> e são filhos do elemento raiz"
+      ],
+      "resposta": "o atributo class=\"nome\"."
+    },
+    {
+      "titulo": "Sequência de Tags HTML",
+      "descricao": "Uma página da web é um documento normalmente escrito em HTML e traduzido por um navegador da web. Um documento HTML é feito de muitas tags HTML e cada tag HTML contém um conteúdo diferente.\n\nA sequência correta de tags HTML para iniciar uma página da web é:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "HTML, Head, Title, Body",
+        "Head, Title, HTML, Body",
+        "HTML, Body, Title, Head",
+        "HTML, Head, Title, HTML",
+        "Title, Head, Body, HTML"
+      ],
+      "resposta": "HTML, Head, Title, Body"
+    },
+    {
+      "titulo": "Interação e Manipulação de Strings",
+      "descricao": "JavaScript é uma linguagem de script orientada a objetos, multiplataforma. É uma linguagem pequena e leve que pode rodar num navegador web.\n\nAnalise o trecho de código abaixo, escrito em JavaScript. Sobre esse trecho, assinale a afirmação CORRETA:",
+      "codigo": "var signo = prompt(\"Qual é o seu signo?\");\n\nif (signo.toLowerCase() == \"escorpião\") {\n    alert(\"Legal! Eu sou de escorpião também!\");\n}\nelse {\n    alert(\"Hoje seu dia será maravilhoso!\");\n}",
+      "afirmacoes": null,
+      "opcoes": [
+        "A função toLowerCase() irá converter o texto da variável signo em letra minúscula.",
+        "Na primeira linha do código, ao declarar a variável 'signo' o tipo de dado string deve ser especificado para o funcionamento do script ocorrer sem erros.",
+        "Para esse código JavaScript ser executado, há necessidade de instalação de complemento no navegador Mozilla Firefox.",
+        "A caixa de diálogo de aviso (alert) contém uma caixa de texto de linha única, um botão Cancelar, e um botão OK, e retorna o texto que o usuário digitou naquela caixa de texto.",
+        "Uma caixa de diálogo prompt deve ser utilizada para mensagens que não requeiram nenhuma resposta da parte do usuário, a não ser o reconhecimento da mensagem."
+      ],
+      "resposta": "A função toLowerCase() irá converter o texto da variável signo em letra minúscula."
+    },
+    {
+      "titulo": "Manipulação do Objeto History",
+      "descricao": "Quando você inicia o navegador e abre uma nova página web, o navegador cria uma nova entrada na sua pilha de histórico. Se você navegar para outra página web, o navegador também criará uma nova entrada na pilha de histórico.\n\nA pilha de histórico armazena a página atual e as páginas anteriores que você visitou. Para manipular a pilha de histórico, você usa o objeto history, que é uma propriedade do objeto window.\n\nSobre o objeto History, escolha a alternativa que possui o Código correto que permite atualizar a página atual.",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "history.go()",
+        "history.back(-1)",
+        "history.forward(-1)",
+        "history forward(0)",
+        "history.back(0)"
+      ],
+      "resposta": "history.go()"
+    },
+    {
+      "titulo": "Siglas Fundamentais: HTML, CSS e W3C",
+      "descricao": "HTML, CSS e W3C são siglas fundamentais no universo da criação de páginas web. Cada uma delas desempenha um papel vital na construção e no design de sites, bem como na definição e manutenção de padrões para a web.\n\nQual é o significado das siglas HTML, CSS e W3C?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "HTML: HyperText Markup Language, CSS: Creative Style Sheets, W3C: World Wide Computer.",
+        "HTML: HyperText Markup Language, CSS: Cascading Style Sheets, W3C: Web 3.0 Consortium.",
+        "HTML: HyperText Makeup Language, CSS: Computer Style Sheets, W3C: World Web Consortium.",
+        "HTML: HyperText Markup Language, CSS: Computer Style Sheets, W3C: World Wide Consortium.",
+        "HTML: HyperText Markup Language, CSS: Cascading Style Sheets, W3C: World Wide Web Consortium."
+      ],
+      "resposta": "HTML: HyperText Markup Language, CSS: Cascading Style Sheets, W3C: World Wide Web Consortium."
+    },
+    {
+      "titulo": "Objetos Globais: String",
+      "descricao": "O objeto global fornece variáveis e funções que podem estar disponíveis em qualquer lugar. Por padrão, eles são integrados à linguagem, sendo uma ferramenta muito útil pois diversas implementações lógicas comuns já estão resolvidas e prontas para uso.\n\nNesse contexto, analise a declaração a seguir e escolha a alternativa que representa o tipo de objeto que está sendo criado.",
+      "codigo": "var minhaVar = new String(string);",
+      "afirmacoes": null,
+      "opcoes": [
+        "String.",
+        "Array.",
+        "Number.",
+        "Math.",
+        "Boolean."
+      ],
+      "resposta": "String."
+    },
+    {
+      "titulo": "Elementos de Formulário HTML",
+      "descricao": "Embora os formulários possam ser usados simplesmente para exibir informações, o HTML os fornece para funcionar como uma maneira de o usuário interagir com um servidor web.\n\nO código a seguir implementa um elemento pertencente ao grupo formulário. Sobre o elemento acima, escolha a alternativa que corresponde ao seu uso:",
+      "codigo": "<input type=\"text\" name=\"exemplo\" />",
+      "afirmacoes": null,
+      "opcoes": [
+        "Input de texto de uma única linha.",
+        "Input de texto multilinhas.",
+        "Exibição de um bloco de texto.",
+        "Exibição de um parágrafo.",
+        "Seleciona um tipo de título."
+      ],
+      "resposta": "Input de texto de uma única linha."
+    },
+    {
+      "titulo": "Frameworks CSS",
+      "descricao": "No desenvolvimento de aplicações para web podemos contar com o auxílio de ferramentas que nos ajudam a ser mais produtivos. A principal vantagem é que economizamos tempo, pois não é necessário começar do zero.\n\nAnalise o parágrafo a seguir e escolha a alternativa que contém a palavra que completa corretamente o sentido do texto.\n\nUm _______ é uma biblioteca de código que abstrai designs web comuns e torna os designs mais fáceis para um desenvolvedor implementar em suas aplicações web.",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Framework CSS",
+        "Framework HTML",
+        "Library CSS",
+        "Directory HTML",
+        "Servidor Web"
+      ],
+      "resposta": "Framework CSS"
+    },
+    {
+      "titulo": "Métodos de Array: Filter",
+      "descricao": "Os objetos nativos, ou como também são conhecidos, objetos globais, são objetos inerentes à linguagem JavaScript e são ferramentas muito úteis. O objeto Array é usado para armazenar vários valores em uma única variável.\n\nNesse contexto, analise o código a seguir e escolha a alternativa que responde o que será impresso no console.",
+      "codigo": "var variedade = [2, 4, 6, 7, 8, 10];\nvar meuVetor = variedade.filter(v => v % 2 === 0);\nconsole.log(meuVetor);",
+      "afirmacoes": null,
+      "opcoes": [
+        "2, 4, 6, 8, 10",
+        "2, 4, 6, 7, 8, 10",
+        "7",
+        "meuVetor",
+        "Console Error"
+      ],
+      "resposta": "2, 4, 6, 8, 10"
+    },
+    {
+      "titulo": "Características Gerais do JavaScript",
+      "descricao": "Muitos navegadores usam JavaScript como linguagem de script para fazer coisas dinâmicas na web. Sempre que você vir um menu suspenso \"clique para mostrar\" e cores de elementos que mudam dinamicamente em uma página, você está vendo os efeitos do JavaScript.\n\nAnalise as afirmativas a seguir e selecione a alternativa que elenca todas as afirmativas verdadeiras sobre a linguagem JavaScript:",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "É uma linguagem de programação que não compila o programa em instruções de máquina."
+        },
+        {
+          "id": "II",
+          "texto": "É uma linguagem tipada dinamicamente."
+        },
+        {
+          "id": "III",
+          "texto": "O tipo de uma variável em JavaScript pode mudar durante sua vida útil."
+        },
+        {
+          "id": "IV",
+          "texto": "Para acessar as propriedades de um objeto, você especifica o nome do objeto, um ponto e o nome da propriedade."
+        }
+      ],
+      "opcoes": [
+        "Todas as afirmativas estão corretas.",
+        "I, II e III.",
+        "II, III e IV.",
+        "Somente I e II.",
+        "Somente III e IV."
+      ],
+      "resposta": "Todas as afirmativas estão corretas."
+    },
+    {
+      "titulo": "Objeto Date e Formatação",
+      "descricao": "Os objetos nativos, ou como também são conhecidos, objetos globais, são objetos inerentes à linguagem Javascript. O objeto Date é um desses objetos, sendo usado para armazenar valores relacionados a datas e frações de tempo.\n\nNesse contexto, analise o código a seguir e escolha a alternativa que responde: o que será impresso no console?\n\n**NOTA:** Considere que o código foi executado em 09/05/2019.",
+      "codigo": "var dataAtual = new Date();\nconsole.log(dataAtual.toLocaleString());",
+      "afirmacoes": null,
+      "opcoes": [
+        "2019-5-9 15:02:35",
+        "2019-5-9",
+        "15:00:34",
+        "2019-05-09T09:29:53.181Z",
+        "05-09-2019"
+      ],
+      "resposta": "2019-5-9 15:02:35"
+    }
+  ]
+}

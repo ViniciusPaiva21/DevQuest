@@ -1,0 +1,580 @@
+{
+  "arquiteturaSistemas": [
+    {
+      "titulo": "Os 4 Vs do Big Data",
+      "descricao": "Qual característica não faz parte dos 4 Vs do Big Data?",
+      "opcoes": ["Volume.", "Veracidade.", "Verboso.", "Variedade.", "Velocidade."],
+      "resposta": "Verboso."
+    },
+    {
+      "titulo": "Data Lake e Data Warehouse",
+      "descricao": "Qual é a principal diferença entre um Data Lake e um Data Warehouse?",
+      "opcoes": [
+        "Um Data Lake armazena apenas dados estruturados, enquanto um Data Warehouse armazena apenas dados não estruturados.",
+        "Um Data Lake é usado exclusivamente para análises em tempo real, enquanto um Data Warehouse é usado para análises em lote.",
+        "Um Data Lake armazena dados em sua forma bruta, inclusive não estruturados, enquanto um Data Warehouse armazena dados estruturados e processados para consultas analíticas.",
+        "Um Data Lake requer hardware especializado, enquanto um Data Warehouse pode ser implantado em hardware convencional.",
+        "Um Data Lake é uma tecnologia obsoleta, enquanto um Data Warehouse é uma tecnologia moderna."
+      ],
+      "resposta": "Um Data Lake armazena dados em sua forma bruta, inclusive não estruturados, enquanto um Data Warehouse armazena dados estruturados e processados para consultas analíticas."
+    },
+    {
+      "titulo": "Persistência poliglota",
+      "descricao": "Existem diferentes bancos NoSQL porque há diferentes problemas de persistência que o SQL tradicional não resolve. A escolha da solução mais adequada de acordo com o contexto representa qual conceito?",
+      "opcoes": ["Persistência poliglota.", "Modelo de documentos.", "Modelo de grafos.", "Escalabilidade.", "Arquitetura distribuída."],
+      "resposta": "Persistência poliglota."
+    },
+    {
+      "titulo": "Propriedades ACID",
+      "descricao": "Uma transação não pode violar as restrições de integridade previamente definidas para o banco de dados. A qual propriedade ACID essa exigência corresponde?",
+      "opcoes": ["Consistência.", "Atomicidade.", "Isolamento.", "Durabilidade.", "Comunicação."],
+      "resposta": "Consistência."
+    },
+    {
+      "titulo": "Camadas da Arquitetura Lambda",
+      "descricao": "Quais são as camadas que compõem a Arquitetura Lambda?",
+      "opcoes": [
+        "Batch layer, speed layer e serving layer.",
+        "Flume layer, Kafka layer e streaming layer.",
+        "Streaming layer, speed layer e batch layer.",
+        "Speed layer, serving layer, batch layer e streaming layer.",
+        "Serving layer, batch layer, service layer e streaming layer."
+      ],
+      "resposta": "Batch layer, speed layer e serving layer."
+    },
+    {
+      "titulo": "Agrupamento no MongoDB",
+      "descricao": "A coleção inventario possui os campos nome, qtd, tamanho, status e cores. Qual consulta retorna a quantidade total de cada produto, agrupando os documentos pelo nome?",
+      "opcoes": [
+        "db.inventario.aggregate([{ $group: { _id: \"$nome\", total: { $sum: \"$qtd\" } } }])",
+        "db.inventario.aggregate([{ $group: { nome: \"$nome\", total: { $sum: \"$qtd\" } } }])",
+        "db.inventario.aggregate([{ $group: { _id: \"$nome\", total: \"$qtd\" } }])",
+        "db.inventario.aggregate([{ $group: { nome: \"$nome\", total: \"$qtd\" } }])",
+        "db.inventario.aggregate([{ $group: { _id: \"$status\", total: { $sum: \"$qtd\" } } }])"
+      ],
+      "resposta": "db.inventario.aggregate([{ $group: { _id: \"$nome\", total: { $sum: \"$qtd\" } } }])"
+    },
+    {
+      "titulo": "Responsabilidade compartilhada no DevOps",
+      "descricao": "Qual afirmação descreve corretamente a responsabilidade compartilhada na cultura DevOps?",
+      "opcoes": [
+        "Promove maior cuidado com o código, pois os desenvolvedores também são responsáveis pela operação em produção.",
+        "Significa que os operadores assumem total responsabilidade pela correção de falhas no código.",
+        "Elimina a necessidade de colaboração entre equipes, pois todos assumem a mesma função.",
+        "Permite que o desenvolvimento se concentre apenas em novas funcionalidades, sem se preocupar com manutenção.",
+        "Reduz a necessidade de automação, pois a equipe de operações controla a implantação e o monitoramento."
+      ],
+      "resposta": "Promove maior cuidado com o código, pois os desenvolvedores também são responsáveis pela operação em produção."
+    },
+    {
+      "titulo": "Kubernetes e alta disponibilidade",
+      "descricao": "Uma equipe quer escalar uma aplicação em contêineres e recuperá-la automaticamente em caso de falhas. Qual afirmação sobre o Kubernetes está correta?",
+      "opcoes": [
+        "Oferece escalabilidade automática e recuperação de contêineres com falhas, garantindo alta disponibilidade.",
+        "Não suporta escalonamento automático e exige gerenciamento manual de todos os contêineres.",
+        "Limita-se a um único nó e não suporta clusters distribuídos.",
+        "Não possui mecanismos de recuperação automática para contêineres com falha.",
+        "Impossibilita o balanceamento de carga entre contêineres."
+      ],
+      "resposta": "Oferece escalabilidade automática e recuperação de contêineres com falhas, garantindo alta disponibilidade."
+    },
+    {
+      "titulo": "Comunicação entre serviços",
+      "descricao": "Marque V ou F.\nI. Filas como RabbitMQ e Apache Kafka permitem comunicação assíncrona e ajudam a entregar mensagens mesmo após falhas temporárias.\nII. Comunicação síncrona via HTTP é adequada quando a resposta imediata é crítica, embora possa bloquear quando o receptor fica indisponível.\nIII. A comunicação assíncrona desacopla serviços e aumenta a resiliência por não exigir disponibilidade simultânea.",
+      "opcoes": ["F – F – V.", "V – F – F.", "V – V – F.", "F – F – F.", "V – V – V."],
+      "resposta": "V – V – V."
+    },
+    {
+      "titulo": "Colaboração contínua no DevOps",
+      "descricao": "Marque V ou F.\nI. A mesma equipe que desenvolve o software pode ser responsável por sua operação em produção.\nII. O feedback contínuo só é relevante depois que o software entra em produção.\nIII. A comunicação entre desenvolvimento e operações é um dos pilares do DevOps.",
+      "opcoes": ["F – V – V.", "V – F – F.", "V – V – F.", "F – F – V.", "V – F – V."],
+      "resposta": "V – F – V."
+    },
+    {
+      "titulo": "Terraform e Infraestrutura como Código",
+      "descricao": "Uma startup quer versionar e replicar sua infraestrutura de forma consistente entre desenvolvimento, teste e produção. Qual afirmação sobre o Terraform está correta?",
+      "opcoes": [
+        "Permite provisionar infraestrutura em múltiplos provedores de nuvem, mantendo consistência entre ambientes.",
+        "Não suporta controle de versão e exige gerenciamento manual das configurações.",
+        "Exige configuração direta em cada servidor, sem automação de provisionamento.",
+        "É limitado a ambientes locais e não suporta nuvens públicas.",
+        "Impede a replicação automatizada da infraestrutura entre teste e produção."
+      ],
+      "resposta": "Permite provisionar infraestrutura em múltiplos provedores de nuvem, mantendo consistência entre ambientes."
+    },
+    {
+      "titulo": "Feedback contínuo",
+      "descricao": "Qual é um benefício do feedback contínuo no DevOps?",
+      "opcoes": [
+        "Ajuda a identificar problemas rapidamente, promovendo ajustes e melhorias contínuas no software.",
+        "Só é relevante após a implantação em produção.",
+        "Substitui a necessidade de testes automatizados.",
+        "Deixa apenas a equipe de operações responsável por reportar falhas.",
+        "É usado somente durante o desenvolvimento inicial."
+      ],
+      "resposta": "Ajuda a identificar problemas rapidamente, promovendo ajustes e melhorias contínuas no software."
+    },
+    {
+      "titulo": "Responsabilidades no MVC",
+      "descricao": "Analise as afirmações sobre o padrão MVC.\nI. O Model representa a lógica de negócio e os dados da aplicação.\nII. A View é responsável por validar as entradas do usuário.\nIII. O Controller atua como intermediário entre View e Model, processando entradas e atualizando dados.",
+      "opcoes": ["Somente I.", "Somente I e III.", "Somente III.", "Somente I e II.", "I, II e III."],
+      "resposta": "Somente I e III."
+    },
+    {
+      "titulo": "Consistência no design de interfaces",
+      "descricao": "Qual é a importância da consistência visual e funcional no design de interfaces?",
+      "opcoes": [
+        "Melhora a eficiência de uso ao reduzir a curva de aprendizado.",
+        "É nociva para a aparência visual dos elementos.",
+        "Pouco afeta a confiança dos usuários.",
+        "Aumenta a necessidade de reaprendizagem em novas telas.",
+        "Torna os elementos menos previsíveis."
+      ],
+      "resposta": "Melhora a eficiência de uso ao reduzir a curva de aprendizado."
+    },
+    {
+      "titulo": "Complexidade e padrão arquitetural",
+      "descricao": "Como a complexidade da aplicação influencia a escolha entre MVC, MVP e MVVM?",
+      "opcoes": [
+        "MVC é ideal para interfaces complexas com data binding.",
+        "MVP é adequado para lógica de apresentação complexa.",
+        "MVVM é mais adequado para interfaces simples.",
+        "MVC é complexo de implementar em interfaces simples.",
+        "MVP reduz o código boilerplate em interfaces complexas."
+      ],
+      "resposta": "MVP é adequado para lógica de apresentação complexa."
+    },
+    {
+      "titulo": "Protocolos e serialização",
+      "descricao": "Qual afirmação sobre protocolos de comunicação e formatos de serialização entre serviços está correta?",
+      "opcoes": [
+        "HTTPS é a versão segura do HTTP e usa criptografia para proteger a comunicação entre serviços.",
+        "HTTP, sem recursos adicionais, é ideal para comunicação segura entre serviços distribuídos.",
+        "XML é sempre preferível em APIs modernas por ser mais simples e menor que JSON.",
+        "Protocol Buffers é usado principalmente por ser mais legível que JSON e XML.",
+        "HTTP é inadequado para todo sistema que exige resposta em tempo real."
+      ],
+      "resposta": "HTTPS é a versão segura do HTTP e usa criptografia para proteger a comunicação entre serviços."
+    },
+    {
+      "titulo": "Alta disponibilidade",
+      "descricao": "Qual prática contribui para garantir alta disponibilidade em sistemas?",
+      "opcoes": [
+        "Replicação de dados em tempo real para minimizar o impacto de falhas.",
+        "Somente manutenção corretiva.",
+        "Dispensar servidores de failover em sistemas resilientes.",
+        "Operar sem monitoramento.",
+        "Substituir failover apenas por backups regulares."
+      ],
+      "resposta": "Replicação de dados em tempo real para minimizar o impacto de falhas."
+    },
+    {
+      "titulo": "Otimização de desempenho",
+      "descricao": "Qual prática de otimização de desempenho está correta?",
+      "opcoes": [
+        "O uso de cache melhora o tempo de resposta em sistemas Web.",
+        "O balanceamento de carga reduz a latência dos dados em repouso.",
+        "Computação in-memory é usada especificamente para reduzir tráfego de rede.",
+        "Otimização de código é desnecessária em arquiteturas distribuídas.",
+        "O tempo de resposta não é afetado pelo número de requisições simultâneas."
+      ],
+      "resposta": "O uso de cache melhora o tempo de resposta em sistemas Web."
+    },
+    {
+      "titulo": "Implementação de uma arquitetura",
+      "descricao": "O que a implementação de uma arquitetura de sistemas em uma organização requer?",
+      "opcoes": [
+        "Nenhum planejamento prévio.",
+        "Dispensa da análise de impacto no negócio.",
+        "Responsabilidade exclusiva da TI.",
+        "Independência de questões de segurança dos dados.",
+        "Planejamento estratégico e técnico."
+      ],
+      "resposta": "Planejamento estratégico e técnico."
+    },
+    {
+      "titulo": "Resiliência de software",
+      "descricao": "Marque V ou F.\nI. Microsserviços podem aumentar a resiliência ao isolar falhas em serviços individuais.\nII. Replicação ativa-ativa diminui a resiliência por elevar o risco de falhas simultâneas.\nIII. Prometheus e Grafana ajudam a identificar problemas em tempo real.",
+      "opcoes": ["F – F – V.", "V – F – F.", "V – V – F.", "F – V – V.", "V – F – V."],
+      "resposta": "V – F – V."
+    },
+    {
+      "titulo": "Entrega Contínua",
+      "descricao": "Marque V ou F sobre Continuous Delivery (CD).\nI. Mantém o software em estado de pronto para produção.\nII. Automatiza desde a codificação inicial até a produção sem qualquer validação manual.\nIII. O pipeline abrange construção, testes automatizados e implantação em produção ou pré-produção.",
+      "opcoes": ["F – V – V.", "V – F – F.", "V – V – F.", "F – F – V.", "V – F – V."],
+      "resposta": "V – F – V."
+    },
+    {
+      "titulo": "Integração de sistemas e APIs",
+      "descricao": "Analise as afirmações.\nI. REST é conhecido pela escalabilidade e independência de plataforma.\nII. APIs facilitam a comunicação, mas exigem mecanismos robustos para proteger dados sensíveis.\nIII. gRPC e SOAP são alternativas ao REST para cenários de alta performance e transações seguras, respectivamente.",
+      "opcoes": ["Somente I e II.", "Somente I e III.", "Somente III.", "I, II e III.", "Somente II e III."],
+      "resposta": "I, II e III."
+    },
+    {
+      "titulo": "Aplicação do padrão MVC",
+      "descricao": "Qual afirmação sobre a aplicação do padrão MVC está correta?",
+      "opcoes": [
+        "Facilita a colaboração entre equipes de front-end e back-end.",
+        "É raramente utilizado em aplicações Web modernas.",
+        "Dificulta a manutenção independente dos componentes.",
+        "É incompatível com frameworks populares.",
+        "É ideal apenas para aplicações desktop simples."
+      ],
+      "resposta": "Facilita a colaboração entre equipes de front-end e back-end."
+    },
+    {
+      "titulo": "Python em arquiteturas distribuídas",
+      "descricao": "Marque V ou F.\nI. Flask é comumente usado para desenvolver APIs REST em microsserviços.\nII. Em SOA, cada serviço deve compartilhar a mesma base de dados.\nIII. Kafka é comum em arquiteturas orientadas a eventos para comunicação assíncrona.",
+      "opcoes": ["F – F – V.", "V – F – F.", "V – V – F.", "F – V – V.", "V – F – V."],
+      "resposta": "V – F – V."
+    },
+    {
+      "titulo": "Manutenção de sistemas",
+      "descricao": "Analise as afirmações.\nI. Arquiteturas complexas aumentam os custos de manutenção.\nII. A manutenção é irrelevante para arquiteturas serverless.\nIII. Estratégias proativas de manutenção reduzem interrupções.",
+      "opcoes": ["Somente I.", "Somente I e III.", "Somente III.", "Somente I e II.", "Somente II."],
+      "resposta": "Somente I e III."
+    },
+    {
+      "titulo": "Comunicação assíncrona",
+      "descricao": "Qual é um benefício da comunicação assíncrona entre serviços?",
+      "opcoes": [
+        "Facilita a integração e impede que a indisponibilidade de um serviço afete diretamente outro.",
+        "Elimina a necessidade de filas de mensagens.",
+        "É ideal para transações que exigem confirmação imediata.",
+        "Não pode ser usada em sistemas de alta disponibilidade.",
+        "Exige que todos os serviços estejam disponíveis simultaneamente."
+      ],
+      "resposta": "Facilita a integração e impede que a indisponibilidade de um serviço afete diretamente outro."
+    },
+    {
+      "titulo": "Desafios entre serviços",
+      "descricao": "No design, na implementação e na implantação de serviços, qual desafio pode surgir?",
+      "opcoes": [
+        "Orquestração e monitoração são sempre simplificadas.",
+        "A gestão de dados é simples por causa da centralização.",
+        "A comunicação entre serviços pode introduzir latência.",
+        "A consistência de dados é garantida automaticamente.",
+        "A necessidade de autenticação robusta é reduzida."
+      ],
+      "resposta": "A comunicação entre serviços pode introduzir latência."
+    },
+    {
+      "titulo": "Desafios de arquiteturas distribuídas",
+      "descricao": "Qual afirmação descreve corretamente um desafio da implementação e da manutenção de arquiteturas de sistemas?",
+      "opcoes": [
+        "Todos os sistemas são inerentemente simples de integrar.",
+        "Arquiteturas monolíticas não possuem desafios.",
+        "Blockchain garante escalabilidade automaticamente.",
+        "A comunicação entre serviços distribuídos pode ser complexa.",
+        "Custos são irrelevantes na escolha da arquitetura."
+      ],
+      "resposta": "A comunicação entre serviços distribuídos pode ser complexa."
+    },
+    {
+      "titulo": "Definição do MVC",
+      "descricao": "O MVC é um padrão:",
+      "opcoes": [
+        "De arquitetura de aplicações que separa a lógica da aplicação, a interface do usuário e o fluxo da aplicação.",
+        "De objeto que executa uma operação ao receber uma mensagem de outro objeto.",
+        "De desenvolvimento cuja finalidade é definir uma interface na mesma camada da lógica da aplicação.",
+        "De operação dirigida para uma classe, e não para um objeto individual.",
+        "Que garante acesso à lógica de negócio por uma única interface."
+      ],
+      "resposta": "De arquitetura de aplicações que separa a lógica da aplicação, a interface do usuário e o fluxo da aplicação."
+    },
+    {
+      "titulo": "Vantagem da arquitetura SOA",
+      "descricao": "Qual é uma vantagem da Arquitetura Orientada a Serviços (SOA)?",
+      "opcoes": [
+        "Facilita a escalabilidade e a modularidade.",
+        "Garante consistência de dados em tempo real.",
+        "Depende de uma base de dados monolítica.",
+        "Evita qualquer necessidade de monitoramento.",
+        "Simplifica automaticamente a integração de todos os serviços legados."
+      ],
+      "resposta": "Facilita a escalabilidade e a modularidade."
+    },
+    {
+      "titulo": "Adoção da arquitetura SOA",
+      "descricao": "A SOA busca oferecer serviços fracamente acoplados e coesos para integrar tecnologias, plataformas e regras de negócio. Por que esse paradigma ainda não é amplamente adotado em todos os sistemas?",
+      "opcoes": [
+        "Grandes empresas não têm interesse genuíno em SOA e preferem apenas orientação a objetos.",
+        "A adoção pode ter alto custo por exigir mudanças na modelagem de algo que já está pronto e funcional.",
+        "SOA não possui vantagens concretas e serve apenas para sistemas ineficientes.",
+        "É sempre vantajoso trocar a arquitetura de algo em pleno funcionamento.",
+        "A tecnologia é recente demais para adoção completa."
+      ],
+      "resposta": "A adoção pode ter alto custo por exigir mudanças na modelagem de algo que já está pronto e funcional."
+    },
+    {
+      "titulo": "Scrum e Kanban no design",
+      "descricao": "Marque V ou F.\nI. Scrum organiza o trabalho em sprints curtos, geralmente de duas a quatro semanas.\nII. Kanban descarta o fluxo de trabalho e a visualização das tarefas.\nIII. Scrum e Kanban ajudam a manter flexibilidade e eficiência.",
+      "opcoes": ["V – F – V.", "V – F – F.", "V – V – F.", "F – V – V.", "F – F – V."],
+      "resposta": "V – F – V."
+    },
+    {
+      "titulo": "Monitoramento contínuo",
+      "descricao": "Analise as afirmações.\nI. O monitoramento contínuo em DevOps ajuda a detectar falhas antes que afetem usuários.\nII. Prometheus é usado apenas para monitorar redes, sem integração com aplicações.\nIII. Grafana permite criar dashboards personalizados de métricas de desempenho.",
+      "opcoes": ["Somente I e II.", "Somente I e III.", "Somente III.", "II e III.", "Somente II."],
+      "resposta": "Somente I e III."
+    },
+    {
+      "titulo": "Tendências em arquitetura de software",
+      "descricao": "Marque V ou F conforme a correção indicada no material.\nI. Arquiteturas nativas da nuvem ignoram a escalabilidade automática.\nII. Arquiteturas imutáveis reduzem inconsistências de configuração.\nIII. Arquiteturas híbridas combinam infraestrutura em nuvem e sistemas on-premises.",
+      "opcoes": ["F – V – F.", "V – F – F.", "V – V – F.", "F – V – V.", "F – F – V."],
+      "resposta": "F – F – V."
+    },
+    {
+      "titulo": "Integração e Entrega Contínuas",
+      "descricao": "Analise as afirmações.\nI. A Integração Contínua permite testes automáticos do código.\nII. A Entrega Contínua dispensa revisões de código antes da implantação.\nIII. O feedback contínuo ajuda a identificar e corrigir problemas rapidamente.",
+      "opcoes": ["Somente I e II.", "Somente I e III.", "Somente III.", "I, II e III.", "Somente II e III."],
+      "resposta": "Somente I e III."
+    },
+    {
+      "titulo": "Segurança em sistemas",
+      "descricao": "Analise as afirmações.\nI. Tokens JWT podem ser usados em autenticação e autorização, com controle granular de acesso.\nII. OAuth expõe as credenciais do usuário e é menos seguro que outras soluções.\nIII. Criptografar dados em trânsito e em repouso é essencial contra interceptação e acesso indevido.",
+      "opcoes": ["Somente I.", "Somente I e III.", "Somente III.", "Somente I e II.", "Somente II e III."],
+      "resposta": "Somente I e III."
+    },
+    {
+      "titulo": "Wireframes",
+      "descricao": "Na fase de design conceitual são criados wireframes e protótipos de baixa fidelidade. Qual afirmação está correta?",
+      "opcoes": [
+        "Wireframes incluem todos os detalhes finais do design visual.",
+        "Wireframes são esboços simplificados que mostram a estrutura de uma página.",
+        "Prototipagem de baixa fidelidade é não iterativa por definição.",
+        "A fase de desenvolvimento ignora o design detalhado.",
+        "Sprints são métodos de desenvolvimento não utilizados."
+      ],
+      "resposta": "Wireframes são esboços simplificados que mostram a estrutura de uma página."
+    },
+    {
+      "titulo": "Erros em projetos de interface",
+      "descricao": "Analise as afirmações.\nI. Ignorar o feedback pode resultar em uma interface tecnicamente competente, mas difícil de usar.\nII. Falta de comunicação entre designers e desenvolvedores pode causar implementações erradas.\nIII. Negligenciar a acessibilidade evita que usuários sejam excluídos e previne implicações legais.",
+      "opcoes": ["Somente I.", "Somente I e III.", "Somente III.", "Somente I e II.", "Somente II e III."],
+      "resposta": "Somente I e II."
+    },
+    {
+      "titulo": "Vantagem dos padrões de projeto",
+      "descricao": "Qual frase apresenta uma vantagem do uso de padrões de projeto?",
+      "opcoes": [
+        "Padrões de nomenclatura dão nomes padronizados ao projeto, trazendo referência e credibilidade ao software.",
+        "Pioram técnicas de orientação a objetos, como herança, composição e polimorfismo.",
+        "Aumentam o acoplamento entre classes e reduzem a manutenção.",
+        "Impedem a implementação de hierarquias de herança.",
+        "Não permitem refatoração por serem altamente acoplados e de baixa coesão."
+      ],
+      "resposta": "Padrões de nomenclatura dão nomes padronizados ao projeto, trazendo referência e credibilidade ao software."
+    },
+    {
+      "titulo": "MVC e separação em camadas",
+      "descricao": "Com relação a padrões de arquitetura em camadas e ao MVC, qual afirmação está incorreta?",
+      "opcoes": [
+        "No MVC, o Controller gerencia o sistema de dados e as operações associadas a esses dados.",
+        "O MVC permite alterar dados independentemente de sua representação e vice-versa.",
+        "Em uma arquitetura em camadas pode ser difícil manter uma separação clara, e uma camada de alto nível pode interagir diretamente com camadas inferiores.",
+        "Em cliente-servidor, clientes podem precisar conhecer os servidores e serviços, mas os servidores não precisam conhecer a identidade ou a quantidade de clientes.",
+        "No MVC, o Model gerencia o sistema de dados e as operações associadas a eles."
+      ],
+      "resposta": "No MVC, o Controller gerencia o sistema de dados e as operações associadas a esses dados."
+    },
+    {
+      "titulo": "Vantagens da reutilização de software",
+      "descricao": "Quais itens representam vantagens da reutilização de software?\nI. Qualidade do código.\nII. Produtividade.\nIII. Custo maior.\nIV. Falta de apoio de ferramenta.\nV. Confiabilidade.",
+      "opcoes": ["I, II e V.", "I, II e III.", "II, IV e V.", "IV e V.", "I, II, III, IV e V."],
+      "resposta": "I, II e V."
+    },
+    {
+      "titulo": "Vantagens de frameworks",
+      "descricao": "Quais itens representam vantagens do uso de frameworks?\nI. Eficiência.\nII. Apoio técnico.\nIII. Dependência.\nIV. Códigos desnecessários.\nV. Segurança.",
+      "opcoes": ["I, II e V.", "I, II, III, IV e V.", "I, III e V.", "II, III e IV.", "II, IV e V."],
+      "resposta": "I, II e V."
+    },
+    {
+      "titulo": "Componentes de uma arquitetura",
+      "descricao": "Qual afirmação sobre componentes de uma arquitetura de sistemas está correta?",
+      "opcoes": [
+        "Componentes podem se relacionar com entidades fora dos limites do software em questão.",
+        "A interface requires define os serviços fornecidos pelo componente a outros componentes.",
+        "A interface provides define os serviços necessários ao componente para sua execução.",
+        "A comunicação de componentes independentes pode ser desconsiderada.",
+        "Não é comum haver colaboração entre componentes."
+      ],
+      "resposta": "Componentes podem se relacionar com entidades fora dos limites do software em questão."
+    },
+    {
+      "titulo": "Desenvolvimento orientado a reúso",
+      "descricao": "A engenharia de software baseada em reúso orienta o desenvolvimento para o aproveitamento de softwares existentes. Qual afirmação sobre reutilização de software está correta?",
+      "opcoes": [
+        "Sempre piora a qualidade por exigir tecnologias e códigos defasados.",
+        "Aumenta a escalabilidade, mas é uma das principais causas do aumento de custos.",
+        "Impede a manutenção porque sistemas reutilizados são sempre tratados como caixas-pretas.",
+        "Reduz custos, mas necessariamente prejudica a escalabilidade da produção.",
+        "É importante no desenvolvimento estruturado de novos softwares, embora possa gerar custos na adoção de softwares sem licença livre."
+      ],
+      "resposta": "É importante no desenvolvimento estruturado de novos softwares, embora possa gerar custos na adoção de softwares sem licença livre."
+    },
+    {
+      "titulo": "Características do MVC",
+      "descricao": "No MVC, associe as propriedades às características corretas.\nI. Gerenciamento de múltiplas views com o mesmo Model: facilidade ou dificuldade de manutenção.\nII. Desenvolvimento paralelo de Model, View e Controller: possível ou impossível.\nIII. Uso em aplicações pequenas: aconselhável ou desaconselhável em razão do custo-benefício.",
+      "opcoes": [
+        "Facilidade, possível e desaconselhável.",
+        "Facilidade, impossível e aconselhável.",
+        "Dificuldade, possível e aconselhável.",
+        "Dificuldade, impossível e desaconselhável.",
+        "Dificuldade, possível e desaconselhável."
+      ],
+      "resposta": "Facilidade, possível e desaconselhável."
+    },
+    {
+      "titulo": "Benefícios do MVC",
+      "descricao": "Quais são benefícios do uso do MVC no desenvolvimento?",
+      "opcoes": [
+        "Segurança, organização, eficiência, tempo e transformação.",
+        "Insegurança, organização e eficiência.",
+        "Eficiência, desorganização, tempo e transformação.",
+        "Segurança, ineficiência e transformação.",
+        "Todas as alternativas."
+      ],
+      "resposta": "Segurança, organização, eficiência, tempo e transformação."
+    },
+    {
+      "titulo": "Componente View",
+      "descricao": "No MVC, qual componente é responsável pela apresentação e também recebe os dados de entrada do usuário?",
+      "opcoes": ["Data.", "Controller.", "Application.", "View.", "Model."],
+      "resposta": "View."
+    },
+    {
+      "titulo": "Reutilização de componentes",
+      "descricao": "Com relação às vantagens da reutilização de componentes, assinale a exceção.",
+      "opcoes": [
+        "Em regra, dificulta a manutenção do software.",
+        "Aprimora a produção dos sistemas.",
+        "Reduz custos operacionais e com pessoal, de modo geral.",
+        "Melhora a qualidade do software.",
+        "Pode trazer problemas quando bibliotecas não recebem manutenção ou APIs ficam incompatíveis."
+      ],
+      "resposta": "Em regra, dificulta a manutenção do software."
+    },
+    {
+      "titulo": "Design patterns",
+      "descricao": "Como os padrões de projeto são comumente conhecidos?",
+      "opcoes": ["Design patterns.", "Patterns design.", "Padronização.", "Metrificação de projetos.", "UX design."],
+      "resposta": "Design patterns."
+    },
+    {
+      "titulo": "Vantagens do MVC",
+      "descricao": "Quais itens são vantagens do MVC?\nI. Desenvolvimento simultâneo.\nII. Alta coesão.\nIII. Complexidade.\nIV. Dificuldade de modificação.\nV. Navegabilidade do código.",
+      "opcoes": ["I e II.", "I, II e III.", "II, III e IV.", "II e III.", "III e IV."],
+      "resposta": "I e II."
+    },
+    {
+      "titulo": "Arquitetura de software",
+      "descricao": "Qual afirmação sobre Arquitetura de Software está incorreta?",
+      "opcoes": [
+        "Consiste em um modelo relativamente pequeno e compreensível de como o sistema será estruturado.",
+        "Define como os componentes de software se comunicarão.",
+        "Abrange a estrutura ou as estruturas do sistema e seus componentes.",
+        "É uma área independente da Engenharia de Software.",
+        "Define propriedades externamente visíveis dos componentes e as relações entre eles."
+      ],
+      "resposta": "É uma área independente da Engenharia de Software."
+    },
+    {
+      "titulo": "Arquétipo estrutural",
+      "descricao": "Sobre o diagrama de arquétipo estrutural, assinale a alternativa incorreta.",
+      "opcoes": [
+        "É um requisito essencial para o usuário final, sem o qual ele não seria capaz de utilizar o sistema.",
+        "O arquétipo representa o sistema de interesse em uma linguagem de alto nível.",
+        "O barramento ou a interface de comunicação é um componente fundamental dessa representação.",
+        "É de fácil compreensão para os envolvidos no desenvolvimento.",
+        "Sua implementação é uma etapa importante no desenvolvimento de projetos de arquitetura."
+      ],
+      "resposta": "É um requisito essencial para o usuário final, sem o qual ele não seria capaz de utilizar o sistema."
+    },
+    {
+      "titulo": "Controller no MVC",
+      "descricao": "A respeito do MVC, assinale a alternativa correta.",
+      "opcoes": [
+        "A comunicação entre as interfaces e as regras de negócio é responsabilidade do Controller.",
+        "O modelo é conhecido por dificultar a documentação.",
+        "A View é responsável pelas regras de negócio.",
+        "Sua maior desvantagem é não ser aplicável a muitos contextos, o que reduz o reúso.",
+        "O Model é responsável pela exibição de dados na tela."
+      ],
+      "resposta": "A comunicação entre as interfaces e as regras de negócio é responsabilidade do Controller."
+    },
+    {
+      "titulo": "Instâncias em arquétipos estruturais",
+      "descricao": "O que são instâncias no contexto de arquétipos estruturais em arquitetura de sistemas?",
+      "opcoes": [
+        "Métodos executáveis de programação usados para acelerar o processo.",
+        "Representações reais dos componentes de um sistema.",
+        "Funções não implementadas de um componente.",
+        "Elementos genéricos empregados na construção de sistemas.",
+        "Outra denominação para componentes."
+      ],
+      "resposta": "Representações reais dos componentes de um sistema."
+    },
+    {
+      "titulo": "Dados duplicados no MongoDB",
+      "descricao": "Alguns dados de um subdocumento foram duplicados em documentos de duas coleções diferentes. Como esses dados devem ser atualizados?",
+      "opcoes": [
+        "Devem ser atualizados nas duas coleções, usando dois comandos update.",
+        "Devem ser atualizados nas duas coleções com um único update e a opção multi: true.",
+        "Pode-se atualizar vários documentos usando apenas o método updateMany em uma coleção.",
+        "Não é possível atualizar dados quando existe duplicação entre coleções.",
+        "Só é possível atualizar os dados quando não existe duplicação entre coleções."
+      ],
+      "resposta": "Devem ser atualizados nas duas coleções, usando dois comandos update."
+    },
+    {
+      "titulo": "Subdocumento no MongoDB",
+      "descricao": "Uma coleção de artigos armazena os dados do autor — nome, descrição, e-mail e senha — em um subdocumento dentro do artigo. Por que usar essa modelagem em vez de um documento separado?",
+      "opcoes": [
+        "Porque no MongoDB é uma boa prática reunir em um documento as informações necessárias para uma única consulta.",
+        "Porque subdocumento é a única forma possível de modelar esse caso.",
+        "Porque cada autor poderá escrever somente um artigo.",
+        "Porque o MongoDB obriga todas as informações a ficarem no mesmo documento.",
+        "Porque referenciar um documento externo sempre tornaria a consulta mais rápida."
+      ],
+      "resposta": "Porque no MongoDB é uma boa prática reunir em um documento as informações necessárias para uma única consulta."
+    },
+    {
+      "titulo": "Máximo e mínimo com aggregation",
+      "descricao": "Uma coleção de inventário armazena itens com tamanho.altura e tamanho.unidade. Qual pipeline agrupa por unidade e encontra a maior e a menor altura de cada grupo?",
+      "opcoes": [
+        "db.inventario.aggregate([{ $group: { _id: \"$tamanho.unidade\", max_altura: { $min: \"$tamanho.altura\" }, min_altura: { $min: \"$tamanho.altura\" } } }])",
+        "db.inventario.aggregate([{ $group: { _id: \"$tamanho.unidade\", max_altura: { $max: \"$tamanho.altura\" }, min_altura: { $min: \"$tamanho.altura\" } } }])",
+        "db.inventario.aggregate([{ $group: { _id: \"$tamanho.unidade\", avg_altura: { $avg: \"$tamanho.altura\" } } }])",
+        "db.inventario.aggregate([{ $group: { _id: \"$tamanho.unidade\", max_altura: { $sum: \"$tamanho.altura\" }, min_altura: { $sum: \"$tamanho.altura\" } } }])",
+        "db.inventario.aggregate([{ $group: { _id: \"$tamanho.unidade\", max_altura: { $max: \"$tamanho.altura\" }, min_altura: { $avg: \"$tamanho.altura\" } } }])"
+      ],
+      "resposta": "db.inventario.aggregate([{ $group: { _id: \"$tamanho.unidade\", max_altura: { $max: \"$tamanho.altura\" }, min_altura: { $min: \"$tamanho.altura\" } } }])"
+    },
+    {
+      "titulo": "Soma de quantidades com aggregation",
+      "descricao": "Um gerente quer agrupar os itens do inventário pelo nome e somar a quantidade (qtd) de cada item. Qual consulta realiza essa operação?",
+      "opcoes": [
+        "db.inventario.aggregate([{ $group: { _id: \"$nome\", total_qtd: { $avg: \"$qtd\" } } }])",
+        "db.inventario.aggregate([{ $group: { _id: \"$nome\", total_qtd: { $max: \"$qtd\" } } }])",
+        "db.inventario.aggregate([{ $group: { _id: \"$nome\", total_qtd: { $sum: \"$qtd\" } } }])",
+        "db.inventario.aggregate([{ $group: { _id: \"$qtd\", total_qtd: { $sum: \"$qtd\" } } }])",
+        "db.inventario.aggregate([{ $group: { _id: \"$nome\", total_qtd: { $min: \"$qtd\" } } }])"
+      ],
+      "resposta": "db.inventario.aggregate([{ $group: { _id: \"$nome\", total_qtd: { $sum: \"$qtd\" } } }])"
+    },
+    {
+      "titulo": "Engenharia de software baseada em componentes",
+      "descricao": "Quais são algumas características essenciais de um componente?",
+      "opcoes": [
+        "Padronizado, independente, passível de composição, implantável e documentado.",
+        "Padronizado, bonito, testado e implantável.",
+        "Padronizado, dependente, implantável e simples.",
+        "Implantável, documentado, simples, testado e padronizado.",
+        "Todas as alternativas."
+      ],
+      "resposta": "Padronizado, independente, passível de composição, implantável e documentado."
+    }
+  ]
+}

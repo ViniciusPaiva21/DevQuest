@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Catálogo completo de quizzes de ADS e Ciência da Computação do DevQuest.">
+  <title>DevQuest - Disciplinas</title>
+
+  <script src="js/theme.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@0.468.0"></script>
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/themes.css">
+</head>
+
+<body data-page="home" class="min-h-screen flex flex-col selection:bg-violet-500 selection:text-white overflow-x-hidden">
+  <header class="site-header w-full px-5 md:px-6 py-4 sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto flex items-center justify-between gap-4">
+      <a href="index.html" class="brand flex items-center gap-3 group" aria-label="Página inicial do DevQuest">
+        <span class="brand-icon p-2.5 rounded-xl">
+          <i data-lucide="terminal" class="text-violet-400 w-6 h-6"></i>
+        </span>
+        <span>
+          <span class="block text-xl font-extrabold tracking-tight text-zinc-100">
+            Dev<span class="text-violet-500">Quest</span>
+          </span>
+          <span class="block text-[11px] text-zinc-500">De alunos para alunos</span>
+        </span>
+      </a>
+
+      <nav class="flex items-center gap-2" aria-label="Navegação principal">
+        <a href="index.html" class="header-link hidden sm:inline-flex">Início</a>
+        <a href="#trilhas" class="header-link hidden md:inline-flex">Matérias</a>
+        <a href="infernus.html" class="header-infernus-link">
+          <i data-lucide="skull" class="w-4 h-4"></i>
+          <span>Infernus</span>
+        </a>
+        <div data-theme-slot></div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="flex-1 relative">
+    <div class="ambient ambient--blue" aria-hidden="true"></div>
+    <div class="ambient ambient--violet" aria-hidden="true"></div>
+
+    <section class="max-w-7xl mx-auto px-5 md:px-6 pt-14 md:pt-20 pb-20">
+      <div class="hero max-w-4xl mx-auto text-center">
+        <span class="hero-eyebrow">
+          <i data-lucide="library-big" class="w-4 h-4"></i>
+          Catálogo completo · 18 cards · 390 questões
+        </span>
+
+        <h1 class="text-4xl sm:text-5xl md:text-7xl font-black tracking-[-0.055em] leading-[0.95] mt-6 mb-6">
+          Todas as disciplinas,<br>
+          <span class="hero-gradient">em um só catálogo.</span>
+        </h1>
+
+        <p class="text-zinc-400 text-base md:text-lg leading-relaxed max-w-2xl mx-auto">
+          ADS e Ciência da Computação aparecem em blocos separados. Matérias com o mesmo nome recebem a identificação da trilha no card e dentro do quiz.
+        </p>
+
+        <div class="course-jumps" aria-label="Ir para uma trilha">
+          <a href="#ads" class="course-jump course-jump--ads">
+            <span class="course-jump-dot" aria-hidden="true"></span>
+            <span class="course-jump-copy">
+              <strong>ADS</strong>
+              <small>10 matérias</small>
+            </span>
+            <i data-lucide="arrow-down" class="w-4 h-4"></i>
+          </a>
+
+          <a href="#cc" class="course-jump course-jump--cc">
+            <span class="course-jump-dot" aria-hidden="true"></span>
+            <span class="course-jump-copy">
+              <strong>CC</strong>
+              <small>8 matérias</small>
+            </span>
+            <i data-lucide="arrow-down" class="w-4 h-4"></i>
+          </a>
+        </div>
+      </div>
+
+      <div id="trilhas" class="catalog-intro">
+        <span>Catálogo completo</span>
+        <h2>Escolha uma matéria</h2>
+        <p>As cores de hover são exclusivas para você localizar cada disciplina mais rápido.</p>
+      </div>
+
+      <section id="ads" class="course-section course-section--ads scroll-mt-28" aria-labelledby="ads-heading">
+        <div class="course-heading">
+          <div class="course-index" aria-hidden="true">01</div>
+          <div class="course-heading-copy">
+            <span class="course-label"><span></span> Trilha ADS</span>
+            <h2 id="ads-heading">Análise e Desenvolvimento de Sistemas</h2>
+            <p>Uma trilha prática para construir, projetar e sustentar produtos digitais.</p>
+          </div>
+          <span class="course-total">10 matérias</span>
+        </div>
+
+        <div id="adsCardsGrid" class="cards-grid" aria-label="Matérias de ADS"></div>
+      </section>
+
+      <div class="course-divider" aria-label="Divisória entre ADS e Ciência da Computação">
+        <span class="course-divider-line"></span>
+        <span class="course-divider-mark">
+          <i data-lucide="split" class="w-5 h-5"></i>
+          mudança de trilha
+        </span>
+        <span class="course-divider-line"></span>
+      </div>
+
+      <section id="cc" class="course-section course-section--cc scroll-mt-28" aria-labelledby="cc-heading">
+        <div class="course-heading">
+          <div class="course-index" aria-hidden="true">02</div>
+          <div class="course-heading-copy">
+            <span class="course-label"><span></span> Trilha CC</span>
+            <h2 id="cc-heading">Ciência da Computação</h2>
+            <p>Fundamentos, raciocínio e estruturas para compreender a computação por inteiro.</p>
+          </div>
+          <span class="course-total">8 matérias</span>
+        </div>
+
+        <div id="ccCardsGrid" class="cards-grid" aria-label="Matérias de Ciência da Computação"></div>
+      </section>
+    </section>
+  </main>
+
+  <footer class="site-footer w-full relative z-10">
+    <div class="max-w-7xl mx-auto px-6 py-8 flex flex-col md:flex-row justify-between items-center gap-4">
+      <div class="text-center md:text-left">
+        <p class="text-zinc-500 text-sm flex items-center justify-center md:justify-start gap-1.5">
+          Feito com
+          <i data-lucide="coffee" class="text-amber-700 w-3.5 h-3.5"></i>
+          e
+          <i data-lucide="bot" class="w-3.5 h-3.5 stroke-[#ff0000]"></i>
+          por Vinicius
+        </p>
+        <p class="text-zinc-600 text-xs mt-1">© 2026 Acervo de Questões. Open Source.</p>
+      </div>
+    </div>
+  </footer>
+
+  <audio id="meow1" src="audios/miado1.mp3" preload="none"></audio>
+  <audio id="meow2" src="audios/miado2.mp3" preload="none"></audio>
+  <audio id="meow3" src="audios/miado3.mp3" preload="none"></audio>
+  <audio id="meow4" src="audios/miado4.mp3" preload="none"></audio>
+  <audio id="meow5" src="audios/miado5.mp3" preload="none"></audio>
+
+  <button id="cat-button" type="button" class="fixed bottom-4 right-4 z-50 group" aria-label="Ouvir o mascote">
+    <span id="cat-bubble" class="absolute -top-12 -left-8 bg-white text-zinc-900 text-xs font-bold px-3 py-1 rounded-xl rounded-br-none transform transition-all duration-300 shadow-lg opacity-0 scale-90 translate-y-2 pointer-events-none">
+      Miau! 🐾
+    </span>
+    <img id="cat-svg" src="icons/gato.svg" alt="" class="w-32 h-32 md:w-40 md:h-40 object-contain transform transition-transform duration-500 group-hover:-translate-y-2">
+  </button>
+
+  <script src="js/subjects.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/courseData.js"></script>
+  <script src="js/cat.js"></script>
+</body>
+</html>
