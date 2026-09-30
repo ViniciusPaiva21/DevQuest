@@ -14,7 +14,7 @@ Depois acesse `http://localhost:8000`.
 
 ## Estrutura
 
-- `index.html`: página inicial com as três novas disciplinas de ADS em destaque.
+- `index.html`: página inicial com quatro disciplinas de ADS e CC em destaque.
 - `disciplinas.html`: catálogo completo, com as trilhas de ADS e CC separadas por uma divisória.
 - `quiz.html`: página única usada por todas as matérias.
 - `infernus.html`: modo que mistura várias matérias.

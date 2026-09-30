@@ -181,7 +181,7 @@
       label: "CC",
       fullLabel: "Ciência da Computação",
       description: "Fundamentos, raciocínio e estruturas para compreender a computação por inteiro.",
-      subjects: ["frontend", "ux", "designthinking", "backend", "logica", "estruturascc", "adrii", "sistemas"],
+      subjects: ["frontend", "ux", "designthinking", "backend", "logica", "estruturascc", "adrii", "sistemas", "engenharia"],
       cardColors: [
         "#38bdf8",
         "#c084fc",
@@ -190,7 +190,8 @@
         "#60a5fa",
         "#2dd4bf",
         "#4ade80",
-        "#f87171"
+        "#f87171",
+        "#f59e0b"
       ]
     }
   };
@@ -198,9 +199,10 @@
   window.DEVQUEST_SUBJECTS = Object.freeze(subjects);
   window.DEVQUEST_COURSES = Object.freeze(courses);
   window.DEVQUEST_FEATURED_SUBJECTS = Object.freeze([
-    "arquiteturasistemas",
-    "fundamentosredes",
-    "governancati"
+    { subjectId: "arquiteturasistemas", courseId: "ADS" },
+    { subjectId: "fundamentosredes", courseId: "ADS" },
+    { subjectId: "governancati", courseId: "ADS" },
+    { subjectId: "engenharia", courseId: "CC" }
   ]);
   window.DEVQUEST_INFERNUS_SUBJECTS = Object.freeze([
     "frontend",

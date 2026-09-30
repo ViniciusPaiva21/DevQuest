@@ -61,14 +61,19 @@ for (const requiredId of ["trilhas", "ads", "adsCardsGrid", "cc", "ccCardsGrid"]
   if (!catalogSource.includes(`id="${requiredId}"`)) errors.push(`disciplinas.html: #${requiredId} ausente.`);
 }
 
-const expectedFeatured = ["arquiteturasistemas", "fundamentosredes", "governancati"];
+const expectedFeatured = [
+  { subjectId: "arquiteturasistemas", courseId: "ADS" },
+  { subjectId: "fundamentosredes", courseId: "ADS" },
+  { subjectId: "governancati", courseId: "ADS" },
+  { subjectId: "engenharia", courseId: "CC" }
+];
 if (JSON.stringify(featuredSubjects) !== JSON.stringify(expectedFeatured)) {
-  errors.push("A página inicial precisa destacar exatamente as três novas matérias de ADS.");
+  errors.push("A página inicial precisa destacar as três matérias de ADS e Engenharia de Software de CC.");
 }
 
-for (const subjectId of featuredSubjects || []) {
-  if (!courses.ADS.subjects.includes(subjectId)) {
-    errors.push(`Destaque inválido: "${subjectId}" não pertence à trilha ADS.`);
+for (const { subjectId, courseId } of featuredSubjects || []) {
+  if (!courses[courseId]?.subjects.includes(subjectId)) {
+    errors.push(`Destaque inválido: "${subjectId}" não pertence à trilha ${courseId}.`);
   }
 }
 
@@ -85,4 +90,4 @@ if (errors.length > 0) {
   process.exit(1);
 }
 
-console.log(`Interface validada: 3 destaques na página inicial, ${colors.length} cards com cores exclusivas no catálogo e 2 trilhas visíveis.`);
+console.log(`Interface validada: 4 destaques na página inicial, ${colors.length} cards com cores exclusivas no catálogo e 2 trilhas visíveis.`);

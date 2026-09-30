@@ -81,9 +81,9 @@
       }
     });
 
-    featuredSubjectIds.forEach((subjectId) => {
-      if (!subjects[subjectId] || !courses.ADS.subjects.includes(subjectId)) {
-        throw new Error(`A matéria em destaque "${subjectId}" não pertence à trilha ADS.`);
+    featuredSubjectIds.forEach(({ subjectId, courseId }) => {
+      if (!subjects[subjectId] || !courses[courseId]?.subjects.includes(subjectId)) {
+        throw new Error(`A matéria em destaque "${subjectId}" não pertence à trilha ${courseId}.`);
       }
     });
   }
@@ -111,8 +111,8 @@
     if (!featuredGrid) return;
 
     const fragment = document.createDocumentFragment();
-    featuredSubjectIds.forEach((subjectId, index) => {
-      fragment.appendChild(createCard(subjectId, "ADS", getCourseColor("ADS", subjectId), index));
+    featuredSubjectIds.forEach(({ subjectId, courseId }, index) => {
+      fragment.appendChild(createCard(subjectId, courseId, getCourseColor(courseId, subjectId), index));
     });
     featuredGrid.replaceChildren(fragment);
   }
