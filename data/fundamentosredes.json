@@ -6,11 +6,11 @@
       "opcoes": [
         "São reservados para os servidores DNS e de e-mail.",
         "São reservados para a conexão externa com a Internet.",
-        "192.168.30.0 é o endereço da rede e 192.168.30.255 é o endereço de broadcast.",
+        "192.168.30.0/24 é o endereço IP da rede e 192.168.30.255/24 é o endereço de transmissão IP.",
         "192.168.30.0 é reservado para o gateway padrão e 192.168.30.255 é reservado para o servidor DHCP.",
         "Nenhuma das alternativas indicadas."
       ],
-      "resposta": "192.168.30.0 é o endereço da rede e 192.168.30.255 é o endereço de broadcast."
+      "resposta": "192.168.30.0/24 é o endereço IP da rede e 192.168.30.255/24 é o endereço de transmissão IP."
     },
     {
       "titulo": "Cabo straight-through",
@@ -203,12 +203,12 @@
       "descricao": "Qual foi o motivo para a criação e a implementação do IPv6?",
       "opcoes": [
         "Facilitar a leitura de um endereço de 32 bits.",
-        "Aliviar a redução de endereços IPv4 disponíveis.",
+        "Para aliviar a redução de endereços IPv4.",
         "Fornecer mais espaço de endereço no registro de nomes da Internet.",
         "Permitir o suporte de NAT para o endereçamento privado.",
         "Nenhuma das alternativas indicadas."
       ],
-      "resposta": "Aliviar a redução de endereços IPv4 disponíveis."
+      "resposta": "Para aliviar a redução de endereços IPv4."
     },
     {
       "titulo": "Propósito do endereço IP",
