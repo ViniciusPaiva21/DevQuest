@@ -1,60 +1,6 @@
 {
   "arquiteturaSistemas": [
     {
-      "titulo": "Os 4 Vs do Big Data",
-      "descricao": "Qual característica não faz parte dos 4 Vs do Big Data?",
-      "opcoes": ["Volume.", "Veracidade.", "Verboso.", "Variedade.", "Velocidade."],
-      "resposta": "Verboso."
-    },
-    {
-      "titulo": "Data Lake e Data Warehouse",
-      "descricao": "Qual é a principal diferença entre um Data Lake e um Data Warehouse?",
-      "opcoes": [
-        "Um Data Lake armazena apenas dados estruturados, enquanto um Data Warehouse armazena apenas dados não estruturados.",
-        "Um Data Lake é usado exclusivamente para análises em tempo real, enquanto um Data Warehouse é usado para análises em lote.",
-        "Um Data Lake armazena dados em sua forma bruta, inclusive não estruturados, enquanto um Data Warehouse armazena dados estruturados e processados para consultas analíticas.",
-        "Um Data Lake requer hardware especializado, enquanto um Data Warehouse pode ser implantado em hardware convencional.",
-        "Um Data Lake é uma tecnologia obsoleta, enquanto um Data Warehouse é uma tecnologia moderna."
-      ],
-      "resposta": "Um Data Lake armazena dados em sua forma bruta, inclusive não estruturados, enquanto um Data Warehouse armazena dados estruturados e processados para consultas analíticas."
-    },
-    {
-      "titulo": "Persistência poliglota",
-      "descricao": "Existem diferentes bancos NoSQL porque há diferentes problemas de persistência que o SQL tradicional não resolve. A escolha da solução mais adequada de acordo com o contexto representa qual conceito?",
-      "opcoes": ["Persistência poliglota.", "Modelo de documentos.", "Modelo de grafos.", "Escalabilidade.", "Arquitetura distribuída."],
-      "resposta": "Persistência poliglota."
-    },
-    {
-      "titulo": "Propriedades ACID",
-      "descricao": "Uma transação não pode violar as restrições de integridade previamente definidas para o banco de dados. A qual propriedade ACID essa exigência corresponde?",
-      "opcoes": ["Consistência.", "Atomicidade.", "Isolamento.", "Durabilidade.", "Comunicação."],
-      "resposta": "Consistência."
-    },
-    {
-      "titulo": "Camadas da Arquitetura Lambda",
-      "descricao": "Quais são as camadas que compõem a Arquitetura Lambda?",
-      "opcoes": [
-        "Batch layer, speed layer e serving layer.",
-        "Flume layer, Kafka layer e streaming layer.",
-        "Streaming layer, speed layer e batch layer.",
-        "Speed layer, serving layer, batch layer e streaming layer.",
-        "Serving layer, batch layer, service layer e streaming layer."
-      ],
-      "resposta": "Batch layer, speed layer e serving layer."
-    },
-    {
-      "titulo": "Agrupamento no MongoDB",
-      "descricao": "A coleção inventario possui os campos nome, qtd, tamanho, status e cores. Qual consulta retorna a quantidade total de cada produto, agrupando os documentos pelo nome?",
-      "opcoes": [
-        "db.inventario.aggregate([{ $group: { _id: \"$nome\", total: { $sum: \"$qtd\" } } }])",
-        "db.inventario.aggregate([{ $group: { nome: \"$nome\", total: { $sum: \"$qtd\" } } }])",
-        "db.inventario.aggregate([{ $group: { _id: \"$nome\", total: \"$qtd\" } }])",
-        "db.inventario.aggregate([{ $group: { nome: \"$nome\", total: \"$qtd\" } }])",
-        "db.inventario.aggregate([{ $group: { _id: \"$status\", total: { $sum: \"$qtd\" } } }])"
-      ],
-      "resposta": "db.inventario.aggregate([{ $group: { _id: \"$nome\", total: { $sum: \"$qtd\" } } }])"
-    },
-    {
       "titulo": "Responsabilidade compartilhada no DevOps",
       "descricao": "Qual afirmação descreve corretamente a responsabilidade compartilhada na cultura DevOps?",
       "opcoes": [
@@ -515,30 +461,6 @@
         "Outra denominação para componentes."
       ],
       "resposta": "Representações reais dos componentes de um sistema."
-    },
-    {
-      "titulo": "Dados duplicados no MongoDB",
-      "descricao": "Alguns dados de um subdocumento foram duplicados em documentos de duas coleções diferentes. Como esses dados devem ser atualizados?",
-      "opcoes": [
-        "Devem ser atualizados nas duas coleções, usando dois comandos update.",
-        "Devem ser atualizados nas duas coleções com um único update e a opção multi: true.",
-        "Pode-se atualizar vários documentos usando apenas o método updateMany em uma coleção.",
-        "Não é possível atualizar dados quando existe duplicação entre coleções.",
-        "Só é possível atualizar os dados quando não existe duplicação entre coleções."
-      ],
-      "resposta": "Devem ser atualizados nas duas coleções, usando dois comandos update."
-    },
-    {
-      "titulo": "Subdocumento no MongoDB",
-      "descricao": "Uma coleção de artigos armazena os dados do autor — nome, descrição, e-mail e senha — em um subdocumento dentro do artigo. Por que usar essa modelagem em vez de um documento separado?",
-      "opcoes": [
-        "Porque no MongoDB é uma boa prática reunir em um documento as informações necessárias para uma única consulta.",
-        "Porque subdocumento é a única forma possível de modelar esse caso.",
-        "Porque cada autor poderá escrever somente um artigo.",
-        "Porque o MongoDB obriga todas as informações a ficarem no mesmo documento.",
-        "Porque referenciar um documento externo sempre tornaria a consulta mais rápida."
-      ],
-      "resposta": "Porque no MongoDB é uma boa prática reunir em um documento as informações necessárias para uma única consulta."
     },
     {
       "titulo": "Máximo e mínimo com aggregation",
