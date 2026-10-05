@@ -220,13 +220,13 @@
       "titulo": "Definição do MVC",
       "descricao": "O MVC é um padrão:",
       "opcoes": [
-        "De arquitetura de aplicações que separa a lógica da aplicação, a interface do usuário e o fluxo da aplicação.",
-        "De objeto que executa uma operação ao receber uma mensagem de outro objeto.",
-        "De desenvolvimento cuja finalidade é definir uma interface na mesma camada da lógica da aplicação.",
-        "De operação dirigida para uma classe, e não para um objeto individual.",
-        "Que garante acesso à lógica de negócio por uma única interface."
+        "de arquitetura de aplicações que visa separar a \"lógica da aplicação\" da \"interface do usuário\" e do \"fluxo da aplicação\".",
+        "de objeto que executa uma operação quando ele recebe uma solicitação (mensagem) correspondente de um outro objeto.",
+        "de desenvolvimento cuja finalidade é definir uma interface na mesma camada da \"lógica da aplicação\"",
+        "de operação dirigida para uma classe e não para um objeto individual.",
+        "que garante que uma lógica de negócios possa ser acessada e visualizada por uma única interface."
       ],
-      "resposta": "De arquitetura de aplicações que separa a lógica da aplicação, a interface do usuário e o fluxo da aplicação."
+      "resposta": "de arquitetura de aplicações que visa separar a \"lógica da aplicação\" da \"interface do usuário\" e do \"fluxo da aplicação\"."
     },
     {
       "titulo": "Vantagem da arquitetura SOA",
@@ -473,6 +473,18 @@
         "Todas as alternativas."
       ],
       "resposta": "Padronizado, independente, passível de composição, implantável e documentado."
+    },
+    {
+      "titulo": "Afirmações sobre Design Patterns",
+      "descricao": "Design Patterns ou padrões de projetos são soluções generalistas para problemas recorrentes durante o desenvolvimento de um software. Observe as seguintes afirmações sobre Design Patterns:\nI - Permite a reutilização de módulos do sistema em outros sistemas\nII - Reduz simultaneamente a complexidade no código e a produtividade\nIII - Compromete a produtividade ao tratar de problemas inovadores\nIV - Diminui o tempo de desenvolvimento de um projeto\n\nÉ correto o que se afirma em:",
+      "opcoes": [
+        "Afirmativas II e III",
+        "Afirmativas I e IV",
+        "Afirmativas III e IV",
+        "Afirmativas I e II",
+        "Todas as afirmativas"
+      ],
+      "resposta": "Afirmativas I e IV"
     }
   ]
 }
