@@ -463,30 +463,6 @@
       "resposta": "Representações reais dos componentes de um sistema."
     },
     {
-      "titulo": "Máximo e mínimo com aggregation",
-      "descricao": "Uma coleção de inventário armazena itens com tamanho.altura e tamanho.unidade. Qual pipeline agrupa por unidade e encontra a maior e a menor altura de cada grupo?",
-      "opcoes": [
-        "db.inventario.aggregate([{ $group: { _id: \"$tamanho.unidade\", max_altura: { $min: \"$tamanho.altura\" }, min_altura: { $min: \"$tamanho.altura\" } } }])",
-        "db.inventario.aggregate([{ $group: { _id: \"$tamanho.unidade\", max_altura: { $max: \"$tamanho.altura\" }, min_altura: { $min: \"$tamanho.altura\" } } }])",
-        "db.inventario.aggregate([{ $group: { _id: \"$tamanho.unidade\", avg_altura: { $avg: \"$tamanho.altura\" } } }])",
-        "db.inventario.aggregate([{ $group: { _id: \"$tamanho.unidade\", max_altura: { $sum: \"$tamanho.altura\" }, min_altura: { $sum: \"$tamanho.altura\" } } }])",
-        "db.inventario.aggregate([{ $group: { _id: \"$tamanho.unidade\", max_altura: { $max: \"$tamanho.altura\" }, min_altura: { $avg: \"$tamanho.altura\" } } }])"
-      ],
-      "resposta": "db.inventario.aggregate([{ $group: { _id: \"$tamanho.unidade\", max_altura: { $max: \"$tamanho.altura\" }, min_altura: { $min: \"$tamanho.altura\" } } }])"
-    },
-    {
-      "titulo": "Soma de quantidades com aggregation",
-      "descricao": "Um gerente quer agrupar os itens do inventário pelo nome e somar a quantidade (qtd) de cada item. Qual consulta realiza essa operação?",
-      "opcoes": [
-        "db.inventario.aggregate([{ $group: { _id: \"$nome\", total_qtd: { $avg: \"$qtd\" } } }])",
-        "db.inventario.aggregate([{ $group: { _id: \"$nome\", total_qtd: { $max: \"$qtd\" } } }])",
-        "db.inventario.aggregate([{ $group: { _id: \"$nome\", total_qtd: { $sum: \"$qtd\" } } }])",
-        "db.inventario.aggregate([{ $group: { _id: \"$qtd\", total_qtd: { $sum: \"$qtd\" } } }])",
-        "db.inventario.aggregate([{ $group: { _id: \"$nome\", total_qtd: { $min: \"$qtd\" } } }])"
-      ],
-      "resposta": "db.inventario.aggregate([{ $group: { _id: \"$nome\", total_qtd: { $sum: \"$qtd\" } } }])"
-    },
-    {
       "titulo": "Engenharia de software baseada em componentes",
       "descricao": "Quais são algumas características essenciais de um componente?",
       "opcoes": [
