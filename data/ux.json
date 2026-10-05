@@ -1,0 +1,550 @@
+{
+  
+  "uxui": [
+    {
+      "titulo": "Multidisciplinaridade e Consolidação de UX",
+      "descricao": "Os estudos de UX buscam mapear e analisar a interação homem-computador para melhorar a produtividade e reduzir erros. Com base nisso, avalie as asserções:\n\nI. O design gráfico ajudou a UX a se consolidar como campo de estudo, pois os projetos de tela/sistema auxiliaram na interação com a máquina.\nPORQUE\nII. O UX tem por objetivo melhorar a relação entre usuário e interface, trazendo uma adaptação da jornada à necessidade do usuário.",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "As asserções I e II são proposições verdadeiras, mas a asserção II não é uma justificativa correta da asserção I.",
+        "As asserções I e II são proposições falsas.",
+        "A asserção I é uma proposição verdadeira e a asserção II é uma proposição falsa.",
+        "A asserção I é uma proposição falsa e a asserção II é uma proposição verdadeira.",
+        "As asserções I e II são proposições verdadeiras e a asserção II é uma justificativa correta da asserção I."
+      ],
+      "resposta": "As asserções I e II são proposições verdadeiras, mas a asserção II não é uma justificativa correta da asserção I."
+    },
+    {
+      "titulo": "Princípios do Design Centrado no Usuário",
+      "descricao": "Qual dos seguintes é um princípio chave do design centrado no usuário?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Desenvolver com base no código",
+        "Focar na estética acima de tudo",
+        "Envolver os usuários no processo de design",
+        "Utilizar animações em todas as interfaces",
+        "Maximizar o número de funcionalidades"
+      ],
+      "resposta": "Envolver os usuários no processo de design"
+    },
+    {
+      "titulo": "Conceito: Interação vs. Interface",
+      "descricao": "Segundo Irla Rebelo: 'Em determinado momento da história, chegou-se à conclusão que a interação é um termo mais amplo em conceitos do que a interface. Imagine um grande conjunto chamado interação, que para existir necessita de um elemento que permita a comunicação - a interface. O resultado disso é que, entendendo a interação, será mais fácil projetar a interface.'\n\nAcerca disso, leia as asserções abaixo:",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "Interação é o meio utilizado para que o homem \"converse\" com a interface."
+        },
+        {
+          "id": "II",
+          "texto": "Interação é o oposto de interface."
+        },
+        {
+          "id": "III",
+          "texto": "Interação é a resposta que a interface dá à pessoa de forma unilateral."
+        }
+      ],
+      "opcoes": [
+        "I é verdadeira e II é falsa",
+        "I e II são verdadeiras, mas a III não é",
+        "II e III são verdadeiras, mas a I não é",
+        "Apenas a II é verdadeira",
+        "Todas são verdadeiras"
+      ],
+      "resposta": "I é verdadeira e II é falsa"
+    },
+    {
+      "titulo": "Metodologia Card Sorting",
+      "descricao": "\"A técnica de card sorting envolve diretamente os usuários e os colocam em uma posição participativa na definição da organização do conteúdo...\" (Wagner Guimarães, 2018).\n\nSobre os seus conhecimentos da metodologia de card sorting, é correto afirmar:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "É uma técnica rápida e de baixo custo.",
+        "Card Sorting aberto é aquele que o usuário tem a liberdade para criar a metodologia.",
+        "Card Sorting fechado é indicada para quando não se tem um grupo de categorias pré-estabelecido.",
+        "Não é possível combinar o modelo fechado e aberto para não misturar as duas metodologias.",
+        "É super recomendado que o card sorting seja aplicado para pessoas individuais, não sendo viável a aplicação para grupos fechados."
+      ],
+      "resposta": "É uma técnica rápida e de baixo custo."
+    },
+    {
+      "titulo": "Acessibilidade e Inclusão",
+      "descricao": "Desenvolver para pessoas com necessidades especiais é sempre um desafio, mas também é muito gratificante. Pensar e traçar um mapa de interação baseado em um contexto normativo é um desafio redobrado.\n\nAcerca disso, leia as asserções abaixo:",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "A classificação de acessibilidade de um produto em A, AA e AAA não diz respeito ao investimento em acessibilidade e sim na forma como ela é apresentada."
+        },
+        {
+          "id": "II",
+          "texto": "Apenas deficiências físicas ficam de fora dos processos de acessibilidade para dispositivos móveis."
+        },
+        {
+          "id": "III",
+          "texto": "Existem pelo menos três tipos de discapacidades: a temporária, a situacional e a permanente."
+        }
+      ],
+      "opcoes": [
+        "Apenas a III é verdadeira",
+        "I e II são verdadeiras",
+        "II e III são verdadeiras",
+        "Apenas a II é verdadeira",
+        "Apenas a I é verdadeira"
+      ],
+      "resposta": "Apenas a III é verdadeira"
+    },
+    {
+      "titulo": "Critérios Ergonômicos e Carga de Percepção",
+      "descricao": "A respeito dos critérios ergonômicos de usabilidade, estes têm como norte a interação do usuário, para que seja fluida e, principalmente, intuitiva. Trabalhar com a intuição do utilizador irá reduzir a atividade cerebral.\n\nAvalie as asserções a seguir e a relação proposta entre elas:\n\nI. A carga de percepção é responsável por avaliar o quão instintivo é o sistema. Essa análise é feita percebendo o tempo de percepção do usuário.\nPORQUE\nII. A carga de percepção trabalha com a instintividade do sistema, diminuindo o tempo de percepção e aumentando o tempo de uso do usuário e sua carga cognitiva.",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "A asserção I é uma proposição verdadeira e a asserção II é uma proposição falsa.",
+        "As asserções I e II são proposições falsas.",
+        "A asserção I é uma proposição verdadeira e a asserção II é uma proposição verdadeira.",
+        "As asserções I e II são proposições verdadeiras, mas a asserção II não é uma justificativa correta da asserção I.",
+        "As asserções I e II são proposições verdadeiras e a asserção II é uma justificativa correta da asserção I."
+      ],
+      "resposta": "A asserção I é uma proposição verdadeira e a asserção II é uma proposição falsa."
+    },
+    {
+      "titulo": "Storyboard em UX Design",
+      "descricao": "Utilizar Storyboard é uma forma de apresentar e convencer o seu cliente sobre as funcionalidades da experiência que sua equipe esteja desenvolvendo. Essa ferramenta serve como auxílio no processo criativo da equipe.\n\nAcerca do texto e de todas as informações que aprendemos sobre storyboard, leia as alternativas abaixo:",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "Storyboard é como uma história em quadrinhos em que a cada desenho uma cena é descrita, formando, ao final, uma história."
+        },
+        {
+          "id": "II",
+          "texto": "Para o UX Design é um documento de cunho textual que ajudará a descrever as personas do produto."
+        },
+        {
+          "id": "III",
+          "texto": "Por não se tratar de um modelo visual, é pouco utilizada pelas equipes de design."
+        }
+      ],
+      "opcoes": [
+        "Apenas a alternativa I é verdadeira",
+        "Apenas as alternativas I e II são verdadeiras",
+        "Apenas as alternativas II e III são verdadeiras",
+        "Apenas a alternativa II é verdadeira",
+        "Apenas as alternativas II, III e IV são verdadeiras"
+      ],
+      "resposta": "Apenas a alternativa I é verdadeira"
+    },
+    {
+      "titulo": "Usabilidade: Facilidade de Uso e Satisfação",
+      "descricao": "Para Morais e Loper (2014) a usabilidade está relacionada à satisfação do usuário e com a operacionalidade eficiente e agradável de uma interação, permitindo que o usuário consiga realizar suas tarefas sem maiores problemas.\n\nCom relação à satisfação do usuário quanto a usabilidade, é correto afirmar:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "O que determina a facilidade de uso é o esforço cognitivo empregado para utilizar a aplicação.",
+        "A eficiência de produtividade não analisa se o usuário consegue realizar as funções prometidas pelo sistema, analisando apenas o tempo empregado no processo.",
+        "A satisfação do usuário foca na avaliação do sistema. Essa avaliação não pode incluir vieses externos, como emoções, ambiente, etc.",
+        "A flexibilidade tem o foco na adaptabilidade do sistema diante das mensagens de feedback apresentadas por ele.",
+        "A barreira está diretamente relacionada ao obstáculo que o usuário pode encontrar diversas vezes ao utilizar a interface, mas que não atrapalha a experiência ou impede o usuário de utilizar o sistema."
+      ],
+      "resposta": "O que determina a facilidade de uso é o esforço cognitivo empregado para utilizar a aplicação."
+    },
+    {
+      "titulo": "Definição de Design Responsivo",
+      "descricao": "O que é \"design responsivo\"?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Design que responde rapidamente a mudanças de requisitos",
+        "Design que se ajusta automaticamente a diferentes tamanhos de tela e dispositivos",
+        "Design focado exclusivamente em desktops",
+        "Design que responde a comandos de voz",
+        "Design que se adapta às preferências do usuário"
+      ],
+      "resposta": "Design que se ajusta automaticamente a diferentes tamanhos de tela e dispositivos"
+    },
+    {
+      "titulo": "Método de Avaliação de Comunicabilidade (MAC)",
+      "descricao": "Um dos problemas de usabilidade muito importante de ser validado é quando se trata da comunicabilidade. Para poder qualificar a comunicabilidade, existe um método de avaliação chamado MAC.\n\nEste método tem como objetivo observar como usuário interage com a interface e identificar possíveis problemas. Leia as alternativas abaixo:",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "O processo MAC consiste em preparação, execução e análise, sendo o processo de preparação o responsável por definir o objetivo do teste."
+        },
+        {
+          "id": "II",
+          "texto": "A etiquetagem durante a realização da avaliação MAC não auxilia o avaliador a identificar quais são os problemas de comunicabilidade e porque eles ocorreram."
+        },
+        {
+          "id": "III",
+          "texto": "Não é necessário interpretar os significados do conjunto de todas as etiquetas que foram identificadas na avaliação."
+        }
+      ],
+      "opcoes": [
+        "I é verdadeira e II é falsa;",
+        "I e II são verdadeiras, mas a III não é;",
+        "II e III são verdadeiras, mas a I não é;",
+        "Apenas a II é verdadeira;",
+        "I, II e III são verdadeiras."
+      ],
+      "resposta": "I é verdadeira e II é falsa;"
+    },
+    {
+      "titulo": "Definição de Design de Interação",
+      "descricao": "Qual das seguintes afirmações é verdadeira sobre o design de interação, de acordo com Preece, Rogers e Sharp (2008)?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Design de interação é o design de produtos interativos que fornecem suporte às atividades cotidianas das pessoas, seja no lar ou no trabalho.",
+        "Design de interação é apenas sobre a estética de um produto.",
+        "Design de interação não tem relação com a produtividade das pessoas.",
+        "Design de interação é apenas sobre a funcionalidade de um produto, não levando em consideração a experiência do usuário.",
+        "Design de interação é o mesmo que engenharia de software."
+      ],
+      "resposta": "Design de interação é o design de produtos interativos que fornecem suporte às atividades cotidianas das pessoas, seja no lar ou no trabalho."
+    },
+    {
+      "titulo": "Tipos de Interface: Lógica e Física",
+      "descricao": "A interface é tida como a ponte para a interação, funcionando como dispositivo de entrada e saída. Existem dois tipos de interfaces: a interface lógica e a interface física.\n\nCom base nos conceitos aprendidos sobre interface, marque a opção correta:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "A interação só é possível graças a combinação dos dois tipos de interface.",
+        "A interface lógica é acessada por meio de interface fisica, isto é, com dispositivos de entrada, exclusivamente.",
+        "A interface lógica não é encontrada em interações máquina/máquina.",
+        "A interface fisica não é exclusiva de hardware.",
+        "A interface é uma barreira que atrapalha a interação entre homem-computador."
+      ],
+      "resposta": "A interação só é possível graças a combinação dos dois tipos de interface."
+    },
+    {
+      "titulo": "Princípios de Design: Visibilidade",
+      "descricao": "\"Para o usuário comum, não existe nada mais frustrante do que se deparar com um ótimo sistema, com a interface linda e não conseguir utilizá-lo. Sabe aquele pacote de biscoitos que tem uma fitinha vermelha pronta para ser puxada... mas que volta e meia você não consegue puxá-la? É sobre isso.\"\n\nEm relação ao trecho destacado, é correto afirmar a respeito dos princípios de design que:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "A visibilidade apresenta a descoberta por exposição, isto é, a utilização é simplificada, pois as funcionalidades estão expostas, disponíveis na tela da interface.",
+        "Visibilidade e affordance são duas coisas distintas.",
+        "Um bom modelo conceitual é aquele que disponibiliza as informações de forma que o usuário consiga consultá-las sempre que tiver dúvidas durante a experiência.",
+        "O feedback atua apenas como resposta aos erros do usuário.",
+        "A usabilidade tem como seu foco o sistema na forma como ele é apresentado e na sua melhoria interna."
+      ],
+      "resposta": "A visibilidade apresenta a descoberta por exposição, isto é, a utilização é simplificada, pois as funcionalidades estão expostas, disponíveis na tela da interface."
+    },
+    {
+      "titulo": "Wireframes vs. Protótipos de Alta Fidelidade",
+      "descricao": "Muito vimos sobre as principais diferenças entre wireframe e protótipos. Com base nos conceitos apresentados, associe as sequências:\n\nA) Wireframe.\nB) Protótipo de alta fidelidade.\n\n(   ) Apresenta funcionalidade completa.\n(   ) Totalmente interativo.\n(   ) É de fácil execução.\n(   ) Tem custo e tempo de produção elevados.\n(   ) Mesmo look and feel do produto.\n(   ) O seu uso deve ser conduzido pelo facilitador.\n\nQual a sequência correta?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "B; B; A; B; B; A",
+        "A; B; A; B; B; A",
+        "B; A; A; B; B; A",
+        "A; A; A; B; B; A",
+        "B; B; B; B; B; A"
+      ],
+      "resposta": "B; B; A; B; B; A"
+    },
+    {
+      "titulo": "Definição de Interação Homem-Computador (IHC)",
+      "descricao": "Qual das seguintes afirmações é verdadeira sobre a interação homem-computador (IHC)?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "IHC é focada apenas na produtividade, não levando em consideração a experiência do usuário.",
+        "IHC surgiu da necessidade de adaptar as interfaces ao ser humano.",
+        "IHC é um campo que não tem relação com a cognição humana.",
+        "IHC é um campo que só se preocupa com a interação entre humanos, não envolvendo computadores.",
+        "IHC é um campo que só se preocupa com a interação entre computadores, não envolvendo humanos."
+      ],
+      "resposta": "IHC surgiu da necessidade de adaptar as interfaces ao ser humano."
+    },
+    {
+      "titulo": "Percurso Cognitivo",
+      "descricao": "Sobre o percurso cognitivo, é possível afirmar que ele analisa, focando no design, a facilidade de aprendizado do usuário, considerando o esforço mental empregado pelo utilizador.\n\nCom base nos conceitos aprendidos sobre percurso cognitivo, marque a opção **incorreta**:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "O percurso cognitivo tem duas fases, a antecessora e a fase de análise.",
+        "O usuário comum prefere aprender a utilizar uma interface por meio do uso. Manuais ou tutoriais são, no geral, maçantes e desmotivadores para grande parte dessas pessoas.",
+        "As tarefas analisadas devem ser definidas de antemão, podendo ser uma ou mais tarefas. É importante ressaltar que a tarefa analisada pode ser para algo simples (uma função) ou complexa (mais de uma função).",
+        "A interface que será utilizada precisa descrever os prompts que antecedem a ação requerida para conclusão da tarefa. É importante ressaltar em interfaces que já foram lançadas, o tempo de resposta, cores, temporização em interface com fala e demais interações.",
+        "O importante é a forma que você irá analisar essas tarefas, tentando trazer os objetivos mais realistas e próximos da realidade e contextualizando todos os encargos."
+      ],
+      "resposta": "O percurso cognitivo tem duas fases, a antecessora e a fase de análise."
+    },
+    {
+      "titulo": "Fase de Esboço e Produção em UX",
+      "descricao": "\"O design da experiência do usuário [...] é a disciplina que os designers de UX fazem e o design centrado no usuário (UCD) é o processo UX. O design thinking é outro termo amplamente usado...\"\n\nEm relação ao trecho destacado, é correto afirmar a respeito da fase de esboço e produção:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "A fase de esboço e produção geralmente vem após o cotejamento dos dados que se julgarem necessários. Essa fase é o start para a criação futura de um protótipo e dos periféricos que concernem o interesse da marca.",
+        "Esboços geralmente são de baixa fidelidade, contudo muitas empresas optam por realizar diretamente a prototipagem de alta fidelidade para ganharem tempo de execução.",
+        "O ideal é usar protótipos em produtos mais consolidados, quando são lançadas novas funcionalidades.",
+        "Esboços são para clientes e não devemos testar seus protótipos de telas e fluxos com os clientes.",
+        "A parte de produção consolida os esboços como um avanço das intenções do projeto, mas não tem grande importância no final das contas."
+      ],
+      "resposta": "A fase de esboço e produção geralmente vem após o cotejamento dos dados que se julgarem necessários. Essa fase é o start para a criação futura de um protótipo e dos periféricos que concernem o interesse da marca."
+    },
+    {
+      "titulo": "Conceito de Wireframe",
+      "descricao": "O que é um 'wireframe'?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Uma versão final do design",
+        "Um esquema básico que representa a estrutura de um design",
+        "Uma ferramenta de análise de dados",
+        "Uma técnica de prototipagem de alta fidelidade",
+        "Um teste de usabilidade"
+      ],
+      "resposta": "Um esquema básico que representa a estrutura de um design"
+    },
+    {
+      "titulo": "Classificação de Problemas de Usabilidade",
+      "descricao": "Analisando-se sob o viés de problemas de usabilidade, podemos definir, segundo Morais e Loper (2014):\n\n**Problemas primários:** são os principais problemas que atrapalham o usuário a concluir ou realizar atividades de cunho emergente, principal e/ou importantes.\n**Problemas secundários:** idem aos problemas primários, mas com questões secundárias, menos emergentes.\n\nCom base no texto acima, seus conhecimentos de causa e nas afirmativas abaixo, marque a alternativa correta:",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "Além dos problemas secundários e primários, existem também os problemas gerais que atrapalham a todos os tipos de usuários."
+        },
+        {
+          "id": "II",
+          "texto": "Problemas de inicialização são os que impedem o usuário de começar a interação. Problemas avançados são específicos para usuários que detém um conhecimento maior do sistema. Por fim, problemas \"especiais\" abarcam usuários com alguma necessidade especial."
+        },
+        {
+          "id": "III",
+          "texto": "Problemas falsos e novos são problemas de interface que ocorrem por culpa exclusiva do usuário."
+        }
+      ],
+      "opcoes": [
+        "As alternativas I e II estão corretas",
+        "As alternativas I e III estão corretas",
+        "As alternativas II e III estão corretas",
+        "As alternativas II e III estão incorretas",
+        "As alternativas I e III estão incorretas"
+      ],
+      "resposta": "As alternativas I e II estão corretas"
+    },
+    {
+      "titulo": "Interface Gráfica e UX",
+      "descricao": "\"Quando se pensa em interface, logo a referência que vem a mente é layout ou aparência. Em um site a interface traz ao usuário tudo que foi desenvolvido de forma lógica e codificada, de uma forma simples e clara.\"\n\nAcerca disso, leia as asserções abaixo:",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "Para o usuário de uma loja on-line, pouco importa o processo feito, o que ele tem acesso é o que está visualmente exposto. Por isso o cuidado com interface gráfica é tão importante."
+        },
+        {
+          "id": "II",
+          "texto": "UX e UI são duas coisas distintas e não se complementam."
+        },
+        {
+          "id": "III",
+          "texto": "O desenvolvimento UI deve simplesmente colocar ícones e cores que ficam bonitos visualmente, validar a reação do usuário é trabalho do UX."
+        }
+      ],
+      "opcoes": [
+        "Apenas a alternativa I é verdadeira",
+        "I e II são verdadeiras",
+        "II e III são verdadeiras",
+        "Apenas a II é verdadeira",
+        "Todas são verdadeiras"
+      ],
+      "resposta": "Apenas a alternativa I é verdadeira"
+    },
+    {
+      "titulo": "Definição de Design de Interação (Preece, Rogers e Sharp)",
+      "descricao": "Qual das seguintes afirmações é verdadeira sobre o design de interação, de acordo com Preece, Rogers e Sharp (2008)?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Design de interação é o design de produtos interativos que fornecem suporte às atividades cotidianas das pessoas, seja no lar ou no trabalho.",
+        "Design de interação é apenas sobre a estética de um produto.",
+        "Design de interação não tem relação com a produtividade das pessoas.",
+        "Design de interação é apenas sobre a funcionalidade de um produto, não levando em consideração a experiência do usuário.",
+        "Design de interação é o mesmo que engenharia de software."
+      ],
+      "resposta": "Design de interação é o design de produtos interativos que fornecem suporte às atividades cotidianas das pessoas, seja no lar ou no trabalho."
+    },
+    {
+      "titulo": "UX Writing: A Arte da Concisão",
+      "descricao": "\"A arte de ser conciso. Sim, eu chamo de arte porque é um trabalho que poucos conseguem dominar. A concisão é basicamente você dizer mais com menos. Quando se trata de UX Writing você deve ter em mente que menos é mais...\"\n\nAcerca disso, leia as asserções abaixo:",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "Um texto conciso é preciso, direto ao ponto. Esse tipo de prática é adotado em UX porque, em muitos casos, temos poucos caracteres disponíveis para trabalhar em cima."
+        },
+        {
+          "id": "II",
+          "texto": "Concisão é o oposto de clareza."
+        },
+        {
+          "id": "III",
+          "texto": "Uma forma de ser conciso é ser breve, condensar os sentidos no menor número de palavras que conseguir e usar a pontuação a seu favor."
+        }
+      ],
+      "opcoes": [
+        "A alternativa I é verdadeira",
+        "As alternativas I e II são verdadeiras",
+        "As alternativas II e III são verdadeiras",
+        "Apenas a II é verdadeira",
+        "I e III são verdadeiras"
+      ],
+      "resposta": "A alternativa I é verdadeira"
+    },
+    {
+      "titulo": "Definição de Persona em UX",
+      "descricao": "O que é um \"persona\" em design de UX?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Um teste de usabilidade",
+        "Um perfil fictício que representa um usuário típico",
+        "Um modelo de protótipo",
+        "Um estudo de caso",
+        "Um feedback do usuário"
+      ],
+      "resposta": "Um perfil fictício que representa um usuário típico"
+    },
+    {
+      "titulo": "Desafios da Prototipagem de Alta Fidelidade",
+      "descricao": "Uma prototipação de alta fidelidade apresenta, além dos seus inúmeros pontos positivos, algumas questões relevantes que podem causar algum tipo de problema. A construção de uma alta fidelidade gera mais tempo e custo. Com isso, as pessoas podem apresentar resistência para modificá-lo.\n\nAcerca disso, leia as asserções seguintes:",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "O desenvolvimento de um protótipo de alta fidelidade é mais caro, porém apresenta a funcionalidade completa."
+        },
+        {
+          "id": "II",
+          "texto": "Como desvantagem temos que o protótipo de alta fidelidade limita os fluxos de navegação."
+        },
+        {
+          "id": "III",
+          "texto": "Um protótipo de alta fidelidade pode servir para coleta de requisitos."
+        }
+      ],
+      "opcoes": [
+        "I é verdadeira",
+        "I e II são verdadeiras",
+        "I e III são verdadeiras",
+        "Apenas a II é verdadeira",
+        "As alternativas I, II e III são verdadeiras"
+      ],
+      "resposta": "I é verdadeira"
+    },
+    {
+      "titulo": "Estatísticas de Uso e Interação Mobile",
+      "descricao": "Segundo Teixeira (2015):\n\n* O número de smartphones no mundo é de 60% e esse número só cresce.\n* O tamanho de tela mais comum destes aparelhos é de 4\" à 5,5\", sendo os modelos de 4\" apenas 20% deste número.\n* 94% das pessoas utilizam o aparelho para navegar na web em modo retrato (vertical) e apenas 6% deitado.\n* Enquanto utilizado no modo retrato, 49% das pessoas utilizam o aparelho com uma só mão, 26% usam uma mão de apoio e o polegar, 15% usam as duas mãos e 10% usam uma mão de apoio e o indicador.\n\nAcerca de interações restritivas, veja as afirmativas abaixo:",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "Podemos considerar que a maioria dos aparelhos no mercado possui tela igual ou inferior a 4\"."
+        },
+        {
+          "id": "II",
+          "texto": "Considerando que apenas 6% das pessoas utilizam o celular para navegação em modo paisagem, pode-se afirmar que o ideal é elaborar 100% das experiências em modo retrato."
+        },
+        {
+          "id": "III",
+          "texto": "De acordo com os dados apresentados, podemos afirmar que mais da metade das pessoas realiza as ações com mais de um dedo."
+        }
+      ],
+      "opcoes": [
+        "I, II e III são falsas.",
+        "I e II são verdadeiras, mas a III não é.",
+        "II e III são verdadeiras, mas a I não é.",
+        "Apenas a alternativa II é verdadeira.",
+        "I, II e III são verdadeiras."
+      ],
+      "resposta": "I, II e III são falsas."
+    },
+    {
+      "titulo": "Processos Cognitivos na IHC",
+      "descricao": "Qual das seguintes afirmações é verdadeira sobre os processos cognitivos na interação homem-computador?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Os processos cognitivos não têm relação com a capacidade de aprendizagem do ser humano.",
+        "Os processos cognitivos não influenciam a maneira como interagimos com interfaces computacionais.",
+        "A cognição não é responsável pelos processos mentais de aquisição de conhecimento ou experiências.",
+        "O papel do designer de UX não envolve a criação de uma interface que seja intuitiva e que facilite o esforço cognitivo do usuário.",
+        "Os processos cognitivos são a base do raciocínio lógico humano e influenciam diretamente a capacidade de aprendizagem, permitindo uma interação mais intuitiva com interfaces computacionais."
+      ],
+      "resposta": "Os processos cognitivos são a base do raciocínio lógico humano e influenciam diretamente a capacidade de aprendizagem, permitindo uma interação mais intuitiva com interfaces computacionais."
+    },
+    {
+      "titulo": "Heurísticas de Nielsen",
+      "descricao": "Qual das opções abaixo *NÃO* é uma heurística de Nielsen para a usabilidade?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Consistência e padrões",
+        "Controle e liberdade do usuário",
+        "Estética e design minimalista",
+        "Alto contraste de cores",
+        "Prevenção de erros"
+      ],
+      "resposta": "Alto contraste de cores"
+    },
+    {
+      "titulo": "Interfaces Gráficas e Personas",
+      "descricao": "\"As atuais interfaces gráficas explicitamente representam o que vem a ser esse meio de significados comum... Enganos, resultados inesperados e mensagens de erro são evidência típica de uma quebra na conversação.\" (Rocha e Baranauskas, 2003).\n\nA partir do texto, avalie as asserções a seguir e a relação entre elas:",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "Para elaborarmos interfaces gráficas (IG), não podemos nos esquecer de elencar os principais pontos das personas, ou pessoas usuárias dessa experiência."
+        },
+        {
+          "id": "II",
+          "texto": "Utilizar essas características ao seu favor permitirá que você desenhe uma IG funcional e adequada ao utilizador, além, claro, de te poupar trabalhos de uma grande readequação por fugir do escopo ou do objetivo central do projeto."
+        }
+      ],
+      "opcoes": [
+        "As asserções I e II são proposições verdadeiras, e a asserção II é uma justificativa correta da asserção I",
+        "As asserções I e II são proposições falsas",
+        "A asserção I é uma proposição verdadeira, e a asserção II é uma proposição falsa",
+        "A asserção I é uma proposição falsa, e a asserção II é uma proposição verdadeira",
+        "As asserções I e II são proposições verdadeiras, mas a asserção II não é uma justificativa correta da asserção I"
+      ],
+      "resposta": "As asserções I e II são proposições verdadeiras, e a asserção II é uma justificativa correta da asserção I"
+    },
+    {
+      "titulo": "UX Writing: Concisão",
+      "descricao": "\"A arte de ser conciso... A concisão é basicamente você dizer mais com menos. Quando se trata de UX Writing você deve ter em mente que menos é mais...\"\n\nAcerca disso, leia as asserções abaixo:",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "Um texto conciso é preciso, direto ao ponto. Esse tipo de prática é adotado em UX porque, em muitos casos, temos poucos caracteres disponíveis para trabalhar em cima."
+        },
+        {
+          "id": "II",
+          "texto": "Concisão é o oposto de clareza."
+        },
+        {
+          "id": "III",
+          "texto": "Uma forma de ser conciso é ser breve, condensar os sentidos no menor número de palavras que conseguir e usar a pontuação a seu favor."
+        }
+      ],
+      "opcoes": [
+        "A alternativa I é verdadeira",
+        "As alternativas I e II são verdadeiras",
+        "As alternativas II e III são verdadeiras",
+        "Apenas a II é verdadeira",
+        "I, II e III são verdadeiras"
+      ],
+      "resposta": "A alternativa I é verdadeira"
+    }
+  ]
+}

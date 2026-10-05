@@ -1,0 +1,145 @@
+{
+    
+  "designThinking": [
+    {
+      "titulo": "Fase de Ideação no Design Thinking",
+      "descricao": "Brown (2010) define Design Thinking como uma metodologia para solução de problemas complexos, na qual, necessariamente, deve-se atuar de forma criativa e baseando-se nos princípios inspiração, ideação e implementação. Sobre a fase ideação é esperado que você:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "reconheça como o espaço onde se conceitua a ideia principal de seu projeto. É a fase que o estudo caminha de uma ideia abstrata para uma ideia real, factível e executável.",
+        "compreenda questões do tipo: como essa pessoa se sentiria no lugar do usuário? Em suma, se colocar na pele do outro. Buscar conhecer, compreender e observar as pessoas que você quer servir.",
+        "domine as técnicas de coleta de dados, tenha a capacidade de conduzir entrevistas de forma produtiva e consiga, de fato, se aprofundar nas questões que possibilitarão gerar ideias para se construir soluções.",
+        "Reconheça que este é o momento da escalabilidade do seu negócio, crie um negócio escalável, que atinja resultados exponenciais, e que torne sua solução algo reconhecido e desejado por todos ainda mais.",
+        "entenda que a fase da ideação possui uma característica peculiar, que é o processo de validação junto ao seu público. É justamente nesta fase que o produto se torna algo valioso, ao ser validado no mercado."
+      ],
+      "resposta": "reconheça como o espaço onde se conceitua a ideia principal de seu projeto. É a fase que o estudo caminha de uma ideia abstrata para uma ideia real, factível e executável."
+    },
+    {
+      "titulo": "Elemento Humano no Design Thinking",
+      "descricao": "Considerando o elemento humano no processo de design thinking como ele deve ser tratado dentro do contexto da etapa de análise e interpretação?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "O elemento humano é irrelevante na análise de soluções, já que o foco está nas características técnicas e na viabilidade da solução.",
+        "O elemento humano deve receber menor importância nessa fase, pois o foco principal está nas interações sociais dentro dos grupos e nas dinâmicas entre as tecnologias.",
+        "O elemento humano é visto como parte de uma pesquisa estatística, sendo tratado como um conjunto de desvios padrão, sem considerar suas necessidades individuais ou emocionais.",
+        "O elemento humano deve ser considerado na fase final do processo, quando as soluções estão sendo implementadas.",
+        "O elemento humano, incluindo suas emoções, sentimentos e características, deve ser o centro do processo de análise, orientando a criação de soluções que atendam às suas expectativas e gerem valor à sua experiência."
+      ],
+      "resposta": "O elemento humano, incluindo suas emoções, sentimentos e características, deve ser o centro do processo de análise, orientando a criação de soluções que atendam às suas expectativas e gerem valor à sua experiência."
+    },
+    {
+      "titulo": "Briefing no Design Thinking",
+      "descricao": "Identifique a afirmação que melhor condiz com o papel do briefing no processo da metodologia do Design Thinking, conforme explicado por Ambrose e Harris (2011) apresentado na lição 1 sobre a fase da Descoberta:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "O briefing é um momento em que o cliente apresenta todas as soluções prontas para serem implementadas pela equipe de design.",
+        "O briefing é a reunião onde o cliente expõe suas exigências, o design busca transformar essas exigências em soluções ou produtos acabados.",
+        "O briefing é apenas uma etapa inicial para definir a estética do projeto, sem considerar as metas do cliente.",
+        "O briefing é um documento escrito que descreve todas as limitações do projeto, sem permitir espaço para interpretações ou inovações.",
+        "O briefing serve como uma referência para a equipe de design desenvolver apenas incrementos em produtos já existentes, sem explorar novas soluções."
+      ],
+      "resposta": "O briefing é a reunião onde o cliente expõe suas exigências, o design busca transformar essas exigências em soluções ou produtos acabados."
+    },
+    {
+      "titulo": "Inovação - Caso Havaianas",
+      "descricao": "Texto baseado na evolução da marca Havaianas.\nIdentifique a qual tipo de inovação o texto se refere:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Inovação de Processo e Inovação Organizacional",
+        "Inovação de Produto e Inovação de Marketing",
+        "Inovação de Mercado e Inovação Tecnológica",
+        "Inovação de Critérios e Inovação de Distribuição",
+        "Inovação de Conceitos e Inovação de Marca"
+      ],
+      "resposta": "Inovação de Produto e Inovação de Marketing"
+    },
+    {
+      "titulo": "MVP - Afirmação Incorreta",
+      "descricao": "Sobre MVP identifique a afirmação INCORRETA:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "MVP orienta o desenvolvimento do negócio.",
+        "MVP testa a viabilidade do negócio.",
+        "MVP é um modelo de negócio.",
+        "MVP é um produto pequeno.",
+        "MVP sempre será um protótipo."
+      ],
+      "resposta": "MVP é um produto pequeno."
+    },
+    {
+      "titulo": "Protótipo no Design Thinking",
+      "descricao": "Chegar na fase de prototipagem é realmente um desafio.\nAnalise as afirmações:\nI - Prototipagem é colocar a mão na massa.\nII - Testar, criar, testar, errar, corrigir os erros e aprender.\nIII - Testar é desnecessário.\nAssinale a alternativa correta:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "I apenas está correta.",
+        "II apenas está correta.",
+        "III apenas está correta.",
+        "I e II apenas estão corretas.",
+        "I, II e III estão corretas."
+      ],
+      "resposta": "I, II e III estão corretas."
+    },
+    {
+      "titulo": "Escalabilidade e Desejo",
+      "descricao": "Considerando negócios inovadores:\nI - produzir algo repetível com baixo custo\nII - ser escalado\nIII - despertar desejo\nAssinale a alternativa correta:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "As afirmações I, II e III estão corretas.",
+        "Apenas I e II estão corretas.",
+        "Apenas I está correta.",
+        "Apenas II está correta.",
+        "Apenas III está correta."
+      ],
+      "resposta": "As afirmações I, II e III estão corretas."
+    },
+    {
+      "titulo": "Papel da Prototipagem",
+      "descricao": "Qual é o papel da prototipagem no Design Thinking?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "É uma técnica opcional sem impacto relevante.",
+        "Restrita à ideação.",
+        "Usada apenas na implementação.",
+        "Serve como ferramenta para visualizar, interagir, testar e aprimorar ideias.",
+        "É apenas etapa final."
+      ],
+      "resposta": "Serve como ferramenta para visualizar, interagir, testar e aprimorar ideias."
+    },
+    {
+      "titulo": "Imersão no Design Thinking",
+      "descricao": "Marque a sequência correta:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "(v), (f), (f), (f).",
+        "(f), (v), (v), (f).",
+        "(v), (f), (f), (v).",
+        "(v), (f), (v), (f).",
+        "(f), (v), (f), (v)."
+      ],
+      "resposta": "(v), (f), (f), (f)."
+    },
+    {
+      "titulo": "Diferença Design Thinking x Tradicional",
+      "descricao": "Qual a principal diferença?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Processo linear.",
+        "Foco apenas em viabilidade.",
+        "Considera desejabilidade, viabilidade e praticabilidade.",
+        "Foco apenas tecnológico.",
+        "Foco financeiro."
+      ],
+      "resposta": "Considera desejabilidade, viabilidade e praticabilidade."
+    }
+  ]
+}
