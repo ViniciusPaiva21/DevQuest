@@ -892,5 +892,111 @@
       ],
       "resposta": "IV e V somente"
     }
+  ,
+{
+  "titulo": "Classificação de Requisitos - Transações Financeiras",
+  "descricao": "Uma empresa está especificando uma plataforma para processamento de transações financeiras. Entre as necessidades identificadas estão: permitir que os operadores autorizados realizem transferências; autenticar os usuários antes do acesso; processar cada transação em até dois segundos; manter registros das operações para auditoria; e adequar o sistema às normas legais aplicáveis ao setor financeiro. Durante a análise, a equipe precisa classificar corretamente essas necessidades para organizá-las, priorizá-las e documentá-las.\n\nQual alternativa apresenta a classificação mais adequada dos requisitos descritos?\n\nObservação de estudo: as alternativas originais foram preservadas. A alternativa esperada agrupa autenticação e auditoria como requisitos não funcionais de segurança. Tecnicamente, as funções de autenticar usuários e registrar operações também podem ser especificadas como requisitos funcionais; o limite de dois segundos é um requisito não funcional de desempenho. Não generalize que toda função de segurança é não funcional.",
+  "opcoes": [
+    "A realização de transferências e a autenticação são requisitos de negócio, enquanto o tempo de resposta, a auditoria e as normas legais são exclusivamente requisitos funcionais.",
+    "A realização de transferências é um requisito não funcional, enquanto autenticação e auditoria são requisitos funcionais por produzirem resultados visíveis aos usuários.",
+    "Apenas o tempo de resposta é requisito não funcional, pois segurança, auditoria e conformidade legal não integram a Engenharia de Requisitos.",
+    "Todos os itens são requisitos funcionais, pois descrevem comportamentos que deverão ser implementados pelo sistema.",
+    "A realização de transferências é um requisito funcional; autenticação, tempo de resposta e registro de acessos são requisitos não funcionais; e a conformidade com normas do setor pode ser tratada como requisito regulamentar ou de domínio."
+  ],
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "resposta": "A realização de transferências é um requisito funcional; autenticação, tempo de resposta e registro de acessos são requisitos não funcionais; e a conformidade com normas do setor pode ser tratada como requisito regulamentar ou de domínio."
+},
+{
+  "titulo": "Casos de Uso - Inclusão de Avaliar Negócio",
+  "descricao": "Uma empresa está modelando um sistema de gestão comercial. Sempre que um gerente executa as funcionalidades Analisar Riscos ou Fechar Preço, o sistema precisa obrigatoriamente realizar a funcionalidade Avaliar Negócio. A equipe identificou que essa avaliação corresponde a um comportamento comum, reutilizado por mais de um caso de uso e indispensável para a conclusão das operações principais. Para evitar a repetição da mesma sequência de interações em diferentes especificações, decidiu representá-la separadamente no diagrama.\n\nConsiderando os conceitos de diagramação de casos de uso, qual representação é a mais adequada?",
+  "opcoes": [
+    "Relacionar Analisar Riscos e Fechar Preço com Avaliar Negócio por meio de <<include>>, pois o comportamento incluído é obrigatório e reutilizado pelos casos de uso principais.",
+    "Retirar Avaliar Negócio do limite do sistema, pois funcionalidades reutilizadas devem ser tratadas como entidades externas.",
+    "Relacionar Avaliar Negócio aos demais casos por meio de <<extend>>, pois toda funcionalidade comum deve ser considerada opcional.",
+    "Representar Avaliar Negócio como ator, pois ele interage com mais de uma funcionalidade do sistema.",
+    "Associar diretamente os atores entre si, indicando que o gerente transfere a execução da avaliação ao vendedor."
+  ],
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "resposta": "Relacionar Analisar Riscos e Fechar Preço com Avaliar Negócio por meio de <<include>>, pois o comportamento incluído é obrigatório e reutilizado pelos casos de uso principais."
+},
+{
+  "titulo": "Modelo em Cascata - Requisitos Estáveis",
+  "descricao": "Uma empresa de médio porte pretende substituir seu sistema de gestão interna, utilizado há vários anos e desenvolvido com tecnologias já conhecidas pela equipe. Antes do início do projeto, os gestores realizaram um levantamento detalhado das necessidades dos usuários e aprovaram um conjunto estável de requisitos. A organização também exige documentação formal, definição clara das etapas, estimativas antecipadas de prazo e custo e marcos de acompanhamento ao final de cada fase.\n\nComo o sistema atende a processos administrativos consolidados, não são esperadas mudanças significativas durante o desenvolvimento. Além disso, a equipe possui experiência no domínio e nas tecnologias que serão utilizadas.\n\nConsiderando as características apresentadas, qual modelo de desenvolvimento é mais adequado para esse projeto?",
+  "opcoes": [
+    "Kanban, pois estabelece obrigatoriamente fases lineares e uma única entrega ao final do projeto.",
+    "Modelo em cascata, pois organiza o desenvolvimento em fases sequenciais, com resultados documentados e requisitos definidos antecipadamente.",
+    "Extreme Programming, pois impede alterações nos requisitos durante o desenvolvimento.",
+    "Desenvolvimento ágil, pois dispensa planejamento inicial e elimina a necessidade de documentação.",
+    "Scrum, pois exige que todas as funcionalidades sejam implementadas simultaneamente pela equipe."
+  ],
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "resposta": "Modelo em cascata, pois organiza o desenvolvimento em fases sequenciais, com resultados documentados e requisitos definidos antecipadamente."
+},
+{
+  "titulo": "Modularização na Modelagem de Atividades",
+  "descricao": "Leia o trecho a seguir:\n\n“Os processos realizam a integração do conjunto de métodos e padrões aplicáveis às disciplinas da engenharia de software. Um processo definido ‘tem uma descrição que é mantida, e contribui produtos de trabalho, medidas e outras informações de melhoria de processos para o patrimônio de processos da organização’. Processos publicados, como é o caso do Praxis, do RUP e de muitos outros, são processos definidos que publicam essa descrição em formatos de utilização fácil, como livros e hipertextos” (FILHO, 2019, p. 291).\n\nFILHO, Wilson de Pádua P. Engenharia de Software - Projetos e Processos - Vol. 2. Grupo GEN, 2019. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788521636748/. Acesso em: 07 nov. 2023.\n\nNa modelagem de atividades em Engenharia de Software, vários princípios são aplicados para garantir a eficiência e a clareza no desenvolvimento de sistemas. Um desses princípios fundamentais é a modularização. Assim como o código-fonte é dividido em módulos independentes e coesos para melhor gerenciamento, as atividades podem ser divididas em etapas menores e gerenciáveis durante a modelagem de sistemas. Essa prática não apenas simplifica o entendimento do sistema, mas também facilita a manutenção e a escalabilidade.\n\nA partir desse contexto, selecione a alternativa que apresenta um dos princípios fundamentais da modelagem de atividades na Engenharia de Software, que envolve a divisão das atividades em etapas menores e gerenciáveis para simplificar o entendimento e melhorar a manutenção e escalabilidade do sistema:",
+  "opcoes": [
+    "Escalabilidade.",
+    "Abstração.",
+    "Modularização.",
+    "Documentação.",
+    "Coesão."
+  ],
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "resposta": "Modularização."
+},
+{
+  "titulo": "Prototipação - Validação Antecipada de Usabilidade",
+  "descricao": "Durante o desenvolvimento de um aplicativo destinado a usuários com diferentes níveis de familiaridade tecnológica, a equipe identificou dúvidas sobre a organização das telas, o fluxo de navegação e a compreensão de determinados comandos. Como a implementação definitiva ainda não foi iniciada, decidiu-se criar representações interativas da interface e submetê-las a usuários representativos. As observações obtidas serão utilizadas para alterar o design antes que sejam realizados investimentos maiores em desenvolvimento. A intenção é identificar precocemente problemas de usabilidade e verificar se as interações propostas correspondem às expectativas dos usuários.\n\nQual alternativa melhor caracteriza essa estratégia?",
+  "opcoes": [
+    "Um protótipo deve necessariamente apresentar alta fidelidade e possuir todas as funcionalidades definitivas para produzir resultados válidos com os usuários.",
+    "A criação de protótipos elimina a necessidade de levantamento de requisitos, pois os usuários passam a definir as funcionalidades diretamente durante os testes.",
+    "A prototipação deve ser utilizada apenas depois da implementação, pois sua função principal é documentar visualmente uma interface já concluída.",
+    "A prototipação permite experimentar e validar antecipadamente as interações, obter feedback dos usuários e corrigir problemas de design e usabilidade antes da implementação completa.",
+    "A prototipação tem como objetivo principal avaliar o desempenho computacional do sistema, sendo inadequada para analisar questões relacionadas à usabilidade."
+  ],
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "resposta": "A prototipação permite experimentar e validar antecipadamente as interações, obter feedback dos usuários e corrigir problemas de design e usabilidade antes da implementação completa."
+},
+{
+  "titulo": "Diagrama de Sequência - Sistema de Reservas",
+  "descricao": "Uma equipe está detalhando o comportamento de um sistema de reservas on-line. Para uma determinada funcionalidade, é necessário representar o usuário iniciando a solicitação, os objetos envolvidos no processamento, a ordem em que as mensagens são trocadas e os momentos em que determinados objetos permanecem ativos executando operações. Além disso, o fluxo inclui uma condição alternativa para o caso de indisponibilidade e uma repetição enquanto houver itens a processar. A equipe precisa de um modelo que evidencie, sobretudo, a evolução temporal dessas interações.\n\nQual alternativa apresenta a representação mais adequada para esse cenário?",
+  "opcoes": [
+    "Utilizar exclusivamente um protótipo de interface, pois a representação das telas substitui a necessidade de modelar a comunicação entre objetos.",
+    "Utilizar um Diagrama de Comunicação, pois sua principal finalidade é representar a ordem temporal das mensagens por meio de linhas de vida verticais.",
+    "Utilizar um Diagrama de Classes, pois atributos e métodos permitem representar diretamente a sequência cronológica de execução das operações.",
+    "Utilizar um Diagrama de Casos de Uso, pois ele detalha a ordem das mensagens trocadas entre objetos durante a execução de uma funcionalidade.",
+    "Utilizar um Diagrama de Sequência, representando atores e objetos por linhas de vida, as interações por mensagens e os comportamentos condicionais ou repetitivos por condições e loops."
+  ],
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "resposta": "Utilizar um Diagrama de Sequência, representando atores e objetos por linhas de vida, as interações por mensagens e os comportamentos condicionais ou repetitivos por condições e loops."
+},
+{
+  "titulo": "Diagrama de Atividades - Decisão, Fork e Join",
+  "descricao": "Em um sistema de compras, após o registro de um pedido, o processo pode seguir caminhos diferentes de acordo com a forma de pagamento. Em seguida, duas atividades — emissão da nota fiscal e separação do produto — podem ocorrer simultaneamente antes da expedição.\n\nQuais elementos de um Diagrama de Atividades devem ser utilizados para representar a escolha entre os caminhos e a execução simultânea das atividades, sincronizando-as antes da expedição?\n\nQuestão adaptada de uma pergunta discursiva para múltipla escolha.",
+  "opcoes": [
+    "Um nó de decisão, com condições de guarda, seleciona o caminho conforme o pagamento; um fork divide o fluxo para executar as atividades em paralelo; e um join sincroniza os fluxos, aguardando ambas as atividades antes da expedição.",
+    "Um fork escolhe apenas uma forma de pagamento; um nó de decisão inicia simultaneamente a emissão da nota fiscal e a separação do produto; e um merge aguarda obrigatoriamente ambas terminarem.",
+    "Um nó de decisão inicia todos os caminhos de pagamento ao mesmo tempo; um join divide o fluxo em atividades paralelas; e um fork aguarda a conclusão dessas atividades.",
+    "Um nó de decisão escolhe a forma de pagamento; depois, a emissão da nota fiscal e a separação do produto devem ser representadas obrigatoriamente em sequência, pois diagramas de atividades não representam paralelismo.",
+    "Um nó inicial representa cada forma de pagamento; um nó final inicia as atividades simultâneas; e uma associação de classes sincroniza sua conclusão."
+  ],
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "resposta": "Um nó de decisão, com condições de guarda, seleciona o caminho conforme o pagamento; um fork divide o fluxo para executar as atividades em paralelo; e um join sincroniza os fluxos, aguardando ambas as atividades antes da expedição."
+}
   ]
 }
