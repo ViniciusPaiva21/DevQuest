@@ -61,11 +61,21 @@
         <div id="progress-badge" class="inline-flex items-center gap-2 px-4 py-2 rounded-xl border border-zinc-800 bg-zinc-900/70 text-sm text-zinc-300"></div>
       </div>
 
+      <div class="pixel-progress" aria-label="Progresso da rodada">
+        <span id="pixel-progress-label"></span>
+        <progress id="pixel-progress-bar" max="1" value="0"></progress>
+      </div>
+      <div class="quiz-panel">
       <div id="question-area" class="bg-zinc-900/60 border border-zinc-800 p-6 md:p-8 rounded-3xl shadow-2xl w-full overflow-visible"></div>
 
+      <div class="quiz-actions">
+        <a class="pixel-back" href="disciplinas.html">← Voltar</a>
+        <button id="confirm-btn" type="button" disabled>Confirmar resposta <span aria-hidden="true">→</span></button>
       <button id="next-btn" type="button" class="hidden w-full mt-6 py-4 bg-white text-zinc-950 font-bold rounded-xl hover:bg-zinc-200 transition-colors shadow-lg active:scale-[0.99]">
         Próxima pergunta ➡️
       </button>
+      </div>
+      </div>
     </section>
 
     <section id="final-screen" class="hidden w-full max-w-2xl text-center bg-zinc-900/60 border border-zinc-800 p-8 md:p-10 rounded-3xl shadow-2xl z-10" aria-live="polite">

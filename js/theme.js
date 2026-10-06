@@ -8,6 +8,10 @@
       label: "Noite",
       description: "Tema preto atual"
     },
+    pixel: {
+      label: "Retrô",
+      description: "Pixel art, luar e aventura"
+    },
     classic: {
       label: "Clássico",
       description: "Branco, azul e verde"

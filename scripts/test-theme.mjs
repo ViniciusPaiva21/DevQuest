@@ -44,6 +44,13 @@ context.window.DevQuestTheme.set("dark");
 assert.equal(documentElement.dataset.theme, "dark", "deve trocar para o tema noite");
 assert.equal(storage.get("devquest-theme"), "dark", "deve persistir a escolha");
 
+context.window.DevQuestTheme.set("pixel");
+assert.equal(documentElement.dataset.theme, "pixel", "deve aceitar o tema Retrô");
+assert.equal(documentElement.style.colorScheme, "dark");
+assert.equal(storage.get("devquest-theme"), "pixel");
+vm.runInNewContext(source, context);
+assert.equal(context.window.DevQuestTheme.get(), "pixel", "deve restaurar Retrô ao recarregar");
+
 context.window.DevQuestTheme.set("tema-inexistente");
 assert.equal(documentElement.dataset.theme, "dark", "um tema inválido deve voltar ao padrão");
 

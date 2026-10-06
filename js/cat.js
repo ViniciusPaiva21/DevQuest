@@ -8,6 +8,14 @@
 
   if (!button || !bubble || !mascot) return;
 
+  const originalMascot = mascot.getAttribute("src");
+  function updateMascot() {
+    mascot.src = document.documentElement.dataset.theme === "pixel"
+      ? "images/pixel/cat.png" : originalMascot;
+  }
+  updateMascot();
+  window.addEventListener("devquest:themechange", updateMascot);
+
   function playRandomMeow() {
     const sounds = [1, 2, 3, 4, 5]
       .map((number) => document.getElementById(`meow${number}`))

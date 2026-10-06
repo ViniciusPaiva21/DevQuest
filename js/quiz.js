@@ -29,6 +29,8 @@
     originalTotal: 0,
     totalAttempts: 0,
     round: 1,
+    pendingButton: null,
+    answered: false,
     reviewMode: false
   };
 
@@ -52,6 +54,9 @@
       "quiz-container",
       "question-area",
       "next-btn",
+      "confirm-btn",
+      "pixel-progress-label",
+      "pixel-progress-bar",
       "final-screen",
       "score-text",
       "round-badge",
@@ -105,6 +110,22 @@
     elements.loading.className = `${config.accent.text} font-bold text-xl animate-pulse`;
     elements.scoreText.className = `text-2xl ${config.accent.text} font-bold mb-4`;
     refreshIcons();
+  }
+
+  function syncThemeAppearance() {
+    const pixel = document.documentElement.dataset.theme === "pixel";
+    const courseSuffix = config.courseId ? ` · ${config.courseId}` : "";
+    elements.quizTitle.textContent = pixel ? config.label : `Quiz ${config.label}${courseSuffix}`;
+    elements.quizSubtitle.textContent = pixel ? "Pratique no seu ritmo." : (config.courseLabel
+      ? `${config.courseLabel} — ${config.description}` : config.description);
+    // A troca de tema não confirma uma seleção nem altera a pontuação.
+    if (state.pendingButton && !pixel) {
+      state.pendingButton.classList.remove("is-selected");
+      state.pendingButton.setAttribute("aria-pressed", "false");
+      state.pendingButton = null;
+    }
+    elements.confirmBtn.disabled = !state.pendingButton;
+    elements.confirmBtn.hidden = state.answered;
   }
 
   function extractQuestions(data) {
@@ -230,7 +251,7 @@
 
     return `
       <div class="mb-6">
-        <div class="flex flex-wrap items-center gap-3 mb-4">
+        <div class="question-counter flex flex-wrap items-center gap-3 mb-4">
           <span class="text-xs font-bold tracking-widest ${config.accent.text} uppercase">
             ${state.reviewMode ? "Revisão · " : ""}Questão ${state.currentIndex + 1} de ${state.questions.length}
           </span>
@@ -281,12 +302,33 @@
       `;
     }
 
-    button.addEventListener("click", () => checkAnswer(button));
+    button.addEventListener("click", () => {
+      if (document.documentElement.dataset.theme !== "pixel") {
+        checkAnswer(button);
+        return;
+      }
+      if (state.answered) return;
+      if (state.pendingButton) {
+        state.pendingButton.classList.remove("is-selected");
+        state.pendingButton.setAttribute("aria-pressed", "false");
+      }
+      state.pendingButton = button;
+      button.classList.add("is-selected");
+      button.setAttribute("aria-pressed", "true");
+      elements.confirmBtn.disabled = false;
+    });
     return button;
   }
 
   function showQuestion() {
     const question = state.questions[state.currentIndex];
+    state.pendingButton = null;
+    state.answered = false;
+    elements.confirmBtn.disabled = true;
+    elements.confirmBtn.hidden = false;
+    elements.pixelProgressLabel.textContent = `${state.reviewMode ? "Revisão · " : ""}Questão ${state.currentIndex + 1} de ${state.questions.length}`;
+    elements.pixelProgressBar.max = state.questions.length;
+    elements.pixelProgressBar.value = state.currentIndex;
     elements.nextBtn.classList.add("hidden");
     elements.questionArea.innerHTML = renderQuestionHeader(question);
 
@@ -322,6 +364,12 @@
   }
 
   function checkAnswer(selectedButton) {
+    if (state.answered) return;
+    state.answered = true;
+    state.pendingButton = null;
+    elements.confirmBtn.hidden = true;
+    elements.pixelProgressBar.value = state.currentIndex + 1;
+    selectedButton.classList.remove("is-selected");
     const buttons = [...document.querySelectorAll("#options-box button")];
     const isCorrect = selectedButton.dataset.correct === "true";
 
@@ -388,6 +436,11 @@
   elements.nextBtn.addEventListener("click", nextQuestion);
   elements.restartBtn.addEventListener("click", startQuiz);
 
+  elements.confirmBtn.addEventListener("click", () => {
+    if (state.pendingButton && !state.answered) checkAnswer(state.pendingButton);
+  });
+  window.addEventListener("devquest:themechange", syncThemeAppearance);
   configurePage();
+  syncThemeAppearance();
   loadQuestions();
 })();
