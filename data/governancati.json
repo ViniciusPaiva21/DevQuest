@@ -159,7 +159,7 @@
     {
       "titulo": "Sinais de problemas na Governança de TI",
       "descricao": "Avalie possíveis sinais de problemas de Governança de TI.\nI. Perda ou baixo desempenho dos negócios por causa da TI e aumento dos custos.\nII. Baixo retorno dos investimentos de TI e perda de dados.\nIII. Fracasso de projetos e problemas em serviços terceirizados.\nIV. Desempenho abaixo dos níveis acordados e duplicação de iniciativas ou desperdício de recursos.\nV. Recursos insuficientes e pessoal com competências inadequadas, cansado ou insatisfeito.\nVI. TI entregando tarde, sem atender ao negócio ou estourando o orçamento.",
-      "opcoes": ["Todas estão corretas.", "II e III, somente.", "I, II, III e IV, somente.", "III, IV, V e VI, somente.", "III, IV, V e VI, somente (alternativa repetida no material)."],
+      "opcoes": ["Todas estão corretas.", "II e III, somente.", "I, II, III e IV, somente.", "III, IV, V e VI, somente.", "III, IV, V e VI, somente."],
       "resposta": "Todas estão corretas."
     },
     {
