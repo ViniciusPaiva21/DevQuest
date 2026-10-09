@@ -321,6 +321,7 @@
 
     const buttons = [...document.querySelectorAll("#options-box button")];
     const isCorrect = selectedButton.dataset.correct === "true";
+    window.dispatchEvent(new CustomEvent("devquest:answer", { detail: { correct: isCorrect } }));
 
     buttons.forEach((button) => {
       button.disabled = true;

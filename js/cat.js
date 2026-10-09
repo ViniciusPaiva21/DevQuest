@@ -10,7 +10,8 @@
 
   const originalMascot = mascot.getAttribute("src");
   function updateMascot() {
-    mascot.src = document.documentElement.dataset.theme === "pixel"
+    mascot.src = document.documentElement.dataset.theme === "vampire"
+      ? "images/vampire/cat.png" : document.documentElement.dataset.theme === "pixel"
       ? "images/pixel/cat.png" : originalMascot;
   }
   updateMascot();

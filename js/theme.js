@@ -8,6 +8,10 @@
       label: "Noite",
       description: "Tema preto atual"
     },
+    vampire: {
+      label: "Halloween",
+      description: "Castelo gótico e efeitos sonoros"
+    },
     pixel: {
       label: "Retrô",
       description: "Pixel art, luar e aventura"

@@ -113,10 +113,11 @@
   }
 
   function syncThemeAppearance() {
-    const pixel = document.documentElement.dataset.theme === "pixel";
+    const theme = document.documentElement.dataset.theme;
+    const pixel = ["pixel", "vampire"].includes(theme);
     const courseSuffix = config.courseId ? ` · ${config.courseId}` : "";
     elements.quizTitle.textContent = pixel ? config.label : `Quiz ${config.label}${courseSuffix}`;
-    elements.quizSubtitle.textContent = pixel ? "Pratique no seu ritmo." : (config.courseLabel
+    elements.quizSubtitle.textContent = pixel ? (theme === "vampire" ? "Conhecimento além da meia-noite." : "Pratique no seu ritmo.") : (config.courseLabel
       ? `${config.courseLabel} — ${config.description}` : config.description);
     // A troca de tema não confirma uma seleção nem altera a pontuação.
     if (state.pendingButton && !pixel) {
@@ -303,7 +304,7 @@
     }
 
     button.addEventListener("click", () => {
-      if (document.documentElement.dataset.theme !== "pixel") {
+      if (!["pixel", "vampire"].includes(document.documentElement.dataset.theme)) {
         checkAnswer(button);
         return;
       }
@@ -372,6 +373,7 @@
     selectedButton.classList.remove("is-selected");
     const buttons = [...document.querySelectorAll("#options-box button")];
     const isCorrect = selectedButton.dataset.correct === "true";
+    window.dispatchEvent(new CustomEvent("devquest:answer", { detail: { correct: isCorrect } }));
 
     state.totalAttempts++;
     buttons.forEach((button) => {

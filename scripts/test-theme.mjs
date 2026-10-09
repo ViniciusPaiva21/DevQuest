@@ -51,6 +51,13 @@ assert.equal(storage.get("devquest-theme"), "pixel");
 vm.runInNewContext(source, context);
 assert.equal(context.window.DevQuestTheme.get(), "pixel", "deve restaurar Retrô ao recarregar");
 
+context.window.DevQuestTheme.set("vampire");
+assert.equal(documentElement.dataset.theme, "vampire");
+assert.equal(documentElement.style.colorScheme, "dark");
+assert.equal(storage.get("devquest-theme"), "vampire");
+vm.runInNewContext(source, context);
+assert.equal(context.window.DevQuestTheme.get(), "vampire");
+
 context.window.DevQuestTheme.set("tema-inexistente");
 assert.equal(documentElement.dataset.theme, "dark", "um tema inválido deve voltar ao padrão");
 
