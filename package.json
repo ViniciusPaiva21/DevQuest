@@ -5,6 +5,6 @@
   "description": "Quiz estático de tecnologia com questões organizadas por matéria.",
   "scripts": {
     "validate": "node scripts/validate-data.mjs",
-    "test": "node scripts/validate-data.mjs && node scripts/validate-ui.mjs && node scripts/test-theme.mjs && node scripts/test-utils.mjs"
+    "test": "node scripts/validate-data.mjs && node scripts/validate-ui.mjs && node scripts/test-theme.mjs && node scripts/test-utils.mjs && node scripts/test-sounds.mjs"
   }
 }
