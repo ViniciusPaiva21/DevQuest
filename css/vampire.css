@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "DevQuest Gothic";
+  src: url("../fonts/UnifrakturCook-Bold.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 700;
+}
+.sound-toggle { display: none; }
+.theme-preview--vampire { background: #0b0e1c; border-color: #98395c; border-radius: 0; }
+.theme-preview--vampire span:nth-child(1) { background: #923457; height: 90%; }
+.theme-preview--vampire span:nth-child(2) { background: #c096e1; height: 65%; }
+.theme-preview--vampire span:nth-child(3) { background: #e9e3db; height: 45%; }
+html[data-theme="vampire"] {
+  --pixel-ink: #f4eae4; --pixel-muted: #c7afd9; --pixel-line: #91465f;
+  --pixel-panel: #0c1020; --pixel-mint: #d1a3ee;
+}
+html[data-theme="vampire"] body {
+  background-image: url("../images/vampire/castle.png"); background-color: #090c19;
+}
+html[data-theme="vampire"] body > header { background: rgba(8, 11, 23, .96) !important; border-bottom-color: #813451 !important; }
+html[data-theme="vampire"] body > header a[aria-label] > span:first-child { background-image: url("../images/vampire/cat.png") !important; }
+html[data-theme="vampire"] body > header a[aria-label] > span:last-child,
+html[data-theme="vampire"] body > header a[aria-label] > span:last-child span { font-family: "DevQuest Gothic", Georgia, serif; font-size: 30px; }
+html[data-theme="vampire"] [data-theme-slot] { display: flex; align-items: center; gap: 10px; }
+html[data-theme="vampire"] .sound-toggle {
+  display: inline-flex; align-items: center; min-height: 44px; padding: 8px 10px;
+  font-size: 12px; color: #ead4fa; background: #1d152b; border: 1px solid #93618c;
+}
+html[data-theme="vampire"] .sound-toggle[aria-pressed="false"] { color: #c3b9c8; background: #141421; }
+html[data-theme="vampire"] .theme-trigger { background: #14101e !important; box-shadow: 3px 0 #43213b, -3px 0 #43213b; }
+html[data-theme="vampire"] .theme-menu { background: #100e1c; }
+html[data-theme="vampire"] .theme-option.is-active { background: #39233f !important; }
+html[data-theme="vampire"] .theme-trigger-icon { color: #d094d6; }
+html[data-theme="vampire"] #quiz-title,
+html[data-theme="vampire"] .dead-title { font: 700 clamp(32px, 4vw, 56px)/1.2 "DevQuest Gothic", Georgia, serif; letter-spacing: 0; }
+html[data-theme="vampire"] #quiz-subtitle { font: 20px/1.5 Georgia, serif; color: #c0a0d4; }
+html[data-theme="vampire"] .quiz-panel { background: rgba(8, 12, 24, .97); border: 2px solid #983856; box-shadow: 4px 0 #391b37, -4px 0 #391b37, 0 4px #391b37, 0 -4px #391b37, inset 0 0 0 3px #221b30; }
+html[data-theme="vampire"] .quiz-panel::before,
+html[data-theme="vampire"] .quiz-panel::after { border-color: #983856; background: #140f21; }
+html[data-theme="vampire"] #current-question-title { font-family: Georgia, serif; color: #c9a2e1; text-align: center; }
+html[data-theme="vampire"] #question-area > div:first-child > p { color: #f3edf2; }
+html[data-theme="vampire"] :is(#round-badge, #progress-badge) { background: #121122; border-color: #674361; color: #d0b7e0; }
+html[data-theme="vampire"] #pixel-progress-label { color: #d0b7e0; }
+html[data-theme="vampire"] #pixel-progress-bar::-webkit-progress-value { background: #94577f; }
+html[data-theme="vampire"] #pixel-progress-bar::-moz-progress-bar { background: #94577f; }
+html[data-theme="vampire"] #options-box > button { background: #101321; border-color: #766581; box-shadow: inset 2px 2px #252239, 2px 0 #252239, -2px 0 #252239; }
+html[data-theme="vampire"] #options-box > button:hover:not(:disabled) { background: #282036; border-color: #d0a2ee; }
+html[data-theme="vampire"] #options-box > button > :first-child > span:first-child { background: #2d233b; color: #f3e9f7; box-shadow: 2px 0 #493250, -2px 0 #493250; }
+html[data-theme="vampire"] #options-box > button.is-selected { background: #2d1e39; border-color: #cda1ec; }
+html[data-theme="vampire"] #options-box > button.is-selected > :first-child > span:first-child { background: #674472; color: #fff1ff !important; box-shadow: 2px 0 #9366a0, -2px 0 #9366a0; }
+/* Feedback de acerto e erro mantém verde/vermelho distintos da seleção roxa. */
+html[data-theme="vampire"] #options-box > button.border-emerald-500 { background: #14382e; border-color: #68ecaa; }
+html[data-theme="vampire"] #options-box > button.border-red-500 { background: #421c2c; border-color: #ff8f9a; }
+html[data-theme="vampire"] .quiz-actions { border-top-color: #62354f; }
+html[data-theme="vampire"] :is(#confirm-btn, #next-btn, #restart-btn, .dead-primary, .catalog-gateway-action) { background: #56152d; color: #fff1ed; border-color: #ca688e; box-shadow: 3px 3px #361327, -3px 0 #361327; }
+html[data-theme="vampire"] :is(#confirm-btn, #next-btn):hover:not(:disabled) { background: #782643; }
+html[data-theme="vampire"] .pixel-back { border-color: #aa91bd; color: #ecdbf7; }
+html[data-theme="vampire"] :is(#final-screen, .infernus-panel, .infernus-option, .infernus-stat, .setup-chip) { background: #101220; border-color: #784360; }
+html[data-theme="vampire"] body[data-page="home"] :is(.subject-card, .course-jump, .catalog-gateway, .hero-eyebrow, .course-total) { background: rgba(14, 15, 29, .96); border-color: #784360; }
+html[data-theme="vampire"] body[data-page="home"] :is(.hero h1, .catalog-intro h2, .course-heading h2, .catalog-gateway h2) { font-family: "DevQuest Gothic", Georgia, serif; font-weight: 700; }
+html[data-theme="vampire"] .hero-gradient { -webkit-text-fill-color: #d0a2ee; color: #d0a2ee; }
+html[data-theme="vampire"] #cat-bubble { border-color: #a85578; }
+html[data-theme="vampire"] body > footer { background: #0d0c1a; border-color: #5f2c49; }
+@media (max-width: 640px) {
+  html[data-theme="vampire"] [data-theme-slot] { gap: 6px; }
+  html[data-theme="vampire"] .sound-toggle { padding: 7px; font-size: 11px; }
+  html[data-theme="vampire"] #quiz-title { font-size: 34px; }
+  html[data-theme="vampire"] #quiz-subtitle { font-size: 16px; }
+  html[data-theme="vampire"] body > header a[aria-label] > span:last-child,
+  html[data-theme="vampire"] body > header a[aria-label] > span:last-child span { font-size: 24px; }
+  html[data-theme="vampire"] body > header > div > nav { flex-wrap: wrap; }
+}

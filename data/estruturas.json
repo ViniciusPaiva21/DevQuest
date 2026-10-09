@@ -1,0 +1,504 @@
+{
+    "estruturasDeDados": [
+    {
+      "titulo": "Busca Binária em Vetor Ordenado",
+      "descricao": "A busca binária é uma técnica eficiente para buscar elementos em vetores ou listas ordenadas.\n\nPergunta:\nDas seguintes sequências de acessos em um vetor, qual é válida em uma execução de busca binária?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "3, 5, 6",
+        "3, 7, 5",
+        "3, 1, 5",
+        "5, 3, 6",
+        "1, 5, 3"
+      ],
+      "resposta": "3, 5, 6"
+    },
+    {
+      "titulo": "Particionamento no Quick Sort",
+      "descricao": "O algoritmo de ordenação rápida utiliza um pivô para recursivamente ordenar o vetor. Em cada chamada da função de partição, os elementos menores que o pivô são colocados à esquerda e os maiores que o pivô à direita. Essa operação é repetida até restar apenas um elemento.\n\nDado o vetor:\n[13, 77, 61, 93, 57]\n\nE usando como pivô o elemento central: 61, qual das opções a seguir é válida após a primeira execução da função de partição?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "[13, 57, 61, 93, 77]",
+        "[57, 13, 61, 77, 93]",
+        "[93, 77, 61, 57, 13]",
+        "[13, 77, 57, 61, 93]",
+        "[13, 77, 61, 57, 93]"
+      ],
+      "resposta": "[13, 57, 61, 93, 77]"
+    },
+    {
+      "titulo": "Conceito do TAD Pilha",
+      "descricao": "Avaliando o TAD pilha, é correto afirmar:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "É um tipo de lista linear em que as operações de inserção e remoção são realizadas na extremidade denominada topo.",
+        "É uma lista do tipo LILO.",
+        "É uma lista do tipo FIFO.",
+        "É um tipo de lista linear em que as operações de inserção e remoção são realizadas aleatoriamente.",
+        "É um tipo de lista linear em que as operações de inserção são realizadas em uma extremidade e as operações de remoção em outra extremidade."
+      ],
+      "resposta": "É um tipo de lista linear em que as operações de inserção e remoção são realizadas na extremidade denominada topo."
+    },
+    {
+      "titulo": "Análise sobre Lista, Pilha e Fila",
+      "descricao": "Avalie as afirmativas sobre os TADs lista, pilha e fila e assinale a alternativa correta:",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "As estruturas de dados pilhas, filas e listas armazenam coleções de itens. A característica que as distingue é a ordem em que os itens podem ser retirados em relação à ordem em que foram inseridos."
+        },
+        {
+          "id": "II",
+          "texto": "Considere que os itens A, B, C, D, E foram inseridos nessa ordem em uma fila. Necessariamente, o primeiro elemento a ser removido dessa fila é o elemento A."
+        },
+        {
+          "id": "III",
+          "texto": "Considere que os itens A, B, C, D, E foram inseridos nessa ordem em uma pilha. Necessariamente, o último elemento a ser removido dessa pilha é o elemento E."
+        },
+        {
+          "id": "IV",
+          "texto": "Considere que os itens A, B, C, D, E foram inseridos nessa ordem em uma lista. Necessariamente, o primeiro elemento a ser removido dessa lista é o elemento A."
+        }
+      ],
+      "opcoes": [
+        "I e II somente",
+        "I e IV somente",
+        "III e IV somente",
+        "I, II e III somente",
+        "II, III e IV somente"
+      ],
+      "resposta": "I e II somente"
+    },
+    {
+      "titulo": "Otimização da Busca Sequencial",
+      "descricao": "A busca sequencial é uma técnica simples e intuitiva para buscar elementos em vetores ou listas.\n\nTendo a informação de que os dados estão ordenados de forma crescente, qual otimização você pode aplicar na busca sequencial?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Parar a execução e informar que o valor não existe, quando o valor atual for maior que o buscado.",
+        "Calcular a função hash e descobrir em qual posição o elemento deveria estar.",
+        "Descobrir se o elemento está na lista, apenas comparando o elemento do meio.",
+        "Parar a execução e informar que o valor não existe quando o valor atual for menor que o buscado.",
+        "Descobrir onde está o elemento buscado, testando apenas a primeira posição do vetor."
+      ],
+      "resposta": "Parar a execução e informar que o valor não existe, quando o valor atual for maior que o buscado."
+    },
+    {
+  "titulo": "Busca em Fila",
+  "descricao": "Analise a alternativa que implementa corretamente a função que verifica se um dado elemento está presente na fila, sem destruir a fila original.",
+  "codigo": null,
+  "imagem": null,
+  "afirmacoes": null,
+  "opcoes": [
+    {
+      "tipo": "codigo",
+      "conteudo": "def existeElemento(fila, elem):\n    if (fila.is_empty()):\n        return False\n    else:\n        copia = copiarFila(fila)\n        while(copia):\n            if(elem == copia.dequeue()):\n                copia = None\n                return True\n        copia = None\n        return False"
+    },
+    {
+      "tipo": "codigo",
+      "conteudo": "def existeElemento(fila, elem):\n    if (fila.is_empty()):\n        return False\n    else:\n        copia = copiarFila(fila)\n        while(copia):\n            if(elem == copia.dequeue()):\n                copia = None\n                return False\n        copia = None\n        return True"
+    },
+    {
+      "tipo": "codigo",
+      "conteudo": "def existeElemento(fila, elem):\n    if (fila.is_empty()):\n        return True\n    else:\n        copia = copiarFila(fila)\n        while(copia):\n            if(elem == copia.dequeue()):\n                copia = None\n                return True\n        copia = None\n        return False"
+    }
+  ],
+  "resposta": "def existeElemento(fila, elem):\n    if (fila.is_empty()):\n        return False\n    else:\n        copia = copiarFila(fila)\n        while(copia):\n            if(elem == copia.dequeue()):\n                copia = None\n                return True\n        copia = None\n        return False"
+},
+{
+  "titulo": "Fila - Impressão sem Destruir",
+  "descricao": "Considere uma fila com os métodos is_empty(), first(), enqueue() e dequeue(). Qual código imprime todo o conteúdo e depois restaura a fila original?",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    {
+      "tipo": "codigo",
+      "conteudo": "def printFila(q):\n    copia = Fila()\n    print('[', end='')\n    while(not q.is_empty()):\n        print(q.first(), end=' ')\n        copia.enqueue(q.dequeue())\n    while(not copia.is_empty()):\n        q.queue(copia.dequeue())\n    copia = None\n    print(']')"
+    },
+    {
+      "tipo": "codigo",
+      "conteudo": "def printFila(q):\n    copia = Fila()\n    print('[', end='')\n    while(not q.is_empty()):\n        print(q.first(), end=' ')\n        copia.queue(q.dequeue())\n    while(not copia.is_empty()):\n        q.enqueue(copia.dequeue())\n    copia = None\n    print(']')"
+    },
+    {
+      "tipo": "codigo",
+      "conteudo": "def printFila(q):\n    copia = Fila()\n    print('[', end='')\n    while(not q.is_empty()):\n        print(q.first(), end=' ')\n        copia.enqueue(q.dequeue())\n    while(not copia.is_empty()):\n        q.enqueue(copia.dequeue())\n    copia = None\n    print(']')"
+    },
+    {
+      "tipo": "codigo",
+      "conteudo": "def printFila(q):\n    copia = Fila()\n    print('[', end='')\n    while(q.is_empty()):\n        print(q.first(), end=' ')\n        copia.enqueue(q.dequeue())\n    while(not copia.is_empty()):\n        q.enqueue(copia.dequeue())\n    copia = None\n    print(']')"
+    },
+    {
+      "tipo": "codigo",
+      "conteudo": "def printFila(q):\n    copia = Fila()\n    print('[', end='')\n    while(not q.is_empty()):\n        print(q.first(), end=' ')\n        copia.enqueue(q.dequeue())\n    while(not copia.is_empty()):\n        copia.enqueue(q.dequeue())\n    copia = None\n    print(']')"
+    }
+  ],
+  "resposta": "def printFila(q):\n    copia = Fila()\n    print('[', end='')\n    while(not q.is_empty()):\n        print(q.first(), end=' ')\n        copia.enqueue(q.dequeue())\n    while(not copia.is_empty()):\n        q.enqueue(copia.dequeue())\n    copia = None\n    print(']')"
+},
+{
+  "titulo": "Fila com Vetor Circular - enqueue",
+  "descricao": "Considerando a Fila (ArrayQueue) como um Vetor Circular, conforme o construtor descrito abaixo, determine qual a implementação correta da função def enqueue(elem):",
+  "imagem": null,
+  "codigo": "class ArrayQueue:\n    DEFAULT_CAPACITY = 100\n\n    def __init__(self):\n        self._data = [None] * ArrayQueue.DEFAULT_CAPACITY  # vetor circular\n        self._size = 0  # quantidade de elementos adicionados\n        self._first = -1  # posição do primeiro elemento\n        self._last = -1  # posição do último elemento",
+  "afirmacoes": null,
+  "opcoes": [
+    {
+      "tipo": "codigo",
+      "conteudo": "def enqueue(self, e):\n    if self.is_empty():\n        self._data[self._last + 1] = e\n        self._size += 1\n        self._first = self._last = self._first + 1\n    elif not ((self._last + 1) % ArrayQueue.DEFAULT_CAPACITY == self._first):\n        self._last = (self._last + 1) % ArrayQueue.DEFAULT_CAPACITY - 1\n        self._data[self._last] = e\n\n        self._size += 1"
+    },
+    {
+      "tipo": "codigo",
+      "conteudo": "def enqueue(self, e):\n    if self.is_empty():\n        self._data[self._first + 1] = e\n        self._first = self._last = self._first + 1\n    elif not ((self._last + 1) % ArrayQueue.DEFAULT_CAPACITY == self._first):\n        self._last = (self._last + 1) % ArrayQueue.DEFAULT_CAPACITY\n        self._data[self._last] = e\n\n    self._size += 1"
+    },
+    {
+      "tipo": "codigo",
+      "conteudo": "def enqueue(self, e):\n    if self.is_empty():\n        self._data[self._first] = e\n        self._size += 1\n        self._first = self._last = 0\n    elif not ((self._last + 1) % ArrayQueue.DEFAULT_CAPACITY == self._first):\n        self._last = (self._last + 1) % ArrayQueue.DEFAULT_CAPACITY\n        self._data[self._last] = e\n\n        self._size += 1"
+    },
+    {
+      "tipo": "codigo",
+      "conteudo": "def enqueue(self, e):\n    if self.is_empty():\n        self._data[self._last + 1] = e\n        self._size += 1\n        self._first = self._last = self._first + 1\n    elif not ((self._last + 1) % ArrayQueue.DEFAULT_CAPACITY == self._first):\n        self._data[self._last] = e\n\n        self._size += 1"
+    },
+    {
+      "tipo": "codigo",
+      "conteudo": "def enqueue(self, e):\n    if self.is_empty():\n        self._data[self._last + 1] = e\n        self._size += 1\n        self._first = self._last = self._first + 1\n    elif not ((self._last + 1) % ArrayQueue.DEFAULT_CAPACITY == self._first):\n        self._last = (self._last + 1) % ArrayQueue.DEFAULT_CAPACITY\n        self._data[self._last] = e\n\n        self._size += 1"
+    }
+  ],
+  "resposta": "def enqueue(self, e):\n    if self.is_empty():\n        self._data[self._last + 1] = e\n        self._size += 1\n        self._first = self._last = self._first + 1\n    elif not ((self._last + 1) % ArrayQueue.DEFAULT_CAPACITY == self._first):\n        self._last = (self._last + 1) % ArrayQueue.DEFAULT_CAPACITY\n        self._data[self._last] = e\n\n        self._size += 1"
+},
+    {
+      "titulo": "Estruturas de Dados Implementadas com Lista",
+      "descricao": "Em relação às estruturas de dados implementadas usando o tipo lista, analise as assertivas abaixo:",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "Uma implementação de fila por meio de listas: para enfileirar um item, basta usar o método pop; para desenfileirar um item, basta usar o método append."
+        },
+        {
+          "id": "II",
+          "texto": "Em uma lista duplamente encadeada, todas as inserções são realizadas em um extremo da lista, enquanto as exclusões e acessos são realizados no outro extremo da lista."
+        },
+        {
+          "id": "III",
+          "texto": "Filas são utilizadas quando se deseja processar itens de acordo com a ordem FIFO."
+        },
+        {
+          "id": "IV",
+          "texto": "Uma pilha é uma lista linear na qual inserções, exclusões e acessos a itens ocorrem sempre em um dos extremos da lista."
+        }
+      ],
+      "opcoes": [
+        "F - F - V - V",
+        "V - F - F - V",
+        "V - V - F - F",
+        "V - F - V - F",
+        "F - V - F - V"
+      ],
+      "resposta": "F - F - V - V"
+    },
+    {
+      "titulo": "Operações em Pilha com LIFO",
+      "descricao": "No contexto das estruturas de dados, considere uma pilha (stack) inicialmente vazia, onde as seguintes operações foram executadas:\n\nOperações de LIFO\ntop(): retorna o elemento do topo da pilha, sem removê-lo\npush(x): adiciona um elemento no topo da pilha\npop(): remove e retorna o elemento do topo da pilha\nisEmpty(): retorna true se a pilha estiver vazia\n\nP = Pilha()\nP.push(12)\nP.push(14)\nP.pop()\nP.push(20)\nP.push(15)\n\nif (P.top() % 3 == 0 and P.top() % 5 != 0):\n    P.push(19)\nelse:\n    P.pop()\n\nAssinale a opção que indica o número de elementos e o valor do elemento localizado no topo da pilha, ao final das operações.",
+      "codigo": "P = Pilha()\nP.push(12)\nP.push(14)\nP.pop()\nP.push(20)\nP.push(15)\n\nif (P.top() % 3 == 0 and P.top() % 5 != 0):\n    P.push(19)\nelse:\n    P.pop()",
+      "afirmacoes": null,
+      "opcoes": [
+        "4 e 19",
+        "4 e 15",
+        "3 e 15",
+        "3 e 19",
+        "3 e 20"
+      ],
+      "resposta": "4 e 19"
+    },
+    {
+      "titulo": "Comparações no Bubble Sort com Lista Ordenada",
+      "descricao": "Você foi contratado como consultor por uma empresa de desenvolvimento de sistemas. Um dos clientes solicitou o desenvolvimento de uma nova funcionalidade que permite ordenar os clientes por idade e renda.\n\nEssa funcionalidade será utilizada diversas vezes ao dia, o que indica que, após uma ordenação, novas ordenações só serão necessárias caso haja atualizações no banco de dados.\n\nPergunta:\nQuantas comparações serão feitas pelo algoritmo de ordenação por bolha (Bubble Sort), caso a entrada seja uma lista de 100 elementos já ordenados?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "99",
+        "98",
+        "49",
+        "24",
+        "100"
+      ],
+      "resposta": "99"
+    },
+    {
+      "titulo": "Estado Final de FIFO e LIFO - Caso 1",
+      "descricao": "As Filas ou FIFO's (First In-First Out) e as Pilhas ou LIFO's (Last In-First Out) são estruturas que permitem a manipulação de dados de maneira transparente.\n\nConsidere uma FIFO F com os seguintes elementos F=[10,20,30,40] (esquerda representa o início e direita o final) e uma LIFO L vazia, L=[] (esquerda representa a base e direita o topo).\n\nAssinale a alternativa que represente os estados da FIFO F e da LIFO L após a execução da sequência de operações descritas abaixo:",
+      "codigo": "L.push(F.first())\nF.dequeue()\nL.push(F.dequeue())\nL.push(F.first())\nF.dequeue()\nL.push(F.first())\nF.dequeue()\nF.enqueue(L.top())\nL.pop()\nIf(!F.is_empty() and F.first() % 3 < 2):\n    L.push(L.top()+10)",
+      "afirmacoes": null,
+      "opcoes": [
+        "F=[40]. L=[10,20,30,40]",
+        "F=[40]. L=[10,20,30,50]",
+        "F=[]. L=[40,30,20,10]",
+        "F=[40]. L=[40,30,20,10]",
+        "F=[]. L=[10,20,30,40]"
+      ],
+      "resposta": "F=[40]. L=[10,20,30,40]"
+    },
+    {
+      "titulo": "Estado Final de FIFO e LIFO - Caso 2",
+      "descricao": "As Filas ou FIFO's (First In-First Out) e as Pilhas ou LIFO's (Last In-First Out) são estruturas que permitem a manipulação de dados de maneira transparente.\n\nConsidere uma FIFO F com os seguintes elementos F=[80,3,5,9,10,13] (esquerda representa o início e direita o final) e uma LIFO L vazia, L=[] (esquerda representa a base e direita o topo).\n\nCom base na sequência de instruções a seguir, assinale a alternativa que mostre o estado de F e L após a execução da sequência de operações.",
+      "codigo": "num1 = 2\nnum2 = 3\nwhile valendo:\n    if(F.first()%num1 != 0 and F.first()%num2 != 0):\n        L.push(F.dequeue())\n    valendo = F.isEmpty()\n    elif (not(not L.isEmpty())):\n        L.push(F.first())\n    F.dequeue()\n    F.enqueue(L.top())\n    num2 = 2",
+      "afirmacoes": null,
+      "opcoes": [
+        "F=[9,10,13,80,3] e L=[80,3]",
+        "F=[9,10,13,80,3] e L=[80]",
+        "F=[9,10,13,80,3] e L=[3]",
+        "F=[3,9,10,13,80,3] e L=[80,3]",
+        "F=[3,9,10,13,80,3] e L=[3]"
+      ],
+      "resposta": "F=[9,10,13,80,3] e L=[80,3]"
+    },
+    {
+      "titulo": "TAD Lista Simplesmente Encadeada",
+      "descricao": "Assinale alternativa correta sobre o TAD Lista Simplesmente Encadeada:",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "A implementação de lista por meio de apontadores/referências permite utilizar posições não contíguas de memória, de modo a se poder inserir e retirar elementos sem que haja necessidade de deslocar os itens seguintes da lista.",
+        "Só é possível inserir elementos no final da estrutura, ou seja, no ponteiro para o último elemento.",
+        "Utiliza o mecanismo FIFO, ou seja, o primeiro elemento a entrar é o primeiro elemento a sair da estrutura.",
+        "Não utiliza o mecanismo LIFO, ou seja, o último elemento a ser inserido não pode ser o primeiro a ser removido.",
+        "Não é possível implementá-las com arrays."
+      ],
+      "resposta": "A implementação de lista por meio de apontadores/referências permite utilizar posições não contíguas de memória, de modo a se poder inserir e retirar elementos sem que haja necessidade de deslocar os itens seguintes da lista."
+    },
+    {
+      "titulo": "Bubble Sort - Segunda Passagem",
+      "descricao": "Dada a sequência numérica (25, 18, 12, 30, 8, 16, 22, 10, 5, 20), qual é a sequência parcialmente ordenada após a segunda passagem do Bubble Sort?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "18, 12, 25, 8, 16, 22, 10, 5, 20, 30",
+        "25, 12, 18, 8, 16, 10, 5, 20, 22, 30",
+        "12, 18, 8, 16, 22, 10, 5, 20, 25, 30",
+        "12, 8, 16, 18, 10, 5, 20, 22, 25, 30",
+        "25, 18, 12, 30, 8, 16, 22, 10, 5, 20"
+      ],
+      "resposta": "12, 18, 8, 16, 22, 10, 5, 20, 25, 30"
+    },
+    {
+      "titulo": "Bubble Sort - Terceira Passagem",
+      "descricao": "Dada a sequência numérica (6, 10, 4, 8, 2, 12, 14, 16, 18, 20), qual é a sequência parcialmente ordenada após a terceira passagem do Bubble Sort?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "6, 10, 4, 8, 2, 12, 14, 16, 18, 20",
+        "6, 4, 8, 2, 10, 12, 14, 16, 18, 20",
+        "4, 6, 2, 8, 10, 12, 14, 16, 18, 20",
+        "4, 2, 6, 8, 10, 12, 14, 16, 18, 20"
+      ],
+      "resposta": "4, 2, 6, 8, 10, 12, 14, 16, 18, 20"
+    },
+    {
+      "titulo": "Pilha e Fila em Sequência de DNA",
+      "descricao": "(ENADE - 2011) No desenvolvimento de um software que analisa bases de DNA, representadas pelas letras A, C, G, T, utilizou-se as estruturas de dados: pilha e fila. Considere que, se uma sequência representa uma pilha, o topo é o elemento mais à esquerda; e se uma sequência representa uma fila, a sua frente é o elemento mais à esquerda.\n\nAnalise o seguinte cenário:\nA sequência inicial ficou armazenada na primeira estrutura de dados na seguinte ordem: (A,G,T,C,A,G,T,T). Cada elemento foi retirado da primeira estrutura de dados e inserido na segunda estrutura de dados, e a sequência ficou armazenada na seguinte ordem: (T,T,G,A,C,T,G,A). Finalmente, cada elemento foi retirado da segunda estrutura de dados e inserido na terceira estrutura de dados e a sequência ficou armazenada na seguinte ordem: (T,T,G,A,C,T,G,A).\n\nQual a única sequência de estruturas de dados apresentadas a seguir pode ter sido usada no cenário descrito acima?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Fila - Pilha - Fila",
+        "Fila - Fila - Pilha",
+        "Fila - Pilha - Pilha",
+        "Pilha - Fila - Pilha",
+        "Pilha - Pilha - Pilha"
+      ],
+      "resposta": "Fila - Pilha - Fila"
+    },
+    {
+      "titulo": "Característica Principal de uma Árvore AVL",
+      "descricao": "Qual é a principal característica de uma árvore AVL?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Possui um fator de balanceamento igual a 1",
+        "Mantém-se balanceada após inserções e remoções",
+        "É uma árvore binária sem ordenação específica",
+        "Tem um tempo de busca pior que de uma lista encadeada simples",
+        "Nenhuma das anteriores"
+      ],
+      "resposta": "Mantém-se balanceada após inserções e remoções"
+    },
+    {
+      "titulo": "Fator de Balanceamento em Árvore AVL",
+      "descricao": "Em uma árvore AVL, como é calculado o fator de balanceamento de um nó?",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "Grau da subárvore esquerda menos grau da subárvore direita",
+        "Altura da subárvore esquerda menos altura da subárvore direita",
+        "Grau da subárvore esquerda mais grau da subárvore direita",
+        "Altura da subárvore esquerda mais altura da subárvore direita",
+        "Nenhuma das anteriores"
+      ],
+      "resposta": "Altura da subárvore esquerda menos altura da subárvore direita"
+    },
+    {
+      "titulo": "Correções em Algoritmo de Ordenação",
+      "descricao": "O algoritmo a seguir recebe um vetor v de números inteiros e rearranja esse vetor de tal forma que seus elementos, ao final, estejam ordenados de forma crescente.\n\nConsiderando que nesse algoritmo há erros de lógica que devem ser corrigidos para que os elementos sejam ordenados de forma crescente, assinale a opção correta no que se refere às correções adequadas.",
+      "codigo": "def ordena(v):\n    n = len(v)\n    for i in range(1, n):\n        chave = v[i]\n        j = i - 1\n        while j >= 0 and v[j] < chave:\n            v[j - 1] = v[j]\n            j = 1\n        v[j + 1] = chave",
+      "afirmacoes": null,
+      "opcoes": [
+        "A linha 03 deve ser corrigida da seguinte forma: for i in range(1, n-1): e a linha 09, do seguinte modo: v[j-1] = chave",
+        "A linha 06 deve ser corrigida da seguinte forma: while j >= 0 and v[j] > chave e a linha 07, do seguinte modo: v[j+1] = v[j]",
+        "A linha 05 deve ser corrigida da seguinte forma: j = i+1 e a linha 06, do seguinte modo: while j >= 0 and v[j] > chave",
+        "A linha 07 deve ser corrigida da seguinte forma: v[j + 1] = v[j] e a linha 09, do seguinte modo: v[j-1] = chave",
+        "A linha 04 deve ser corrigida da seguinte forma: for i in range(1, n-1): e a linha 05, do seguinte modo: j = i+1"
+      ],
+      "resposta": "A linha 06 deve ser corrigida da seguinte forma: while j >= 0 and v[j] > chave e a linha 07, do seguinte modo: v[j+1] = v[j]"
+    },
+    {
+      "titulo": "Asserções sobre Listas Encadeadas",
+      "descricao": "As listas encadeadas são estruturas versáteis que permitem que uma quantidade indeterminada de dados seja armazenada em tempo de execução na memória primária de um computador. Com base no texto acima, avalie as seguintes asserções e a relação proposta entre elas.",
+      "codigo": null,
+      "afirmacoes": [
+        {
+          "id": "I",
+          "texto": "A única forma de se navegar em uma lista encadeada é por meio dos endereços dos nós, que geralmente são salvos em campos específicos da estrutura do nó ou struct ListaNo."
+        },
+        {
+          "id": "II",
+          "texto": "De forma similar aos vetores, uma lista encadeada é contígua na memória."
+        }
+      ],
+      "opcoes": [
+        "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa",
+        "As asserções I e II são proposições verdadeiras, e a II é justificativa da I",
+        "As asserções I e II são proposições verdadeiras, mas a II não é justificativa da I",
+        "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira",
+        "As asserções I e II são proposições falsas"
+      ],
+      "resposta": "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa"
+    },
+    {
+      "titulo": "Leitura Pré-Ordem em Árvore Binária",
+      "descricao": "Árvores binárias possibilitam maior organização dos elementos adicionados, o que facilita separar os elementos a cada nível de crescimento da árvore.\n\nDada a seguinte lista de caracteres [P, R, O, G, R, A, M, A, D, O, R, U, M], como ficaria seu resultado final em uma leitura pré-ordem, caso seus valores fossem adicionados sequencialmente, do primeiro ao último elemento, em uma árvore binária? Para montar uma árvore binária, os elementos menores ou iguais ao nó mais abaixo entrarão à esquerda; caso contrário, ficarão à direita.",
+      "codigo": null,
+      "afirmacoes": null,
+      "opcoes": [
+        "POGAADMMORRRU",
+        "AADGMMOOPRRRU",
+        "ADAMOMGORRURP",
+        "MOOPRRRUGORR",
+        "ADAMOMGORURRP"
+      ],
+      "resposta": "POGAADMMORRRU"
+    },
+    {
+  "titulo": "Lista Encadeada - Saída do Código",
+  "descricao": "Dada a seguinte implementação do TAD Lista, determine o que será exibido na saída.",
+  "codigo": "class ListNode:\n    def __init__(self):\n        self.data = None\n        self.nextNode = None\n\n\ndef inicia_valores(node, elem, outroNode):\n    node.data = elem\n    node.nextNode = outroNode\n\nif __name__ == '__main__':\n    n = ListNode(); n1 = ListNode()\n    inicia_valores(n, 'a', n1)\n    inicia_valores(n1, 'b', n)\n\n    print('1:', n.data)\n    print('2:', n1.nextNode.data)\n    print('3:', n1.nextNode.nextNode.data)\n    print('4:', n1.nextNode.nextNode.nextNode.data)",
+  "afirmacoes": null,
+  "opcoes": [
+    "a, a, b, a",
+    "a, a, a, b",
+    "b, b, a, b",
+    "a, b, a, b",
+    "a, b, b, a"
+  ],
+  "resposta": "a, b, a, b"
+},
+{
+  "titulo": "Balanceamento de Parênteses com Pilha",
+  "descricao": "Dada a implementação do TAD Pilha em Python, qual implementação da função verifica_balanceamento_parenteses está correta para validar uma sequência de parênteses?",
+  "codigo": "class Stack:\n    def __init__(self):\n        self.items = []\n\n    def isEmpty(self):\n        return self.items == []\n\n    def push(self, item):\n        self.items.append(item)\n\n    def pop(self):\n        return self.items.pop()\n\n    def peek(self):\n        return self.items[len(self.items)-1]\n\n    def size(self):\n        return len(self.items)",
+  "opcoes": [
+    "def verifica_balanceamento_parenteses(string):\n    pilha = Stack()\n    esta_balanceado = True\n    posicao = 0\n    while posicao < len(string) and esta_balanceado:\n        caracter_lido = string[posicao]\n        if caracter_lido == '(':\n            pilha.push(caracter_lido)\n        else:\n            if pilha.isEmpty():\n                esta_balanceado = False\n            else:\n                pilha.pop()\n        posicao = posicao + 1\n    if esta_balanceado and pilha.isEmpty():\n        return True\n    else:\n        return False",
+    "def verifica_balanceamento_parenteses(string):\n    pilha = Stack()\n    esta_balanceado = True\n    posicao = 0\n    while posicao < len(string) and not esta_balanceado:\n        caracter_lido = string[posicao]\n        if caracter_lido == '(':\n            pilha.push(caracter_lido)\n        else:\n            if pilha.isEmpty():\n                esta_balanceado = False\n            else:\n                pilha.pop()\n        posicao = posicao + 1\n    if esta_balanceado and pilha.isEmpty():\n        return True\n    else:\n        return False",
+    "def verifica_balanceamento_parenteses(string):\n    pilha = Stack()\n    esta_balanceado = False\n    posicao = 0\n    while posicao < len(string) and not esta_balanceado:\n        caracter_lido = string[posicao]\n        if caracter_lido == '(':\n            pilha.push(caracter_lido)\n        else:\n            if pilha.isEmpty():\n                esta_balanceado = False\n            else:\n                pilha.pop()\n        posicao = posicao + 1\n    if esta_balanceado and pilha.isEmpty():\n        return True\n    else:\n        return False",
+    "def verifica_balanceamento_parenteses(string):\n    pilha = Stack()\n    esta_balanceado = False\n    posicao = 0\n    while posicao < len(string) and not esta_balanceado:\n        caracter_lido = string[posicao]\n        if caracter_lido == '(':\n            pilha.push(caracter_lido)\n        else:\n            if pilha.isEmpty():\n                esta_balanceado = True\n            else:\n                pilha.pop()\n        posicao = posicao + 1\n    if esta_balanceado and pilha.isEmpty():\n        return False\n    else:\n        return True"
+  ],
+  "resposta": "def verifica_balanceamento_parenteses(string):\n    pilha = Stack()\n    esta_balanceado = True\n    posicao = 0\n    while posicao < len(string) and esta_balanceado:\n        caracter_lido = string[posicao]\n        if caracter_lido == '(':\n            pilha.push(caracter_lido)\n        else:\n            if pilha.isEmpty():\n                esta_balanceado = False\n            else:\n                pilha.pop()\n        posicao = posicao + 1\n    if esta_balanceado and pilha.isEmpty():\n        return True\n    else:\n        return False"
+},
+{
+  "titulo": "Lista Duplamente Encadeada - Reconstrução de Conteúdo",
+  "descricao": "(IFSP - 2019) Abaixo tem-se uma tabela que ilustra o conjunto de nós de uma lista duplamente encadeada, contendo um total de 5 nós.\n\nAo imprimir a estrutura na ordem crescente, o conteúdo apresentado será:",
+  "codigo": "Elemento | Anterior | Próximo | Conteúdo\n------------------------------------------\n1        | 3        | 4       | ?\n2        | ?        | 5       | ?\n3        | 5        | 1       | ?\n4        | 1        | ?       | ?\n5        | 2        | 3       | ?",
+  "afirmacoes": null,
+  "opcoes": [
+    "P - I - S - F - 2019",
+    "2019 - P - S - F - I",
+    "S - P - I - F - 2019",
+    "S - I - F - 2019 - P",
+    "Nenhuma das anteriores"
+  ],
+  "resposta": "P - I - S - F - 2019"
+},
+{
+  "titulo": "Busca Binária - Número de Iterações",
+  "descricao": "Considere a busca binária aplicada sobre o seguinte vetor ordenado:\n\n[2, 5, 8, 12, 16, 23, 38, 56, 72, 91]\n\nInicialmente:\nlow = 0\nhigh = 9\n\nUtiliza-se a fórmula:\nM = (low + high) // 2\n\nRegras:\n- Se M == x → termina\n- Se M > x → high = M - 1\n- Se M < x → low = M + 1\n\nQuantas iterações são necessárias para encontrar x = 23?",
+  "imagem": null,
+  "codigo": null,
+  "afirmacoes": null,
+  "opcoes": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
+  "resposta": "3"
+},
+{
+  "titulo": "Pilha com Array - Operações",
+  "descricao": "Considere a implementação de uma pilha utilizando vetor. Determine quais afirmações são corretas após execução das operações.",
+  "codigo": "class ArrayStack:\n    def __init__(self):\n        self._data = [None] * 100\n        self.topo = -1  # pilha vazia\n\n    def is_empty(self):\n        return self.topo == -1\n\n    def push(self, e):\n        if self.topo >= 99:\n            return\n        self.topo += 1\n        self._data[self.topo] = e\n\n    def top(self):\n        if self.is_empty():\n            print('pilha vazia')\n            return None\n        else:\n            return self._data[self.topo]\n\n    def pop(self):\n        if self.is_empty():\n            print('pilha vazia')\n            return None\n        else:\n            elem = self._data[self.topo]\n            self.topo -= 1\n            return elem\n\nif __name__ == '__main__':\n    S = ArrayStack()\n    S.push(2)\n    S.push(3)\n    S.push(4)\n    S.pop()\n    S.push(2)\n    elem = S.pop() + S.pop()\n    S.push(elem)\n    elem = S.pop()\n    print(elem)",
+  "afirmacoes": null,
+  "opcoes": [
+    "I apenas",
+    "II apenas",
+    "III apenas",
+    "I e II apenas",
+    "II e III apenas"
+  ],
+  "resposta": "I e II apenas"
+},
+{
+  "titulo": "Busca em Fila",
+  "descricao": "Assinale a alternativa que implementa corretamente a função que verifica se um dado elemento está presente em uma fila, sem destruí-la.",
+  "codigo": "def existeElemento(fila, elem):\n    if fila.is_empty():\n        return False\n    else:\n        copia = copiaFila(fila)\n        while(copia):\n            if(elem == copia.dequeue()):\n                return True\n        return False",
+  "afirmacoes": null,
+  "opcoes": [
+    "Implementação A",
+    "Implementação B",
+    "Implementação C",
+    "Implementação D",
+    "Implementação E"
+  ],
+  "resposta": "Implementação A"
+},
+{
+  "titulo": "Fila Circular - Enqueue",
+  "descricao": "Considere uma fila implementada como vetor circular. Qual é a implementação correta da função enqueue?",
+  "codigo": "def enqueue(self, e):\n    if self.is_empty():\n        self._data[self._first] = e\n    else:\n        self._last = (self._last + 1) % ArrayQueue.DEFAULT_CAPACITY\n        self._data[self._last] = e\n    self._size += 1",
+  "afirmacoes": null,
+  "opcoes": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "resposta": "A"
+},
+{
+  "titulo": "Impressão de Fila sem Perder Dados",
+  "descricao": "Qual código imprime o conteúdo de uma fila e depois restaura a fila original?",
+  "codigo": "def printFila(q):\n    copia = Fila()\n    while(not q.is_empty()):\n        print(q.first(), end=' ')\n        copia.enqueue(q.dequeue())\n\n    while(not copia.is_empty()):\n        q.enqueue(copia.dequeue())",
+  "afirmacoes": null,
+  "opcoes": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "resposta": "A"
+}
+  ]
+}
