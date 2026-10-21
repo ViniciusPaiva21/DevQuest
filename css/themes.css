@@ -952,3 +952,13 @@ html[data-theme="classic"] body[data-page="infernus"] #panther-bubble {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* Materials imported from the original review PDFs, October 2026. */
+.new-subject-badge { display:inline-block; margin:0 0 .8rem; padding:.3rem .6rem; border-radius:999px; background:rgb(var(--card-accent-rgb) / .16); color:var(--card-accent); font-size:.7rem; font-weight:900; letter-spacing:.12em; }
+.original-pdf-hint { font-size:.875rem; line-height:1.6; margin:1rem 0; }
+.original-pdf-hint a { text-decoration:underline; font-weight:700; }
+.discursive-material { margin:1.5rem 0; padding:1rem; border:1px solid #737373; border-radius:1rem; text-align:left; }
+.discursive-material summary { cursor:pointer; font-weight:700; }
+.discursive-material p { margin:.8rem 0; line-height:1.6; }
+.discursive-page { margin:1rem 0; }
+.discursive-page img { display:block; width:100%; height:auto; background:white; margin-top:1rem; }

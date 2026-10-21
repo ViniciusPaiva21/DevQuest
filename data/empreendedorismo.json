@@ -1,0 +1,635 @@
+{
+  "empreendedorismo": [
+    {
+      "titulo": "",
+      "descricao": "Um grande número de microempresas se converte em pequenas e médias empresas (PMEs) em um período de três anos, como demonstra um estudo do Banco Interamericano de Desenvolvimento em parceria com a USP (Universidade de São Paulo). Ainda, verifica-se que existe uma relação positiva entre o número de novas empresas e o crescimento econômico e entre a geração de empregos para jovens e a modernização da estrutura empresarial. Em relação aos resultados desta pesquisa, pode-se afirmar que:\nI. Empreendedores são predominantemente do sexo feminino, com graduação universitária ou pós-graduada, idade média de 40 anos, abriram suas empresas quando tinham entre 30 e 35 anos e usaram recursos próprios para financiar o empreendimento.\nII. Os empreendedores tiraram da própria experiência profissional a motivação, ideia, habilidade empresarial e os contatos profissionais para embasar a criação de seus empreendimentos.\nIII. Ganhar dinheiro é o único objetivo. As motivações dos empreendedores incluem o desejo de realização pessoal, contribuição à sociedade e, ainda, o aumento da renda para compra de serviços e bens de consumo de luxo. Querem poder e enriquecimento.\nIV. Uma proporção preocupante dos empreendedores diz que a instrução formal não tem um papel decisivo e não estimula a criação de novos empreendimentos, embora reconheçam que os estudos universitários fornecem o conhecimento técnico necessário para tal.\nV. Na fase de gestação, o capital vem, geralmente, da poupança pessoal do empreendedor, de seus amigos e parentes. Durante a fase inicial de desenvolvimento, a tendência é utilizar fontes externas de financiamentos, tais como empréstimos de bancos e instituições financeiras.\nMarque a alternativa CORRETA:",
+      "opcoes": [
+        "Somente as afirmativas I, II e III estão corretas.",
+        "Somente as afirmativas II, III e IV estão corretas.",
+        "Somente as afirmativas II, IV e V estão corretas.",
+        "Somente as afirmativas II, III e V estão corretas",
+        "Somente a afirmativa I está correta."
+      ],
+      "resposta": "Somente as afirmativas II, IV e V estão corretas.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 7,
+        "arquivo": 2,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "São identificados três grandes agentes dos movimentos empreendedores importantes para o\ndesenvolvimento econômico de uma nação: O Governo como inovador (ativo na comercialização de\ntecnologia); o Intraempreendedorismo ou empreendedorismo corporativo; e o Empreendedorismo\n(individual) (HISRICH, 2009). Global Enterpreneuship Monitor (GEM).\nAvalie as afirmações a seguir sobre o comportamento da motivação empreendedora.\n\nI. O Governo como inovador caracteriza-se principalmente pelo investimento em pesquisa com\npossibilidades de transferência tecnológica, proporcionando a criação e comercialização de novos\nprodutos.\nII. O Intraempreendedorismo depende fundamentalmente de uma estrutura organizacional que\nincentive a produção de projetos dentro da própria empresa, premiando aqueles que alcançam\nO Sucesso em seus empreendimentos.\nIII. 0 empreendedorismo - como criação de uma nova organização - é o método mais eficiente para\nligar ciência e mercado, criando novas empresas e levando novos produtos e serviços ao mercado.\nIV. O Governo e o Intraempreendedorismo apresentam enfrentam menos limitações ou\nbarreiras burocráticas que podem surgir quando da apresentação ou realização de projetos\nde novos empreendimentos.\nAssinale a alternativa correta:",
+      "opcoes": [
+        "I.",
+        "I e III.",
+        "I, II e III.",
+        "II e III.",
+        "II e IV."
+      ],
+      "resposta": "I, II e III.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 8,
+        "arquivo": 2,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Nos últimos anos, o mercado de trabalho passou por profundas transformações, exigindo dos\nprofissionais não apenas competências técnicas, mas também atitudes empreendedoras. Nesse\ncontexto, observa-se o fortalecimento da ideia de que o desenvolvimento da empregabilidade está\ncada vez mais associado à posturas e competências típicas do empreendedor, mesmo fora do\ncontexto da criação de novos negócios.\nCom base nessa perspectiva, assinale a alternativa que MELHOR relaciona os conceitos de\nempreendedorismo, empreendedor e empregabilidade.",
+      "opcoes": [
+        "O empreendedorismo é uma atividade exclusiva de quem deseja abrir seu próprio negócio; por\nisso, o empreendedor não tem impacto direto na sua empregabilidade, que depende apenas de\nsua formação acadêmica.",
+        "O empreendedor é aquele que detém um negócio próprio; portanto, sua empregabilidade é\nirrelevante, pois ele não precisa buscar oportunidades no mercado de trabalho.",
+        "A empregabilidade é garantida quando o profissional segue à risca todas as exigências do\nempregador, sem necessidade de desenvolver características empreendedoras.",
+        "O empreendedorismo é uma atitude que pode ser desenvolvida em qualquer ambiente de\ntrabalho; o profissional que age com iniciativa, criatividade e autonomia tende à aumentar sua\nempregabilidade mesmo sem empreender formalmente.",
+        "O empreendedorismo e a empregabilidade são conceitos antagônicos, pois um está voltado\npara o risco e inovação, e o outro para a estabilidade profissional e segurança no emprego."
+      ],
+      "resposta": "O empreendedorismo é uma atitude que pode ser desenvolvida em qualquer ambiente de\ntrabalho; o profissional que age com iniciativa, criatividade e autonomia tende à aumentar sua\nempregabilidade mesmo sem empreender formalmente.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 9,
+        "arquivo": 2,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Se você perguntar a algum empreendedor o que o levou à criar sua empresa, provavelmente será\nsurpreendido pela resposta \"não sei, foi por acaso... Na verdade, identificar os fatores que realmente\ndespertam o processo de empreender pode ser atividade complexa, seja pela intangibilidade de alguns\ndeles ou pela própria situação no momento de empreender. Na verdade, essa decisão (de empreender)\nocorre devido a alguns fatores, entre eles pode-se citar:",
+      "opcoes": [
+        "fatores ambientais, fatores psicológicos, fatores extra-ambientais.",
+        "Fatores pessoais, fatores sociológicos, fatores organizacionais,",
+        "Fatores mercadológicos, fatores operacionais, fatores governamentais",
+        "fatores patrimoniais, fatores naturais, fatores matemáticos,",
+        "fatores de caixa, fatores de operação, fatores de gestão,"
+      ],
+      "resposta": "Fatores pessoais, fatores sociológicos, fatores organizacionais,",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 10,
+        "arquivo": 2,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "O processo de planejamento estratégico do negócio inicia-se pela definição da visão e missão da\n\nempresa, passando pela análise do ambiente interno e externo e pela definição dos objetivos e\n\nmetas, para então chegar às estratégias que serão adotadas.\n\nCom relação a análise da situação, pode-se afirmar:",
+      "opcoes": [
+        "A análise da situação possibilita identificar elementos estruturais de uma organização, como por\nexemplo sua missão e visão, quando capacita o empreendedor a verificar seus problemas\npessoais.",
+        "A análise da situação responde as demandas estratégicas e legais de um novo negócio, quando\ncorrelacionam características da empresa, via sua missão, visão e valores",
+        "É na implementação de um plano de negócio que o empreendedor utiliza a análise de situação,\npois essa ferramenta possibilita avaliar se o projeto está sendo implantado conforme projetado.",
+        "Feedback e controle devem fazer parte da análise de situação, pois configuram elementos-chave\npara o desenvolvimento de uma estratégia assertiva e mensurável.",
+        "Na análise da situação o empreendedor deve revisar alguns elementos-chave, a fim de fornecer\num contexto para a segmentação do mercado e para as ações que serão estabelecidas."
+      ],
+      "resposta": "Na análise da situação o empreendedor deve revisar alguns elementos-chave, a fim de fornecer\num contexto para a segmentação do mercado e para as ações que serão estabelecidas.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 11,
+        "arquivo": 2,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "A inovação é o segredo do desenvolvimento econômico de uma empresa, de uma região ou do\npróprio país. As invenções e inovações são a base do futuro de qualquer unidade econômica. Tomas\nEdison costumava dizer que o gênio inovador tem 1% de inspiração e 99% de transpiração.\nHisrich (2009) afirma que existem três tipos principais de inovação, são elas:",
+      "opcoes": [
+        "inovação de caixa (financeira), inovação de mercado (mercadológica), inovação de fluxo\n(operacional).",
+        "inovação marginal, inovação patrimonial, inovação sustentável.",
+        "inovação revolucionaria, inovação tecnológica, inovação comum.",
+        "inovação mercadológica, inovação descritiva, inovação operacional.",
+        "inovação de caixa (financeira), inovação de mercado (mercadológica), inovação de fluxo\n(operacional)."
+      ],
+      "resposta": "inovação revolucionaria, inovação tecnológica, inovação comum.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 12,
+        "arquivo": 2,
+        "bloco": 1
+      },
+      "alternativasRepetidasNaFonte": true
+    },
+    {
+      "titulo": "",
+      "descricao": "Percebe-se que, mais do que a simples solução de problemas em uma posição administrativa típica,\n\nà criação de um novo empreendimento está vinculada ao processo de empreender. O processo\n\né composto por quatro etapas bem definidas.\n\nAssinale qual opção apresenta essas etapas de forma CORRETA:",
+      "opcoes": [
+        "A primeira etapa é o desenvolvimento de um plano de negócios. A etapa dois é a determinação\ne captação de recursos necessários. A terceira fase é a identificação e avaliação da\noportunidade. E à fase quatro é o gerenciamento da empresa criada.",
+        "A Primeira Fase foi entre século XV ao XIX. A Segunda Fase a partir de meados do século XIX e\nmeados do século XX. A Terceira Fase foi durante a Guerra Fria. A Quarta Fase de 1989 aos dias\natuais.",
+        "A primeira etapa é a interfase. A etapa dois é a prófase. A terceira etapa é à metáfase. A etapa\nquatro é a anáfase. E a etapa cinco é a telófase.",
+        "A primeira etapa é a identificação e avaliação da oportunidade. A etapa dois é o\ndesenvolvimento de um plano de negócios. A terceira fase é a determinação e captação de\nrecursos necessários. E a fase quatro é o gerenciamento da empresa criada.",
+        "A primeira etapa, ou seja, a avaliação da oportunidade é provavelmente o momento mais crítico\ndo processo empreendedor, pois permite identificar o retorno do empreendimento em relação\naos recursos exigidos. É importante ressaltar que à oportunidade deve estar adequada às\nhabilidades e objetivos pessoais do empreendedor."
+      ],
+      "resposta": "A primeira etapa é a identificação e avaliação da oportunidade. A etapa dois é o\ndesenvolvimento de um plano de negócios. A terceira fase é a determinação e captação de\nrecursos necessários. E a fase quatro é o gerenciamento da empresa criada.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 13,
+        "arquivo": 2,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Em um mercado cada vez mais competitivo e dinâmico, compreender o comportamento do\nconsumidor é fundamental para a criação de estratégias eficazes de marketing, desenvolvimento de\nprodutos e fidelização. Nesse contexto, \"conhecer o consumidor” não se limita a saber quem ele é,\nmas envolve uma análise mais profunda de seus hábitos, motivações, valores e necessidades.\nConsiderando esse cenário, assinale a alternativa que MELHOR representa uma prática alinhada ao\nconstruto \"Conhecendo meu consumidor”.",
+      "opcoes": [
+        "Investir unicamente em campanhas de promoção de vendas em massa, pois elas são\nsuficientes para atrair qualquer perfil de consumidor.",
+        "Desenvolver estratégias com base em estereótipos gerais, como gênero e idade, pois esses\ndados já definem com precisão o comportamento do consumidor.",
+        "Utilizar pesquisas qualitativas e quantitativas para entender preferências, hábitos de consumo,\nexpectativas e valores do público-alvo, adaptando produtos e comunicação conforme os dados\nobtidos.",
+        "Focar exclusivamente na redução de preços como forma de atrair consumidores, uma vez que\no fator econômico é o único determinante nas decisões de compra.",
+        "Lançar produtos inovadores sem considerar a opinião do público-alvo, confiando apenas na\nintuição do gestor de marketing."
+      ],
+      "resposta": "Utilizar pesquisas qualitativas e quantitativas para entender preferências, hábitos de consumo,\nexpectativas e valores do público-alvo, adaptando produtos e comunicação conforme os dados\nobtidos.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 14,
+        "arquivo": 2,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "3. Qual das seguintes opções melhor define o termo \"empreendedorismo social”?",
+      "opcoes": [
+        "O ato de empreender com o objetivo de maximizar os lucros.",
+        "Iniciar um negócio com o objetivo de causar um impacto social positivo, além de\ngerar lucro.",
+        "A criação de startups de tecnologia.",
+        "Uma abordagem para criar empresas com fins lucrativos.",
+        "Fazer trabalhos voluntários todos os meses, mesmo que não relacionados ao\ncontexto empresarial."
+      ],
+      "resposta": "Iniciar um negócio com o objetivo de causar um impacto social positivo, além de\ngerar lucro.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 15,
+        "arquivo": 2,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Quais são as características-chave de um empreendedor bem-sucedido?",
+      "opcoes": [
+        "Resistência à mudança e falta de visão.",
+        "Inovação, determinação e disposição para correr riscos.",
+        "Inexperiência e baixa tolerância ao risco.",
+        "Incapacidade de liderar equipes.",
+        "Conformismo e aversão ao trabalho em equipe."
+      ],
+      "resposta": "Inovação, determinação e disposição para correr riscos.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 16,
+        "arquivo": 2,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Todo ____________________ deve ser pensado sob uma ótica estratégica de longo prazo e priorizando aquilo que foi ____________________ antes, ou seja, sem as dificuldades próprias do dia-a-dia. Complete a frase assinalando a alternativa correta:",
+      "opcoes": [
+        "Plano de negócio, documentado",
+        "Empreendimento, planejado",
+        "Comércio, arquitetado",
+        "Currículo, planejado",
+        "Documento, documentado"
+      ],
+      "resposta": "Empreendimento, planejado",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 17,
+        "arquivo": 2,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "O Resumo Executivo deve estimular o interesse do possível investidor, Trata-se de uma\nseção muito importante e não deve ser considerada levianamente pelo empreendedor, já\nque o investidor usa o resumo para determinar se vale à pena ler todo o plano de\nnegócio.\nAssim, deve destacar de maneira concisa e convincente os pontos-chave do plano de\nnegócios, portanto é CORRETO o que se afirma nas seguintes alternativas:\n|. Esta seção do plano de negócios é preparada antes de qualquer tópico, capítulo ou\niitem a ser redigido.\nI. O conceito ou modelo do negócio além da forma de obtenção do capital não se fazem\nnecessários neste resumo, pois não chamariam de fato à atenção do leitor neste\nmomento.\nII. Se o empreendimento tiver um contrato em vigor com um grande cliente, esse detalhe\ndeve ser destacado no resumo executivo.\nIII. O resumo executivo é semelhante ao discurso de um advogado perante um tribunal\nimportante ou às primeiras declarações de um vendedor em uma abordagem de vendas.",
+      "opcoes": [
+        "I.",
+        "I; II e III.",
+        "I e III.",
+        "II e III.",
+        "III e IV."
+      ],
+      "resposta": "III e IV.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 18,
+        "arquivo": 2,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "A análise de mercado é um dos componentes do plano de negócios, que está relacionado\nao marketing da organização. Ela apresenta o entendimento do mercado da empresa,\nSeus clientes, seus concorrentes e quanto à empresa conhece, em dados e informações,\no mercado onde atua. A análise do mercado permite ainda que se conheça de perto o\nambiente onde o produto/serviço se encontra. O mercado está composto pelo ambiente\nem que à empresa e o produto se localizam, pela concorrência e pelo perfil do\nconsumidor. O conjunto das análises dos ambientes interno e externo (Pontos Fortes,\nFracos, Oportunidades e Ameaças), é também conhecida como:",
+      "opcoes": [
+        "Plano de marketing",
+        "Planejamento estratégico",
+        "Análise SWOT",
+        "Plano operacional",
+        "Matriz BCG"
+      ],
+      "resposta": "Análise SWOT",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 19,
+        "arquivo": 2,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "O plano de negócio deve mostrar que o empreendedor conhece sua empresa\ninternamente e o que deve fazer para driblar os fatores externos, sobre os quais não\nconsegue agir diretamente. Por Isso é que a análise SWOT (Strengths, Weaknesses,\nOpportunities, Threats - Forças, Fraquezas, Oportunidades e Ameaças) da empresa é\nextremamente útil para traçar um panorama da situação atual e prevista para o negócio.\nAvalie às afirmações à seguir sobre à Análise SWOT e à sua dinâmica de construção:\nI. Para elaborar a análise SWOT, o empreendedor deve analisar o ambiente macro\n(demográfico, econômico, tecnológico, político-legal, sociocultural) é as fatores\nmicroambientais importantes (consumidores, concorrentes, canais de distribuição,\nfornecedores) que afetam diretamente à empresa,\nII. Após a análise do ambiente externo (forças e fraquezas), o empreendedor deve fazer\numa análise do ambiente interno (oportunidades e ameaças).\nIII. Os pontos fracos significam incompetência e mostram que o empreendedor não sabe\npara onde está indo,\nIV. É fundamental ser honesto, sem medo de expor seus pontos fracos.\nÉ correto o que se afirma nas seguintes alternativas:",
+      "opcoes": [
+        "I.",
+        "I e III.",
+        "I e IV.",
+        "I; II e III.",
+        "II; III e IV."
+      ],
+      "resposta": "I e IV.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 20,
+        "arquivo": 2,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "O empreendedor é um individuo que, além das peculiaridades de um gestor, apresenta\ncomportamentos típicos, Destaca-se a capacidade de identificar, agarrar e aproveitar\noportunidades, buscando e gerenciando recursos para transformar à oportunidade em\nnegócios de sucesso.\nDiversas caracteristicas comportamentais são apresentadas, entre elas podemos afirmar\ncomo verdadeiras:",
+      "opcoes": [
+        "empreendedores são gestores de formação acadêmica, dotados de visão plena do\nambiente político-social, com grandes relações políticas, tendo auxilio do Estado\npara o desenvolvimento de seus negócios,",
+        "empreendedores não são formados, nascem com essa capacidade, sendo\nimpossível o desenvolvimento do espirito empreendedor em todas as pessoas.",
+        "empreendedores são politicos que ao verificarem uma possibilidade (gerada nesse\nambiente político) se apropriam dessa para gerar ganho próprio,",
+        "empreendedores são formados em estudo específico de mercado (administração,\neconomia e/ou marketing), para que possam desenvolver sua capacidade gestora e\nestrategista.",
+        "empreendedores são visionários, sabem explorar ao máximo as oportunidades, são\notimistas e apaixonados, assumem riscos calculados."
+      ],
+      "resposta": "empreendedores são visionários, sabem explorar ao máximo as oportunidades, são\notimistas e apaixonados, assumem riscos calculados.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 21,
+        "arquivo": 2,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "\"Há quem passe pelo bosque e só veja lenha para à fogueira.” (TOLSTOI).\nPara analisar uma oportunidade, o empreendedor deve considerar desenvolver um\nplano de análise de oportunidade, fundamental para identificar se a oportunidade é\nviável ou não. Esse plano é desenvolvido para servir de base à decisão de agir sobre uma\noportunidade ou esperar até que chegue outra oportunidade. Um plano de análise de\noportunidade comum é comporto por etapas.\nI. Uma descrição da ideia e neste momento à concorrência não é importante;\nII. Uma análise do mercado interno e internacional para ideia;\nIII. Uma avaliação do empreendedor e da equipe;\nIV. Uma discussão das etapas necessárias para tornar essa ideia a base de um\nempreendimento viável.\nAssinale à opção que apresenta as alternativas CORRETAS correspondentes às etapas de\num plano de análise de oportunidade:",
+      "opcoes": [
+        "Somente as afirmativas I, II e III estão corretas.",
+        "Somente as afirmativas II, III e IV estão corretas.",
+        "Somente as afirmativas II, IV estão corretas.",
+        "Somente as afirmativas II, III estão corretas.",
+        "Somente a alternativa I está correta."
+      ],
+      "resposta": "Somente as afirmativas II, III e IV estão corretas.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 22,
+        "arquivo": 2,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Não existe uma definição resumida e amplamente aceita até o momento sobre o que é\nempreendedorismo. Há um consenso, em quase todas às definições de\nempreendedorismo, de que se trata de um tipo de comportamento (Hisrich, 2009),\nConsiderando as informações desse texto, avalie as afirmações a seguir:\n|. Um aspecto relevante, com relação ao comportamento empreendedor, é a busca pela\ncriação de algo novo, que se diferencie de outros esforços.\nI. O comportamento empreendedor abrange tomar iniciativa, organizar e reorganizar\nmecanismos sociais e econômicos a fim de transformar recursos € situações,\nII. Empreender consiste em gerar mudanças de ordem legal, tecnológica, ambiental,\ncultural ou políticas, dependendo essencialmente do Estado como gerador de recursos\n(financeiros e/ou materiais),\nIII. Empreender não é uma questão social, nem ambiental. Deve ser considerada\nabsolutamente uma questão financeira, a mera sobrevivência do empreendedor. Assim,\nà taxa de sucesso passa a ser maior, na medida que o sucesso do negócio demanda o\nSucesso de empreendedor.\nEstá (ão) correta(s), apenas, o(s) item(ns):",
+      "opcoes": [
+        "apenas a opção I",
+        "apenas a opção II",
+        "apenas as opções I, II",
+        "as opções II, III",
+        "as opções III, IV"
+      ],
+      "resposta": "apenas as opções I, II",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 23,
+        "arquivo": 2,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Qual dos seguintes fatores é essencial para a construção de uma cultura\nempreendedora em uma organização?",
+      "opcoes": [
+        "a) Hierarquia rígida e procedimentos burocráticos.",
+        "b) Incentivo à conformidade e ao conservadorismo.",
+        "c) Estímulo à inovação e ao aprendizado contínuo.",
+        "d) Resistência à mudança e medo do fracasso.",
+        "Resistência ao que é novo."
+      ],
+      "resposta": "c) Estímulo à inovação e ao aprendizado contínuo.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 24,
+        "arquivo": 2,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "As verdadeiras decisões de marketing de curto prazo, no plano\nde marketing, consistem em quatro variáveis importantes:\nproduto, preço, distribuição e promoção. A variável distribuição\né útil ao consumidor, pois torna um produto conveniente para a\ncompra quando necessário.\nCom relação à distribuição, pode-se considerar CORRETA a\nafirmativa:",
+      "opcoes": [
+        "As características do produto não afetam à decisão de\nescolha do canal de distribuição. Se o produto é muito\ncaro, perecível ou de difícil manuseio, seria\nindiferente à escolha de canal direto ou indireto.",
+        "As questões ambientais não são importantes na\nestratégia do canal de distribuição. Considerações e\nregulamentos especiais quanto à produtos químicos,\nalimentícios ou medicamentos tem valores de\ndistribuição equivalentes à demais produtos.",
+        "Intermediários, como atacadistas e varejistas, podem\naumentar o preço do produto. Seus custos para\nfornecer esses benefícios são inferiores aos custos de\numa pequena iniciativa de produto único porque\noperam com volumes altos.",
+        "Ao tomar à decisão sobre o direcionamento da\nestratégia de canal de distribuição, leva-se em\nconsideração: condição do mercado, características\nde Estado, características do macro ambiente, fatores\nclimáticos.",
+        "Ao analisar os critérios na seleção dos membros do\ncanal, geralmente é necessário que o empreendedor\ninforme aos possíveis clientes a disponibilidade do\nproduto e os instrua como utilizar, usando mídias de\npropaganda."
+      ],
+      "resposta": "Intermediários, como atacadistas e varejistas, podem\naumentar o preço do produto. Seus custos para\nfornecer esses benefícios são inferiores aos custos de\numa pequena iniciativa de produto único porque\noperam com volumes altos.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 25,
+        "arquivo": 2,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Os óculos de mergulho (Prof. Gretz)\nEstava na piscina de um hotel e resolvi dar um mergulho. Nadei por baixo d'água até terminar meu fôlego. Quando emergi, fiquei frustrado com meu desempenho, pois tinha mergulhado apenas uns quatro metros. Andando pela borda da piscina, eu ia pensando: \"Mas esse pulmão que não fuma, não bebe, faz conferências até sem microfone, pratica exercícios todos os dias, como é que só aguentou mergulhar 4 metros!?\" Então vi um garotinho com óculos de mergulho. \"Me empresta esses óculos? Pedi ao menino\". Ele relutou, mas acabou emprestando. Coloquei os óculos e mergulhei de novo. Como agora estava com os olhos abertos, por baixo d'água vi a outra parede à minha frente. \"Vou chegar lá, vou chegar, vou chegar...\" ia pensando enquanto avançava, submerso, sempre olhando para a parede à minha frente. E cheguei! Logo na primeira tentativa com os óculos que me permitiam enxergar minha meta, mergulhei 20 metros! Por que desta vez consegui? Porque tinha uma meta bem concreta e visível, um objetivo bem palpável: a parede do outro lado da piscina. O propósito de se escrever um plano de negócios fica bastante claro quando se verifica a quantidade de benefícios que um plano de negócios pode trazer à empresa. Por meio dessa ferramenta de gestão, você consegue planejar e decidir a respeito do futuro de sua empresa, tendo como base o seu passado, sua situação atual em relação ao mercado, aos clientes e à concorrência. Veja a seguir alguns tipos listados para ajudar na escolha do melhor plano.\nI. Plano de Negócios Completo. É utilizado quando se pleiteia uma grande quantidade de recursos financeiros, ou seja, quando é necessário apresentar uma visão completa do empreendimento.\nII. Plano de Negócios Resumido. É utilizado quando se pretende apresentar algumas informações resumidas a um investidor, por exemplo, com o objetivo de chamar a atenção deste para que ele lhe solicite um plano de negócio completo. Deve apresentar os objetivos macros do negócio, investimentos, mercado e retorno sobre o investimento e deverá focar as informações específicas requisitadas.\nIII. Plano de Negócios Operacional. É muito importante para ser utilizado externamente pela empresa pelos parceiros, gerentes e até mesmo os concorrentes. É excelente como Plano de Marketing para alavancar potenciais investidores.\nMarque a alternativa que apresenta as alternativas CORRETAS em relação aos distintos tipos de Planos de Negócios",
+      "opcoes": [
+        "Somente as afirmativas I e II estão corretas.",
+        "Somente as afirmativas II e III estão corretas.",
+        "Somente a afirmativa II está correta.",
+        "Somente a afirmativa III está correta.",
+        "Todas as alternativas estão corretas."
+      ],
+      "resposta": "Somente as afirmativas I e II estão corretas.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 26,
+        "arquivo": 2,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Um grande número de microempresas se converte em pequenas e médias empresas (PMEs) em um período de três anos, como demonstra um estudo do Banco Interamericano de Desenvolvimento em parceria com a USP (Universidade de São Paulo). Ainda, verifica-se que existe uma relação positiva entre o número de novas empresas e o crescimento econômico e entre a geração de empregos para jovens e a modernização da estrutura empresarial. Em relação aos resultados desta pesquisa, pode-se afirmar que:\nI. Empreendedores são predominantemente do sexo feminino, com graduação universitária ou pós-graduada, idade média de 40 anos, abriram suas empresas quando tinham entre 30 e 35 anos e usaram recursos próprios para financiar o empreendimento.\nII. Os empreendedores tiraram da própria experiência profissional a motivação, ideia, habilidade empresarial e os contatos profissionais para embasar a criação de seus empreendimentos.\nIII. Ganhar dinheiro é o único objetivo. As motivações dos empreendedores incluem o desejo de realização pessoal, contribuição à sociedade e, ainda, o aumento da renda para compra de serviços e bens de consumo de luxo. Querem poder e enriquecimento.\nIV. Uma proporção preocupante dos empreendedores diz que a instrução formal não tem um papel decisivo e não estimula a criação de novos empreendimentos, embora reconheçam que os estudos universitários fornecem o conhecimento técnico necessário para tal.\nV. Na fase de gestação, o capital vem, geralmente, da poupança pessoal do empreendedor, de seus amigos e parentes. Durante a fase inicial de desenvolvimento, a tendência é utilizar fontes externas de financiamentos, tais como empréstimos de bancos e instituições financeiras.\nMarque a alternativa CORRETA:",
+      "opcoes": [
+        "Somente as afirmativas I, II e III estão corretas.",
+        "Somente as afirmativas II, III e IV estão corretas.",
+        "Somente as afirmativas II, IV e V estão corretas.",
+        "Somente as afirmativas II, III e V estão corretas",
+        "Somente a afirmativa I está correta."
+      ],
+      "resposta": "Somente as afirmativas II, IV e V estão corretas.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 27,
+        "arquivo": 2,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "A inovação é o segredo do desenvolvimento econômico de uma empresa, de uma região ou do\npróprio país. As invenções e inovações são a base do futuro de qualquer unidade econômica. Tomas\nEdison costumava dizer que o gênio inovador tem 1% de inspiração e 99% de transpiração.\nHisrich (2009) afirma que existem três tipos principais de inovação, são elas:",
+      "opcoes": [
+        "inovação de caixa (financeira), inovação de mercado (mercadológica), inovação de fluxo\n(operacional).",
+        "inovação marginal, inovação patrimonial, inovação sustentável.",
+        "inovação revolucionaria, inovação tecnológica, inovação comum.",
+        "inovação mercadológica, inovação descritiva, inovação operacional.",
+        "inovação de caixa (financeira), inovação de mercado (mercadológica), inovação de fluxo\n(operacional)."
+      ],
+      "resposta": "inovação revolucionaria, inovação tecnológica, inovação comum.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 28,
+        "arquivo": 2,
+        "bloco": 1
+      },
+      "alternativasRepetidasNaFonte": true
+    },
+    {
+      "titulo": "",
+      "descricao": "Não existe uma definição resumida e amplamente aceita até o momento sobre o que é\nempreendedorismo. Há um consenso, em quase todas as definições de empreendedorismo, de que se\ntrata de um tipo de comportamento (Hisrich, 2009),\nConsiderando as informações desse texto, avalie as afirmações a seguir:\n|. Um aspecto relevante, com relação ao comportamento empreendedor, é a busca pela criação de algo\nnovo, que se diferencie de outros esforços.\nI. O comportamento empreendedor abrange tomar iniciativa, organizar e reorganizar mecanismos sociais\ne econômicos a fim de transformar recursos e situações.\nII. Empreender consiste em gerar mudanças de ordem legal, tecnológica, ambiental, cultural ou políticas,\ndependendo essencialmente do Estado como gerador de recursos (financeiros e/ou materiais),\nIII. Empreender não é uma questão social, nem ambiental. Deve ser considerada absolutamente uma\nquestão financeira, a mera sobrevivência do empreendedor, Assim, a taxa de sucesso passa a ser maior,\nna medida que o sucesso do negócio demanda o sucesso de empreendedor.\nEstá (ão) correta(s), apenas, o(s) item(ns):",
+      "opcoes": [
+        "apenas a opção I",
+        "apenas a opção II",
+        "apenas as opções I, II",
+        "as opções II, III",
+        "as opções III, IV"
+      ],
+      "resposta": "apenas as opções I, II",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 29,
+        "arquivo": 2,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "O empreendedor é um indivíduo que, além das peculiaridades de um gestor, apresenta comportamentos\n\ntípicos. Destaca-se a capacidade de identificar, agarrar e aproveitar oportunidades, buscando e\n\ngerenciando recursos para transformar à oportunidade em negócios de Sucesso.\n\nDiversas características comportamentais são apresentadas, entre elas podemos afirmar\n\ncomo verdadeiras:",
+      "opcoes": [
+        "empreendedores são gestores de formação acadêmica, dotados de visão plena do ambiente político-\nsocial, com grandes relações políticas, tendo auxílio do Estado para o desenvolvimento de seus\nnegócios,",
+        "empreendedores não são formados, nascem com essa capacidade, sendo impossível o\ndesenvolvimento do espirito empreendedor em todas as pessoas.",
+        "empreendedores são políticos que ao verificarem uma possibilidade (gerada nesse ambiente\npolítico) se apropriam dessa para gerar ganho próprio.",
+        "empreendedores são formados em estudo específico de mercado (administração, economia e/ou\nmarketing), para que possam desenvolver sua capacidade gestora e estrategista,",
+        "empreendedores são visionários, sabem explorar ao máximo as oportunidades, são otimistas e\napaixonados, assumem riscos calculados,"
+      ],
+      "resposta": "empreendedores são visionários, sabem explorar ao máximo as oportunidades, são otimistas e\napaixonados, assumem riscos calculados,",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 30,
+        "arquivo": 2,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "As variáveis ambientais fornecerão muitas informações importantes para decidir qual a estratégia de\nmarketing mais eficiente a ser delineada no plano de marketing e cada variável deverá ser descrita\nem detalhes. O empreendedor precisa de uma forte sustentação para lhe indicar à direção nas\ndecisões de marketing do dia-a-dia. É o mix de marketing.\nAssocie CORRETAMENTE as colunas abaixo de acordo com o composto de marketing e as respectivas\ndecisões críticas.\nI) Produto.\nII) Preço.\nIII) Canais de distribuição.\nIV) Promoção.\n( ) Alternativas de mídia, mensagem, orçamento de mídia, papel da venda pessoal, promoção de\nvendas (expositores, cupons, etc.) e interesse da mídia na publicidade.\n( )Imagem de qualidade, preços, quantidade, descontos, possibilidades de pagamento rápido,\ncondições de crédito e prazo de pagamento.\n( ) Uso de vendas por atacado ou à varejo, tipo de atacadistas ou de varejistas, quantidade de\ncanais, extensão do canal, cobertura geográfica, estoque e transporte,\n( ) Qualidade dos componentes ou materiais, estilo, características, opções, nome da marca,\nembalagem, tamanhos, disponibilidade de serviços e garantias, Agora, assinale à alternativa que\ncontém à ordem correta de associação, de cima para baixo.",
+      "opcoes": [
+        "I, II, IV, III.",
+        "II, I, III, IV.",
+        "II, I, IV, III.",
+        "II, III, IV, I.",
+        "IV, II, III e I."
+      ],
+      "resposta": "IV, II, III e I.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 31,
+        "arquivo": 2,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "O Empreendedorismo pode ser ensinado? Hoje em dia acredita-se que o processo empreendedor\npode ser ensinado e entendido por qualquer pessoa e que o sucesso é decorrente de uma gama de\nfatores internos e externos ao negócio, do perfil empreendedor e de como ele administra as\nadversidades que encontra no dia-a-dia de seu empreendimento (DORNELAS, 2008). Essas\nhabilidades podem ser desenvolvidas. Para tanto, é preciso que à pessoa conheça suas próprias\ncaracterísticas e trabalhe para que aquelas fundamentais ao empreendedor sejam desenvolvidas,\nConsiderando esse contexto, avalie as asserções a seguir e a relação proposta entre elas,\n|, Empreendedor é alguém capaz de identificar, agarrar e aproveitar a oportunidade, buscando e\ngerenciando recursos para transformar à oportunidade em negócio de sucesso. E para tanto, três\ngrandes eixos - conhecimento, habilidade e atitude - formam a competência do indivíduo,\nPORQUE\nI. Empreendedores refugiados são aqueles que entram em negócios por fatores ambientais que os\nimpulsionam e os encorajam à se aventurar em um novo negócio ou à inovar, São também\nchamados de empreendedores involuntários.\nA respeito dessas asserções, assinale à opção correta:",
+      "opcoes": [
+        "As asserções I e II são proposições verdadeiras e a II é uma justificativa correta da I.",
+        "As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa da I.",
+        "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.",
+        "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira.",
+        "As asserções I e II são proposições falsas."
+      ],
+      "resposta": "As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa da I.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 32,
+        "arquivo": 2,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Um grande número de microempresas se converte em pequenas e médias empresas (PMEs) em um período de três anos, como demonstra um estudo do Banco Interamericano de Desenvolvimento em parceria com a USP (Universidade de São Paulo). Ainda, verifica-se que existe uma relação positiva entre o número de novas empresas e o crescimento econômico e entre a geração de empregos para jovens e a modernização da estrutura empresarial. Em relação aos resultados desta pesquisa, pode-se afirmar que:\nI. Empreendedores são predominantemente do sexo feminino, com graduação universitária ou pós-graduada, idade média de 40 anos, abriram suas empresas quando tinham entre 30 e 35 anos e usaram recursos próprios para financiar o empreendimento.\nII. Os empreendedores tiraram da própria experiência profissional a motivação, ideia, habilidade empresarial e os contatos profissionais para embasar a criação de seus empreendimentos.\nIII. Ganhar dinheiro é o único objetivo. As motivações dos empreendedores incluem o desejo de realização pessoal, contribuição à sociedade e, ainda, o aumento da renda para compra de serviços e bens de consumo de luxo. Querem poder e enriquecimento.\nIV. Uma proporção preocupante dos empreendedores diz que a instrução formal não tem um papel decisivo e não estimula a criação de novos empreendimentos, embora reconheçam que os estudos universitários fornecem o conhecimento técnico necessário para tal.\nV. Na fase de gestação, o capital vem, geralmente, da poupança pessoal do empreendedor, de seus amigos e parentes. Durante a fase inicial de desenvolvimento, a tendência é utilizar fontes externas de financiamentos, tais como empréstimos de bancos e instituições financeiras.\nMarque a alternativa CORRETA:",
+      "opcoes": [
+        "Somente as afirmativas I, II e III estão corretas.",
+        "Somente as afirmativas II, III e IV estão corretas.",
+        "Somente as afirmativas II, IV e V estão corretas.",
+        "Somente as afirmativas II, III e V estão corretas",
+        "Somente a afirmativa I está correta."
+      ],
+      "resposta": "Somente as afirmativas II, IV e V estão corretas.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 33,
+        "arquivo": 2,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "As pequenas empresas e às empresas em crescimento normalmente começam com\nos donos fazendo a maior parte do trabalho, durante várias horas do dia, todos os\ndias da semana. Quanto mais a empresa cresce, mais aumenta o número de clientes,\nfornecedores e funcionários e a estrutura da empresa deverá ser revista, com a\ncontratação de novos membros, ou seleção interna, valorizando os empregados que\nse destacam na equipe.\nConsiderando esse contexto, avalie as asserções a seguir e a relação proposta\nentre elas.\n|. O Plano de Negócios pode conter, em seus anexos, uma cópia do contrato social,\napresentando ainda a descrição do negócio e como está constituída a sociedade,\nquem são e qual a participação de cada sócio no negócio.\nPORQUE\nI. Um organograma pode ser apresentado, o que facilita a visualização e\nidentificação de funções-chave na empresa. É interessante ainda mostrar como essa\nestrutura evoluirá nos próximos anos.",
+      "opcoes": [
+        "As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa da I.",
+        "As asserções I e II são proposições verdadeiras e a II é uma justificativa correta da I.",
+        "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.",
+        "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira.",
+        "As asserções I e II são proposições falsas."
+      ],
+      "resposta": "As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa da I.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 34,
+        "arquivo": 2,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "O processo de planejamento estratégico do negócio inicia-se pela definição da visão\n\ne missão da empresa, passando pela análise do ambiente interno e externo e pela\n\ndefinição dos objetivos e metas, para então chegar às estratégias que serão\n\nadotadas.\n\nCom relação a análise da situação, pode-se afirmar:",
+      "opcoes": [
+        "A análise da situação possibilita identificar elementos estruturais de uma\norganização, como por exemplo sua missão e visão, quando capacita o\nempreendedor à verificar seus problemas pessoais.",
+        "A análise da situação responde as demandas estratégicas e legais de um novo\nnegócio, quando correlacionam características da empresa, via sua missão,\nvisão e valores",
+        "É na implementação de um plano de negócio que o empreendedor utiliza a\nanálise de situação, pois essa ferramenta possibilita avaliar se o projeto está\nsendo implantado conforme projetado.",
+        "Feedback e controle devem fazer parte da análise de situação, pois configuram\nelementos-chave para o desenvolvimento de uma estratégia assertiva e\nmensurável.",
+        "Na análise da situação o empreendedor deve revisar alguns elementos-chave, a\nfim de fornecer um contexto para a segmentação do mercado e para as ações\nque serão estabelecidas."
+      ],
+      "resposta": "Na análise da situação o empreendedor deve revisar alguns elementos-chave, a\nfim de fornecer um contexto para a segmentação do mercado e para as ações\nque serão estabelecidas.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 35,
+        "arquivo": 2,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "O que é um plano de negócios?",
+      "opcoes": [
+        "Um documento que descreve os objetivos do negócio, à estratégia para alcançá-\nlos e os meios financeiros necessários e a estratégia para alcançá-los e os meios\nfinanceiros necessários.",
+        "Um registro de vendas diárias de uma empresa.",
+        "Uma lista de contatos de clientes.",
+        "Um contrato formal entre parceiros de negócios.",
+        "Um guia de protocolos internos."
+      ],
+      "resposta": "Um documento que descreve os objetivos do negócio, à estratégia para alcançá-\nlos e os meios financeiros necessários e a estratégia para alcançá-los e os meios\nfinanceiros necessários.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 36,
+        "arquivo": 2,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Se você perguntar a algum empreendedor o que o levou a criar sua empresa, provavelmente será\nsurpreendido pela resposta “não sei, foi por acaso..”. Na verdade, identificar os fatores que\nrealmente despertaram o processo de empreender pode ser uma atividade complexa, seja pela\nintangibilidade de alguns deles ou pela própria situação no momento de empreender, quando a\npessoa está tão envolvida, que pode deixar passar despercebidos alguns aspectos que originaram o\nempreendimento. Na verdade, essa decisão ocorre devido a fatores externos, ambientais e sociais, a\naptidões pessoais ou a um somatório de todos esses fatores.\nAssocie CORRETAMENTE as colunas abaixo de acordo com a teoria vista no Tópico 4.\n|) Fatores Pessoais.\nI. Fatores Sociológicos.\nII. Fatores Organizacionais.\nIII. O Ambiente.\n( ) Networking, equipe, influencia dos pais, famílias, modelos (pessoas de sucesso).\n( ) Assumir riscos, valores pessoais, educação e experiência, insatisfação com o trabalho,\ndemissões, educação ou idade.\n( ) Competição, recursos, incubadoras, políticas públicas, competidores, clientes, fornecedores,\ninvestidores, bancos, advogados e recursos.\n( ) Equipe, estratégia, estrutura, cultura e produtos.\nAssinale a alternativa que contém a ordem correta de associação, de cima para baixo.",
+      "opcoes": [
+        "I, II, IV, III.",
+        "II, I, III, IV.",
+        "II, I, IV, III.",
+        "II, III, IV, I.",
+        "IV, I, II, III."
+      ],
+      "resposta": "II, I, IV, III.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 37,
+        "arquivo": 2,
+        "bloco": 1
+      }
+    }
+  ],
+  "discursivas": [
+    {
+      "titulo": "Material discursivo · página 1",
+      "pagina": 1,
+      "partes": [
+        {
+          "tipo": "texto",
+          "texto": "Descrição\nPara responder essa questão utilize somente o espaço\nreservado.\n\"As empresas brasileiras necessitam focar seus esforços na\nestratégia e a longo prazo, não em curto prazo como estão\natuando. Devido ao ambiente instável, as empresas pensam em\nsobreviver e não em ter estratégias. Com a estratégia, reduz-se\na vulnerabilidade frente aos up and down do ambiente.”\n(Michael Porter, 2000).\nLevando em consideração o texto acima, apresente como o\nempreendedor ao realizar a análise do contexto para seu “novo\nnegócio” faz uso das 5 Forças Competitivas para analisar o\nambiente e identificar fatores de competitividade.\nResposta Discursiva\nUm empreendedor para manter-se competivivo no mercado\natual, ele deve ter um plano de negócio bem estruturado, além\nde ter um plano estratégico que abranja estratégias de curto,\nmédio e longo prazo para o seu empreendimento, com isso, ao\nincluir análises de riscos de mercado ao longo de toda a cadeia\noperacional, estratégica e organizacional do seu negócio ele\nestará um passo a frente quando se deparar com o mercado\ninstável, como foi por exemplo, a pandemia de 2020 onde\nmuitos micro-empreendedores faliram por não terem um\nplanejamento estratégico e não saberem lidar com as\nadversidades impostas no contexto que vivemos na pandemia,\nmuitos tiveram que fechar as portas. É importante que os\nempreendedores foquem esforços para que seus negócios\nacompanhem a era digital, oferecendo serviços digitais e\ntambém criem um porgrama de relacionamento pós venda para\nfidelizar clientes e trabalhar campanhas de marketing."
+        }
+      ]
+    },
+    {
+      "titulo": "Material discursivo · página 2",
+      "pagina": 2,
+      "partes": [
+        {
+          "tipo": "texto",
+          "texto": "Descrição\n\nPara responder essa questão utilize somente o espaço reservado, O Plano de Marketing é uma parte\nimportante do plano de negócios, uma vez que descreve como os produtos ou serviços serão\ndistribuídos, cotados e promovidos. Como qualquer outro plano, pode ser comparado a um mapa de\nestrada para orientar um viajante. Destina-se a oferecer respostas para três questões básicas: ONDE\nESTAMOS? PARA ONDE QUEREMOS IR? COMO CHEGAREMOS LÁ?\n\nApresente como o plano de marketing pode responder a essas três questões, justificando o motivo\nde empreendedor utilizar esse plano para o desenvolvimento de sua estratégia de mercado.\nResposta Discursiva\n\nOnde estamos - Nessa parte deve ser realizado um estudo mercado, tecnologico, social atual para\nentendermos quais as melhores opções Onde queremos chegar - Traçar um objetivo para os novos\nplanos relacionado a visão que temos atual e a que pretendemos obter, de inovações, melhorias e\nobtivo final Como chegaremos lá - Com as ideias, planos traçados e entendimento do nosso objetivo,\niniciamos nosso plano conjunto a os planos de visão de mercado atual e o traço para onde\npretendemos chega, tendo em mente que não é 100% de acertiva más uma forma de tenar obter\nmelhores sucessos evoluindo com o desenvolvimento atual Esse plano é uma forma de tentar\nacompanhar a evolução dos mercados e quem sabe obter sucesso sendo um dos primeiros a atingir\ntais mudanças obtendo sucesso no mercado e financeiramente!\n\nComentário da Resposta"
+        }
+      ]
+    },
+    {
+      "titulo": "Material discursivo · página 3",
+      "pagina": 3,
+      "partes": [
+        {
+          "tipo": "texto",
+          "texto": "Descrição\nA inovação é o segredo do desenvolvimento econômico de uma empresa, de uma região ou do próprio\npaís. Com o avanço das tecnologias, caem as vendas dos antigos produtos e minguam as antigas\nindústrias, As invenções e inovações são a base do futuro de qualquer unidade económica, Thomas\nEdison costumava dizer que o gênio inovador tem 1% de inspiração e 99% de transpiração, O gráfico a\nseguir ilustra os tipos de inovação em relação à exclusividade da ideia,"
+        },
+        {
+          "tipo": "imagem",
+          "src": "images/figuras-pdf/tipos-de-inovacao.png",
+          "alt": "Gráfico dos tipos de inovação"
+        },
+        {
+          "tipo": "texto",
+          "texto": "Fonte: (CEAD, 2017)\n\nComo podemos observar no gráfico, há três tipos principais de inovação, em ordem decrescente de\nexclusividade. Redija um texto dissertativo estabelecendo os conceitos dos três tipos de inovação. (Utilize\no quadro abaixo para escrever no mínimo 15 linhas),\nResposta Discursiva\ninovação revolucionaria e a com maior exclusividade para o mercado, inovação tecnologica como o\nproprio nome ja fala e para inovar com foco nos produtos da tecnologia, inovação comum e à mais rara.\nComentário da Resposta"
+        }
+      ]
+    },
+    {
+      "titulo": "Material discursivo · página 4",
+      "pagina": 4,
+      "partes": [
+        {
+          "tipo": "texto",
+          "texto": "Descrição\n\nPara responder essa questão utilize somente o espaço reservado. Uma das formas de expressão do\nempreendedorismo acontece por meio dos membros da organização, o que depende\nfundamentalmente de uma estrutura organizacional que incentive a produção de projetos dentro da\nempresa.\n\nApresente o conceito de INTRAEMPREENDEDORISMO ou EMPREENDEDORISMO CORPORATIVO,\napresentando as vantagens que uma organização pode obter ao incentivar esse tipo de\nempreendedorismo.\n\nResposta Discursiva\n\nO empreendedorismo corporativo é o ação de incentivar os colaboradores a propor e desenvolver\nprojetos e melhorias para os processos, produtos e serviços da empresa. Como vantagens podemos\ncitar o aumento no engajamento da equipe, melhoria continua nos processos da empresa, avanço\ntecnologico, redução nos custos por reduzir a necessidade de contratação de empresas externas\ncom por exemplo contratação de consultores.\n\nComentário da Resposta"
+        }
+      ]
+    },
+    {
+      "titulo": "Material discursivo · página 5",
+      "pagina": 5,
+      "partes": [
+        {
+          "tipo": "texto",
+          "texto": "Descrição\n\nPara responder essa questão utilize somente o espaço reservado,\n\n\"As empresas brasileiras necessitam focar seus esforços na estratégia e a longo prazo, não em curto\nprazo como estão atuando. Devido ao ambiente instável, as empresas pensam em sobreviver e não\nem ter estratégias. Com a estratégia, reduz-se a vulnerabilidade frente aos up and down do\nambiente.” (Michael Porter, 2000).\n\nLevando em consideração o texto acima, apresente como o empreendedor ao realizar a análise do\ncontexto para seu “novo negócio” faz uso das 5 Forças Competítivas para analisar o ambiente e\nidentificar fatores de competitividade.\n\nResposta Discursiva\n\n1- poder de barganha com o compradof 22 Poder de barganha com o fornercedor 3- fazer uma\nanalise do mercado 4- pesquisar seus correntes 5- ficar sempre de olho nos produtor que são\ntrocados por um outro produto mais novo.\n\nComentário da Resposta"
+        }
+      ]
+    },
+    {
+      "titulo": "Material discursivo · página 6",
+      "pagina": 6,
+      "partes": [
+        {
+          "tipo": "texto",
+          "texto": "ambiente.” (Michael Porter, 2000).\n\nLevando em consideração o texto acima, apresente como o empreendedor ao realizar a análise do\ncontexto para seu “novo negócio” faz uso das 5 Forças Competitivas para analisar o ambiente e\nidentificar fatores de competitividade.\n\nResposta Discursiva\n\nComo empresário há 6 anos posso responder pelo que vivi e aprendi na criação de mais de 4\nempresas que deram certo e outras várias que deram errado. Engraçado que, lendo o texto me\nidentifico de imediato pois vivi exatamente isso 3 anos atrás, um négocio extremamente promissor\nque deu um \"boom\" de vendas e depois não consegui chegar nem a 10% disso no próximo ano. Uma\ncoisa primordial nesse processo de olhar pro longo prazo que eu aprendi na marra é a criação de um\nfluxo de caixa saudável, antes o dinheiro que entrava eu pagava os impostos e usava na pessoa física,\no que é completamente amador e dessa maneira é quase impossível uma empresa sobreviver, eu\ndiria que é impossível a longo prazo. Então ao novo empreendedor, quando for criar seu novo\nnegócio, analise seus concorrentes, foque no seu diferencial competitivo, entenda qual aceitação\nvocê terá no mercado, elabore uma estratégia consistente de marketing, preze pelo bom\nrelacionamento, faça caixa, se for tomar crédito, tome crédito consciente, entregue além do\nprometido inicialmente para que seja bem recebido pelo mercado, desenhe o pior cenário e entenda\ncomo vai sobreviver a ele, para que, no futuro (próximo ou não) você não seja surpreendido, sempre\n\"voe abaixo da linha permitida”. Dessa forma, seu caixa sempre estará saudável, eventuais crises e\nproblemas serão superados e você vai viver e não sobreviver no curto, médio e longo prazo.\n\nComentário da Resposta"
+        }
+      ]
+    }
+  ]
+}

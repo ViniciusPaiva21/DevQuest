@@ -139,6 +139,18 @@
     return questions;
   }
 
+  function renderDiscursiveMaterial(pages) {
+    document.getElementById("discursive-material")?.remove();
+    if (!Array.isArray(pages) || !pages.length) return;
+    const panel = document.createElement("details");
+    panel.id = "discursive-material";
+    panel.className = "discursive-material";
+    panel.innerHTML = `<summary>Revisar material discursivo (${pages.length} páginas)</summary>
+      <p>Enunciados e respostas presentes no PDF original. Este material não entra na pontuação do quiz.</p>
+      ${pages.map((page) => `<details class="discursive-page"><summary>${escapeHtml(page.titulo)}</summary>${(page.partes || []).map((part) => part.tipo === "imagem" ? `<img src="${escapeHtml(part.src)}" alt="${escapeHtml(part.alt)}" loading="lazy">` : `<p style="white-space:pre-wrap">${escapeHtml(part.texto)}</p>`).join("")}</details>`).join("")}`;
+    elements.quizSubtitle.parentElement.appendChild(panel);
+  }
+
   function isValidQuestion(question) {
     return (
       question &&
@@ -155,6 +167,7 @@
       if (!response.ok) throw new Error(`Erro HTTP ${response.status}`);
 
       const data = await response.json();
+      renderDiscursiveMaterial(data.discursivas);
       const questions = extractQuestions(data);
       const invalidCount = questions.filter((question) => !isValidQuestion(question)).length;
 
@@ -263,8 +276,10 @@
           }
         </div>
         ${title}
-        <p class="text-zinc-300 mt-4 text-sm leading-relaxed whitespace-pre-line">${escapeHtml(question.descricao)}</p>
+        <p class="text-zinc-300 mt-4 text-sm leading-relaxed whitespace-pre-line" ${question.descricaoMonoespacada ? 'style="font-family:monospace;white-space:pre-wrap"' : ""}>${escapeHtml(question.descricao)}</p>
         ${image}
+        ${question.descricaoAposImagem ? `<p class="text-zinc-300 mt-4 whitespace-pre-line">${escapeHtml(question.descricaoAposImagem)}</p>` : ""}
+        ${question.originalPDF ? `<p class="original-pdf-hint">Leia as alternativas no recorte original e selecione a letra abaixo. <a href="${escapeHtml(question.imagem)}" target="_blank" rel="noopener">Ampliar questão</a></p>` : ""}
         ${code}
         ${statements}
       </div>
@@ -272,7 +287,7 @@
     `;
   }
 
-  function createOptionButton(option, index, correctAnswer) {
+  function createOptionButton(option, index, correctAnswer, originalPDF = false) {
     const letters = "ABCDEFGH";
     const button = document.createElement("button");
     const content = getOptionContent(option);
@@ -284,7 +299,9 @@
       `hover:bg-zinc-900 hover:${config.accent.border} transition-all duration-200 ` +
       "text-zinc-300 font-medium group overflow-hidden";
 
-    if (isCodeOption(option)) {
+    if (originalPDF) {
+      button.innerHTML = `<span class="font-bold">Alternativa ${escapeHtml(content)}</span>`;
+    } else if (isCodeOption(option)) {
       button.innerHTML = `
         <div class="flex gap-3 items-start">
           <span class="font-bold ${config.accent.text} shrink-0 pt-1">${letters[index] ?? index + 1})</span>
@@ -336,8 +353,8 @@
     const optionsBox = document.getElementById("options-box");
     const fragment = document.createDocumentFragment();
 
-    shuffle(question.opcoes).forEach((option, index) => {
-      fragment.appendChild(createOptionButton(option, index, question.resposta));
+    (question.preservarOrdem ? question.opcoes : shuffle(question.opcoes)).forEach((option, index) => {
+      fragment.appendChild(createOptionButton(option, index, question.resposta, question.originalPDF));
     });
 
     optionsBox.appendChild(fragment);

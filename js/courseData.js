@@ -48,6 +48,7 @@
         <h3 class="text-2xl font-black text-zinc-100 mt-5 mb-3 leading-tight">
           ${escapeHtml(subject.label)}
         </h3>
+        ${subject.isNew ? `<span class="new-subject-badge">NOVO</span>` : ""}
         <p class="text-zinc-400 text-sm leading-relaxed max-w-[34ch]">${escapeHtml(subject.description)}</p>
 
         ${
@@ -100,8 +101,8 @@
 
     if (!course || !grid) return;
 
-    course.subjects.forEach((subjectId, index) => {
-      fragment.appendChild(createCard(subjectId, courseId, course.cardColors[index], index));
+    [...course.subjects].sort((a, b) => Number(Boolean(subjects[b].isNew)) - Number(Boolean(subjects[a].isNew))).forEach((subjectId, index) => {
+      fragment.appendChild(createCard(subjectId, courseId, getCourseColor(courseId, subjectId), index));
     });
 
     grid.replaceChildren(fragment);

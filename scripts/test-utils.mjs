@@ -17,10 +17,10 @@ const subjects = context.window.DEVQUEST_SUBJECTS;
 const courses = context.window.DEVQUEST_COURSES;
 const featuredSubjects = context.window.DEVQUEST_FEATURED_SUBJECTS;
 
-assert.equal(Object.keys(subjects).length, 13);
-assert.equal(courses.ADS.subjects.length, 10);
-assert.equal(courses.CC.subjects.length, 9);
-assert.deepEqual(Array.from(featuredSubjects, ({ subjectId, courseId }) => `${subjectId}:${courseId}`), ["arquiteturasistemas:ADS", "fundamentosredes:ADS", "governancati:ADS", "engenharia:CC"]);
+assert.equal(Object.keys(subjects).length, 18);
+assert.equal(courses.ADS.subjects.length, 13);
+assert.equal(courses.CC.subjects.length, 11);
+assert.deepEqual(Array.from(featuredSubjects, ({ subjectId, courseId }) => `${subjectId}:${courseId}`), ["estruturasdados2:CC", "algebralinear:CC", "empreendedorismo:ADS", "apoiodecisao:ADS", "segurancainformacao:ADS"]);
 
 assert.equal(answersMatch("|", ">"), false);
 assert.equal(answersMatch("// Comentário", "# Comentário"), false);

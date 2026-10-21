@@ -1,0 +1,530 @@
+{
+  "apoiodecisao": [
+    {
+      "titulo": "",
+      "descricao": "As decisões sobre as atividades diárias das empresas, onde as tarefas, os recursos e os objetivos são\npredefinidos e altamente estruturados consideradas\na base do organograma e que irão demandar que o administrador tenha a\nvisão de como a organização funciona no dia a dia, são decisões do tipo:\nMarque a opção correta.",
+      "opcoes": [
+        "operacionais.",
+        "táticas.",
+        "estratégicas.",
+        "difusas.",
+        "pervasivas."
+      ],
+      "resposta": "operacionais.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 3,
+        "arquivo": 3,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Um problema cuja ocorrência é inédita ou cheia de incertezas, que não possui definição clara e\nque as etapas a serem cumpridas para a obtenção dos resultados não estejam bem delineadas é\num problema do tipo:\nSelecione a opção correta:",
+      "opcoes": [
+        "não estruturado.",
+        "sintético.",
+        "analítico.",
+        "estruturado.",
+        "semi-estruturado."
+      ],
+      "resposta": "não estruturado.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 4,
+        "arquivo": 3,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Para a mineração de dados usamos uma grande variedade de algorítmos estatísticos.\nAssinale aquele que representa um método estatístico básico",
+      "opcoes": [
+        "Algoritmo de regressão",
+        "Algorítmo de árvore de decisão",
+        "Algorítmo de clusterização",
+        "Algorítmo de lógica difusa",
+        "Algorítmos genéticos"
+      ],
+      "resposta": "Algoritmo de regressão",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 5,
+        "arquivo": 3,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "A tomada de decisão é um processo que necessita de entradas (informação) para que ocorra uma\nboa saída (tomada de decisão). Assim sendo, em um processo de decisão organizacional, o foco da\ntomada de decisão necessita ser:\nMarque a alternativa correta.",
+      "opcoes": [
+        "orientada aos objetivos organizacionais.",
+        "orientada para custos.",
+        "orientada para a maximização de retornos locais.",
+        "orientada para as funções de direção e controle.",
+        "orientada para as funções de planejamento e organização."
+      ],
+      "resposta": "orientada aos objetivos organizacionais.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 6,
+        "arquivo": 3,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "A arquitetura de um data warehouse é composta por três camadas princpais: camada inferior,\nintermediária e superior. Essas camadas desempenham funções específicas que vão desde a coleta e\ntransformação de dados até a disponibilização de uma interface amigáve para análise, Sobre essas\ncamadas, analise as seguintes descrições:\nA camada inferior é responsável pelo ETL (Extract, Transform & Load) ou ELT (Extract, Load &\nTransform).\nA camada intermediária inclui o processamento analítico online (OLAP).\nA camada superior oferece interfaces para relatórios e consultas de usuários.\nCom base nessas informações, qual alternativa descreve corretamente uma das funções dessas\ncamadas?",
+      "opcoes": [
+        "A camada intermediária armazena dados históricos não estruturados.",
+        "A camada inferior é responsável pelo processamento OLAP.",
+        "O ETL é usado exclusivamente na camada superior.",
+        "A camada superior fornece uma interface amigável para análises.",
+        "A camada intermediária coleta e transforma dados de várias fontes."
+      ],
+      "resposta": "A camada superior fornece uma interface amigável para análises.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 7,
+        "arquivo": 3,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "De acordo com o nosso Tópico 07 (Inteligência de Negócios (BI) e Sistemas de Suporte à Decisão),\nselecione à opção correta sobre quais são os quatro mais básicos componentes da inteligência de\nnegócios.",
+      "opcoes": [
+        "a) Os próprios dados (dados brutos), o Data Warehouse, a parte de acesso, análise e apresentação\nde dados e, finalmente, o painel de dados e relatórios.",
+        "a) Os próprios dados (dados brutos), o ETL, o Data Warehouse e o Data Lake.",
+        "a) O Data Warehouse,o Data Lake e a parte de acesso, análise e apresentação de dados e,\nfinalmente, o painel de dados e relatórios.",
+        "a) O Data Warehouse, o Data Mart, o Data Lake e, finalmente, o painel de dados e relatórios.",
+        "a) Nenhuma das opções anteriores."
+      ],
+      "resposta": "a) Os próprios dados (dados brutos), o Data Warehouse, a parte de acesso, análise e apresentação\nde dados e, finalmente, o painel de dados e relatórios.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 8,
+        "arquivo": 3,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Quais são os 5 Vs do Big Data?",
+      "opcoes": [
+        "Volume, variedade, velocidade, variabilidade e veracidade",
+        "Volume, variância, velocidade, variabilidade e veracidade",
+        "Verdade, velocidade, variabilidade, variância e volume",
+        "Volatilidade, Veracidade, Vulnerabilidade, Verdade e Volume",
+        "vulnerabilidade, verdade, volume, variabilidade e veracidade"
+      ],
+      "resposta": "Volume, variedade, velocidade, variabilidade e veracidade",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 9,
+        "arquivo": 3,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Os data warehouses oferecem benefícios estratégicos para as organizações, permitindo análises\naprofundadas e suporte à tomada de decisão. Um desses benefícios é a eliminação de redundâncias\ne a padronização de dados, o que garante maior precisão nas análises. Considerando o texto, qual\ndas opções abaixo representa corretamente um benefício proporcionado por um data warehouse?",
+      "opcoes": [
+        "Atualização em tempo real dos dados de sistemas operacionais.",
+        "Limitação na integração de dados de diferentes fontes.",
+        "Exclusividade para armazenamento local em mainframes.",
+        "Armazenamento de dados específicos para um único aplicativo.",
+        "Eliminação de redundâncias e padronização de dados."
+      ],
+      "resposta": "Eliminação de redundâncias e padronização de dados.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 10,
+        "arquivo": 3,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Um Sistema de Apoio a Decisão (SAD) é destinado a auxiliar os tomadores de decisão a endereçar\nresoluções para problemas dos tipos:\nMarque a opção correta:",
+      "opcoes": [
+        "semi-estruturados e não estruturados.",
+        "semi-estruturados e estruturados.",
+        "estruturados e não estruturados.",
+        "semi-estruturados e analíticos.",
+        "estruturados e analíticos."
+      ],
+      "resposta": "semi-estruturados e não estruturados.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 11,
+        "arquivo": 3,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "De acordo com Chiavenato (2014) um dos elementos presentes no processo decisório é o estado de\nnatureza, Este elemento corresponde:\nMarque a opção correta:",
+      "opcoes": [
+        "as condições de incerteza, risco ou certeza que existem no ambiente de decisão que o tomador de decisão\ndeve enfrentar.",
+        "?aos aspectos do ambiente que envolve o tomador de decisão, muitos dos quais estão fora do seu controle,\nconhecimento ou compreensão e que afetam a sua escolha.",
+        "ao curso de ação que o tomador de decisão escolhe para melhor atingir os objetivos.?",
+        "a consequência ou resultante de uma determinada estratégia.",
+        "pessoa ou grupo que faz uma opção entre várias alternativas."
+      ],
+      "resposta": "as condições de incerteza, risco ou certeza que existem no ambiente de decisão que o tomador de decisão\ndeve enfrentar.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 12,
+        "arquivo": 3,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "No contexto de data warehousing, o processo de ETL (Extract,\nTransform & Load) é essencial para consolidar dados\nprovenientes de múltiplas fontes. Ele envolve etapas de\nextração dos dados, transformação para padronização e\ncarregamento no data warehouse. Esse processo é amplamente\nutilizado em sistemas locais e estruturados. Qual é o significado\ncorreto da sigla ETL?",
+      "opcoes": [
+        "Extract, Transfer & Load",
+        "Extract, Transform & Load",
+        "Explore, Transform & Load",
+        "Extract, Transform & Link",
+        "Extract, Translate & Load"
+      ],
+      "resposta": "Extract, Transform & Load",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 13,
+        "arquivo": 3,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "De acordo com Herbert Simon (1977), o processo de tomada de\ndecisão pode ser descrito em quatro fases.\nSelecione a opção que traz corretamente as fases elencadas\npelo autor.\nMarque UMA opção.",
+      "opcoes": [
+        "Inteligência — Design — Escolha — Implementação.",
+        "Elaboração — Seleção — Análise — Escolha.",
+        "Seleção — Elaboração — Análise e Escolha.",
+        "Seleção — Análise — Escolha — Implementação.",
+        "Design — Escolha — Seleção e Implementação."
+      ],
+      "resposta": "Inteligência — Design — Escolha — Implementação.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 14,
+        "arquivo": 3,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Para a mineração de dados usamos uma grande variedade de\ntécnicas.\nAssinale aquela que utiliza um algoritmo de MapReducing",
+      "opcoes": [
+        "Lógica Difusa",
+        "Regressão linear",
+        "Clustering",
+        "Partitioning",
+        "Assembling"
+      ],
+      "resposta": "Lógica Difusa",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 15,
+        "arquivo": 3,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "São fatores que mostram influência decisiva no que diz respeito\nao processo de tomada de decisão:\n(1) sua orientação para objetivos\n(2) sua condição pervasiva\n(3) seu caráter intuitivo\n(4) seu caráter de exercício intelectual\n(5) o fato de ser um processo descontínuo:\nEscolha a opção que denota corretamente os fatores que\ninfluenciam o processo de tomada de decisão.\nEscolha UMA opção:",
+      "opcoes": [
+        "1–2–4.",
+        "1–2–3.",
+        "2–3–4.",
+        "3–4–5.",
+        "1–2–5."
+      ],
+      "resposta": "1–2–4.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 16,
+        "arquivo": 3,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Conforme Machado (2010), existem três tipos diferentes de\n\ngerenciadores de processo: gerenciador de carga (load\n\nmanager), gerenciador de armazenamento (warehouse\n\nmanager) e gerenciador de consultas (query manager). Qual a\n\nfunção de um Load Manager?",
+      "opcoes": [
+        "Ele executa as operações necessárias, para extrair e\ncarregar os dados no banco de dados. O tamanho e a\ncomplexidade de um load manager variam entre\nsoluções específicas de um data warehouse para\noutro. Em termos de arquitetura, o load manager\nexecuta as seguintes funções: extrair dados do\nsistema de origem, carregar rapidamente os dados\nextraídos no armazenamento de dados temporário e\nrealizar transformações simples em uma estrutura\nsemelhante à do armazém de dados.",
+        "Ele é responsável por direcionar as consultas às\ntabelas adequadas. Ao fazê-lo, ele acelera a\nsolicitação de consulta e o processo de resposta.\nAlém disso,é responsável por agendar a execução das\nconsultas postadas pelo usuário.",
+        "Ele é responsável por tudo o que se relaciona\ndiretamente à armazenagem. Ele consiste em um\nsoftware de sistema de terceiros (os chamados \"third-\nparty software”\"), os quais são programas em C e em\nShell Script.",
+        "Ele é o gerente que é responsável pela carga de dados\nem um Data Warehouse",
+        "Ele é o gerente que é responsável pela consulta de\ndados em um Data Warehouse"
+      ],
+      "resposta": "Ele executa as operações necessárias, para extrair e\ncarregar os dados no banco de dados. O tamanho e a\ncomplexidade de um load manager variam entre\nsoluções específicas de um data warehouse para\noutro. Em termos de arquitetura, o load manager\nexecuta as seguintes funções: extrair dados do\nsistema de origem, carregar rapidamente os dados\nextraídos no armazenamento de dados temporário e\nrealizar transformações simples em uma estrutura\nsemelhante à do armazém de dados.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 17,
+        "arquivo": 3,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Em relação ao Big Data, escolha a opção que corretamente\ndescreve quanto é um zettabyte",
+      "opcoes": [
+        "um sextilhão de bytes",
+        "um quatilhão de bytes",
+        "um bilhão de bytes",
+        "um octatilhão de bytes",
+        "um sextilhão de Gigabytes"
+      ],
+      "resposta": "um sextilhão de bytes",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 18,
+        "arquivo": 3,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Karahoca (2012) considera uma série de seis etapas de desenvolvimento para sistemas de\ninteligência de negócios.\nQual etapa corresponde a análise dos requisitos do negócio?",
+      "opcoes": [
+        "Etapa 3",
+        "Etapa 1",
+        "Etapa 2",
+        "Etapa 4",
+        "Etapa 5"
+      ],
+      "resposta": "Etapa 3",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 19,
+        "arquivo": 3,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Um problema cuja ocorrência é rotineira, que possui definição clara e que as etapas a serem cumpridas para a\nobtenção dos resultados estejam bem delineadas é um problema do tipo:\nSelecione a opção correta:",
+      "opcoes": [
+        "estruturado.",
+        "pervasivo.",
+        "difuso.",
+        "não estruturado.",
+        "analítico."
+      ],
+      "resposta": "estruturado.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 20,
+        "arquivo": 3,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "O conceito de data warehouse é amplamente utilizado no campo de TI e se refere a um sistema que\nagrega dados de múltiplas fontes. Diferente de outros tipos de armazenamento, como bancos de\ndados convencionais, o data warehouse é projetado para dar suporte a análises avançadas,\nmineração de dados e aprendizado de máquina. Ele se destaca por armazenar grandes volumes de\ndados históricos e fornecer uma base para decisões estratégicas. Diante disso, qual das opções\nabaixo descreve melhor a função de um data warehouse?",
+      "opcoes": [
+        "Um banco de dados usado exclusivamente para transações em tempo real",
+        "Um sistema que armazena dados de múltiplas fontes para análises avançadas",
+        "Um repositório que armazena apenas dados financeiros de uma empresa",
+        "Um sistema limitado ao armazenamento de big data não estruturado",
+        "Uma ferramenta de backup de dados operacionais"
+      ],
+      "resposta": "Um sistema que armazena dados de múltiplas fontes para análises avançadas",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 21,
+        "arquivo": 3,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Quais são os três tipos principais de data warehouses?",
+      "opcoes": [
+        "Enterprise data warehouse (EDW), Armazenamento de dados operacionais (ODS) e Data mart.",
+        "Data warehouse (DW), Data mart (DM) e Data Lake (DL).",
+        "Enterprise data warehouse (EDW), Armazenamento de dados operacionais (ODS) e Power BI",
+        "Data warehouse (DW), Power Query e Power Pivot",
+        "Armazenamento de dados operacionais (ODS), Power BI e Power View"
+      ],
+      "resposta": "Enterprise data warehouse (EDW), Armazenamento de dados operacionais (ODS) e Data mart.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 22,
+        "arquivo": 3,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Um sistema que enfatiza a flexibilidade, adaptabilidade e respostas rápidas que permite que os\nusuários inicializem e controlem os inputs (entradas) e outputs (saídas), oferecendo suporte e\najuda para a solução de problemas cujas soluções podem não estar especificadas em seu\ndesenvolvimento e que pode usar sofisticados modelos de análise e modelagem de dados é um\nsistema de informação categorizado como:\nMarque a opção correta",
+      "opcoes": [
+        "estratégico.",
+        "tático.",
+        "operacional.",
+        "especialista,",
+        "transacional."
+      ],
+      "resposta": "estratégico.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 23,
+        "arquivo": 3,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Um data mart é um subconjunto de um data warehouse, projetado para atender às necessidades\nespecíficas de um departamento ou área de negócios. Por conter um volume menor e mais focado\nde dados, ele permite análises mais rápidas e precisas. Qual das alternativas define corretamente um\ndata mart?",
+      "opcoes": [
+        "Um modelo OLAP que permite consultas ad-hoc.",
+        "Um banco de dados relacional focado em transações rápidas.",
+        "Um sistema de armazenamento de dados estruturados e não estruturados.",
+        "Um subconjunto de um data warehouse projetado para um departamento específico.",
+        "Um sistema exclusivo para análise de big data."
+      ],
+      "resposta": "Um subconjunto de um data warehouse projetado para um departamento específico.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 24,
+        "arquivo": 3,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Associe cada sistema a respectiva característica:\n(1) Sistemas informativos\n(2) Sistemas de data mining\n(3) Sistemas de gestão de conhecimento\n(4) Sistemas especialistas\n( ) Codificam o conhecimento humano em forma de regras “se/então” e processam essas regras\npara emitir um diagnóstico ou fazer uma recomendação.\n( ) Utilizam sofisticadas técnicas estatísticas para encontrar padrões e relações.\n( ) Integram e processam dados, classificando, agrupando, resumindo e formatando. Produzem,\nadministram e fornecem relatórios.\n( ) Compartilham conhecimentos sobre produtos, formas de uso dos produtos, melhores práticas,\netc., entre funcionários, clientes e outros.\nMarque a opção correta.",
+      "opcoes": [
+        "4–2–1–3",
+        "1–3–4–2",
+        "3–4–2–1",
+        "2–3–1–4",
+        "4–1–3–2"
+      ],
+      "resposta": "4–2–1–3",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 25,
+        "arquivo": 3,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Um sistema de informação (SI) que fornece informações sobre o desempenho da organização\ngerando respostas e relatórios urgentes, importantes, periódicos ou restritos em formato fixo pré-\nespecificado a partir de informações produzidas por extração ou manipulação dos dados\ncorporativos é um SI classificado como:\nSelecione a opção correta:",
+      "opcoes": [
+        "Sistema de Informação Gerencial",
+        "Sistema de Apoio a Decisão",
+        "Sistema de Suporte a Transações",
+        "Sistema de Processamento de Transações",
+        "Sistema de Business Inteligence"
+      ],
+      "resposta": "Sistema de Informação Gerencial",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 26,
+        "arquivo": 3,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Quais são os três tipos principais de data warehouses?",
+      "opcoes": [
+        "Enterprise data warehouse (EDW), Armazenamento de dados operacionais (ODS) e Data mart.",
+        "Data warehouse (DW), Data mart (DM) e Data Lake (DL).",
+        "Enterprise data warehouse (EDW), Armazenamento de dados operacionais (ODS) e Power BI",
+        "Data warehouse (DW), Power Query e Power Pivot",
+        "Armazenamento de dados operacionais (ODS), Power BI e Power View"
+      ],
+      "resposta": "Enterprise data warehouse (EDW), Armazenamento de dados operacionais (ODS) e Data mart.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 27,
+        "arquivo": 3,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Dentre as vantagens do uso do MOLAP marque aquela que se refere a adaptabilidade ao\ncrescimento da organização",
+      "opcoes": [
+        "Utilizar mecanismos de armazenamento multidimensional baseados em matriz, com alta\neficiência de dados e escalabilidade",
+        "Trabalhar com dados que ficam armazenados em sistemas de tabelas relacionais",
+        "Gerar dados agregados através consultas SQL",
+        "Necessitar de grande capacidade de processamento",
+        "O MOLAP é mais escalável que o ROLAP"
+      ],
+      "resposta": "Utilizar mecanismos de armazenamento multidimensional baseados em matriz, com alta\neficiência de dados e escalabilidade",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 28,
+        "arquivo": 3,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Dentre as vantagens do uso do ROLAP\nmarque aquela que se refere a\nadaptabilidade ao crescimento da\norganização",
+      "opcoes": [
+        "Alta eficiência de dados e\nescalabilidade",
+        "demanda elevada por recursos",
+        "desempenho de consulta rápida devido\nao uso de dados agregados usando\nSQL",
+        "Utilizar mecanismos de\narmazenamento multidimensional\nbaseados em matriz",
+        "Quanto maior o banco mais rápidas as\nconsultas"
+      ],
+      "resposta": "Alta eficiência de dados e\nescalabilidade",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 29,
+        "arquivo": 3,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "O que é um Data Mart?\nMArque a opção correta :",
+      "opcoes": [
+        "É um subconjunto do Data Warehouse - porém, um conjunto \"selecionado\" de acordo com a visão\nde área de negócios que se quer ter.",
+        "É um subconjunto do Data Warehouse - porém, um conjunto onde são colocados os dados que\nsão pouco utilizados.",
+        "É um subconjunto do Data Warehouse - porém, um conjunto onde são colocados os dados que\nsão muito utilizados, fazendo um papel de cache de performance.",
+        "É um grande repositório de dados que contém vários Data Warehouses.",
+        "É um sistema de armazemento de grandes quantidades de dados brutos."
+      ],
+      "resposta": "É um subconjunto do Data Warehouse - porém, um conjunto \"selecionado\" de acordo com a visão\nde área de negócios que se quer ter.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 30,
+        "arquivo": 3,
+        "bloco": 1
+      }
+    }
+  ],
+  "discursivas": [
+    {
+      "titulo": "Material discursivo · página 1",
+      "pagina": 1,
+      "partes": [
+        {
+          "tipo": "texto",
+          "texto": "Descrição\n\nQual a principal diferença entre os data lakes e os data warehouses ?\n\nResposta Discursiva\n\ndata lakes, armazena (dados brutos) e não estruturados dado mais flexibilidade. data warehouses,\narmazena dados estruturados processando e otimizando para analize rapida.\n\nComentário da Resposta\n\nDescrição\n\nEm quais problemas normalmente são utilizados os Algorítmos Genéticos?\n\nResposta Discursiva\n\nOs algoritmos genéticos são métodos \"espertos\", utilizados para obter resultados confiáveis através\nda solução de problemas complexos, como problemas de otimização e busca. Normalmente são\naplicados em (1) problemas em árvores de decisão, otimizando seu desempenho, (2) na resolução\nautomática de quebra-cabeças como o Sudoku, entre outros.\n\nComentário da Resposta"
+        }
+      ]
+    },
+    {
+      "titulo": "Material discursivo · página 2",
+      "pagina": 2,
+      "partes": [
+        {
+          "tipo": "texto",
+          "texto": "Descrição\nExistem três tipos básicos de data marts:\n- dependentes;\n- independentes; e\n- híbridos.\nQual a principal diferença entre eles?\nResposta Discursiva\nData Mart Dependentes: depende apenas de dados estruturados e organizados do data warehouse.\nData Mart Independentes: por ser independente ele é capaz de pegar dados de fora e de forma\nindependente. Data Mart Híbridos: obtem dados hibridos tanto do data warehouse e dados de\nterceiro.\nComentário da Resposta\nDescrição\nQua a principal função do uso do SQL Server Analysis (SSQs) no que tange a superar aslimitações dos bancos de\ndados relacionais?\nResposta Discursiva\nPrincipal função seria o uso do MOLAP na qual usa mecanismo de armazenamento multidimensional baseado em\nmatriz com alta eficiencia e escalabilidade.\nComentário da Resposta"
+        }
+      ]
+    }
+  ]
+}

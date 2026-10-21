@@ -4,6 +4,12 @@ import { fileURLToPath } from "node:url";
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const subjectFiles = {
+  "data/estruturasdados2.json": "estruturasdados2",
+  "data/algebralinear.json": "algebralinear",
+  "data/empreendedorismo.json": "empreendedorismo",
+  "data/apoiodecisao.json": "apoiodecisao",
+  "data/segurancainformacao.json": "segurancainformacao",
+
   "data/frontend.json": "frontend",
   "data/ux.json": "uxui",
   "data/engenharia.json": "engenharia",
@@ -46,6 +52,11 @@ for (const [relativeFile, jsonKey] of Object.entries(subjectFiles)) {
     continue;
   }
 
+  for (const page of data.discursivas || []) {
+    for (const part of page.partes || []) {
+      if (part.tipo === "imagem" && !fs.existsSync(path.join(projectRoot, part.src))) errors.push(`${relativeFile}: figura discursiva ausente.`);
+    }
+  }
   totalQuestions += questions.length;
 
   questions.forEach((question, index) => {
@@ -79,7 +90,7 @@ for (const [relativeFile, jsonKey] of Object.entries(subjectFiles)) {
       report(relativeFile, number, "há uma alternativa vazia.");
     }
 
-    if (new Set(options).size !== options.length) {
+    if (new Set(options).size !== options.length && !question.alternativasRepetidasNaFonte) {
       report(relativeFile, number, "há alternativas duplicadas.");
     }
 

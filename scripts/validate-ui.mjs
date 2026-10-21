@@ -61,14 +61,9 @@ for (const requiredId of ["trilhas", "ads", "adsCardsGrid", "cc", "ccCardsGrid"]
   if (!catalogSource.includes(`id="${requiredId}"`)) errors.push(`disciplinas.html: #${requiredId} ausente.`);
 }
 
-const expectedFeatured = [
-  { subjectId: "arquiteturasistemas", courseId: "ADS" },
-  { subjectId: "fundamentosredes", courseId: "ADS" },
-  { subjectId: "governancati", courseId: "ADS" },
-  { subjectId: "engenharia", courseId: "CC" }
-];
+const expectedFeatured = [{"subjectId": "estruturasdados2", "courseId": "CC"}, {"subjectId": "algebralinear", "courseId": "CC"}, {"subjectId": "empreendedorismo", "courseId": "ADS"}, {"subjectId": "apoiodecisao", "courseId": "ADS"}, {"subjectId": "segurancainformacao", "courseId": "ADS"}];
 if (JSON.stringify(featuredSubjects) !== JSON.stringify(expectedFeatured)) {
-  errors.push("A página inicial precisa destacar as três matérias de ADS e Engenharia de Software de CC.");
+  errors.push("A página inicial precisa destacar as cinco novas matérias dos PDFs.");
 }
 
 for (const { subjectId, courseId } of featuredSubjects || []) {
@@ -90,4 +85,4 @@ if (errors.length > 0) {
   process.exit(1);
 }
 
-console.log(`Interface validada: 4 destaques na página inicial, ${colors.length} cards com cores exclusivas no catálogo e 2 trilhas visíveis.`);
+console.log(`Interface validada: 5 destaques na página inicial, ${colors.length} cards com cores exclusivas no catálogo e 2 trilhas visíveis.`);

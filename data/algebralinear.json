@@ -1,0 +1,528 @@
+{
+  "algebralinear": [
+    {
+      "titulo": "",
+      "descricao": "Um plano do espaço ℝ³ é definido pelos pontos A(1,2,−2), B(2,1,−3) e C(−1,−2,6). Um de seus vetores normais é o vetor:",
+      "opcoes": [
+        "(-2,-1,-1)",
+        "(2,-1,-1)",
+        "(12,6,-6)",
+        "(-12,6,6)",
+        "(-12,-6,6)"
+      ],
+      "resposta": "(-2,-1,-1)",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 1,
+        "arquivo": 1,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Dados os vetores u⃗ = (−3,2,1) e v⃗ = (3,6,3), obtenha o vetor x⃗ tal que 3u⃗ − x⃗ = 2x⃗ + 5v⃗.",
+      "opcoes": [
+        "(8,4,8)",
+        "(-4,-8,-8)",
+        "(-8,-4,-8)",
+        "(8,8,4)",
+        "(-8,-8,-4)"
+      ],
+      "resposta": "(-8,-8,-4)",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 2,
+        "arquivo": 1,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Para quais valores de k o conjunto {(1,0,2), (1,1,1), (k,2,0)} é linearmente independente (LI)?",
+      "opcoes": [
+        "k ≠ 2",
+        "k ≠ 1",
+        "k ≠ 0",
+        "k ≠ −1",
+        "k ≠ −2"
+      ],
+      "resposta": "k ≠ 1",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 3,
+        "arquivo": 1,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Para que valor de k o vetor (2,20,k) é combinação linear de u = (−2,1,−5) e v = (4,5,−3)?",
+      "opcoes": [
+        "5",
+        "25",
+        "3",
+        "35",
+        "-34"
+      ],
+      "resposta": "-34",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 4,
+        "arquivo": 1,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Estudamos nesse período o produto vetorial de dois vetores. O cálculo da área de um paralelogramo definido por dois vetores é o módulo do produto vetorial desses vetores. Sabendo disso, a área do paralelogramo que tem como lados os vetores u⃗ = (3,−1,1) e v⃗ = (2,0,−1) é igual a:",
+      "opcoes": [
+        "15",
+        "(1,5,2)",
+        "5",
+        "√30",
+        "√15"
+      ],
+      "resposta": "√30",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 5,
+        "arquivo": 1,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Qual dos conjuntos abaixo é uma base do subespaço S = {(x,y,z) ∈ ℝ³ / x − 2y + 3z = 0} ?",
+      "opcoes": [
+        "{(1,2,3),(3,0,1)}",
+        "{(2,1,0),(-3,0,1)}",
+        "{(1,0,0),(0,1,0),(0,0,1)}",
+        "{(-2,2,2),(0,1,1),(1,-2,3)}",
+        "{(1,-2,3),(2,1,0),(3,0,-1),(0,0,0)}"
+      ],
+      "resposta": "{(2,1,0),(-3,0,1)}",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 6,
+        "arquivo": 1,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Qual valor de c encontramos ao resolver o sistema linear\n⎧ a + c = 2\n⎨ 2b − c = −11\n⎩ a + b + c = 0\n?",
+      "opcoes": [
+        "-5",
+        "-2",
+        "7",
+        "5",
+        "-7"
+      ],
+      "resposta": "7",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 7,
+        "arquivo": 1,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Analise as afirmativas:\nI. O conjunto S = {(x,y) / x = y} ⊂ ℝ² com as operações de adição e multiplicação por escalar usuais é um subespaço vetorial do ℝ².\nII. O conjunto S = {(x,y,z) / x = y e z > 0} ⊂ ℝ³ com as operações de adição e multiplicação por escalar usuais é um subespaço vetorial do ℝ³.\nIII. O conjunto S = {(x,y,z) / y = x + 1 e z = x} ⊂ ℝ³ com as operações de adição e multiplicação por escalar usuais é um subespaço vetorial do ℝ³.\nÉ correto apenas o que se afirma em:",
+      "opcoes": [
+        "I",
+        "II",
+        "III",
+        "I e III",
+        "II e III"
+      ],
+      "resposta": "I",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 8,
+        "arquivo": 1,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Qual é o ponto de interseção da reta r:\n⎧ x = 3t\n⎨ y = 1 − 2t\n⎩ z = −t\ncom o plano π: 2x + 3y − 2z − 7 = 0?",
+      "opcoes": [
+        "(6,5,-2)",
+        "(9,-6,-3)",
+        "(-6,7,2)",
+        "(5,-4,-2)",
+        "(6,-5,-2)"
+      ],
+      "resposta": "(6,-5,-2)",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 9,
+        "arquivo": 1,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "As equações paramétricas da reta r que passa por A(−1,2,1) e é simultaneamente ortogonal às retas\nr₁:\n⎧ x = 1 + 4h\n⎨ y = h\n⎩ z = 1 − 2h\ne r₂:\n⎧ x = 4 + 2t\n⎨ y = 1 + t\n⎩ z = 3t\nsão:",
+      "opcoes": [
+        "x = -1 + 5t , y = 2 - 16t e z = 1 + 2t",
+        "x = -1 + 5t , y = 2 - 2t e z = 1 + 16t",
+        "x = 5 - t , y = -16 + 2t e z = 2 + t",
+        "x = -1 - 5t , y = 2 + 8t e z = -1 + 2t",
+        "x = -t , y = 2t e z = 2t"
+      ],
+      "resposta": "x = -1 + 5t , y = 2 - 16t e z = 1 + 2t",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 10,
+        "arquivo": 1,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Estudamos nesse período o produto vetorial de dois vetores. O cálculo da área de um paralelogramo definido por dois vetores é o módulo do produto vetorial desses vetores. Sabendo disso, a área do paralelogramo definido pelos vetores u⃗ = (0,1,−1) e v⃗ = (2,1,4) é igual a:",
+      "opcoes": [
+        "(-5,2,2)",
+        "√30",
+        "11√3",
+        "√33",
+        "3√11"
+      ],
+      "resposta": "√33",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 11,
+        "arquivo": 1,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "O sistema\n⎧ ax + y + 2z = b\n⎨ 2ax − y + 2z = 1\n⎩ 2x + y + 2z = 3\nPode ser representado pela equação matricial:\n⎡ a   1  2 ⎤   ⎡ x ⎤   ⎡ b ⎤\n⎢ 2a −1  2 ⎥ · ⎢ y ⎥ = ⎢ 1 ⎥\n⎣ 2   1  2 ⎦   ⎣ z ⎦   ⎣ 3 ⎦\nonde\n    ⎡ a   1  2 ⎤       ⎡ x ⎤       ⎡ b ⎤\nA = ⎢ 2a −1  2 ⎥ , X = ⎢ y ⎥ e B = ⎢ 1 ⎥ .\n    ⎣ 2   1  2 ⎦       ⎣ z ⎦       ⎣ 3 ⎦\nÉ correto afirmar que:",
+      "opcoes": [
+        "O sistema é possível e determinado (possui solução única) quando a for diferente de 2.",
+        "Quando a = 2 a matriz A se torna invertível (possui matriz inversa).",
+        "O sistema é impossível se a = 2 e b = 3.",
+        "A matriz A não possui inversa para qualquer valor de a e de b, logo o sistema não tem solução.",
+        "O sistema é possível e indeterminado (possui infinitas soluções) quando a for diferente de 2 e b igual a 3."
+      ],
+      "resposta": "O sistema é possível e determinado (possui solução única) quando a for diferente de 2.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 12,
+        "arquivo": 1,
+        "bloco": 1
+      },
+      "descricaoMonoespacada": true
+    },
+    {
+      "titulo": "",
+      "descricao": "O valor de k para que o vetor v = (−1,3,k) pertença ao subespaço S = {(x,y,z) ∈ ℝ³ / x = 2y − z} é igual a:",
+      "opcoes": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "resposta": "7",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 13,
+        "arquivo": 1,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Dado o subespaço S = {(x,y,z) ∈ ℝ³ / x − y + z = 0} e os vetores:\nv₁ = (1,2,1)    v₂ = (3,1,4)    v₃ = (0,1,1)\nv₄ = (−1,1,2)    v₅ = (4,−2,−2)\nÉ correto afirmar que desses 5 vetores os que pertencem ao subespaço S são:",
+      "opcoes": [
+        "v₁, v₃ e v₄",
+        "v₂, v₃ e v₅",
+        "v₁, v₂ e v₃",
+        "v₃, v₄ e v₅",
+        "v₁, v₂, v₃, v₄ e v₅"
+      ],
+      "resposta": "v₁, v₃ e v₄",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 14,
+        "arquivo": 1,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Qual valor de a encontramos ao resolver o sistema linear\n⎧ a − 2b − c = −7\n⎨ 2a − b = 0\n⎩ a + b + 2c = 7\n?",
+      "opcoes": [
+        "2",
+        "7/3",
+        "0",
+        "11/3",
+        "3/7"
+      ],
+      "resposta": "7/3",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 15,
+        "arquivo": 1,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Qual deve ser o valor de m para que os vetores u = mi⃗ + 2j⃗ − 4k⃗ e v⃗ = 2i⃗ + mj⃗ + 3k⃗ sejam ortogonais?",
+      "opcoes": [
+        "-3",
+        "3",
+        "2",
+        "16",
+        "6"
+      ],
+      "resposta": "3",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 16,
+        "arquivo": 1,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "As equações reduzidas da reta r que passa pelo ponto A(4,3,2) e é paralela à reta s:\n⎧ x = 6 + 2t\n⎨ y = −2 − 8t\n⎩ z = 3 − 4t\nsão:",
+      "opcoes": [
+        "y=-4x+19 e z=-2x+10",
+        "y=4x-19 e z=2x-10",
+        "y=-8x+38 e z=-4x+20",
+        "y=4x-19 e z=-2x-10",
+        "y=-4x-15 e z=-2x+20"
+      ],
+      "resposta": "y=-4x+19 e z=-2x+10",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 17,
+        "arquivo": 1,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Qual dos conjuntos abaixo é uma base do subespaço S = {(x,y,z) ∈ ℝ³ / x − 2y + z = 0} ?",
+      "opcoes": [
+        "{(1,-2,1),(0,1,2),(1,0,-1),(0,0,0)}",
+        "{(1,-2,1),(0,1,2),(1,0,-1)}",
+        "{(1,0,0),(0,1,0),(0,0,1)}",
+        "{(2,0,0),(0,0,0)}",
+        "{(0,1,2),(1,0,-1)}"
+      ],
+      "resposta": "{(0,1,2),(1,0,-1)}",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 18,
+        "arquivo": 1,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Duas superfícies planas de um edifício são descritas pelos planos\nπ₁: x − y + z − 3 = 0 e π₂: 2x + y − 4z − 6 = 0\ne se interceptam ao longo de uma linha reta.\nQuais são as equações reduzidas dessa reta?",
+      "opcoes": [
+        "y = x − 6 e z = x − 3",
+        "y = 2x + 6 e z = x + 3",
+        "y = −6 e z = −x + 3",
+        "y = 2x e z = x − 3",
+        "y = 2x − 6 e z = x − 3"
+      ],
+      "resposta": "y = 2x − 6 e z = x − 3",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 19,
+        "arquivo": 1,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Dados os vetores u = (1,-1,1), v = (2,4,-3) e w = (4,0,-1) e o subespaço S = {(x,y,z) ∈ ℝ³ / x + 5y + 4z = 0}, é correto afirmar que:",
+      "opcoes": [
+        "O vetor u não pertence ao subespaço S.",
+        "O vetor v pertence ao subespaço S.",
+        "Os vetores u e v pertencem ao subespaço S.",
+        "Os vetores u e w pertencem ao subespaço S.",
+        "Os vetores v e w pertencem ao subespaço S."
+      ],
+      "resposta": "Os vetores u e w pertencem ao subespaço S.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 20,
+        "arquivo": 1,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Para qual valor de m as retas r₁:\n⎧ y = 2x + 3\n⎩ z = 3x − 1\ne r₂:\n⎧ x = 1 + 2t\n⎨ y = −t\n⎩ z = mt\nsão ortogonais?",
+      "opcoes": [
+        "-3",
+        "3",
+        "não existe",
+        "0",
+        "1"
+      ],
+      "resposta": "0",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 21,
+        "arquivo": 1,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Dados os vetores u⃗ = (−1,3,2) e v⃗ = (2,6,4), o vetor x⃗ tal que\n2u⃗ − x⃗ = 3x⃗ + 5v⃗\né:",
+      "opcoes": [
+        "(3,6,-4)",
+        "(-3,-6,-4)",
+        "(3,-6,-4)",
+        "(-3,6,4)",
+        "(3,4,6)"
+      ],
+      "resposta": "(-3,-6,-4)",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 22,
+        "arquivo": 1,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Qual valor de a encontramos ao resolver o sistema linear\n⎧ a + b + c = 6\n⎨ 2b − c = 5\n⎩ a − b − 3c = 6\n?",
+      "opcoes": [
+        "2",
+        "-9",
+        "5",
+        "11",
+        "-3"
+      ],
+      "resposta": "5",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 23,
+        "arquivo": 1,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Dois satélites estão posicionados nos pontos P(4,1,7) e Q(−1,3,2). Qual é a distância entre esses dois satélites no espaço tridimensional?",
+      "opcoes": [
+        "54",
+        "36",
+        "18",
+        "3√6",
+        "6√3"
+      ],
+      "resposta": "3√6",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 24,
+        "arquivo": 1,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Ao estudarmos plano, vimos a necessidade de termos um ponto e o vetor normal para que pudéssemos escrever sua equação.\nA equação geral do plano π que passa pelos pontos A(−3,−1,0), B(4,2,1) e C(4,3,5) é:",
+      "opcoes": [
+        "3x - y + z = 0",
+        "11x - 28y + 7z + 5 = 0",
+        "x + 3y + z = 0",
+        "11x - 28y + 7z + 38 = 0",
+        "-11x + 28y - 7z + 5 = 0"
+      ],
+      "resposta": "11x - 28y + 7z + 5 = 0",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 25,
+        "arquivo": 1,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Para quais valores de k o conjunto {(-1,0,-2), (1,1,1), (k,-2,0)} é linearmente independente (LI)?",
+      "opcoes": [
+        "k ≠ 2",
+        "k ≠ 1",
+        "k ≠ 0",
+        "k ≠ −1",
+        "k ≠ −2"
+      ],
+      "resposta": "k ≠ −1",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 26,
+        "arquivo": 1,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Para que valor de k o vetor (−2,k,−36) é combinação linear de u = (−2,1,−6) e v = (4,5,−3)?",
+      "opcoes": [
+        "5",
+        "2",
+        "15",
+        "-5",
+        "-10"
+      ],
+      "resposta": "15",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 27,
+        "arquivo": 1,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Qual é o ponto de interseção da reta r:\n⎧ x = 3t\n⎨ y = −1 − 2t\n⎩ z = −t\ncom o plano π: 2x + 3y − 2z − 1 = 0?",
+      "opcoes": [
+        "(6,5,-2)",
+        "(9,-6,-3)",
+        "(-6,7,2)",
+        "(5,-4,-2)",
+        "(6,-5,-2)"
+      ],
+      "resposta": "(6,-5,-2)",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 28,
+        "arquivo": 1,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Ao estudarmos plano, vimos a necessidade de termos um ponto e o vetor normal para que pudéssemos escrever sua equação.\nA equação geral do plano π que contém os pontos A(2,0,−1), B(−2,2,0) e C(−1,3,4) é:",
+      "opcoes": [
+        "7x + 17y - 6z - 20 = 0",
+        "7x - 17y - 6z + 14 = 0",
+        "7x + 7y - 6z - 14 = 0",
+        "7x + 7y - 6z + 20 = 0",
+        "x + y - 2z - 2 = 0"
+      ],
+      "resposta": "7x + 17y - 6z - 20 = 0",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 29,
+        "arquivo": 1,
+        "bloco": 1
+      }
+    }
+  ],
+  "discursivas": []
+}

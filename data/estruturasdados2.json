@@ -1,0 +1,547 @@
+{
+  "estruturasdados2": [
+    {
+      "titulo": "",
+      "descricao": "Heapsort deseja ordenar em ORDEM CRESCENTE. Qual variante produz essa ordem diretamente ao\nfinal do laço principal?",
+      "opcoes": [
+        "Construir max-heap e remover máximo movendo para o fim do arranjo.",
+        "Construir min-heap e remover mínimo movendo para o fim do arranjo.",
+        "Construir min-heap e inverter o arranjo ao final.",
+        "Construir max-heap e inverter o arranjo ao final.",
+        "Qualquer uma: ambas geram crescente diretamente."
+      ],
+      "resposta": "Construir max-heap e remover máximo movendo para o fim do arranjo.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 1,
+        "arquivo": 0,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Diferentes implementações de Tries buscam otimizar o uso de espaço. À implementação \"R-\nWAY\" e a \"Ternary Search Tree (TST)\" são duas abordagens distintas.\nCom base nessas implementações, avalie as seguintes asserções e a relação proposta entre elas.\nI. A implementação R-WAY pode levar a um grande desperdício de espaço, pois cada\nnó de desvio precisa alocar ponteiros para todos os símbolos do alfabeto, mesmo\nque muitos deles não sejam utilizados.\nPORQUE\nII. A Ternary Search Tree (TST) melhora a eficiência de espaço em comparação com a\nR-WAY, alocando apenas três ponteiros por nó: um para o caractere seguinte (filho\ndo meio) e dois para caracteres alternativos no mesmo nível (filhos da esquerda e\ndireita).\nA respeito dessas asserções, assinale a alternativa correta.",
+      "opcoes": [
+        "As asserções I e II são proposições verdadeiras, mas a II não é justificativa da I.",
+        "As asserções I e II são proposições verdadeiras, e a II é justificativa da I.",
+        "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.",
+        "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira.",
+        "As asserções I e II são proposições falsas."
+      ],
+      "resposta": "As asserções I e II são proposições verdadeiras, mas a II não é justificativa da I.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 2,
+        "arquivo": 0,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "A Intercalação Polifásica e a Intercalação Balanceada são duas abordagens para a fase de\nintercalação na ordenação externa.\nCom base no texto, avalie as seguintes asserções e a relação proposta entre elas.\nI. A Intercalação Polifásica é uma otimização sobre a Intercalação Balanceada.\nPORQUE\nII. Ela elimina a necessidade de copiar o conteúdo da fita de saída para as fitas de\nentrada a cada passada, redistribuindo os blocos de forma inteligente para que uma\nfita de entrada sempre se torne a nova fita de saída.\nA respeito dessas asserções, assinale a alternativa correta.",
+      "opcoes": [
+        "As asserções I e II são proposições verdadeiras, e a II é uma justificativa da I.",
+        "As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa da I.",
+        "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.",
+        "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira.",
+        "As asserções I e II são proposições falsas."
+      ],
+      "resposta": "As asserções I e II são proposições verdadeiras, e a II é uma justificativa da I.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 3,
+        "arquivo": 0,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "As operações de inserção e remoção em uma Árvore Rubro-Negra podem violar suas\npropriedades, exigindo procedimentos de correção, como rotações e recolorações. Sobre o\nprocesso de inserção, avalie as afirmações a seguir.\n\nI. Um novo nó é sempre inserido com a cor vermelha para não violar a propriedade\nde que todos os caminhos de um nó a uma folha devem ter o mesmo número de nós\npretos.\n\nII. Se, após a inserção de um nó vermelho x, seu tio também for vermelho, o\nprocedimento de correção envolve apenas rotações para rebalancear a árvore.\n\nIII. Se a inserção ocorrer em uma árvore vazia, o novo nó é inserido como vermelho e\nimediatamente recolorido para preto para satisfazer a propriedade de que a raiz deve\nser preta.\n\nÉ correto o que se afirma em:",
+      "opcoes": [
+        "I e III, apenas.",
+        "I, apenas.",
+        "II, apenas.",
+        "II e III, apenas.",
+        "I, II e III."
+      ],
+      "resposta": "I e III, apenas.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 4,
+        "arquivo": 0,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Diferentes algoritmos de substituição de páginas possuem vantagens e desvantagens.\nAvalie as afirmativas abaixo sobre os algoritmos LRU, LFU e FIFO.\nI. O algoritmo LFU requer o registro do número de acessos a cada página, o que\nrepresenta um custo adicional.\nII. O algoritmo FIFO pode remover uma página muito referenciada simplesmente\nporque ela foi a primeira a ser carregada na memória principal.\nIII. O algoritmo LRU é considerado o mais utilizado e pode ser implementado com uma\nfila para registrar a ordem de uso recente das páginas.\nÉ correto o que se afirma em:",
+      "opcoes": [
+        "I, apenas.",
+        "II, apenas.",
+        "I e II, apenas.",
+        "II e III, apenas.",
+        "I, II e III."
+      ],
+      "resposta": "I, II e III.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 5,
+        "arquivo": 0,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Na implementação \"Filho Esquerdo — Irmão Direito\", para percorrer todos os filhos de um nó P,\nqual seria a sequência correta de operações?",
+      "opcoes": [
+        "Acessar P->filho, que é o primeiro filho, e então seguir a cadeia de ponteiros irmao até\nencontrar NULL.",
+        "Acessar P->filho, e então seguir a cadeia de P->filho->filho até encontrar NULL.",
+        "Iterar sobre um vetor de filhos armazenado em P.",
+        "Usar um ponteiro irmao a partir de P para encontrar o primeiro filho.",
+        "É necessário usar recursão dupla, uma para filhos e outra para irmãos."
+      ],
+      "resposta": "Acessar P->filho, que é o primeiro filho, e então seguir a cadeia de ponteiros irmao até\nencontrar NULL.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 6,
+        "arquivo": 0,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "As Árvores Digitais Binárias são um caso especial de Tries onde o alfabeto é {0, 1}. Uma de\nsuas variações é a Árvore Binária de Prefixo. Analise as afirmativas a seguir sobre essas\nestruturas.\n\nI. Em uma Árvore Digital Binária, a seleção de um filho esquerdo de um nó\nrepresenta o dígito 0, enquanto a seleção do filho direito representa o dígito 1.\n\nII. Uma Árvore Binária de Prefixo é uma Árvore Digital Binária com a restrição de\nque nenhum código (chave) armazenado pode ser prefixo de outro.\n\nIII. Em uma Árvore Binária de Prefixo, há uma correspondência direta entre o conjunto\nde chaves e os nós internos da árvore, enquanto as folhas representam caminhos\nincompletos.\n\nÉ correto o que se afirma em:",
+      "opcoes": [
+        "I e II, apenas.",
+        "III, apenas.",
+        "II e III, apenas.",
+        "I e III, apenas.",
+        "I, II e III."
+      ],
+      "resposta": "I e II, apenas.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 7,
+        "arquivo": 0,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Na \"Intercalação Balanceada de f-caminhos\" com fitas magnéticas, qual é a configuração usual\ndo número de fitas utilizadas?",
+      "opcoes": [
+        "f fitas no total: f-1 para entrada e 1 para saída.",
+        "f+1 fitas, sendo que uma delas é sempre a fita de saída.",
+        "2f fitas, onde f fitas são usadas para entrada e f para saída, com papéis que se alternam a cada passada.",
+        "Apenas 2 fitas: uma para leitura e outra para escrita, independentemente do valor de f.",
+        "Um número fixo de 6 fitas, como usado no exemplo do material de estudo."
+      ],
+      "resposta": "2f fitas, onde f fitas são usadas para entrada e f para saída, com papéis que se alternam a cada passada.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 8,
+        "arquivo": 0,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Ao utilizar a \"Intercalação Balanceada de f-caminhos\" para ordenar n registros com uma\n\nmemória para m registros, qual das seguintes afirmativas sobre o desempenho é correta?",
+      "opcoes": [
+        "O tempo total de ordenação depende apenas do número de passadas P (n) , desconsiderando o tempo de transferência dos dados.",
+        "A escolha do valor de f para discos magnéticos é irrelevante, pois o acesso direto elimina qualquer gargalo.",
+        "É possível realizar a intercalação com f+1 fitas em vez de 2f, mas isso acarreta o custo de uma passada adicional sobre o arquivo.",
+        "Para um arquivo de n=22 registros, m=3 e f=3, são necessárias 3 passadas para a ordenação completa.",
+        "Bons métodos de ordenação externa tipicamente exigem um número de passadas proporcional a n/m."
+      ],
+      "resposta": "É possível realizar a intercalação com f+1 fitas em vez de 2f, mas isso acarreta o custo de uma passada adicional sobre o arquivo.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 9,
+        "arquivo": 0,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "A unicidade da estrutura de uma Treap é uma de suas propriedades notáveis.\nAvalie as afirmativas.\nI. Se duas Treaps são construídas com o mesmo conjunto de chaves, elas\nterão sempre a mesma estrutura, independentemente das prioridades.\nII. A propriedade de unicidade afirma que, para um conjunto de chaves e um\nconjunto de prioridades, existe apenas uma Treap válida que pode ser\nformada.\nIII. A unicidade facilita a depuração e o teste de algoritmos de Treap,\npois o resultado esperado é sempre determinístico para uma entrada fixa.\nÉ correto o que se afirma em:",
+      "opcoes": [
+        "II e III, apenas.",
+        "I, apenas.",
+        "II, apenas.",
+        "I e III, apenas.",
+        "I, II e III."
+      ],
+      "resposta": "II e III, apenas.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 10,
+        "arquivo": 0,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Qual é a principal razão pela qual os métodos de ordenação externa são fundamentalmente\n\ndiferentes dos métodos de ordenação interna?",
+      "opcoes": [
+        "Métodos de ordenação externa são projetados para funcionar apenas com fitas\nmagnéticas, enquanto os internos funcionam com discos.",
+        "O custo de acesso a um registro na memória secundária é muito maior, exigindo a\nminimização de transferências de dados.",
+        "A ordenação externa sempre requer um número de passadas sobre o arquivo superior a\n10, tornando-a inerentemente lenta.",
+        "Os dados em memória externa não podem ser acessados diretamente, mesmo em discos\nmagnéticos, forçando um processamento puramente sequencial.",
+        "A complexidade dos algoritmos de ordenação externa é sempre O(N²), enquanto os internos podem ser O(N log N)."
+      ],
+      "resposta": "O custo de acesso a um registro na memória secundária é muito maior, exigindo a\nminimização de transferências de dados.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 11,
+        "arquivo": 0,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Qual das alternativas é invariável durante rotações?",
+      "opcoes": [
+        "A sequência em-ordem (ABB) permanece a mesma.",
+        "As prioridades dos nós são recalculadas.",
+        "A raiz nunca muda.",
+        "A árvore fica completa.",
+        "O número de folhas dobra."
+      ],
+      "resposta": "A sequência em-ordem (ABB) permanece a mesma.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 12,
+        "arquivo": 0,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Sobre heapsort e estabilidade/ordem, assinale a correta.",
+      "opcoes": [
+        "Heapsort com min-heap + inversão final entrega ordem crescente.",
+        "Heapsort é estável e preserva a ordem relativa de chaves iguais.",
+        "Heapsort com max-heap produz ordem decrescente diretamente.",
+        "Heapsort precisa de memória auxiliar proporcional a n.",
+        "Heapsort usa ABB balanceada."
+      ],
+      "resposta": "Heapsort com min-heap + inversão final entrega ordem crescente.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 13,
+        "arquivo": 0,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "A pesquisa em memória secundária é um tópico fundamental em sistemas de arquivos e bancos\nde dados.\nAnalise as assertivas abaixo, assinalando V, se verdadeiras, ou F, se falsas.\n() Fitas magnéticas permitem acesso direto a qualquer registro, similar aos discos.\n() Ao usar discos, embora o acesso a uma trilha seja direto, todo o bloco (ou página) onde o\nregistro se encontra deve ser transferido para a memória principal.\n() O conceito de \"localidade de referência pequena\" ajuda a diminuir as transferências entre\nmemórias, pois aumenta a chance de que a página necessária já esteja na memória principal.\n() Os apontadores para filhos em uma árvore de busca armazenada em disco se tornam\nendereços de disco.\n\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+      "opcoes": [
+        "V-V-F-F",
+        "F-V-V-V",
+        "F-F-V-V",
+        "V-F-F-V",
+        "F-V-F-V"
+      ],
+      "resposta": "F-V-V-V",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 14,
+        "arquivo": 0,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "A Intercalação Polifásica e a Intercalação Balanceada são duas abordagens para a fase de\nintercalação na ordenação externa.\nCom base no texto, avalie as seguintes asserções e a relação proposta entre elas.\nI. A Intercalação Polifásica é uma otimização sobre a Intercalação Balanceada.\nPORQUE\nII. Ela elimina a necessidade de copiar o conteúdo da fita de saída para as fitas de\nentrada a cada passada, redistribuindo os blocos de forma inteligente para que uma\nfita de entrada sempre se torne a nova fita de saída.\nA respeito dessas asserções, assinale a alternativa correta.",
+      "opcoes": [
+        "As asserções I e II são proposições verdadeiras, e a II é uma justificativa da I.",
+        "As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa da I.",
+        "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.",
+        "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira.",
+        "As asserções I e II são proposições falsas."
+      ],
+      "resposta": "As asserções I e II são proposições verdadeiras, e a II é uma justificativa da I.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 15,
+        "arquivo": 0,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Avalie as seguintes afirmações sobre as rotações em uma Treap:\nI. Rotações são operações locais com custo O(1).\nII. Durante a inserção, as rotações são usadas para mover um nó para cima na\nárvore.\nIII. Durante a remoção, as rotações são usadas para mover um nó para baixo na\nárvore.\nÉ correto o que se afirma em:",
+      "opcoes": [
+        "I, II e III.",
+        "I, apenas.",
+        "II, apenas.",
+        "I e III, apenas.",
+        "II e III, apenas."
+      ],
+      "resposta": "I, II e III.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 16,
+        "arquivo": 0,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "O modelo de computação para memória secundária utiliza o conceito de memória virtual.\nAvalie as afirmativas sobre este modelo:\n\nI. O espaço de endereçamento N refere-se às localizações de memória física no\ncomputador.\n\nII. O sistema de paginação divide o espaço de endereçamento em páginas e a memória\nprincipal em molduras de página, ambas de igual tamanho.\n\nIII. O objetivo do modelo é combinar uma pequena quantidade de memória principal,\nque é rápida e cara, com uma memória secundária muito maior, que é mais lenta e\nbarata.\n\nÉ correto o que se afirma em:",
+      "opcoes": [
+        "I, apenas.",
+        "II, apenas.",
+        "III, apenas.",
+        "II e III, apenas.",
+        "I, II e III."
+      ],
+      "resposta": "II e III, apenas.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 17,
+        "arquivo": 0,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "A árvore PATRICIA (Practical Algorithm To Retrieve Information Coded In Alphanumeric) é uma otimização das Tries que visa resolver o problema de caminhos com um único filho.\n\nCom base nesta descrição, qual das seguintes alternativas melhor descreve a principal inovação da árvore PATRICIA?",
+      "opcoes": [
+        "Ela elimina caminhos de uma só direção ao armazenar em cada nó interno o índice do caractere a ser testado, permitindo \"saltar\" sobre os caracteres que não geram ramificações.",
+        "Ela utiliza uma tabela hash em cada nó para reduzir o número de ponteiros, melhorando o uso de espaço.",
+        "Ela exige que todas as chaves tenham o mesmo comprimento, simplificando a estrutura e eliminando a necessidade de nós terminais.",
+        "Ela é construída a partir de uma árvore de busca binária padrão, adaptando-a para manipular prefixos de strings.",
+        "Ela armazena a chave completa em cada nó folha, eliminando a necessidade de reconstruir a chave a partir do caminho."
+      ],
+      "resposta": "Ela elimina caminhos de uma só direção ao armazenar em cada nó interno o índice do caractere a ser testado, permitindo \"saltar\" sobre os caracteres que não geram ramificações.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 18,
+        "arquivo": 0,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Considere a implementação \"Filho Esquerdo – Irmão Direito\". Se um nó A tem três filhos, B, C e D, como os ponteiros seriam organizados?",
+      "opcoes": [
+        "A->filho aponta para B, B->irmao aponta para C, e C->irmao aponta para D.",
+        "A->filho aponta para B, A->irmao aponta para C, e C->irmao aponta para D.",
+        "A teria um vetor de ponteiros para B, C e D.",
+        "A->filho aponta para B, B->filho aponta para C, e C->filho aponta para D.",
+        "A->filho aponta para D, e A->irmao aponta para C."
+      ],
+      "resposta": "A->filho aponta para B, B->irmao aponta para C, e C->irmao aponta para D.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 18,
+        "arquivo": 0,
+        "bloco": 2
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Considere a altura de uma Árvore-B de ordem m com N chaves.\nI. A altura máxima da árvore (pior caso) ocorre quando cada nó possui o número mínimo de descendentes possível.\nII. Para uma árvore de ordem m, a raiz tem no mínimo 2 descendentes (a menos que seja folha), e os demais nós têm no mínimo ?m/2? descendentes.\nIII. A altura máxima d pode ser calculada pela fórmula d = 1 + log_?m/2?((N+1)/2), permitindo estimar o número máximo de acessos a disco.\nÉ correto o que se afirma em:",
+      "opcoes": [
+        "I, apenas.",
+        "I e II, apenas.",
+        "II e III, apenas.",
+        "III, apenas.",
+        "I, II e III."
+      ],
+      "resposta": "I, II e III.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 18,
+        "arquivo": 0,
+        "bloco": 3
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Ao utilizar a \"Intercalação Balanceada de f-caminhos\" para ordenar n registros com uma memória para m registros, qual das seguintes afirmativas sobre o desempenho é correta?",
+      "opcoes": [
+        "O tempo total de ordenação depende apenas do número de passadas P (n) , desconsiderando o tempo de transferência dos dados.",
+        "A escolha do valor de f para discos magnéticos é irrelevante, pois o acesso direto elimina qualquer gargalo.",
+        "É possível realizar a intercalação com f+1 fitas em vez de 2f, mas isso acarreta o custo de uma passada adicional sobre o arquivo.",
+        "Para um arquivo de n=22 registros, m=3 e f=3, são necessárias 3 passadas para a ordenação completa.",
+        "Bons métodos de ordenação externa tipicamente exigem um número de passadas proporcional a n/m."
+      ],
+      "resposta": "É possível realizar a intercalação com f+1 fitas em vez de 2f, mas isso acarreta o custo de uma passada adicional sobre o arquivo.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 18,
+        "arquivo": 0,
+        "bloco": 4
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Dada a Treap (chave:prioridade) com propriedade **min-heap**:",
+      "opcoes": [
+        "Rotação à esquerda em 'k' com seu filho 'm:6', rotação à direita em k, depois remoção.",
+        "Rotação à esquerda em 'f', 'k' se torna a nova raiz.",
+        "Rotação à direita em 'k' com seu filho 'j:9', depois remoção.",
+        "Rotação à direita em 'f', depois 'k' é removido.",
+        "'k' é simplesmente removido e seu filho 'm:6' o substitui."
+      ],
+      "resposta": "Rotação à esquerda em 'k' com seu filho 'm:6', rotação à direita em k, depois remoção.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 19,
+        "arquivo": 0,
+        "bloco": 1
+      },
+      "imagem": "images/figuras-pdf/treap-min-heap.png",
+      "descricaoAposImagem": "O nó (k:4) precisa ser removido. Descreva a sequência de operações."
+    },
+    {
+      "titulo": "",
+      "descricao": "Ao utilizar Árvores Binárias de Busca em memória secundária, como um disco magnético, o\nobjetivo é reduzir o número de acessos ao disco.\nAnalise as afirmativas a seguir:\n\nI. O custo de busca em uma árvore binária de busca armazenada em disco é da ordem\nde O(log2 n) acessos ao disco, onde cada acesso a um nó pode significar um acesso\nao disco.\n\nII. Para diminuir o número de acessos ao disco, uma estratégia eficaz é agrupar\nmúltiplos nós da árvore em uma única página (ou bloco).\n\nIII. Ao transformar uma árvore binária em uma árvore quaternária (com 4 filhos por nó),\no número de acessos ao disco para uma busca tende a cair pela metade, pois a altura\nda árvore diminui.\n\nÉ correto o que se afirma em:",
+      "opcoes": [
+        "I e II, apenas.",
+        "I e III, apenas.",
+        "II e III, apenas.",
+        "I, II e III.",
+        "Nenhuma das afirmativas."
+      ],
+      "resposta": "I, II e III.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 20,
+        "arquivo": 0,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "As operações de rotação são mecanismos essenciais para restaurar as propriedades de uma\nÁrvore Rubro-Negra após uma inserção ou remoção. Considere o \"Caso 3\" de inserção, que\nocorre quando o tio do novo nó x é preto.\nNesse cenário, qual das seguintes ações é sempre necessária para corrigir a árvore?",
+      "opcoes": [
+        "A execução de rotações envolvendo x, seu pai p, seu avô a e possivelmente seu tio t.",
+        "Apenas a recoloração do avô de x.",
+        "Apenas a recoloração do pai e do tio de x.",
+        "A remoção temporária de x para inseri-lo em outra posição.",
+        "A propagação da recoloração até a raiz da árvore."
+      ],
+      "resposta": "A execução de rotações envolvendo x, seu pai p, seu avô a e possivelmente seu tio t.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 21,
+        "arquivo": 0,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "O comprimento esperado do caminho raiz-nó em uma Treap com n chaves e prioridades aleatórias é:",
+      "opcoes": [
+        "T(log n).",
+        "O(1).",
+        "T(vn).",
+        "T(n).",
+        "Indeterminado."
+      ],
+      "resposta": "T(log n).",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 22,
+        "arquivo": 0,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "As Árvores Digitais Binárias são um caso especial de Tries onde o alfabeto é {0, 1}. Uma de\nsuas variações é a Árvore Binária de Prefixo. Analise as afirmativas a seguir sobre essas\nestruturas.\n\nI. Em uma Árvore Digital Binária, a seleção de um filho esquerdo de um nó\nrepresenta o dígito 0, enquanto a seleção do filho direito representa o dígito 1.\n\nII. Uma Árvore Binária de Prefixo é uma Árvore Digital Binária com a restrição de\nque nenhum código (chave) armazenado pode ser prefixo de outro.\n\nIII. Em uma Árvore Binária de Prefixo, há uma correspondência direta entre o conjunto\nde chaves e os nós internos da árvore, enquanto as folhas representam caminhos\nincompletos.\n\nÉ correto o que se afirma em:",
+      "opcoes": [
+        "I e II, apenas.",
+        "III, apenas.",
+        "II e III, apenas.",
+        "I e III, apenas.",
+        "I, II e III."
+      ],
+      "resposta": "I e II, apenas.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 23,
+        "arquivo": 0,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Sobre as características das Árvores-B, avalie as afirmativas abaixo.\nI. Elas são uma generalização das Árvores Binárias Paginadas, mas não são binárias e\no conteúdo de uma página não é mantido como uma árvore interna.\nII. Sua construção é bottom-up, começando dos nós folha em direção à raiz, o que as\ntorna completamente balanceadas por natureza.\nIII. A principal inovação das Árvores-B é que a construção não precisa começar pelo nó\nraiz, como é comum para árvores em memória principal.\nÉ correto o que se afirma em:",
+      "opcoes": [
+        "I e II, apenas.",
+        "I e III, apenas.",
+        "II e III, apenas.",
+        "III, apenas.",
+        "I, II e III."
+      ],
+      "resposta": "I, II e III.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 24,
+        "arquivo": 0,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Em relação às estratégias e métodos de ordenação externa, analise as assertivas abaixo,\nassinalando V, se verdadeiras, ou F, se falsas.\n() A ordenação externa é necessária apenas quando se utilizam dispositivos de acesso\nsequencial, como fitas magnéticas, não se aplicando a discos de acesso direto.\n( ) Na Intercalação Balanceada, o número de passadas P (n) aumenta linearmente com o\nnúmero de registros n do arquivo.\n() A Seleção por Substituição é uma técnica que pode ser usada na primeira passada para criar\nblocos ordenados iniciais, que em média têm o dobro do tamanho da memória interna.\n() A Intercalação Polifásica é uma otimização que busca eliminar a cópia adicional de dados\nentre as fitas de saída e entrada, comum na intercalação balanceada.\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+      "opcoes": [
+        "F-F-V-V",
+        "V-F-V-F",
+        "V-V-F-F",
+        "F-V-F-V",
+        "F-F-F-V"
+      ],
+      "resposta": "F-F-V-V",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 25,
+        "arquivo": 0,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Comparando implementações de filas de prioridade, qual linha está correta?",
+      "opcoes": [
+        "Lista ordenada: inserção O(1), seleção O(n); Heap: seleção O(1), inserção O(log n).",
+        "Lista ordenada: inserção O(1), seleção O(1); Heap: remoção O(1).",
+        "Árvore balanceada: todas as operações O(1).",
+        "Lista simples (desordenada): remoção do menor O(1).",
+        "Heap: construção O(n log n)."
+      ],
+      "resposta": "Lista ordenada: inserção O(1), seleção O(n); Heap: seleção O(1), inserção O(log n).",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 26,
+        "arquivo": 0,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "A Árvore-B+ é uma estrutura de dados híbrida projetada para otimizar tanto o acesso sequencial quanto o indexado. Sobre suas características, avalie as afirmativas a seguir.\nI. A Árvore-B+ combina um Index Set, organizado como uma Árvore-B, com um Sequence Set, que consiste em blocos de registros de dados ordenados e encadeados.\nII. Diferente da Árvore-B, na Árvore-B+ todas as chaves de busca estão presentes apenas nos nós folha (o Sequence Set), enquanto os nós internos contêm apenas separadores.\nIII. A inserção de um registro no Sequence Set que causa overflow de um bloco resulta na divisão do bloco, mas, ao contrário da Árvore-B, não há promoção de uma chave de dados para o Index Set.\nIV. O encadeamento dos blocos do Sequence Set garante um acesso sequencial eficiente, permitindo percorrer todos os registros sem precisar navegar pela estrutura da árvore (o Index Set).\nÉ correto o que se afirma em:",
+      "opcoes": [
+        "I e II, apenas.",
+        "III e IV, apenas.",
+        "I, II e IV, apenas.",
+        "II, III e IV, apenas.",
+        "I, II, III e IV."
+      ],
+      "resposta": "I, II, III e IV.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 27,
+        "arquivo": 0,
+        "bloco": 1
+      }
+    }
+  ],
+  "discursivas": []
+}

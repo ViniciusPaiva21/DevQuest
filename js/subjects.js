@@ -2,6 +2,56 @@
   "use strict";
 
   const subjects = {
+    estruturasdados2: {
+      "label": "Estrutura de Dados II",
+      "description": "Árvores, heaps, ordenação e estruturas avançadas.",
+      "jsonPath": "data/estruturasdados2.json",
+      "jsonKey": "estruturasdados2",
+      "icon": "layers-3",
+      "accent": "emerald",
+      "accentClass": "accent-emerald",
+      "isNew": true
+},
+    algebralinear: {
+      "label": "Álgebra Linear e Geometria Analítica",
+      "description": "Vetores, matrizes, sistemas lineares, retas e planos.",
+      "jsonPath": "data/algebralinear.json",
+      "jsonKey": "algebralinear",
+      "icon": "sigma",
+      "accent": "blue",
+      "accentClass": "accent-blue",
+      "isNew": true
+},
+    empreendedorismo: {
+      "label": "Empreendedorismo e Negócios",
+      "description": "Empreendedorismo, inovação, planejamento e oportunidades.",
+      "jsonPath": "data/empreendedorismo.json",
+      "jsonKey": "empreendedorismo",
+      "icon": "rocket",
+      "accent": "orange",
+      "accentClass": "accent-orange",
+      "isNew": true
+},
+    apoiodecisao: {
+      "label": "Sistemas de Apoio à Tomada de Decisão",
+      "description": "Processo decisório, análise de dados e sistemas de apoio.",
+      "jsonPath": "data/apoiodecisao.json",
+      "jsonKey": "apoiodecisao",
+      "icon": "chart-no-axes-combined",
+      "accent": "green",
+      "accentClass": "accent-green",
+      "isNew": true
+},
+    segurancainformacao: {
+      "label": "Segurança da Informação",
+      "description": "Proteção de dados, redes, ameaças e controles de segurança.",
+      "jsonPath": "data/segurancainformacao.json",
+      "jsonKey": "segurancainformacao",
+      "icon": "shield-check",
+      "accent": "violet",
+      "accentClass": "accent-violet",
+      "isNew": true
+},
     frontend: {
       label: "Frontend",
       description: "HTML, CSS, JavaScript e construção de interfaces.",
@@ -162,7 +212,10 @@
         "sistemas",
         "arquiteturasistemas",
         "fundamentosredes",
-        "governancati"
+        "governancati",
+        "empreendedorismo",
+        "apoiodecisao",
+        "segurancainformacao"
       ],
       cardColors: [
         "#22d3ee",
@@ -174,14 +227,17 @@
         "#818cf8",
         "#e11d48",
         "#0284c7",
-        "#6d28d9"
+        "#6d28d9",
+        "#ea580c",
+        "#059669",
+        "#a855f7"
       ]
     },
     CC: {
       label: "CC",
       fullLabel: "Ciência da Computação",
       description: "Fundamentos, raciocínio e estruturas para compreender a computação por inteiro.",
-      subjects: ["frontend", "ux", "designthinking", "backend", "logica", "estruturascc", "adrii", "sistemas", "engenharia"],
+      subjects: ["frontend", "ux", "designthinking", "backend", "logica", "estruturascc", "adrii", "sistemas", "engenharia", "estruturasdados2", "algebralinear"],
       cardColors: [
         "#38bdf8",
         "#c084fc",
@@ -191,7 +247,9 @@
         "#2dd4bf",
         "#4ade80",
         "#f87171",
-        "#f59e0b"
+        "#f59e0b",
+        "#14b8a6",
+        "#0891b2"
       ]
     }
   };
@@ -199,11 +257,27 @@
   window.DEVQUEST_SUBJECTS = Object.freeze(subjects);
   window.DEVQUEST_COURSES = Object.freeze(courses);
   window.DEVQUEST_FEATURED_SUBJECTS = Object.freeze([
-    { subjectId: "arquiteturasistemas", courseId: "ADS" },
-    { subjectId: "fundamentosredes", courseId: "ADS" },
-    { subjectId: "governancati", courseId: "ADS" },
-    { subjectId: "engenharia", courseId: "CC" }
-  ]);
+    {
+        "subjectId": "estruturasdados2",
+        "courseId": "CC"
+    },
+    {
+        "subjectId": "algebralinear",
+        "courseId": "CC"
+    },
+    {
+        "subjectId": "empreendedorismo",
+        "courseId": "ADS"
+    },
+    {
+        "subjectId": "apoiodecisao",
+        "courseId": "ADS"
+    },
+    {
+        "subjectId": "segurancainformacao",
+        "courseId": "ADS"
+    }
+]);
   window.DEVQUEST_INFERNUS_SUBJECTS = Object.freeze([
     "frontend",
     "ux",
@@ -217,6 +291,11 @@
     "estruturascc",
     "arquiteturasistemas",
     "fundamentosredes",
-    "governancati"
+    "governancati",
+    "estruturasdados2",
+    "algebralinear",
+    "empreendedorismo",
+    "apoiodecisao",
+    "segurancainformacao"
   ]);
 })();

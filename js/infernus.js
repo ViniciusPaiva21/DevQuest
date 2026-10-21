@@ -243,8 +243,10 @@
           <span class="text-[10px] font-bold tracking-[.2em] uppercase px-3 py-1 rounded-full bg-white/10 text-zinc-200 border border-white/10">${escapeHtml(question.materia)}</span>
         </div>
         ${title}
-        <p class="text-zinc-300 mt-4 text-sm leading-relaxed whitespace-pre-line">${escapeHtml(question.descricao)}</p>
+        <p class="text-zinc-300 mt-4 text-sm leading-relaxed whitespace-pre-line" ${question.descricaoMonoespacada ? 'style="font-family:monospace;white-space:pre-wrap"' : ""}>${escapeHtml(question.descricao)}</p>
         ${image}
+        ${question.descricaoAposImagem ? `<p class="text-zinc-300 mt-4 whitespace-pre-line">${escapeHtml(question.descricaoAposImagem)}</p>` : ""}
+        ${question.originalPDF ? `<p class="original-pdf-hint">Leia as alternativas no recorte original e selecione a letra abaixo. <a href="${escapeHtml(question.imagem)}" target="_blank" rel="noopener">Ampliar questão</a></p>` : ""}
         ${code}
         ${statements}
       </div>
@@ -252,7 +254,7 @@
     `;
   }
 
-  function createOptionButton(option, index, correctAnswer) {
+  function createOptionButton(option, index, correctAnswer, originalPDF = false) {
     const letters = "ABCDEFGH";
     const button = document.createElement("button");
     const content = getOptionContent(option);
@@ -263,7 +265,9 @@
       "infernus-option w-full text-left p-4 rounded-xl border border-zinc-800 bg-zinc-950/50 " +
       "hover:bg-zinc-900 hover:border-white/40 transition-all duration-200 text-zinc-300 font-medium group overflow-hidden";
 
-    if (isCodeOption(option)) {
+    if (originalPDF) {
+      button.innerHTML = `<span class="font-bold">Alternativa ${escapeHtml(content)}</span>`;
+    } else if (isCodeOption(option)) {
       button.innerHTML = `
         <div class="flex gap-3 items-start">
           <span class="font-bold text-white shrink-0 pt-1">${letters[index] ?? index + 1})</span>
@@ -294,8 +298,8 @@
     elements.nextButton.classList.add("hidden");
     elements.questionArea.innerHTML = renderQuestionHeader(question);
 
-    shuffle(question.opcoes).forEach((option, index) => {
-      fragment.appendChild(createOptionButton(option, index, question.resposta));
+    (question.preservarOrdem ? question.opcoes : shuffle(question.opcoes)).forEach((option, index) => {
+      fragment.appendChild(createOptionButton(option, index, question.resposta, question.originalPDF));
     });
 
     document.getElementById("options-box").appendChild(fragment);

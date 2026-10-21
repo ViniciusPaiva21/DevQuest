@@ -1,0 +1,1250 @@
+{
+  "segurancainformacao": [
+    {
+      "titulo": "",
+      "descricao": "Os ataques de spoofing são comuns na camada 2 e têm como objetivo enganar\ndispositivos de rede para redirecionar o tráfego de dados. Qual das alternativas\nabaixo descreve um exemplo de ataque de spoofing?",
+      "opcoes": [
+        "Um invasor altera o endereço MAC de seu dispositivo para assumir a identidade\nde outro na rede.",
+        "Um invasor cria uma URL falsa para imitar o site de uma instituição financeira.",
+        "Um invasor criptografa os dados da rede com um ransomware.",
+        "d) Um invasor força a conexão de um dispositivo remoto para comprometer os\ndados.",
+        "Um invasor utiliza força bruta para decifrar senhas de acesso."
+      ],
+      "resposta": "Um invasor altera o endereço MAC de seu dispositivo para assumir a identidade\nde outro na rede.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 4,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Qual é uma das consequências diretas de um ataque de falsificação DHCP?",
+      "opcoes": [
+        "Redirecionamento do tráfego de rede para um servidor de controle do invasor.",
+        "Criptografia dos dados armazenados em dispositivos da rede.",
+        "Interrupção de serviços de DNS da rede.",
+        "Substituição de um firewall por outro firewall malicioso.",
+        "Diminuição da quantidade de endereços IP disponíveis na rede."
+      ],
+      "resposta": "Redirecionamento do tráfego de rede para um servidor de controle do invasor.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 5,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "A camada 2 do modelo OSI, conhecida como camada de enlace, é vulnerável a\ndiversos tipos de ataques que comprometem a segurança de redes locais. Qual das\nalternativas a seguir representa um ataque típico de camada 2?",
+      "opcoes": [
+        "Ataque DDoS, que sobrecarrega servidores por meio de múltiplas solicitações.",
+        "Ataque de interceptação (sniffing), onde o invasor captura pacotes na rede para\nobter informações confidenciais.",
+        "SQL Injection, que explora falhas em bancos de dados SQL.",
+        "Phishing, que manipula usuários para roubar informações pessoais.",
+        "Engenharia social, que utiliza técnicas psicológicas para enganar usuários."
+      ],
+      "resposta": "Ataque de interceptação (sniffing), onde o invasor captura pacotes na rede para\nobter informações confidenciais.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 6,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Além do phishing, existem outras técnicas de engenharia social que visam obter\ninformações confidenciais por meio da interação humana. Qual das alternativas a\nseguir representa outra forma de engenharia social?",
+      "opcoes": [
+        "Ataque de negação de serviço para sobrecarregar um servidor.",
+        "Implantação de um rootkit para obter acesso privilegiado ao sistema.",
+        "O uso do pretexto de uma ligação de \"suporte técnico\" para convencer uma vítima\na fornecer dados pessoais.",
+        "Adoção de uma política de firewall para impedir ataques externos.",
+        "Atualização dos patches de segurança do sistema."
+      ],
+      "resposta": "O uso do pretexto de uma ligação de \"suporte técnico\" para convencer uma vítima\na fornecer dados pessoais.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 7,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Qual das seguintes afirmações é verdadeira sobre ataques de phishing?",
+      "opcoes": [
+        "Phishing é uma técnica de ataque que compromete redes Wi-Fi para roubar dados.",
+        "Phishing envolve a criação de websites ou e-mails falsos que imitam entidades confiáveis para\nenganar os usuários.",
+        "Phishing é uma forma de malware que se instala automaticamente em dispositivos sem\ninteração do usuário.",
+        "Phishing não representa uma ameaça significativa para indivíduos, apenas para grandes\norganizações.",
+        "Phishing só pode ser realizado através de e-mails."
+      ],
+      "resposta": "Phishing envolve a criação de websites ou e-mails falsos que imitam entidades confiáveis para\nenganar os usuários.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 8,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Qual das opções abaixo é uma consequência direta do envenenamento de cache\nDNS?",
+      "opcoes": [
+        "Diminuição da largura de banda disponível na rede.",
+        "Redirecionamento de usuários para sites maliciosos.",
+        "Bloqueio completo do acesso à internet.",
+        "Acesso à rede por meio de SSH não autorizado.",
+        "e) Redução da velocidade de download."
+      ],
+      "resposta": "Redirecionamento de usuários para sites maliciosos.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 9,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "O ransomware é um tipo de malware que sequestra os dados de uma vítima por meio\nda criptografia, exigindo pagamento para restaurar o acesso. Qual das alternativas\nabaixo descreve uma prática eficaz para reduzir o impacto de um ataque de\nransomware?",
+      "opcoes": [
+        "Desativar o firewall da rede para facilitar o tráfego de dados.",
+        "Utilizar autenticação multifatorial apenas para o administrador de rede.",
+        "Realizar backups regulares e armazená-los em um local seguro fora da rede.",
+        "Instalar um software de bloqueio de anúncios para evitar downloads indesejados.",
+        "Evitar a utilização de qualquer tipo de criptografia nos dados corporativos."
+      ],
+      "resposta": "Realizar backups regulares e armazená-los em um local seguro fora da rede.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 10,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Qual das seguintes práticas é mais eficaz para se proteger contra ataques Man-in-the-Middle (MitM)?",
+      "opcoes": [
+        "Usar apenas redes Wi-Fi públicas, pois são mais convenientes.",
+        "Confiar em conexões HTTP em vez de HTTPS para maior velocidade.",
+        "Utilizar uma VPN (Virtual Private Network) ao acessar redes não confiáveis.",
+        "Desativar todas as atualizações de software para evitar interrupções.",
+        "Compartilhar senhas e informações pessoais apenas em redes sociais."
+      ],
+      "resposta": "Utilizar uma VPN (Virtual Private Network) ao acessar redes não confiáveis.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 11,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Com o crescimento do uso da nuvem privada para armazenamento e processamento\nde dados corporativos, surgem ameaças específicas a esse ambiente. Qual das\nalternativas a seguir representa uma ameaça comum a uma nuvem privada?",
+      "opcoes": [
+        "Implementação de uma política de acesso restrito aos dados.",
+        "Criação de backups diários dos dados na nuvem.",
+        "Usuários remotos acessando a infraestrutura de uma organização e baixando\ndados confidenciais.",
+        "Credenciais comprometidas ou sequestro de conta.",
+        "Perda ou roubo de propriedade intelectual."
+      ],
+      "resposta": "Usuários remotos acessando a infraestrutura de uma organização e baixando\ndados confidenciais.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 12,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "No contexto dos ataques de reflexão, qual dos serviços abaixo é comumente\nexplorado para refletir e amplificar o tráfego enviado ao alvo?",
+      "opcoes": [
+        "FTP",
+        "DNS",
+        "SSH",
+        "HTTPS",
+        "SMB"
+      ],
+      "resposta": "DNS",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 13,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "O envenenamento do cache DNS é uma técnica usada para redirecionar os usuários\npara sites falsos. Como isso é feito?",
+      "opcoes": [
+        "Adicionando entradas IP incorretas na tabela de roteamento.",
+        "Injetando código malicioso em uma requisição ou resposta DNS.",
+        "Alterando os endereços DNS para apontar para servidores maliciosos.",
+        "Enviando muitas requisições falsas para o servidor DNS.",
+        "Alterando as configurações do servidor DNS, habilitando respostas recursivas."
+      ],
+      "resposta": "Alterando os endereços DNS para apontar para servidores maliciosos.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 14,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Uma empresa permite que os funcionários trabalhem de casa duas vezes por semana. Qual\ntecnologia deve ser implementada para garantir o sigilo dos dados conforme os dados são\ntransmitidos?",
+      "opcoes": [
+        "SHS",
+        "VLANS",
+        "VPN",
+        "RAID",
+        "SHA-512"
+      ],
+      "resposta": "VPN",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 15,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Qual é o principal objetivo da confidencialidade no contexto de segurança da\ninformação?",
+      "opcoes": [
+        "Garantir que os dados sejam acessados apenas por usuários",
+        "Garantir que os dados sejam acessíveis a qualquer pessoa na rede.",
+        "Manter a integridade dos dados, evitando qualquer modificação não\nautorizada.",
+        "Garantir que o sistema esteja sempre disponível para uso, mesmo durante\nfalhas.",
+        "Impedir que os sistemas sejam atacados por vírus e malware."
+      ],
+      "resposta": "Garantir que os dados sejam acessados apenas por usuários",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 16,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Para mitigar tanto ameaças internas quanto externas, é importante adotar práticas de\nsegurança. Qual das alternativas a seguir descreve uma prática eficaz para minimizar\nos riscos associados às ameaças internas?",
+      "opcoes": [
+        "Realizar campanhas de conscientização sobre segurança digital para todos os\ncolaboradores da empresa.",
+        "Utilizar apenas softwares de segurança de código aberto para reduzir custos.",
+        "Implementar uma política de rede aberta para garantir maior colaboração entre os\ndepartamentos.",
+        "Permitir que todos os colaboradores tenham acesso irrestrito a informações\nsigilosas para melhorar a produtividade.",
+        "Priorizar a segurança externa em detrimento da segurança interna."
+      ],
+      "resposta": "Realizar campanhas de conscientização sobre segurança digital para todos os\ncolaboradores da empresa.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 17,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "No ataque de falsificação DHCP, o invasor tenta fornecer um endereço IP falso para\nos dispositivos na rede. Qual o objetivo desse ataque?",
+      "opcoes": [
+        "Impedir que dispositivos se conectem à rede.",
+        "Interceptar e redirecionar o tráfego dos dispositivos.",
+        "Diminuir a largura de banda da rede.",
+        "Monitorar conexões VPN na rede local.",
+        "Atualizar automaticamente o firewall da rede."
+      ],
+      "resposta": "Interceptar e redirecionar o tráfego dos dispositivos.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 18,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "O phishing é uma forma comum de engenharia social em que os atacantes\ntentam enganar usuários para roubar informações sensíveis. Qual das\nalternativas abaixo descreve uma abordagem típica de phishing?",
+      "opcoes": [
+        "Enviar um vírus por meio de um arquivo em um dispositivo USB infectado.",
+        "Enviar um e-mail falso, imitando uma instituição bancária, pedindo ao usuário que\natualize suas informações de login.",
+        "Invadir um sistema usando credenciais comprometidas previamente adquiridas.",
+        "Espionar a tela de uma vítima para capturar informações pessoais.",
+        "Usar um scanner de rede para descobrir dispositivos vulneráveis."
+      ],
+      "resposta": "Enviar um e-mail falso, imitando uma instituição bancária, pedindo ao usuário que\natualize suas informações de login.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 19,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Uma das práticas para mitigar ataques de reconhecimento na rede é ocultar\ninformações sensíveis dos atacantes. Qual das alternativas a seguir ajuda a mitigar\nesse tipo de ataque?",
+      "opcoes": [
+        "Configurar firewalls para bloquear tentativas de varredura de porta.",
+        "Ativar o DAI para inspeção do protocolo",
+        "Implantar listas de controle de acesso (ACLs).",
+        "Ativar a proteção contra ataques DDoS.",
+        "Permitir acessos remotos sem restrições."
+      ],
+      "resposta": "Configurar firewalls para bloquear tentativas de varredura de porta.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 20,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Em relação à proteção física de servidores, qual das alternativas a seguir\nrepresenta uma medida importante para evitar o acesso físico não autorizado ao\nservidor?",
+      "opcoes": [
+        "Configurar firewalls e antivírus atualizados.",
+        "Manter o servidor em uma sala trancada com acesso restrito apenas a pessoal\nautorizado.",
+        "Definir senhas fortes para usuários de rede.",
+        "Habilitar a criptografia de dados no disco rígido.",
+        "Realizar backups periódicos dos dados armazenados no servidor."
+      ],
+      "resposta": "Manter o servidor em uma sala trancada com acesso restrito apenas a pessoal\nautorizado.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 21,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Em ambientes de nuvem pública, as ameaças diferem das de redes locais devido à\nnatureza compartilhada dos recursos. Qual das alternativas abaixo representa uma\nameaça significativa para ambientes de nuvem pública?",
+      "opcoes": [
+        "Autenticação multifatorial para acesso seguro aos serviços na nuvem.",
+        "Ataques de Engenharia Social que aproveitam as falhas do comportamento\nhumano.",
+        "Configuração de acesso exclusivo para administradores.",
+        "Atualização contínua dos sistemas operacionais dos servidores de nuvem.",
+        "Monitoramento de tráfego para detectar atividades suspeitas."
+      ],
+      "resposta": "Ataques de Engenharia Social que aproveitam as falhas do comportamento\nhumano.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 22,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "As ameaças externas são ataques que vêm de fora da organização e têm como\nobjetivo prejudicar a infraestrutura de rede, roubar dados ou interromper serviços.\nQual das alternativas abaixo descreve um exemplo típico de ameaça externa?",
+      "opcoes": [
+        "Um colaborador negligente que compartilha suas credenciais com colegas sem\nautorização.",
+        "A exploração de uma vulnerabilidade de segurança por um atacante remoto\npara obter acesso a um sistema corporativo.",
+        "Um funcionário insatisfeito que deliberadamente compromete dados da\nempresa.",
+        "A criação de uma política de senha fraca por um colaborador de TI.",
+        "Um teste de penetração realizado por profissionais de segurança da própria\norganização."
+      ],
+      "resposta": "A exploração de uma vulnerabilidade de segurança por um atacante remoto\npara obter acesso a um sistema corporativo.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 23,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Um ataque à tabela MAC de um switch visa encher a tabela de endereços MAC\npara forçar o switch a enviar todo o tráfego para todos os dispositivos da rede. Qual\no nome desse tipo de ataque?",
+      "opcoes": [
+        "Spoofing de IP.",
+        "Inundação de MAC.",
+        "Hijacking de rede.",
+        "Sniffing de pacotes.",
+        "e) Exploração de DNS"
+      ],
+      "resposta": "Inundação de MAC.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 24,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Qual das alternativas abaixo representa uma característica comum de ataques de\nransomware em relação ao comportamento do malware?",
+      "opcoes": [
+        "O ransomware criptografa os dados e os remove permanentemente do sistema.",
+        "O ransomware criptografa os dados e ameaça expor informações confidenciais\nse o pagamento não for realizado.",
+        "O ransomware apenas monitora a atividade do usuário sem interferir nos\narquivos.",
+        "O ransomware permite acesso remoto contínuo para o atacante sem qualquer\nalteração nos dados.",
+        "O ransomware identifica e elimina automaticamente os arquivos de segurança."
+      ],
+      "resposta": "O ransomware criptografa os dados e ameaça expor informações confidenciais\nse o pagamento não for realizado.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 25,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Os dispositivos conectados em redes são frequentemente alvos de ameaças que\npodem comprometer sua integridade. Qual das opções a seguir representa uma\nameaça comum aos dispositivos que podem impactar uma rede corporativa?",
+      "opcoes": [
+        "Implementação de criptografia de ponta a ponta nos dispositivos móveis.",
+        "Rootkits, que permitem acesso privilegiado ao sistema sendo de difícil\ndetecção.",
+        "Atualização frequente de firmware e software dos dispositivos.",
+        "Instalação de antivírus em cada dispositivo de rede.",
+        "Criação de senhas fortes e exclusivas para dispositivos de rede."
+      ],
+      "resposta": "Rootkits, que permitem acesso privilegiado ao sistema sendo de difícil\ndetecção.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 26,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Qual das seguintes afirmações sobre VPN (Virtual Private Network) é correta?",
+      "opcoes": [
+        "VPNs são usadas exclusivamente para acessar conteúdos restritos geograficamente.",
+        "VPNs criptografam o tráfego de internet, protegendo os dados transmitidos entre o dispositivo\ndo usuário e o servidor VPN",
+        "VPNs garantem que o endereço IP original do usuário permaneça visível para todos os sites\nacessados.",
+        "VPNs não podem ser usadas em redes públicas, apenas em redes privadas.",
+        "VPNs impedem completamente qualquer tipo de monitoramento ou rastreamento online"
+      ],
+      "resposta": "VPNs criptografam o tráfego de internet, protegendo os dados transmitidos entre o dispositivo\ndo usuário e o servidor VPN",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 27,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Qual das seguintes opções representa uma contramedida eficaz contra malware\nem uma rede corporativa?",
+      "opcoes": [
+        "Usar senhas fáceis de lembrar para facilitar o acesso dos usuários.",
+        "Implementar antivírus e ferramentas de monitoramento de rede para\ndetectar e bloquear ameaças.",
+        "Permitir o uso de dispositivos USB sem restrição para aumentar a\nprodutividade.",
+        "Configurar todos os sistemas para não receber atualizações automáticas de\nsegurança.",
+        "Fornecer acesso irrestrito à rede para todos os funcionários."
+      ],
+      "resposta": "Implementar antivírus e ferramentas de monitoramento de rede para\ndetectar e bloquear ameaças.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 28,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Qual das alternativas abaixo é uma medida eficaz para evitar ataques de injeção\nSQL?",
+      "opcoes": [
+        "Utilizar apenas senhas complexas para o banco de dados.",
+        "Limitar o número de usuários com acesso ao banco de dados.",
+        "Utilizar consultas preparadas e com validação rigorosa de dados de entrada.",
+        "Configurar o banco de dados para ignorar comandos SQL complexos.",
+        "Desativar a autenticação multifatorial no banco de dados."
+      ],
+      "resposta": "Utilizar consultas preparadas e com validação rigorosa de dados de entrada.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 29,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "No sistema operacional Linux, ao utilizar o comando MKDIR, o que ele cria?",
+      "opcoes": [
+        "Arquivos de texto.",
+        "Diretórios (pastas).",
+        "Links simbólicos.",
+        "Arquivos comprimidos.",
+        "Arquivos binários."
+      ],
+      "resposta": "Diretórios (pastas).",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 30,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Qual tipo de ataque é sofrido por uma empresa quando um funcionário instala um dispositivo não\nautorizado na rede para ver o tráfego de rede?",
+      "opcoes": [
+        "man-in-the-middle",
+        "phishing",
+        "spam",
+        "Sniffing",
+        "Spoofing"
+      ],
+      "resposta": "Sniffing",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 31,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "A integridade dos dados é um dos princípios fundamentais da segurança da\ninformação. Qual das alternativas abaixo melhor descreve o conceito de\nintegridade?",
+      "opcoes": [
+        "Garantir que os dados sejam armazenados de forma eficiente.",
+        "Garantir que os dados estejam disponíveis para os usuários quando\nnecessário.",
+        "Garantir que os dados não sejam alterados ou corrompidos de maneira não\nautorizada.",
+        "Garantir que os dados sejam criptografados durante o armazenamento."
+      ],
+      "resposta": "Garantir que os dados não sejam alterados ou corrompidos de maneira não\nautorizada.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 32,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "A autenticação mútua pode impedir qual tipo de ataque?",
+      "opcoes": [
+        "sniffing sem fio",
+        "spoofing de IP sem fio",
+        "envenenamento sem fio",
+        "man-in-the-middle",
+        "man-in-the-end"
+      ],
+      "resposta": "man-in-the-middle",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 33,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Os ataques de amplificação e reflexão são usados para aumentar o impacto de um\nataque DDoS, refletindo e ampliando o tráfego em direção ao alvo. Qual das\nalternativas a seguir descreve uma técnica de amplificação?",
+      "opcoes": [
+        "Enviar pacotes com endereços IP falsificados para um servidor DNS para gerar\num grande volume de respostas.",
+        "Invadir diretamente o servidor-alvo com um número limitado de pacotes.",
+        "Interceptar pacotes de dados por meio de um ataque de sniffing.",
+        "Enviar comandos SQL maliciosos para explorar vulnerabilidades de banco de\ndados.",
+        "Desativar temporariamente o firewall de um sistema."
+      ],
+      "resposta": "Enviar pacotes com endereços IP falsificados para um servidor DNS para gerar\num grande volume de respostas.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 34,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "No sistema operacional Windows, existem diferentes tipos de contas de usuário,\ncomo a conta de administrador e a conta padrão. Qual das alternativas abaixo\ndescreve corretamente a principal diferença entre elas?",
+      "opcoes": [
+        "A conta de administrador tem acesso restrito a arquivos do sistema, enquanto\na conta padrão tem acesso total.",
+        "A conta padrão não pode instalar programas, mas a conta de administrador\npode.",
+        "A conta de administrador possui permissões para navegar por redes locais,\nenquanto a conta padrão não.",
+        "A conta de administrador não pode modificar as configurações do sistema,\nmas a conta padrão pode.",
+        "A conta padrão tem privilégios elevados de controle sobre o sistema\noperacional, ao contrário da conta de administrador."
+      ],
+      "resposta": "A conta padrão não pode instalar programas, mas a conta de administrador\npode.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 35,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Engenharia social é uma técnica de ataque que explora a manipulação psicológica\ndas vítimas para obter informações confidenciais. Qual das alternativas a seguir\nrepresenta um exemplo clássico de ataque de engenharia social?",
+      "opcoes": [
+        "Um atacante realiza um ataque DDoS para interromper o serviço de um site.",
+        "Um invasor usa força bruta para adivinhar senhas de uma conta.",
+        "Um atacante convence um funcionário a fornecer dados de acesso fingindo ser do\ndepartamento de TI.",
+        "Um hacker intercepta pacotes de dados usando um sniffer de rede.",
+        "Um ransomware criptografa os dados de uma empresa e exige resgate."
+      ],
+      "resposta": "Um atacante convence um funcionário a fornecer dados de acesso fingindo ser do\ndepartamento de TI.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 36,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "As ameaças internas são uma das principais preocupações na segurança de redes,\npois envolvem ações de pessoas que têm acesso legítimo aos recursos internos de\numa organização. Qual das alternativas a seguir descreve corretamente uma ameaça\ninterna?",
+      "opcoes": [
+        "Um ataque de DDoS (Distributed Denial of Service) realizado por hackers\nexternos.",
+        "A infecção por um malware que se espalha pela internet e afeta diversos\ndispositivos externos.",
+        "Um funcionário insatisfeito que usa suas credenciais para acessar dados sigilosos\ne vazar informações para fora da empresa.",
+        "A interceptação de pacotes de dados em uma rede pública por um hacker\ndesconhecido.",
+        "Um phishing realizado por um hacker enviando e-mails maliciosos para\nfuncionários de uma empresa."
+      ],
+      "resposta": "Um funcionário insatisfeito que usa suas credenciais para acessar dados sigilosos\ne vazar informações para fora da empresa.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 37,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Qual comando no Linux é utilizado para listar o conteúdo de um diretório\nmostrando as permissões dos arquivos e/ou diretórios?",
+      "opcoes": [
+        "cp",
+        "ls",
+        "mv -l",
+        "ls -l",
+        "touch"
+      ],
+      "resposta": "ls -l",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 38,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Qual das alternativas a seguir representa uma estratégia de ataque de inundação\n(flooding) com o objetivo de sobrecarregar os recursos de rede?",
+      "opcoes": [
+        "Enviar uma grande quantidade de pacotes ICMP ao alvo.",
+        "Interceptar pacotes de dados em uma rede Wi-Fi aberta.",
+        "Configurar o roteador para bloquear portas específicas.",
+        "Adicionar mais largura de banda ao sistema-alvo.",
+        "Utilizar backups offline dos dados da rede."
+      ],
+      "resposta": "Enviar uma grande quantidade de pacotes ICMP ao alvo.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 39,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Uma das práticas para mitigar ataques de reconhecimento na rede é ocultar\ninformações sensíveis dos atacantes. Qual das alternativas a seguir ajuda a mitigar\nesse tipo de ataque?",
+      "opcoes": [
+        "Configurar firewalls para bloquear tentativas de varredura de porta.",
+        "Ativar o DAI para inspeção do protocolo ARP.",
+        "Implantar listas de controle de acesso (ACLs).",
+        "Ativar a proteção contra ataques DDoS.",
+        "Permitir acessos remotos sem restrições."
+      ],
+      "resposta": "Configurar firewalls para bloquear tentativas de varredura de porta.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 40,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "As redes locais (LANs) também estão sujeitas a diversas ameaças. Qual das\nalternativas abaixo exemplifica uma ameaça que pode ocorrer em uma rede local\ncorporativa?",
+      "opcoes": [
+        "Interceptação de dados em trânsito em uma rede Wi-Fi aberta.",
+        "Armazenamento de dados em um servidor de nuvem pública.",
+        "Ransomware que atinge computadores conectados à rede local e criptografa\ndados.",
+        "Compartilhamento seguro de arquivos entre dispositivos da rede local.",
+        "Monitoramento de rede para análise de tráfego suspeito."
+      ],
+      "resposta": "Ransomware que atinge computadores conectados à rede local e criptografa\ndados.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 41,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "O BitLocker é uma ferramenta de criptografia utilizada em sistemas Windows.\nQual a principal função do BitLocker?",
+      "opcoes": [
+        "Proteger a rede contra ataques DDoS.",
+        "Impedir o acesso a arquivos através de senhas complexas.",
+        "Proteger todo o conteúdo de um disco rígido contra roubo ou acesso não\nautorizado aos dados.",
+        "Monitorar e corrigir falhas no sistema operacional.",
+        "Bloquear vírus e malware que tentem acessar o disco."
+      ],
+      "resposta": "Proteger todo o conteúdo de um disco rígido contra roubo ou acesso não\nautorizado aos dados.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 42,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Um ataque SYN Flood consiste em sobrecarregar um sistema com solicitações de\nconexão. Qual a técnica utilizada nesse ataque?",
+      "opcoes": [
+        "Interceptar dados por meio de um sniffer de rede.",
+        "Enviar pacotes SYN sem completar o handshake.",
+        "Enviar pacotes falsificados de resposta DNS.",
+        "Explorar vulnerabilidades de um banco de dados.",
+        "Reduzir a largura de banda do sistema alvo."
+      ],
+      "resposta": "Enviar pacotes SYN sem completar o handshake.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 43,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Os tipos de ameaças cibernéticas estão em constante evolução, visando explorar\nvulnerabilidades em diferentes camadas da segurança de redes. Qual das alternativas\nabaixo descreve corretamente um exemplo de ameaça cibernética que compromete a\nconfidencialidade dos dados?",
+      "opcoes": [
+        "Phishing, onde um invasor tenta obter informações pessoais por meio de uma\nfalsa identidade.",
+        "DDoS, que visa sobrecarregar e indisponibilizar um serviço online.",
+        "Man-in-the-Middle (MitM), que intercepta dados em trânsito sem autorização.",
+        "Malware, que se infiltra em sistemas para roubar ou destruir dados.",
+        "Ransomware, que criptografa dados e exige pagamento para sua liberação."
+      ],
+      "resposta": "Man-in-the-Middle (MitM), que intercepta dados em trânsito sem autorização.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 44,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "O ataque ARP Spoofing é uma técnica de ataque de camada 2 que explora a\nvulnerabilidade do protocolo ARP em redes locais. Qual das alternativas a seguir\ndescreve o objetivo principal de um ataque de ARP Spoofing?",
+      "opcoes": [
+        "Enviar um grande volume de dados para sobrecarregar o servidor alvo.",
+        "Enganar dispositivos da rede para associar o endereço MAC do invasor ao\nendereço IP de um dispositivo confiável.",
+        "Alterar o conteúdo de um website por meio de um ataque de cross-site scripting\n(XSS).",
+        "Interceptar a comunicação de um dispositivo de rede e alterar suas configurações\nde segurança.",
+        "Infectar dispositivos da rede com malware sem ser detectado."
+      ],
+      "resposta": "Enganar dispositivos da rede para associar o endereço MAC do invasor ao\nendereço IP de um dispositivo confiável.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 45,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Qual das seguintes afirmações é verdadeira sobre o modelo de Software como Serviço (SaaS)?",
+      "opcoes": [
+        "SaaS requer que os usuários instalem e mantenham software em seus dispositivos locais.",
+        "SaaS permite acesso a aplicativos via internet, normalmente através de um navegador web",
+        "SaaS não oferece flexibilidade em termos de escalabilidade para empresas.",
+        "SaaS elimina a necessidade de qualquer tipo de suporte técnico ou atualizações.",
+        "SaaS é sinônimo de software open source."
+      ],
+      "resposta": "SaaS permite acesso a aplicativos via internet, normalmente através de um navegador web",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 46,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Qual das seguintes afirmações é verdadeira sobre a Tríade CIA (Confidencialidade, Integridade e\nDisponibilidade) na Segurança da Informação?",
+      "opcoes": [
+        "Confidencialidade se refere à proteção dos dados contra acesso não autorizado.",
+        "Integridade se refere à garantia de que os dados estão disponíveis quando necessários.",
+        "Disponibilidade se refere à capacidade de verificar a origem dos dados.",
+        "Confidencialidade garante que os dados não sejam alterados sem autorização",
+        "Integridade assegura que os dados estejam criptografados durante a transmissão"
+      ],
+      "resposta": "Confidencialidade se refere à proteção dos dados contra acesso não autorizado.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 47,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Qual das seguintes afirmações é verdadeira sobre o algoritmo de hash MD5?",
+      "opcoes": [
+        "O MD5 é usado para criptografar dados confidenciais de forma segura.",
+        "O MD5 é um algoritmo de hash que produz um valor de 128 bits.",
+        "O MD5 é considerado seguro e amplamente recomendado para novas aplicações de segurança.",
+        "O MD5 pode ser revertido para obter os dados originais.",
+        "O MD5 gera hashes diferentes para inputs idênticos."
+      ],
+      "resposta": "O MD5 é um algoritmo de hash que produz um valor de 128 bits.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 48,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Conseguir manter a disponibilidade durante eventos disruptivos descreve quais dos princípios da alta\ndisponibilidade?",
+      "opcoes": [
+        "único ponto de falha",
+        "Serviços que não são interrompidos",
+        "tolerância a falhas",
+        "intolerância a falhas",
+        "resiliência do sistema"
+      ],
+      "resposta": "resiliência do sistema",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 49,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Alice e Bob estão usando uma assinatura digital para assinar um documento. Qual chave Alice deve\nusar para assinar o documento para que assim Bob possa ter certeza de que o documento veio da\nAlice?",
+      "opcoes": [
+        "nome de usuário e senha da Alice",
+        "chave privada da Alice",
+        "chave pública de Bob",
+        "chave privada de Bob",
+        "chave pública de Alice"
+      ],
+      "resposta": "chave privada da Alice",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 50,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Usuários podem ser alvos de ameaças específicas devido a vulnerabilidades nas\npráticas de segurança digital. Qual das alternativas abaixo representa uma prática de\nsegurança inadequada que pode facilitar ameaças e vulnerabilidades ao usuário?",
+      "opcoes": [
+        "Utilizar autenticação multifatorial (MFA) para proteger contas.",
+        "Compartilhar senhas com colegas para facilitar o acesso rápido.",
+        "Atualizar regularmente o sistema operacional e os aplicativos instalados.",
+        "Evitar a instalação de softwares desconhecidos ou suspeitos.",
+        "Configurar senhas únicas para cada conta."
+      ],
+      "resposta": "Compartilhar senhas com colegas para facilitar o acesso rápido.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 51,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Uma empresa quer adotar um sistema de rotulagem com base no valor, sigilo e importância das\ninformações. Qual elemento de gerenciamento de risco é recomendado?",
+      "opcoes": [
+        "classificação do ativo",
+        "identificação do ativo",
+        "padronização do ativo",
+        "disponibilidade do ativo",
+        "venda do ativo"
+      ],
+      "resposta": "classificação do ativo",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 52,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Qual protocolo poderia ser usado para oferecer segurança aos funcionários que acessam sistemas\nremotamente de casa?",
+      "opcoes": [
+        "SSH",
+        "Telnet",
+        "SCP",
+        "WPA",
+        "WEP"
+      ],
+      "resposta": "SSH",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 53,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Sua empresa estará lidando com transações de mercado, Será solicitado que você verifique a\nidentificação de cada cliente que está executando uma transação. Qual tecnologia deve ser\nimplementada para autenticar e verificar transações eletrônicas do cliente?",
+      "opcoes": [
+        "dados de hash",
+        "criptografia assimétrica",
+        "criptografia simétrica",
+        "certificados digitais",
+        "certificados manuais"
+      ],
+      "resposta": "certificados digitais",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 54,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Qual tecnologia deve ser usada para aplicar a política de segurança na qual um dispositivo de\ncomputação deve ser verificado em relação à atualização mais recente do antivírus antes de receber\npermissão para se conectar à rede do campus?",
+      "opcoes": [
+        "VPN",
+        "NAC",
+        "NAS",
+        "SAN",
+        "DNS"
+      ],
+      "resposta": "NAC",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 55,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Qual tecnologia pode ser usada para garantir o sigilo dos dados?",
+      "opcoes": [
+        "gerenciamento de identidades",
+        "criptografia",
+        "hashing",
+        "RAID",
+        "SAN/NAS"
+      ],
+      "resposta": "criptografia",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 56,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Qual método é utilizado por estenografia para ocultar o texto em um arquivo de imagem?",
+      "opcoes": [
+        "bit menos significativo",
+        "bit mais significativo",
+        "ofuscação de dados",
+        "deleção de dados",
+        "mascaramento de dados"
+      ],
+      "resposta": "bit menos significativo",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 57,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Solicitaram que você trabalhasse com o pessoal da coleta e entrada de dados da empresa a fim de melhorar à\nintegridade dos dados durante as operações de entrada inicial e modificação de dados. Vários membros da\nequipe lhe pediram para explicar por que as novas telas de entrada de dados limitavam os tipos e o tamanho de\ndados inseridos em campos específicos. Qual das opções é um exemplo de um novo controle de integridade de\ndados?",
+      "opcoes": [
+        "controles de entrada de dados que permitem apenas que funcionários de entrada vejam os dados atuais",
+        "uma regra de limitação que foi implementada para impedir a entrada de dados confidenciais por\nfuncionários não autorizados",
+        "uma regra de validação que foi implementada para garantir a integralidade, precisão e consistência dos\ndados",
+        "operações de criptografia de dados que impedem que usuários não autorizados acessem dados\nconfidenciais",
+        "uma regra de validação que foi implementada para garantir a liberação dos dados ao público"
+      ],
+      "resposta": "uma regra de validação que foi implementada para garantir a integralidade, precisão e consistência dos\ndados",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 58,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Qual arma de segurança cibernética verifica o uso de senhas padrão, patches ausentes, portas abertas, problemas\nde configuração e endereços IP ativos?",
+      "opcoes": [
+        "sniffer de pacotes",
+        "crackers da senha",
+        "scanner de vulnerabilidades",
+        "analisadores de pacotes",
+        "scanners biométricos"
+      ],
+      "resposta": "scanner de vulnerabilidades",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 59,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Existem muitos ambientes que precisam de cinco noves, mas um ambiente de cinco noves pode ter\num custo proibitivo. Qual das opções é um exemplo de onde o ambiente de cinco noves pode ter um\ncusto proibitivo?",
+      "opcoes": [
+        "o departamento de educação dos EUA",
+        "a bolsa de valores de Nova York",
+        "lojas de departamento no shopping center local",
+        "o escritório central de uma equipe esportiva da liga principal",
+        "o ambiente de cinco noves nunca tem custo proibitivo"
+      ],
+      "resposta": "a bolsa de valores de Nova York",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 60,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Qual tecnologia pode ser usada para\nproteger o VoIP de espionagem?",
+      "opcoes": [
+        "autenticação fraca",
+        "mensagens de voz criptografadas",
+        "autenticação forte",
+        "ARP",
+        "SSH"
+      ],
+      "resposta": "mensagens de voz criptografadas",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 61,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Qual algoritmo hash é recomendado para a proteção de informações sigilosas mas não confidenciais?",
+      "opcoes": [
+        "MD5",
+        "3DES",
+        "AES-256",
+        "SHA-MD5",
+        "SHA-256"
+      ],
+      "resposta": "SHA-256",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 62,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Conseguir manter a disponibilidade durante eventos disruptivos descreve quais dos princípios da alta\ndisponibilidade?",
+      "opcoes": [
+        "único ponto de falha",
+        "Serviços que não são interrompidos",
+        "tolerância a falhas",
+        "intolerância a falhas",
+        "resiliência do sistema"
+      ],
+      "resposta": "resiliência do sistema",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 63,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Qual é a parte mais difícil de um projeto de um criptossistema?",
+      "opcoes": [
+        "algoritmo de criptografia",
+        "comprimento da chave",
+        "engenharia reversa",
+        "forward engineering",
+        "gerenciamento de chaves"
+      ],
+      "resposta": "gerenciamento de chaves",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 64,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Qual dos seguintes produtos ou tecnologias você usaria para estabelecer um parâmetro para um\nsistema operacional?",
+      "opcoes": [
+        "MS Baseliner",
+        "Microsoft Security Baseline Analyzer",
+        "CVE Baseline Analyzer",
+        "SANS Baselining System (SBS)",
+        "Security Shell (SSH)"
+      ],
+      "resposta": "Microsoft Security Baseline Analyzer",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 65,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Uma VPN será usada dentro da empresa para dar aos usuários remotos acesso seguro à rede\ncorporativa. O que o IPSec usa para autenticar a origem de cada pacote e oferecer a verificação de\nintegridade de dados?",
+      "opcoes": [
+        "salting",
+        "HMAC",
+        "CRC",
+        "password",
+        "RCR"
+      ],
+      "resposta": "HMAC",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 66,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Qual tecnologia pode ser usada para impedir um invasor de lançar um ataque de dicionário ou de\nforça bruta de um hash?",
+      "opcoes": [
+        "AES",
+        "ASE",
+        "MD5",
+        "rainbow tables",
+        "HMAC"
+      ],
+      "resposta": "HMAC",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 67,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Um especialista em segurança recebe um pedido de conselho sobre uma medida de segurança para\nevitar que hosts não autorizados acessem a rede doméstica dos funcionários. Qual medida seria\nmais eficaz?",
+      "opcoes": [
+        "Implemente uma VLAN.",
+        "Implementar sistemas de detecção de invasão.",
+        "Implementar um firewall,",
+        "Implemente RAID.",
+        "Implemente SAN/NAS"
+      ],
+      "resposta": "Implementar um firewall,",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 68,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "Qual tipo de ataque de criminoso virtual interferiria na comunicação de rede estabelecida por meio\ndo uso de pacotes construídos de modo que pareçam fazer parte da comunicação normal?",
+      "opcoes": [
+        "sniffing de pacotes",
+        "DNS spoofing",
+        "falsificação de pacotes",
+        "AP de WiFi sem autorização",
+        "SHA spoofing"
+      ],
+      "resposta": "falsificação de pacotes",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 69,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    },
+    {
+      "titulo": "",
+      "descricao": "O que acontece à medida que o comprimento da chave aumenta em um aplicativo de criptografia?",
+      "opcoes": [
+        "O espaço da chave aumenta exponencialmente.",
+        "O espaço da chave diminui proporcionalmente.",
+        "O espaço da chave diminui exponencialmente.",
+        "O espaço da chave aumenta proporcionalmente.",
+        "O espaço da chave não é modificado."
+      ],
+      "resposta": "O espaço da chave aumenta exponencialmente.",
+      "preservarOrdem": true,
+      "fonte": {
+        "pagina": 70,
+        "arquivo": 4,
+        "bloco": 1
+      }
+    }
+  ],
+  "discursivas": [
+    {
+      "titulo": "Material discursivo · página 1",
+      "pagina": 1,
+      "partes": [
+        {
+          "tipo": "texto",
+          "texto": "Descrição\n\nExplique o que é a redundância N +1 e qual propriedade de segurança ela garante.\nResposta Discursiva\nA redundância N+1 consiste em utilizar a quantidade de unidades necessárias para o pleno\nfuncionamento do sistema, mais uma unidade, de reserva. Caso uma das unidades primárias venha a\nfalhar, a unidade reserva assume seu papel, garantindo a disponibilidade do sistema para os\nusúarios, sem interrupção. Isso é muito importante quando trabalhamos com sistemas críticos, que\nnão podem ser interrompidos. Dessa forma, ao conseguir manter a disponibilidade do sistema\nmesmo diante de eventos disruptivos, a redundância N+1 garante a resiliência do sistema, um dos\nprincípios da alta disponibilidade.\nComentário da Resposta"
+        }
+      ]
+    },
+    {
+      "titulo": "Material discursivo · página 2",
+      "pagina": 2,
+      "partes": [
+        {
+          "tipo": "texto",
+          "texto": "Descrição\n\nA figura abaixo ilustra a execução de um processo de segurança e garantia da integridade em um\narquivo. Explique o que está sendo feito."
+        },
+        {
+          "tipo": "imagem",
+          "src": "images/figuras-pdf/assinatura-digital-gpg.png",
+          "alt": "Comandos de assinatura digital com GPG"
+        },
+        {
+          "tipo": "texto",
+          "texto": "Resposta Discursiva\n\nEstá sendo encaminhando um arquivo criptografado com uma chave privada para um usuário\nespecifico,\n\nComentário da Resposta\n\nNão está correta a sua resposta, foi feita uma assinatura digital na verdade."
+        }
+      ]
+    },
+    {
+      "titulo": "Material discursivo · página 3",
+      "pagina": 3,
+      "partes": [
+        {
+          "tipo": "texto",
+          "texto": "Descrição\n\nRodrigo quer enviar uma mensagem secreta para Ana. Considerando que eles utilizam criptografia de\nchaves assimétricas, explique o processo que Rodrigo deve utilizar para enviar a mensagem para que\nAna possa ler.\n\nResposta Discursiva\n\nRodrigo deve enviar a mensagem usando uma algoritmo de criptgrafia e usar a chave pública de Ana,\nisso gerará um número hash e a mensagem ficará ininteligível. Desssa forma, Ana, usando sua chave\nprivada, irá decifrar a mensagem enviada por Rodrigo tornando a mensagem inteligível, compreensível .\nComentário da Resposta\n\nDescrição\n\nSuponha que Alice deseja enviar a Bob um e-mail que contém informações importantes para a\nimplantação de um novo produto. Alice quer ter a certeza de que o Bob saiba que mensagem veio\ndela (Alice) e utiliza o mecanismo de assinatura digital para enviar a mensagem. Após receber a\nmensagem de Alice, como Bob deverá decifrar a mensagem?\n\nResposta Discursiva\n\nAlice gera duas chaves uma pública e uma privada, Bob utilizará a chave pública de Alice para\ndescriptografar a mensagem. Bob recebe a mensagem e a assinatura digital. Gera-se um hash da\nmensagem que foi recebida e descriptografa a assinatura digital com a chave pública de Alice. Daí as\nhashes são comparados. Se forem iguais, significa que a mensagem não foi alterada, Senão, a\nassinatura é inválida e a mensagem pode ter sido modificada.\n\nComentário da Resposta"
+        }
+      ]
+    }
+  ]
+}
