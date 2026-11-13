@@ -28,7 +28,7 @@
     mainWrapper: document.getElementById("main-wrapper"),
     pantherButton: document.getElementById("panther-button"),
     pantherBubble: document.getElementById("panther-bubble"),
-    pantherSvg: document.getElementById("panther-svg")
+    pantherMascot: document.getElementById("panther-mascot")
   };
 
   const state = {
@@ -436,12 +436,12 @@
     window.clearTimeout(pantherTimer);
     elements.pantherBubble.classList.remove("opacity-0", "scale-90", "translate-y-2");
     elements.pantherBubble.classList.add("opacity-100", "scale-100", "translate-y-0");
-    elements.pantherSvg.classList.add("translate-y-2", "scale-105");
+    elements.pantherMascot.classList.add("translate-y-2", "scale-105");
 
     pantherTimer = window.setTimeout(() => {
       elements.pantherBubble.classList.remove("opacity-100", "scale-100", "translate-y-0");
       elements.pantherBubble.classList.add("opacity-0", "scale-90", "translate-y-2");
-      elements.pantherSvg.classList.remove("translate-y-2", "scale-105");
+      elements.pantherMascot.classList.remove("translate-y-2", "scale-105");
     }, 1000);
   }
 
