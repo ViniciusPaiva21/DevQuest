@@ -2,7 +2,7 @@
   "use strict";
 
   const STORAGE_KEY = "devquest-theme";
-  const DEFAULT_THEME = "dark";
+  const DEFAULT_THEME = "christmas";
   const themes = {
     dark: {
       label: "Noite",
@@ -85,7 +85,7 @@
           </svg>
           <span class="theme-trigger-copy">
             <small>Tema</small>
-            <strong data-theme-current>Noite</strong>
+            <strong data-theme-current>${themes[DEFAULT_THEME].label}</strong>
           </span>
           <svg class="theme-trigger-chevron" viewBox="0 0 24 24" aria-hidden="true">
             <path d="m6 9 6 6 6-6"></path>
