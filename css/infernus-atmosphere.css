@@ -1,0 +1,108 @@
+/* Cenário original. A atmosfera do desafio permanece em todos os temas. */
+:root:root body[data-page="infernus"] {
+  --dead: #d6ad70; --dead-soft: #9b8b77; --bone: #e5dfd2;
+  --ash: #a6aaa5; --rust: #a05232; --rust-light: #e3926c;
+  background: #0b1012; color: #e5dfd2; color-scheme: dark;
+}
+:root:root body[data-page="infernus"] .dead-bg {
+  background: linear-gradient(180deg, rgba(8,13,15,.12), rgba(8,13,15,.48) 65%, #0b1012), url('../images/infernus/abyss-gate.webp') center top / cover no-repeat;
+}
+:root:root body[data-page="infernus"] .infernus-header {
+  background: rgba(10,15,17,.87); border-color: #a4804f40;
+}
+:root:root body[data-page="infernus"] :is(.infernus-home-link, .infernus-header .text-zinc-100) { color: #e5dfd2; }
+:root:root body[data-page="infernus"] .infernus-brand-icon { background: #191e1e; color: #d6ad70; border-color: #8d7356; }
+.infernus-hero { padding: 3.5rem 1rem 2rem; text-shadow: 0 2px 20px #000; }
+:root:root body[data-page="infernus"] .dead-title {
+  font-family: Georgia, 'Times New Roman', serif; text-transform: uppercase;
+  font-size: clamp(2.6rem, 7vw, 5.4rem); letter-spacing: .09em; line-height: 1.15;
+  background: linear-gradient(178deg, #f1eee3 20%, #b7b8ad 54%, #d6ad70 80%, #9c5037);
+  background-clip: text; -webkit-background-clip: text; color: transparent;
+  filter: drop-shadow(0 3px 2px #000);
+}
+:root:root body[data-page="infernus"] :is(.dead-lead,.dead-muted) { color: #bdc1b9; }
+:root:root body[data-page="infernus"] .dead-lead { max-width: 39rem; }
+:root:root body[data-page="infernus"] :is(.dead-heading,.dead-score,#current-question-title,.dead-lead strong) { color: #e5dfd2; }
+:root:root body[data-page="infernus"] .dead-kicker { color: #e0bd85; letter-spacing: .24em; }
+:root:root body[data-page="infernus"] .dead-hero-icon { color: #e4ba77; border-color: #d6ad7060; background: #101719b3; box-shadow: 0 0 40px #da86322e; }
+:root:root body[data-page="infernus"] .infernus-panel {
+  background: linear-gradient(140deg, #1c2324ed, #0c1215f5); border: 1px solid #9b8b7759;
+  border-radius: 22px; box-shadow: inset 0 1px #e5dfd20d, 0 24px 70px #0008;
+}
+:root:root body[data-page="infernus"] .subject-select-card { background: #101719e8 !important; border-color: #75807b45 !important; border-radius: 12px; }
+:root:root body[data-page="infernus"] .subject-select-card:hover { border-color: #d6ad7099 !important; background: #242722ed !important; }
+:root:root body[data-page="infernus"] .subject-select-card.selected { background: #9c703526 !important; border-color: #deb678 !important; box-shadow: 0 0 26px #d68c281a; }
+:root:root body[data-page="infernus"] .subject-select-card .text-zinc-400 { color: #a9b0a9 !important; }
+:root:root body[data-page="infernus"] .subject-select-card .dead-icon { color: #d6ad70; }
+:root:root body[data-page="infernus"] :is(.setup-chip,#stats-bar > div) { background: #121a1de6 !important; border-color: #9b8b774d !important; color: #bdc1b9 !important; }
+:root:root body[data-page="infernus"] .dead-primary { background: #d6ad70; border-color: #edcc98; color: #151916; box-shadow: 0 0 30px #da86321c; }
+:root:root body[data-page="infernus"] .dead-primary:hover { background: #edd0a0; }
+:root:root body[data-page="infernus"] .dead-secondary { background: #1d272a; border-color: #75807b80; color: #dedbd0; }
+:root:root body[data-page="infernus"] .infernus-option { background: #101719; border-color: #75807b55; color: #dedbd0; }
+:root:root body[data-page="infernus"] .infernus-option:hover:not(:disabled) { border-color: #d6ad70; background: #242722; }
+:root:root body[data-page="infernus"] .infernus-option.border-emerald-500 { background: #123128; border-color: #34d399; }
+:root:root body[data-page="infernus"] .infernus-option.border-red-500 { background: #381e1c; border-color: #f87171; }
+:root:root body[data-page="infernus"] .infernus-footer { background: #0b1012d9; border-color: #9b8b7730; }
+:root:root body[data-page="infernus"] .dead-haze { background: #b2bbb517; }
+:root:root body[data-page="infernus"] .dead-haze--two { background: #d0833326; }
+.infernus-wisps { position: absolute; inset: 0; pointer-events: none; }
+.infernus-wisp {
+  position: absolute; left: var(--x); top: var(--y); width: var(--size); height: var(--size);
+  border-radius: 50%; background: #ffe2a7;
+  box-shadow: 0 0 9px 3px #ffcc7a99, 0 0 32px 9px #df7d3955, 0 0 70px 22px #d6812826;
+  animation: infernus-wander var(--duration) ease-in-out var(--delay) infinite alternate;
+}
+.infernus-wisp:nth-child(3n) { background: #d4e1d8; box-shadow: 0 0 12px 4px #c5d8cb99, 0 0 40px 14px #a0b8ae33; }
+@keyframes infernus-wander {
+  0% { transform: translate3d(-12px,24px,0); opacity: .18; }
+  45% { opacity: .95; }
+  100% { transform: translate3d(35px,-65px,0); opacity: .3; }
+}
+@media(max-width: 640px) {
+  .infernus-hero { padding-top: 1.5rem; }
+  :root:root body[data-page="infernus"] .dead-bg { background-position: center top; }
+  .infernus-wisp:nth-child(even) { display: none; }
+}
+@media(prefers-reduced-motion: reduce) {
+  .infernus-wisp { animation: none; opacity: .55; }
+}
+/* A névoa fixa substitui o brilho antigo, que excedia a largura no celular. */
+:root:root body[data-page="infernus"] .dead-glow { display: none; }
+
+/* Bancos de névoa cruzam a janela inteira e acompanham toda a rolagem. */
+.infernus-fog {
+  position: fixed; inset: 0; overflow: hidden; pointer-events: none;
+  z-index: 2; contain: strict;
+  mask-image: linear-gradient(90deg, #000, #0006 25%, #0002 50%, #0006 75%, #000);
+}
+.infernus-fog-bank {
+  position: absolute; inset: -35%;
+  background-image:
+    radial-gradient(ellipse at 15% 25%, #d6dfd580 0%, #bacac254 17%, transparent 41%),
+    radial-gradient(ellipse at 75% 55%, #c4d4cd70 0%, #bdcec64d 16%, transparent 39%),
+    radial-gradient(ellipse at 40% 85%, #cbd5cf80 0%, transparent 38%);
+  filter: blur(35px); opacity: .65;
+  animation: infernus-fog-pass 32s ease-in-out infinite alternate;
+  will-change: transform;
+}
+.infernus-fog-bank--two {
+  background-image: radial-gradient(ellipse at 35% 40%, #d6dfd58c, transparent 50%), radial-gradient(ellipse at 65% 80%, #bdcec673, transparent 44%);
+  animation-duration: 43s; animation-delay: -19s; animation-direction: alternate-reverse;
+  opacity: .55; filter: blur(50px);
+}
+.infernus-fog-bank--three {
+  background-image: radial-gradient(ellipse at 50% 60%, #bdc9c275, transparent 45%), radial-gradient(ellipse at 80% 20%, #d6dfd56b, transparent 38%);
+  animation-duration: 51s; animation-delay: -31s; opacity: .45;
+}
+@keyframes infernus-fog-pass {
+  0% { transform: translate3d(-17%, -8%, 0) scale(1); }
+  50% { transform: translate3d(3%, 10%, 0) scale(1.12); }
+  100% { transform: translate3d(18%, -5%, 0) scale(1.03); }
+}
+@media(max-width: 640px) {
+  .infernus-fog-bank { filter: blur(22px); }
+  .infernus-fog-bank--three { display: none; }
+}
+@media(prefers-reduced-motion: reduce) {
+  .infernus-fog-bank { animation: none; opacity: .25; will-change: auto; }
+}

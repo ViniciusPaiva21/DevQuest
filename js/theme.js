@@ -8,13 +8,13 @@
       label: "Noite",
       description: "Tema preto atual"
     },
-    vampire: {
-      label: "Halloween",
-      description: "Castelo gótico e efeitos sonoros"
-    },
     pixel: {
       label: "Retrô",
       description: "Pixel art, luar e aventura"
+    },
+    christmas: {
+      label: "Natal",
+      description: "Verde pinheiro, dourado e estrelas"
     },
     classic: {
       label: "Clássico",
@@ -168,6 +168,20 @@
   function initializeThemeControls() {
     document.querySelectorAll("[data-theme-slot]").forEach(initializePicker);
     updatePickers(document.documentElement.dataset.theme || DEFAULT_THEME);
+    const atmosphere = document.createElement("div");
+    atmosphere.className = "christmas-atmosphere";
+    atmosphere.setAttribute("aria-hidden", "true");
+    // Posições distribuídas de forma estável; animações CSS não criam timers.
+    for (let index = 0; index < 34; index++) {
+      const sparkle = document.createElement("span");
+      sparkle.className = "christmas-sparkle";
+      sparkle.style.cssText = `--x:${(index * 37 + 3) % 100}%;--y:${(index * 23 + 7) % 100}%;--delay:-${index * .7}s;--duration:${7 + index % 6}s;--size:${2 + index % 3}px`;
+      atmosphere.appendChild(sparkle);
+    }
+    const star = document.createElement("span");
+    star.className = "christmas-shooting-star";
+    atmosphere.appendChild(star);
+    document.body.appendChild(atmosphere);
   }
 
   const initialTheme = readSavedTheme();

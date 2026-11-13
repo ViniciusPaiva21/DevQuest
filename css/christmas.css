@@ -1,0 +1,103 @@
+/* Natal: pinheiro, vinho e luz de velas. Isolado dos demais temas. */
+html[data-theme="christmas"] {
+  color-scheme: dark; --bg: #071b18; --panel: #102c25; --text: #faf0d8;
+  --muted: #bccbbe; --border: #c49a514d;
+}
+html[data-theme="christmas"] body:not([data-page="infernus"]) {
+  background: radial-gradient(ellipse at 50% 0%, #2c553f88, transparent 55%), radial-gradient(ellipse at 0% 75%, #802b2826, transparent 45%), #071b18;
+  color: #faf0d8;
+}
+html[data-theme="christmas"] body:not([data-page="infernus"])::before {
+  content: ''; position: fixed; inset: 0; pointer-events: none; z-index: 0;
+  background: radial-gradient(circle at 12% 12%, #f7d89233 0 1px, transparent 2px), radial-gradient(circle at 78% 42%, #f7d89226 0 1px, transparent 2px);
+  background-size: 97px 113px, 157px 181px;
+}
+html[data-theme="christmas"] body:not([data-page="infernus"]) :is(.ambient, main > .pointer-events-none) { display: none; }
+html[data-theme="christmas"] body:not([data-page="infernus"]) > header {
+  background: #091e19ed; border-color: #dbb46b59;
+  box-shadow: 0 4px 30px #0005;
+}
+html[data-theme="christmas"] body:not([data-page="infernus"]) > header::after {
+  content: ''; position: absolute; bottom: -3px; left: 0; right: 0; height: 5px; pointer-events: none;
+  background: radial-gradient(circle, #f8d58d 1px, transparent 3px) 0 0 / 44px 5px repeat-x;
+  filter: drop-shadow(0 0 4px #efc969);
+}
+html[data-theme="christmas"] body:not([data-page="infernus"]) :is(.brand-icon, .hero-eyebrow, .quiz-course-badge) {
+  background: #183b2e; border-color: #c49a5166; color: #f3d18c;
+}
+html[data-theme="christmas"] body:not([data-page="infernus"]) :is(.text-violet-400,.text-violet-500,.text-violet-300,.hero h1 span) { color: #f3d18c; }
+html[data-theme="christmas"] body:not([data-page="infernus"]) :is(.text-zinc-400,.text-zinc-500,.hero-description,.section-description,.header-link,.quiz-infernus-link) { color: #bccbbe; }
+html[data-theme="christmas"] body:not([data-page="infernus"]) :is(.hero h1, #quiz-title) { color: #faf0d8; text-shadow: 0 0 40px #ddb26926; }
+html[data-theme="christmas"] body:not([data-page="infernus"]) :is(.quiz-panel,#question-area,#final-screen,.featured-card,.subject-card,.course-card,.course-tab,.subject-search,.search-box) {
+  background: linear-gradient(145deg, #17372ef2, #0c231ff5); border-color: #c49a515e; color: #faf0d8;
+  box-shadow: 0 18px 55px #0003, inset 0 1px #f3d18c0d;
+}
+html[data-theme="christmas"] body:not([data-page="infernus"]) :is(#round-badge,#progress-badge) { background: #143228; border-color: #c49a5159; color: #f3d18c; }
+html[data-theme="christmas"] body:not([data-page="infernus"]) #options-box > button { background: #0b241f; border-color: #778f7659; color: #faf0d8; }
+html[data-theme="christmas"] body:not([data-page="infernus"]) #options-box > button:hover:not(:disabled) { background: #224a36; border-color: #f3d18c; }
+html[data-theme="christmas"] body:not([data-page="infernus"]) #options-box > button.border-emerald-500 { background: #164533; border-color: #34d399; }
+html[data-theme="christmas"] body:not([data-page="infernus"]) #options-box > button.border-red-500 { background: #4a2025; border-color: #f87171; }
+html[data-theme="christmas"] body:not([data-page="infernus"]) :is(#next-btn,#restart-btn,.hero-primary) {
+  background: #e2bd74; border-color: #f3d18c; color: #17251c;
+}
+html[data-theme="christmas"] body:not([data-page="infernus"]) :is(#next-btn,#restart-btn,.hero-primary):hover { background: #f5d797; }
+html[data-theme="christmas"] body:not([data-page="infernus"]) .infernus-card { background: linear-gradient(115deg,#351d21,#152b24); border-color: #975143; }
+html[data-theme="christmas"] body:not([data-page="infernus"]) footer { background: #071812; border-color: #c49a5133; }
+html[data-theme="christmas"] :is(.theme-trigger,.theme-menu) { background: #102c25; border-color: #c49a5173; color: #faf0d8; }
+html[data-theme="christmas"] .theme-option.is-active { background: #294c36; border-color: #d9b36b80; }
+html[data-theme="christmas"] :is(.theme-option-check,.theme-trigger-icon) { color: #f3d18c; }
+html[data-theme="christmas"] :is(.theme-option-copy small,.theme-menu-heading span,.theme-trigger-copy small) { color: #bdcbbd; }
+.theme-preview--christmas { background: linear-gradient(135deg,#174432 50%,#802b32 50%); border: 1px solid #d9b36b; }
+.theme-preview--christmas span { background: #f3d18c; }
+.christmas-atmosphere { display: none; }
+html[data-theme="christmas"] body:not([data-page="infernus"]) > .christmas-atmosphere {
+  display: block; position: fixed; inset: 0; overflow: hidden;
+  pointer-events: none; z-index: 40; contain: strict;
+}
+.christmas-sparkle {
+  position: absolute; left: var(--x); top: var(--y); width: var(--size); height: var(--size);
+  background: #ffe9af; border-radius: 50%; opacity: .4;
+  box-shadow: 0 0 8px 2px #f6d37c80;
+  animation: christmas-drift var(--duration) ease-in-out var(--delay) infinite alternate;
+}
+.christmas-sparkle:nth-child(4n) {
+  width: 9px; height: 9px; border-radius: 0;
+  clip-path: polygon(50% 0,60% 37%,100% 50%,60% 63%,50% 100%,40% 63%,0 50%,40% 37%);
+}
+@keyframes christmas-drift {
+  0% { transform: translate3d(-8px, -15px,0) scale(.65); opacity: .12; }
+  50% { opacity: .85; }
+  100% { transform: translate3d(16px,45px,0) scale(1.1); opacity: .3; }
+}
+.christmas-shooting-star {
+  position: absolute; left: 0; top: 0; width: 9px; height: 9px;
+  background: #fff8d7; border-radius: 50%; opacity: 0;
+  box-shadow: 0 0 9px 4px #ffe9af, 0 0 30px 8px #d9b36b99;
+  /* Uma viagem de três segundos começa a cada vinte segundos. */
+  animation: christmas-star-flight 20s linear 20s infinite;
+}
+.christmas-shooting-star::after {
+  content: ''; position: absolute; left: 4px; top: 2px; width: 150px; height: 3px;
+  background: linear-gradient(90deg,#ffe9af,transparent);
+  transform-origin: left center; transform: rotate(-26deg);
+}
+@keyframes christmas-star-flight {
+  0% { opacity: 0; transform: translate3d(108vw,8vh,0); }
+  1% { opacity: 1; }
+  14% { opacity: 1; }
+  16%,100% { opacity: 0; transform: translate3d(-30vw,78vh,0); }
+}
+html[data-theme="christmas"] a:focus-visible, html[data-theme="christmas"] button:focus-visible { outline: 2px solid #f3d18c; outline-offset: 4px; }
+@media(prefers-reduced-motion: reduce) {
+  .christmas-sparkle { animation: none; opacity: .35; }
+  .christmas-shooting-star { display: none; }
+}
+
+.christmas-atmosphere::before {
+  content: ''; position: absolute; inset: 84px 0 auto; height: 230px;
+  background: url('../images/christmas/garland.svg') center top / 100% auto no-repeat;
+  opacity: .9;
+}
+@media(max-width: 700px) {
+  .christmas-atmosphere::before { background-size: 750px auto; height: 95px; opacity: .55; }
+}

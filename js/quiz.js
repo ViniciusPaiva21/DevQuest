@@ -114,10 +114,10 @@
 
   function syncThemeAppearance() {
     const theme = document.documentElement.dataset.theme;
-    const pixel = ["pixel", "vampire"].includes(theme);
+    const pixel = (theme === "pixel");
     const courseSuffix = config.courseId ? ` · ${config.courseId}` : "";
     elements.quizTitle.textContent = pixel ? config.label : `Quiz ${config.label}${courseSuffix}`;
-    elements.quizSubtitle.textContent = pixel ? (theme === "vampire" ? "Conhecimento além da meia-noite." : "Pratique no seu ritmo.") : (config.courseLabel
+    elements.quizSubtitle.textContent = pixel ? "Pratique no seu ritmo." : (config.courseLabel
       ? `${config.courseLabel} — ${config.description}` : config.description);
     // A troca de tema não confirma uma seleção nem altera a pontuação.
     if (state.pendingButton && !pixel) {
@@ -321,7 +321,7 @@
     }
 
     button.addEventListener("click", () => {
-      if (!["pixel", "vampire"].includes(document.documentElement.dataset.theme)) {
+      if (!(document.documentElement.dataset.theme === "pixel")) {
         checkAnswer(button);
         return;
       }

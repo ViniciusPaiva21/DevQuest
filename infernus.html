@@ -7,17 +7,23 @@
   <title>DevQuest - Modo Infernus</title>
 
   <script src="js/theme.js"></script>
-  <script src="js/sounds.js" defer></script>
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://unpkg.com/lucide@0.468.0"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
   <link rel="stylesheet" href="css/infernus.css">
   <link rel="stylesheet" href="css/themes.css">
+  <link rel="stylesheet" href="css/infernus-atmosphere.css">
 </head>
 
 <body data-page="infernus" class="min-h-screen flex flex-col selection:bg-[#969d84] selection:text-[#090a08] overflow-x-hidden">
+  <div class="infernus-fog" aria-hidden="true">
+    <span class="infernus-fog-bank infernus-fog-bank--one"></span>
+    <span class="infernus-fog-bank infernus-fog-bank--two"></span>
+    <span class="infernus-fog-bank infernus-fog-bank--three"></span>
+  </div>
   <div class="dead-bg" aria-hidden="true">
+    <div class="infernus-wisps"><span class="infernus-wisp" style="--x:4%;--y:24%;--delay:-0.0s;--duration:15s;--size:3px"></span><span class="infernus-wisp" style="--x:13%;--y:68%;--delay:-2.7s;--duration:18s;--size:5px"></span><span class="infernus-wisp" style="--x:23%;--y:40%;--delay:-5.4s;--duration:21s;--size:7px"></span><span class="infernus-wisp" style="--x:33%;--y:88%;--delay:-8.100000000000001s;--duration:24s;--size:3px"></span><span class="infernus-wisp" style="--x:42%;--y:17%;--delay:-10.8s;--duration:27s;--size:5px"></span><span class="infernus-wisp" style="--x:54%;--y:65%;--delay:-13.5s;--duration:15s;--size:7px"></span><span class="infernus-wisp" style="--x:64%;--y:32%;--delay:-16.200000000000003s;--duration:18s;--size:3px"></span><span class="infernus-wisp" style="--x:73%;--y:77%;--delay:-18.900000000000002s;--duration:21s;--size:5px"></span><span class="infernus-wisp" style="--x:85%;--y:47%;--delay:-21.6s;--duration:24s;--size:7px"></span><span class="infernus-wisp" style="--x:94%;--y:19%;--delay:-24.3s;--duration:27s;--size:3px"></span><span class="infernus-wisp" style="--x:8%;--y:90%;--delay:-27.0s;--duration:15s;--size:5px"></span><span class="infernus-wisp" style="--x:91%;--y:91%;--delay:-29.700000000000003s;--duration:18s;--size:7px"></span><span class="infernus-wisp" style="--x:38%;--y:53%;--delay:-32.400000000000006s;--duration:21s;--size:3px"></span><span class="infernus-wisp" style="--x:69%;--y:10%;--delay:-35.1s;--duration:24s;--size:5px"></span><span class="infernus-wisp" style="--x:18%;--y:15%;--delay:-37.800000000000004s;--duration:27s;--size:7px"></span><span class="infernus-wisp" style="--x:80%;--y:60%;--delay:-40.5s;--duration:15s;--size:3px"></span></div>
     <span class="dead-haze dead-haze--one"></span>
     <span class="dead-haze dead-haze--two"></span>
     <span class="dead-haze dead-haze--three"></span>
@@ -46,8 +52,8 @@
   <main id="main-wrapper" class="content-layer flex-grow flex flex-col items-center px-4 py-12 relative w-full max-w-6xl mx-auto">
     <div class="dead-glow absolute top-0 left-1/4 w-96 h-96 rounded-full blur-3xl -z-10 animate-pulse-slow"></div>
 
-    <section class="text-center mb-10 z-10" aria-labelledby="infernus-title">
-      <span class="dead-kicker"><span></span> Protocolo interditado · III</span>
+    <section class="infernus-hero text-center mb-10 z-10" aria-labelledby="infernus-title">
+      <span class="dead-kicker"><span></span> Além do limiar · III</span>
       <div class="dead-hero-icon inline-flex items-center justify-center p-3 rounded-2xl mb-4">
         <i data-lucide="skull" class="w-8 h-8"></i>
       </div>

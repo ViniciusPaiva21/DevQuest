@@ -52,6 +52,18 @@ for (const [relativeFile, jsonKey] of Object.entries(subjectFiles)) {
     continue;
   }
 
+  if (jsonKey === "empreendedorismo") {
+    // Ignora variações de OCR, acentos e quebras de linha nas cópias do PDF.
+    const normalized = (text) => String(text).replaceAll("€", "e").normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]/g, "");
+    const seen = new Set();
+    for (const [index, question] of questions.entries()) {
+      const key = normalized(question.descricao);
+      if (seen.has(key)) report(relativeFile, index + 1, "enunciado repetido na matéria.");
+      seen.add(key);
+    }
+  }
+
   for (const page of data.discursivas || []) {
     for (const part of page.partes || []) {
       if (part.tipo === "imagem" && !fs.existsSync(path.join(projectRoot, part.src))) errors.push(`${relativeFile}: figura discursiva ausente.`);

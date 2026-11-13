@@ -51,12 +51,18 @@ assert.equal(storage.get("devquest-theme"), "pixel");
 vm.runInNewContext(source, context);
 assert.equal(context.window.DevQuestTheme.get(), "pixel", "deve restaurar Retrô ao recarregar");
 
-context.window.DevQuestTheme.set("vampire");
-assert.equal(documentElement.dataset.theme, "vampire");
-assert.equal(documentElement.style.colorScheme, "dark");
-assert.equal(storage.get("devquest-theme"), "vampire");
+// Preferências antigas do Halloween devem voltar ao tema padrão.
+storage.set("devquest-theme", "vampire");
 vm.runInNewContext(source, context);
-assert.equal(context.window.DevQuestTheme.get(), "vampire");
+assert.equal(context.window.DevQuestTheme.get(), "dark", "tema removido deve voltar para Noite");
+context.window.DevQuestTheme.set("vampire");
+assert.equal(storage.get("devquest-theme"), "dark");
+
+context.window.DevQuestTheme.set("christmas");
+assert.equal(context.window.DevQuestTheme.get(), "christmas", "deve aceitar Natal");
+assert.equal(storage.get("devquest-theme"), "christmas");
+vm.runInNewContext(source, context);
+assert.equal(context.window.DevQuestTheme.get(), "christmas", "deve restaurar Natal");
 
 context.window.DevQuestTheme.set("tema-inexistente");
 assert.equal(documentElement.dataset.theme, "dark", "um tema inválido deve voltar ao padrão");
