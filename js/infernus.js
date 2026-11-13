@@ -359,14 +359,60 @@
     elements.nextButton.focus();
   }
 
-  function triggerResetByErrors() {
-    elements.mainWrapper.classList.add("shake-screen");
-    window.setTimeout(() => {
-      const limit = getErrorLimit();
-      window.alert(`Modo Infernus: você errou ${limit} quest${limit === 1 ? "ão" : "ões"}. O desafio será reiniciado.`);
-      window.location.reload();
-    }, 350);
+  const resetDialog = document.getElementById("infernus-reset-dialog");
+  const resetConfirm = document.getElementById("confirm-infernus-reset");
+  let resetPending = false;
+
+  function releaseResetSmoke(event) {
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    const rect = resetDialog.getBoundingClientRect();
+    const x = event?.detail ? event.clientX - rect.left : rect.width / 2;
+    const y = event?.detail ? event.clientY - rect.top : rect.height * .75;
+    const cloud = document.createElement("span");
+    cloud.className = "reset-smoke-cloud";
+    cloud.style.left = `${x}px`;
+    cloud.style.top = `${y}px`;
+    for (let i = 0; i < 12; i++) {
+      const puff = document.createElement("span");
+      puff.style.setProperty("--drift-x", `${(i - 5.5) * 24}px`);
+      puff.style.setProperty("--drift-y", `${-75 - (i % 4) * 32}px`);
+      puff.style.setProperty("--puff-delay", `${i % 3 * 35}ms`);
+      cloud.appendChild(puff);
+    }
+    resetDialog.querySelector(".reset-smoke").appendChild(cloud);
+    window.setTimeout(() => cloud.remove(), 1500);
   }
+
+  function confirmErrorReset() {
+    if (resetPending) return;
+    resetPending = true;
+    resetConfirm.disabled = true;
+    resetConfirm.textContent = "Reabrindo o ciclo…";
+    resetDialog.classList.add("is-leaving");
+    const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    window.setTimeout(() => window.location.reload(), reducedMotion ? 50 : 1100);
+  }
+
+  function triggerResetByErrors() {
+    if (resetDialog.open || resetPending) return;
+    const limit = getErrorLimit();
+    document.getElementById("infernus-reset-detail").textContent =
+      `Limite atingido: ${state.errors} de ${limit} erro${limit === 1 ? "" : "s"}. Ao confirmar, você volta à seleção de matérias.`;
+    document.body.classList.add("infernus-reset-open");
+    resetDialog.showModal();
+    resetConfirm.focus({ preventScroll: true });
+  }
+
+  resetDialog.addEventListener("click", (event) => {
+    if (!resetPending) releaseResetSmoke(event);
+    if (event.target.closest("#confirm-infernus-reset")) confirmErrorReset();
+  });
+  resetDialog.addEventListener("cancel", (event) => {
+    // Escape confirma o mesmo reinício, sem devolver acesso ao quiz já encerrado.
+    event.preventDefault();
+    if (!resetPending) releaseResetSmoke();
+    confirmErrorReset();
+  });
 
   function nextQuestion() {
     state.currentIndex++;
