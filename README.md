@@ -25,7 +25,7 @@ Depois acesse `http://localhost:8000`.
 - `css/themes.css`: aparência dos temas Noite e Clássico.
 - `data/`: bancos de questões em JSON.
 
-O acervo atual reúne 581 questões objetivas em 18 bancos de matérias. Na trilha ADS, Arquitetura de Sistemas, Fundamentos de Redes e Governança de TI foram consolidadas a partir dos materiais de revisão, sem questões discursivas nem capturas repetidas.
+O acervo atual reúne 573 questões objetivas em 18 bancos de matérias. Na trilha ADS, Arquitetura de Sistemas, Fundamentos de Redes e Governança de TI foram consolidadas a partir dos materiais de revisão, sem questões discursivas nem capturas repetidas.
 
 As páginas antigas, como `frontend.html`, continuam disponíveis e redirecionam para a nova página única.
 
@@ -50,11 +50,11 @@ Cinco novas disciplinas aparecem na página inicial, no topo do catálogo e no M
 |---|---:|---:|
 | Estrutura de Dados II (CC) | 30 | 0 |
 | Álgebra Linear e Geometria Analítica (CC) | 29 | 0 |
-| Empreendedorismo e Negócios (ADS) | 31 | 6 |
+| Empreendedorismo e Negócios (ADS) | 25 | 6 |
 | Sistemas de Apoio à Tomada de Decisão (ADS) | 28 | 2 |
-| Segurança da Informação (ADS) | 67 | 3 |
+| Segurança da Informação (ADS) | 65 | 3 |
 
-Os enunciados e as alternativas das 185 questões estão em texto selecionável. Apenas figuras e gráficos usam imagens recortadas. As alternativas mantêm a ordem do documento, inclusive as quatro alternativas da página 32 de Segurança. Os materiais discursivos também apresentam texto e figuras separadamente.
+Os enunciados e as alternativas das 177 questões estão em texto selecionável. Apenas figuras e gráficos usam imagens recortadas. As alternativas mantêm a ordem do documento, inclusive as quatro alternativas da página 32 de Segurança. Os materiais discursivos também apresentam texto e figuras separadamente.
 
 O material discursivo, incluindo as respostas presentes nos documentos, está disponível para revisão na própria página da disciplina e não altera a pontuação. As páginas de origem ficam registradas em `fonte.pagina` nos novos bancos. Questões apenas semelhantes são preservadas para evitar excluir variações.
 
@@ -62,6 +62,7 @@ O material discursivo, incluindo as respostas presentes nos documentos, está di
 
 - Infernus: três bancos de névoa atravessam a janela e permanecem visíveis durante a rolagem. Os efeitos não interceptam cliques.
 - Empreendedorismo e Negócios: seis cópias de questões foram removidas, deixando 25 questões objetivas únicas. Perguntas distintas que compartilham um texto de apoio foram preservadas. O material discursivo continua disponível.
+- Segurança da Informação: duas duplicações foram removidas, deixando 65 questões objetivas. Foram preservadas as versões mais completas dos enunciados e alternativas, além das três páginas discursivas.
 - Selecione **Tema → Natal** para ativar a paleta verde pinheiro, vinho e dourado, os enfeites e os 34 brilhos flutuantes. A estrela cadente faz uma viagem a cada 20 segundos; a primeira começa 20 segundos após carregar a página. A animação pausa enquanto outro tema está selecionado e recomeça ao ativar Natal.
 - O Infernus mantém sua atmosfera própria mesmo quando Natal está salvo no navegador.
 - A preferência do sistema por movimento reduzido deixa brilhos e névoa estáticos e oculta a estrela cadente.
