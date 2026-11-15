@@ -290,24 +290,6 @@
     },
     {
       "titulo": "",
-      "descricao": "Uma das práticas para mitigar ataques de reconhecimento na rede é ocultar\ninformações sensíveis dos atacantes. Qual das alternativas a seguir ajuda a mitigar\nesse tipo de ataque?",
-      "opcoes": [
-        "Configurar firewalls para bloquear tentativas de varredura de porta.",
-        "Ativar o DAI para inspeção do protocolo",
-        "Implantar listas de controle de acesso (ACLs).",
-        "Ativar a proteção contra ataques DDoS.",
-        "Permitir acessos remotos sem restrições."
-      ],
-      "resposta": "Configurar firewalls para bloquear tentativas de varredura de porta.",
-      "preservarOrdem": true,
-      "fonte": {
-        "pagina": 20,
-        "arquivo": 4,
-        "bloco": 1
-      }
-    },
-    {
-      "titulo": "",
       "descricao": "Em relação à proteção física de servidores, qual das alternativas a seguir\nrepresenta uma medida importante para evitar o acesso físico não autorizado ao\nservidor?",
       "opcoes": [
         "Configurar firewalls e antivírus atualizados.",
@@ -1057,24 +1039,6 @@
       "preservarOrdem": true,
       "fonte": {
         "pagina": 62,
-        "arquivo": 4,
-        "bloco": 1
-      }
-    },
-    {
-      "titulo": "",
-      "descricao": "Conseguir manter a disponibilidade durante eventos disruptivos descreve quais dos princípios da alta\ndisponibilidade?",
-      "opcoes": [
-        "único ponto de falha",
-        "Serviços que não são interrompidos",
-        "tolerância a falhas",
-        "intolerância a falhas",
-        "resiliência do sistema"
-      ],
-      "resposta": "resiliência do sistema",
-      "preservarOrdem": true,
-      "fonte": {
-        "pagina": 63,
         "arquivo": 4,
         "bloco": 1
       }
