@@ -7,11 +7,11 @@
         "Um invasor altera o endereço MAC de seu dispositivo para assumir a identidade\nde outro na rede.",
         "Um invasor cria uma URL falsa para imitar o site de uma instituição financeira.",
         "Um invasor criptografa os dados da rede com um ransomware.",
-        "d) Um invasor força a conexão de um dispositivo remoto para comprometer os\ndados.",
+        "Um invasor força a conexão de um dispositivo remoto para comprometer os\ndados.",
         "Um invasor utiliza força bruta para decifrar senhas de acesso."
       ],
       "resposta": "Um invasor altera o endereço MAC de seu dispositivo para assumir a identidade\nde outro na rede.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 4,
         "arquivo": 4,
@@ -29,7 +29,7 @@
         "Diminuição da quantidade de endereços IP disponíveis na rede."
       ],
       "resposta": "Redirecionamento do tráfego de rede para um servidor de controle do invasor.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 5,
         "arquivo": 4,
@@ -47,7 +47,7 @@
         "Engenharia social, que utiliza técnicas psicológicas para enganar usuários."
       ],
       "resposta": "Ataque de interceptação (sniffing), onde o invasor captura pacotes na rede para\nobter informações confidenciais.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 6,
         "arquivo": 4,
@@ -65,7 +65,7 @@
         "Atualização dos patches de segurança do sistema."
       ],
       "resposta": "O uso do pretexto de uma ligação de \"suporte técnico\" para convencer uma vítima\na fornecer dados pessoais.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 7,
         "arquivo": 4,
@@ -83,7 +83,7 @@
         "Phishing só pode ser realizado através de e-mails."
       ],
       "resposta": "Phishing envolve a criação de websites ou e-mails falsos que imitam entidades confiáveis para\nenganar os usuários.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 8,
         "arquivo": 4,
@@ -98,10 +98,10 @@
         "Redirecionamento de usuários para sites maliciosos.",
         "Bloqueio completo do acesso à internet.",
         "Acesso à rede por meio de SSH não autorizado.",
-        "e) Redução da velocidade de download."
+        "Redução da velocidade de download."
       ],
       "resposta": "Redirecionamento de usuários para sites maliciosos.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 9,
         "arquivo": 4,
@@ -119,7 +119,7 @@
         "Evitar a utilização de qualquer tipo de criptografia nos dados corporativos."
       ],
       "resposta": "Realizar backups regulares e armazená-los em um local seguro fora da rede.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 10,
         "arquivo": 4,
@@ -137,7 +137,7 @@
         "Compartilhar senhas e informações pessoais apenas em redes sociais."
       ],
       "resposta": "Utilizar uma VPN (Virtual Private Network) ao acessar redes não confiáveis.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 11,
         "arquivo": 4,
@@ -155,7 +155,7 @@
         "Perda ou roubo de propriedade intelectual."
       ],
       "resposta": "Usuários remotos acessando a infraestrutura de uma organização e baixando\ndados confidenciais.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 12,
         "arquivo": 4,
@@ -173,7 +173,7 @@
         "SMB"
       ],
       "resposta": "DNS",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 13,
         "arquivo": 4,
@@ -191,7 +191,7 @@
         "Alterando as configurações do servidor DNS, habilitando respostas recursivas."
       ],
       "resposta": "Alterando os endereços DNS para apontar para servidores maliciosos.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 14,
         "arquivo": 4,
@@ -209,7 +209,7 @@
         "SHA-512"
       ],
       "resposta": "VPN",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 15,
         "arquivo": 4,
@@ -227,7 +227,7 @@
         "Impedir que os sistemas sejam atacados por vírus e malware."
       ],
       "resposta": "Garantir que os dados sejam acessados apenas por usuários",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 16,
         "arquivo": 4,
@@ -245,7 +245,7 @@
         "Priorizar a segurança externa em detrimento da segurança interna."
       ],
       "resposta": "Realizar campanhas de conscientização sobre segurança digital para todos os\ncolaboradores da empresa.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 17,
         "arquivo": 4,
@@ -263,7 +263,7 @@
         "Atualizar automaticamente o firewall da rede."
       ],
       "resposta": "Interceptar e redirecionar o tráfego dos dispositivos.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 18,
         "arquivo": 4,
@@ -281,7 +281,7 @@
         "Usar um scanner de rede para descobrir dispositivos vulneráveis."
       ],
       "resposta": "Enviar um e-mail falso, imitando uma instituição bancária, pedindo ao usuário que\natualize suas informações de login.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 19,
         "arquivo": 4,
@@ -299,7 +299,7 @@
         "Realizar backups periódicos dos dados armazenados no servidor."
       ],
       "resposta": "Manter o servidor em uma sala trancada com acesso restrito apenas a pessoal\nautorizado.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 21,
         "arquivo": 4,
@@ -317,7 +317,7 @@
         "Monitoramento de tráfego para detectar atividades suspeitas."
       ],
       "resposta": "Ataques de Engenharia Social que aproveitam as falhas do comportamento\nhumano.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 22,
         "arquivo": 4,
@@ -335,7 +335,7 @@
         "Um teste de penetração realizado por profissionais de segurança da própria\norganização."
       ],
       "resposta": "A exploração de uma vulnerabilidade de segurança por um atacante remoto\npara obter acesso a um sistema corporativo.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 23,
         "arquivo": 4,
@@ -350,10 +350,10 @@
         "Inundação de MAC.",
         "Hijacking de rede.",
         "Sniffing de pacotes.",
-        "e) Exploração de DNS"
+        "Exploração de DNS"
       ],
       "resposta": "Inundação de MAC.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 24,
         "arquivo": 4,
@@ -371,7 +371,7 @@
         "O ransomware identifica e elimina automaticamente os arquivos de segurança."
       ],
       "resposta": "O ransomware criptografa os dados e ameaça expor informações confidenciais\nse o pagamento não for realizado.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 25,
         "arquivo": 4,
@@ -389,7 +389,7 @@
         "Criação de senhas fortes e exclusivas para dispositivos de rede."
       ],
       "resposta": "Rootkits, que permitem acesso privilegiado ao sistema sendo de difícil\ndetecção.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 26,
         "arquivo": 4,
@@ -407,7 +407,7 @@
         "VPNs impedem completamente qualquer tipo de monitoramento ou rastreamento online"
       ],
       "resposta": "VPNs criptografam o tráfego de internet, protegendo os dados transmitidos entre o dispositivo\ndo usuário e o servidor VPN",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 27,
         "arquivo": 4,
@@ -425,7 +425,7 @@
         "Fornecer acesso irrestrito à rede para todos os funcionários."
       ],
       "resposta": "Implementar antivírus e ferramentas de monitoramento de rede para\ndetectar e bloquear ameaças.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 28,
         "arquivo": 4,
@@ -443,7 +443,7 @@
         "Desativar a autenticação multifatorial no banco de dados."
       ],
       "resposta": "Utilizar consultas preparadas e com validação rigorosa de dados de entrada.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 29,
         "arquivo": 4,
@@ -461,7 +461,7 @@
         "Arquivos binários."
       ],
       "resposta": "Diretórios (pastas).",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 30,
         "arquivo": 4,
@@ -479,7 +479,7 @@
         "Spoofing"
       ],
       "resposta": "Sniffing",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 31,
         "arquivo": 4,
@@ -496,7 +496,7 @@
         "Garantir que os dados sejam criptografados durante o armazenamento."
       ],
       "resposta": "Garantir que os dados não sejam alterados ou corrompidos de maneira não\nautorizada.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 32,
         "arquivo": 4,
@@ -514,7 +514,7 @@
         "man-in-the-end"
       ],
       "resposta": "man-in-the-middle",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 33,
         "arquivo": 4,
@@ -532,7 +532,7 @@
         "Desativar temporariamente o firewall de um sistema."
       ],
       "resposta": "Enviar pacotes com endereços IP falsificados para um servidor DNS para gerar\num grande volume de respostas.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 34,
         "arquivo": 4,
@@ -550,7 +550,7 @@
         "A conta padrão tem privilégios elevados de controle sobre o sistema\noperacional, ao contrário da conta de administrador."
       ],
       "resposta": "A conta padrão não pode instalar programas, mas a conta de administrador\npode.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 35,
         "arquivo": 4,
@@ -568,7 +568,7 @@
         "Um ransomware criptografa os dados de uma empresa e exige resgate."
       ],
       "resposta": "Um atacante convence um funcionário a fornecer dados de acesso fingindo ser do\ndepartamento de TI.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 36,
         "arquivo": 4,
@@ -586,7 +586,7 @@
         "Um phishing realizado por um hacker enviando e-mails maliciosos para\nfuncionários de uma empresa."
       ],
       "resposta": "Um funcionário insatisfeito que usa suas credenciais para acessar dados sigilosos\ne vazar informações para fora da empresa.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 37,
         "arquivo": 4,
@@ -604,7 +604,7 @@
         "touch"
       ],
       "resposta": "ls -l",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 38,
         "arquivo": 4,
@@ -622,7 +622,7 @@
         "Utilizar backups offline dos dados da rede."
       ],
       "resposta": "Enviar uma grande quantidade de pacotes ICMP ao alvo.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 39,
         "arquivo": 4,
@@ -640,7 +640,7 @@
         "Permitir acessos remotos sem restrições."
       ],
       "resposta": "Configurar firewalls para bloquear tentativas de varredura de porta.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 40,
         "arquivo": 4,
@@ -658,7 +658,7 @@
         "Monitoramento de rede para análise de tráfego suspeito."
       ],
       "resposta": "Ransomware que atinge computadores conectados à rede local e criptografa\ndados.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 41,
         "arquivo": 4,
@@ -676,7 +676,7 @@
         "Bloquear vírus e malware que tentem acessar o disco."
       ],
       "resposta": "Proteger todo o conteúdo de um disco rígido contra roubo ou acesso não\nautorizado aos dados.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 42,
         "arquivo": 4,
@@ -694,7 +694,7 @@
         "Reduzir a largura de banda do sistema alvo."
       ],
       "resposta": "Enviar pacotes SYN sem completar o handshake.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 43,
         "arquivo": 4,
@@ -712,7 +712,7 @@
         "Ransomware, que criptografa dados e exige pagamento para sua liberação."
       ],
       "resposta": "Man-in-the-Middle (MitM), que intercepta dados em trânsito sem autorização.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 44,
         "arquivo": 4,
@@ -730,7 +730,7 @@
         "Infectar dispositivos da rede com malware sem ser detectado."
       ],
       "resposta": "Enganar dispositivos da rede para associar o endereço MAC do invasor ao\nendereço IP de um dispositivo confiável.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 45,
         "arquivo": 4,
@@ -748,7 +748,7 @@
         "SaaS é sinônimo de software open source."
       ],
       "resposta": "SaaS permite acesso a aplicativos via internet, normalmente através de um navegador web",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 46,
         "arquivo": 4,
@@ -766,7 +766,7 @@
         "Integridade assegura que os dados estejam criptografados durante a transmissão"
       ],
       "resposta": "Confidencialidade se refere à proteção dos dados contra acesso não autorizado.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 47,
         "arquivo": 4,
@@ -784,7 +784,7 @@
         "O MD5 gera hashes diferentes para inputs idênticos."
       ],
       "resposta": "O MD5 é um algoritmo de hash que produz um valor de 128 bits.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 48,
         "arquivo": 4,
@@ -802,7 +802,7 @@
         "resiliência do sistema"
       ],
       "resposta": "resiliência do sistema",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 49,
         "arquivo": 4,
@@ -820,7 +820,7 @@
         "chave pública de Alice"
       ],
       "resposta": "chave privada da Alice",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 50,
         "arquivo": 4,
@@ -838,7 +838,7 @@
         "Configurar senhas únicas para cada conta."
       ],
       "resposta": "Compartilhar senhas com colegas para facilitar o acesso rápido.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 51,
         "arquivo": 4,
@@ -856,7 +856,7 @@
         "venda do ativo"
       ],
       "resposta": "classificação do ativo",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 52,
         "arquivo": 4,
@@ -874,7 +874,7 @@
         "WEP"
       ],
       "resposta": "SSH",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 53,
         "arquivo": 4,
@@ -892,7 +892,7 @@
         "certificados manuais"
       ],
       "resposta": "certificados digitais",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 54,
         "arquivo": 4,
@@ -910,7 +910,7 @@
         "DNS"
       ],
       "resposta": "NAC",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 55,
         "arquivo": 4,
@@ -928,7 +928,7 @@
         "SAN/NAS"
       ],
       "resposta": "criptografia",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 56,
         "arquivo": 4,
@@ -946,7 +946,7 @@
         "mascaramento de dados"
       ],
       "resposta": "bit menos significativo",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 57,
         "arquivo": 4,
@@ -964,7 +964,7 @@
         "uma regra de validação que foi implementada para garantir a liberação dos dados ao público"
       ],
       "resposta": "uma regra de validação que foi implementada para garantir a integralidade, precisão e consistência dos\ndados",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 58,
         "arquivo": 4,
@@ -982,7 +982,7 @@
         "scanners biométricos"
       ],
       "resposta": "scanner de vulnerabilidades",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 59,
         "arquivo": 4,
@@ -1000,7 +1000,7 @@
         "o ambiente de cinco noves nunca tem custo proibitivo"
       ],
       "resposta": "a bolsa de valores de Nova York",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 60,
         "arquivo": 4,
@@ -1018,7 +1018,7 @@
         "SSH"
       ],
       "resposta": "mensagens de voz criptografadas",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 61,
         "arquivo": 4,
@@ -1036,7 +1036,7 @@
         "SHA-256"
       ],
       "resposta": "SHA-256",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 62,
         "arquivo": 4,
@@ -1054,7 +1054,7 @@
         "gerenciamento de chaves"
       ],
       "resposta": "gerenciamento de chaves",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 64,
         "arquivo": 4,
@@ -1072,7 +1072,7 @@
         "Security Shell (SSH)"
       ],
       "resposta": "Microsoft Security Baseline Analyzer",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 65,
         "arquivo": 4,
@@ -1090,7 +1090,7 @@
         "RCR"
       ],
       "resposta": "HMAC",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 66,
         "arquivo": 4,
@@ -1108,7 +1108,7 @@
         "HMAC"
       ],
       "resposta": "HMAC",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 67,
         "arquivo": 4,
@@ -1126,7 +1126,7 @@
         "Implemente SAN/NAS"
       ],
       "resposta": "Implementar um firewall,",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 68,
         "arquivo": 4,
@@ -1144,7 +1144,7 @@
         "SHA spoofing"
       ],
       "resposta": "falsificação de pacotes",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 69,
         "arquivo": 4,
@@ -1162,7 +1162,7 @@
         "O espaço da chave não é modificado."
       ],
       "resposta": "O espaço da chave aumenta exponencialmente.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 70,
         "arquivo": 4,
