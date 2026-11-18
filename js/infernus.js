@@ -298,7 +298,7 @@
     elements.nextButton.classList.add("hidden");
     elements.questionArea.innerHTML = renderQuestionHeader(question);
 
-    (question.preservarOrdem ? question.opcoes : shuffle(question.opcoes)).forEach((option, index) => {
+    shuffle(question.opcoes).forEach((option, index) => {
       fragment.appendChild(createOptionButton(option, index, question.resposta, question.originalPDF));
     });
 

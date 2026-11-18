@@ -11,7 +11,7 @@
         "Qualquer uma: ambas geram crescente diretamente."
       ],
       "resposta": "Construir max-heap e remover máximo movendo para o fim do arranjo.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 1,
         "arquivo": 0,
@@ -29,7 +29,7 @@
         "As asserções I e II são proposições falsas."
       ],
       "resposta": "As asserções I e II são proposições verdadeiras, mas a II não é justificativa da I.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 2,
         "arquivo": 0,
@@ -47,7 +47,7 @@
         "As asserções I e II são proposições falsas."
       ],
       "resposta": "As asserções I e II são proposições verdadeiras, e a II é uma justificativa da I.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 3,
         "arquivo": 0,
@@ -65,7 +65,7 @@
         "I, II e III."
       ],
       "resposta": "I e III, apenas.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 4,
         "arquivo": 0,
@@ -83,7 +83,7 @@
         "I, II e III."
       ],
       "resposta": "I, II e III.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 5,
         "arquivo": 0,
@@ -101,7 +101,7 @@
         "É necessário usar recursão dupla, uma para filhos e outra para irmãos."
       ],
       "resposta": "Acessar P->filho, que é o primeiro filho, e então seguir a cadeia de ponteiros irmao até\nencontrar NULL.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 6,
         "arquivo": 0,
@@ -119,7 +119,7 @@
         "I, II e III."
       ],
       "resposta": "I e II, apenas.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 7,
         "arquivo": 0,
@@ -137,7 +137,7 @@
         "Um número fixo de 6 fitas, como usado no exemplo do material de estudo."
       ],
       "resposta": "2f fitas, onde f fitas são usadas para entrada e f para saída, com papéis que se alternam a cada passada.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 8,
         "arquivo": 0,
@@ -155,7 +155,7 @@
         "Bons métodos de ordenação externa tipicamente exigem um número de passadas proporcional a n/m."
       ],
       "resposta": "É possível realizar a intercalação com f+1 fitas em vez de 2f, mas isso acarreta o custo de uma passada adicional sobre o arquivo.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 9,
         "arquivo": 0,
@@ -173,7 +173,7 @@
         "I, II e III."
       ],
       "resposta": "II e III, apenas.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 10,
         "arquivo": 0,
@@ -191,7 +191,7 @@
         "A complexidade dos algoritmos de ordenação externa é sempre O(N²), enquanto os internos podem ser O(N log N)."
       ],
       "resposta": "O custo de acesso a um registro na memória secundária é muito maior, exigindo a\nminimização de transferências de dados.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 11,
         "arquivo": 0,
@@ -209,7 +209,7 @@
         "O número de folhas dobra."
       ],
       "resposta": "A sequência em-ordem (ABB) permanece a mesma.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 12,
         "arquivo": 0,
@@ -227,7 +227,7 @@
         "Heapsort usa ABB balanceada."
       ],
       "resposta": "Heapsort com min-heap + inversão final entrega ordem crescente.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 13,
         "arquivo": 0,
@@ -245,7 +245,7 @@
         "F-V-F-V"
       ],
       "resposta": "F-V-V-V",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 14,
         "arquivo": 0,
@@ -263,7 +263,7 @@
         "As asserções I e II são proposições falsas."
       ],
       "resposta": "As asserções I e II são proposições verdadeiras, e a II é uma justificativa da I.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 15,
         "arquivo": 0,
@@ -281,7 +281,7 @@
         "II e III, apenas."
       ],
       "resposta": "I, II e III.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 16,
         "arquivo": 0,
@@ -299,7 +299,7 @@
         "I, II e III."
       ],
       "resposta": "II e III, apenas.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 17,
         "arquivo": 0,
@@ -317,7 +317,7 @@
         "Ela armazena a chave completa em cada nó folha, eliminando a necessidade de reconstruir a chave a partir do caminho."
       ],
       "resposta": "Ela elimina caminhos de uma só direção ao armazenar em cada nó interno o índice do caractere a ser testado, permitindo \"saltar\" sobre os caracteres que não geram ramificações.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 18,
         "arquivo": 0,
@@ -335,7 +335,7 @@
         "A->filho aponta para D, e A->irmao aponta para C."
       ],
       "resposta": "A->filho aponta para B, B->irmao aponta para C, e C->irmao aponta para D.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 18,
         "arquivo": 0,
@@ -353,7 +353,7 @@
         "I, II e III."
       ],
       "resposta": "I, II e III.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 18,
         "arquivo": 0,
@@ -371,7 +371,7 @@
         "Bons métodos de ordenação externa tipicamente exigem um número de passadas proporcional a n/m."
       ],
       "resposta": "É possível realizar a intercalação com f+1 fitas em vez de 2f, mas isso acarreta o custo de uma passada adicional sobre o arquivo.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 18,
         "arquivo": 0,
@@ -389,7 +389,7 @@
         "'k' é simplesmente removido e seu filho 'm:6' o substitui."
       ],
       "resposta": "Rotação à esquerda em 'k' com seu filho 'm:6', rotação à direita em k, depois remoção.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 19,
         "arquivo": 0,
@@ -409,7 +409,7 @@
         "Nenhuma das afirmativas."
       ],
       "resposta": "I, II e III.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 20,
         "arquivo": 0,
@@ -427,7 +427,7 @@
         "A propagação da recoloração até a raiz da árvore."
       ],
       "resposta": "A execução de rotações envolvendo x, seu pai p, seu avô a e possivelmente seu tio t.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 21,
         "arquivo": 0,
@@ -445,7 +445,7 @@
         "Indeterminado."
       ],
       "resposta": "T(log n).",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 22,
         "arquivo": 0,
@@ -463,7 +463,7 @@
         "I, II e III."
       ],
       "resposta": "I e II, apenas.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 23,
         "arquivo": 0,
@@ -481,7 +481,7 @@
         "I, II e III."
       ],
       "resposta": "I, II e III.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 24,
         "arquivo": 0,
@@ -499,7 +499,7 @@
         "F-F-F-V"
       ],
       "resposta": "F-F-V-V",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 25,
         "arquivo": 0,
@@ -517,7 +517,7 @@
         "Heap: construção O(n log n)."
       ],
       "resposta": "Lista ordenada: inserção O(1), seleção O(n); Heap: seleção O(1), inserção O(log n).",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 26,
         "arquivo": 0,
@@ -535,7 +535,7 @@
         "I, II, III e IV."
       ],
       "resposta": "I, II, III e IV.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 27,
         "arquivo": 0,

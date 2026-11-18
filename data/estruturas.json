@@ -321,7 +321,7 @@
         "Mantém-se balanceada após inserções e remoções",
         "É uma árvore binária sem ordenação específica",
         "Tem um tempo de busca pior que de uma lista encadeada simples",
-        "Nenhuma das anteriores"
+        "Nenhuma das demais alternativas"
       ],
       "resposta": "Mantém-se balanceada após inserções e remoções"
     },
@@ -335,7 +335,7 @@
         "Altura da subárvore esquerda menos altura da subárvore direita",
         "Grau da subárvore esquerda mais grau da subárvore direita",
         "Altura da subárvore esquerda mais altura da subárvore direita",
-        "Nenhuma das anteriores"
+        "Nenhuma das demais alternativas"
       ],
       "resposta": "Altura da subárvore esquerda menos altura da subárvore direita"
     },
@@ -426,7 +426,7 @@
     "2019 - P - S - F - I",
     "S - P - I - F - 2019",
     "S - I - F - 2019 - P",
-    "Nenhuma das anteriores"
+    "Nenhuma das demais alternativas"
   ],
   "resposta": "P - I - S - F - 2019"
 },

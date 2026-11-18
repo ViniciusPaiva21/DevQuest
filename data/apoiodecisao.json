@@ -11,7 +11,7 @@
         "pervasivas."
       ],
       "resposta": "operacionais.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 3,
         "arquivo": 3,
@@ -29,7 +29,7 @@
         "semi-estruturado."
       ],
       "resposta": "não estruturado.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 4,
         "arquivo": 3,
@@ -47,7 +47,7 @@
         "Algorítmos genéticos"
       ],
       "resposta": "Algoritmo de regressão",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 5,
         "arquivo": 3,
@@ -65,7 +65,7 @@
         "orientada para as funções de planejamento e organização."
       ],
       "resposta": "orientada aos objetivos organizacionais.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 6,
         "arquivo": 3,
@@ -83,7 +83,7 @@
         "A camada intermediária coleta e transforma dados de várias fontes."
       ],
       "resposta": "A camada superior fornece uma interface amigável para análises.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 7,
         "arquivo": 3,
@@ -94,14 +94,14 @@
       "titulo": "",
       "descricao": "De acordo com o nosso Tópico 07 (Inteligência de Negócios (BI) e Sistemas de Suporte à Decisão),\nselecione à opção correta sobre quais são os quatro mais básicos componentes da inteligência de\nnegócios.",
       "opcoes": [
-        "a) Os próprios dados (dados brutos), o Data Warehouse, a parte de acesso, análise e apresentação\nde dados e, finalmente, o painel de dados e relatórios.",
-        "a) Os próprios dados (dados brutos), o ETL, o Data Warehouse e o Data Lake.",
-        "a) O Data Warehouse,o Data Lake e a parte de acesso, análise e apresentação de dados e,\nfinalmente, o painel de dados e relatórios.",
-        "a) O Data Warehouse, o Data Mart, o Data Lake e, finalmente, o painel de dados e relatórios.",
-        "a) Nenhuma das opções anteriores."
+        "Os próprios dados (dados brutos), o Data Warehouse, a parte de acesso, análise e apresentação\nde dados e, finalmente, o painel de dados e relatórios.",
+        "Os próprios dados (dados brutos), o ETL, o Data Warehouse e o Data Lake.",
+        "O Data Warehouse,o Data Lake e a parte de acesso, análise e apresentação de dados e,\nfinalmente, o painel de dados e relatórios.",
+        "O Data Warehouse, o Data Mart, o Data Lake e, finalmente, o painel de dados e relatórios.",
+        "Nenhuma das demais opções."
       ],
-      "resposta": "a) Os próprios dados (dados brutos), o Data Warehouse, a parte de acesso, análise e apresentação\nde dados e, finalmente, o painel de dados e relatórios.",
-      "preservarOrdem": true,
+      "resposta": "Os próprios dados (dados brutos), o Data Warehouse, a parte de acesso, análise e apresentação\nde dados e, finalmente, o painel de dados e relatórios.",
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 8,
         "arquivo": 3,
@@ -119,7 +119,7 @@
         "vulnerabilidade, verdade, volume, variabilidade e veracidade"
       ],
       "resposta": "Volume, variedade, velocidade, variabilidade e veracidade",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 9,
         "arquivo": 3,
@@ -137,7 +137,7 @@
         "Eliminação de redundâncias e padronização de dados."
       ],
       "resposta": "Eliminação de redundâncias e padronização de dados.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 10,
         "arquivo": 3,
@@ -155,7 +155,7 @@
         "estruturados e analíticos."
       ],
       "resposta": "semi-estruturados e não estruturados.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 11,
         "arquivo": 3,
@@ -173,7 +173,7 @@
         "pessoa ou grupo que faz uma opção entre várias alternativas."
       ],
       "resposta": "as condições de incerteza, risco ou certeza que existem no ambiente de decisão que o tomador de decisão\ndeve enfrentar.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 12,
         "arquivo": 3,
@@ -191,7 +191,7 @@
         "Extract, Translate & Load"
       ],
       "resposta": "Extract, Transform & Load",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 13,
         "arquivo": 3,
@@ -209,7 +209,7 @@
         "Design — Escolha — Seleção e Implementação."
       ],
       "resposta": "Inteligência — Design — Escolha — Implementação.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 14,
         "arquivo": 3,
@@ -227,7 +227,7 @@
         "Assembling"
       ],
       "resposta": "Lógica Difusa",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 15,
         "arquivo": 3,
@@ -245,7 +245,7 @@
         "1–2–5."
       ],
       "resposta": "1–2–4.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 16,
         "arquivo": 3,
@@ -263,7 +263,7 @@
         "Ele é o gerente que é responsável pela consulta de\ndados em um Data Warehouse"
       ],
       "resposta": "Ele executa as operações necessárias, para extrair e\ncarregar os dados no banco de dados. O tamanho e a\ncomplexidade de um load manager variam entre\nsoluções específicas de um data warehouse para\noutro. Em termos de arquitetura, o load manager\nexecuta as seguintes funções: extrair dados do\nsistema de origem, carregar rapidamente os dados\nextraídos no armazenamento de dados temporário e\nrealizar transformações simples em uma estrutura\nsemelhante à do armazém de dados.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 17,
         "arquivo": 3,
@@ -281,7 +281,7 @@
         "um sextilhão de Gigabytes"
       ],
       "resposta": "um sextilhão de bytes",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 18,
         "arquivo": 3,
@@ -299,7 +299,7 @@
         "Etapa 5"
       ],
       "resposta": "Etapa 3",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 19,
         "arquivo": 3,
@@ -317,7 +317,7 @@
         "analítico."
       ],
       "resposta": "estruturado.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 20,
         "arquivo": 3,
@@ -335,7 +335,7 @@
         "Uma ferramenta de backup de dados operacionais"
       ],
       "resposta": "Um sistema que armazena dados de múltiplas fontes para análises avançadas",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 21,
         "arquivo": 3,
@@ -353,7 +353,7 @@
         "Armazenamento de dados operacionais (ODS), Power BI e Power View"
       ],
       "resposta": "Enterprise data warehouse (EDW), Armazenamento de dados operacionais (ODS) e Data mart.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 22,
         "arquivo": 3,
@@ -371,7 +371,7 @@
         "transacional."
       ],
       "resposta": "estratégico.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 23,
         "arquivo": 3,
@@ -389,7 +389,7 @@
         "Um sistema exclusivo para análise de big data."
       ],
       "resposta": "Um subconjunto de um data warehouse projetado para um departamento específico.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 24,
         "arquivo": 3,
@@ -407,7 +407,7 @@
         "4–1–3–2"
       ],
       "resposta": "4–2–1–3",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 25,
         "arquivo": 3,
@@ -425,7 +425,7 @@
         "Sistema de Business Inteligence"
       ],
       "resposta": "Sistema de Informação Gerencial",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 26,
         "arquivo": 3,
@@ -443,7 +443,7 @@
         "Armazenamento de dados operacionais (ODS), Power BI e Power View"
       ],
       "resposta": "Enterprise data warehouse (EDW), Armazenamento de dados operacionais (ODS) e Data mart.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 27,
         "arquivo": 3,
@@ -461,7 +461,7 @@
         "O MOLAP é mais escalável que o ROLAP"
       ],
       "resposta": "Utilizar mecanismos de armazenamento multidimensional baseados em matriz, com alta\neficiência de dados e escalabilidade",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 28,
         "arquivo": 3,
@@ -479,7 +479,7 @@
         "Quanto maior o banco mais rápidas as\nconsultas"
       ],
       "resposta": "Alta eficiência de dados e\nescalabilidade",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 29,
         "arquivo": 3,
@@ -497,7 +497,7 @@
         "É um sistema de armazemento de grandes quantidades de dados brutos."
       ],
       "resposta": "É um subconjunto do Data Warehouse - porém, um conjunto \"selecionado\" de acordo com a visão\nde área de negócios que se quer ter.",
-      "preservarOrdem": true,
+      "preservarOrdem": false,
       "fonte": {
         "pagina": 30,
         "arquivo": 3,
