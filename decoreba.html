@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Decoreba: associe palavras-chave das perguntas às respostas em todas as matérias do DevQuest.">
+  <title>DevQuest - Decoreba</title>
+  <script src="js/theme.js"></script>
+  <script src="https://unpkg.com/lucide@0.468.0"></script>
+  <link rel="stylesheet" href="css/quiz.css">
+  <link rel="stylesheet" href="css/themes.css">
+  <link rel="stylesheet" href="css/decoreba.css">
+</head>
+<body data-page="quiz" data-mode="decoreba">
+  <header class="decoreba-header">
+    <div class="decoreba-header-inner">
+      <a href="index.html" class="decoreba-brand">⌘ <span>DevQuest<small>De alunos para alunos</small></span></a>
+      <nav class="decoreba-nav" aria-label="Navegação principal">
+        <a href="disciplinas.html" class="decoreba-catalog-link">Disciplinas</a>
+        <a href="infernus.html" class="decoreba-mode-link"><i data-lucide="skull" aria-hidden="true"></i> Infernus</a>
+        <a href="decoreba.html" class="header-decoreba-link" aria-current="page"><i data-lucide="brain" aria-hidden="true"></i> Decoreba</a>
+        <div data-theme-slot></div>
+      </nav>
+    </div>
+  </header>
+  <main class="decoreba-main">
+    <section class="decoreba-hero" aria-labelledby="decoreba-title">
+      <span class="decoreba-eyebrow"><i data-lucide="sparkles" aria-hidden="true"></i> MODO DECOREBA</span>
+      <h1 id="decoreba-title">Bateu o olho. Fez a conexão.</h1>
+      <p id="decoreba-subtitle">Teste de 10 segundos em Empreendedorismo e Negócios e Segurança da Informação. As demais matérias mantêm a revisão anterior.</p>
+    </section>
+    <section id="decoreba-catalog" aria-label="Escolha uma matéria">
+      <div class="decoreba-example"><span>Na pergunta <strong class="decoreba-keyword">malware</strong></span><span aria-hidden="true">↔</span><span>Na resposta <strong class="decoreba-keyword">antivírus</strong></span></div>
+      <div id="decoreba-subjects"></div>
+    </section>
+    <p id="decoreba-loading" class="decoreba-notice" role="status" hidden>Preparando suas associações…</p>
+    <section id="decoreba-error" class="decoreba-notice" role="alert" hidden>
+      <p id="decoreba-error-message"></p>
+      <button id="decoreba-retry" class="decoreba-primary" type="button">Tentar novamente</button>
+      <a href="decoreba.html" class="decoreba-secondary">Escolher matéria</a>
+    </section>
+    <section id="decoreba-session" hidden aria-label="Revisão com palavras-chave">
+      <div class="decoreba-session-top">
+        <span class="decoreba-chip" id="decoreba-subject-label">Decoreba</span>
+        <a href="decoreba.html">Trocar matéria ↗</a>
+      </div>
+      <div class="decoreba-panel">
+        <div class="decoreba-progress-row">
+          <h2 id="decoreba-counter" tabindex="-1" aria-live="polite">Questão</h2>
+          <progress id="decoreba-progress" max="1" value="0" aria-label="Progresso da revisão"></progress>
+        </div>
+        <div id="decoreba-timer" class="decoreba-timer" hidden>
+          <span id="decoreba-timer-seconds" class="decoreba-countdown" role="timer" aria-label="Segundos até revelar a dica">10s</span>
+          <span class="decoreba-timer-copy"><strong id="decoreba-timer-title" aria-live="polite">Revelação da dica</strong><small id="decoreba-timer-help">Você já pode responder.</small></span>
+        </div>
+        <div id="decoreba-question-area"></div>
+        <p id="decoreba-feedback" class="decoreba-feedback" role="status" aria-live="polite" hidden></p>
+        <div class="decoreba-actions">
+          <button id="decoreba-previous" type="button" class="decoreba-secondary">← Anterior</button>
+          <button id="decoreba-next" type="button" class="decoreba-primary">Próxima questão →</button>
+        </div>
+      </div>
+      <div class="decoreba-session-bottom"><span>O brilho acompanha seu tema.</span><a data-normal-quiz href="disciplinas.html">Treinar sem dicas ↗</a></div>
+    </section>
+    <section id="decoreba-finish" class="decoreba-panel decoreba-finish" hidden>
+      <span class="decoreba-eyebrow">REVISÃO CONCLUÍDA</span>
+      <h2 id="decoreba-finish-title" tabindex="-1">Hora de testar a memória.</h2>
+      <p id="decoreba-finish-detail"></p>
+      <div class="decoreba-actions">
+        <button id="decoreba-restart" type="button" class="decoreba-secondary">Revisar novamente</button>
+        <a data-normal-quiz href="disciplinas.html" class="decoreba-primary">Ir para o quiz →</a>
+      </div>
+      <a href="decoreba.html">Escolher outra matéria</a>
+    </section>
+    <noscript>Ative o JavaScript do navegador para carregar as matérias do Decoreba.</noscript>
+  </main>
+  <footer class="decoreba-footer">Feito por Vinicius · DevQuest</footer>
+  <script src="js/subjects.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/decoreba-core.js"></script>
+  <script src="js/decoreba.js"></script>
+</body>
+</html>

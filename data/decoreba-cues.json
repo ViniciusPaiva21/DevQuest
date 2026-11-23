@@ -1,0 +1,8005 @@
+{
+  "version": 1,
+  "subjects": {
+    "adrii": {
+      "99d508fd": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "banco de dados"
+          },
+          {
+            "campo": "descricao",
+            "texto": "transação"
+          }
+        ],
+        "resposta": [
+          "COMMIT"
+        ]
+      },
+      "03cc49d8": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "procedure"
+          },
+          {
+            "campo": "descricao",
+            "texto": "trigger"
+          }
+        ],
+        "resposta": [
+          "trigger",
+          "procedure"
+        ]
+      },
+      "d695ffb1": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "SQL"
+          }
+        ],
+        "resposta": [
+          "incluir",
+          "varchar"
+        ]
+      },
+      "dc706bf4": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "banco de dados"
+          },
+          {
+            "campo": "descricao",
+            "texto": "gerenciamento"
+          }
+        ],
+        "resposta": [
+          "trigger"
+        ]
+      },
+      "50408271": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "banco de dados"
+          },
+          {
+            "campo": "descricao",
+            "texto": "índices"
+          }
+        ],
+        "resposta": [
+          "V, F, F, V"
+        ]
+      },
+      "efc0175d": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "evidenciado"
+          },
+          {
+            "campo": "descricao",
+            "texto": "científicas"
+          }
+        ],
+        "resposta": [
+          "Perdas de dados potencialmente catastróficas."
+        ]
+      },
+      "2fd56aa3": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "banco de dados"
+          },
+          {
+            "campo": "descricao",
+            "texto": "gerenciamento"
+          }
+        ],
+        "resposta": [
+          "consistência",
+          "banco de dados"
+        ]
+      },
+      "bcc71b7f": {
+        "pergunta": [
+          {
+            "campo": "titulo",
+            "texto": "Backup"
+          },
+          {
+            "campo": "afirmacoes.3",
+            "texto": "diferenciais"
+          }
+        ],
+        "resposta": [
+          "I e II"
+        ]
+      },
+      "0698226f": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "banco de dados"
+          },
+          {
+            "campo": "descricao",
+            "texto": "Durabilidade"
+          }
+        ],
+        "resposta": [
+          "Durabilidade"
+        ]
+      },
+      "7b3679c6": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "banco de dados"
+          },
+          {
+            "campo": "descricao",
+            "texto": "view"
+          }
+        ],
+        "resposta": [
+          "view"
+        ]
+      },
+      "6b8a0c76": {
+        "pergunta": [
+          {
+            "campo": "titulo",
+            "texto": "GROUP BY"
+          },
+          {
+            "campo": "descricao",
+            "texto": "SQL"
+          }
+        ],
+        "resposta": [
+          "F, V, V, F, V"
+        ]
+      },
+      "cf03e7a0": {
+        "pergunta": [
+          {
+            "campo": "titulo",
+            "texto": "Índice"
+          }
+        ],
+        "resposta": [
+          "SELECT"
+        ]
+      },
+      "a72ed236": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "isolamento"
+          },
+          {
+            "campo": "descricao",
+            "texto": "read"
+          }
+        ],
+        "resposta": [
+          "READ UNCOMMITTED"
+        ]
+      },
+      "7f7a7201": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "data warehouse"
+          }
+        ],
+        "resposta": [
+          "star schema e snowflake"
+        ]
+      },
+      "a15f983d": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "banco de dados"
+          }
+        ],
+        "resposta": [
+          "composto",
+          "SGBD"
+        ]
+      },
+      "a9367334": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "commit"
+          },
+          {
+            "campo": "titulo",
+            "texto": "UNDO"
+          }
+        ],
+        "resposta": [
+          "NO-UNDO/REDO"
+        ]
+      },
+      "99989100": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "índice"
+          },
+          {
+            "campo": "descricao",
+            "texto": "SQL"
+          }
+        ],
+        "resposta": [
+          "to_date, emp_no"
+        ]
+      },
+      "53e284e0": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "banco de dados"
+          },
+          {
+            "campo": "descricao",
+            "texto": "SQL"
+          }
+        ],
+        "resposta": [
+          "Join"
+        ]
+      },
+      "9b88735b": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "banco de dados"
+          },
+          {
+            "campo": "titulo",
+            "texto": "Transação"
+          }
+        ],
+        "resposta": [
+          "Ativa, parcialmente confirmada e confirmada."
+        ]
+      },
+      "82346c41": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "índices"
+          },
+          {
+            "campo": "descricao",
+            "texto": "DELETE"
+          }
+        ],
+        "resposta": [
+          "IV está correta."
+        ]
+      },
+      "dcb86157": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "índice"
+          }
+        ],
+        "resposta": [
+          "INSERT"
+        ]
+      },
+      "0b951302": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "banco de dados"
+          },
+          {
+            "campo": "descricao",
+            "texto": "deadlock"
+          }
+        ],
+        "resposta": [
+          "Requerer acesso exclusivo a um recurso."
+        ]
+      },
+      "7f046863": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "banco de dados"
+          },
+          {
+            "campo": "descricao",
+            "texto": "backup"
+          }
+        ],
+        "resposta": [
+          "sql"
+        ]
+      },
+      "c62d9aa2": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "NULL"
+          },
+          {
+            "campo": "descricao",
+            "texto": "SQL"
+          }
+        ],
+        "resposta": [
+          "Sentenças I e II."
+        ]
+      },
+      "4e2c803c": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "DELETE"
+          },
+          {
+            "campo": "descricao",
+            "texto": "UPDATE"
+          }
+        ],
+        "resposta": [
+          "Procedures."
+        ]
+      },
+      "ed4e0298": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "índices"
+          },
+          {
+            "campo": "afirmacoes.3",
+            "texto": "FUNCTION"
+          }
+        ],
+        "resposta": [
+          "I e III estão corretas."
+        ]
+      },
+      "5c3c79b7": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "INFORMATION_SCHEMA"
+          },
+          {
+            "campo": "descricao",
+            "texto": "metadados"
+          }
+        ],
+        "resposta": [
+          "PERFORMANCE_SCHEMA"
+        ]
+      },
+      "5f9ad6a5": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "visões"
+          },
+          {
+            "campo": "descricao",
+            "texto": "views"
+          }
+        ],
+        "resposta": [
+          "Permitir auditoria no banco de dados."
+        ]
+      },
+      "c7b5d108": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "banco de dados"
+          },
+          {
+            "campo": "titulo",
+            "texto": "Transação"
+          }
+        ],
+        "resposta": [
+          "Ativa, abortada e confirmada."
+        ]
+      }
+    },
+    "algebralinear": {
+      "01afff64": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "vetores normais"
+          },
+          {
+            "campo": "descricao",
+            "texto": "A(1,2,−2)"
+          }
+        ],
+        "resposta": [
+          "(-2,-1,-1)"
+        ]
+      },
+      "5622a470": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "u⃗ = (−3,2,1)"
+          },
+          {
+            "campo": "descricao",
+            "texto": "3u⃗ − x⃗ = 2x⃗ + 5v⃗"
+          }
+        ],
+        "resposta": [
+          "(-8,-8,-4)"
+        ]
+      },
+      "dbd58fa0": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "linearmente independente"
+          },
+          {
+            "campo": "descricao",
+            "texto": "(k,2,0)"
+          }
+        ],
+        "resposta": [
+          "k ≠ 1"
+        ]
+      },
+      "4f102409": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "combinação linear"
+          },
+          {
+            "campo": "descricao",
+            "texto": "(2,20,k)"
+          }
+        ],
+        "resposta": [
+          "-34"
+        ]
+      },
+      "22b90f06": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "paralelogramo"
+          },
+          {
+            "campo": "descricao",
+            "texto": "u⃗ = (3,−1,1)"
+          }
+        ],
+        "resposta": [
+          "√30"
+        ]
+      },
+      "1c618e52": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "base"
+          },
+          {
+            "campo": "descricao",
+            "texto": "x − 2y + 3z = 0"
+          }
+        ],
+        "resposta": [
+          "{(2,1,0),(-3,0,1)}"
+        ]
+      },
+      "9b6678c0": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "valor de c"
+          },
+          {
+            "campo": "descricao",
+            "texto": "2b − c = −11"
+          }
+        ],
+        "resposta": [
+          "7"
+        ]
+      },
+      "d3f87513": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "subespaço vetorial"
+          },
+          {
+            "campo": "descricao",
+            "texto": "z > 0"
+          }
+        ],
+        "resposta": [
+          "I"
+        ]
+      },
+      "107b7b95": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "ponto de interseção"
+          },
+          {
+            "campo": "descricao",
+            "texto": "y = 1 − 2t"
+          }
+        ],
+        "resposta": [
+          "(6,-5,-2)"
+        ]
+      },
+      "df90d270": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "equações paramétricas"
+          },
+          {
+            "campo": "descricao",
+            "texto": "A(−1,2,1)"
+          }
+        ],
+        "resposta": [
+          "x = -1 + 5t , y = 2 - 16t e z = 1 + 2t"
+        ]
+      },
+      "3a0fb279": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "paralelogramo"
+          },
+          {
+            "campo": "descricao",
+            "texto": "u⃗ = (0,1,−1)"
+          }
+        ],
+        "resposta": [
+          "√33"
+        ]
+      },
+      "50506381": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "equação matricial"
+          },
+          {
+            "campo": "descricao",
+            "texto": "ax + y + 2z = b"
+          }
+        ],
+        "resposta": [
+          "solução única",
+          "diferente de 2"
+        ]
+      },
+      "f0104964": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "v = (−1,3,k)"
+          },
+          {
+            "campo": "descricao",
+            "texto": "x = 2y − z"
+          }
+        ],
+        "resposta": [
+          "7"
+        ]
+      },
+      "d1b879a7": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "x − y + z = 0"
+          },
+          {
+            "campo": "descricao",
+            "texto": "pertencem"
+          }
+        ],
+        "resposta": [
+          "v₁, v₃ e v₄"
+        ]
+      },
+      "ceafe50f": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "valor de a"
+          },
+          {
+            "campo": "descricao",
+            "texto": "a − 2b − c = −7"
+          }
+        ],
+        "resposta": [
+          "7/3"
+        ]
+      },
+      "1c666c1c": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "ortogonais"
+          },
+          {
+            "campo": "descricao",
+            "texto": "mi⃗ + 2j⃗ − 4k⃗"
+          }
+        ],
+        "resposta": [
+          "3"
+        ]
+      },
+      "6526920c": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "equações reduzidas"
+          },
+          {
+            "campo": "descricao",
+            "texto": "A(4,3,2)"
+          }
+        ],
+        "resposta": [
+          "y=-4x+19 e z=-2x+10"
+        ]
+      },
+      "4a5cabbd": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "base"
+          },
+          {
+            "campo": "descricao",
+            "texto": "x − 2y + z = 0"
+          }
+        ],
+        "resposta": [
+          "{(0,1,2),(1,0,-1)}"
+        ]
+      },
+      "2dfecfd5": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "equações reduzidas"
+          },
+          {
+            "campo": "descricao",
+            "texto": "x − y + z − 3 = 0"
+          }
+        ],
+        "resposta": [
+          "y = 2x − 6 e z = x − 3"
+        ]
+      },
+      "dded74fc": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "x + 5y + 4z = 0"
+          },
+          {
+            "campo": "descricao",
+            "texto": "vetores"
+          }
+        ],
+        "resposta": [
+          "u e w",
+          "pertencem"
+        ]
+      },
+      "bc3ce7e8": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "ortogonais"
+          },
+          {
+            "campo": "descricao",
+            "texto": "z = mt"
+          }
+        ],
+        "resposta": [
+          "0"
+        ]
+      },
+      "8b35d213": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "u⃗ = (−1,3,2)"
+          },
+          {
+            "campo": "descricao",
+            "texto": "2u⃗ − x⃗ = 3x⃗ + 5v⃗"
+          }
+        ],
+        "resposta": [
+          "(-3,-6,-4)"
+        ]
+      },
+      "2f459503": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "valor de a"
+          },
+          {
+            "campo": "descricao",
+            "texto": "a + b + c = 6"
+          }
+        ],
+        "resposta": [
+          "5"
+        ]
+      },
+      "fbf1ad78": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "distância"
+          },
+          {
+            "campo": "descricao",
+            "texto": "P(4,1,7)"
+          }
+        ],
+        "resposta": [
+          "3√6"
+        ]
+      },
+      "0afcb713": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "equação geral"
+          },
+          {
+            "campo": "descricao",
+            "texto": "A(−3,−1,0)"
+          }
+        ],
+        "resposta": [
+          "11x - 28y + 7z + 5 = 0"
+        ]
+      },
+      "42622d95": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "linearmente independente"
+          },
+          {
+            "campo": "descricao",
+            "texto": "(k,-2,0)"
+          }
+        ],
+        "resposta": [
+          "k ≠ −1"
+        ]
+      },
+      "ff06a7d3": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "combinação linear"
+          },
+          {
+            "campo": "descricao",
+            "texto": "(−2,k,−36)"
+          }
+        ],
+        "resposta": [
+          "15"
+        ]
+      },
+      "415f8f9f": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "ponto de interseção"
+          },
+          {
+            "campo": "descricao",
+            "texto": "y = −1 − 2t"
+          }
+        ],
+        "resposta": [
+          "(6,-5,-2)"
+        ]
+      },
+      "d5f5e8e3": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "equação geral"
+          },
+          {
+            "campo": "descricao",
+            "texto": "A(2,0,−1)"
+          }
+        ],
+        "resposta": [
+          "7x + 17y - 6z - 20 = 0"
+        ]
+      }
+    },
+    "apoiodecisao": {
+      "4774d28b": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "atividades diárias"
+          }
+        ],
+        "resposta": [
+          "operacionais"
+        ]
+      },
+      "c8258a31": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "inédita"
+          },
+          {
+            "campo": "descricao",
+            "texto": "incertezas"
+          }
+        ],
+        "resposta": [
+          "não estruturado"
+        ]
+      },
+      "b699cd2d": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "método estatístico básico"
+          }
+        ],
+        "resposta": [
+          "regressão"
+        ]
+      },
+      "1253e5e5": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "foco da\ntomada de decisão"
+          }
+        ],
+        "resposta": [
+          "objetivos organizacionais"
+        ]
+      },
+      "0d8078b3": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "três camadas"
+          }
+        ],
+        "resposta": [
+          "camada superior",
+          "interface amigável"
+        ]
+      },
+      "bde45840": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "quatro mais básicos componentes"
+          }
+        ],
+        "resposta": [
+          "Data Warehouse",
+          "painel de dados e relatórios"
+        ]
+      },
+      "fbe4d6ea": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "5 Vs"
+          },
+          {
+            "campo": "descricao",
+            "texto": "Big Data"
+          }
+        ],
+        "resposta": [
+          "Volume, variedade, velocidade",
+          "variabilidade e veracidade"
+        ]
+      },
+      "c1f4d1ee": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "benefício"
+          },
+          {
+            "campo": "descricao",
+            "texto": "data warehouse"
+          }
+        ],
+        "resposta": [
+          "Eliminação de redundâncias",
+          "padronização de dados"
+        ]
+      },
+      "09c6c57f": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "SAD"
+          },
+          {
+            "campo": "descricao",
+            "texto": "problemas"
+          }
+        ],
+        "resposta": [
+          "semi-estruturados",
+          "não estruturados"
+        ]
+      },
+      "c75b4d85": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "estado de\nnatureza"
+          }
+        ],
+        "resposta": [
+          "incerteza, risco ou certeza"
+        ]
+      },
+      "d9cbdfc0": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "ETL"
+          }
+        ],
+        "resposta": [
+          "Extract, Transform & Load"
+        ]
+      },
+      "a163a0a9": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Herbert Simon"
+          },
+          {
+            "campo": "descricao",
+            "texto": "quatro fases"
+          }
+        ],
+        "resposta": [
+          "Inteligência — Design",
+          "Escolha — Implementação"
+        ]
+      },
+      "8893d146": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "MapReducing"
+          }
+        ],
+        "resposta": [
+          "Lógica Difusa"
+        ]
+      },
+      "ecb98c93": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "tomada de decisão"
+          }
+        ],
+        "resposta": [
+          "1–2–4."
+        ]
+      },
+      "a142428e": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "gerenciador"
+          },
+          {
+            "campo": "descricao",
+            "texto": "manager"
+          }
+        ],
+        "resposta": [
+          "banco de dados",
+          "data warehouse"
+        ]
+      },
+      "8350d273": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "zettabyte"
+          }
+        ],
+        "resposta": [
+          "sextilhão de bytes"
+        ]
+      },
+      "87ca3543": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "inteligência de negócios"
+          },
+          {
+            "campo": "descricao",
+            "texto": "requisitos"
+          }
+        ],
+        "resposta": [
+          "Etapa 3"
+        ]
+      },
+      "9694ea3f": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "rotineira"
+          }
+        ],
+        "resposta": [
+          "estruturado"
+        ]
+      },
+      "80d03744": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "data warehouse"
+          }
+        ],
+        "resposta": [
+          "múltiplas fontes",
+          "análises avançadas"
+        ]
+      },
+      "3aaf5c2d": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "três"
+          }
+        ],
+        "resposta": [
+          "Enterprise data warehouse",
+          "Data mart"
+        ]
+      },
+      "86557022": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "inicializem"
+          },
+          {
+            "campo": "descricao",
+            "texto": "oferecendo"
+          }
+        ],
+        "resposta": [
+          "estratégico."
+        ]
+      },
+      "e818280b": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "data mart"
+          }
+        ],
+        "resposta": [
+          "subconjunto",
+          "departamento específico"
+        ]
+      },
+      "7d305ee4": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "especialistas"
+          },
+          {
+            "campo": "descricao",
+            "texto": "informativos"
+          }
+        ],
+        "resposta": [
+          "4–2–1–3"
+        ]
+      },
+      "2b4379ce": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "periódicos"
+          }
+        ],
+        "resposta": [
+          "Sistema de Informação Gerencial"
+        ]
+      },
+      "eb317ade": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "MOLAP"
+          }
+        ],
+        "resposta": [
+          "armazenamento multidimensional",
+          "escalabilidade"
+        ]
+      },
+      "c7747ecb": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "ROLAP"
+          }
+        ],
+        "resposta": [
+          "Alta eficiência",
+          "escalabilidade"
+        ]
+      },
+      "ac7ace10": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Data Mart"
+          }
+        ],
+        "resposta": [
+          "subconjunto do Data Warehouse",
+          "área de negócios"
+        ]
+      }
+    },
+    "arquiteturasistemas": {
+      "07a8a3e0": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "responsabilidade compartilhada"
+          },
+          {
+            "campo": "descricao",
+            "texto": "DevOps"
+          }
+        ],
+        "resposta": [
+          "cuidado",
+          "responsáveis"
+        ]
+      },
+      "82ce411e": {
+        "pergunta": [
+          {
+            "campo": "titulo",
+            "texto": "alta disponibilidade"
+          },
+          {
+            "campo": "descricao",
+            "texto": "contêineres"
+          }
+        ],
+        "resposta": [
+          "escalabilidade",
+          "alta disponibilidade"
+        ]
+      },
+      "b2fe3811": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "comunicação assíncrona"
+          },
+          {
+            "campo": "descricao",
+            "texto": "disponibilidade"
+          }
+        ],
+        "resposta": [
+          "V – V – V."
+        ]
+      },
+      "4f31664d": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "feedback"
+          },
+          {
+            "campo": "descricao",
+            "texto": "DevOps"
+          }
+        ],
+        "resposta": [
+          "V – F – V."
+        ]
+      },
+      "22df817b": {
+        "pergunta": [
+          {
+            "campo": "titulo",
+            "texto": "Infraestrutura como Código"
+          }
+        ],
+        "resposta": [
+          "consistência"
+        ]
+      },
+      "53faaa99": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "feedback"
+          },
+          {
+            "campo": "descricao",
+            "texto": "DevOps"
+          }
+        ],
+        "resposta": [
+          "promovendo",
+          "melhorias"
+        ]
+      },
+      "e2834258": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Controller"
+          },
+          {
+            "campo": "descricao",
+            "texto": "Model"
+          }
+        ],
+        "resposta": [
+          "Somente I e III."
+        ]
+      },
+      "0769a2eb": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "consistência"
+          }
+        ],
+        "resposta": [
+          "curva",
+          "aprendizado"
+        ]
+      },
+      "f579eeab": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "complexidade"
+          },
+          {
+            "campo": "descricao",
+            "texto": "MVVM"
+          }
+        ],
+        "resposta": [
+          "MVP"
+        ]
+      },
+      "0f2686a6": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "serialização"
+          },
+          {
+            "campo": "descricao",
+            "texto": "protocolos"
+          }
+        ],
+        "resposta": [
+          "HTTPS",
+          "criptografia"
+        ]
+      },
+      "e54c131f": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "alta disponibilidade"
+          }
+        ],
+        "resposta": [
+          "tempo real"
+        ]
+      },
+      "a91b708d": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "otimização"
+          },
+          {
+            "campo": "descricao",
+            "texto": "prática"
+          }
+        ],
+        "resposta": [
+          "cache",
+          "tempo de resposta"
+        ]
+      },
+      "614fdf98": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "requer"
+          },
+          {
+            "campo": "descricao",
+            "texto": "arquitetura"
+          }
+        ],
+        "resposta": [
+          "Planejamento estratégico e técnico."
+        ]
+      },
+      "87a971df": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "tempo real"
+          },
+          {
+            "campo": "descricao",
+            "texto": "Microsserviços"
+          }
+        ],
+        "resposta": [
+          "V – F – V."
+        ]
+      },
+      "9496831e": {
+        "pergunta": [
+          {
+            "campo": "titulo",
+            "texto": "Entrega Contínua"
+          }
+        ],
+        "resposta": [
+          "V – F – V."
+        ]
+      },
+      "fa59f684": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "escalabilidade"
+          },
+          {
+            "campo": "descricao",
+            "texto": "REST"
+          }
+        ],
+        "resposta": [
+          "I, II e III."
+        ]
+      },
+      "e0426d85": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "MVC"
+          }
+        ],
+        "resposta": [
+          "front-end",
+          "back-end"
+        ]
+      },
+      "2e3ed319": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "comunicação assíncrona"
+          },
+          {
+            "campo": "descricao",
+            "texto": "microsserviços"
+          }
+        ],
+        "resposta": [
+          "V – F – V."
+        ]
+      },
+      "d4ae9496": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "interrupções"
+          }
+        ],
+        "resposta": [
+          "Somente I e III."
+        ]
+      },
+      "69dd0186": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "comunicação assíncrona"
+          }
+        ],
+        "resposta": [
+          "impede",
+          "indisponibilidade"
+        ]
+      },
+      "8388867a": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "implantação"
+          },
+          {
+            "campo": "descricao",
+            "texto": "surgir"
+          }
+        ],
+        "resposta": [
+          "latência"
+        ]
+      },
+      "422c0778": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "arquiteturas"
+          },
+          {
+            "campo": "descricao",
+            "texto": "desafio"
+          }
+        ],
+        "resposta": [
+          "distribuídos",
+          "complexa"
+        ]
+      },
+      "4736943d": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "MVC"
+          }
+        ],
+        "resposta": [
+          "interface"
+        ]
+      },
+      "4dac150a": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "SOA"
+          }
+        ],
+        "resposta": [
+          "Facilita a escalabilidade e a modularidade."
+        ]
+      },
+      "ae63490d": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "SOA"
+          }
+        ],
+        "resposta": [
+          "exigir",
+          "mudanças"
+        ]
+      },
+      "4effaade": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Scrum"
+          }
+        ],
+        "resposta": [
+          "V – F – V."
+        ]
+      },
+      "4ae13766": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "DevOps"
+          },
+          {
+            "campo": "descricao",
+            "texto": "métricas"
+          }
+        ],
+        "resposta": [
+          "Somente I e III."
+        ]
+      },
+      "011fdcff": {
+        "pergunta": [
+          {
+            "campo": "titulo",
+            "texto": "arquitetura de software"
+          },
+          {
+            "campo": "descricao",
+            "texto": "escalabilidade"
+          }
+        ],
+        "resposta": [
+          "F – F – V."
+        ]
+      },
+      "3ad71a64": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Integração Contínua"
+          },
+          {
+            "campo": "descricao",
+            "texto": "Entrega Contínua"
+          }
+        ],
+        "resposta": [
+          "Somente I e III."
+        ]
+      },
+      "b2fe5455": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "granular"
+          },
+          {
+            "campo": "descricao",
+            "texto": "credenciais"
+          }
+        ],
+        "resposta": [
+          "Somente I e III."
+        ]
+      },
+      "80ae0723": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "fidelidade"
+          },
+          {
+            "campo": "descricao",
+            "texto": "wireframes"
+          }
+        ],
+        "resposta": [
+          "Wireframes"
+        ]
+      },
+      "6cd20c64": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "interface"
+          },
+          {
+            "campo": "descricao",
+            "texto": "feedback"
+          }
+        ],
+        "resposta": [
+          "Somente I e II."
+        ]
+      },
+      "9900a981": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "vantagem"
+          },
+          {
+            "campo": "descricao",
+            "texto": "frase"
+          }
+        ],
+        "resposta": [
+          "nomenclatura",
+          "padronizados"
+        ]
+      },
+      "7e96306b": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "arquitetura em camadas"
+          },
+          {
+            "campo": "descricao",
+            "texto": "MVC"
+          }
+        ],
+        "resposta": [
+          "MVC",
+          "Controller"
+        ]
+      },
+      "5bdb50d4": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "reutilização de software"
+          }
+        ],
+        "resposta": [
+          "I, II e V."
+        ]
+      },
+      "5e981fb2": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "desnecessários"
+          },
+          {
+            "campo": "descricao",
+            "texto": "Dependência"
+          }
+        ],
+        "resposta": [
+          "I, II e V."
+        ]
+      },
+      "1c0279e1": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "componentes"
+          },
+          {
+            "campo": "descricao",
+            "texto": "arquitetura"
+          }
+        ],
+        "resposta": [
+          "relacionar",
+          "limites"
+        ]
+      },
+      "cc090a2b": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "reutilização de software"
+          }
+        ],
+        "resposta": [
+          "estruturado",
+          "sem licença"
+        ]
+      },
+      "a599fd65": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Gerenciamento"
+          },
+          {
+            "campo": "descricao",
+            "texto": "Model"
+          }
+        ],
+        "resposta": [
+          "Facilidade, possível e desaconselhável."
+        ]
+      },
+      "5a299ef1": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "benefícios"
+          },
+          {
+            "campo": "descricao",
+            "texto": "MVC"
+          }
+        ],
+        "resposta": [
+          "eficiência",
+          "transformação"
+        ]
+      },
+      "d8fa5160": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "MVC"
+          },
+          {
+            "campo": "titulo",
+            "texto": "View"
+          }
+        ],
+        "resposta": [
+          "View."
+        ]
+      },
+      "4d272d5b": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "reutilização"
+          }
+        ],
+        "resposta": [
+          "Em regra, dificulta a manutenção do software."
+        ]
+      },
+      "511c795f": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "conhecidos"
+          },
+          {
+            "campo": "descricao",
+            "texto": "comumente"
+          }
+        ],
+        "resposta": [
+          "Design patterns."
+        ]
+      },
+      "8225f5d3": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Alta coesão"
+          },
+          {
+            "campo": "descricao",
+            "texto": "Complexidade"
+          }
+        ],
+        "resposta": [
+          "I e II."
+        ]
+      },
+      "ecd7008c": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Arquitetura de Software"
+          }
+        ],
+        "resposta": [
+          "independente",
+          "Engenharia"
+        ]
+      },
+      "e2351d3b": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "arquétipo"
+          },
+          {
+            "campo": "descricao",
+            "texto": "estrutural"
+          }
+        ],
+        "resposta": [
+          "essencial",
+          "capaz"
+        ]
+      },
+      "3854a3d1": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "MVC"
+          },
+          {
+            "campo": "titulo",
+            "texto": "Controller"
+          }
+        ],
+        "resposta": [
+          "Controller"
+        ]
+      },
+      "dbe9fc81": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "estruturais"
+          },
+          {
+            "campo": "descricao",
+            "texto": "arquétipos"
+          }
+        ],
+        "resposta": [
+          "Representações",
+          "reais"
+        ]
+      },
+      "478e7e93": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "essenciais"
+          },
+          {
+            "campo": "descricao",
+            "texto": "componente"
+          }
+        ],
+        "resposta": [
+          "composição"
+        ]
+      },
+      "8929b21e": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "complexidade"
+          },
+          {
+            "campo": "descricao",
+            "texto": "reutilização"
+          }
+        ],
+        "resposta": [
+          "Afirmativas I e IV"
+        ]
+      }
+    },
+    "backend": {
+      "7bd1f030": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "JSON"
+          }
+        ],
+        "resposta": [
+          "Possuem infinitos tipos de combinações."
+        ]
+      },
+      "46579e21": {
+        "pergunta": [
+          {
+            "campo": "titulo",
+            "texto": "Árvore Binária"
+          },
+          {
+            "campo": "descricao",
+            "texto": "in-order"
+          }
+        ],
+        "resposta": [
+          "4 2 1 5 3 7 6"
+        ]
+      },
+      "621695ca": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "MVC"
+          }
+        ],
+        "resposta": [
+          "não dominam"
+        ]
+      },
+      "11865760": {
+        "pergunta": [
+          {
+            "campo": "titulo",
+            "texto": "Arquitetura de Software"
+          }
+        ],
+        "resposta": [
+          "Camadas de Software."
+        ]
+      },
+      "844a2f6d": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Git"
+          }
+        ],
+        "resposta": [
+          "git"
+        ]
+      },
+      "73e5949e": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "não estruturados"
+          },
+          {
+            "campo": "descricao",
+            "texto": "banco de dados"
+          }
+        ],
+        "resposta": [
+          "Aqueles",
+          "bruto"
+        ]
+      },
+      "15717d70": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "comunicação assíncrona"
+          },
+          {
+            "campo": "descricao",
+            "texto": "XMLHttpRequest"
+          }
+        ],
+        "resposta": [
+          "iniciação",
+          "janela"
+        ]
+      },
+      "296fa09a": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "DOM"
+          }
+        ],
+        "resposta": [
+          "Ajax e JavaScript"
+        ]
+      },
+      "3bcd768f": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "classes"
+          },
+          {
+            "campo": "descricao",
+            "texto": "objetos"
+          }
+        ],
+        "resposta": [
+          "JavaScript"
+        ]
+      },
+      "5ee3aecd": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "banco de dados"
+          },
+          {
+            "campo": "descricao",
+            "texto": "classes"
+          }
+        ],
+        "resposta": [
+          "i - View, ii - Controller, iii - Model."
+        ]
+      },
+      "79b36921": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "AJAX"
+          }
+        ],
+        "resposta": [
+          "JSON - JavaScript Object Notation."
+        ]
+      },
+      "3e6fc6be": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Framework"
+          }
+        ],
+        "resposta": [
+          "abstração"
+        ]
+      },
+      "d253636f": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "objetos"
+          },
+          {
+            "campo": "descricao",
+            "texto": "C#"
+          }
+        ],
+        "resposta": [
+          "i, ii, iii e iv."
+        ]
+      },
+      "09700d1e": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "C#"
+          }
+        ],
+        "resposta": [
+          "// Comentário"
+        ]
+      },
+      "0ed8ea11": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "chave"
+          },
+          {
+            "campo": "descricao",
+            "texto": "C#"
+          }
+        ],
+        "resposta": [
+          "void"
+        ]
+      },
+      "52d5ccf4": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "abstração"
+          },
+          {
+            "campo": "descricao",
+            "texto": "MVC"
+          }
+        ],
+        "resposta": [
+          "Camada Model."
+        ]
+      },
+      "72d41657": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "chave"
+          },
+          {
+            "campo": "descricao",
+            "texto": "C#"
+          }
+        ],
+        "resposta": [
+          "class"
+        ]
+      },
+      "7c520160": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Controller"
+          },
+          {
+            "campo": "descricao",
+            "texto": "MVC"
+          }
+        ],
+        "resposta": [
+          "C#, PHP e Java"
+        ]
+      },
+      "e1a8e977": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "AJAX"
+          },
+          {
+            "campo": "descricao",
+            "texto": "JSON"
+          }
+        ],
+        "resposta": [
+          "Ajax: ii e iii\nJson: i e iv"
+        ]
+      },
+      "4fef747f": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "AJAX"
+          }
+        ],
+        "resposta": [
+          "Conjunto de técnicas."
+        ]
+      },
+      "7d29c14d": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "string"
+          },
+          {
+            "campo": "descricao",
+            "texto": "C#"
+          }
+        ],
+        "resposta": [
+          "Int32.Parse()"
+        ]
+      },
+      "ca1915cd": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "C#"
+          },
+          {
+            "campo": "titulo",
+            "texto": "Decimal"
+          }
+        ],
+        "resposta": [
+          "double"
+        ]
+      },
+      "492931c7": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "C#"
+          }
+        ],
+        "resposta": [
+          "Boolean"
+        ]
+      },
+      "da977b30": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "resolvido"
+          },
+          {
+            "campo": "descricao",
+            "texto": "proporcionar"
+          }
+        ],
+        "resposta": [
+          "Levantamento de Requisitos."
+        ]
+      },
+      "7d6bff46": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "JavaScript"
+          },
+          {
+            "campo": "descricao",
+            "texto": "Ajax"
+          }
+        ],
+        "resposta": [
+          "XMLHttpRequest"
+        ]
+      }
+    },
+    "designthinking": {
+      "4dd9b0f3": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Design Thinking"
+          },
+          {
+            "campo": "descricao",
+            "texto": "ideação"
+          }
+        ],
+        "resposta": [
+          "conceitua",
+          "executável"
+        ]
+      },
+      "64a1a5b6": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "design thinking"
+          }
+        ],
+        "resposta": [
+          "sentimentos",
+          "orientando"
+        ]
+      },
+      "aa6fe0bd": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Design Thinking"
+          }
+        ],
+        "resposta": [
+          "exigências",
+          "acabados"
+        ]
+      },
+      "7f0f8a07": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "inovação"
+          }
+        ],
+        "resposta": [
+          "Inovação de Produto e Inovação de Marketing"
+        ]
+      },
+      "db99720f": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "MVP"
+          }
+        ],
+        "resposta": [
+          "MVP é um produto pequeno."
+        ]
+      },
+      "0e51e8b1": {
+        "pergunta": [
+          {
+            "campo": "titulo",
+            "texto": "Design Thinking"
+          },
+          {
+            "campo": "descricao",
+            "texto": "Prototipagem"
+          }
+        ],
+        "resposta": [
+          "I, II e III estão corretas."
+        ]
+      },
+      "d47ccc38": {
+        "pergunta": [
+          {
+            "campo": "titulo",
+            "texto": "Escalabilidade"
+          }
+        ],
+        "resposta": [
+          "As afirmações I, II e III estão corretas."
+        ]
+      },
+      "bd273b21": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Design Thinking"
+          },
+          {
+            "campo": "descricao",
+            "texto": "prototipagem"
+          }
+        ],
+        "resposta": [
+          "visualizar",
+          "aprimorar"
+        ]
+      },
+      "fa56af43": {
+        "pergunta": [
+          {
+            "campo": "titulo",
+            "texto": "Design Thinking"
+          },
+          {
+            "campo": "titulo",
+            "texto": "Imersão"
+          }
+        ],
+        "resposta": [
+          "(v), (f), (f), (f)."
+        ]
+      },
+      "372c36cf": {
+        "pergunta": [
+          {
+            "campo": "titulo",
+            "texto": "Design Thinking"
+          }
+        ],
+        "resposta": [
+          "desejabilidade",
+          "praticabilidade"
+        ]
+      }
+    },
+    "empreendedorismo": {
+      "814f6c9a": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "microempresas"
+          },
+          {
+            "campo": "descricao",
+            "texto": "três anos"
+          }
+        ],
+        "resposta": [
+          "II, IV e V"
+        ]
+      },
+      "60bd659e": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "empreendedorismo corporativo"
+          },
+          {
+            "campo": "descricao",
+            "texto": "estrutura organizacional"
+          }
+        ],
+        "resposta": [
+          "I, II e III."
+        ]
+      },
+      "b1d45fe5": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "empreendedorismo"
+          }
+        ],
+        "resposta": [
+          "empreendedorismo"
+        ]
+      },
+      "be9acb20": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "despertam"
+          },
+          {
+            "campo": "descricao",
+            "texto": "surpreendido"
+          }
+        ],
+        "resposta": [
+          "sociológicos"
+        ]
+      },
+      "8ce2b9f8": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "planejamento"
+          }
+        ],
+        "resposta": [
+          "chave",
+          "segmentação"
+        ]
+      },
+      "cbc151b0": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "inovação"
+          }
+        ],
+        "resposta": [
+          "inovação"
+        ]
+      },
+      "8edcaaff": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "posição"
+          }
+        ],
+        "resposta": [
+          "plano de negócios",
+          "gerenciamento"
+        ]
+      },
+      "38873af4": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "marketing"
+          }
+        ],
+        "resposta": [
+          "público-alvo"
+        ]
+      },
+      "e9888bb8": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "empreendedorismo"
+          }
+        ],
+        "resposta": [
+          "positivo",
+          "lucro"
+        ]
+      },
+      "ae0b749c": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "chave"
+          }
+        ],
+        "resposta": [
+          "Inovação",
+          "riscos"
+        ]
+      },
+      "fb1ad57c": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "longo prazo"
+          }
+        ],
+        "resposta": [
+          "Empreendimento, planejado"
+        ]
+      },
+      "8fb8f701": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "plano de negócios"
+          },
+          {
+            "campo": "descricao",
+            "texto": "chave"
+          }
+        ],
+        "resposta": [
+          "III e IV."
+        ]
+      },
+      "772a46a6": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "plano de negócios"
+          },
+          {
+            "campo": "descricao",
+            "texto": "Oportunidades e Ameaças"
+          }
+        ],
+        "resposta": [
+          "Análise SWOT"
+        ]
+      },
+      "f8e6ae21": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "plano de negócio"
+          },
+          {
+            "campo": "descricao",
+            "texto": "oportunidades e ameaças"
+          }
+        ],
+        "resposta": [
+          "I e IV."
+        ]
+      },
+      "154069eb": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "comportamentos típicos"
+          }
+        ],
+        "resposta": [
+          "visionários",
+          "riscos calculados"
+        ]
+      },
+      "8b2cc5e3": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "TOLSTOI"
+          },
+          {
+            "campo": "descricao",
+            "texto": "fogueira"
+          }
+        ],
+        "resposta": [
+          "II, III e IV"
+        ]
+      },
+      "0a65a047": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "comportamento empreendedor"
+          },
+          {
+            "campo": "descricao",
+            "texto": "empreendedorismo"
+          }
+        ],
+        "resposta": [
+          "apenas as opções I, II"
+        ]
+      },
+      "be39ae57": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "cultura\nempreendedora"
+          }
+        ],
+        "resposta": [
+          "inovação",
+          "aprendizado contínuo"
+        ]
+      },
+      "e4c82c46": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "curto prazo"
+          },
+          {
+            "campo": "descricao",
+            "texto": "distribuição"
+          }
+        ],
+        "resposta": [
+          "benefícios",
+          "produto"
+        ]
+      },
+      "18921e1d": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Plano de Negócios"
+          },
+          {
+            "campo": "descricao",
+            "texto": "financeiros"
+          }
+        ],
+        "resposta": [
+          "Somente as afirmativas I e II estão corretas."
+        ]
+      },
+      "5fe89540": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "marketing"
+          },
+          {
+            "campo": "descricao",
+            "texto": "disponibilidade"
+          }
+        ],
+        "resposta": [
+          "IV, II, III e I."
+        ]
+      },
+      "f6ec5d2e": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Empreendedorismo"
+          }
+        ],
+        "resposta": [
+          "I e II são proposições verdadeiras",
+          "não é uma justificativa"
+        ]
+      },
+      "3c63b840": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Plano de Negócios"
+          },
+          {
+            "campo": "descricao",
+            "texto": "chave"
+          }
+        ],
+        "resposta": [
+          "I e II são proposições verdadeiras",
+          "não é uma justificativa"
+        ]
+      },
+      "709acd6f": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "plano de negócios"
+          }
+        ],
+        "resposta": [
+          "objetivos do negócio",
+          "meios financeiros"
+        ]
+      },
+      "61a48468": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Sociológicos"
+          },
+          {
+            "campo": "descricao",
+            "texto": "políticas"
+          }
+        ],
+        "resposta": [
+          "II, I, IV, III."
+        ]
+      }
+    },
+    "engenharia": {
+      "8d2a359f": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "efetivamente"
+          },
+          {
+            "campo": "descricao",
+            "texto": "selecionada"
+          }
+        ],
+        "resposta": [
+          "Requer planejamento estratégico e técnico."
+        ]
+      },
+      "b0010431": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "requisitos funcionais"
+          },
+          {
+            "campo": "descricao",
+            "texto": "casos de uso"
+          }
+        ],
+        "resposta": [
+          "todo gerente pode realizar uma venda."
+        ]
+      },
+      "96da4312": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "diagrama de atividades"
+          }
+        ],
+        "resposta": [
+          "Fork"
+        ]
+      },
+      "c30abcab": {
+        "pergunta": [
+          {
+            "campo": "afirmacoes.0",
+            "texto": "diagrama de componentes"
+          },
+          {
+            "campo": "afirmacoes.2",
+            "texto": "diagrama de sequência"
+          }
+        ],
+        "resposta": [
+          "II e IV"
+        ]
+      },
+      "611e2ff0": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "diagrama de sequência"
+          },
+          {
+            "campo": "afirmacoes.2",
+            "texto": "objetos"
+          }
+        ],
+        "resposta": [
+          "I somente"
+        ]
+      },
+      "ec0400f8": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "consistência"
+          },
+          {
+            "campo": "descricao",
+            "texto": "interface"
+          }
+        ],
+        "resposta": [
+          "curva",
+          "aprendizado"
+        ]
+      },
+      "d1717b95": {
+        "pergunta": [
+          {
+            "campo": "titulo",
+            "texto": "Diagrama de Atividades"
+          },
+          {
+            "campo": "afirmacoes.3",
+            "texto": "disponibilidade"
+          }
+        ],
+        "resposta": [
+          "I e IV"
+        ]
+      },
+      "77e4b041": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "diagrama de classes"
+          },
+          {
+            "campo": "descricao",
+            "texto": "requisitos"
+          }
+        ],
+        "resposta": [
+          "objetos"
+        ]
+      },
+      "5eb27540": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "caso de uso"
+          },
+          {
+            "campo": "afirmacoes.2",
+            "texto": "casos de uso"
+          }
+        ],
+        "resposta": [
+          "São corretas apenas as afirmativas 2 e 4."
+        ]
+      },
+      "f6a463ea": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "caso de uso"
+          },
+          {
+            "campo": "titulo",
+            "texto": "Include"
+          }
+        ],
+        "resposta": [
+          "São corretas apenas as afirmativas 1, 2 e 3."
+        ]
+      },
+      "81b5739e": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "diagrama de classes"
+          },
+          {
+            "campo": "titulo",
+            "texto": "Herança"
+          }
+        ],
+        "resposta": [
+          "metodoQ(), metodoR(), metodoP()"
+        ]
+      },
+      "cd1e76e3": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "informatizado"
+          },
+          {
+            "campo": "descricao",
+            "texto": "modelados"
+          }
+        ],
+        "resposta": [
+          "IV e VI somente."
+        ]
+      },
+      "e2ff81c0": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "diagrama de classes"
+          },
+          {
+            "campo": "titulo",
+            "texto": "Herança"
+          }
+        ],
+        "resposta": [
+          "II, III e IV somente."
+        ]
+      },
+      "194e6e7f": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "diagrama de classes"
+          },
+          {
+            "campo": "titulo",
+            "texto": "Composição"
+          }
+        ],
+        "resposta": [
+          "II e IV"
+        ]
+      },
+      "f41375ef": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "diagrama de sequência"
+          }
+        ],
+        "resposta": [
+          "diagrama de sequência",
+          "objetos"
+        ]
+      },
+      "8f7e2887": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "escalabilidade"
+          },
+          {
+            "campo": "descricao",
+            "texto": "orquestração"
+          }
+        ],
+        "resposta": [
+          "escalabilidade",
+          "alta disponibilidade"
+        ]
+      },
+      "7b62abf9": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Métodos ágeis"
+          },
+          {
+            "campo": "descricao",
+            "texto": "metodologias ágeis"
+          }
+        ],
+        "resposta": [
+          "V - F - V"
+        ]
+      },
+      "3df9c098": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "SOA"
+          }
+        ],
+        "resposta": [
+          "levaria",
+          "pressupõe"
+        ]
+      },
+      "4ce0c842": {
+        "pergunta": [
+          {
+            "campo": "titulo",
+            "texto": "Infraestrutura como Código"
+          },
+          {
+            "campo": "descricao",
+            "texto": "IaC"
+          }
+        ],
+        "resposta": [
+          "provisionamento",
+          "consistência"
+        ]
+      },
+      "25730c51": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "tempo real"
+          },
+          {
+            "campo": "descricao",
+            "texto": "DevOps"
+          }
+        ],
+        "resposta": [
+          "Somente I e III."
+        ]
+      },
+      "337bcc2e": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "diagrama de sequência"
+          },
+          {
+            "campo": "descricao",
+            "texto": "objetos"
+          }
+        ],
+        "resposta": [
+          "Linha de Vida"
+        ]
+      },
+      "00ff4078": {
+        "pergunta": [
+          {
+            "campo": "titulo",
+            "texto": "Requisitos Não Funcionais"
+          },
+          {
+            "campo": "afirmacoes.4",
+            "texto": "interoperabilidade"
+          }
+        ],
+        "resposta": [
+          "I, IV, V somente"
+        ]
+      },
+      "08dcf097": {
+        "pergunta": [
+          {
+            "campo": "afirmacoes.1",
+            "texto": "Diagrama de Sequência"
+          },
+          {
+            "campo": "afirmacoes.2",
+            "texto": "Diagrama de Classes"
+          }
+        ],
+        "resposta": [
+          "Apenas I"
+        ]
+      },
+      "344f2a00": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "histórias de usuário"
+          }
+        ],
+        "resposta": [
+          "facilitam",
+          "equipes"
+        ]
+      },
+      "ccd7b80a": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "requisitos funcionais"
+          },
+          {
+            "campo": "afirmacoes.3",
+            "texto": "treinamento"
+          }
+        ],
+        "resposta": [
+          "III e IV somente"
+        ]
+      },
+      "b78f3fba": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "especificação"
+          },
+          {
+            "campo": "descricao",
+            "texto": "elaboração"
+          }
+        ],
+        "resposta": [
+          "Classe; Caso de Uso; Sequência"
+        ]
+      },
+      "87e4ddc2": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "casos de uso"
+          },
+          {
+            "campo": "titulo",
+            "texto": "Caso de Uso"
+          }
+        ],
+        "resposta": [
+          "I e III apenas"
+        ]
+      },
+      "20722ad3": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "requisitos funcionais"
+          },
+          {
+            "campo": "afirmacoes.0",
+            "texto": "produto"
+          }
+        ],
+        "resposta": [
+          "III e IV"
+        ]
+      },
+      "c1706d1e": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "gerenciamento"
+          },
+          {
+            "campo": "descricao",
+            "texto": "framework"
+          }
+        ],
+        "resposta": [
+          "Retrospective",
+          "Sprint"
+        ]
+      },
+      "e2a30fb2": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "persona"
+          }
+        ],
+        "resposta": [
+          "interface"
+        ]
+      },
+      "c7aa3f91": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "diagrama de classes"
+          }
+        ],
+        "resposta": [
+          "4"
+        ]
+      },
+      "9466ee9d": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "interação"
+          },
+          {
+            "campo": "descricao",
+            "texto": "linguagem"
+          }
+        ],
+        "resposta": [
+          "Diagrama de Caso de Uso"
+        ]
+      },
+      "98482cf8": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "associando"
+          },
+          {
+            "campo": "descricao",
+            "texto": "descrições"
+          }
+        ],
+        "resposta": [
+          "2 – 1 – 4 – 3"
+        ]
+      },
+      "4cf9332d": {
+        "pergunta": [
+          {
+            "campo": "titulo",
+            "texto": "Histórias de Usuário"
+          }
+        ],
+        "resposta": [
+          "Apenas as afirmações I e II e V estão corretas"
+        ]
+      },
+      "db6efbab": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "finalidade"
+          },
+          {
+            "campo": "descricao",
+            "texto": "estados"
+          }
+        ],
+        "resposta": [
+          "objetos",
+          "classes"
+        ]
+      },
+      "b81a4f75": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "diagrama de classes"
+          },
+          {
+            "campo": "descricao",
+            "texto": "Polimorfismo"
+          }
+        ],
+        "resposta": [
+          "relacionamento",
+          "polimorfismo"
+        ]
+      },
+      "542d247a": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "orientados"
+          },
+          {
+            "campo": "descricao",
+            "texto": "documentar"
+          }
+        ],
+        "resposta": [
+          "Classes",
+          "Casos de Uso"
+        ]
+      },
+      "8a850655": {
+        "pergunta": [
+          {
+            "campo": "afirmacoes.3",
+            "texto": "modelo espiral"
+          },
+          {
+            "campo": "afirmacoes.2",
+            "texto": "incremental"
+          }
+        ],
+        "resposta": [
+          "IV e V somente"
+        ]
+      },
+      "7641fb06": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "requisitos não funcionais"
+          },
+          {
+            "campo": "descricao",
+            "texto": "requisitos funcionais"
+          }
+        ],
+        "resposta": [
+          "tempo de resposta",
+          "requisitos não funcionais"
+        ]
+      },
+      "d27295a8": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "casos de uso"
+          },
+          {
+            "campo": "descricao",
+            "texto": "caso de uso"
+          }
+        ],
+        "resposta": [
+          "include",
+          "casos de uso"
+        ]
+      },
+      "e6eeb785": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "requisitos"
+          },
+          {
+            "campo": "descricao",
+            "texto": "processos"
+          }
+        ],
+        "resposta": [
+          "requisitos"
+        ]
+      },
+      "e7becab4": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "processos"
+          },
+          {
+            "campo": "descricao",
+            "texto": "escalabilidade"
+          }
+        ],
+        "resposta": [
+          "Modularização."
+        ]
+      },
+      "10c86aa6": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "usabilidade"
+          },
+          {
+            "campo": "descricao",
+            "texto": "interface"
+          }
+        ],
+        "resposta": [
+          "feedback",
+          "usabilidade"
+        ]
+      },
+      "cc501c09": {
+        "pergunta": [
+          {
+            "campo": "titulo",
+            "texto": "Diagrama de Sequência"
+          },
+          {
+            "campo": "descricao",
+            "texto": "objetos"
+          }
+        ],
+        "resposta": [
+          "Diagrama de Sequência",
+          "objetos"
+        ]
+      },
+      "7400de10": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Diagrama de Atividades"
+          },
+          {
+            "campo": "descricao",
+            "texto": "produto"
+          }
+        ],
+        "resposta": [
+          "fork",
+          "join"
+        ]
+      }
+    },
+    "estruturas": {
+      "d24b76d0": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "busca binária"
+          },
+          {
+            "campo": "descricao",
+            "texto": "ordenadas"
+          }
+        ],
+        "resposta": [
+          "3, 5, 6"
+        ]
+      },
+      "880f2ac6": {
+        "pergunta": [
+          {
+            "campo": "titulo",
+            "texto": "Quick Sort"
+          },
+          {
+            "campo": "descricao",
+            "texto": "vetor"
+          }
+        ],
+        "resposta": [
+          "[13, 57, 61, 93, 77]"
+        ]
+      },
+      "1b15116d": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "pilha"
+          },
+          {
+            "campo": "descricao",
+            "texto": "TAD"
+          }
+        ],
+        "resposta": [
+          "topo"
+        ]
+      },
+      "f0dbcabd": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "pilha"
+          },
+          {
+            "campo": "descricao",
+            "texto": "fila"
+          }
+        ],
+        "resposta": [
+          "I e II somente"
+        ]
+      },
+      "ed218173": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "vetores"
+          },
+          {
+            "campo": "descricao",
+            "texto": "listas"
+          }
+        ],
+        "resposta": [
+          "informar",
+          "buscado"
+        ]
+      },
+      "241d190b": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "fila"
+          }
+        ],
+        "resposta": [
+          "fila"
+        ]
+      },
+      "dc91cfb7": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "fila"
+          }
+        ],
+        "resposta": [
+          "Fila"
+        ]
+      },
+      "97c445ac": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "ArrayQueue"
+          },
+          {
+            "campo": "descricao",
+            "texto": "Vetor"
+          }
+        ],
+        "resposta": [
+          "ArrayQueue"
+        ]
+      },
+      "608f4b0d": {
+        "pergunta": [
+          {
+            "campo": "afirmacoes.1",
+            "texto": "lista duplamente encadeada"
+          },
+          {
+            "campo": "afirmacoes.0",
+            "texto": "listas"
+          }
+        ],
+        "resposta": [
+          "F - F - V - V"
+        ]
+      },
+      "ef37da80": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "pilha"
+          },
+          {
+            "campo": "descricao",
+            "texto": "LIFO"
+          }
+        ],
+        "resposta": [
+          "4 e 19"
+        ]
+      },
+      "18d0532e": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "banco de dados"
+          },
+          {
+            "campo": "descricao",
+            "texto": "Bubble Sort"
+          }
+        ],
+        "resposta": [
+          "99"
+        ]
+      },
+      "0fa46ab1": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "FIFO"
+          },
+          {
+            "campo": "descricao",
+            "texto": "LIFO"
+          }
+        ],
+        "resposta": [
+          "F=[40]. L=[10,20,30,40]"
+        ]
+      },
+      "e86f5a8f": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "FIFO"
+          },
+          {
+            "campo": "descricao",
+            "texto": "LIFO"
+          }
+        ],
+        "resposta": [
+          "F=[9,10,13,80,3] e L=[80,3]"
+        ]
+      },
+      "0f113ebf": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Lista Simplesmente Encadeada"
+          },
+          {
+            "campo": "descricao",
+            "texto": "TAD"
+          }
+        ],
+        "resposta": [
+          "memória"
+        ]
+      },
+      "330a8e0c": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Bubble Sort"
+          }
+        ],
+        "resposta": [
+          "12, 18, 8, 16, 22, 10, 5, 20, 25, 30"
+        ]
+      },
+      "bb3a6024": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Bubble Sort"
+          }
+        ],
+        "resposta": [
+          "4, 2, 6, 8, 10, 12, 14, 16, 18, 20"
+        ]
+      },
+      "cec48211": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "pilha"
+          },
+          {
+            "campo": "descricao",
+            "texto": "fila"
+          }
+        ],
+        "resposta": [
+          "Fila - Pilha - Fila"
+        ]
+      },
+      "2736a3d8": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "árvore AVL"
+          }
+        ],
+        "resposta": [
+          "Mantém-se balanceada após inserções e remoções"
+        ]
+      },
+      "af185283": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "árvore AVL"
+          },
+          {
+            "campo": "descricao",
+            "texto": "balanceamento"
+          }
+        ],
+        "resposta": [
+          "altura"
+        ]
+      },
+      "48868694": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "vetor"
+          }
+        ],
+        "resposta": [
+          "chave"
+        ]
+      },
+      "04c27db3": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "listas encadeadas"
+          },
+          {
+            "campo": "descricao",
+            "texto": "memória"
+          }
+        ],
+        "resposta": [
+          "I é uma proposição verdadeira",
+          "II é uma proposição falsa"
+        ]
+      },
+      "56645992": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "árvore binária"
+          },
+          {
+            "campo": "descricao",
+            "texto": "Árvores"
+          }
+        ],
+        "resposta": [
+          "POGAADMMORRRU"
+        ]
+      },
+      "dea19eec": {
+        "pergunta": [
+          {
+            "campo": "titulo",
+            "texto": "Lista Encadeada"
+          },
+          {
+            "campo": "descricao",
+            "texto": "TAD"
+          }
+        ],
+        "resposta": [
+          "a, b, a, b"
+        ]
+      },
+      "0212ea0e": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Python"
+          },
+          {
+            "campo": "descricao",
+            "texto": "Pilha"
+          }
+        ],
+        "resposta": [
+          "string",
+          "pilha"
+        ]
+      },
+      "6f59db63": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "lista duplamente encadeada"
+          },
+          {
+            "campo": "descricao",
+            "texto": "ordem crescente"
+          }
+        ],
+        "resposta": [
+          "P - I - S - F - 2019"
+        ]
+      },
+      "dd01975d": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "busca binária"
+          },
+          {
+            "campo": "descricao",
+            "texto": "vetor"
+          }
+        ],
+        "resposta": [
+          "3"
+        ]
+      },
+      "f8504f92": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "vetor"
+          },
+          {
+            "campo": "descricao",
+            "texto": "pilha"
+          }
+        ],
+        "resposta": [
+          "I e II apenas"
+        ]
+      },
+      "21feb059": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "fila"
+          }
+        ],
+        "resposta": [
+          "Implementação A"
+        ]
+      },
+      "0bef2469": {
+        "pergunta": [
+          {
+            "campo": "titulo",
+            "texto": "Fila Circular"
+          },
+          {
+            "campo": "descricao",
+            "texto": "vetor"
+          }
+        ],
+        "resposta": [
+          "A"
+        ]
+      },
+      "c1380778": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "fila"
+          }
+        ],
+        "resposta": [
+          "A"
+        ]
+      }
+    },
+    "estruturascc": {
+      "be428bd8": {
+        "pergunta": [
+          {
+            "campo": "titulo",
+            "texto": "Fila Circular"
+          },
+          {
+            "campo": "afirmacoes.2",
+            "texto": "listas encadeadas"
+          }
+        ],
+        "resposta": [
+          "I, III e IV"
+        ]
+      },
+      "6e3f60b4": {
+        "pergunta": [
+          {
+            "campo": "titulo",
+            "texto": "Lista Simplesmente Encadeada"
+          }
+        ],
+        "resposta": [
+          "percorrer",
+          "toda"
+        ]
+      },
+      "61104145": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "TAD"
+          }
+        ],
+        "resposta": [
+          "interface"
+        ]
+      },
+      "f89f86dd": {
+        "pergunta": [
+          {
+            "campo": "titulo",
+            "texto": "Listas Encadeadas"
+          },
+          {
+            "campo": "descricao",
+            "texto": "Contígua"
+          }
+        ],
+        "resposta": [
+          "posição"
+        ]
+      },
+      "32b31f2b": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "complexidade de tempo"
+          },
+          {
+            "campo": "titulo",
+            "texto": "Listas Contíguas"
+          }
+        ],
+        "resposta": [
+          "O(1)"
+        ]
+      },
+      "a27fd482": {
+        "pergunta": [
+          {
+            "campo": "afirmacoes.3",
+            "texto": "pilha"
+          },
+          {
+            "campo": "afirmacoes.0",
+            "texto": "LIFO"
+          }
+        ],
+        "resposta": [
+          "I, II e IV"
+        ]
+      },
+      "3533e093": {
+        "pergunta": [
+          {
+            "campo": "titulo",
+            "texto": "Listas Encadeadas"
+          },
+          {
+            "campo": "afirmacoes.2",
+            "texto": "complexidade de tempo"
+          }
+        ],
+        "resposta": [
+          "II e IV"
+        ]
+      },
+      "c077b576": {
+        "pergunta": [
+          {
+            "campo": "titulo",
+            "texto": "Busca Binária"
+          },
+          {
+            "campo": "afirmacoes.3",
+            "texto": "pesquisa Binária"
+          }
+        ],
+        "resposta": [
+          "I, III e IV"
+        ]
+      },
+      "6a2122f0": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "TAD"
+          },
+          {
+            "campo": "titulo",
+            "texto": "Abstração"
+          }
+        ],
+        "resposta": [
+          "Abstração"
+        ]
+      },
+      "79831dd4": {
+        "pergunta": [
+          {
+            "campo": "afirmacoes.3",
+            "texto": "pesquisa Binária"
+          },
+          {
+            "campo": "afirmacoes.2",
+            "texto": "pesquisa linear"
+          }
+        ],
+        "resposta": [
+          "I e II"
+        ]
+      },
+      "062dd3d2": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "hash"
+          }
+        ],
+        "resposta": [
+          "Encadeamento e endereçamento aberto"
+        ]
+      },
+      "2ad0a9b5": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "quicksort"
+          }
+        ],
+        "resposta": [
+          "Divisão e conquista"
+        ]
+      },
+      "b9db6bc6": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Fila"
+          },
+          {
+            "campo": "afirmacoes.0",
+            "texto": "LIFO"
+          }
+        ],
+        "resposta": [
+          "II e III"
+        ]
+      },
+      "2e385e15": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "estrutura"
+          },
+          {
+            "campo": "titulo",
+            "texto": "Classificação"
+          }
+        ],
+        "resposta": [
+          "Vetores, registros e listas encadeadas"
+        ]
+      },
+      "9b188d50": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "complexidade de tempo"
+          },
+          {
+            "campo": "titulo",
+            "texto": "Vetores"
+          }
+        ],
+        "resposta": [
+          "Busca binária O(log n)"
+        ]
+      },
+      "7e2b1af6": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "lista encadeada"
+          }
+        ],
+        "resposta": [
+          "procurado",
+          "alcançar"
+        ]
+      },
+      "5f4064f0": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "function"
+          },
+          {
+            "campo": "descricao",
+            "texto": "hash"
+          }
+        ],
+        "resposta": [
+          "chave",
+          "índice"
+        ]
+      },
+      "25961d4b": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "lista encadeada"
+          },
+          {
+            "campo": "descricao",
+            "texto": "fila"
+          }
+        ],
+        "resposta": [
+          "Somente I"
+        ]
+      },
+      "b6159664": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "vetores"
+          },
+          {
+            "campo": "titulo",
+            "texto": "Mergesort"
+          }
+        ],
+        "resposta": [
+          "vetor"
+        ]
+      }
+    },
+    "estruturasdados2": {
+      "26bd8543": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Heapsort"
+          },
+          {
+            "campo": "descricao",
+            "texto": "ORDEM CRESCENTE"
+          }
+        ],
+        "resposta": [
+          "max-heap",
+          "remover máximo"
+        ]
+      },
+      "d8e14055": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Tries"
+          },
+          {
+            "campo": "descricao",
+            "texto": "ponteiros"
+          }
+        ],
+        "resposta": [
+          "I e II são proposições verdadeiras",
+          "não é justificativa"
+        ]
+      },
+      "1ccfea68": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Intercalação Balanceada"
+          },
+          {
+            "campo": "descricao",
+            "texto": "Intercalação Polifásica"
+          }
+        ],
+        "resposta": [
+          "I e II são proposições verdadeiras",
+          "é uma justificativa"
+        ]
+      },
+      "6d6b3904": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Árvore Rubro-Negra"
+          }
+        ],
+        "resposta": [
+          "I e III, apenas."
+        ]
+      },
+      "3b9971dc": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "substituição de páginas"
+          },
+          {
+            "campo": "descricao",
+            "texto": "FIFO"
+          }
+        ],
+        "resposta": [
+          "I, II e III."
+        ]
+      },
+      "7a1b21fa": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Filho Esquerdo"
+          },
+          {
+            "campo": "descricao",
+            "texto": "Irmão Direito"
+          }
+        ],
+        "resposta": [
+          "P->filho",
+          "ponteiros irmao"
+        ]
+      },
+      "fc83ed62": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Árvore Binária de Prefixo"
+          },
+          {
+            "campo": "descricao",
+            "texto": "Árvores Digitais Binárias"
+          }
+        ],
+        "resposta": [
+          "I e II, apenas."
+        ]
+      },
+      "58b1bc20": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Intercalação Balanceada"
+          },
+          {
+            "campo": "descricao",
+            "texto": "número de fitas"
+          }
+        ],
+        "resposta": [
+          "2f fitas",
+          "entrada e f para saída"
+        ]
+      },
+      "378d40c1": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Intercalação Balanceada"
+          },
+          {
+            "campo": "descricao",
+            "texto": "desempenho"
+          }
+        ],
+        "resposta": [
+          "f+1 fitas",
+          "passada adicional"
+        ]
+      },
+      "2f68d1d6": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Treap"
+          }
+        ],
+        "resposta": [
+          "II e III, apenas."
+        ]
+      },
+      "da14553f": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "ordenação interna"
+          },
+          {
+            "campo": "descricao",
+            "texto": "ordenação externa"
+          }
+        ],
+        "resposta": [
+          "memória secundária"
+        ]
+      },
+      "ba5c8214": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "invariável"
+          },
+          {
+            "campo": "descricao",
+            "texto": "rotações"
+          }
+        ],
+        "resposta": [
+          "A sequência em-ordem (ABB) permanece a mesma."
+        ]
+      },
+      "2b932a9e": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "heapsort"
+          }
+        ],
+        "resposta": [
+          "min-heap",
+          "ordem crescente"
+        ]
+      },
+      "22a32db9": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "memória secundária"
+          },
+          {
+            "campo": "descricao",
+            "texto": "árvore de busca"
+          }
+        ],
+        "resposta": [
+          "F-V-V-V"
+        ]
+      },
+      "34f666fe": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Treap"
+          },
+          {
+            "campo": "descricao",
+            "texto": "O(1)"
+          }
+        ],
+        "resposta": [
+          "I, II e III."
+        ]
+      },
+      "df49bacb": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "memória secundária"
+          },
+          {
+            "campo": "descricao",
+            "texto": "memória virtual"
+          }
+        ],
+        "resposta": [
+          "II e III, apenas."
+        ]
+      },
+      "78d50343": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "PATRICIA"
+          },
+          {
+            "campo": "descricao",
+            "texto": "único filho"
+          }
+        ],
+        "resposta": [
+          "índice do caractere",
+          "saltar"
+        ]
+      },
+      "3a34c74e": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Filho Esquerdo"
+          },
+          {
+            "campo": "descricao",
+            "texto": "três filhos"
+          }
+        ],
+        "resposta": [
+          "A->filho aponta para B",
+          "B->irmao aponta para C"
+        ]
+      },
+      "daf9141b": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Árvore-B"
+          },
+          {
+            "campo": "descricao",
+            "texto": "altura"
+          }
+        ],
+        "resposta": [
+          "I, II e III."
+        ]
+      },
+      "d41e8e25": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Intercalação Balanceada"
+          },
+          {
+            "campo": "descricao",
+            "texto": "desempenho"
+          }
+        ],
+        "resposta": [
+          "f+1 fitas",
+          "passada adicional"
+        ]
+      },
+      "16b25620": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Treap"
+          },
+          {
+            "campo": "descricao",
+            "texto": "min-heap"
+          }
+        ],
+        "resposta": [
+          "Rotação à esquerda",
+          "rotação à direita"
+        ]
+      },
+      "1efdc0ae": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Árvores Binárias de Busca"
+          },
+          {
+            "campo": "descricao",
+            "texto": "árvore binária de busca"
+          }
+        ],
+        "resposta": [
+          "I, II e III."
+        ]
+      },
+      "e17893b9": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Caso 3"
+          },
+          {
+            "campo": "descricao",
+            "texto": "tio do novo nó x é preto"
+          }
+        ],
+        "resposta": [
+          "rotações"
+        ]
+      },
+      "8b67641a": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Treap"
+          }
+        ],
+        "resposta": [
+          "T(log n)."
+        ]
+      },
+      "8c9fa729": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Árvores-B"
+          },
+          {
+            "campo": "descricao",
+            "texto": "inovação"
+          }
+        ],
+        "resposta": [
+          "I, II e III."
+        ]
+      },
+      "1ef4c478": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "ordenação externa"
+          },
+          {
+            "campo": "descricao",
+            "texto": "intercalação balanceada"
+          }
+        ],
+        "resposta": [
+          "F-F-V-V"
+        ]
+      },
+      "5a699b8c": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "filas de prioridade"
+          }
+        ],
+        "resposta": [
+          "inserção O(1), seleção O(n)",
+          "seleção O(1), inserção O(log n)"
+        ]
+      },
+      "b5874427": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Árvore-B+"
+          },
+          {
+            "campo": "descricao",
+            "texto": "chave"
+          }
+        ],
+        "resposta": [
+          "I, II, III e IV."
+        ]
+      }
+    },
+    "frontend": {
+      "288061ed": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "HTML"
+          },
+          {
+            "campo": "descricao",
+            "texto": "CSS"
+          }
+        ],
+        "resposta": [
+          "I, III e IV"
+        ]
+      },
+      "7e8b2142": {
+        "pergunta": [
+          {
+            "campo": "titulo",
+            "texto": "JavaScript"
+          },
+          {
+            "campo": "titulo",
+            "texto": "DOM"
+          }
+        ],
+        "resposta": [
+          "Novo Conteúdo!"
+        ]
+      },
+      "6deb269f": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "HTML"
+          },
+          {
+            "campo": "titulo",
+            "texto": "Tags"
+          }
+        ],
+        "resposta": [
+          "Tags",
+          "HTML"
+        ]
+      },
+      "b8262ea8": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "HTML"
+          },
+          {
+            "campo": "descricao",
+            "texto": "CSS"
+          }
+        ],
+        "resposta": [
+          "HTML",
+          "CSS"
+        ]
+      },
+      "997e2b83": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "objetos"
+          },
+          {
+            "campo": "descricao",
+            "texto": "Model"
+          }
+        ],
+        "resposta": [
+          "Somente I e IV."
+        ]
+      },
+      "64dd623e": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "HTML"
+          },
+          {
+            "campo": "descricao",
+            "texto": "tags"
+          }
+        ],
+        "resposta": [
+          "Hypertext Markup Language"
+        ]
+      },
+      "987c0964": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "JavaScript"
+          }
+        ],
+        "resposta": [
+          "Todas as afirmativas estão corretas."
+        ]
+      },
+      "a527adfb": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "JavaScript"
+          },
+          {
+            "campo": "descricao",
+            "texto": "objetos"
+          }
+        ],
+        "resposta": [
+          "setTimeout(alert, 3000, 'Javascript Testado!');"
+        ]
+      },
+      "424448d8": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "tags"
+          },
+          {
+            "campo": "descricao",
+            "texto": "HTML"
+          }
+        ],
+        "resposta": [
+          "abertura / fechamento"
+        ]
+      },
+      "54d1257f": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "JavaScript"
+          },
+          {
+            "campo": "descricao",
+            "texto": "objetos"
+          }
+        ],
+        "resposta": [
+          "prompt"
+        ]
+      },
+      "d5c1e4fb": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "HTML"
+          },
+          {
+            "campo": "descricao",
+            "texto": "CSS"
+          }
+        ],
+        "resposta": [
+          "type",
+          "stylesheet"
+        ]
+      },
+      "1a7a35b4": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "seletores"
+          },
+          {
+            "campo": "descricao",
+            "texto": "CSS"
+          }
+        ],
+        "resposta": [
+          "o atributo class=\"nome\"."
+        ]
+      },
+      "ef71b79d": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "JavaScript"
+          }
+        ],
+        "resposta": [
+          "function"
+        ]
+      },
+      "df80587b": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "JavaScript"
+          },
+          {
+            "campo": "titulo",
+            "texto": "Concatenação"
+          }
+        ],
+        "resposta": [
+          "2050."
+        ]
+      },
+      "a74d137a": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "JavaScript"
+          }
+        ],
+        "resposta": [
+          "contagem",
+          "console"
+        ]
+      },
+      "c2ecc807": {
+        "pergunta": [
+          {
+            "campo": "titulo",
+            "texto": "DOM"
+          }
+        ],
+        "resposta": [
+          "Novo Conteúdo!"
+        ]
+      },
+      "05989f16": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "seletores"
+          },
+          {
+            "campo": "descricao",
+            "texto": "CSS"
+          }
+        ],
+        "resposta": [
+          "o atributo class=\"nome\"."
+        ]
+      },
+      "3a29d1be": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "HTML"
+          },
+          {
+            "campo": "descricao",
+            "texto": "tags"
+          }
+        ],
+        "resposta": [
+          "HTML, Head, Title, Body"
+        ]
+      },
+      "5c6dfa53": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "JavaScript"
+          },
+          {
+            "campo": "descricao",
+            "texto": "objetos"
+          }
+        ],
+        "resposta": [
+          "toLowerCase"
+        ]
+      },
+      "95754aa1": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "pilha"
+          }
+        ],
+        "resposta": [
+          "history.go()"
+        ]
+      },
+      "309256a9": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "HTML"
+          },
+          {
+            "campo": "descricao",
+            "texto": "CSS"
+          }
+        ],
+        "resposta": [
+          "HTML",
+          "CSS"
+        ]
+      },
+      "ab59659b": {
+        "pergunta": [
+          {
+            "campo": "titulo",
+            "texto": "Objetos"
+          },
+          {
+            "campo": "titulo",
+            "texto": "String"
+          }
+        ],
+        "resposta": [
+          "String."
+        ]
+      },
+      "0a73871e": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "HTML"
+          }
+        ],
+        "resposta": [
+          "Input de texto de uma única linha."
+        ]
+      },
+      "0d50e1e3": {
+        "pergunta": [
+          {
+            "campo": "titulo",
+            "texto": "CSS"
+          }
+        ],
+        "resposta": [
+          "Framework CSS"
+        ]
+      },
+      "2c1b6462": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "JavaScript"
+          },
+          {
+            "campo": "descricao",
+            "texto": "objetos"
+          }
+        ],
+        "resposta": [
+          "2, 4, 6, 8, 10"
+        ]
+      },
+      "35dd4b72": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "JavaScript"
+          }
+        ],
+        "resposta": [
+          "Todas as afirmativas estão corretas."
+        ]
+      },
+      "22a1b4e2": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Javascript"
+          },
+          {
+            "campo": "descricao",
+            "texto": "objetos"
+          }
+        ],
+        "resposta": [
+          "2019-5-9 15:02:35"
+        ]
+      }
+    },
+    "fundamentosredes": {
+      "2a27582a": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "IP"
+          },
+          {
+            "campo": "titulo",
+            "texto": "broadcast"
+          }
+        ],
+        "resposta": [
+          "endereço IP"
+        ]
+      },
+      "4000da0c": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "straight-through"
+          }
+        ],
+        "resposta": [
+          "Ao conectar um host a um switch."
+        ]
+      },
+      "2c6a176e": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "binário"
+          },
+          {
+            "campo": "descricao",
+            "texto": "decimal"
+          }
+        ],
+        "resposta": [
+          "187"
+        ]
+      },
+      "576e545b": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "servidores"
+          },
+          {
+            "campo": "descricao",
+            "texto": "atender"
+          }
+        ],
+        "resposta": [
+          "HTTPS"
+        ]
+      },
+      "c1408ad8": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "IP"
+          }
+        ],
+        "resposta": [
+          "Nenhuma das alternativas indicadas."
+        ]
+      },
+      "5801addd": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "modelo OSI"
+          },
+          {
+            "campo": "descricao",
+            "texto": "TCP/IP"
+          }
+        ],
+        "resposta": [
+          "Enlace e física."
+        ]
+      },
+      "f63b605e": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "endereço IP"
+          },
+          {
+            "campo": "descricao",
+            "texto": "dispositivo"
+          }
+        ],
+        "resposta": [
+          "DHCPDISCOVER"
+        ]
+      },
+      "f01bebec": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "protegidos"
+          },
+          {
+            "campo": "descricao",
+            "texto": "trafegam"
+          }
+        ],
+        "resposta": [
+          "Criptografia."
+        ]
+      },
+      "77801c7b": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "TCP/IP"
+          }
+        ],
+        "resposta": [
+          "Transporte."
+        ]
+      },
+      "267d9e8c": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "dispositivo"
+          },
+          {
+            "campo": "descricao",
+            "texto": "roteadores"
+          }
+        ],
+        "resposta": [
+          "Endereço MAC."
+        ]
+      },
+      "61ca76d9": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "dispositivo"
+          }
+        ],
+        "resposta": [
+          "HTTP"
+        ]
+      },
+      "baece95b": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "endereço IP"
+          }
+        ],
+        "resposta": [
+          "172.30.18.6"
+        ]
+      },
+      "34c38e7d": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "identificadas"
+          },
+          {
+            "campo": "descricao",
+            "texto": "exceto"
+          }
+        ],
+        "resposta": [
+          "O endereço IP do gateway."
+        ]
+      },
+      "cab62e01": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "IPv6"
+          }
+        ],
+        "resposta": [
+          "2001:0db8:3c55:0015:1010:0000:abed:ff13"
+        ]
+      },
+      "9770d392": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "IPv6"
+          }
+        ],
+        "resposta": [
+          "2001:0DB8:0000:0000:00AA:0000:0000:0200"
+        ]
+      },
+      "88c1ff63": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "protocolo"
+          },
+          {
+            "campo": "descricao",
+            "texto": "define"
+          }
+        ],
+        "resposta": [
+          "regem",
+          "comunicação"
+        ]
+      },
+      "601c8a04": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "NAT"
+          },
+          {
+            "campo": "descricao",
+            "texto": "IP"
+          }
+        ],
+        "resposta": [
+          "Criar vários endereços IP públicos."
+        ]
+      },
+      "b52ffbfb": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Ethernet"
+          },
+          {
+            "campo": "descricao",
+            "texto": "switch"
+          }
+        ],
+        "resposta": [
+          "Endereço MAC de origem."
+        ]
+      },
+      "410216db": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "WLAN"
+          }
+        ],
+        "resposta": [
+          "SSID."
+        ]
+      },
+      "e6747308": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "TCP"
+          },
+          {
+            "campo": "descricao",
+            "texto": "UDP"
+          }
+        ],
+        "resposta": [
+          "UDP"
+        ]
+      },
+      "607bb8a4": {
+        "pergunta": [
+          {
+            "campo": "titulo",
+            "texto": "Porta de destino"
+          }
+        ],
+        "resposta": [
+          "Porta de destino."
+        ]
+      },
+      "9d6a78da": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "conectividade"
+          },
+          {
+            "campo": "descricao",
+            "texto": "residência"
+          }
+        ],
+        "resposta": [
+          "Satélite."
+        ]
+      },
+      "0b66baed": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "IPv6"
+          }
+        ],
+        "resposta": [
+          "Para aliviar a redução de endereços IPv4."
+        ]
+      },
+      "5a6ebdb9": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "endereço IP"
+          }
+        ],
+        "resposta": [
+          "origem",
+          "destino"
+        ]
+      },
+      "821be929": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "escritório"
+          },
+          {
+            "campo": "descricao",
+            "texto": "computadores"
+          }
+        ],
+        "resposta": [
+          "Nenhuma das respostas indicadas."
+        ]
+      },
+      "6e05cfff": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "endereço MAC"
+          }
+        ],
+        "resposta": [
+          "atribuído",
+          "fabricante"
+        ]
+      },
+      "dade68c4": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "peer-to-peer"
+          }
+        ],
+        "resposta": [
+          "Falta de administração centralizada."
+        ]
+      },
+      "cc86373c": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "smartphone"
+          },
+          {
+            "campo": "descricao",
+            "texto": "aproxima"
+          }
+        ],
+        "resposta": [
+          "NFC."
+        ]
+      },
+      "79aa6f7b": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Ethernet"
+          }
+        ],
+        "resposta": [
+          "64"
+        ]
+      },
+      "a58ab950": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "UDP"
+          },
+          {
+            "campo": "descricao",
+            "texto": "TCP"
+          }
+        ],
+        "resposta": [
+          "UDP",
+          "TCP"
+        ]
+      },
+      "77258532": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "multicast"
+          },
+          {
+            "campo": "descricao",
+            "texto": "IPv4"
+          }
+        ],
+        "resposta": [
+          "224.0.0.0 – 239.255.255.255"
+        ]
+      },
+      "1731916e": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Ethernet"
+          }
+        ],
+        "resposta": [
+          "46 a 1.500 bytes."
+        ]
+      }
+    },
+    "governancati": {
+      "6ba96af0": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "corporativa"
+          },
+          {
+            "campo": "descricao",
+            "texto": "riscos"
+          }
+        ],
+        "resposta": [
+          "conformidade"
+        ]
+      },
+      "f53ab2ac": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "outsourcing"
+          },
+          {
+            "campo": "descricao",
+            "texto": "processos"
+          }
+        ],
+        "resposta": [
+          "Definir",
+          "fornecedor"
+        ]
+      },
+      "220e7e6f": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "governança de TI"
+          },
+          {
+            "campo": "descricao",
+            "texto": "Balanced Scorecard"
+          }
+        ],
+        "resposta": [
+          "Apenas II."
+        ]
+      },
+      "e6220a56": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Sarbanes-Oxley"
+          },
+          {
+            "campo": "descricao",
+            "texto": "requisitos"
+          }
+        ],
+        "resposta": [
+          "Penalidades criminais."
+        ]
+      },
+      "12ffbb32": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "disponibilidade"
+          }
+        ],
+        "resposta": [
+          "não é uma justificativa"
+        ]
+      },
+      "ec855232": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Governança de TI"
+          },
+          {
+            "campo": "descricao",
+            "texto": "planejamento"
+          }
+        ],
+        "resposta": [
+          "Compliance"
+        ]
+      },
+      "74176b58": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Governança de TI"
+          },
+          {
+            "campo": "descricao",
+            "texto": "regulação"
+          }
+        ],
+        "resposta": [
+          "definida",
+          "salários"
+        ]
+      },
+      "59c7c0ae": {
+        "pergunta": [
+          {
+            "campo": "titulo",
+            "texto": "Governança de TI"
+          },
+          {
+            "campo": "descricao",
+            "texto": "Sarbanes-Oxley"
+          }
+        ],
+        "resposta": [
+          "I, III e IV."
+        ]
+      },
+      "35df5ae4": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Governança de TI"
+          },
+          {
+            "campo": "descricao",
+            "texto": "Portfólio"
+          }
+        ],
+        "resposta": [
+          "Domínio"
+        ]
+      },
+      "0db439b0": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Governança de TI"
+          },
+          {
+            "campo": "descricao",
+            "texto": "riscos"
+          }
+        ],
+        "resposta": [
+          "objetivos estratégicos"
+        ]
+      },
+      "8b140176": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "alinhamento estratégico"
+          },
+          {
+            "campo": "descricao",
+            "texto": "gestão de TI"
+          }
+        ],
+        "resposta": [
+          "Índice",
+          "conformidade"
+        ]
+      },
+      "32689f24": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Governança de TI"
+          },
+          {
+            "campo": "descricao",
+            "texto": "objetivos organizacionais"
+          }
+        ],
+        "resposta": [
+          "Só a IV não é correta."
+        ]
+      },
+      "3f9cc546": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Governança de TI"
+          },
+          {
+            "campo": "descricao",
+            "texto": "objetivos estratégicos"
+          }
+        ],
+        "resposta": [
+          "justifica",
+          "adequadamente"
+        ]
+      },
+      "02fec6b1": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "chave"
+          }
+        ],
+        "resposta": [
+          "não é justificativa"
+        ]
+      },
+      "b61ef8d5": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Governança de TI"
+          }
+        ],
+        "resposta": [
+          "regulação"
+        ]
+      },
+      "4df47be0": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Governança de TI"
+          }
+        ],
+        "resposta": [
+          "Todas estão corretas."
+        ]
+      },
+      "d750c236": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "alinhamento estratégico"
+          },
+          {
+            "campo": "descricao",
+            "texto": "Governança de TI"
+          }
+        ],
+        "resposta": [
+          "A entrega de valor de TI; a mitigação de riscos."
+        ]
+      },
+      "3f51d6fe": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "alinhamento estratégico"
+          },
+          {
+            "campo": "descricao",
+            "texto": "Governança de TI"
+          }
+        ],
+        "resposta": [
+          "demanda",
+          "necessidades"
+        ]
+      },
+      "c9023fc2": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "indicadores"
+          }
+        ],
+        "resposta": [
+          "índice",
+          "conformidade"
+        ]
+      },
+      "bb953e84": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Planejamento"
+          },
+          {
+            "campo": "titulo",
+            "texto": "PETI"
+          }
+        ],
+        "resposta": [
+          "2 a 3 anos."
+        ]
+      },
+      "abf8dc40": {
+        "pergunta": [
+          {
+            "campo": "titulo",
+            "texto": "geração de valor"
+          },
+          {
+            "campo": "descricao",
+            "texto": "riscos"
+          }
+        ],
+        "resposta": [
+          "controlados",
+          "reguladoras"
+        ]
+      },
+      "1ffa981b": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Governança de TI"
+          }
+        ],
+        "resposta": [
+          "objetivos estratégicos"
+        ]
+      },
+      "253b760a": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Governança de TI"
+          },
+          {
+            "campo": "descricao",
+            "texto": "complexidade"
+          }
+        ],
+        "resposta": [
+          "justifica",
+          "adequadamente"
+        ]
+      },
+      "d5fe8d72": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Governança de TI"
+          }
+        ],
+        "resposta": [
+          "Alinhamento estratégico",
+          "processos"
+        ]
+      },
+      "72e68e4b": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Planejamento"
+          },
+          {
+            "campo": "descricao",
+            "texto": "PETI"
+          }
+        ],
+        "resposta": [
+          "I, II, III e IV, somente."
+        ]
+      },
+      "29f8e9ee": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "chave"
+          }
+        ],
+        "resposta": [
+          "Estratégica."
+        ]
+      },
+      "30edbcb9": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "compliance"
+          }
+        ],
+        "resposta": [
+          "não é justificativa"
+        ]
+      },
+      "bb317549": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "alinhamento estratégico"
+          },
+          {
+            "campo": "descricao",
+            "texto": "produto"
+          }
+        ],
+        "resposta": [
+          "O PETI."
+        ]
+      },
+      "5c42b908": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Governança de TI"
+          },
+          {
+            "campo": "descricao",
+            "texto": "financeiros"
+          }
+        ],
+        "resposta": [
+          "I e II, somente."
+        ]
+      }
+    },
+    "logica": {
+      "e078ee3f": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "lógicos"
+          },
+          {
+            "campo": "titulo",
+            "texto": "Silogismo"
+          }
+        ],
+        "resposta": [
+          "Alguns matemáticos são lógicos."
+        ]
+      },
+      "8e91d7ca": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "hexadecimal"
+          },
+          {
+            "campo": "descricao",
+            "texto": "binário"
+          }
+        ],
+        "resposta": [
+          "B"
+        ]
+      },
+      "7a652629": {
+        "pergunta": [
+          {
+            "campo": "titulo",
+            "texto": "Lógicos"
+          }
+        ],
+        "resposta": [
+          "p ∧ ~q"
+        ]
+      },
+      "786a965d": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "participaram"
+          },
+          {
+            "campo": "descricao",
+            "texto": "inscritos"
+          }
+        ],
+        "resposta": [
+          "200"
+        ]
+      },
+      "55027293": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Aritmética"
+          },
+          {
+            "campo": "descricao",
+            "texto": "Progressão"
+          }
+        ],
+        "resposta": [
+          "S = {n(n+1)}/2"
+        ]
+      },
+      "26d74815": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "tabela-verdade"
+          }
+        ],
+        "resposta": [
+          "16"
+        ]
+      },
+      "561ddeec": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "backups regulares"
+          },
+          {
+            "campo": "titulo",
+            "texto": "Silogismo"
+          }
+        ],
+        "resposta": [
+          "O sistema tem backups regulares."
+        ]
+      },
+      "8f468bd4": {
+        "pergunta": [
+          {
+            "campo": "afirmacoes.2",
+            "texto": "bicondicional"
+          },
+          {
+            "campo": "afirmacoes.3",
+            "texto": "conjunção"
+          }
+        ],
+        "resposta": [
+          "Apenas as assertivas II e III estão corretas."
+        ]
+      },
+      "c9e46911": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "tabela-verdade"
+          }
+        ],
+        "resposta": [
+          "3 valores lógicos V e 2 valores lógicos F."
+        ]
+      },
+      "d32e4a97": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "negação"
+          }
+        ],
+        "resposta": [
+          "Opção 4"
+        ]
+      },
+      "be5985f7": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "lógicos"
+          }
+        ],
+        "resposta": [
+          "Eficiente → (~Bugs ou Atualizado)"
+        ]
+      },
+      "14d8f92e": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "diligentemente"
+          },
+          {
+            "campo": "descricao",
+            "texto": "entenderá"
+          }
+        ],
+        "resposta": [
+          "Pedro entendeu a matéria."
+        ]
+      },
+      "6b25f5ae": {
+        "pergunta": [
+          {
+            "campo": "titulo",
+            "texto": "Equivalência Lógica"
+          },
+          {
+            "campo": "titulo",
+            "texto": "Contrapositiva"
+          }
+        ],
+        "resposta": [
+          "~Q → ~P"
+        ]
+      },
+      "00b2a478": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "estacionamento"
+          },
+          {
+            "campo": "descricao",
+            "texto": "bicicletas"
+          }
+        ],
+        "resposta": [
+          "bicicletas",
+          "estacionamento"
+        ]
+      },
+      "e3bca6b4": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "processador"
+          },
+          {
+            "campo": "descricao",
+            "texto": "dispositivo"
+          }
+        ],
+        "resposta": [
+          "concluir",
+          "fornecidas"
+        ]
+      },
+      "e25cd6f5": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "indução"
+          }
+        ],
+        "resposta": [
+          "assumimos",
+          "mostramos"
+        ]
+      },
+      "41aca524": {
+        "pergunta": [
+          {
+            "campo": "afirmacoes.2",
+            "texto": "bicondicional"
+          },
+          {
+            "campo": "afirmacoes.3",
+            "texto": "conjunção"
+          }
+        ],
+        "resposta": [
+          "Apenas as assertivas II e III estão corretas."
+        ]
+      },
+      "f260160e": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "backups regulares"
+          },
+          {
+            "campo": "titulo",
+            "texto": "Silogismo"
+          }
+        ],
+        "resposta": [
+          "O sistema tem backups regulares."
+        ]
+      }
+    },
+    "segurancainformacao": {
+      "376cc67b": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "spoofing"
+          },
+          {
+            "campo": "descricao",
+            "texto": "camada 2"
+          }
+        ],
+        "resposta": [
+          "endereço MAC",
+          "assumir a identidade"
+        ]
+      },
+      "aeee7342": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "falsificação DHCP"
+          }
+        ],
+        "resposta": [
+          "Redirecionamento",
+          "controle do invasor"
+        ]
+      },
+      "b9865edf": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "camada 2"
+          },
+          {
+            "campo": "descricao",
+            "texto": "enlace"
+          }
+        ],
+        "resposta": [
+          "sniffing",
+          "captura pacotes"
+        ]
+      },
+      "f2c81cd4": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "engenharia social"
+          },
+          {
+            "campo": "descricao",
+            "texto": "interação humana"
+          }
+        ],
+        "resposta": [
+          "suporte técnico",
+          "dados pessoais"
+        ]
+      },
+      "b0cb102a": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "phishing"
+          }
+        ],
+        "resposta": [
+          "websites ou e-mails falsos",
+          "entidades confiáveis"
+        ]
+      },
+      "6c6aadc5": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "envenenamento"
+          },
+          {
+            "campo": "descricao",
+            "texto": "cache\nDNS"
+          }
+        ],
+        "resposta": [
+          "Redirecionamento",
+          "sites maliciosos"
+        ]
+      },
+      "4fe2cf59": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "ransomware"
+          },
+          {
+            "campo": "descricao",
+            "texto": "reduzir o impacto"
+          }
+        ],
+        "resposta": [
+          "backups regulares",
+          "fora da rede"
+        ]
+      },
+      "19afdc1f": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Man-in-the-Middle"
+          }
+        ],
+        "resposta": [
+          "VPN",
+          "redes não confiáveis"
+        ]
+      },
+      "84c0faf3": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "nuvem privada"
+          }
+        ],
+        "resposta": [
+          "Usuários remotos",
+          "dados confidenciais"
+        ]
+      },
+      "fd536149": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "reflexão"
+          },
+          {
+            "campo": "descricao",
+            "texto": "amplificar"
+          }
+        ],
+        "resposta": [
+          "DNS"
+        ]
+      },
+      "064dac9a": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "cache DNS"
+          },
+          {
+            "campo": "descricao",
+            "texto": "sites falsos"
+          }
+        ],
+        "resposta": [
+          "endereços DNS",
+          "servidores maliciosos"
+        ]
+      },
+      "580edf2a": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "trabalhem de casa"
+          },
+          {
+            "campo": "descricao",
+            "texto": "sigilo"
+          }
+        ],
+        "resposta": [
+          "VPN"
+        ]
+      },
+      "3b0d5a6f": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "confidencialidade"
+          }
+        ],
+        "resposta": [
+          "acessados apenas"
+        ]
+      },
+      "9d4a82ec": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "ameaças internas"
+          }
+        ],
+        "resposta": [
+          "campanhas de conscientização",
+          "colaboradores"
+        ]
+      },
+      "a5927e9d": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "falsificação DHCP"
+          },
+          {
+            "campo": "descricao",
+            "texto": "IP falso"
+          }
+        ],
+        "resposta": [
+          "Interceptar",
+          "redirecionar"
+        ]
+      },
+      "e18caf8d": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "phishing"
+          }
+        ],
+        "resposta": [
+          " e-mail falso",
+          "instituição bancária"
+        ]
+      },
+      "287ff6ce": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "proteção física"
+          },
+          {
+            "campo": "descricao",
+            "texto": "não autorizado"
+          }
+        ],
+        "resposta": [
+          "sala trancada",
+          "acesso restrito"
+        ]
+      },
+      "4a7b7b65": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "nuvem pública"
+          }
+        ],
+        "resposta": [
+          "Engenharia Social",
+          "comportamento\nhumano"
+        ]
+      },
+      "87efb26a": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "ameaça externa"
+          }
+        ],
+        "resposta": [
+          "vulnerabilidade de segurança",
+          "atacante remoto"
+        ]
+      },
+      "a8368d86": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "tabela MAC"
+          },
+          {
+            "campo": "descricao",
+            "texto": "encher"
+          }
+        ],
+        "resposta": [
+          "Inundação de MAC"
+        ]
+      },
+      "244af116": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "ransomware"
+          }
+        ],
+        "resposta": [
+          "criptografa os dados",
+          "expor informações"
+        ]
+      },
+      "b0382a7c": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "ameaça comum aos dispositivos"
+          }
+        ],
+        "resposta": [
+          "Rootkits",
+          "acesso privilegiado"
+        ]
+      },
+      "2dfc7466": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "VPN"
+          }
+        ],
+        "resposta": [
+          "criptografam o tráfego",
+          "protegendo os dados"
+        ]
+      },
+      "67cb09e2": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "malware"
+          },
+          {
+            "campo": "descricao",
+            "texto": "corporativa"
+          }
+        ],
+        "resposta": [
+          "antivírus",
+          "bloquear ameaças"
+        ]
+      },
+      "df0ccd1d": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "injeção\nSQL"
+          }
+        ],
+        "resposta": [
+          "consultas preparadas",
+          "validação rigorosa"
+        ]
+      },
+      "bb7f45bf": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "MKDIR"
+          }
+        ],
+        "resposta": [
+          "Diretórios"
+        ]
+      },
+      "3dab4bad": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "dispositivo não\nautorizado"
+          },
+          {
+            "campo": "descricao",
+            "texto": "ver o tráfego"
+          }
+        ],
+        "resposta": [
+          "Sniffing"
+        ]
+      },
+      "66e5cd73": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "integridade"
+          }
+        ],
+        "resposta": [
+          "não sejam alterados",
+          "corrompidos"
+        ]
+      },
+      "96e1722a": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "autenticação mútua"
+          }
+        ],
+        "resposta": [
+          "man-in-the-middle"
+        ]
+      },
+      "f95f57c6": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "amplificação"
+          },
+          {
+            "campo": "descricao",
+            "texto": "DDoS"
+          }
+        ],
+        "resposta": [
+          "IP falsificados",
+          "servidor DNS"
+        ]
+      },
+      "0698b2aa": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "conta de administrador"
+          },
+          {
+            "campo": "descricao",
+            "texto": "conta padrão"
+          }
+        ],
+        "resposta": [
+          "não pode instalar",
+          "administrador\npode"
+        ]
+      },
+      "bafc9b92": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Engenharia social"
+          },
+          {
+            "campo": "descricao",
+            "texto": "manipulação psicológica"
+          }
+        ],
+        "resposta": [
+          "fingindo",
+          "departamento de TI"
+        ]
+      },
+      "31bf3a62": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "ameaça\ninterna"
+          }
+        ],
+        "resposta": [
+          "funcionário insatisfeito",
+          "vazar informações"
+        ]
+      },
+      "ea4616c0": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "listar"
+          },
+          {
+            "campo": "descricao",
+            "texto": "permissões"
+          }
+        ],
+        "resposta": [
+          "ls -l"
+        ]
+      },
+      "24d25dc4": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "inundação"
+          },
+          {
+            "campo": "descricao",
+            "texto": "sobrecarregar"
+          }
+        ],
+        "resposta": [
+          "grande quantidade",
+          "ICMP"
+        ]
+      },
+      "83cad96d": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "reconhecimento"
+          },
+          {
+            "campo": "descricao",
+            "texto": "ocultar\ninformações"
+          }
+        ],
+        "resposta": [
+          "firewalls",
+          "varredura de porta"
+        ]
+      },
+      "f06c27d4": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "redes locais"
+          }
+        ],
+        "resposta": [
+          "Ransomware",
+          "criptografa\ndados"
+        ]
+      },
+      "857c0782": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "BitLocker"
+          }
+        ],
+        "resposta": [
+          "disco rígido",
+          "acesso não\nautorizado"
+        ]
+      },
+      "2ea56095": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "SYN Flood"
+          }
+        ],
+        "resposta": [
+          "pacotes SYN",
+          "sem completar o handshake"
+        ]
+      },
+      "4a802612": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "confidencialidade"
+          }
+        ],
+        "resposta": [
+          "Man-in-the-Middle",
+          "intercepta dados"
+        ]
+      },
+      "0a9db8d3": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "ARP Spoofing"
+          }
+        ],
+        "resposta": [
+          "endereço MAC",
+          "endereço IP"
+        ]
+      },
+      "3a83eef5": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "SaaS"
+          }
+        ],
+        "resposta": [
+          "aplicativos via internet",
+          "navegador web"
+        ]
+      },
+      "7700a4dc": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Tríade CIA"
+          }
+        ],
+        "resposta": [
+          "Confidencialidade",
+          "acesso não autorizado"
+        ]
+      },
+      "8b92b115": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "MD5"
+          }
+        ],
+        "resposta": [
+          "128 bits"
+        ]
+      },
+      "0a54c92d": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "eventos disruptivos"
+          }
+        ],
+        "resposta": [
+          "resiliência"
+        ]
+      },
+      "603030fc": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "assinatura digital"
+          },
+          {
+            "campo": "descricao",
+            "texto": "assinar"
+          }
+        ],
+        "resposta": [
+          "chave privada da Alice"
+        ]
+      },
+      "f297e60f": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "prática de\nsegurança inadequada"
+          }
+        ],
+        "resposta": [
+          "Compartilhar senhas"
+        ]
+      },
+      "661ecf10": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "rotulagem"
+          },
+          {
+            "campo": "descricao",
+            "texto": "valor, sigilo"
+          }
+        ],
+        "resposta": [
+          "classificação do ativo"
+        ]
+      },
+      "7fb7af2a": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "acessam sistemas\nremotamente"
+          }
+        ],
+        "resposta": [
+          "SSH"
+        ]
+      },
+      "3d4f4e36": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "autenticar"
+          },
+          {
+            "campo": "descricao",
+            "texto": "transações eletrônicas"
+          }
+        ],
+        "resposta": [
+          "certificados digitais"
+        ]
+      },
+      "c9c43061": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "atualização mais recente do antivírus"
+          },
+          {
+            "campo": "descricao",
+            "texto": "permissão"
+          }
+        ],
+        "resposta": [
+          "NAC"
+        ]
+      },
+      "07739922": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "sigilo dos dados"
+          }
+        ],
+        "resposta": [
+          "criptografia"
+        ]
+      },
+      "53ca7683": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "estenografia"
+          },
+          {
+            "campo": "descricao",
+            "texto": "arquivo de imagem"
+          }
+        ],
+        "resposta": [
+          "bit menos significativo"
+        ]
+      },
+      "753c010c": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "integridade dos dados"
+          },
+          {
+            "campo": "descricao",
+            "texto": "entrada inicial"
+          }
+        ],
+        "resposta": [
+          "regra de validação",
+          "precisão e consistência"
+        ]
+      },
+      "73bda35f": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "senhas padrão"
+          },
+          {
+            "campo": "descricao",
+            "texto": "patches ausentes"
+          }
+        ],
+        "resposta": [
+          "scanner de vulnerabilidades"
+        ]
+      },
+      "dd9253d8": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "cinco noves"
+          },
+          {
+            "campo": "descricao",
+            "texto": "custo proibitivo"
+          }
+        ],
+        "resposta": [
+          "bolsa de valores"
+        ]
+      },
+      "f0f94701": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "VoIP"
+          },
+          {
+            "campo": "descricao",
+            "texto": "espionagem"
+          }
+        ],
+        "resposta": [
+          "voz criptografadas"
+        ]
+      },
+      "54dfa358": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "hash"
+          },
+          {
+            "campo": "descricao",
+            "texto": "sigilosas mas não confidenciais"
+          }
+        ],
+        "resposta": [
+          "SHA-256"
+        ]
+      },
+      "293fbf1a": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "criptossistema"
+          },
+          {
+            "campo": "descricao",
+            "texto": "mais difícil"
+          }
+        ],
+        "resposta": [
+          "gerenciamento de chaves"
+        ]
+      },
+      "3ffb3fb6": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "parâmetro"
+          },
+          {
+            "campo": "descricao",
+            "texto": "sistema operacional"
+          }
+        ],
+        "resposta": [
+          "Microsoft Security Baseline Analyzer"
+        ]
+      },
+      "4224a0da": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "IPSec"
+          },
+          {
+            "campo": "descricao",
+            "texto": "autenticar a origem"
+          }
+        ],
+        "resposta": [
+          "HMAC"
+        ]
+      },
+      "1312afa1": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "dicionário"
+          },
+          {
+            "campo": "descricao",
+            "texto": "força bruta"
+          }
+        ],
+        "resposta": [
+          "HMAC"
+        ]
+      },
+      "f16c417b": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "hosts não autorizados"
+          },
+          {
+            "campo": "descricao",
+            "texto": "rede doméstica"
+          }
+        ],
+        "resposta": [
+          "firewall"
+        ]
+      },
+      "72d80615": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "pacotes construídos"
+          },
+          {
+            "campo": "descricao",
+            "texto": "comunicação normal"
+          }
+        ],
+        "resposta": [
+          "falsificação de pacotes"
+        ]
+      },
+      "a67b36bc": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "comprimento da chave"
+          }
+        ],
+        "resposta": [
+          "espaço da chave",
+          "aumenta exponencialmente"
+        ]
+      }
+    },
+    "sistemas": {
+      "462d519c": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Sistema Operacional"
+          },
+          {
+            "campo": "descricao",
+            "texto": "Gerenciamento"
+          }
+        ],
+        "resposta": [
+          "Traduzir",
+          "entender"
+        ]
+      },
+      "11256cce": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Linux"
+          }
+        ],
+        "resposta": [
+          "marcado",
+          "continuar"
+        ]
+      },
+      "f236ea77": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "SSDs"
+          }
+        ],
+        "resposta": [
+          "Block I/O Layer"
+        ]
+      },
+      "c1faba1a": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "VFS"
+          }
+        ],
+        "resposta": [
+          "interface"
+        ]
+      },
+      "ad3ab844": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Linux"
+          }
+        ],
+        "resposta": [
+          "/dev"
+        ]
+      },
+      "c6270bf3": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "sistema de arquivos"
+          }
+        ],
+        "resposta": [
+          "Organizar",
+          "recuperar"
+        ]
+      },
+      "a2e33f9d": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "inode"
+          },
+          {
+            "campo": "descricao",
+            "texto": "Linux"
+          }
+        ],
+        "resposta": [
+          "metadados",
+          "permissões"
+        ]
+      },
+      "6fadb5d9": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "sistema operacional"
+          }
+        ],
+        "resposta": [
+          "Driver de dispositivo"
+        ]
+      },
+      "5c5cac30": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "permissões"
+          },
+          {
+            "campo": "descricao",
+            "texto": "Linux"
+          }
+        ],
+        "resposta": [
+          "permissões"
+        ]
+      },
+      "83dd579f": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "evolução"
+          },
+          {
+            "campo": "descricao",
+            "texto": "operacionais"
+          }
+        ],
+        "resposta": [
+          "Unix",
+          "Linux"
+        ]
+      },
+      "efd8c4af": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "sistema operacional"
+          },
+          {
+            "campo": "descricao",
+            "texto": "shell"
+          }
+        ],
+        "resposta": [
+          "interface",
+          "sistema operacional"
+        ]
+      },
+      "6803b862": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "memória virtual"
+          },
+          {
+            "campo": "descricao",
+            "texto": "LRU"
+          }
+        ],
+        "resposta": [
+          "LRU"
+        ]
+      },
+      "c93c9696": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "proprietário"
+          },
+          {
+            "campo": "descricao",
+            "texto": "propriedade"
+          }
+        ],
+        "resposta": [
+          "chown"
+        ]
+      },
+      "413ce46d": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "prompt"
+          },
+          {
+            "campo": "descricao",
+            "texto": "Linux"
+          }
+        ],
+        "resposta": [
+          "Indicar que o usuário é um usuário regular."
+        ]
+      },
+      "26745f4c": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "terminal"
+          },
+          {
+            "campo": "descricao",
+            "texto": "mudar"
+          }
+        ],
+        "resposta": [
+          "cd"
+        ]
+      },
+      "38d73ac1": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "conceitua-se"
+          },
+          {
+            "campo": "descricao",
+            "texto": "executando"
+          }
+        ],
+        "resposta": [
+          "Thread."
+        ]
+      },
+      "cbbde3dc": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "fragmentação interna"
+          },
+          {
+            "campo": "descricao",
+            "texto": "memória"
+          }
+        ],
+        "resposta": [
+          "memória"
+        ]
+      },
+      "a15254e2": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "tempo de resposta"
+          },
+          {
+            "campo": "descricao",
+            "texto": "complexidade"
+          }
+        ],
+        "resposta": [
+          "I e IV."
+        ]
+      },
+      "8c2bc9f3": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "memória virtual"
+          }
+        ],
+        "resposta": [
+          "memória"
+        ]
+      },
+      "5b6f4e93": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Swapping"
+          }
+        ],
+        "resposta": [
+          "processos",
+          "memória secundária"
+        ]
+      },
+      "786f2a63": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "sistema operacional"
+          },
+          {
+            "campo": "descricao",
+            "texto": "Linux"
+          }
+        ],
+        "resposta": [
+          "Colaboração da comunidade de desenvolvedores."
+        ]
+      },
+      "4006629d": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "redirecionamento"
+          }
+        ],
+        "resposta": [
+          "salva",
+          "sobrescrevendo"
+        ]
+      },
+      "f2d91b00": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "sistema operacional"
+          }
+        ],
+        "resposta": [
+          "entrada e saída"
+        ]
+      },
+      "ce224169": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "não preemptivo"
+          },
+          {
+            "campo": "descricao",
+            "texto": "escalonamento"
+          }
+        ],
+        "resposta": [
+          "processos"
+        ]
+      },
+      "cfac9797": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "sistema operacional"
+          }
+        ],
+        "resposta": [
+          "Kernel."
+        ]
+      },
+      "3d9284c6": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "instante"
+          },
+          {
+            "campo": "descricao",
+            "texto": "alocado"
+          }
+        ],
+        "resposta": [
+          "Exclusão mútua."
+        ]
+      },
+      "57a0e127": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "fragmentação externa"
+          },
+          {
+            "campo": "descricao",
+            "texto": "memória"
+          }
+        ],
+        "resposta": [
+          "memória"
+        ]
+      },
+      "0973354d": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "passar"
+          },
+          {
+            "campo": "descricao",
+            "texto": "operador"
+          }
+        ],
+        "resposta": [
+          "|"
+        ]
+      },
+      "02a7fe07": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "criptográficos"
+          }
+        ],
+        "resposta": [
+          "tornando",
+          "inviável"
+        ]
+      },
+      "0e797b01": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "processador"
+          }
+        ],
+        "resposta": [
+          "sistema operacional"
+        ]
+      },
+      "150d6249": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "sistema operacional"
+          },
+          {
+            "campo": "descricao",
+            "texto": "kernel"
+          }
+        ],
+        "resposta": [
+          "Unix"
+        ]
+      },
+      "bf78611e": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "sistema operacional"
+          },
+          {
+            "campo": "descricao",
+            "texto": "shell"
+          }
+        ],
+        "resposta": [
+          "interface",
+          "sistema operacional"
+        ]
+      },
+      "ef750981": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "ajusta"
+          },
+          {
+            "campo": "descricao",
+            "texto": "comportamento"
+          }
+        ],
+        "resposta": [
+          "Opção"
+        ]
+      },
+      "9052f939": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "permissões"
+          },
+          {
+            "campo": "descricao",
+            "texto": "chmod"
+          }
+        ],
+        "resposta": [
+          "proprietário",
+          "permissão"
+        ]
+      },
+      "6a5a66a1": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Unix-like"
+          },
+          {
+            "campo": "descricao",
+            "texto": "chmod"
+          }
+        ],
+        "resposta": [
+          "permissões"
+        ]
+      },
+      "9864da31": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "escalonamento"
+          }
+        ],
+        "resposta": [
+          "Round-robin."
+        ]
+      },
+      "b0002aed": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "processos"
+          }
+        ],
+        "resposta": [
+          "semáforo"
+        ]
+      },
+      "05af5d36": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "compartilhamento"
+          },
+          {
+            "campo": "descricao",
+            "texto": "indesejadas"
+          }
+        ],
+        "resposta": [
+          "Deadlock"
+        ]
+      },
+      "da0fd86a": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "multitarefa"
+          },
+          {
+            "campo": "descricao",
+            "texto": "operacionais"
+          }
+        ],
+        "resposta": [
+          "programa",
+          "compartilhando"
+        ]
+      },
+      "a8934381": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "transições"
+          },
+          {
+            "campo": "descricao",
+            "texto": "estados"
+          }
+        ],
+        "resposta": [
+          "término",
+          "espera"
+        ]
+      },
+      "513016bb": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "sistema operacional"
+          },
+          {
+            "campo": "descricao",
+            "texto": "intermediária"
+          }
+        ],
+        "resposta": [
+          "sistema operacional"
+        ]
+      },
+      "3ec552d2": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "memória virtual"
+          },
+          {
+            "campo": "descricao",
+            "texto": "segmentação"
+          }
+        ],
+        "resposta": [
+          "Os segmentos possuem tamanhos variados."
+        ]
+      },
+      "0cca65e7": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "sistema operacional"
+          }
+        ],
+        "resposta": [
+          "gerencia",
+          "intermediário"
+        ]
+      },
+      "93a8193d": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "tempo real"
+          },
+          {
+            "campo": "descricao",
+            "texto": "escalonamento"
+          }
+        ],
+        "resposta": [
+          "prioridade que podem ser estáticas ou dinâmicas."
+        ]
+      },
+      "058b1e28": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "sistema operacional"
+          },
+          {
+            "campo": "descricao",
+            "texto": "Substituição de Páginas"
+          }
+        ],
+        "resposta": [
+          "escolhe",
+          "referenciada"
+        ]
+      },
+      "f518c834": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "sistema operacional"
+          },
+          {
+            "campo": "descricao",
+            "texto": "gerenciamento"
+          }
+        ],
+        "resposta": [
+          "II e III."
+        ]
+      },
+      "4b6d985c": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "memória virtual"
+          },
+          {
+            "campo": "descricao",
+            "texto": "paginação"
+          }
+        ],
+        "resposta": [
+          "memória virtual"
+        ]
+      },
+      "1fcaf766": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "fragmentação externa"
+          },
+          {
+            "campo": "descricao",
+            "texto": "gerenciamento"
+          }
+        ],
+        "resposta": [
+          "Alocação particionada dinâmica."
+        ]
+      },
+      "f2508909": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "threads"
+          }
+        ],
+        "resposta": [
+          "Threads",
+          "modo usuário"
+        ]
+      },
+      "02f9e66f": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "processos"
+          },
+          {
+            "campo": "afirmacoes.1",
+            "texto": "condição de corrida"
+          }
+        ],
+        "resposta": [
+          "II, III e IV"
+        ]
+      },
+      "23836864": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "sistema operacional"
+          },
+          {
+            "campo": "descricao",
+            "texto": "processos"
+          }
+        ],
+        "resposta": [
+          "5."
+        ]
+      },
+      "b136bdbc": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "processos"
+          }
+        ],
+        "resposta": [
+          "registradores"
+        ]
+      },
+      "dc386f4e": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "alocação encadeada"
+          }
+        ],
+        "resposta": [
+          "perdido",
+          "fragmentação"
+        ]
+      }
+    },
+    "ux": {
+      "95f90eb2": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "interface"
+          }
+        ],
+        "resposta": [
+          "I e II são proposições verdadeiras",
+          "não é uma justificativa"
+        ]
+      },
+      "07706cb3": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "design centrado no usuário"
+          },
+          {
+            "campo": "descricao",
+            "texto": "chave"
+          }
+        ],
+        "resposta": [
+          "Envolver os usuários no processo de design"
+        ]
+      },
+      "d11864e9": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "interface"
+          }
+        ],
+        "resposta": [
+          "I é verdadeira e II é falsa"
+        ]
+      },
+      "2269b678": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "posição"
+          }
+        ],
+        "resposta": [
+          "É uma técnica rápida e de baixo custo."
+        ]
+      },
+      "d1fcc027": {
+        "pergunta": [
+          {
+            "campo": "titulo",
+            "texto": "Acessibilidade"
+          },
+          {
+            "campo": "afirmacoes.1",
+            "texto": "processos"
+          }
+        ],
+        "resposta": [
+          "Apenas a III é verdadeira"
+        ]
+      },
+      "c17aa2d9": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "usabilidade"
+          }
+        ],
+        "resposta": [
+          "I é uma proposição verdadeira",
+          "II é uma proposição falsa"
+        ]
+      },
+      "a2797b4e": {
+        "pergunta": [
+          {
+            "campo": "afirmacoes.1",
+            "texto": "produto"
+          }
+        ],
+        "resposta": [
+          "Apenas a alternativa I é verdadeira"
+        ]
+      },
+      "ef917d4b": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "usabilidade"
+          }
+        ],
+        "resposta": [
+          "cognitivo",
+          "empregado"
+        ]
+      },
+      "a554ad19": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "design responsivo"
+          }
+        ],
+        "resposta": [
+          "ajusta",
+          "automaticamente"
+        ]
+      },
+      "3135ebfe": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "usabilidade"
+          },
+          {
+            "campo": "descricao",
+            "texto": "MAC"
+          }
+        ],
+        "resposta": [
+          "I é verdadeira e II é falsa;"
+        ]
+      },
+      "bf4035a2": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Rogers"
+          },
+          {
+            "campo": "descricao",
+            "texto": "Preece"
+          }
+        ],
+        "resposta": [
+          "interativos",
+          "cotidianas"
+        ]
+      },
+      "0eb28dd8": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "entrada e saída"
+          },
+          {
+            "campo": "descricao",
+            "texto": "dispositivo"
+          }
+        ],
+        "resposta": [
+          "interface"
+        ]
+      },
+      "3ed6da6c": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "interface"
+          },
+          {
+            "campo": "titulo",
+            "texto": "Visibilidade"
+          }
+        ],
+        "resposta": [
+          "visibilidade",
+          "interface"
+        ]
+      },
+      "b8cd1066": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "fidelidade"
+          },
+          {
+            "campo": "descricao",
+            "texto": "Protótipo"
+          }
+        ],
+        "resposta": [
+          "B; B; A; B; B; A"
+        ]
+      },
+      "07d8df19": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "homem-computador"
+          },
+          {
+            "campo": "descricao",
+            "texto": "interação"
+          }
+        ],
+        "resposta": [
+          "surgiu",
+          "adaptar"
+        ]
+      },
+      "56f55499": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "focando"
+          },
+          {
+            "campo": "descricao",
+            "texto": "utilizador"
+          }
+        ],
+        "resposta": [
+          "cognitivo",
+          "antecessora"
+        ]
+      },
+      "a66fea58": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "design centrado no usuário"
+          },
+          {
+            "campo": "descricao",
+            "texto": "experiência do usuário"
+          }
+        ],
+        "resposta": [
+          "protótipo"
+        ]
+      },
+      "2661bbb9": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "wireframe"
+          }
+        ],
+        "resposta": [
+          "esquema",
+          "básico"
+        ]
+      },
+      "1f1f9b40": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "usabilidade"
+          },
+          {
+            "campo": "afirmacoes.2",
+            "texto": "interface"
+          }
+        ],
+        "resposta": [
+          "As alternativas I e II estão corretas"
+        ]
+      },
+      "e734eadd": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "interface"
+          }
+        ],
+        "resposta": [
+          "Apenas a alternativa I é verdadeira"
+        ]
+      },
+      "24a310fc": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Rogers"
+          },
+          {
+            "campo": "descricao",
+            "texto": "Preece"
+          }
+        ],
+        "resposta": [
+          "interativos",
+          "cotidianas"
+        ]
+      },
+      "f5e747f8": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "conseguem"
+          },
+          {
+            "campo": "descricao",
+            "texto": "dominar"
+          }
+        ],
+        "resposta": [
+          "A alternativa I é verdadeira"
+        ]
+      },
+      "ea388441": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "persona"
+          }
+        ],
+        "resposta": [
+          "fictício",
+          "típico"
+        ]
+      },
+      "98ca1a8a": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "fidelidade"
+          },
+          {
+            "campo": "titulo",
+            "texto": "Prototipagem"
+          }
+        ],
+        "resposta": [
+          "I é verdadeira"
+        ]
+      },
+      "6ecaf5ed": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "indicador"
+          }
+        ],
+        "resposta": [
+          "I, II e III são falsas."
+        ]
+      },
+      "3f0cbda0": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "processos"
+          }
+        ],
+        "resposta": [
+          "processos"
+        ]
+      },
+      "fda6e7df": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "usabilidade"
+          },
+          {
+            "campo": "descricao",
+            "texto": "heurística"
+          }
+        ],
+        "resposta": [
+          "Alto contraste de cores"
+        ]
+      },
+      "ae7d9ab4": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "significados"
+          },
+          {
+            "campo": "descricao",
+            "texto": "conversação"
+          }
+        ],
+        "resposta": [
+          "I e II são proposições verdadeiras",
+          "é uma justificativa"
+        ]
+      },
+      "41012c10": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "basicamente"
+          },
+          {
+            "campo": "descricao",
+            "texto": "concisão"
+          }
+        ],
+        "resposta": [
+          "A alternativa I é verdadeira"
+        ]
+      }
+    }
+  }
+}

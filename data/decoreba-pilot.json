@@ -1,0 +1,2435 @@
+{
+  "version": 1,
+  "delayMs": 10000,
+  "subjects": {
+    "empreendedorismo": {
+      "814f6c9a": [
+        {
+          "texto": "Somente as afirmativas I, II e III estão corretas.",
+          "chave": "I + II + III",
+          "trecho": "estão"
+        },
+        {
+          "texto": "Somente as afirmativas II, III e IV estão corretas.",
+          "chave": "II + III + IV",
+          "trecho": "afirmativas"
+        },
+        {
+          "texto": "Somente as afirmativas II, IV e V estão corretas.",
+          "chave": "II + IV + V",
+          "trecho": "II, IV e V"
+        },
+        {
+          "texto": "Somente as afirmativas II, III e V estão corretas",
+          "chave": "II + III + V",
+          "trecho": "Somente as afirmativas II, III e V estão corretas"
+        },
+        {
+          "texto": "Somente a afirmativa I está correta.",
+          "chave": "Somente I",
+          "trecho": "Somente"
+        }
+      ],
+      "60bd659e": [
+        {
+          "texto": "I.",
+          "chave": "Somente I",
+          "trecho": "I"
+        },
+        {
+          "texto": "I e III.",
+          "chave": "I + III",
+          "trecho": "I e III"
+        },
+        {
+          "texto": "I, II e III.",
+          "chave": "I + II + III",
+          "trecho": "I, II e III"
+        },
+        {
+          "texto": "II e III.",
+          "chave": "II + III",
+          "trecho": "II e III"
+        },
+        {
+          "texto": "II e IV.",
+          "chave": "II + IV",
+          "trecho": "II e IV"
+        }
+      ],
+      "b1d45fe5": [
+        {
+          "texto": "O empreendedorismo é uma atividade exclusiva de quem deseja abrir seu próprio negócio; por\nisso, o empreendedor não tem impacto direto na sua empregabilidade, que depende apenas de\nsua formação acadêmica.",
+          "chave": "Exclusividade empresarial",
+          "trecho": "empreendedorismo"
+        },
+        {
+          "texto": "O empreendedor é aquele que detém um negócio próprio; portanto, sua empregabilidade é\nirrelevante, pois ele não precisa buscar oportunidades no mercado de trabalho.",
+          "chave": "Empregabilidade irrelevante",
+          "trecho": "irrelevante"
+        },
+        {
+          "texto": "A empregabilidade é garantida quando o profissional segue à risca todas as exigências do\nempregador, sem necessidade de desenvolver características empreendedoras.",
+          "chave": "Obediência ao empregador",
+          "trecho": "empregador"
+        },
+        {
+          "texto": "O empreendedorismo é uma atitude que pode ser desenvolvida em qualquer ambiente de\ntrabalho; o profissional que age com iniciativa, criatividade e autonomia tende à aumentar sua\nempregabilidade mesmo sem empreender formalmente.",
+          "chave": "Iniciativa e autonomia",
+          "trecho": "autonomia"
+        },
+        {
+          "texto": "O empreendedorismo e a empregabilidade são conceitos antagônicos, pois um está voltado\npara o risco e inovação, e o outro para a estabilidade profissional e segurança no emprego.",
+          "chave": "Conceitos antagônicos",
+          "trecho": "conceitos antagônicos"
+        }
+      ],
+      "be9acb20": [
+        {
+          "texto": "fatores ambientais, fatores psicológicos, fatores extra-ambientais.",
+          "chave": "Ambientais e psicológicos",
+          "trecho": "psicológicos"
+        },
+        {
+          "texto": "Fatores pessoais, fatores sociológicos, fatores organizacionais,",
+          "chave": "Pessoais e sociológicos",
+          "trecho": "sociológicos"
+        },
+        {
+          "texto": "Fatores mercadológicos, fatores operacionais, fatores governamentais",
+          "chave": "Mercadológicos e operacionais",
+          "trecho": "operacionais"
+        },
+        {
+          "texto": "fatores patrimoniais, fatores naturais, fatores matemáticos,",
+          "chave": "Patrimoniais e naturais",
+          "trecho": "naturais"
+        },
+        {
+          "texto": "fatores de caixa, fatores de operação, fatores de gestão,",
+          "chave": "Caixa e gestão",
+          "trecho": "gestão"
+        }
+      ],
+      "8ce2b9f8": [
+        {
+          "texto": "A análise da situação possibilita identificar elementos estruturais de uma organização, como por\nexemplo sua missão e visão, quando capacita o empreendedor a verificar seus problemas\npessoais.",
+          "chave": "Problemas pessoais",
+          "trecho": "pessoais"
+        },
+        {
+          "texto": "A análise da situação responde as demandas estratégicas e legais de um novo negócio, quando\ncorrelacionam características da empresa, via sua missão, visão e valores",
+          "chave": "Demandas estratégicas",
+          "trecho": "demandas estratégicas"
+        },
+        {
+          "texto": "É na implementação de um plano de negócio que o empreendedor utiliza a análise de situação,\npois essa ferramenta possibilita avaliar se o projeto está sendo implantado conforme projetado.",
+          "chave": "Implementação do plano",
+          "trecho": "plano"
+        },
+        {
+          "texto": "Feedback e controle devem fazer parte da análise de situação, pois configuram elementos-chave\npara o desenvolvimento de uma estratégia assertiva e mensurável.",
+          "chave": "Feedback e controle",
+          "trecho": "Feedback e controle"
+        },
+        {
+          "texto": "Na análise da situação o empreendedor deve revisar alguns elementos-chave, a fim de fornecer\num contexto para a segmentação do mercado e para as ações que serão estabelecidas.",
+          "chave": "Segmentação do mercado",
+          "trecho": "segmentação do mercado"
+        }
+      ],
+      "cbc151b0": [
+        {
+          "texto": "inovação de caixa (financeira), inovação de mercado (mercadológica), inovação de fluxo\n(operacional).",
+          "chave": "Caixa, mercado e fluxo",
+          "trecho": "inovação"
+        },
+        {
+          "texto": "inovação marginal, inovação patrimonial, inovação sustentável.",
+          "chave": "Marginal e patrimonial",
+          "trecho": "patrimonial"
+        },
+        {
+          "texto": "inovação revolucionaria, inovação tecnológica, inovação comum.",
+          "chave": "Revolucionária, tecnológica, comum",
+          "trecho": "comum"
+        },
+        {
+          "texto": "inovação mercadológica, inovação descritiva, inovação operacional.",
+          "chave": "Mercadológica e descritiva",
+          "trecho": "descritiva"
+        },
+        {
+          "texto": "inovação de caixa (financeira), inovação de mercado (mercadológica), inovação de fluxo\n(operacional).",
+          "chave": "Caixa, mercado e fluxo",
+          "trecho": "inovação"
+        }
+      ],
+      "8edcaaff": [
+        {
+          "texto": "A primeira etapa é o desenvolvimento de um plano de negócios. A etapa dois é a determinação\ne captação de recursos necessários. A terceira fase é a identificação e avaliação da\noportunidade. E à fase quatro é o gerenciamento da empresa criada.",
+          "chave": "Plano primeiro",
+          "trecho": "plano de negócios"
+        },
+        {
+          "texto": "A Primeira Fase foi entre século XV ao XIX. A Segunda Fase a partir de meados do século XIX e\nmeados do século XX. A Terceira Fase foi durante a Guerra Fria. A Quarta Fase de 1989 aos dias\natuais.",
+          "chave": "Fases históricas",
+          "trecho": "atuais"
+        },
+        {
+          "texto": "A primeira etapa é a interfase. A etapa dois é a prófase. A terceira etapa é à metáfase. A etapa\nquatro é a anáfase. E a etapa cinco é a telófase.",
+          "chave": "Divisão celular",
+          "trecho": "telófase"
+        },
+        {
+          "texto": "A primeira etapa é a identificação e avaliação da oportunidade. A etapa dois é o\ndesenvolvimento de um plano de negócios. A terceira fase é a determinação e captação de\nrecursos necessários. E a fase quatro é o gerenciamento da empresa criada.",
+          "chave": "Oportunidade primeiro",
+          "trecho": "gerenciamento"
+        },
+        {
+          "texto": "A primeira etapa, ou seja, a avaliação da oportunidade é provavelmente o momento mais crítico\ndo processo empreendedor, pois permite identificar o retorno do empreendimento em relação\naos recursos exigidos. É importante ressaltar que à oportunidade deve estar adequada às\nhabilidades e objetivos pessoais do empreendedor.",
+          "chave": "Avaliação da oportunidade",
+          "trecho": "avaliação da oportunidade"
+        }
+      ],
+      "38873af4": [
+        {
+          "texto": "Investir unicamente em campanhas de promoção de vendas em massa, pois elas são\nsuficientes para atrair qualquer perfil de consumidor.",
+          "chave": "Promoção em massa",
+          "trecho": "massa"
+        },
+        {
+          "texto": "Desenvolver estratégias com base em estereótipos gerais, como gênero e idade, pois esses\ndados já definem com precisão o comportamento do consumidor.",
+          "chave": "Estereótipos gerais",
+          "trecho": "estereótipos gerais"
+        },
+        {
+          "texto": "Utilizar pesquisas qualitativas e quantitativas para entender preferências, hábitos de consumo,\nexpectativas e valores do público-alvo, adaptando produtos e comunicação conforme os dados\nobtidos.",
+          "chave": "Pesquisas de consumo",
+          "trecho": "público-alvo"
+        },
+        {
+          "texto": "Focar exclusivamente na redução de preços como forma de atrair consumidores, uma vez que\no fator econômico é o único determinante nas decisões de compra.",
+          "chave": "Redução de preços",
+          "trecho": "redução de preços"
+        },
+        {
+          "texto": "Lançar produtos inovadores sem considerar a opinião do público-alvo, confiando apenas na\nintuição do gestor de marketing.",
+          "chave": "Intuição do gestor",
+          "trecho": "intuição do gestor"
+        }
+      ],
+      "e9888bb8": [
+        {
+          "texto": "O ato de empreender com o objetivo de maximizar os lucros.",
+          "chave": "Maximizar lucros",
+          "trecho": "lucro"
+        },
+        {
+          "texto": "Iniciar um negócio com o objetivo de causar um impacto social positivo, além de\ngerar lucro.",
+          "chave": "Impacto social",
+          "trecho": "impacto social"
+        },
+        {
+          "texto": "A criação de startups de tecnologia.",
+          "chave": "Startups tecnológicas",
+          "trecho": "startups"
+        },
+        {
+          "texto": "Uma abordagem para criar empresas com fins lucrativos.",
+          "chave": "Fins lucrativos",
+          "trecho": "fins lucrativos"
+        },
+        {
+          "texto": "Fazer trabalhos voluntários todos os meses, mesmo que não relacionados ao\ncontexto empresarial.",
+          "chave": "Voluntariado mensal",
+          "trecho": "empresarial"
+        }
+      ],
+      "ae0b749c": [
+        {
+          "texto": "Resistência à mudança e falta de visão.",
+          "chave": "Resistência à mudança",
+          "trecho": "Resistência à mudança"
+        },
+        {
+          "texto": "Inovação, determinação e disposição para correr riscos.",
+          "chave": "Inovação e riscos",
+          "trecho": "Inovação"
+        },
+        {
+          "texto": "Inexperiência e baixa tolerância ao risco.",
+          "chave": "Baixa tolerância",
+          "trecho": "baixa tolerância"
+        },
+        {
+          "texto": "Incapacidade de liderar equipes.",
+          "chave": "Incapacidade de liderança",
+          "trecho": "Incapacidade"
+        },
+        {
+          "texto": "Conformismo e aversão ao trabalho em equipe.",
+          "chave": "Conformismo",
+          "trecho": "Conformismo"
+        }
+      ],
+      "fb1ad57c": [
+        {
+          "texto": "Plano de negócio, documentado",
+          "chave": "Plano documentado",
+          "trecho": "documentado"
+        },
+        {
+          "texto": "Empreendimento, planejado",
+          "chave": "Empreendimento planejado",
+          "trecho": "Empreendimento, planejado"
+        },
+        {
+          "texto": "Comércio, arquitetado",
+          "chave": "Comércio arquitetado",
+          "trecho": "arquitetado"
+        },
+        {
+          "texto": "Currículo, planejado",
+          "chave": "Currículo planejado",
+          "trecho": "planejado"
+        },
+        {
+          "texto": "Documento, documentado",
+          "chave": "Documento",
+          "trecho": "Documento"
+        }
+      ],
+      "8fb8f701": [
+        {
+          "texto": "I.",
+          "chave": "Somente I",
+          "trecho": "I"
+        },
+        {
+          "texto": "I; II e III.",
+          "chave": "I + II + III",
+          "trecho": "I; II e III"
+        },
+        {
+          "texto": "I e III.",
+          "chave": "I + III",
+          "trecho": "I e III"
+        },
+        {
+          "texto": "II e III.",
+          "chave": "II + III",
+          "trecho": "II e III"
+        },
+        {
+          "texto": "III e IV.",
+          "chave": "III + IV",
+          "trecho": "III e IV"
+        }
+      ],
+      "772a46a6": [
+        {
+          "texto": "Plano de marketing",
+          "chave": "Marketing",
+          "trecho": "marketing"
+        },
+        {
+          "texto": "Planejamento estratégico",
+          "chave": "Estratégia",
+          "trecho": "estratégico"
+        },
+        {
+          "texto": "Análise SWOT",
+          "chave": "SWOT",
+          "trecho": "SWOT"
+        },
+        {
+          "texto": "Plano operacional",
+          "chave": "Operações",
+          "trecho": "operacional"
+        },
+        {
+          "texto": "Matriz BCG",
+          "chave": "BCG",
+          "trecho": "BCG"
+        }
+      ],
+      "f8e6ae21": [
+        {
+          "texto": "I.",
+          "chave": "Somente I",
+          "trecho": "I"
+        },
+        {
+          "texto": "I e III.",
+          "chave": "I + III",
+          "trecho": "I e III"
+        },
+        {
+          "texto": "I e IV.",
+          "chave": "I + IV",
+          "trecho": "I e IV"
+        },
+        {
+          "texto": "I; II e III.",
+          "chave": "I + II + III",
+          "trecho": "I; II e III"
+        },
+        {
+          "texto": "II; III e IV.",
+          "chave": "II + III + IV",
+          "trecho": "II; III e IV"
+        }
+      ],
+      "154069eb": [
+        {
+          "texto": "empreendedores são gestores de formação acadêmica, dotados de visão plena do\nambiente político-social, com grandes relações políticas, tendo auxilio do Estado\npara o desenvolvimento de seus negócios,",
+          "chave": "Apoio estatal",
+          "trecho": "negócios"
+        },
+        {
+          "texto": "empreendedores não são formados, nascem com essa capacidade, sendo\nimpossível o desenvolvimento do espirito empreendedor em todas as pessoas.",
+          "chave": "Capacidade inata",
+          "trecho": "capacidade"
+        },
+        {
+          "texto": "empreendedores são politicos que ao verificarem uma possibilidade (gerada nesse\nambiente político) se apropriam dessa para gerar ganho próprio,",
+          "chave": "Apropriação política",
+          "trecho": "próprio"
+        },
+        {
+          "texto": "empreendedores são formados em estudo específico de mercado (administração,\neconomia e/ou marketing), para que possam desenvolver sua capacidade gestora e\nestrategista.",
+          "chave": "Formação específica",
+          "trecho": "estrategista"
+        },
+        {
+          "texto": "empreendedores são visionários, sabem explorar ao máximo as oportunidades, são\notimistas e apaixonados, assumem riscos calculados.",
+          "chave": "Visionários",
+          "trecho": "visionários"
+        }
+      ],
+      "8b2cc5e3": [
+        {
+          "texto": "Somente as afirmativas I, II e III estão corretas.",
+          "chave": "I + II + III",
+          "trecho": "estão"
+        },
+        {
+          "texto": "Somente as afirmativas II, III e IV estão corretas.",
+          "chave": "II + III + IV",
+          "trecho": "II, III e IV"
+        },
+        {
+          "texto": "Somente as afirmativas II, IV estão corretas.",
+          "chave": "II + IV",
+          "trecho": "afirmativas"
+        },
+        {
+          "texto": "Somente as afirmativas II, III estão corretas.",
+          "chave": "II + III",
+          "trecho": "Somente as afirmativas II, III estão corretas"
+        },
+        {
+          "texto": "Somente a alternativa I está correta.",
+          "chave": "Somente I",
+          "trecho": "Somente"
+        }
+      ],
+      "0a65a047": [
+        {
+          "texto": "apenas a opção I",
+          "chave": "Somente I",
+          "trecho": "opção"
+        },
+        {
+          "texto": "apenas a opção II",
+          "chave": "Somente II",
+          "trecho": "apenas a opção II"
+        },
+        {
+          "texto": "apenas as opções I, II",
+          "chave": "I + II",
+          "trecho": "apenas as opções I, II"
+        },
+        {
+          "texto": "as opções II, III",
+          "chave": "II + III",
+          "trecho": "opções"
+        },
+        {
+          "texto": "as opções III, IV",
+          "chave": "III + IV",
+          "trecho": "as opções III, IV"
+        }
+      ],
+      "be39ae57": [
+        {
+          "texto": "Hierarquia rígida e procedimentos burocráticos.",
+          "chave": "Burocracia",
+          "trecho": "burocráticos"
+        },
+        {
+          "texto": "Incentivo à conformidade e ao conservadorismo.",
+          "chave": "Conservadorismo",
+          "trecho": "conservadorismo"
+        },
+        {
+          "texto": "Estímulo à inovação e ao aprendizado contínuo.",
+          "chave": "Inovação e aprendizado",
+          "trecho": "inovação"
+        },
+        {
+          "texto": "Resistência à mudança e medo do fracasso.",
+          "chave": "Medo do fracasso",
+          "trecho": "medo do fracasso"
+        },
+        {
+          "texto": "Resistência ao que é novo.",
+          "chave": "Rejeição ao novo",
+          "trecho": "novo"
+        }
+      ],
+      "e4c82c46": [
+        {
+          "texto": "As características do produto não afetam à decisão de\nescolha do canal de distribuição. Se o produto é muito\ncaro, perecível ou de difícil manuseio, seria\nindiferente à escolha de canal direto ou indireto.",
+          "chave": "Produto indiferente",
+          "trecho": "produto"
+        },
+        {
+          "texto": "As questões ambientais não são importantes na\nestratégia do canal de distribuição. Considerações e\nregulamentos especiais quanto à produtos químicos,\nalimentícios ou medicamentos tem valores de\ndistribuição equivalentes à demais produtos.",
+          "chave": "Ambiente irrelevante",
+          "trecho": "produtos"
+        },
+        {
+          "texto": "Intermediários, como atacadistas e varejistas, podem\naumentar o preço do produto. Seus custos para\nfornecer esses benefícios são inferiores aos custos de\numa pequena iniciativa de produto único porque\noperam com volumes altos.",
+          "chave": "Intermediários e escala",
+          "trecho": "benefícios"
+        },
+        {
+          "texto": "Ao tomar à decisão sobre o direcionamento da\nestratégia de canal de distribuição, leva-se em\nconsideração: condição do mercado, características\nde Estado, características do macro ambiente, fatores\nclimáticos.",
+          "chave": "Mercado e clima",
+          "trecho": "mercado"
+        },
+        {
+          "texto": "Ao analisar os critérios na seleção dos membros do\ncanal, geralmente é necessário que o empreendedor\ninforme aos possíveis clientes a disponibilidade do\nproduto e os instrua como utilizar, usando mídias de\npropaganda.",
+          "chave": "Instrução aos clientes",
+          "trecho": "clientes"
+        }
+      ],
+      "18921e1d": [
+        {
+          "texto": "Somente as afirmativas I e II estão corretas.",
+          "chave": "I + II",
+          "trecho": "Somente as afirmativas I e II estão corretas."
+        },
+        {
+          "texto": "Somente as afirmativas II e III estão corretas.",
+          "chave": "II + III",
+          "trecho": "estão"
+        },
+        {
+          "texto": "Somente a afirmativa II está correta.",
+          "chave": "Somente II",
+          "trecho": "Somente"
+        },
+        {
+          "texto": "Somente a afirmativa III está correta.",
+          "chave": "Somente III",
+          "trecho": "afirmativa"
+        },
+        {
+          "texto": "Todas as alternativas estão corretas.",
+          "chave": "Todas",
+          "trecho": "Todas"
+        }
+      ],
+      "5fe89540": [
+        {
+          "texto": "I, II, IV, III.",
+          "chave": "I → II → IV → III",
+          "trecho": "I, II, IV, III"
+        },
+        {
+          "texto": "II, I, III, IV.",
+          "chave": "II → I → III → IV",
+          "trecho": "II, I, III, IV"
+        },
+        {
+          "texto": "II, I, IV, III.",
+          "chave": "II → I → IV → III",
+          "trecho": "II, I, IV, III"
+        },
+        {
+          "texto": "II, III, IV, I.",
+          "chave": "II → III → IV → I",
+          "trecho": "II, III, IV, I"
+        },
+        {
+          "texto": "IV, II, III e I.",
+          "chave": "IV → II → III → I",
+          "trecho": "IV, II, III e I"
+        }
+      ],
+      "f6ec5d2e": [
+        {
+          "texto": "As asserções I e II são proposições verdadeiras e a II é uma justificativa correta da I.",
+          "chave": "V/V com justificativa",
+          "trecho": "I e II são proposições verdadeiras"
+        },
+        {
+          "texto": "As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa da I.",
+          "chave": "V/V sem justificativa",
+          "trecho": "não é uma justificativa"
+        },
+        {
+          "texto": "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.",
+          "chave": "V/F",
+          "trecho": "falsa"
+        },
+        {
+          "texto": "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira.",
+          "chave": "F/V",
+          "trecho": "verdadeira"
+        },
+        {
+          "texto": "As asserções I e II são proposições falsas.",
+          "chave": "F/F",
+          "trecho": "falsas"
+        }
+      ],
+      "3c63b840": [
+        {
+          "texto": "As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa da I.",
+          "chave": "V/V sem justificativa",
+          "trecho": "I e II são proposições verdadeiras"
+        },
+        {
+          "texto": "As asserções I e II são proposições verdadeiras e a II é uma justificativa correta da I.",
+          "chave": "V/V com justificativa",
+          "trecho": "justificativa"
+        },
+        {
+          "texto": "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.",
+          "chave": "V/F",
+          "trecho": "falsa"
+        },
+        {
+          "texto": "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira.",
+          "chave": "F/V",
+          "trecho": "verdadeira"
+        },
+        {
+          "texto": "As asserções I e II são proposições falsas.",
+          "chave": "F/F",
+          "trecho": "falsas"
+        }
+      ],
+      "709acd6f": [
+        {
+          "texto": "Um documento que descreve os objetivos do negócio, à estratégia para alcançá-\nlos e os meios financeiros necessários e a estratégia para alcançá-los e os meios\nfinanceiros necessários.",
+          "chave": "Objetivos e estratégia",
+          "trecho": "objetivos do negócio"
+        },
+        {
+          "texto": "Um registro de vendas diárias de uma empresa.",
+          "chave": "Vendas diárias",
+          "trecho": "vendas diárias"
+        },
+        {
+          "texto": "Uma lista de contatos de clientes.",
+          "chave": "Contatos de clientes",
+          "trecho": "contatos de clientes"
+        },
+        {
+          "texto": "Um contrato formal entre parceiros de negócios.",
+          "chave": "Contrato entre parceiros",
+          "trecho": "parceiros"
+        },
+        {
+          "texto": "Um guia de protocolos internos.",
+          "chave": "Protocolos internos",
+          "trecho": "protocolos internos"
+        }
+      ],
+      "61a48468": [
+        {
+          "texto": "I, II, IV, III.",
+          "chave": "I → II → IV → III",
+          "trecho": "I, II, IV, III"
+        },
+        {
+          "texto": "II, I, III, IV.",
+          "chave": "II → I → III → IV",
+          "trecho": "II, I, III, IV"
+        },
+        {
+          "texto": "II, I, IV, III.",
+          "chave": "II → I → IV → III",
+          "trecho": "II, I, IV, III"
+        },
+        {
+          "texto": "II, III, IV, I.",
+          "chave": "II → III → IV → I",
+          "trecho": "II, III, IV, I"
+        },
+        {
+          "texto": "IV, I, II, III.",
+          "chave": "IV → I → II → III",
+          "trecho": "IV, I, II, III"
+        }
+      ]
+    },
+    "segurancainformacao": {
+      "376cc67b": [
+        {
+          "texto": "Um invasor altera o endereço MAC de seu dispositivo para assumir a identidade\nde outro na rede.",
+          "chave": "Identidade MAC",
+          "trecho": "endereço MAC"
+        },
+        {
+          "texto": "Um invasor cria uma URL falsa para imitar o site de uma instituição financeira.",
+          "chave": "URL falsa",
+          "trecho": "URL falsa"
+        },
+        {
+          "texto": "Um invasor criptografa os dados da rede com um ransomware.",
+          "chave": "Ransomware",
+          "trecho": "ransomware"
+        },
+        {
+          "texto": "Um invasor força a conexão de um dispositivo remoto para comprometer os\ndados.",
+          "chave": "Conexão forçada",
+          "trecho": "conexão"
+        },
+        {
+          "texto": "Um invasor utiliza força bruta para decifrar senhas de acesso.",
+          "chave": "Força bruta",
+          "trecho": "força bruta"
+        }
+      ],
+      "aeee7342": [
+        {
+          "texto": "Redirecionamento do tráfego de rede para um servidor de controle do invasor.",
+          "chave": "Redirecionamento de tráfego",
+          "trecho": "Redirecionamento"
+        },
+        {
+          "texto": "Criptografia dos dados armazenados em dispositivos da rede.",
+          "chave": "Criptografia",
+          "trecho": "Criptografia"
+        },
+        {
+          "texto": "Interrupção de serviços de DNS da rede.",
+          "chave": "Interrupção DNS",
+          "trecho": "Interrupção"
+        },
+        {
+          "texto": "Substituição de um firewall por outro firewall malicioso.",
+          "chave": "Firewall malicioso",
+          "trecho": "firewall malicioso"
+        },
+        {
+          "texto": "Diminuição da quantidade de endereços IP disponíveis na rede.",
+          "chave": "Escassez de IPs",
+          "trecho": "disponíveis"
+        }
+      ],
+      "b9865edf": [
+        {
+          "texto": "Ataque DDoS, que sobrecarrega servidores por meio de múltiplas solicitações.",
+          "chave": "DDoS",
+          "trecho": "DDoS"
+        },
+        {
+          "texto": "Ataque de interceptação (sniffing), onde o invasor captura pacotes na rede para\nobter informações confidenciais.",
+          "chave": "Sniffing",
+          "trecho": "sniffing"
+        },
+        {
+          "texto": "SQL Injection, que explora falhas em bancos de dados SQL.",
+          "chave": "SQL Injection",
+          "trecho": "SQL Injection"
+        },
+        {
+          "texto": "Phishing, que manipula usuários para roubar informações pessoais.",
+          "chave": "Phishing",
+          "trecho": "Phishing"
+        },
+        {
+          "texto": "Engenharia social, que utiliza técnicas psicológicas para enganar usuários.",
+          "chave": "Engenharia social",
+          "trecho": "Engenharia social"
+        }
+      ],
+      "f2c81cd4": [
+        {
+          "texto": "Ataque de negação de serviço para sobrecarregar um servidor.",
+          "chave": "Negação de serviço",
+          "trecho": "negação de serviço"
+        },
+        {
+          "texto": "Implantação de um rootkit para obter acesso privilegiado ao sistema.",
+          "chave": "Rootkit",
+          "trecho": "rootkit"
+        },
+        {
+          "texto": "O uso do pretexto de uma ligação de \"suporte técnico\" para convencer uma vítima\na fornecer dados pessoais.",
+          "chave": "Falso suporte",
+          "trecho": "suporte técnico"
+        },
+        {
+          "texto": "Adoção de uma política de firewall para impedir ataques externos.",
+          "chave": "Política de firewall",
+          "trecho": "política de firewall"
+        },
+        {
+          "texto": "Atualização dos patches de segurança do sistema.",
+          "chave": "Patches de segurança",
+          "trecho": "patches de segurança"
+        }
+      ],
+      "b0cb102a": [
+        {
+          "texto": "Phishing é uma técnica de ataque que compromete redes Wi-Fi para roubar dados.",
+          "chave": "Redes Wi-Fi",
+          "trecho": "redes Wi-Fi"
+        },
+        {
+          "texto": "Phishing envolve a criação de websites ou e-mails falsos que imitam entidades confiáveis para\nenganar os usuários.",
+          "chave": "Imitação de confiança",
+          "trecho": "websites ou e-mails falsos"
+        },
+        {
+          "texto": "Phishing é uma forma de malware que se instala automaticamente em dispositivos sem\ninteração do usuário.",
+          "chave": "Malware automático",
+          "trecho": "malware"
+        },
+        {
+          "texto": "Phishing não representa uma ameaça significativa para indivíduos, apenas para grandes\norganizações.",
+          "chave": "Apenas organizações",
+          "trecho": "organizações"
+        },
+        {
+          "texto": "Phishing só pode ser realizado através de e-mails.",
+          "chave": "Somente e-mails",
+          "trecho": "e-mails"
+        }
+      ],
+      "6c6aadc5": [
+        {
+          "texto": "Diminuição da largura de banda disponível na rede.",
+          "chave": "Menos largura de banda",
+          "trecho": "banda"
+        },
+        {
+          "texto": "Redirecionamento de usuários para sites maliciosos.",
+          "chave": "Sites maliciosos",
+          "trecho": "sites maliciosos"
+        },
+        {
+          "texto": "Bloqueio completo do acesso à internet.",
+          "chave": "Internet bloqueada",
+          "trecho": "internet"
+        },
+        {
+          "texto": "Acesso à rede por meio de SSH não autorizado.",
+          "chave": "SSH não autorizado",
+          "trecho": "SSH não autorizado"
+        },
+        {
+          "texto": "Redução da velocidade de download.",
+          "chave": "Download lento",
+          "trecho": "download"
+        }
+      ],
+      "4fe2cf59": [
+        {
+          "texto": "Desativar o firewall da rede para facilitar o tráfego de dados.",
+          "chave": "Firewall desativado",
+          "trecho": "firewall"
+        },
+        {
+          "texto": "Utilizar autenticação multifatorial apenas para o administrador de rede.",
+          "chave": "MFA só administrador",
+          "trecho": "administrador"
+        },
+        {
+          "texto": "Realizar backups regulares e armazená-los em um local seguro fora da rede.",
+          "chave": "Backups fora da rede",
+          "trecho": "backups regulares"
+        },
+        {
+          "texto": "Instalar um software de bloqueio de anúncios para evitar downloads indesejados.",
+          "chave": "Bloqueador de anúncios",
+          "trecho": "anúncios"
+        },
+        {
+          "texto": "Evitar a utilização de qualquer tipo de criptografia nos dados corporativos.",
+          "chave": "Sem criptografia",
+          "trecho": "criptografia"
+        }
+      ],
+      "19afdc1f": [
+        {
+          "texto": "Usar apenas redes Wi-Fi públicas, pois são mais convenientes.",
+          "chave": "Wi-Fi público",
+          "trecho": "Wi-Fi"
+        },
+        {
+          "texto": "Confiar em conexões HTTP em vez de HTTPS para maior velocidade.",
+          "chave": "HTTP",
+          "trecho": "HTTP"
+        },
+        {
+          "texto": "Utilizar uma VPN (Virtual Private Network) ao acessar redes não confiáveis.",
+          "chave": "VPN",
+          "trecho": "VPN"
+        },
+        {
+          "texto": "Desativar todas as atualizações de software para evitar interrupções.",
+          "chave": "Atualizações desativadas",
+          "trecho": "atualizações"
+        },
+        {
+          "texto": "Compartilhar senhas e informações pessoais apenas em redes sociais.",
+          "chave": "Senhas compartilhadas",
+          "trecho": "senhas"
+        }
+      ],
+      "84c0faf3": [
+        {
+          "texto": "Implementação de uma política de acesso restrito aos dados.",
+          "chave": "Acesso restrito",
+          "trecho": "acesso restrito"
+        },
+        {
+          "texto": "Criação de backups diários dos dados na nuvem.",
+          "chave": "Backups na nuvem",
+          "trecho": "nuvem"
+        },
+        {
+          "texto": "Usuários remotos acessando a infraestrutura de uma organização e baixando\ndados confidenciais.",
+          "chave": "Download remoto",
+          "trecho": "Usuários remotos"
+        },
+        {
+          "texto": "Credenciais comprometidas ou sequestro de conta.",
+          "chave": "Sequestro de conta",
+          "trecho": "sequestro de conta"
+        },
+        {
+          "texto": "Perda ou roubo de propriedade intelectual.",
+          "chave": "Propriedade intelectual",
+          "trecho": "propriedade intelectual"
+        }
+      ],
+      "fd536149": [
+        {
+          "texto": "FTP",
+          "chave": "FTP",
+          "trecho": "FTP"
+        },
+        {
+          "texto": "DNS",
+          "chave": "DNS",
+          "trecho": "DNS"
+        },
+        {
+          "texto": "SSH",
+          "chave": "SSH",
+          "trecho": "SSH"
+        },
+        {
+          "texto": "HTTPS",
+          "chave": "HTTPS",
+          "trecho": "HTTPS"
+        },
+        {
+          "texto": "SMB",
+          "chave": "SMB",
+          "trecho": "SMB"
+        }
+      ],
+      "064dac9a": [
+        {
+          "texto": "Adicionando entradas IP incorretas na tabela de roteamento.",
+          "chave": "Roteamento incorreto",
+          "trecho": "roteamento"
+        },
+        {
+          "texto": "Injetando código malicioso em uma requisição ou resposta DNS.",
+          "chave": "Código malicioso",
+          "trecho": "código malicioso"
+        },
+        {
+          "texto": "Alterando os endereços DNS para apontar para servidores maliciosos.",
+          "chave": "DNS adulterado",
+          "trecho": "endereços DNS"
+        },
+        {
+          "texto": "Enviando muitas requisições falsas para o servidor DNS.",
+          "chave": "Requisições falsas",
+          "trecho": "requisições falsas"
+        },
+        {
+          "texto": "Alterando as configurações do servidor DNS, habilitando respostas recursivas.",
+          "chave": "Respostas recursivas",
+          "trecho": "respostas recursivas"
+        }
+      ],
+      "580edf2a": [
+        {
+          "texto": "SHS",
+          "chave": "SHS",
+          "trecho": "SHS"
+        },
+        {
+          "texto": "VLANS",
+          "chave": "VLANs",
+          "trecho": "VLANS"
+        },
+        {
+          "texto": "VPN",
+          "chave": "VPN",
+          "trecho": "VPN"
+        },
+        {
+          "texto": "RAID",
+          "chave": "RAID",
+          "trecho": "RAID"
+        },
+        {
+          "texto": "SHA-512",
+          "chave": "SHA-512",
+          "trecho": "SHA-512"
+        }
+      ],
+      "3b0d5a6f": [
+        {
+          "texto": "Garantir que os dados sejam acessados apenas por usuários",
+          "chave": "Acesso por usuários",
+          "trecho": "acessados apenas"
+        },
+        {
+          "texto": "Garantir que os dados sejam acessíveis a qualquer pessoa na rede.",
+          "chave": "Acesso público",
+          "trecho": "pessoa"
+        },
+        {
+          "texto": "Manter a integridade dos dados, evitando qualquer modificação não\nautorizada.",
+          "chave": "Integridade",
+          "trecho": "integridade"
+        },
+        {
+          "texto": "Garantir que o sistema esteja sempre disponível para uso, mesmo durante\nfalhas.",
+          "chave": "Disponibilidade",
+          "trecho": "falhas"
+        },
+        {
+          "texto": "Impedir que os sistemas sejam atacados por vírus e malware.",
+          "chave": "Antimalware",
+          "trecho": "malware"
+        }
+      ],
+      "9d4a82ec": [
+        {
+          "texto": "Realizar campanhas de conscientização sobre segurança digital para todos os\ncolaboradores da empresa.",
+          "chave": "Conscientização",
+          "trecho": "conscientização"
+        },
+        {
+          "texto": "Utilizar apenas softwares de segurança de código aberto para reduzir custos.",
+          "chave": "Código aberto",
+          "trecho": "código aberto"
+        },
+        {
+          "texto": "Implementar uma política de rede aberta para garantir maior colaboração entre os\ndepartamentos.",
+          "chave": "Rede aberta",
+          "trecho": "rede aberta"
+        },
+        {
+          "texto": "Permitir que todos os colaboradores tenham acesso irrestrito a informações\nsigilosas para melhorar a produtividade.",
+          "chave": "Acesso irrestrito",
+          "trecho": "acesso irrestrito"
+        },
+        {
+          "texto": "Priorizar a segurança externa em detrimento da segurança interna.",
+          "chave": "Prioridade externa",
+          "trecho": "externa"
+        }
+      ],
+      "a5927e9d": [
+        {
+          "texto": "Impedir que dispositivos se conectem à rede.",
+          "chave": "Conexões bloqueadas",
+          "trecho": "conectem"
+        },
+        {
+          "texto": "Interceptar e redirecionar o tráfego dos dispositivos.",
+          "chave": "Interceptar tráfego",
+          "trecho": "Interceptar"
+        },
+        {
+          "texto": "Diminuir a largura de banda da rede.",
+          "chave": "Menos banda",
+          "trecho": "banda"
+        },
+        {
+          "texto": "Monitorar conexões VPN na rede local.",
+          "chave": "Monitorar VPN",
+          "trecho": "Monitorar"
+        },
+        {
+          "texto": "Atualizar automaticamente o firewall da rede.",
+          "chave": "Atualizar firewall",
+          "trecho": "firewall"
+        }
+      ],
+      "e18caf8d": [
+        {
+          "texto": "Enviar um vírus por meio de um arquivo em um dispositivo USB infectado.",
+          "chave": "USB infectado",
+          "trecho": "USB infectado"
+        },
+        {
+          "texto": "Enviar um e-mail falso, imitando uma instituição bancária, pedindo ao usuário que\natualize suas informações de login.",
+          "chave": "E-mail bancário falso",
+          "trecho": " e-mail falso"
+        },
+        {
+          "texto": "Invadir um sistema usando credenciais comprometidas previamente adquiridas.",
+          "chave": "Credenciais comprometidas",
+          "trecho": "credenciais comprometidas"
+        },
+        {
+          "texto": "Espionar a tela de uma vítima para capturar informações pessoais.",
+          "chave": "Espionagem de tela",
+          "trecho": "tela"
+        },
+        {
+          "texto": "Usar um scanner de rede para descobrir dispositivos vulneráveis.",
+          "chave": "Scanner de rede",
+          "trecho": "scanner de rede"
+        }
+      ],
+      "287ff6ce": [
+        {
+          "texto": "Configurar firewalls e antivírus atualizados.",
+          "chave": "Firewall e antivírus",
+          "trecho": "antivírus"
+        },
+        {
+          "texto": "Manter o servidor em uma sala trancada com acesso restrito apenas a pessoal\nautorizado.",
+          "chave": "Sala trancada",
+          "trecho": "sala trancada"
+        },
+        {
+          "texto": "Definir senhas fortes para usuários de rede.",
+          "chave": "Senhas fortes",
+          "trecho": "senhas fortes"
+        },
+        {
+          "texto": "Habilitar a criptografia de dados no disco rígido.",
+          "chave": "Criptografia de disco",
+          "trecho": "disco"
+        },
+        {
+          "texto": "Realizar backups periódicos dos dados armazenados no servidor.",
+          "chave": "Backups periódicos",
+          "trecho": "backups periódicos"
+        }
+      ],
+      "4a7b7b65": [
+        {
+          "texto": "Autenticação multifatorial para acesso seguro aos serviços na nuvem.",
+          "chave": "MFA",
+          "trecho": "nuvem"
+        },
+        {
+          "texto": "Ataques de Engenharia Social que aproveitam as falhas do comportamento\nhumano.",
+          "chave": "Engenharia social",
+          "trecho": "Engenharia Social"
+        },
+        {
+          "texto": "Configuração de acesso exclusivo para administradores.",
+          "chave": "Somente administradores",
+          "trecho": "administradores"
+        },
+        {
+          "texto": "Atualização contínua dos sistemas operacionais dos servidores de nuvem.",
+          "chave": "Sistemas atualizados",
+          "trecho": "sistemas"
+        },
+        {
+          "texto": "Monitoramento de tráfego para detectar atividades suspeitas.",
+          "chave": "Monitoramento de tráfego",
+          "trecho": "Monitoramento de tráfego"
+        }
+      ],
+      "87efb26a": [
+        {
+          "texto": "Um colaborador negligente que compartilha suas credenciais com colegas sem\nautorização.",
+          "chave": "Credenciais compartilhadas",
+          "trecho": "credenciais"
+        },
+        {
+          "texto": "A exploração de uma vulnerabilidade de segurança por um atacante remoto\npara obter acesso a um sistema corporativo.",
+          "chave": "Atacante remoto",
+          "trecho": "atacante remoto"
+        },
+        {
+          "texto": "Um funcionário insatisfeito que deliberadamente compromete dados da\nempresa.",
+          "chave": "Funcionário insatisfeito",
+          "trecho": "funcionário insatisfeito"
+        },
+        {
+          "texto": "A criação de uma política de senha fraca por um colaborador de TI.",
+          "chave": "Senha fraca",
+          "trecho": "senha fraca"
+        },
+        {
+          "texto": "Um teste de penetração realizado por profissionais de segurança da própria\norganização.",
+          "chave": "Pentest interno",
+          "trecho": "organização"
+        }
+      ],
+      "a8368d86": [
+        {
+          "texto": "Spoofing de IP.",
+          "chave": "IP spoofing",
+          "trecho": "Spoofing"
+        },
+        {
+          "texto": "Inundação de MAC.",
+          "chave": "Inundação MAC",
+          "trecho": "Inundação de MAC"
+        },
+        {
+          "texto": "Hijacking de rede.",
+          "chave": "Hijacking",
+          "trecho": "Hijacking"
+        },
+        {
+          "texto": "Sniffing de pacotes.",
+          "chave": "Sniffing",
+          "trecho": "Sniffing"
+        },
+        {
+          "texto": "Exploração de DNS",
+          "chave": "Exploração DNS",
+          "trecho": "Exploração"
+        }
+      ],
+      "244af116": [
+        {
+          "texto": "O ransomware criptografa os dados e os remove permanentemente do sistema.",
+          "chave": "Remoção permanente",
+          "trecho": "criptografa os dados"
+        },
+        {
+          "texto": "O ransomware criptografa os dados e ameaça expor informações confidenciais\nse o pagamento não for realizado.",
+          "chave": "Criptografia e extorsão",
+          "trecho": "expor informações"
+        },
+        {
+          "texto": "O ransomware apenas monitora a atividade do usuário sem interferir nos\narquivos.",
+          "chave": "Monitoramento passivo",
+          "trecho": "arquivos"
+        },
+        {
+          "texto": "O ransomware permite acesso remoto contínuo para o atacante sem qualquer\nalteração nos dados.",
+          "chave": "Acesso remoto",
+          "trecho": "acesso remoto"
+        },
+        {
+          "texto": "O ransomware identifica e elimina automaticamente os arquivos de segurança.",
+          "chave": "Eliminar proteção",
+          "trecho": "segurança"
+        }
+      ],
+      "b0382a7c": [
+        {
+          "texto": "Implementação de criptografia de ponta a ponta nos dispositivos móveis.",
+          "chave": "Criptografia ponta a ponta",
+          "trecho": "ponta"
+        },
+        {
+          "texto": "Rootkits, que permitem acesso privilegiado ao sistema sendo de difícil\ndetecção.",
+          "chave": "Rootkits",
+          "trecho": "Rootkits"
+        },
+        {
+          "texto": "Atualização frequente de firmware e software dos dispositivos.",
+          "chave": "Firmware atualizado",
+          "trecho": "firmware"
+        },
+        {
+          "texto": "Instalação de antivírus em cada dispositivo de rede.",
+          "chave": "Antivírus",
+          "trecho": "antivírus"
+        },
+        {
+          "texto": "Criação de senhas fortes e exclusivas para dispositivos de rede.",
+          "chave": "Senhas exclusivas",
+          "trecho": "exclusivas"
+        }
+      ],
+      "2dfc7466": [
+        {
+          "texto": "VPNs são usadas exclusivamente para acessar conteúdos restritos geograficamente.",
+          "chave": "Exclusividade geográfica",
+          "trecho": "geograficamente"
+        },
+        {
+          "texto": "VPNs criptografam o tráfego de internet, protegendo os dados transmitidos entre o dispositivo\ndo usuário e o servidor VPN",
+          "chave": "Tráfego criptografado",
+          "trecho": "criptografam o tráfego"
+        },
+        {
+          "texto": "VPNs garantem que o endereço IP original do usuário permaneça visível para todos os sites\nacessados.",
+          "chave": "IP visível",
+          "trecho": "visível"
+        },
+        {
+          "texto": "VPNs não podem ser usadas em redes públicas, apenas em redes privadas.",
+          "chave": "Apenas redes privadas",
+          "trecho": "privadas"
+        },
+        {
+          "texto": "VPNs impedem completamente qualquer tipo de monitoramento ou rastreamento online",
+          "chave": "Imunidade ao rastreamento",
+          "trecho": "rastreamento"
+        }
+      ],
+      "67cb09e2": [
+        {
+          "texto": "Usar senhas fáceis de lembrar para facilitar o acesso dos usuários.",
+          "chave": "Senhas fáceis",
+          "trecho": "senhas fáceis"
+        },
+        {
+          "texto": "Implementar antivírus e ferramentas de monitoramento de rede para\ndetectar e bloquear ameaças.",
+          "chave": "Bloquear ameaças",
+          "trecho": "bloquear ameaças"
+        },
+        {
+          "texto": "Permitir o uso de dispositivos USB sem restrição para aumentar a\nprodutividade.",
+          "chave": "USB irrestrito",
+          "trecho": "produtividade"
+        },
+        {
+          "texto": "Configurar todos os sistemas para não receber atualizações automáticas de\nsegurança.",
+          "chave": "Sem atualizações",
+          "trecho": "atualizações"
+        },
+        {
+          "texto": "Fornecer acesso irrestrito à rede para todos os funcionários.",
+          "chave": "Rede sem restrições",
+          "trecho": "rede"
+        }
+      ],
+      "df0ccd1d": [
+        {
+          "texto": "Utilizar apenas senhas complexas para o banco de dados.",
+          "chave": "Senhas complexas",
+          "trecho": "senhas complexas"
+        },
+        {
+          "texto": "Limitar o número de usuários com acesso ao banco de dados.",
+          "chave": "Limitar usuários",
+          "trecho": "usuários"
+        },
+        {
+          "texto": "Utilizar consultas preparadas e com validação rigorosa de dados de entrada.",
+          "chave": "Consultas preparadas",
+          "trecho": "consultas preparadas"
+        },
+        {
+          "texto": "Configurar o banco de dados para ignorar comandos SQL complexos.",
+          "chave": "Ignorar comandos",
+          "trecho": "ignorar comandos"
+        },
+        {
+          "texto": "Desativar a autenticação multifatorial no banco de dados.",
+          "chave": "MFA desativado",
+          "trecho": "banco"
+        }
+      ],
+      "bb7f45bf": [
+        {
+          "texto": "Arquivos de texto.",
+          "chave": "Texto",
+          "trecho": "texto"
+        },
+        {
+          "texto": "Diretórios (pastas).",
+          "chave": "Diretórios",
+          "trecho": "Diretórios"
+        },
+        {
+          "texto": "Links simbólicos.",
+          "chave": "Links simbólicos",
+          "trecho": "Links simbólicos"
+        },
+        {
+          "texto": "Arquivos comprimidos.",
+          "chave": "Comprimidos",
+          "trecho": "comprimidos"
+        },
+        {
+          "texto": "Arquivos binários.",
+          "chave": "Binários",
+          "trecho": "binários"
+        }
+      ],
+      "3dab4bad": [
+        {
+          "texto": "man-in-the-middle",
+          "chave": "Man-in-the-middle",
+          "trecho": "man-in-the-middle"
+        },
+        {
+          "texto": "phishing",
+          "chave": "Phishing",
+          "trecho": "phishing"
+        },
+        {
+          "texto": "spam",
+          "chave": "Spam",
+          "trecho": "spam"
+        },
+        {
+          "texto": "Sniffing",
+          "chave": "Sniffing",
+          "trecho": "Sniffing"
+        },
+        {
+          "texto": "Spoofing",
+          "chave": "Spoofing",
+          "trecho": "Spoofing"
+        }
+      ],
+      "66e5cd73": [
+        {
+          "texto": "Garantir que os dados sejam armazenados de forma eficiente.",
+          "chave": "Armazenamento eficiente",
+          "trecho": "eficiente"
+        },
+        {
+          "texto": "Garantir que os dados estejam disponíveis para os usuários quando\nnecessário.",
+          "chave": "Disponibilidade",
+          "trecho": "necessário"
+        },
+        {
+          "texto": "Garantir que os dados não sejam alterados ou corrompidos de maneira não\nautorizada.",
+          "chave": "Sem alteração indevida",
+          "trecho": "não sejam alterados"
+        },
+        {
+          "texto": "Garantir que os dados sejam criptografados durante o armazenamento.",
+          "chave": "Criptografia",
+          "trecho": "armazenamento"
+        }
+      ],
+      "96e1722a": [
+        {
+          "texto": "sniffing sem fio",
+          "chave": "Sniffing sem fio",
+          "trecho": "sniffing sem fio"
+        },
+        {
+          "texto": "spoofing de IP sem fio",
+          "chave": "IP spoofing",
+          "trecho": "spoofing"
+        },
+        {
+          "texto": "envenenamento sem fio",
+          "chave": "Envenenamento",
+          "trecho": "envenenamento"
+        },
+        {
+          "texto": "man-in-the-middle",
+          "chave": "Man-in-the-middle",
+          "trecho": "man-in-the-middle"
+        },
+        {
+          "texto": "man-in-the-end",
+          "chave": "Man-in-the-end",
+          "trecho": "man-in-the-end"
+        }
+      ],
+      "f95f57c6": [
+        {
+          "texto": "Enviar pacotes com endereços IP falsificados para um servidor DNS para gerar\num grande volume de respostas.",
+          "chave": "Amplificação DNS",
+          "trecho": "IP falsificados"
+        },
+        {
+          "texto": "Invadir diretamente o servidor-alvo com um número limitado de pacotes.",
+          "chave": "Invasão direta",
+          "trecho": "pacotes"
+        },
+        {
+          "texto": "Interceptar pacotes de dados por meio de um ataque de sniffing.",
+          "chave": "Sniffing",
+          "trecho": "sniffing"
+        },
+        {
+          "texto": "Enviar comandos SQL maliciosos para explorar vulnerabilidades de banco de\ndados.",
+          "chave": "SQL malicioso",
+          "trecho": "SQL malicioso"
+        },
+        {
+          "texto": "Desativar temporariamente o firewall de um sistema.",
+          "chave": "Firewall desativado",
+          "trecho": "firewall"
+        }
+      ],
+      "0698b2aa": [
+        {
+          "texto": "A conta de administrador tem acesso restrito a arquivos do sistema, enquanto\na conta padrão tem acesso total.",
+          "chave": "Administrador restrito",
+          "trecho": "restrito"
+        },
+        {
+          "texto": "A conta padrão não pode instalar programas, mas a conta de administrador\npode.",
+          "chave": "Instalação de programas",
+          "trecho": "não pode instalar"
+        },
+        {
+          "texto": "A conta de administrador possui permissões para navegar por redes locais,\nenquanto a conta padrão não.",
+          "chave": "Navegação em redes",
+          "trecho": "redes"
+        },
+        {
+          "texto": "A conta de administrador não pode modificar as configurações do sistema,\nmas a conta padrão pode.",
+          "chave": "Administrador sem configuração",
+          "trecho": "administrador"
+        },
+        {
+          "texto": "A conta padrão tem privilégios elevados de controle sobre o sistema\noperacional, ao contrário da conta de administrador.",
+          "chave": "Padrão elevado",
+          "trecho": "padrão"
+        }
+      ],
+      "bafc9b92": [
+        {
+          "texto": "Um atacante realiza um ataque DDoS para interromper o serviço de um site.",
+          "chave": "DDoS",
+          "trecho": "DDoS"
+        },
+        {
+          "texto": "Um invasor usa força bruta para adivinhar senhas de uma conta.",
+          "chave": "Força bruta",
+          "trecho": "força bruta"
+        },
+        {
+          "texto": "Um atacante convence um funcionário a fornecer dados de acesso fingindo ser do\ndepartamento de TI.",
+          "chave": "Falso departamento de TI",
+          "trecho": "fingindo"
+        },
+        {
+          "texto": "Um hacker intercepta pacotes de dados usando um sniffer de rede.",
+          "chave": "Sniffer",
+          "trecho": "sniffer"
+        },
+        {
+          "texto": "Um ransomware criptografa os dados de uma empresa e exige resgate.",
+          "chave": "Ransomware",
+          "trecho": "ransomware"
+        }
+      ],
+      "31bf3a62": [
+        {
+          "texto": "Um ataque de DDoS (Distributed Denial of Service) realizado por hackers\nexternos.",
+          "chave": "DDoS externo",
+          "trecho": "DDoS"
+        },
+        {
+          "texto": "A infecção por um malware que se espalha pela internet e afeta diversos\ndispositivos externos.",
+          "chave": "Malware externo",
+          "trecho": "malware"
+        },
+        {
+          "texto": "Um funcionário insatisfeito que usa suas credenciais para acessar dados sigilosos\ne vazar informações para fora da empresa.",
+          "chave": "Vazamento por funcionário",
+          "trecho": "funcionário insatisfeito"
+        },
+        {
+          "texto": "A interceptação de pacotes de dados em uma rede pública por um hacker\ndesconhecido.",
+          "chave": "Interceptação pública",
+          "trecho": "pública"
+        },
+        {
+          "texto": "Um phishing realizado por um hacker enviando e-mails maliciosos para\nfuncionários de uma empresa.",
+          "chave": "E-mail malicioso",
+          "trecho": "empresa"
+        }
+      ],
+      "ea4616c0": [
+        {
+          "texto": "cp",
+          "chave": "cp",
+          "trecho": "cp"
+        },
+        {
+          "texto": "ls",
+          "chave": "ls",
+          "trecho": "ls"
+        },
+        {
+          "texto": "mv -l",
+          "chave": "mv -l",
+          "trecho": "mv -l"
+        },
+        {
+          "texto": "ls -l",
+          "chave": "ls -l",
+          "trecho": "ls -l"
+        },
+        {
+          "texto": "touch",
+          "chave": "touch",
+          "trecho": "touch"
+        }
+      ],
+      "24d25dc4": [
+        {
+          "texto": "Enviar uma grande quantidade de pacotes ICMP ao alvo.",
+          "chave": "Muitos pacotes ICMP",
+          "trecho": "grande quantidade"
+        },
+        {
+          "texto": "Interceptar pacotes de dados em uma rede Wi-Fi aberta.",
+          "chave": "Interceptar Wi-Fi",
+          "trecho": "Wi-Fi"
+        },
+        {
+          "texto": "Configurar o roteador para bloquear portas específicas.",
+          "chave": "Bloquear portas",
+          "trecho": "bloquear portas"
+        },
+        {
+          "texto": "Adicionar mais largura de banda ao sistema-alvo.",
+          "chave": "Aumentar banda",
+          "trecho": "banda"
+        },
+        {
+          "texto": "Utilizar backups offline dos dados da rede.",
+          "chave": "Backups offline",
+          "trecho": "backups offline"
+        }
+      ],
+      "83cad96d": [
+        {
+          "texto": "Configurar firewalls para bloquear tentativas de varredura de porta.",
+          "chave": "Bloquear varreduras",
+          "trecho": "firewalls"
+        },
+        {
+          "texto": "Ativar o DAI para inspeção do protocolo ARP.",
+          "chave": "DAI",
+          "trecho": "DAI"
+        },
+        {
+          "texto": "Implantar listas de controle de acesso (ACLs).",
+          "chave": "ACLs",
+          "trecho": "ACLs"
+        },
+        {
+          "texto": "Ativar a proteção contra ataques DDoS.",
+          "chave": "Proteção DDoS",
+          "trecho": "DDoS"
+        },
+        {
+          "texto": "Permitir acessos remotos sem restrições.",
+          "chave": "Acesso remoto irrestrito",
+          "trecho": "restrições"
+        }
+      ],
+      "f06c27d4": [
+        {
+          "texto": "Interceptação de dados em trânsito em uma rede Wi-Fi aberta.",
+          "chave": "Wi-Fi aberto",
+          "trecho": "Wi-Fi"
+        },
+        {
+          "texto": "Armazenamento de dados em um servidor de nuvem pública.",
+          "chave": "Nuvem pública",
+          "trecho": "nuvem pública"
+        },
+        {
+          "texto": "Ransomware que atinge computadores conectados à rede local e criptografa\ndados.",
+          "chave": "Ransomware na LAN",
+          "trecho": "Ransomware"
+        },
+        {
+          "texto": "Compartilhamento seguro de arquivos entre dispositivos da rede local.",
+          "chave": "Compartilhamento seguro",
+          "trecho": "Compartilhamento seguro"
+        },
+        {
+          "texto": "Monitoramento de rede para análise de tráfego suspeito.",
+          "chave": "Monitoramento",
+          "trecho": "Monitoramento"
+        }
+      ],
+      "857c0782": [
+        {
+          "texto": "Proteger a rede contra ataques DDoS.",
+          "chave": "Proteção DDoS",
+          "trecho": "DDoS"
+        },
+        {
+          "texto": "Impedir o acesso a arquivos através de senhas complexas.",
+          "chave": "Senhas complexas",
+          "trecho": "senhas complexas"
+        },
+        {
+          "texto": "Proteger todo o conteúdo de um disco rígido contra roubo ou acesso não\nautorizado aos dados.",
+          "chave": "Proteção do disco",
+          "trecho": "disco rígido"
+        },
+        {
+          "texto": "Monitorar e corrigir falhas no sistema operacional.",
+          "chave": "Correção de falhas",
+          "trecho": "falhas"
+        },
+        {
+          "texto": "Bloquear vírus e malware que tentem acessar o disco.",
+          "chave": "Antimalware",
+          "trecho": "disco"
+        }
+      ],
+      "2ea56095": [
+        {
+          "texto": "Interceptar dados por meio de um sniffer de rede.",
+          "chave": "Sniffer",
+          "trecho": "sniffer"
+        },
+        {
+          "texto": "Enviar pacotes SYN sem completar o handshake.",
+          "chave": "Handshake incompleto",
+          "trecho": "pacotes SYN"
+        },
+        {
+          "texto": "Enviar pacotes falsificados de resposta DNS.",
+          "chave": "DNS falsificado",
+          "trecho": "resposta"
+        },
+        {
+          "texto": "Explorar vulnerabilidades de um banco de dados.",
+          "chave": "Banco vulnerável",
+          "trecho": "banco"
+        },
+        {
+          "texto": "Reduzir a largura de banda do sistema alvo.",
+          "chave": "Banda reduzida",
+          "trecho": "banda"
+        }
+      ],
+      "4a802612": [
+        {
+          "texto": "Phishing, onde um invasor tenta obter informações pessoais por meio de uma\nfalsa identidade.",
+          "chave": "Phishing",
+          "trecho": "Phishing"
+        },
+        {
+          "texto": "DDoS, que visa sobrecarregar e indisponibilizar um serviço online.",
+          "chave": "DDoS",
+          "trecho": "DDoS"
+        },
+        {
+          "texto": "Man-in-the-Middle (MitM), que intercepta dados em trânsito sem autorização.",
+          "chave": "Man-in-the-Middle",
+          "trecho": "Man-in-the-Middle"
+        },
+        {
+          "texto": "Malware, que se infiltra em sistemas para roubar ou destruir dados.",
+          "chave": "Malware",
+          "trecho": "Malware"
+        },
+        {
+          "texto": "Ransomware, que criptografa dados e exige pagamento para sua liberação.",
+          "chave": "Ransomware",
+          "trecho": "Ransomware"
+        }
+      ],
+      "0a9db8d3": [
+        {
+          "texto": "Enviar um grande volume de dados para sobrecarregar o servidor alvo.",
+          "chave": "Sobrecarga",
+          "trecho": "servidor"
+        },
+        {
+          "texto": "Enganar dispositivos da rede para associar o endereço MAC do invasor ao\nendereço IP de um dispositivo confiável.",
+          "chave": "Associação MAC/IP falsa",
+          "trecho": "endereço MAC"
+        },
+        {
+          "texto": "Alterar o conteúdo de um website por meio de um ataque de cross-site scripting\n(XSS).",
+          "chave": "XSS",
+          "trecho": "XSS"
+        },
+        {
+          "texto": "Interceptar a comunicação de um dispositivo de rede e alterar suas configurações\nde segurança.",
+          "chave": "Configurações alteradas",
+          "trecho": "configurações"
+        },
+        {
+          "texto": "Infectar dispositivos da rede com malware sem ser detectado.",
+          "chave": "Malware",
+          "trecho": "malware"
+        }
+      ],
+      "3a83eef5": [
+        {
+          "texto": "SaaS requer que os usuários instalem e mantenham software em seus dispositivos locais.",
+          "chave": "Instalação local",
+          "trecho": "locais"
+        },
+        {
+          "texto": "SaaS permite acesso a aplicativos via internet, normalmente através de um navegador web",
+          "chave": "Aplicativos via internet",
+          "trecho": "aplicativos via internet"
+        },
+        {
+          "texto": "SaaS não oferece flexibilidade em termos de escalabilidade para empresas.",
+          "chave": "Sem escalabilidade",
+          "trecho": "escalabilidade"
+        },
+        {
+          "texto": "SaaS elimina a necessidade de qualquer tipo de suporte técnico ou atualizações.",
+          "chave": "Sem suporte",
+          "trecho": "suporte"
+        },
+        {
+          "texto": "SaaS é sinônimo de software open source.",
+          "chave": "Open source",
+          "trecho": "open source"
+        }
+      ],
+      "7700a4dc": [
+        {
+          "texto": "Confidencialidade se refere à proteção dos dados contra acesso não autorizado.",
+          "chave": "Acesso não autorizado",
+          "trecho": "acesso não autorizado"
+        },
+        {
+          "texto": "Integridade se refere à garantia de que os dados estão disponíveis quando necessários.",
+          "chave": "Integridade como disponibilidade",
+          "trecho": "Integridade"
+        },
+        {
+          "texto": "Disponibilidade se refere à capacidade de verificar a origem dos dados.",
+          "chave": "Disponibilidade como origem",
+          "trecho": "origem"
+        },
+        {
+          "texto": "Confidencialidade garante que os dados não sejam alterados sem autorização",
+          "chave": "Confidencialidade como integridade",
+          "trecho": "Confidencialidade"
+        },
+        {
+          "texto": "Integridade assegura que os dados estejam criptografados durante a transmissão",
+          "chave": "Integridade como criptografia",
+          "trecho": "transmissão"
+        }
+      ],
+      "8b92b115": [
+        {
+          "texto": "O MD5 é usado para criptografar dados confidenciais de forma segura.",
+          "chave": "Criptografia segura",
+          "trecho": "segura"
+        },
+        {
+          "texto": "O MD5 é um algoritmo de hash que produz um valor de 128 bits.",
+          "chave": "128 bits",
+          "trecho": "128 bits"
+        },
+        {
+          "texto": "O MD5 é considerado seguro e amplamente recomendado para novas aplicações de segurança.",
+          "chave": "Recomendado para segurança",
+          "trecho": "segurança"
+        },
+        {
+          "texto": "O MD5 pode ser revertido para obter os dados originais.",
+          "chave": "Reversível",
+          "trecho": "originais"
+        },
+        {
+          "texto": "O MD5 gera hashes diferentes para inputs idênticos.",
+          "chave": "Hashes inconsistentes",
+          "trecho": "hashes"
+        }
+      ],
+      "0a54c92d": [
+        {
+          "texto": "único ponto de falha",
+          "chave": "Ponto único de falha",
+          "trecho": "falha"
+        },
+        {
+          "texto": "Serviços que não são interrompidos",
+          "chave": "Serviços ininterruptos",
+          "trecho": "Serviços"
+        },
+        {
+          "texto": "tolerância a falhas",
+          "chave": "Tolerância a falhas",
+          "trecho": "tolerância a falhas"
+        },
+        {
+          "texto": "intolerância a falhas",
+          "chave": "Intolerância a falhas",
+          "trecho": "intolerância a falhas"
+        },
+        {
+          "texto": "resiliência do sistema",
+          "chave": "Resiliência",
+          "trecho": "resiliência"
+        }
+      ],
+      "603030fc": [
+        {
+          "texto": "nome de usuário e senha da Alice",
+          "chave": "Login da Alice",
+          "trecho": "Alice"
+        },
+        {
+          "texto": "chave privada da Alice",
+          "chave": "Privada da Alice",
+          "trecho": "privada da Alice"
+        },
+        {
+          "texto": "chave pública de Bob",
+          "chave": "Pública de Bob",
+          "trecho": "pública de Bob"
+        },
+        {
+          "texto": "chave privada de Bob",
+          "chave": "Privada de Bob",
+          "trecho": "privada de Bob"
+        },
+        {
+          "texto": "chave pública de Alice",
+          "chave": "Pública de Alice",
+          "trecho": "pública de Alice"
+        }
+      ],
+      "f297e60f": [
+        {
+          "texto": "Utilizar autenticação multifatorial (MFA) para proteger contas.",
+          "chave": "MFA",
+          "trecho": "MFA"
+        },
+        {
+          "texto": "Compartilhar senhas com colegas para facilitar o acesso rápido.",
+          "chave": "Compartilhar senhas",
+          "trecho": "Compartilhar senhas"
+        },
+        {
+          "texto": "Atualizar regularmente o sistema operacional e os aplicativos instalados.",
+          "chave": "Atualizar sistemas",
+          "trecho": "Atualizar"
+        },
+        {
+          "texto": "Evitar a instalação de softwares desconhecidos ou suspeitos.",
+          "chave": "Evitar desconhecidos",
+          "trecho": "desconhecidos"
+        },
+        {
+          "texto": "Configurar senhas únicas para cada conta.",
+          "chave": "Senhas únicas",
+          "trecho": "senhas únicas"
+        }
+      ],
+      "661ecf10": [
+        {
+          "texto": "classificação do ativo",
+          "chave": "Classificação",
+          "trecho": "classificação"
+        },
+        {
+          "texto": "identificação do ativo",
+          "chave": "Identificação",
+          "trecho": "identificação"
+        },
+        {
+          "texto": "padronização do ativo",
+          "chave": "Padronização",
+          "trecho": "padronização"
+        },
+        {
+          "texto": "disponibilidade do ativo",
+          "chave": "Disponibilidade",
+          "trecho": "disponibilidade"
+        },
+        {
+          "texto": "venda do ativo",
+          "chave": "Venda",
+          "trecho": "venda"
+        }
+      ],
+      "7fb7af2a": [
+        {
+          "texto": "SSH",
+          "chave": "SSH",
+          "trecho": "SSH"
+        },
+        {
+          "texto": "Telnet",
+          "chave": "Telnet",
+          "trecho": "Telnet"
+        },
+        {
+          "texto": "SCP",
+          "chave": "SCP",
+          "trecho": "SCP"
+        },
+        {
+          "texto": "WPA",
+          "chave": "WPA",
+          "trecho": "WPA"
+        },
+        {
+          "texto": "WEP",
+          "chave": "WEP",
+          "trecho": "WEP"
+        }
+      ],
+      "3d4f4e36": [
+        {
+          "texto": "dados de hash",
+          "chave": "Hash",
+          "trecho": "hash"
+        },
+        {
+          "texto": "criptografia assimétrica",
+          "chave": "Assimétrica",
+          "trecho": "assimétrica"
+        },
+        {
+          "texto": "criptografia simétrica",
+          "chave": "Simétrica",
+          "trecho": "simétrica"
+        },
+        {
+          "texto": "certificados digitais",
+          "chave": "Certificados digitais",
+          "trecho": "certificados digitais"
+        },
+        {
+          "texto": "certificados manuais",
+          "chave": "Certificados manuais",
+          "trecho": "certificados manuais"
+        }
+      ],
+      "c9c43061": [
+        {
+          "texto": "VPN",
+          "chave": "VPN",
+          "trecho": "VPN"
+        },
+        {
+          "texto": "NAC",
+          "chave": "NAC",
+          "trecho": "NAC"
+        },
+        {
+          "texto": "NAS",
+          "chave": "NAS",
+          "trecho": "NAS"
+        },
+        {
+          "texto": "SAN",
+          "chave": "SAN",
+          "trecho": "SAN"
+        },
+        {
+          "texto": "DNS",
+          "chave": "DNS",
+          "trecho": "DNS"
+        }
+      ],
+      "07739922": [
+        {
+          "texto": "gerenciamento de identidades",
+          "chave": "Identidades",
+          "trecho": "identidades"
+        },
+        {
+          "texto": "criptografia",
+          "chave": "Criptografia",
+          "trecho": "criptografia"
+        },
+        {
+          "texto": "hashing",
+          "chave": "Hashing",
+          "trecho": "hashing"
+        },
+        {
+          "texto": "RAID",
+          "chave": "RAID",
+          "trecho": "RAID"
+        },
+        {
+          "texto": "SAN/NAS",
+          "chave": "SAN/NAS",
+          "trecho": "SAN/NAS"
+        }
+      ],
+      "53ca7683": [
+        {
+          "texto": "bit menos significativo",
+          "chave": "Bit menos significativo",
+          "trecho": "bit menos significativo"
+        },
+        {
+          "texto": "bit mais significativo",
+          "chave": "Bit mais significativo",
+          "trecho": "bit mais significativo"
+        },
+        {
+          "texto": "ofuscação de dados",
+          "chave": "Ofuscação",
+          "trecho": "ofuscação"
+        },
+        {
+          "texto": "deleção de dados",
+          "chave": "Deleção",
+          "trecho": "deleção"
+        },
+        {
+          "texto": "mascaramento de dados",
+          "chave": "Mascaramento",
+          "trecho": "mascaramento"
+        }
+      ],
+      "753c010c": [
+        {
+          "texto": "controles de entrada de dados que permitem apenas que funcionários de entrada vejam os dados atuais",
+          "chave": "Somente visualização",
+          "trecho": "atuais"
+        },
+        {
+          "texto": "uma regra de limitação que foi implementada para impedir a entrada de dados confidenciais por\nfuncionários não autorizados",
+          "chave": "Limitação de acesso",
+          "trecho": "limitação"
+        },
+        {
+          "texto": "uma regra de validação que foi implementada para garantir a integralidade, precisão e consistência dos\ndados",
+          "chave": "Validação e consistência",
+          "trecho": "regra de validação"
+        },
+        {
+          "texto": "operações de criptografia de dados que impedem que usuários não autorizados acessem dados\nconfidenciais",
+          "chave": "Criptografia",
+          "trecho": "criptografia"
+        },
+        {
+          "texto": "uma regra de validação que foi implementada para garantir a liberação dos dados ao público",
+          "chave": "Liberação pública",
+          "trecho": "liberação"
+        }
+      ],
+      "73bda35f": [
+        {
+          "texto": "sniffer de pacotes",
+          "chave": "Sniffer",
+          "trecho": "sniffer"
+        },
+        {
+          "texto": "crackers da senha",
+          "chave": "Crackers de senha",
+          "trecho": "senha"
+        },
+        {
+          "texto": "scanner de vulnerabilidades",
+          "chave": "Scanner de vulnerabilidades",
+          "trecho": "scanner de vulnerabilidades"
+        },
+        {
+          "texto": "analisadores de pacotes",
+          "chave": "Analisadores de pacotes",
+          "trecho": "analisadores de pacotes"
+        },
+        {
+          "texto": "scanners biométricos",
+          "chave": "Scanners biométricos",
+          "trecho": "scanners biométricos"
+        }
+      ],
+      "dd9253d8": [
+        {
+          "texto": "o departamento de educação dos EUA",
+          "chave": "Educação dos EUA",
+          "trecho": "educação dos EUA"
+        },
+        {
+          "texto": "a bolsa de valores de Nova York",
+          "chave": "Bolsa de Nova York",
+          "trecho": "bolsa de valores"
+        },
+        {
+          "texto": "lojas de departamento no shopping center local",
+          "chave": "Lojas locais",
+          "trecho": "lojas"
+        },
+        {
+          "texto": "o escritório central de uma equipe esportiva da liga principal",
+          "chave": "Equipe esportiva",
+          "trecho": "equipe esportiva"
+        },
+        {
+          "texto": "o ambiente de cinco noves nunca tem custo proibitivo",
+          "chave": "Nunca proibitivo",
+          "trecho": "proibitivo"
+        }
+      ],
+      "f0f94701": [
+        {
+          "texto": "autenticação fraca",
+          "chave": "Autenticação fraca",
+          "trecho": "autenticação fraca"
+        },
+        {
+          "texto": "mensagens de voz criptografadas",
+          "chave": "Voz criptografada",
+          "trecho": "voz criptografada"
+        },
+        {
+          "texto": "autenticação forte",
+          "chave": "Autenticação forte",
+          "trecho": "autenticação forte"
+        },
+        {
+          "texto": "ARP",
+          "chave": "ARP",
+          "trecho": "ARP"
+        },
+        {
+          "texto": "SSH",
+          "chave": "SSH",
+          "trecho": "SSH"
+        }
+      ],
+      "54dfa358": [
+        {
+          "texto": "MD5",
+          "chave": "MD5",
+          "trecho": "MD5"
+        },
+        {
+          "texto": "3DES",
+          "chave": "3DES",
+          "trecho": "3DES"
+        },
+        {
+          "texto": "AES-256",
+          "chave": "AES-256",
+          "trecho": "AES-256"
+        },
+        {
+          "texto": "SHA-MD5",
+          "chave": "SHA-MD5",
+          "trecho": "SHA-MD5"
+        },
+        {
+          "texto": "SHA-256",
+          "chave": "SHA-256",
+          "trecho": "SHA-256"
+        }
+      ],
+      "293fbf1a": [
+        {
+          "texto": "algoritmo de criptografia",
+          "chave": "Algoritmo",
+          "trecho": "algoritmo"
+        },
+        {
+          "texto": "comprimento da chave",
+          "chave": "Comprimento da chave",
+          "trecho": "comprimento da chave"
+        },
+        {
+          "texto": "engenharia reversa",
+          "chave": "Engenharia reversa",
+          "trecho": "engenharia reversa"
+        },
+        {
+          "texto": "forward engineering",
+          "chave": "Forward engineering",
+          "trecho": "forward engineering"
+        },
+        {
+          "texto": "gerenciamento de chaves",
+          "chave": "Gerenciamento de chaves",
+          "trecho": "gerenciamento de chaves"
+        }
+      ],
+      "3ffb3fb6": [
+        {
+          "texto": "MS Baseliner",
+          "chave": "MS Baseliner",
+          "trecho": "MS Baseliner"
+        },
+        {
+          "texto": "Microsoft Security Baseline Analyzer",
+          "chave": "Security Baseline Analyzer",
+          "trecho": "Security Baseline Analyzer"
+        },
+        {
+          "texto": "CVE Baseline Analyzer",
+          "chave": "CVE Baseline Analyzer",
+          "trecho": "CVE Baseline Analyzer"
+        },
+        {
+          "texto": "SANS Baselining System (SBS)",
+          "chave": "SANS Baselining",
+          "trecho": "SANS Baselining"
+        },
+        {
+          "texto": "Security Shell (SSH)",
+          "chave": "Security Shell",
+          "trecho": "Security Shell"
+        }
+      ],
+      "4224a0da": [
+        {
+          "texto": "salting",
+          "chave": "Salting",
+          "trecho": "salting"
+        },
+        {
+          "texto": "HMAC",
+          "chave": "HMAC",
+          "trecho": "HMAC"
+        },
+        {
+          "texto": "CRC",
+          "chave": "CRC",
+          "trecho": "CRC"
+        },
+        {
+          "texto": "password",
+          "chave": "Password",
+          "trecho": "password"
+        },
+        {
+          "texto": "RCR",
+          "chave": "RCR",
+          "trecho": "RCR"
+        }
+      ],
+      "1312afa1": [
+        {
+          "texto": "AES",
+          "chave": "AES",
+          "trecho": "AES"
+        },
+        {
+          "texto": "ASE",
+          "chave": "ASE",
+          "trecho": "ASE"
+        },
+        {
+          "texto": "MD5",
+          "chave": "MD5",
+          "trecho": "MD5"
+        },
+        {
+          "texto": "rainbow tables",
+          "chave": "Rainbow tables",
+          "trecho": "rainbow tables"
+        },
+        {
+          "texto": "HMAC",
+          "chave": "HMAC",
+          "trecho": "HMAC"
+        }
+      ],
+      "f16c417b": [
+        {
+          "texto": "Implemente uma VLAN.",
+          "chave": "VLAN",
+          "trecho": "VLAN"
+        },
+        {
+          "texto": "Implementar sistemas de detecção de invasão.",
+          "chave": "Detecção de invasão",
+          "trecho": "detecção de invasão"
+        },
+        {
+          "texto": "Implementar um firewall,",
+          "chave": "Firewall",
+          "trecho": "firewall"
+        },
+        {
+          "texto": "Implemente RAID.",
+          "chave": "RAID",
+          "trecho": "RAID"
+        },
+        {
+          "texto": "Implemente SAN/NAS",
+          "chave": "SAN/NAS",
+          "trecho": "SAN/NAS"
+        }
+      ],
+      "72d80615": [
+        {
+          "texto": "sniffing de pacotes",
+          "chave": "Sniffing",
+          "trecho": "sniffing"
+        },
+        {
+          "texto": "DNS spoofing",
+          "chave": "DNS spoofing",
+          "trecho": "DNS spoofing"
+        },
+        {
+          "texto": "falsificação de pacotes",
+          "chave": "Falsificação de pacotes",
+          "trecho": "falsificação de pacotes"
+        },
+        {
+          "texto": "AP de WiFi sem autorização",
+          "chave": "AP não autorizado",
+          "trecho": "autorização"
+        },
+        {
+          "texto": "SHA spoofing",
+          "chave": "SHA spoofing",
+          "trecho": "SHA spoofing"
+        }
+      ],
+      "a67b36bc": [
+        {
+          "texto": "O espaço da chave aumenta exponencialmente.",
+          "chave": "Aumento exponencial",
+          "trecho": "espaço da chave"
+        },
+        {
+          "texto": "O espaço da chave diminui proporcionalmente.",
+          "chave": "Redução proporcional",
+          "trecho": "proporcionalmente"
+        },
+        {
+          "texto": "O espaço da chave diminui exponencialmente.",
+          "chave": "Redução exponencial",
+          "trecho": "exponencialmente"
+        },
+        {
+          "texto": "O espaço da chave aumenta proporcionalmente.",
+          "chave": "Aumento proporcional",
+          "trecho": "aumenta"
+        },
+        {
+          "texto": "O espaço da chave não é modificado.",
+          "chave": "Sem mudança",
+          "trecho": "modificado"
+        }
+      ]
+    }
+  }
+}
