@@ -11,7 +11,7 @@
   let cuesPromise;
   let pilotPromise;
   const pilotSubjects = new Set(["empreendedorismo", "segurancainformacao"]);
-  const delayMs = 10000;
+  const delayMs = 5000;
 
   function stopTimer() {
     state.generation++;
@@ -26,10 +26,13 @@
     if (activeIndex !== undefined) $("decoreba-question-area").querySelector(`[data-option-index="${activeIndex}"]`)?.focus({ preventScroll: true });
   }
 
-  function updateCountdown(remaining) {
-    $("decoreba-timer-seconds").textContent = `${String(remaining).padStart(2, "0")}s`;
-    $("decoreba-timer-title").textContent = remaining ? "Revelação da dica" : "Dica revelada";
-    $("decoreba-timer-help").textContent = remaining ? "Tente lembrar — você já pode responder." : "A palavra-chave está brilhando na alternativa. Marque sua resposta.";
+  function updateCountdown(remainingMs) {
+    const fraction = Math.max(0, Math.min(1, remainingMs / delayMs));
+    $("decoreba-timer").style.setProperty("--reveal-remaining", String(fraction));
+    const status = remainingMs > 0
+      ? "A dica será revelada em cinco segundos. Você já pode responder."
+      : "Dica revelada. A palavra-chave está brilhando na alternativa.";
+    if ($("decoreba-timer-status").textContent !== status) $("decoreba-timer-status").textContent = status;
   }
 
   function beginTimer() {
@@ -44,7 +47,7 @@
     const deadline = Date.now() + delayMs;
     function tick() {
       if (generation !== state.generation) return;
-      const remaining = Math.max(0, Math.ceil((deadline - Date.now()) / 1000));
+      const remaining = Math.max(0, deadline - Date.now());
       updateCountdown(remaining);
       if (!remaining) {
         stopTimer();
@@ -83,7 +86,7 @@
           const subject = subjects[id];
           return `<a class="decoreba-subject" href="decoreba.html?materia=${encodeURIComponent(id)}&curso=${courseId}" style="--subject-color:${palette[subject.accent] || palette.violet}">
             <i data-lucide="${escapeHtml(subject.icon)}" aria-hidden="true"></i>
-            <span><strong>${escapeHtml(subject.label)}</strong><small>${escapeHtml(subject.description)}${pilotSubjects.has(id) ? " · TESTE: DICA EM 10s" : ""}</small></span><span aria-hidden="true">↗</span>
+            <span><strong>${escapeHtml(subject.label)}</strong><small>${escapeHtml(subject.description)}${pilotSubjects.has(id) ? " · TESTE: DICA EM 5s" : ""}</small></span><span aria-hidden="true">↗</span>
           </a>`;
         }).join("")}
       </div></section>`).join("");
@@ -116,7 +119,7 @@
     document.title = `DevQuest - Decoreba · ${subject.label}`;
     $("decoreba-title").textContent = subject.label;
     $("decoreba-subtitle").textContent = state.pilot
-      ? "Leia as chaves da pergunta e escolha uma alternativa. Em 10 segundos, a palavra-chave da resposta correta também brilha."
+      ? "Leia as chaves da pergunta e escolha uma alternativa. Em 5 segundos, a palavra-chave da resposta correta também brilha."
       : "Associe os trechos em destaque. Leia a resposta correta e siga no seu ritmo.";
     $("decoreba-catalog").hidden = true;
     $("decoreba-session").hidden = true;

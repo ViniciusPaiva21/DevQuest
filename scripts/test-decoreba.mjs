@@ -45,6 +45,7 @@ async function page(subjectId, fail = false) {
   const elements = Object.fromEntries([...read('decoreba.html').matchAll(/id="([^"]+)"/g)].map(([,id]) => [id, {
     hidden: !['decoreba-catalog'].includes(id), listeners: {},
     addEventListener(event, handler) { this.listeners[event] = handler; },
+    style: {setProperty(key,value) {this[key]=value;}},
     focus() {}, scrollIntoView() {}, contains() {return true;},
   }]));
   const links = [{},{}];
@@ -75,13 +76,13 @@ async function page(subjectId, fail = false) {
   if (pilot) {
     assert.equal(elements['decoreba-next'].disabled,true);
     assert.doesNotMatch(optionsOnly(elements['decoreba-question-area'].innerHTML),/Resposta correta|<mark |data-correct/);
-    assert.equal(elements['decoreba-timer-seconds'].textContent,'10s');
+    assert.equal(elements['decoreba-timer'].style['--reveal-remaining'],'1');
     advance(1000);
-    assert.equal(elements['decoreba-timer-seconds'].textContent,'09s');
-    advance(8999);
+    assert.equal(elements['decoreba-timer'].style['--reveal-remaining'],'0.8');
+    advance(3999);
     assert.doesNotMatch(optionsOnly(elements['decoreba-question-area'].innerHTML),/<mark /);
     advance(1);
-    assert.equal(elements['decoreba-timer-seconds'].textContent,'00s');
+    assert.equal(elements['decoreba-timer'].style['--reveal-remaining'],'0');
     assert.equal((optionsOnly(elements['decoreba-question-area'].innerHTML).match(/<mark /g)||[]).length,1);
     answer();
     assert.equal(timers.size,0);
@@ -108,12 +109,12 @@ async function page(subjectId, fail = false) {
     const once = elements['decoreba-question-area'].innerHTML;
     answer(); assert.equal(elements['decoreba-question-area'].innerHTML,once);
     elements['decoreba-next'].listeners.click();
-    advance(5000);
+    advance(2500);
     assert.doesNotMatch(optionsOnly(elements['decoreba-question-area'].innerHTML),/<mark /);
     elements['decoreba-previous'].listeners.click();
     assert.equal(timers.size,0);
     elements['decoreba-next'].listeners.click();
-    advance(9999);
+    advance(4999);
     assert.doesNotMatch(optionsOnly(elements['decoreba-question-area'].innerHTML),/<mark /);
     advance(1);
     assert.match(optionsOnly(elements['decoreba-question-area'].innerHTML),/<mark /);
@@ -144,11 +145,16 @@ for (const [id, cues] of Object.entries(pilotData.subjects)) {
   assert.equal(JSON.stringify(qs),original);
 }
 assert.equal(pilotCount,90);
-console.log('Piloto: 90 questões, chaves por conteúdo, sem revelação antecipada, liberação em 10s, resposta antecipada e cancelamento de timers validados.');
+console.log('Piloto: 90 questões, chaves por conteúdo, sem revelação antecipada, liberação em 5s, resposta antecipada e cancelamento de timers validados.');
 
 const sample={question:{descricao:'Uma linha quebrada\ncontinua aqui.\nI. Primeira afirmação.\nII. Segunda afirmação.',opcoes:['Sim','Não'],resposta:'Sim'}, cues:{pergunta:[{campo:'descricao',texto:'linha'}],resposta:['Sim']},options:['Sim','Não']};
 const sampleHtml=core.renderQuestion(sample);
 assert.ok(sampleHtml.includes('quebrada continua aqui.'));
 assert.ok(sampleHtml.includes('<br><br>I.'));
 assert.ok(sampleHtml.includes('<br><br>II.'));
-console.log('Layout: brilho dentro do texto, sem etiquetas, parágrafos/afirmações preservados e contagem 10s → 09s → 00s validados.');
+console.log('Layout: brilho dentro do texto, sem etiquetas, parágrafos/afirmações preservados e linhas laterais de 100% até 0% em 5s validados.');
+
+assert.equal(pilotData.delayMs, 5000);
+assert.doesNotMatch(read('decoreba.html'), /decoreba-timer-seconds|decoreba-countdown/);
+assert.match(read('decoreba.html'), /decoreba-timer-line--left/);
+assert.match(read('decoreba.html'), /decoreba-timer-line--right/);

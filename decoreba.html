@@ -27,7 +27,7 @@
     <section class="decoreba-hero" aria-labelledby="decoreba-title">
       <span class="decoreba-eyebrow"><i data-lucide="sparkles" aria-hidden="true"></i> MODO DECOREBA</span>
       <h1 id="decoreba-title">Bateu o olho. Fez a conexão.</h1>
-      <p id="decoreba-subtitle">Teste de 10 segundos em Empreendedorismo e Negócios e Segurança da Informação. As demais matérias mantêm a revisão anterior.</p>
+      <p id="decoreba-subtitle">Teste de 5 segundos em Empreendedorismo e Negócios e Segurança da Informação. As demais matérias mantêm a revisão anterior.</p>
     </section>
     <section id="decoreba-catalog" aria-label="Escolha uma matéria">
       <div class="decoreba-example"><span>Na pergunta <strong class="decoreba-keyword">malware</strong></span><span aria-hidden="true">↔</span><span>Na resposta <strong class="decoreba-keyword">antivírus</strong></span></div>
@@ -50,8 +50,9 @@
           <progress id="decoreba-progress" max="1" value="0" aria-label="Progresso da revisão"></progress>
         </div>
         <div id="decoreba-timer" class="decoreba-timer" hidden>
-          <span id="decoreba-timer-seconds" class="decoreba-countdown" role="timer" aria-label="Segundos até revelar a dica">10s</span>
-          <span class="decoreba-timer-copy"><strong id="decoreba-timer-title" aria-live="polite">Revelação da dica</strong><small id="decoreba-timer-help">Você já pode responder.</small></span>
+          <span class="decoreba-timer-line decoreba-timer-line--left" aria-hidden="true"></span>
+          <span class="decoreba-timer-line decoreba-timer-line--right" aria-hidden="true"></span>
+          <span id="decoreba-timer-status" class="decoreba-sr-only" role="status" aria-live="polite"></span>
         </div>
         <div id="decoreba-question-area"></div>
         <p id="decoreba-feedback" class="decoreba-feedback" role="status" aria-live="polite" hidden></p>

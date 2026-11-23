@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "delayMs": 10000,
+  "delayMs": 5000,
   "subjects": {
     "empreendedorismo": {
       "814f6c9a": [
