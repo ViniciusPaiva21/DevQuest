@@ -30,7 +30,7 @@ for (const [id, subject] of Object.entries(context.window.DEVQUEST_SUBJECTS)) {
   assert.equal(JSON.stringify(questions), original, 'Original bank must not be mutated');
   assert.throws(()=>core.prepareSession(questions, {}), /Destaques/);
 }
-assert.equal(total, 573);
+assert.equal(total, 570);
 assert.equal(Object.keys(metadata.subjects).length, 18);
 assert.equal(core.highlight('<script>alert(1)</script>', ['script']).includes('<script>'), false);
 assert.equal((core.highlight('abc abc', ['abc','abc','a']).match(/<mark /g)||[]).length, 1);

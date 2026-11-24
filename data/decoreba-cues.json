@@ -4370,22 +4370,6 @@
           "I, II e III."
         ]
       },
-      "d41e8e25": {
-        "pergunta": [
-          {
-            "campo": "descricao",
-            "texto": "Intercalação Balanceada"
-          },
-          {
-            "campo": "descricao",
-            "texto": "desempenho"
-          }
-        ],
-        "resposta": [
-          "f+1 fitas",
-          "passada adicional"
-        ]
-      },
       "16b25620": {
         "pergunta": [
           {

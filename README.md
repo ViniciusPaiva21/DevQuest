@@ -25,7 +25,7 @@ Depois acesse `http://localhost:8000`.
 - `css/themes.css`: aparência dos temas Noite e Clássico.
 - `data/`: bancos de questões em JSON.
 
-O acervo atual reúne 573 questões objetivas em 18 bancos de matérias. Na trilha ADS, Arquitetura de Sistemas, Fundamentos de Redes e Governança de TI foram consolidadas a partir dos materiais de revisão, sem questões discursivas nem capturas repetidas.
+O acervo atual reúne 570 questões objetivas em 18 bancos de matérias. Na trilha ADS, Arquitetura de Sistemas, Fundamentos de Redes e Governança de TI foram consolidadas a partir dos materiais de revisão, sem questões discursivas nem capturas repetidas.
 
 As páginas antigas, como `frontend.html`, continuam disponíveis e redirecionam para a nova página única.
 

@@ -64,6 +64,22 @@ for (const [relativeFile, jsonKey] of Object.entries(subjectFiles)) {
     }
   }
 
+  if (jsonKey === "estruturasdados2") {
+    // Ignore PDF line wrapping and option order; retain meaningful text, code and images.
+    const normalize = value => typeof value === "string" ? value.replace(/\s+/g, " ").trim()
+      : Array.isArray(value) ? value.map(normalize)
+      : value && typeof value === "object" ? Object.fromEntries(Object.entries(value).sort(([a], [b]) => a.localeCompare(b)).map(([key, item]) => [key, normalize(item)]))
+      : value;
+    const seen = new Set();
+    for (const [index, question] of questions.entries()) {
+      const fields = Object.fromEntries(Object.entries(question).filter(([key]) => !["fonte", "preservarOrdem", "opcoes"].includes(key)));
+      fields.opcoes = (question.opcoes || []).map(option => JSON.stringify(normalize(option))).sort();
+      const key = JSON.stringify(normalize(fields));
+      if (seen.has(key)) report(relativeFile, index + 1, "questão repetida em Estrutura de Dados II.");
+      seen.add(key);
+    }
+  }
+
   for (const page of data.discursivas || []) {
     for (const part of page.partes || []) {
       if (part.tipo === "imagem" && !fs.existsSync(path.join(projectRoot, part.src))) errors.push(`${relativeFile}: figura discursiva ausente.`);

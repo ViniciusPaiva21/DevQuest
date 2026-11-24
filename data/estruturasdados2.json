@@ -254,24 +254,6 @@
     },
     {
       "titulo": "",
-      "descricao": "A Intercalação Polifásica e a Intercalação Balanceada são duas abordagens para a fase de\nintercalação na ordenação externa.\nCom base no texto, avalie as seguintes asserções e a relação proposta entre elas.\nI. A Intercalação Polifásica é uma otimização sobre a Intercalação Balanceada.\nPORQUE\nII. Ela elimina a necessidade de copiar o conteúdo da fita de saída para as fitas de\nentrada a cada passada, redistribuindo os blocos de forma inteligente para que uma\nfita de entrada sempre se torne a nova fita de saída.\nA respeito dessas asserções, assinale a alternativa correta.",
-      "opcoes": [
-        "As asserções I e II são proposições verdadeiras, e a II é uma justificativa da I.",
-        "As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa da I.",
-        "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.",
-        "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira.",
-        "As asserções I e II são proposições falsas."
-      ],
-      "resposta": "As asserções I e II são proposições verdadeiras, e a II é uma justificativa da I.",
-      "preservarOrdem": false,
-      "fonte": {
-        "pagina": 15,
-        "arquivo": 0,
-        "bloco": 1
-      }
-    },
-    {
-      "titulo": "",
       "descricao": "Avalie as seguintes afirmações sobre as rotações em uma Treap:\nI. Rotações são operações locais com custo O(1).\nII. Durante a inserção, as rotações são usadas para mover um nó para cima na\nárvore.\nIII. Durante a remoção, as rotações são usadas para mover um nó para baixo na\nárvore.\nÉ correto o que se afirma em:",
       "opcoes": [
         "I, II e III.",
@@ -362,24 +344,6 @@
     },
     {
       "titulo": "",
-      "descricao": "Ao utilizar a \"Intercalação Balanceada de f-caminhos\" para ordenar n registros com uma memória para m registros, qual das seguintes afirmativas sobre o desempenho é correta?",
-      "opcoes": [
-        "O tempo total de ordenação depende apenas do número de passadas P (n) , desconsiderando o tempo de transferência dos dados.",
-        "A escolha do valor de f para discos magnéticos é irrelevante, pois o acesso direto elimina qualquer gargalo.",
-        "É possível realizar a intercalação com f+1 fitas em vez de 2f, mas isso acarreta o custo de uma passada adicional sobre o arquivo.",
-        "Para um arquivo de n=22 registros, m=3 e f=3, são necessárias 3 passadas para a ordenação completa.",
-        "Bons métodos de ordenação externa tipicamente exigem um número de passadas proporcional a n/m."
-      ],
-      "resposta": "É possível realizar a intercalação com f+1 fitas em vez de 2f, mas isso acarreta o custo de uma passada adicional sobre o arquivo.",
-      "preservarOrdem": false,
-      "fonte": {
-        "pagina": 18,
-        "arquivo": 0,
-        "bloco": 4
-      }
-    },
-    {
-      "titulo": "",
       "descricao": "Dada a Treap (chave:prioridade) com propriedade **min-heap**:",
       "opcoes": [
         "Rotação à esquerda em 'k' com seu filho 'm:6', rotação à direita em k, depois remoção.",
@@ -448,24 +412,6 @@
       "preservarOrdem": false,
       "fonte": {
         "pagina": 22,
-        "arquivo": 0,
-        "bloco": 1
-      }
-    },
-    {
-      "titulo": "",
-      "descricao": "As Árvores Digitais Binárias são um caso especial de Tries onde o alfabeto é {0, 1}. Uma de\nsuas variações é a Árvore Binária de Prefixo. Analise as afirmativas a seguir sobre essas\nestruturas.\n\nI. Em uma Árvore Digital Binária, a seleção de um filho esquerdo de um nó\nrepresenta o dígito 0, enquanto a seleção do filho direito representa o dígito 1.\n\nII. Uma Árvore Binária de Prefixo é uma Árvore Digital Binária com a restrição de\nque nenhum código (chave) armazenado pode ser prefixo de outro.\n\nIII. Em uma Árvore Binária de Prefixo, há uma correspondência direta entre o conjunto\nde chaves e os nós internos da árvore, enquanto as folhas representam caminhos\nincompletos.\n\nÉ correto o que se afirma em:",
-      "opcoes": [
-        "I e II, apenas.",
-        "III, apenas.",
-        "II e III, apenas.",
-        "I e III, apenas.",
-        "I, II e III."
-      ],
-      "resposta": "I e II, apenas.",
-      "preservarOrdem": false,
-      "fonte": {
-        "pagina": 23,
         "arquivo": 0,
         "bloco": 1
       }
