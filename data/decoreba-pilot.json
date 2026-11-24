@@ -300,33 +300,6 @@
           "trecho": "Documento"
         }
       ],
-      "8fb8f701": [
-        {
-          "texto": "I.",
-          "chave": "Somente I",
-          "trecho": "I"
-        },
-        {
-          "texto": "I; II e III.",
-          "chave": "I + II + III",
-          "trecho": "I; II e III"
-        },
-        {
-          "texto": "I e III.",
-          "chave": "I + III",
-          "trecho": "I e III"
-        },
-        {
-          "texto": "II e III.",
-          "chave": "II + III",
-          "trecho": "II e III"
-        },
-        {
-          "texto": "III e IV.",
-          "chave": "III + IV",
-          "trecho": "III e IV"
-        }
-      ],
       "772a46a6": [
         {
           "texto": "Plano de marketing",
@@ -676,6 +649,33 @@
           "texto": "IV, I, II, III.",
           "chave": "IV → I → II → III",
           "trecho": "IV, I, II, III"
+        }
+      ],
+      "c00cd5a5": [
+        {
+          "texto": "I.",
+          "chave": "Somente I",
+          "trecho": "I"
+        },
+        {
+          "texto": "I; II e III.",
+          "chave": "I + II + III",
+          "trecho": "I; II e III"
+        },
+        {
+          "texto": "I e III.",
+          "chave": "I + III",
+          "trecho": "I e III"
+        },
+        {
+          "texto": "II e III.",
+          "chave": "II + III",
+          "trecho": "II e III"
+        },
+        {
+          "texto": "III e IV.",
+          "chave": "III + IV",
+          "trecho": "III e IV"
         }
       ]
     },

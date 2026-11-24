@@ -2,6 +2,36 @@
   "version": 1,
   "subjects": {
     "adrii": {
+      "50408271": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "banco de dados"
+          },
+          {
+            "campo": "descricao",
+            "texto": "índices"
+          }
+        ],
+        "resposta": [
+          "V, F, F, V"
+        ]
+      },
+      "99989100": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "índice"
+          },
+          {
+            "campo": "descricao",
+            "texto": "SQL"
+          }
+        ],
+        "resposta": [
+          "to_date, emp_no"
+        ]
+      },
       "99d508fd": {
         "pergunta": [
           {
@@ -58,21 +88,6 @@
         ],
         "resposta": [
           "trigger"
-        ]
-      },
-      "50408271": {
-        "pergunta": [
-          {
-            "campo": "descricao",
-            "texto": "banco de dados"
-          },
-          {
-            "campo": "descricao",
-            "texto": "índices"
-          }
-        ],
-        "resposta": [
-          "V, F, F, V"
         ]
       },
       "efc0175d": {
@@ -228,21 +243,6 @@
         ],
         "resposta": [
           "NO-UNDO/REDO"
-        ]
-      },
-      "99989100": {
-        "pergunta": [
-          {
-            "campo": "descricao",
-            "texto": "índice"
-          },
-          {
-            "campo": "descricao",
-            "texto": "SQL"
-          }
-        ],
-        "resposta": [
-          "to_date, emp_no"
         ]
       },
       "53e284e0": {
@@ -423,6 +423,22 @@
       }
     },
     "algebralinear": {
+      "50506381": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "equação matricial"
+          },
+          {
+            "campo": "descricao",
+            "texto": "ax + y + 2z = b"
+          }
+        ],
+        "resposta": [
+          "solução única",
+          "diferente de 2"
+        ]
+      },
       "01afff64": {
         "pergunta": [
           {
@@ -586,22 +602,6 @@
         ],
         "resposta": [
           "√33"
-        ]
-      },
-      "50506381": {
-        "pergunta": [
-          {
-            "campo": "descricao",
-            "texto": "equação matricial"
-          },
-          {
-            "campo": "descricao",
-            "texto": "ax + y + 2z = b"
-          }
-        ],
-        "resposta": [
-          "solução única",
-          "diferente de 2"
         ]
       },
       "f0104964": {
@@ -862,6 +862,21 @@
       }
     },
     "apoiodecisao": {
+      "86557022": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "inicializem"
+          },
+          {
+            "campo": "descricao",
+            "texto": "oferecendo"
+          }
+        ],
+        "resposta": [
+          "estratégico."
+        ]
+      },
       "4774d28b": {
         "pergunta": [
           {
@@ -1117,21 +1132,6 @@
         "resposta": [
           "Enterprise data warehouse",
           "Data mart"
-        ]
-      },
-      "86557022": {
-        "pergunta": [
-          {
-            "campo": "descricao",
-            "texto": "inicializem"
-          },
-          {
-            "campo": "descricao",
-            "texto": "oferecendo"
-          }
-        ],
-        "resposta": [
-          "estratégico."
         ]
       },
       "e818280b": {
@@ -1920,6 +1920,17 @@
       }
     },
     "backend": {
+      "11865760": {
+        "pergunta": [
+          {
+            "campo": "titulo",
+            "texto": "Arquitetura de Software"
+          }
+        ],
+        "resposta": [
+          "Camadas de Software."
+        ]
+      },
       "7bd1f030": {
         "pergunta": [
           {
@@ -1955,17 +1966,6 @@
         ],
         "resposta": [
           "não dominam"
-        ]
-      },
-      "11865760": {
-        "pergunta": [
-          {
-            "campo": "titulo",
-            "texto": "Arquitetura de Software"
-          }
-        ],
-        "resposta": [
-          "Camadas de Software."
         ]
       },
       "844a2f6d": {
@@ -2529,21 +2529,6 @@
           "Empreendimento, planejado"
         ]
       },
-      "8fb8f701": {
-        "pergunta": [
-          {
-            "campo": "descricao",
-            "texto": "plano de negócios"
-          },
-          {
-            "campo": "descricao",
-            "texto": "chave"
-          }
-        ],
-        "resposta": [
-          "III e IV."
-        ]
-      },
       "772a46a6": {
         "pergunta": [
           {
@@ -2727,6 +2712,21 @@
         ],
         "resposta": [
           "II, I, IV, III."
+        ]
+      },
+      "c00cd5a5": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "plano de negócios"
+          },
+          {
+            "campo": "descricao",
+            "texto": "chave"
+          }
+        ],
+        "resposta": [
+          "III e IV."
         ]
       }
     },
@@ -3395,6 +3395,32 @@
       }
     },
     "estruturas": {
+      "48868694": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "vetor"
+          }
+        ],
+        "resposta": [
+          "chave"
+        ]
+      },
+      "56645992": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "árvore binária"
+          },
+          {
+            "campo": "descricao",
+            "texto": "Árvores"
+          }
+        ],
+        "resposta": [
+          "POGAADMMORRRU"
+        ]
+      },
       "d24b76d0": {
         "pergunta": [
           {
@@ -3661,17 +3687,6 @@
           "altura"
         ]
       },
-      "48868694": {
-        "pergunta": [
-          {
-            "campo": "descricao",
-            "texto": "vetor"
-          }
-        ],
-        "resposta": [
-          "chave"
-        ]
-      },
       "04c27db3": {
         "pergunta": [
           {
@@ -3686,21 +3701,6 @@
         "resposta": [
           "I é uma proposição verdadeira",
           "II é uma proposição falsa"
-        ]
-      },
-      "56645992": {
-        "pergunta": [
-          {
-            "campo": "descricao",
-            "texto": "árvore binária"
-          },
-          {
-            "campo": "descricao",
-            "texto": "Árvores"
-          }
-        ],
-        "resposta": [
-          "POGAADMMORRRU"
         ]
       },
       "dea19eec": {
@@ -3818,6 +3818,17 @@
       }
     },
     "estruturascc": {
+      "61104145": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "TAD"
+          }
+        ],
+        "resposta": [
+          "interface"
+        ]
+      },
       "be428bd8": {
         "pergunta": [
           {
@@ -3843,17 +3854,6 @@
         "resposta": [
           "percorrer",
           "toda"
-        ]
-      },
-      "61104145": {
-        "pergunta": [
-          {
-            "campo": "descricao",
-            "texto": "TAD"
-          }
-        ],
-        "resposta": [
-          "interface"
         ]
       },
       "f89f86dd": {
@@ -4882,6 +4882,21 @@
       }
     },
     "fundamentosredes": {
+      "77258532": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "multicast"
+          },
+          {
+            "campo": "descricao",
+            "texto": "IPv4"
+          }
+        ],
+        "resposta": [
+          "224.0.0.0 – 239.255.255.255"
+        ]
+      },
       "2a27582a": {
         "pergunta": [
           {
@@ -5278,21 +5293,6 @@
         "resposta": [
           "UDP",
           "TCP"
-        ]
-      },
-      "77258532": {
-        "pergunta": [
-          {
-            "campo": "descricao",
-            "texto": "multicast"
-          },
-          {
-            "campo": "descricao",
-            "texto": "IPv4"
-          }
-        ],
-        "resposta": [
-          "224.0.0.0 – 239.255.255.255"
         ]
       },
       "1731916e": {
@@ -5718,6 +5718,21 @@
       }
     },
     "logica": {
+      "55027293": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Aritmética"
+          },
+          {
+            "campo": "descricao",
+            "texto": "Progressão"
+          }
+        ],
+        "resposta": [
+          "S = {n(n+1)}/2"
+        ]
+      },
       "e078ee3f": {
         "pergunta": [
           {
@@ -5772,21 +5787,6 @@
         ],
         "resposta": [
           "200"
-        ]
-      },
-      "55027293": {
-        "pergunta": [
-          {
-            "campo": "descricao",
-            "texto": "Aritmética"
-          },
-          {
-            "campo": "descricao",
-            "texto": "Progressão"
-          }
-        ],
-        "resposta": [
-          "S = {n(n+1)}/2"
         ]
       },
       "26d74815": {
@@ -6863,6 +6863,21 @@
       }
     },
     "sistemas": {
+      "23836864": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "sistema operacional"
+          },
+          {
+            "campo": "descricao",
+            "texto": "processos"
+          }
+        ],
+        "resposta": [
+          "5."
+        ]
+      },
       "462d519c": {
         "pergunta": [
           {
@@ -7559,21 +7574,6 @@
         ],
         "resposta": [
           "II, III e IV"
-        ]
-      },
-      "23836864": {
-        "pergunta": [
-          {
-            "campo": "descricao",
-            "texto": "sistema operacional"
-          },
-          {
-            "campo": "descricao",
-            "texto": "processos"
-          }
-        ],
-        "resposta": [
-          "5."
         ]
       },
       "b136bdbc": {

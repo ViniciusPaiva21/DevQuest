@@ -9,7 +9,7 @@
   <script src="https://unpkg.com/lucide@0.468.0"></script>
   <link rel="stylesheet" href="css/quiz.css">
   <link rel="stylesheet" href="css/themes.css">
-  <link rel="stylesheet" href="css/decoreba.css">
+  <link rel="stylesheet" href="css/decoreba.css?v=20261124">
 </head>
 <body data-page="quiz" data-mode="decoreba">
   <header class="decoreba-header">
@@ -27,7 +27,7 @@
     <section class="decoreba-hero" aria-labelledby="decoreba-title">
       <span class="decoreba-eyebrow"><i data-lucide="sparkles" aria-hidden="true"></i> MODO DECOREBA</span>
       <h1 id="decoreba-title">Bateu o olho. Fez a conexão.</h1>
-      <p id="decoreba-subtitle">Teste de 5 segundos em Empreendedorismo e Negócios e Segurança da Informação. As demais matérias mantêm a revisão anterior.</p>
+      <p id="decoreba-subtitle">Teste com tempo da dica ajustável em Empreendedorismo e Negócios e Segurança da Informação. As demais matérias mantêm a revisão anterior.</p>
     </section>
     <section id="decoreba-catalog" aria-label="Escolha uma matéria">
       <div class="decoreba-example"><span>Na pergunta <strong class="decoreba-keyword">malware</strong></span><span aria-hidden="true">↔</span><span>Na resposta <strong class="decoreba-keyword">antivírus</strong></span></div>
@@ -43,6 +43,15 @@
       <div class="decoreba-session-top">
         <span class="decoreba-chip" id="decoreba-subject-label">Decoreba</span>
         <a href="decoreba.html">Trocar matéria ↗</a>
+      </div>
+      <div id="decoreba-delay-settings" class="decoreba-delay-settings" hidden>
+        <label for="decoreba-delay-input">Revelar dica após</label>
+        <div class="decoreba-delay-controls">
+          <input id="decoreba-delay-input" type="number" min="1" max="300" step="1" inputmode="numeric" value="5" aria-describedby="decoreba-delay-message">
+          <span>segundos</span>
+          <button id="decoreba-delay-apply" class="decoreba-secondary" type="button">Aplicar</button>
+        </div>
+        <p id="decoreba-delay-message" role="status">De 1 a 300 segundos. Padrão: 5 segundos.</p>
       </div>
       <div class="decoreba-panel">
         <div class="decoreba-progress-row">
@@ -78,7 +87,7 @@
   <footer class="decoreba-footer">Feito por Vinicius · DevQuest</footer>
   <script src="js/subjects.js"></script>
   <script src="js/utils.js"></script>
-  <script src="js/decoreba-core.js"></script>
-  <script src="js/decoreba.js"></script>
+  <script src="js/decoreba-core.js?v=20261124"></script>
+  <script src="js/decoreba.js?v=20261124"></script>
 </body>
 </html>

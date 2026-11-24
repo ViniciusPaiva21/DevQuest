@@ -53,3 +53,9 @@ A conferência visual em navegador real não pôde ser concluída neste ambiente
 - `scripts/test-decoreba.mjs`: testes de regressão e do piloto.
 
 Ao editar o texto de uma questão ou alternativa, atualize também suas chaves e execute os testes.
+
+## Atualização de 24/11/2026
+
+A questão de Resumo Executivo foi conferida com a imagem original `images/pdf-2026/empreendedorismo/p18.webp`. A numeração incorreta da transcrição foi corrigida para I, II, III e IV; as quatro afirmações estão separadas na base compartilhada por quiz normal, Infernus e Decoreba. O gabarito III e IV permanece igual.
+
+Nas duas matérias do piloto, o campo **Revelar dica após** permite escolher de 1 a 300 segundos e clicar em **Aplicar**. O padrão é 5 segundos. A preferência é salva neste navegador quando o armazenamento está disponível. Alterar o tempo reinicia a contagem da questão atual somente se ela ainda não foi respondida nem teve a dica revelada. As linhas laterais acompanham o tempo escolhido.

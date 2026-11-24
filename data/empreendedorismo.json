@@ -201,7 +201,7 @@
     },
     {
       "titulo": "",
-      "descricao": "O Resumo Executivo deve estimular o interesse do possível investidor, Trata-se de uma\nseção muito importante e não deve ser considerada levianamente pelo empreendedor, já\nque o investidor usa o resumo para determinar se vale à pena ler todo o plano de\nnegócio.\nAssim, deve destacar de maneira concisa e convincente os pontos-chave do plano de\nnegócios, portanto é CORRETO o que se afirma nas seguintes alternativas:\n|. Esta seção do plano de negócios é preparada antes de qualquer tópico, capítulo ou\niitem a ser redigido.\nI. O conceito ou modelo do negócio além da forma de obtenção do capital não se fazem\nnecessários neste resumo, pois não chamariam de fato à atenção do leitor neste\nmomento.\nII. Se o empreendimento tiver um contrato em vigor com um grande cliente, esse detalhe\ndeve ser destacado no resumo executivo.\nIII. O resumo executivo é semelhante ao discurso de um advogado perante um tribunal\nimportante ou às primeiras declarações de um vendedor em uma abordagem de vendas.",
+      "descricao": "O Resumo Executivo deve estimular o interesse do possível investidor, Trata-se de uma seção muito importante e não deve ser considerada levianamente pelo empreendedor, já que o investidor usa o resumo para determinar se vale à pena ler todo o plano de negócio. Assim, deve destacar de maneira concisa e convincente os pontos-chave do plano de negócios, portanto é CORRETO o que se afirma nas seguintes alternativas:",
       "opcoes": [
         "I.",
         "I; II e III.",
@@ -215,7 +215,25 @@
         "pagina": 18,
         "arquivo": 2,
         "bloco": 1
-      }
+      },
+      "afirmacoes": [
+        {
+          "id": "I.",
+          "texto": "Esta seção do plano de negócios é preparada antes de qualquer tópico, capítulo ou item a ser redigido."
+        },
+        {
+          "id": "II.",
+          "texto": "O conceito ou modelo do negócio além da forma de obtenção do capital não se fazem necessários neste resumo, pois não chamariam de fato à atenção do leitor neste momento."
+        },
+        {
+          "id": "III.",
+          "texto": "Se o empreendimento tiver um contrato em vigor com um grande cliente, esse detalhe deve ser destacado no resumo executivo."
+        },
+        {
+          "id": "IV.",
+          "texto": "O resumo executivo é semelhante ao discurso de um advogado perante um tribunal importante ou às primeiras declarações de um vendedor em uma abordagem de vendas."
+        }
+      ]
     },
     {
       "titulo": "",

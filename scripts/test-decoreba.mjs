@@ -54,7 +54,8 @@ async function page(subjectId, fail = false) {
   let timerId = 0;
   const timers = new Map();
   const advance = milliseconds => { now += milliseconds; for (const tick of [...timers.values()]) tick(); };
-  const ctx = vm.createContext({window:{}, URLSearchParams,
+  const storage = new Map();
+  const ctx = vm.createContext({window:{localStorage:{getItem:key=>storage.get(key) ?? null,setItem:(key,value)=>storage.set(key,value)}}, URLSearchParams,
     Date: {now:()=>now}, setInterval: fn => {timers.set(++timerId,fn);return timerId;}, clearInterval: id => timers.delete(id),
     console: {error(){}},
     location:{search:`?materia=${subjectId}`,protocol:'http:'},
@@ -118,6 +119,37 @@ async function page(subjectId, fail = false) {
     assert.doesNotMatch(optionsOnly(elements['decoreba-question-area'].innerHTML),/<mark /);
     advance(1);
     assert.match(optionsOnly(elements['decoreba-question-area'].innerHTML),/<mark /);
+    const applySeconds = value => {
+      elements['decoreba-delay-input'].value = value;
+      elements['decoreba-delay-apply'].listeners.click();
+    };
+    assert.equal(elements['decoreba-delay-settings'].hidden,false);
+    applySeconds('17');
+    assert.equal(storage.get('devquest-decoreba-delay-seconds'),'17');
+    assert.match(optionsOnly(elements['decoreba-question-area'].innerHTML),/<mark /,'Changing settings does not hide a revealed answer');
+    answer(); elements['decoreba-next'].listeners.click();
+    advance(5000);
+    assert.doesNotMatch(optionsOnly(elements['decoreba-question-area'].innerHTML),/<mark /);
+    for(const invalid of ['', '0', '-1','1.5','301','Infinity','abc']) {
+      applySeconds(invalid);
+      assert.match(elements['decoreba-delay-message'].textContent,/1 a 300/);
+      assert.equal(storage.get('devquest-decoreba-delay-seconds'),'17');
+    }
+    applySeconds('1');
+    assert.equal(timers.size,1);
+    advance(999);assert.doesNotMatch(optionsOnly(elements['decoreba-question-area'].innerHTML),/<mark /);
+    advance(1);assert.match(optionsOnly(elements['decoreba-question-area'].innerHTML),/<mark /);
+    applySeconds('300');
+    answer();elements['decoreba-next'].listeners.click();
+    advance(299999);assert.doesNotMatch(optionsOnly(elements['decoreba-question-area'].innerHTML),/<mark /);
+    advance(1);assert.match(optionsOnly(elements['decoreba-question-area'].innerHTML),/<mark /);
+    answer();
+    vm.runInContext(read('js/decoreba.js'),ctx);await flush();
+    assert.equal(elements['decoreba-delay-input'].value,'300');
+    assert.equal(elements['decoreba-timer'].style['--reveal-remaining'],'1');
+    answer();
+  } else {
+    assert.equal(elements['decoreba-delay-settings'].hidden,true);
   }
 }
 for(const id of Object.keys(context.window.DEVQUEST_SUBJECTS)) await page(id);
@@ -158,3 +190,13 @@ assert.equal(pilotData.delayMs, 5000);
 assert.doesNotMatch(read('decoreba.html'), /decoreba-timer-seconds|decoreba-countdown/);
 assert.match(read('decoreba.html'), /decoreba-timer-line--left/);
 assert.match(read('decoreba.html'), /decoreba-timer-line--right/);
+
+const executive=JSON.parse(read('data/empreendedorismo.json')).empreendedorismo.find(q=>q.descricao.startsWith('O Resumo Executivo'));
+assert.deepEqual(executive.afirmacoes.map(a=>a.id),['I.','II.','III.','IV.']);
+assert.match(executive.afirmacoes[0].texto,/preparada antes/);
+assert.match(executive.afirmacoes[1].texto,/não se fazem necessários/);
+assert.match(executive.afirmacoes[2].texto,/contrato em vigor/);
+assert.match(executive.afirmacoes[3].texto,/discurso de um advogado/);
+assert.equal(executive.resposta,'III e IV.');
+assert.doesNotMatch(JSON.stringify(executive),/iitem|\\n\|\./);
+console.log('Configuração validada: 1–300s, persistência, entradas inválidas e reinício seguro. Resumo Executivo: quatro afirmações I–IV e gabarito preservado.');

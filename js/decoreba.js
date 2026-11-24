@@ -11,7 +11,32 @@
   let cuesPromise;
   let pilotPromise;
   const pilotSubjects = new Set(["empreendedorismo", "segurancainformacao"]);
-  const delayMs = 5000;
+  const delayStorageKey = "devquest-decoreba-delay-seconds";
+  function validSeconds(value) {
+    const seconds = Number(value);
+    return Number.isInteger(seconds) && seconds >= 1 && seconds <= 300 ? seconds : null;
+  }
+  let savedSeconds = null;
+  try { savedSeconds = validSeconds(window.localStorage?.getItem(delayStorageKey)); } catch (_) {}
+  let delayMs = (savedSeconds || 5) * 1000;
+  $("decoreba-delay-input").value = String(delayMs / 1000);
+
+  $("decoreba-delay-apply").addEventListener("click", () => {
+    const seconds = validSeconds($("decoreba-delay-input").value);
+    if (seconds === null) {
+      $("decoreba-delay-message").textContent = "Digite um número inteiro de 1 a 300 segundos.";
+      return;
+    }
+    delayMs = seconds * 1000;
+    try { window.localStorage?.setItem(delayStorageKey, String(seconds)); } catch (_) {}
+    const entry = state.entries[state.index];
+    if (state.pilot && entry && entry.attempt.selected === null && !entry.attempt.revealed && !$("decoreba-session").hidden) {
+      beginTimer();
+      $("decoreba-delay-message").textContent = `Tempo definido: ${seconds}s. A contagem desta questão recomeçou.`;
+    } else {
+      $("decoreba-delay-message").textContent = `Tempo definido: ${seconds}s. Será usado nas próximas questões.`;
+    }
+  });
 
   function stopTimer() {
     state.generation++;
@@ -30,7 +55,7 @@
     const fraction = Math.max(0, Math.min(1, remainingMs / delayMs));
     $("decoreba-timer").style.setProperty("--reveal-remaining", String(fraction));
     const status = remainingMs > 0
-      ? "A dica será revelada em cinco segundos. Você já pode responder."
+      ? `A dica será revelada em ${delayMs / 1000} segundos. Você já pode responder.`
       : "Dica revelada. A palavra-chave está brilhando na alternativa.";
     if ($("decoreba-timer-status").textContent !== status) $("decoreba-timer-status").textContent = status;
   }
@@ -86,7 +111,7 @@
           const subject = subjects[id];
           return `<a class="decoreba-subject" href="decoreba.html?materia=${encodeURIComponent(id)}&curso=${courseId}" style="--subject-color:${palette[subject.accent] || palette.violet}">
             <i data-lucide="${escapeHtml(subject.icon)}" aria-hidden="true"></i>
-            <span><strong>${escapeHtml(subject.label)}</strong><small>${escapeHtml(subject.description)}${pilotSubjects.has(id) ? " · TESTE: DICA EM 5s" : ""}</small></span><span aria-hidden="true">↗</span>
+            <span><strong>${escapeHtml(subject.label)}</strong><small>${escapeHtml(subject.description)}${pilotSubjects.has(id) ? " · TEMPO DA DICA AJUSTÁVEL" : ""}</small></span><span aria-hidden="true">↗</span>
           </a>`;
         }).join("")}
       </div></section>`).join("");
@@ -94,7 +119,7 @@
   }
 
   async function fetchJson(path) {
-    const response = await fetch(path);
+    const response = await fetch(path, { cache: "no-store" });
     if (!response.ok) throw new Error(`HTTP ${response.status}: ${path}`);
     return response.json();
   }
@@ -114,12 +139,13 @@
     if (!subject) return;
     state.subjectId = subjectId;
     state.pilot = pilotSubjects.has(subjectId);
+    $("decoreba-delay-settings").hidden = !state.pilot;
     state.courseId = courses[courseId]?.subjects.includes(subjectId) ? courseId : null;
     document.body.style.setProperty("--subject-color", palette[subject.accent] || palette.violet);
     document.title = `DevQuest - Decoreba · ${subject.label}`;
     $("decoreba-title").textContent = subject.label;
     $("decoreba-subtitle").textContent = state.pilot
-      ? "Leia as chaves da pergunta e escolha uma alternativa. Em 5 segundos, a palavra-chave da resposta correta também brilha."
+      ? "Leia as chaves da pergunta e escolha uma alternativa. Escolha abaixo quantos segundos esperar pela dica."
       : "Associe os trechos em destaque. Leia a resposta correta e siga no seu ritmo.";
     $("decoreba-catalog").hidden = true;
     $("decoreba-session").hidden = true;
