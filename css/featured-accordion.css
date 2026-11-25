@@ -1,0 +1,30 @@
+.dq-ag-shell{--ag-accent:#a78bfa;--ag-muted:#aaa6b7;--ag-line:#383444;position:relative}
+html[data-theme=classic] .dq-ag-shell{--ag-accent:#245bac;--ag-muted:#52657b;--ag-line:#d1dae7}
+html[data-theme=christmas] .dq-ag-shell{--ag-accent:#e5c379;--ag-muted:#c1ccb9;--ag-line:#334c3d}
+html[data-theme=pixel] .dq-ag-shell{--ag-accent:#dab0ff;--ag-muted:#c7bceb;--ag-line:#564572}
+.dq-ag-hint{text-align:right;font-size:12px;color:var(--ag-muted);margin:0 0 12px}
+.dq-ag-gallery{height:460px;display:flex;gap:10px;isolation:isolate}
+.dq-ag-panel{position:relative;flex:1 1 0;min-width:0;min-height:0;overflow:hidden;border-radius:16px;background:#0c1020;border:1px solid #ffffff26;transition:flex .6s cubic-bezier(.22,1,.36,1),border-color .4s;cursor:pointer;color:#fff;isolation:isolate}
+.dq-ag-panel.is-active{flex:4.333 1 0;border-color:var(--panel-accent)}
+.dq-ag-art{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:grayscale(1) brightness(.68);transform:scale(1.07) translate(var(--x,0px),var(--y,0px));transition:filter .6s,transform .7s cubic-bezier(.22,1,.36,1);z-index:-2;pointer-events:none}
+.dq-ag-panel.is-active .dq-ag-art{filter:grayscale(0) brightness(.95);transform:scale(1.04) translate(var(--x,0px),var(--y,0px))}
+.dq-ag-panel:after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,#06001025,transparent 35%,#060010d0 80%,#060010f5);pointer-events:none}
+.dq-ag-top{position:absolute;top:18px;left:18px;right:18px;display:flex;justify-content:space-between;align-items:center;gap:5px}
+.dq-ag-no{font:600 12px monospace;color:#e5e5eeaa}
+.dq-ag-course{font-size:10px;font-weight:800;border:1px solid #ffffff44;border-radius:999px;padding:5px 8px;background:#05051055;color:white}
+.dq-ag-collapsed{position:absolute;bottom:20px;left:50%;transform:translateX(-50%) rotate(180deg);writing-mode:vertical-rl;font-size:clamp(13px,1.6vw,19px);font-weight:800;letter-spacing:.015em;white-space:nowrap;transition:opacity .2s;color:white}
+.dq-ag-panel.is-active .dq-ag-collapsed{opacity:0}
+.dq-ag-content{position:absolute;bottom:27px;left:24px;right:24px;opacity:0;transform:translateY(10px);transition:opacity .15s,transform .4s;pointer-events:none}
+.dq-ag-panel.is-active .dq-ag-content{opacity:1;transform:translateY(0);transition:opacity .45s .15s,transform .6s;pointer-events:auto}
+.dq-ag-content small{color:var(--panel-accent);font-weight:800;letter-spacing:.12em;font-size:10px}
+.dq-ag-content h3{font-size:clamp(21px,3vw,37px);line-height:1.08;letter-spacing:-.045em;margin:8px 0;max-width:420px;font-weight:800;color:#fff}
+.dq-ag-content p{color:#d4d1df;font-size:13px;max-width:370px;margin:0 0 17px;line-height:1.5}
+.dq-ag-link{display:inline-flex;gap:18px;align-items:center;background:#ffffffef;color:#15131c;padding:10px 15px;border-radius:9px;font-weight:800;font-size:12px;white-space:nowrap;text-decoration:none}
+.dq-ag-link:hover{background:var(--panel-accent);color:#15131c}
+.dq-ag-panel:focus-visible,.dq-ag-link:focus-visible,.dq-ag-dots button:focus-visible{outline:3px solid var(--ag-accent);outline-offset:3px}
+.dq-ag-bottom{display:flex;align-items:center;justify-content:space-between;color:var(--ag-muted);font-size:10px;letter-spacing:.1em;margin-top:13px}
+.dq-ag-dots{display:flex;gap:7px}.dq-ag-dots button{width:8px;height:8px;padding:0;border-radius:10px;background:var(--ag-line);border:0;cursor:pointer;transition:width .3s,background .3s}
+.dq-ag-dots button.is-active{background:var(--ag-accent);width:26px}
+@media(max-width:900px){.dq-ag-gallery{height:420px}.dq-ag-top{left:10px;right:10px}.dq-ag-content{left:16px;right:16px}.dq-ag-hint{display:none}}
+@media(max-width:640px){.dq-ag-gallery{height:680px;flex-direction:column;gap:8px}.dq-ag-panel.is-active{flex:5 1 0}.dq-ag-top{top:12px;left:12px;right:12px}.dq-ag-collapsed{writing-mode:horizontal-tb;transform:none;bottom:auto;top:50%;left:50px;right:58px;translate:0 -50%;white-space:normal;font-size:13px;line-height:1.15}.dq-ag-no{font-size:10px}.dq-ag-content{bottom:16px;left:16px}.dq-ag-content h3{font-size:25px}.dq-ag-content p{font-size:12px;margin-bottom:10px}.dq-ag-art{object-position:center 42%}.dq-ag-bottom{letter-spacing:0}}
+@media(prefers-reduced-motion:reduce){.dq-ag-shell *, .dq-ag-shell *::before,.dq-ag-shell *::after{transition:none!important;animation:none!important}}

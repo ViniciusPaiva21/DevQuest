@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="css/themes.css">
   <link rel="stylesheet" href="css/decoreba.css">
   <link rel="stylesheet" href="css/mode-nav.css">
+  <link rel="stylesheet" href="css/featured-accordion.css?v=1">
 </head>
 
 <body data-page="home" class="min-h-screen flex flex-col selection:bg-violet-500 selection:text-white overflow-x-hidden">
@@ -89,7 +90,11 @@
           <p>Cinco novas matérias de ADS e CC, cada uma com cor própria e acesso direto ao quiz.</p>
         </div>
 
-        <div id="featuredCardsGrid" class="cards-grid" aria-label="Disciplinas de ADS e CC em destaque"></div>
+        <div class="dq-ag-shell">
+          <p class="dq-ag-hint">Passe o mouse para explorar <span aria-hidden="true">↔</span></p>
+          <div id="dq-ag-gallery" class="dq-ag-gallery" aria-label="Disciplinas de ADS e CC em destaque"></div>
+          <div class="dq-ag-bottom"><span id="dq-ag-indicator" aria-live="polite"></span><div id="dq-ag-dots" class="dq-ag-dots" aria-label="Selecionar disciplina"></div><span id="dq-ag-count"></span></div>
+        </div>
       </section>
 
       <section id="infernus" class="infernus-section" aria-labelledby="infernus-heading">
@@ -168,6 +173,7 @@
   <script src="js/subjects.js"></script>
   <script src="js/utils.js"></script>
   <script src="js/courseData.js"></script>
+  <script src="js/featured-accordion.js?v=1"></script>
   <script src="js/cat.js"></script>
 </body>
 </html>
