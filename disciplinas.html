@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/themes.css">
   <link rel="stylesheet" href="css/decoreba.css">
+  <link rel="stylesheet" href="css/mode-nav.css">
 </head>
 
 <body data-page="home" class="min-h-screen flex flex-col selection:bg-violet-500 selection:text-white overflow-x-hidden">
@@ -32,11 +33,9 @@
       <nav class="flex items-center gap-2" aria-label="Navegação principal">
         <a href="index.html" class="header-link hidden sm:inline-flex">Início</a>
         <a href="#trilhas" class="header-link hidden md:inline-flex">Matérias</a>
-        <a href="infernus.html" class="header-infernus-link">
-          <i data-lucide="skull" class="w-4 h-4"></i>
-          <span>Infernus</span>
-        </a>
-        <a href="decoreba.html" class="header-decoreba-link"><i data-lucide="brain" aria-hidden="true"></i><span>Decoreba</span></a>
+        <a href="infernus.html" class="header-link dq-mode-link"><span class="dq-mode-icon dq-icon-infernus" aria-hidden="true"></span><span>Infernus</span></a>
+        <a href="decoreba.html" class="header-link dq-mode-link"><span class="dq-mode-icon dq-icon-decoreba" aria-hidden="true"></span><span>Decoreba</span></a>
+        <a href="multiplayer.html" class="header-link dq-mode-link"><span class="dq-mode-icon dq-icon-multiplayer" aria-hidden="true"></span><span>Multiplayer</span></a>
         <div data-theme-slot></div>
       </nav>
     </div>
