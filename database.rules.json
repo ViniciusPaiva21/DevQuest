@@ -1,0 +1,108 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "rooms": {
+      "$code": {
+        ".read": "auth != null && $code.matches(/^[A-Z2-9]{6}$/)",
+        ".write": "auth != null && $code.matches(/^[A-Z2-9]{6}$/) && ((!data.exists() && newData.child('host').val() === auth.uid && newData.child('players/s0/uid').val() === auth.uid && !newData.child('players/s1').exists() && !newData.child('players/s2').exists() && !newData.child('players/s3').exists() && !newData.child('players/s4').exists()) || (data.child('host').val() === auth.uid && !newData.exists()))",
+        ".validate": "newData.hasChildren(['host','createdAt','players'])",
+        "host": {
+          ".validate": "newData.isString() && newData.val() === auth.uid"
+        },
+        "createdAt": {
+          ".validate": "newData.isNumber() && newData.val() <= now + 60000 && newData.val() >= now - 60000"
+        },
+        "players": {
+          ".validate": "newData.child('s0').exists()",
+          "s0": {
+            ".write": "false",
+            ".validate": "newData.hasChildren(['uid','name','avatar']) && newData.parent().child('s1/avatar').val() !== newData.child('avatar').val() && newData.parent().child('s1/uid').val() !== newData.child('uid').val() && newData.parent().child('s2/avatar').val() !== newData.child('avatar').val() && newData.parent().child('s2/uid').val() !== newData.child('uid').val() && newData.parent().child('s3/avatar').val() !== newData.child('avatar').val() && newData.parent().child('s3/uid').val() !== newData.child('uid').val() && newData.parent().child('s4/avatar').val() !== newData.child('avatar').val() && newData.parent().child('s4/uid').val() !== newData.child('uid').val()",
+            "uid": {
+              ".validate": "newData.isString() && newData.val() === auth.uid"
+            },
+            "name": {
+              ".validate": "newData.isString() && newData.val().length > 0 && newData.val().length <= 24"
+            },
+            "avatar": {
+              ".validate": "newData.isString() && newData.val().matches(/^(alien|alegria|cachorro|mestre|rockeira|robo|ninja|vampiro|pirata|nerd)$/)"
+            },
+            "$other": {
+              ".validate": false
+            }
+          },
+          "s1": {
+            ".write": "auth != null && root.child('rooms').child($code).child('host').exists() && ((!data.exists() && newData.child('uid').val() === auth.uid) || (data.child('uid').val() === auth.uid && !newData.exists()))",
+            ".validate": "newData.hasChildren(['uid','name','avatar']) && newData.parent().child('s0/avatar').val() !== newData.child('avatar').val() && newData.parent().child('s0/uid').val() !== newData.child('uid').val() && newData.parent().child('s2/avatar').val() !== newData.child('avatar').val() && newData.parent().child('s2/uid').val() !== newData.child('uid').val() && newData.parent().child('s3/avatar').val() !== newData.child('avatar').val() && newData.parent().child('s3/uid').val() !== newData.child('uid').val() && newData.parent().child('s4/avatar').val() !== newData.child('avatar').val() && newData.parent().child('s4/uid').val() !== newData.child('uid').val()",
+            "uid": {
+              ".validate": "newData.isString() && newData.val() === auth.uid"
+            },
+            "name": {
+              ".validate": "newData.isString() && newData.val().length > 0 && newData.val().length <= 24"
+            },
+            "avatar": {
+              ".validate": "newData.isString() && newData.val().matches(/^(alien|alegria|cachorro|mestre|rockeira|robo|ninja|vampiro|pirata|nerd)$/)"
+            },
+            "$other": {
+              ".validate": false
+            }
+          },
+          "s2": {
+            ".write": "auth != null && root.child('rooms').child($code).child('host').exists() && ((!data.exists() && newData.child('uid').val() === auth.uid) || (data.child('uid').val() === auth.uid && !newData.exists()))",
+            ".validate": "newData.hasChildren(['uid','name','avatar']) && newData.parent().child('s0/avatar').val() !== newData.child('avatar').val() && newData.parent().child('s0/uid').val() !== newData.child('uid').val() && newData.parent().child('s1/avatar').val() !== newData.child('avatar').val() && newData.parent().child('s1/uid').val() !== newData.child('uid').val() && newData.parent().child('s3/avatar').val() !== newData.child('avatar').val() && newData.parent().child('s3/uid').val() !== newData.child('uid').val() && newData.parent().child('s4/avatar').val() !== newData.child('avatar').val() && newData.parent().child('s4/uid').val() !== newData.child('uid').val()",
+            "uid": {
+              ".validate": "newData.isString() && newData.val() === auth.uid"
+            },
+            "name": {
+              ".validate": "newData.isString() && newData.val().length > 0 && newData.val().length <= 24"
+            },
+            "avatar": {
+              ".validate": "newData.isString() && newData.val().matches(/^(alien|alegria|cachorro|mestre|rockeira|robo|ninja|vampiro|pirata|nerd)$/)"
+            },
+            "$other": {
+              ".validate": false
+            }
+          },
+          "s3": {
+            ".write": "auth != null && root.child('rooms').child($code).child('host').exists() && ((!data.exists() && newData.child('uid').val() === auth.uid) || (data.child('uid').val() === auth.uid && !newData.exists()))",
+            ".validate": "newData.hasChildren(['uid','name','avatar']) && newData.parent().child('s0/avatar').val() !== newData.child('avatar').val() && newData.parent().child('s0/uid').val() !== newData.child('uid').val() && newData.parent().child('s1/avatar').val() !== newData.child('avatar').val() && newData.parent().child('s1/uid').val() !== newData.child('uid').val() && newData.parent().child('s2/avatar').val() !== newData.child('avatar').val() && newData.parent().child('s2/uid').val() !== newData.child('uid').val() && newData.parent().child('s4/avatar').val() !== newData.child('avatar').val() && newData.parent().child('s4/uid').val() !== newData.child('uid').val()",
+            "uid": {
+              ".validate": "newData.isString() && newData.val() === auth.uid"
+            },
+            "name": {
+              ".validate": "newData.isString() && newData.val().length > 0 && newData.val().length <= 24"
+            },
+            "avatar": {
+              ".validate": "newData.isString() && newData.val().matches(/^(alien|alegria|cachorro|mestre|rockeira|robo|ninja|vampiro|pirata|nerd)$/)"
+            },
+            "$other": {
+              ".validate": false
+            }
+          },
+          "s4": {
+            ".write": "auth != null && root.child('rooms').child($code).child('host').exists() && ((!data.exists() && newData.child('uid').val() === auth.uid) || (data.child('uid').val() === auth.uid && !newData.exists()))",
+            ".validate": "newData.hasChildren(['uid','name','avatar']) && newData.parent().child('s0/avatar').val() !== newData.child('avatar').val() && newData.parent().child('s0/uid').val() !== newData.child('uid').val() && newData.parent().child('s1/avatar').val() !== newData.child('avatar').val() && newData.parent().child('s1/uid').val() !== newData.child('uid').val() && newData.parent().child('s2/avatar').val() !== newData.child('avatar').val() && newData.parent().child('s2/uid').val() !== newData.child('uid').val() && newData.parent().child('s3/avatar').val() !== newData.child('avatar').val() && newData.parent().child('s3/uid').val() !== newData.child('uid').val()",
+            "uid": {
+              ".validate": "newData.isString() && newData.val() === auth.uid"
+            },
+            "name": {
+              ".validate": "newData.isString() && newData.val().length > 0 && newData.val().length <= 24"
+            },
+            "avatar": {
+              ".validate": "newData.isString() && newData.val().matches(/^(alien|alegria|cachorro|mestre|rockeira|robo|ninja|vampiro|pirata|nerd)$/)"
+            },
+            "$other": {
+              ".validate": false
+            }
+          },
+          "$other": {
+            ".validate": false
+          }
+        },
+        "$other": {
+          ".validate": false
+        }
+      }
+    }
+  }
+}

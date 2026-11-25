@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="css/decoreba.css">
   <link rel="stylesheet" href="css/mode-nav.css">
 <link rel="stylesheet" href="css/multiplayer.css">
-<script defer src="js/multiplayer.js"></script>
+<script type="module" src="js/multiplayer.js?v=2"></script>
 </head>
 
 <body data-page="home" class="min-h-screen flex flex-col selection:bg-violet-500 selection:text-white overflow-x-hidden">
@@ -45,12 +45,21 @@
 
   <main class="mp-main">
     <section class="mp-intro"><span class="mp-kicker">DEVQUEST / MULTIPLAYER</span><h1>Escolha sua identidade</h1><p>Desafie seus amigos em partidas por turnos de 2 a 5 jogadores.</p></section>
-    <section class="mp-panel" aria-labelledby="mp-title">
+    <section class="mp-panel" id="mp-profile-panel" aria-labelledby="mp-title">
       <div class="mp-profile"><div class="mp-preview"><img id="mp-avatar-preview" src="images/avatars/vampiro.png" alt="Vampiro"></div><div><h2 id="mp-title">Seu perfil</h2><p id="mp-avatar-name">Vampiro</p><label for="mp-name">Apelido</label><input id="mp-name" maxlength="24" autocomplete="nickname" placeholder="Digite seu apelido"></div></div>
       <h3>Escolha seu avatar</h3><div id="mp-avatars" class="mp-avatars" role="group" aria-label="Avatares disponíveis"></div>
       <div class="mp-actions"><button id="mp-create" type="button" disabled>Criar sala</button><button id="mp-join" type="button" disabled>Entrar em uma sala</button></div>
       <div id="mp-next" class="mp-next" hidden aria-live="polite"></div>
-      <p class="mp-note">Prévia da interface · As salas online ainda não estão disponíveis.</p>
+      <p class="mp-note">Salas online · 2 a 5 jogadores</p>
+    </section>
+    <section id="mp-lobby" class="mp-panel" hidden>
+      <h2 class="mp-lobby-title">Sala de espera</h2>
+      <div class="mp-code-line"><strong id="mp-room-code"></strong><button id="mp-copy" type="button">Copiar código</button></div>
+      <p id="mp-count" class="mp-note"></p>
+      <div id="mp-players" class="mp-players"></div>
+      <p id="mp-lobby-status" class="mp-note" aria-live="polite"></p>
+      <div class="mp-actions"><button id="mp-start" disabled>Partida em breve</button><button id="mp-leave">Sair da sala</button></div>
+      <p class="mp-note">Nesta versão, o lobby está disponível; as perguntas e os turnos serão adicionados na próxima etapa.</p>
     </section>
   </main>
   <script>if (window.lucide) lucide.createIcons();</script>

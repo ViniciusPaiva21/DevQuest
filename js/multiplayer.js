@@ -1,13 +1,30 @@
-(() => {
-  'use strict';
-  const avatars = [['alien','Alien'],['alegria','Alegria'],['cachorro','Cachorro'],['mestre','Mestre'],['rockeira','Rockeira'],['robo','Robô'],['ninja','Ninja'],['vampiro','Vampiro'],['pirata','Pirata'],['nerd','Nerd']];
-  const key='devquest-multiplayer-profile';
-  const $=id=>document.getElementById(id);
-  let saved={};try{saved=JSON.parse(localStorage.getItem(key)||'{}')||{};}catch{}
-  let selected=avatars.some(a=>a[0]===saved.avatar)?saved.avatar:'vampiro';
-  const name=$('mp-name');name.value=typeof saved.name==='string'?saved.name.slice(0,24):'';
-  function persist(){try{localStorage.setItem(key,JSON.stringify({name:name.value.trim(),avatar:selected}));}catch{}}
-  function sync(){const a=avatars.find(a=>a[0]===selected);$('mp-avatar-preview').src=`images/avatars/${a[0]}.png`;$('mp-avatar-preview').alt=a[1];$('mp-avatar-name').textContent=a[1];for(const b of $('mp-avatars').children)b.setAttribute('aria-pressed',String(b.dataset.avatar===selected));$('mp-create').disabled=$('mp-join').disabled=!name.value.trim();persist();$('mp-next').hidden=true;}
-  for(const [id,label] of avatars){const b=document.createElement('button');b.type='button';b.className='mp-avatar';b.dataset.avatar=id;b.setAttribute('aria-label',label);const img=document.createElement('img');img.src=`images/avatars/${id}.png`;img.alt='';const span=document.createElement('span');span.textContent=label;b.append(img,span);b.addEventListener('click',()=>{selected=id;sync();});$('mp-avatars').append(b);}
-  name.addEventListener('input',sync);for(const [id,action] of [['mp-create','Criar sala'],['mp-join','Entrar em uma sala']])$(id).addEventListener('click',()=>{if(!name.value.trim())return;persist();const next=$('mp-next');next.textContent=`${action}: perfil de ${name.value.trim()} salvo. A conexão com as salas será habilitada na próxima etapa.`;next.hidden=false;});sync();
-})();
+import { initializeApp } from 'https://www.gstatic.com/firebasejs/12.0.0/firebase-app.js';
+import { getAuth, signInAnonymously, setPersistence, browserSessionPersistence } from 'https://www.gstatic.com/firebasejs/12.0.0/firebase-auth.js';
+import { getDatabase, ref, get, runTransaction, onValue, onDisconnect, remove } from 'https://www.gstatic.com/firebasejs/12.0.0/firebase-database.js';
+const app=initializeApp({apiKey:"AIzaSyBjUK3n6sjC-J5qJm0BXvTVAy_a9j7cMlM",authDomain:"devquest-db0d7.firebaseapp.com",databaseURL:"https://devquest-db0d7-default-rtdb.firebaseio.com",projectId:"devquest-db0d7",storageBucket:"devquest-db0d7.firebasestorage.app",messagingSenderId:"115124170463",appId:"1:115124170463:web:501f4efb4ef19f3cdb836a"});
+const auth=getAuth(app),db=getDatabase(app);
+const avatars=[['alien','Alien'],['alegria','Alegria'],['cachorro','Cachorro'],['mestre','Mestre'],['rockeira','Rockeira'],['robo','Robô'],['ninja','Ninja'],['vampiro','Vampiro'],['pirata','Pirata'],['nerd','Nerd']];
+const $=id=>document.getElementById(id),key='devquest-multiplayer-profile';
+let saved={};try{saved=JSON.parse(localStorage.getItem(key)||'{}')||{}}catch{}
+let selected=avatars.some(a=>a[0]===saved.avatar)?saved.avatar:'vampiro',uid,roomCode='',slot='',host=false,unsub=null,disconnect=null,busy=false;
+const name=$('mp-name');name.value=typeof saved.name==='string'?saved.name.slice(0,24):'';
+function notice(msg){$('mp-next').textContent=msg;$('mp-next').hidden=false}
+function persist(){try{localStorage.setItem(key,JSON.stringify({name:name.value.trim(),avatar:selected}))}catch{}}
+function buttons(){ $('mp-create').disabled=$('mp-join').disabled=busy||!name.value.trim(); }
+function sync(){const a=avatars.find(a=>a[0]===selected);$('mp-avatar-preview').src='images/avatars/'+a[0]+'.png';$('mp-avatar-preview').alt=a[1];$('mp-avatar-name').textContent=a[1];for(const b of $('mp-avatars').children)b.setAttribute('aria-pressed',String(b.dataset.avatar===selected));buttons();persist()}
+for(const [id,label] of avatars){const b=document.createElement('button');b.type='button';b.className='mp-avatar';b.dataset.avatar=id;b.setAttribute('aria-label',label);const img=document.createElement('img');img.src='images/avatars/'+id+'.png';img.alt='';const span=document.createElement('span');span.textContent=label;b.append(img,span);b.addEventListener('click',()=>{selected=id;sync()});$('mp-avatars').append(b)}
+name.addEventListener('input',sync);sync();
+let authReady;
+async function identify(){if(!authReady)authReady=(async()=>{await setPersistence(auth,browserSessionPersistence);return (await signInAnonymously(auth)).user.uid})().catch(e=>{authReady=null;throw e});uid=await authReady}
+const roomRef=code=>ref(db,'rooms/'+code);
+const player=()=>({uid,name:name.value.trim(),avatar:selected});
+function code(){const chars='ABCDEFGHJKLMNPQRSTUVWXYZ23456789';return Array.from(crypto.getRandomValues(new Uint8Array(6)),n=>chars[n%chars.length]).join('')}
+function reset(msg){if(unsub)unsub();unsub=null;roomCode='';slot='';host=false;disconnect=null;$('mp-lobby').hidden=true;$('mp-profile-panel').hidden=false;buttons();notice(msg)}
+async function enterLobby(c,s,isHost){roomCode=c;slot=s;host=isHost;disconnect=onDisconnect(isHost?roomRef(c):ref(db,'rooms/'+c+'/players/'+s));try{await disconnect.remove()}catch(e){await remove(isHost?roomRef(c):ref(db,'rooms/'+c+'/players/'+s)).catch(()=>{});reset('Não foi possível configurar a conexão.');throw e}
+$('mp-profile-panel').hidden=true;$('mp-lobby').hidden=false;$('mp-room-code').textContent=c;
+unsub=onValue(roomRef(c),snap=>{const room=snap.val();if(!room||!room.players?.[s]||room.players[s].uid!==uid){if(disconnect)disconnect.cancel().catch(()=>{});reset('A sala foi encerrada ou você foi desconectado.');return}const players=Object.values(room.players);$('mp-count').textContent=players.length+'/5 jogadores';$('mp-players').replaceChildren();for(const p of players){const row=document.createElement('div');row.className='mp-player';const img=document.createElement('img');img.src='images/avatars/'+p.avatar+'.png';img.alt='';const label=document.createElement('strong');label.textContent=p.name;const role=document.createElement('span');role.textContent=(p.uid===room.host?'Anfitrião':'Jogador')+(p.uid===uid?' · Você':'');row.append(img,label,role);$('mp-players').append(row)}$('mp-lobby-status').textContent=players.length<2?'Aguardando mais jogadores.':'Lobby pronto. As partidas serão habilitadas na próxima versão.'},()=>reset('Não foi possível acessar a sala.'))}
+async function action(fn){if(busy||!name.value.trim())return;busy=true;buttons();try{persist();await identify();await fn()}catch(e){console.error(e);notice(e.code==='PERMISSION_DENIED'||e.code==='permission-denied'?'Acesso negado. Confira as regras do Firebase ou tente outro avatar.':e.message||'Não foi possível conectar.')}finally{busy=false;buttons()}}
+$('mp-create').onclick=()=>action(async()=>{for(let i=0;i<5;i++){const c=code(),p=player();const result=await runTransaction(roomRef(c),old=>old===null?{host:uid,createdAt:Date.now(),players:{s0:p}}:undefined,{applyLocally:false});if(result.committed){await enterLobby(c,'s0',true);return}}throw Error('Não foi possível gerar código. Tente novamente.')});
+$('mp-join').onclick=()=>{if(busy)return;const c=(prompt('Digite o código da sala:')||'').trim().toUpperCase();if(!/^[A-Z2-9]{6}$/.test(c)){notice('Informe um código de 6 caracteres.');return}action(async()=>{const room=(await get(roomRef(c))).val();if(!room)throw Error('Sala não encontrada.');const p=player(),players=room.players||{};if(Object.values(players).some(x=>x.uid===uid))throw Error('Você já está nesta sala. Use outra janela anônima para testar.');if(Object.values(players).some(x=>x.avatar===p.avatar))throw Error('Este avatar já está em uso. Escolha outro.');for(let i=1;i<5;i++){const s='s'+i;if(players[s])continue;const result=await runTransaction(ref(db,'rooms/'+c+'/players/'+s),old=>old===null?p:undefined,{applyLocally:false});if(result.committed){await enterLobby(c,s,false);return}}throw Error('Sala lotada. Tente outra sala.')})};
+$('mp-copy').onclick=async()=>{try{await navigator.clipboard.writeText(roomCode);$('mp-lobby-status').textContent='Código copiado!'}catch{$('mp-lobby-status').textContent='Código: '+roomCode}};
+$('mp-leave').onclick=async()=>{if(!roomCode)return;const target=host?roomRef(roomCode):ref(db,'rooms/'+roomCode+'/players/'+slot);try{await remove(target);if(disconnect)await disconnect.cancel();reset('Você saiu da sala.')}catch(e){$('mp-lobby-status').textContent='Não foi possível sair. Tente novamente.'}};
