@@ -13,9 +13,9 @@
   <link rel="stylesheet" href="css/themes.css">
   <link rel="stylesheet" href="css/decoreba.css">
   <link rel="stylesheet" href="css/mode-nav.css">
-<link rel="stylesheet" href="css/multiplayer.css?v=4">
+<link rel="stylesheet" href="css/multiplayer.css?v=5">
 <script src="js/subjects.js"></script>
-<script type="module" src="js/multiplayer.js?v=4"></script>
+<script type="module" src="js/multiplayer.js?v=5"></script>
 </head>
 
 <body data-page="home" class="min-h-screen flex flex-col selection:bg-violet-500 selection:text-white overflow-x-hidden">
@@ -59,7 +59,7 @@
       <p id="mp-count" class="mp-note"></p>
       <div id="mp-players" class="mp-players"></div>
       <p id="mp-lobby-status" class="mp-note" aria-live="polite"></p>
-      <div id="mp-settings" hidden><h3>Configurações da partida</h3><label>Disciplina<select id="mp-subject"></select></label><label>Tempo por tentativa<select id="mp-time"><option value="15">15 segundos</option><option value="30" selected>30 segundos</option><option value="60">60 segundos</option></select></label><label>Rodadas por jogador<select id="mp-rounds"><option value="3">3</option><option value="5" selected>5</option><option value="10">10</option></select></label></div>
+      <div id="mp-settings" hidden><h3>Configurações da partida</h3><label>Disciplina<select id="mp-subject"></select></label><label>Tempo por tentativa<select id="mp-time"><option value="15">15 segundos</option><option value="30" selected>30 segundos</option><option value="60">60 segundos</option></select></label><label>Quantidade de questões<select id="mp-quantity"><option value="all" selected>Todas as questões</option><option value="10">10 questões</option><option value="20">20 questões</option><option value="30">30 questões</option><option value="custom">Personalizada</option></select></label><label id="mp-custom-wrap" hidden>Quantidade personalizada<input id="mp-custom" type="number" min="1" step="1" value="40"></label><p id="mp-available" class="mp-note" aria-live="polite"></p></div>
       <section id="mp-game" hidden><h3 id="mp-turn"></h3><div id="mp-clock" role="timer"></div><p id="mp-question"></p><div id="mp-options" class="mp-options"></div><p id="mp-feedback" aria-live="polite"></p></section>
       <section id="mp-results" hidden><h3>Ranking e desempenho final</h3><p class="mp-note">1 ponto por acerto. Nota de 0 a 10 = acertos ÷ (acertos + erros + tempos esgotados) × 10. Sem tentativas: sem nota.</p><div class="mp-legend"><span>● Acertos</span><span>● Erros</span><span>● Tempo esgotado</span></div><div id="mp-ranking"></div></section>
       <div class="mp-actions"><button id="mp-start" disabled>Iniciar partida</button><button id="mp-leave">Sair da sala</button></div>

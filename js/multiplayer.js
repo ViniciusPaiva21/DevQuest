@@ -36,17 +36,44 @@ onValue(ref(db,'.info/serverTimeOffset'),s=>{offset=s.val()||0});
 const now=()=>Date.now()+offset;
 function shuffle(a){a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
 function makeQuestion(q){if(!Array.isArray(q.opcoes)||!q.opcoes.every(x=>typeof x==='string')||typeof q.resposta!=='string'||!q.opcoes.includes(q.resposta))return null;const text=[q.titulo,q.descricao].filter(Boolean).join('\n');if(!text.trim()||q.opcoes.length<2||q.opcoes.length>8)return null;const options=q.preservarOrdem?[...q.opcoes]:shuffle(q.opcoes);return {text,options,correct:options.indexOf(q.resposta)}}
+function chooseTotal(mode,custom,available){
+ if(!Number.isInteger(available)||available<1)throw Error('Esta disciplina não possui questões disponíveis para o multiplayer.');
+ if(mode==='all')return available;
+ const requested=mode==='custom'?custom:Number(mode);
+ if(!Number.isInteger(requested)||requested<1)throw Error('Informe uma quantidade inteira maior que zero.');
+ if(requested>available)throw Error('Esta disciplina possui '+available+' questões disponíveis. Escolha uma quantidade menor ou todas.');
+ return requested;
+}
+let countSequence=0;
+async function updateAvailable(){
+ const seq=++countSequence,s=subjects[$('mp-subject').value];
+ $('mp-available').textContent='Verificando questões disponíveis…';
+ try{
+  const res=await fetch(s.jsonPath);if(!res.ok)throw Error('Falha ao carregar');
+  const data=await res.json(),n=(data[s.jsonKey]||[]).filter(q=>makeQuestion(q)!==null).length;
+  if(seq!==countSequence)return;
+  $('mp-available').textContent=n+' questões disponíveis nesta disciplina.';
+  $('mp-quantity').options[0].textContent='Todas as questões ('+n+')';
+  for(const opt of $('mp-quantity').options){if(['10','20','30'].includes(opt.value))opt.disabled=Number(opt.value)>n;}
+  if($('mp-quantity').selectedOptions[0]?.disabled)$('mp-quantity').value='all';
+  $('mp-custom').max=String(n);$('mp-custom').value=String(Math.min(n,Math.max(1,Number($('mp-custom').value)||1)));
+  $('mp-custom-wrap').hidden=$('mp-quantity').value!=='custom';
+ }catch(e){if(seq===countSequence){$('mp-available').textContent='Não foi possível consultar a quantidade. Tente novamente.';$('mp-quantity').options[0].textContent='Todas as questões';}}
+}
+$('mp-subject').addEventListener('change',updateAvailable);
+$('mp-quantity').addEventListener('change',()=>{$('mp-custom-wrap').hidden=$('mp-quantity').value!=='custom'});
+updateAvailable();
 function publicQ(q){return {text:q.text,options:q.options}}
 function participants(room){return Object.keys(room.players||{}).sort().map(s=>room.players[s])}
 function renderGame(room){currentRoom=room;const g=room.game;const ps=participants(room);$('mp-settings').hidden=!host||!!g&&g.phase!=='finished';$('mp-game').hidden=!g||g.phase==='finished';$('mp-results').hidden=!g||g.phase!=='finished';$('mp-start').hidden=!host||!!g&&g.phase!=='finished';$('mp-start').disabled=starting||ps.length<2;$('mp-start').textContent=g?'Revanche':'Iniciar partida';
 if(!g){$('mp-lobby-status').textContent=ps.length<2?'Aguardando mais jogadores.':host?'Configure a partida e comece.':'Aguardando o anfitrião.';lastRender='';return}
 if(g.phase==='finished'){renderResults(g);$('mp-lobby-status').textContent='Partida encerrada.';return}
-const active=g.roster[g.activeUid],mine=active.uid===uid;const answer=room.answers?.[g.turnKey];$('mp-lobby-status').textContent=g.subjectLabel+' · Rodada '+(Math.floor(g.index/g.order.length)+1)+'/'+g.rounds;$('mp-turn').textContent=mine?'Sua vez!':'Vez de '+active.name;
+const active=g.roster[g.activeUid],mine=active.uid===uid;const answer=room.answers?.[g.turnKey];$('mp-lobby-status').textContent=g.subjectLabel+' · Questão '+(g.index+1)+'/'+g.total;$('mp-turn').textContent=mine?'Sua vez!':'Vez de '+active.name;
 for(const row of $('mp-players').children){row.classList.toggle('mp-active',row.dataset.uid===active.uid)}
 const renderKey=[g.id,g.index,g.turnKey,g.phase,answer?.choice,g.correct].join('|');if(renderKey!==lastRender){lastRender=renderKey;$('mp-question').textContent=g.question.text;$('mp-options').replaceChildren();g.question.options.forEach((o,i)=>{const b=document.createElement('button');b.type='button';b.textContent=String.fromCharCode(65+i)+') '+o;b.disabled=!mine||g.phase!=='question'||!!answer||!!g.wrong?.[i];b.className='mp-option';if(g.wrong?.[i])b.classList.add('mp-wrong');if(g.phase==='reveal'&&i===g.correct)b.classList.add('mp-correct');if(g.phase==='reveal'&&i===g.choice&&i!==g.correct)b.classList.add('mp-wrong');if(answer?.choice===i)b.classList.add('mp-picked');b.onclick=()=>submit(g,i);$('mp-options').append(b)});$('mp-feedback').textContent=g.phase==='reveal'?(g.choice===g.correct?g.roster[g.activeUid].name+' acertou! +1 ponto':'Ninguém acertou esta pergunta.')+(g.correct>=0?' Resposta certa: '+g.question.options[g.correct]:''):answer?'Resposta enviada.':(g.passMessage?g.passMessage+' · ':'')+(mine?'Escolha uma alternativa.':'Acompanhe a resposta do jogador.')}
 }
 async function submit(g,i){if(submitting||!roomCode||g.phase!=='question'||g.activeUid!==uid||g.wrong?.[i]||currentRoom?.game?.turnKey!==g.turnKey||now()>=g.deadline)return;submitting=true;const buttons=[...$('mp-options').children];buttons.forEach(b=>b.disabled=true);try{await set(ref(db,'rooms/'+roomCode+'/answers/'+g.turnKey),{uid,choice:i})}catch(e){$('mp-feedback').textContent='Não foi possível enviar a resposta.';if(currentRoom?.game?.turnKey===g.turnKey&&currentRoom.game.phase==='question')buttons.forEach((b,j)=>b.disabled=!!g.wrong?.[j])}finally{submitting=false}}
-$('mp-start').onclick=async()=>{if(!host||starting||!currentRoom||participants(currentRoom).length<2)return;starting=true;$('mp-start').disabled=true;try{const s=subjects[$('mp-subject').value],rounds=Number($('mp-rounds').value),seconds=Number($('mp-time').value);const response=await fetch(s.jsonPath);if(!response.ok)throw Error('Não foi possível carregar as questões.');const data=await response.json();const pool=shuffle((data[s.jsonKey]||[]).map(makeQuestion).filter(Boolean));const room= (await get(roomRef(roomCode))).val();const players=participants(room);if(players.length<2)throw Error('São necessários pelo menos dois jogadores.');const total=players.length*rounds;if(pool.length<total)throw Error('Questões insuficientes. Reduza o número de rodadas.');deck=pool.slice(0,total);const order=players.map(p=>p.uid),roster=Object.fromEntries(players.map(p=>[p.uid,p])),scores=Object.fromEntries(order.map(u=>[u,0]));const id=code(),stats=Object.fromEntries(order.map(u=>[u,{hits:0,errors:0,timeouts:0}]));await set(ref(db,'rooms/'+roomCode+'/game'),{id,stats,attempt:0,activeUid:order[0],turnKey:id+'_0_0',phase:'question',subjectLabel:s.label,rounds,seconds,order,roster,scores,index:0,total,question:publicQ(deck[0]),deadline:now()+seconds*1000});lastRender=''}catch(e){$('mp-lobby-status').textContent=e.message||'Não foi possível iniciar.'}finally{starting=false;$('mp-start').disabled=!currentRoom||participants(currentRoom).length<2}};
+$('mp-start').onclick=async()=>{if(!host||starting||!currentRoom||participants(currentRoom).length<2)return;starting=true;$('mp-start').disabled=true;try{const s=subjects[$('mp-subject').value],quantity=$('mp-quantity').value,customQuantity=Number($('mp-custom').value),seconds=Number($('mp-time').value);const response=await fetch(s.jsonPath);if(!response.ok)throw Error('Não foi possível carregar as questões.');const data=await response.json();const pool=shuffle((data[s.jsonKey]||[]).map(makeQuestion).filter(Boolean));const room= (await get(roomRef(roomCode))).val();const players=participants(room);if(players.length<2)throw Error('São necessários pelo menos dois jogadores.');const total=chooseTotal(quantity,customQuantity,pool.length);deck=pool.slice(0,total);const order=players.map(p=>p.uid),roster=Object.fromEntries(players.map(p=>[p.uid,p])),scores=Object.fromEntries(order.map(u=>[u,0]));const id=code(),stats=Object.fromEntries(order.map(u=>[u,{hits:0,errors:0,timeouts:0}]));await set(ref(db,'rooms/'+roomCode+'/game'),{id,stats,attempt:0,activeUid:order[0],turnKey:id+'_0_0',phase:'question',subjectLabel:s.label,seconds,order,roster,scores,index:0,total,question:publicQ(deck[0]),deadline:now()+seconds*1000});lastRender=''}catch(e){$('mp-lobby-status').textContent=e.message||'Não foi possível iniciar.'}finally{starting=false;$('mp-start').disabled=!currentRoom||participants(currentRoom).length<2}};
 
 function renderResults(g){
  const ranking=$('mp-ranking');ranking.replaceChildren();

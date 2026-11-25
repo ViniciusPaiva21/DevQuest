@@ -104,7 +104,7 @@
         },
         "game": {
           ".write": "auth != null && root.child('rooms').child($code).child('host').val() === auth.uid && newData.exists()",
-          ".validate": "newData.hasChildren(['id','phase','subjectLabel','rounds','seconds','order','roster','scores','index','total','question','deadline','activeUid','turnKey']) && newData.child('phase').val().matches(/^(question|reveal|finished)$/) && newData.child('index').isNumber() && newData.child('index').val() >= 0 && newData.child('total').isNumber() && newData.child('total').val() <= 50"
+          ".validate": "newData.hasChildren(['id','phase','subjectLabel','seconds','order','roster','scores','index','total','question','deadline','activeUid','turnKey']) && newData.child('phase').val().matches(/^(question|reveal|finished)$/) && newData.child('index').isNumber() && newData.child('index').val() >= 0 && newData.child('total').isNumber() && newData.child('total').val() >= 1 && newData.child('total').val() % 1 === 0 && newData.child('index').val() % 1 === 0 && newData.child('index').val() < newData.child('total').val()"
         },
         "answers": {
           "$turn": {
