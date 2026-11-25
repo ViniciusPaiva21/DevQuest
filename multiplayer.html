@@ -13,9 +13,9 @@
   <link rel="stylesheet" href="css/themes.css">
   <link rel="stylesheet" href="css/decoreba.css">
   <link rel="stylesheet" href="css/mode-nav.css">
-<link rel="stylesheet" href="css/multiplayer.css?v=3">
+<link rel="stylesheet" href="css/multiplayer.css?v=4">
 <script src="js/subjects.js"></script>
-<script type="module" src="js/multiplayer.js?v=3"></script>
+<script type="module" src="js/multiplayer.js?v=4"></script>
 </head>
 
 <body data-page="home" class="min-h-screen flex flex-col selection:bg-violet-500 selection:text-white overflow-x-hidden">
@@ -45,7 +45,7 @@
   </header>
 
   <main class="mp-main">
-    <section class="mp-intro"><span class="mp-kicker">DEVQUEST / MULTIPLAYER</span><h1>Escolha sua identidade</h1><p>Desafie seus amigos em partidas por turnos de 2 a 5 jogadores.</p></section>
+    <section class="mp-intro"><span class="mp-kicker">DEVQUEST / MULTIPLAYER</span><h1>Escolha sua identidade</h1><p>Batata Quente · 2 a 5 jogadores. Errou ou ficou sem tempo? A pergunta passa adiante.</p></section>
     <section class="mp-panel" id="mp-profile-panel" aria-labelledby="mp-title">
       <div class="mp-profile"><div class="mp-preview"><img id="mp-avatar-preview" src="images/avatars/vampiro.png" alt="Vampiro"></div><div><h2 id="mp-title">Seu perfil</h2><p id="mp-avatar-name">Vampiro</p><label for="mp-name">Apelido</label><input id="mp-name" maxlength="24" autocomplete="nickname" placeholder="Digite seu apelido"></div></div>
       <h3>Escolha seu avatar</h3><div id="mp-avatars" class="mp-avatars" role="group" aria-label="Avatares disponíveis"></div>
@@ -59,9 +59,9 @@
       <p id="mp-count" class="mp-note"></p>
       <div id="mp-players" class="mp-players"></div>
       <p id="mp-lobby-status" class="mp-note" aria-live="polite"></p>
-      <div id="mp-settings" hidden><h3>Configurações da partida</h3><label>Disciplina<select id="mp-subject"></select></label><label>Tempo por pergunta<select id="mp-time"><option value="15">15 segundos</option><option value="30" selected>30 segundos</option><option value="60">60 segundos</option></select></label><label>Rodadas por jogador<select id="mp-rounds"><option value="3">3</option><option value="5" selected>5</option><option value="10">10</option></select></label></div>
+      <div id="mp-settings" hidden><h3>Configurações da partida</h3><label>Disciplina<select id="mp-subject"></select></label><label>Tempo por tentativa<select id="mp-time"><option value="15">15 segundos</option><option value="30" selected>30 segundos</option><option value="60">60 segundos</option></select></label><label>Rodadas por jogador<select id="mp-rounds"><option value="3">3</option><option value="5" selected>5</option><option value="10">10</option></select></label></div>
       <section id="mp-game" hidden><h3 id="mp-turn"></h3><div id="mp-clock" role="timer"></div><p id="mp-question"></p><div id="mp-options" class="mp-options"></div><p id="mp-feedback" aria-live="polite"></p></section>
-      <section id="mp-results" hidden><h3>Ranking final</h3><div id="mp-ranking"></div></section>
+      <section id="mp-results" hidden><h3>Ranking e desempenho final</h3><p class="mp-note">1 ponto por acerto. Nota de 0 a 10 = acertos ÷ (acertos + erros + tempos esgotados) × 10. Sem tentativas: sem nota.</p><div class="mp-legend"><span>● Acertos</span><span>● Erros</span><span>● Tempo esgotado</span></div><div id="mp-ranking"></div></section>
       <div class="mp-actions"><button id="mp-start" disabled>Iniciar partida</button><button id="mp-leave">Sair da sala</button></div>
     </section>
   </main>

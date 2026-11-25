@@ -114,7 +114,7 @@
               ".validate": "newData.isString() && newData.val() === auth.uid"
             },
             "choice": {
-              ".validate": "newData.isNumber() && newData.val() >= 0 && newData.val() < 8 && newData.val() % 1 === 0"
+              ".validate": "newData.isNumber() && newData.val() >= 0 && newData.val() < 8 && newData.val() % 1 === 0 && root.child('rooms').child($code).child('game/question/options').child(newData.val() + '').exists() && !root.child('rooms').child($code).child('game/wrong').child(newData.val() + '').exists()"
             },
             "$other": {
               ".validate": false
