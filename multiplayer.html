@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="css/themes.css">
   <link rel="stylesheet" href="css/decoreba.css">
   <link rel="stylesheet" href="css/mode-nav.css">
-<link rel="stylesheet" href="css/multiplayer.css?v=5">
+<link rel="stylesheet" href="css/multiplayer.css?v=6">
 <script src="js/subjects.js"></script>
 <script type="module" src="js/multiplayer.js?v=5"></script>
 </head>
@@ -45,6 +45,29 @@
   </header>
 
   <main class="mp-main">
+    <dialog id="mp-welcome" aria-labelledby="mp-welcome-title" aria-describedby="mp-welcome-copy">
+      <div class="mp-welcome-icon"><i data-lucide="users-round" aria-hidden="true"></i></div>
+      <h2 id="mp-welcome-title">Bem-vindo ao Multiplayer!</h2>
+      <span class="mp-beta-label">Beta aberto</span>
+      <div id="mp-welcome-copy">
+        <p>Este modo foi desenvolvido para incentivar o aprendizado em equipe através da dinâmica de <strong>Batata Quente</strong>.</p>
+        <p>Durante a fase de testes, o acesso será gratuito e aberto a todos. Após esse período, estará disponível exclusivamente para usuários autorizados pelo desenvolvedor.</p>
+      </div>
+      <button id="mp-welcome-confirm" type="button" autofocus>Entendi, vamos jogar!</button>
+      <p class="mp-welcome-credit">Desenvolvido por Vinicius Paiva · DevQuest</p>
+    </dialog>
+    <script>
+      (() => {
+        const dialog = document.getElementById('mp-welcome');
+        const confirm = document.getElementById('mp-welcome-confirm');
+        dialog.addEventListener('cancel', event => event.preventDefault());
+        confirm.addEventListener('click', () => {
+          dialog.close();
+          document.getElementById('mp-name').focus();
+        });
+        dialog.showModal();
+      })();
+    </script>
     <section class="mp-intro"><span class="mp-kicker">DEVQUEST / MULTIPLAYER</span><h1>Escolha sua identidade</h1><p>Batata Quente · 2 a 5 jogadores. Errou ou ficou sem tempo? A pergunta passa adiante.</p></section>
     <section class="mp-panel" id="mp-profile-panel" aria-labelledby="mp-title">
       <div class="mp-profile"><div class="mp-preview"><img id="mp-avatar-preview" src="images/avatars/vampiro.png" alt="Vampiro"></div><div><h2 id="mp-title">Seu perfil</h2><p id="mp-avatar-name">Vampiro</p><label for="mp-name">Apelido</label><input id="mp-name" maxlength="24" autocomplete="nickname" placeholder="Digite seu apelido"></div></div>
