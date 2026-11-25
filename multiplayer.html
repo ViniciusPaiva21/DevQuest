@@ -13,6 +13,8 @@
   <link rel="stylesheet" href="css/themes.css">
   <link rel="stylesheet" href="css/decoreba.css">
   <link rel="stylesheet" href="css/mode-nav.css">
+<link rel="stylesheet" href="css/multiplayer.css">
+<script defer src="js/multiplayer.js"></script>
 </head>
 
 <body data-page="home" class="min-h-screen flex flex-col selection:bg-violet-500 selection:text-white overflow-x-hidden">
@@ -41,11 +43,15 @@
     </div>
   </header>
 
-  <main class="flex-1 max-w-7xl mx-auto w-full px-6 py-20 text-center">
-      <h1 class="text-3xl font-extrabold">Multiplayer</h1>
-      <p class="mt-4">Em breve: partidas por turnos para 2 a 5 jogadores.</p>
-      <p class="mt-2">Esta página é apenas uma prévia visual. As salas online ainda não estão disponíveis.</p>
-      <a class="header-link inline-flex mt-6" href="index.html">Voltar ao início</a>
+  <main class="mp-main">
+    <section class="mp-intro"><span class="mp-kicker">DEVQUEST / MULTIPLAYER</span><h1>Escolha sua identidade</h1><p>Desafie seus amigos em partidas por turnos de 2 a 5 jogadores.</p></section>
+    <section class="mp-panel" aria-labelledby="mp-title">
+      <div class="mp-profile"><div class="mp-preview"><img id="mp-avatar-preview" src="images/avatars/vampiro.png" alt="Vampiro"></div><div><h2 id="mp-title">Seu perfil</h2><p id="mp-avatar-name">Vampiro</p><label for="mp-name">Apelido</label><input id="mp-name" maxlength="24" autocomplete="nickname" placeholder="Digite seu apelido"></div></div>
+      <h3>Escolha seu avatar</h3><div id="mp-avatars" class="mp-avatars" role="group" aria-label="Avatares disponíveis"></div>
+      <div class="mp-actions"><button id="mp-create" type="button" disabled>Criar sala</button><button id="mp-join" type="button" disabled>Entrar em uma sala</button></div>
+      <div id="mp-next" class="mp-next" hidden aria-live="polite"></div>
+      <p class="mp-note">Prévia da interface · As salas online ainda não estão disponíveis.</p>
+    </section>
   </main>
   <script>if (window.lucide) lucide.createIcons();</script>
 </body></html>
