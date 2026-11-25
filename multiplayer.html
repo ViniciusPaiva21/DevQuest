@@ -13,13 +13,13 @@
   <link rel="stylesheet" href="css/themes.css">
   <link rel="stylesheet" href="css/decoreba.css">
   <link rel="stylesheet" href="css/mode-nav.css">
-<link rel="stylesheet" href="css/multiplayer.css?v=6">
+<link rel="stylesheet" href="css/multiplayer.css?v=7">
 <script src="js/subjects.js"></script>
 <script type="module" src="js/multiplayer.js?v=5"></script>
 </head>
 
 <body data-page="home" class="min-h-screen flex flex-col selection:bg-violet-500 selection:text-white overflow-x-hidden">
-  <header class="site-header w-full px-5 md:px-6 py-4 sticky top-0 z-50">
+  <header id="mp-site-header" inert class="site-header w-full px-5 md:px-6 py-4 sticky top-0 z-50">
     <div class="max-w-7xl mx-auto decoreba-nav-shell flex items-center justify-between gap-4">
       <a href="index.html" class="brand flex items-center gap-3 group" aria-label="Página inicial do DevQuest">
         <span class="brand-icon p-2.5 rounded-xl">
@@ -45,7 +45,7 @@
   </header>
 
   <main class="mp-main">
-    <dialog id="mp-welcome" aria-labelledby="mp-welcome-title" aria-describedby="mp-welcome-copy">
+    <div id="mp-welcome-overlay" style="position:fixed;inset:0;z-index:2147483647;display:grid;place-items:center;background:#08070ff5;padding:16px"><section id="mp-welcome" role="dialog" aria-modal="true" aria-labelledby="mp-welcome-title" aria-describedby="mp-welcome-copy">
       <div class="mp-welcome-icon"><i data-lucide="users-round" aria-hidden="true"></i></div>
       <h2 id="mp-welcome-title">Bem-vindo ao Multiplayer!</h2>
       <span class="mp-beta-label">Beta aberto</span>
@@ -55,20 +55,23 @@
       </div>
       <button id="mp-welcome-confirm" type="button" autofocus>Entendi, vamos jogar!</button>
       <p class="mp-welcome-credit">Desenvolvido por Vinicius Paiva · DevQuest</p>
-    </dialog>
+    </section></div>
     <script>
       (() => {
-        const dialog = document.getElementById('mp-welcome');
+        const overlay = document.getElementById('mp-welcome-overlay');
         const confirm = document.getElementById('mp-welcome-confirm');
-        dialog.addEventListener('cancel', event => event.preventDefault());
         confirm.addEventListener('click', () => {
-          dialog.close();
+          overlay.remove();
+          document.getElementById('mp-site-header').removeAttribute('inert');
+          document.getElementById('mp-content').removeAttribute('inert');
           document.getElementById('mp-name').focus();
         });
-        dialog.showModal();
+        document.addEventListener('keydown', event => {
+          if (overlay.isConnected && event.key === 'Tab') { event.preventDefault(); confirm.focus(); }
+        });
       })();
     </script>
-    <section class="mp-intro"><span class="mp-kicker">DEVQUEST / MULTIPLAYER</span><h1>Escolha sua identidade</h1><p>Batata Quente · 2 a 5 jogadores. Errou ou ficou sem tempo? A pergunta passa adiante.</p></section>
+    <div id="mp-content" inert style="display:contents"><section class="mp-intro"><span class="mp-kicker">DEVQUEST / MULTIPLAYER</span><h1>Escolha sua identidade</h1><p>Batata Quente · 2 a 5 jogadores. Errou ou ficou sem tempo? A pergunta passa adiante.</p></section>
     <section class="mp-panel" id="mp-profile-panel" aria-labelledby="mp-title">
       <div class="mp-profile"><div class="mp-preview"><img id="mp-avatar-preview" src="images/avatars/vampiro.png" alt="Vampiro"></div><div><h2 id="mp-title">Seu perfil</h2><p id="mp-avatar-name">Vampiro</p><label for="mp-name">Apelido</label><input id="mp-name" maxlength="24" autocomplete="nickname" placeholder="Digite seu apelido"></div></div>
       <h3>Escolha seu avatar</h3><div id="mp-avatars" class="mp-avatars" role="group" aria-label="Avatares disponíveis"></div>
@@ -87,6 +90,7 @@
       <section id="mp-results" hidden><h3>Ranking e desempenho final</h3><p class="mp-note">1 ponto por acerto. Nota de 0 a 10 = acertos ÷ (acertos + erros + tempos esgotados) × 10. Sem tentativas: sem nota.</p><div class="mp-legend"><span>● Acertos</span><span>● Erros</span><span>● Tempo esgotado</span></div><div id="mp-ranking"></div></section>
       <div class="mp-actions"><button id="mp-start" disabled>Iniciar partida</button><button id="mp-leave">Sair da sala</button></div>
     </section>
+    </div>
   </main>
   <script>if (window.lucide) lucide.createIcons();</script>
 </body></html>
