@@ -13,8 +13,9 @@
   <link rel="stylesheet" href="css/themes.css">
   <link rel="stylesheet" href="css/decoreba.css">
   <link rel="stylesheet" href="css/mode-nav.css">
-<link rel="stylesheet" href="css/multiplayer.css">
-<script type="module" src="js/multiplayer.js?v=2"></script>
+<link rel="stylesheet" href="css/multiplayer.css?v=3">
+<script src="js/subjects.js"></script>
+<script type="module" src="js/multiplayer.js?v=3"></script>
 </head>
 
 <body data-page="home" class="min-h-screen flex flex-col selection:bg-violet-500 selection:text-white overflow-x-hidden">
@@ -58,8 +59,10 @@
       <p id="mp-count" class="mp-note"></p>
       <div id="mp-players" class="mp-players"></div>
       <p id="mp-lobby-status" class="mp-note" aria-live="polite"></p>
-      <div class="mp-actions"><button id="mp-start" disabled>Partida em breve</button><button id="mp-leave">Sair da sala</button></div>
-      <p class="mp-note">Nesta versão, o lobby está disponível; as perguntas e os turnos serão adicionados na próxima etapa.</p>
+      <div id="mp-settings" hidden><h3>Configurações da partida</h3><label>Disciplina<select id="mp-subject"></select></label><label>Tempo por pergunta<select id="mp-time"><option value="15">15 segundos</option><option value="30" selected>30 segundos</option><option value="60">60 segundos</option></select></label><label>Rodadas por jogador<select id="mp-rounds"><option value="3">3</option><option value="5" selected>5</option><option value="10">10</option></select></label></div>
+      <section id="mp-game" hidden><h3 id="mp-turn"></h3><div id="mp-clock" role="timer"></div><p id="mp-question"></p><div id="mp-options" class="mp-options"></div><p id="mp-feedback" aria-live="polite"></p></section>
+      <section id="mp-results" hidden><h3>Ranking final</h3><div id="mp-ranking"></div></section>
+      <div class="mp-actions"><button id="mp-start" disabled>Iniciar partida</button><button id="mp-leave">Sair da sala</button></div>
     </section>
   </main>
   <script>if (window.lucide) lucide.createIcons();</script>
