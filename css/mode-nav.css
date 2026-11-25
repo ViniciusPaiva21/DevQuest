@@ -20,3 +20,12 @@ body header .dq-mode-link:focus-visible { outline: 2px solid currentColor; outli
 .dq-icon-multiplayer { --dq-icon: url('../icons/nav-multiplayer.png'); }
 @media(max-width: 1050px) { .decoreba-nav-shell, .decoreba-nav-shell > :last-child, .decoreba-nav { flex-wrap: wrap; } }
 @media(max-width: 600px) { body header .dq-mode-link { padding: .55rem .45rem; } .decoreba-nav { justify-content: flex-start; } }
+
+/* Navigation icons inherit the link's active theme color. */
+body header .dq-page-link { display:inline-flex; align-items:center; gap:.45rem; padding:.7rem .9rem; white-space:nowrap; }
+body header .dq-page-link.hidden { display:none; }
+@media(min-width:640px){body header .dq-page-link.sm\\:inline-flex{display:inline-flex;}}
+@media(min-width:768px){body header .dq-page-link.md\\:inline-flex{display:inline-flex;}}
+body header .dq-page-link + .dq-page-link { margin-inline-start: .35rem; }
+.dq-page-icon { width:17px; height:17px; flex:0 0 17px; stroke:currentColor; fill:none; stroke-width:1.8; stroke-linecap:round; stroke-linejoin:round; }
+@media(max-width:600px){body header .dq-page-link{padding:.55rem .45rem;} }
