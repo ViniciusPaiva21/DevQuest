@@ -3,7 +3,7 @@
 
   const subjects = window.DEVQUEST_SUBJECTS;
   const subjectIds = window.DEVQUEST_INFERNUS_SUBJECTS;
-  const { answersMatch, escapeHtml, getOptionContent, isCodeOption, shuffle } = window.DevQuestUtils;
+  const { answersMatch, escapeHtml, getOptionContent, isCodeOption, shuffle, renderProse } = window.DevQuestUtils;
 
   const elements = {
     setupScreen: document.getElementById("setup-screen"),
@@ -225,9 +225,9 @@
           ${question.afirmacoes
             .map(
               (item) => `
-                <div class="flex gap-4 p-3 rounded-lg bg-zinc-900/40 border border-zinc-800/50">
+                <div class="dq-prose-statement flex gap-4 p-3 rounded-lg">
                   <span class="font-bold text-white text-sm shrink-0 pt-0.5">${escapeHtml(item.id)}</span>
-                  <span class="text-zinc-300 text-sm font-light leading-relaxed whitespace-pre-line">${escapeHtml(item.texto)}</span>
+                  <span class="text-zinc-300 text-sm leading-relaxed dq-option-copy">${escapeHtml(item.texto)}</span>
                 </div>
               `
             )
@@ -243,9 +243,9 @@
           <span class="text-[10px] font-bold tracking-[.2em] uppercase px-3 py-1 rounded-full bg-white/10 text-zinc-200 border border-white/10">${escapeHtml(question.materia)}</span>
         </div>
         ${title}
-        <p class="text-zinc-300 mt-4 text-sm leading-relaxed whitespace-pre-line" ${question.descricaoMonoespacada ? 'style="font-family:monospace;white-space:pre-wrap"' : ""}>${escapeHtml(question.descricao)}</p>
+        ${question.descricaoMonoespacada ? `<pre class="dq-prose-mono text-zinc-300 mt-4">${escapeHtml(question.descricao)}</pre>` : `<div class="dq-prose text-zinc-300 mt-4 text-sm leading-relaxed">${renderProse(question.descricao)}</div>`}
         ${image}
-        ${question.descricaoAposImagem ? `<p class="text-zinc-300 mt-4 whitespace-pre-line">${escapeHtml(question.descricaoAposImagem)}</p>` : ""}
+        ${question.descricaoAposImagem ? `<div class="dq-prose text-zinc-300 mt-4">${renderProse(question.descricaoAposImagem)}</div>` : ""}
         ${question.originalPDF ? `<p class="original-pdf-hint">Leia as alternativas no recorte original e selecione a letra abaixo. <a href="${escapeHtml(question.imagem)}" target="_blank" rel="noopener">Ampliar questão</a></p>` : ""}
         ${code}
         ${statements}
@@ -281,7 +281,7 @@
       button.innerHTML = `
         <span class="flex gap-3 items-start">
           <span class="font-bold text-white shrink-0">${letters[index] ?? index + 1})</span>
-          <span class="font-light leading-relaxed whitespace-pre-line break-words">${escapeHtml(content)}</span>
+          <span class="dq-option-copy font-light leading-relaxed break-words">${escapeHtml(content)}</span>
         </span>
       `;
     }

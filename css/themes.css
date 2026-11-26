@@ -962,3 +962,18 @@ html[data-theme="classic"] body[data-page="infernus"] #panther-bubble {
 .discursive-material p { margin:.8rem 0; line-height:1.6; }
 .discursive-page { margin:1rem 0; }
 .discursive-page img { display:block; width:100%; height:auto; background:white; margin-top:1rem; }
+
+
+/* Readable question text in all quiz themes. */
+.dq-prose { display: grid; gap: 12px; min-width: 0; width: 100%; white-space: normal; line-height: 1.65; overflow-wrap: anywhere; }
+.dq-prose-paragraph, .dq-prose-list { white-space: normal; min-width: 0; }
+.dq-prose-statement { padding: 12px 14px; border: 1px solid var(--dq-statement-border, #ffffff20); background: var(--dq-statement-bg, #ffffff07); border-radius: 10px; line-height: 1.65; white-space: normal; overflow-wrap: anywhere; }
+.dq-prose-connector { text-align: center; font-size: .75em; font-weight: 800; letter-spacing: .12em; opacity: .85; }
+.dq-prose-mono { white-space: pre-wrap; overflow-wrap: anywhere; font-family: monospace; line-height: 1.65; }
+.dq-option-copy { flex: 1; min-width: 0; white-space: normal; overflow-wrap: anywhere; }
+html[data-theme="classic"] { --dq-statement-border: #c8d8eb; --dq-statement-bg: #eaf1fa; }
+html[data-theme="christmas"] { --dq-statement-border: #bfa76a55; --dq-statement-bg: #15392d; }
+html[data-theme="pixel"] { --dq-statement-border: #8072a9; --dq-statement-bg: #282344; }
+html[data-theme="pixel"] #question-area .dq-prose { font-size: clamp(16px, 2vw, 19px); }
+.decoreba-statements li { border: 1px solid var(--dec-border); border-radius: 10px; padding: 12px 14px; background: var(--dec-option); margin-bottom: 8px; }
+.decoreba-statements span, .decoreba-option-copy { white-space: normal; }

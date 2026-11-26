@@ -3,6 +3,33 @@
   "delayMs": 5000,
   "subjects": {
     "empreendedorismo": {
+      "75339318": [
+        {
+          "texto": "I, II, IV, III.",
+          "chave": "I → II → IV → III",
+          "trecho": "I, II, IV, III"
+        },
+        {
+          "texto": "II, I, III, IV.",
+          "chave": "II → I → III → IV",
+          "trecho": "II, I, III, IV"
+        },
+        {
+          "texto": "II, I, IV, III.",
+          "chave": "II → I → IV → III",
+          "trecho": "II, I, IV, III"
+        },
+        {
+          "texto": "II, III, IV, I.",
+          "chave": "II → III → IV → I",
+          "trecho": "II, III, IV, I"
+        },
+        {
+          "texto": "IV, I, II, III.",
+          "chave": "IV → I → II → III",
+          "trecho": "IV, I, II, III"
+        }
+      ],
       "814f6c9a": [
         {
           "texto": "Somente as afirmativas I, II e III estão corretas.",
@@ -219,33 +246,6 @@
           "trecho": "intuição do gestor"
         }
       ],
-      "e9888bb8": [
-        {
-          "texto": "O ato de empreender com o objetivo de maximizar os lucros.",
-          "chave": "Maximizar lucros",
-          "trecho": "lucro"
-        },
-        {
-          "texto": "Iniciar um negócio com o objetivo de causar um impacto social positivo, além de\ngerar lucro.",
-          "chave": "Impacto social",
-          "trecho": "impacto social"
-        },
-        {
-          "texto": "A criação de startups de tecnologia.",
-          "chave": "Startups tecnológicas",
-          "trecho": "startups"
-        },
-        {
-          "texto": "Uma abordagem para criar empresas com fins lucrativos.",
-          "chave": "Fins lucrativos",
-          "trecho": "fins lucrativos"
-        },
-        {
-          "texto": "Fazer trabalhos voluntários todos os meses, mesmo que não relacionados ao\ncontexto empresarial.",
-          "chave": "Voluntariado mensal",
-          "trecho": "empresarial"
-        }
-      ],
       "ae0b749c": [
         {
           "texto": "Resistência à mudança e falta de visão.",
@@ -408,33 +408,6 @@
           "trecho": "Somente"
         }
       ],
-      "0a65a047": [
-        {
-          "texto": "apenas a opção I",
-          "chave": "Somente I",
-          "trecho": "opção"
-        },
-        {
-          "texto": "apenas a opção II",
-          "chave": "Somente II",
-          "trecho": "apenas a opção II"
-        },
-        {
-          "texto": "apenas as opções I, II",
-          "chave": "I + II",
-          "trecho": "apenas as opções I, II"
-        },
-        {
-          "texto": "as opções II, III",
-          "chave": "II + III",
-          "trecho": "opções"
-        },
-        {
-          "texto": "as opções III, IV",
-          "chave": "III + IV",
-          "trecho": "as opções III, IV"
-        }
-      ],
       "be39ae57": [
         {
           "texto": "Hierarquia rígida e procedimentos burocráticos.",
@@ -543,60 +516,6 @@
           "trecho": "IV, II, III e I"
         }
       ],
-      "f6ec5d2e": [
-        {
-          "texto": "As asserções I e II são proposições verdadeiras e a II é uma justificativa correta da I.",
-          "chave": "V/V com justificativa",
-          "trecho": "I e II são proposições verdadeiras"
-        },
-        {
-          "texto": "As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa da I.",
-          "chave": "V/V sem justificativa",
-          "trecho": "não é uma justificativa"
-        },
-        {
-          "texto": "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.",
-          "chave": "V/F",
-          "trecho": "falsa"
-        },
-        {
-          "texto": "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira.",
-          "chave": "F/V",
-          "trecho": "verdadeira"
-        },
-        {
-          "texto": "As asserções I e II são proposições falsas.",
-          "chave": "F/F",
-          "trecho": "falsas"
-        }
-      ],
-      "3c63b840": [
-        {
-          "texto": "As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa da I.",
-          "chave": "V/V sem justificativa",
-          "trecho": "I e II são proposições verdadeiras"
-        },
-        {
-          "texto": "As asserções I e II são proposições verdadeiras e a II é uma justificativa correta da I.",
-          "chave": "V/V com justificativa",
-          "trecho": "justificativa"
-        },
-        {
-          "texto": "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.",
-          "chave": "V/F",
-          "trecho": "falsa"
-        },
-        {
-          "texto": "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira.",
-          "chave": "F/V",
-          "trecho": "verdadeira"
-        },
-        {
-          "texto": "As asserções I e II são proposições falsas.",
-          "chave": "F/F",
-          "trecho": "falsas"
-        }
-      ],
       "709acd6f": [
         {
           "texto": "Um documento que descreve os objetivos do negócio, à estratégia para alcançá-\nlos e os meios financeiros necessários e a estratégia para alcançá-los e os meios\nfinanceiros necessários.",
@@ -624,33 +543,6 @@
           "trecho": "protocolos internos"
         }
       ],
-      "61a48468": [
-        {
-          "texto": "I, II, IV, III.",
-          "chave": "I → II → IV → III",
-          "trecho": "I, II, IV, III"
-        },
-        {
-          "texto": "II, I, III, IV.",
-          "chave": "II → I → III → IV",
-          "trecho": "II, I, III, IV"
-        },
-        {
-          "texto": "II, I, IV, III.",
-          "chave": "II → I → IV → III",
-          "trecho": "II, I, IV, III"
-        },
-        {
-          "texto": "II, III, IV, I.",
-          "chave": "II → III → IV → I",
-          "trecho": "II, III, IV, I"
-        },
-        {
-          "texto": "IV, I, II, III.",
-          "chave": "IV → I → II → III",
-          "trecho": "IV, I, II, III"
-        }
-      ],
       "c00cd5a5": [
         {
           "texto": "I.",
@@ -676,6 +568,114 @@
           "texto": "III e IV.",
           "chave": "III + IV",
           "trecho": "III e IV"
+        }
+      ],
+      "80cf3743": [
+        {
+          "texto": "O ato de empreender com o objetivo de maximizar os lucros.",
+          "chave": "Maximizar lucros",
+          "trecho": "lucro"
+        },
+        {
+          "texto": "Iniciar um negócio com o objetivo de causar um impacto social positivo, além de\ngerar lucro.",
+          "chave": "Impacto social",
+          "trecho": "impacto social"
+        },
+        {
+          "texto": "A criação de startups de tecnologia.",
+          "chave": "Startups tecnológicas",
+          "trecho": "startups"
+        },
+        {
+          "texto": "Uma abordagem para criar empresas com fins lucrativos.",
+          "chave": "Fins lucrativos",
+          "trecho": "fins lucrativos"
+        },
+        {
+          "texto": "Fazer trabalhos voluntários todos os meses, mesmo que não relacionados ao\ncontexto empresarial.",
+          "chave": "Voluntariado mensal",
+          "trecho": "empresarial"
+        }
+      ],
+      "d8086184": [
+        {
+          "texto": "apenas a opção I",
+          "chave": "Somente I",
+          "trecho": "opção"
+        },
+        {
+          "texto": "apenas a opção II",
+          "chave": "Somente II",
+          "trecho": "apenas a opção II"
+        },
+        {
+          "texto": "apenas as opções I, II",
+          "chave": "I + II",
+          "trecho": "apenas as opções I, II"
+        },
+        {
+          "texto": "as opções II, III",
+          "chave": "II + III",
+          "trecho": "opções"
+        },
+        {
+          "texto": "as opções III, IV",
+          "chave": "III + IV",
+          "trecho": "as opções III, IV"
+        }
+      ],
+      "a35a7dc8": [
+        {
+          "texto": "As asserções I e II são proposições verdadeiras e a II é uma justificativa correta da I.",
+          "chave": "V/V com justificativa",
+          "trecho": "I e II são proposições verdadeiras"
+        },
+        {
+          "texto": "As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa da I.",
+          "chave": "V/V sem justificativa",
+          "trecho": "não é uma justificativa"
+        },
+        {
+          "texto": "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.",
+          "chave": "V/F",
+          "trecho": "falsa"
+        },
+        {
+          "texto": "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira.",
+          "chave": "F/V",
+          "trecho": "verdadeira"
+        },
+        {
+          "texto": "As asserções I e II são proposições falsas.",
+          "chave": "F/F",
+          "trecho": "falsas"
+        }
+      ],
+      "4270e128": [
+        {
+          "texto": "As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa da I.",
+          "chave": "V/V sem justificativa",
+          "trecho": "I e II são proposições verdadeiras"
+        },
+        {
+          "texto": "As asserções I e II são proposições verdadeiras e a II é uma justificativa correta da I.",
+          "chave": "V/V com justificativa",
+          "trecho": "justificativa"
+        },
+        {
+          "texto": "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.",
+          "chave": "V/F",
+          "trecho": "falsa"
+        },
+        {
+          "texto": "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira.",
+          "chave": "F/V",
+          "trecho": "verdadeira"
+        },
+        {
+          "texto": "As asserções I e II são proposições falsas.",
+          "chave": "F/F",
+          "trecho": "falsas"
         }
       ]
     },

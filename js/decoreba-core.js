@@ -1,7 +1,7 @@
 (function () {
   "use strict";
 
-  const { escapeHtml, getOptionContent, answersMatch, shuffle } = window.DevQuestUtils;
+  const { escapeHtml, getOptionContent, answersMatch, shuffle, renderProse } = window.DevQuestUtils;
 
   // Text and answer identify a question, independently of its position or option order.
   function questionKey(question) {
@@ -89,9 +89,20 @@
       return html.replace(/\r\n/g, "\n").replace(/\n(?!\n|\s*(?:[IVX]+[.)]|\d+[.)]|[-•])\s)/g, " ").replace(/\n+/g, "<br><br>");
     };
     const title = question.titulo ? `<h2 class="decoreba-question-title">${render("titulo")}</h2>` : "";
-    const description = fields.descricao ? `<p class="decoreba-prompt${question.descricaoMonoespacada ? " decoreba-monospace" : ""}">${render("descricao")}</p>` : "";
+    const formatted = field => {
+      const selected = cues.pergunta.filter(cue => cue.campo === field).map(cue => cue.texto);
+      const used = new Set();
+      const result = renderProse(fields[field], text => {
+        const local = selected.filter(cue => !used.has(cue) && text.includes(cue));
+        local.forEach(cue => used.add(cue));
+        return highlight(text, local);
+      });
+      // Keep the original highlighting when a cue crosses a paragraph boundary.
+      return used.size === new Set(selected).size ? result : render(field);
+    };
+    const description = fields.descricao ? (question.descricaoMonoespacada ? `<p class="decoreba-prompt decoreba-monospace">${render("descricao")}</p>` : `<div class="decoreba-prompt dq-prose">${formatted("descricao")}</div>`) : "";
     const figure = question.imagem ? `<figure class="decoreba-figure"><img src="${escapeHtml(question.imagem)}" alt="${escapeHtml(question.titulo || "Figura da questão")}" loading="lazy"><a href="${escapeHtml(question.imagem)}" target="_blank" rel="noopener">Ampliar figura ↗</a></figure>` : "";
-    const after = fields.descricaoAposImagem ? `<p class="decoreba-prompt">${render("descricaoAposImagem")}</p>` : "";
+    const after = fields.descricaoAposImagem ? `<div class="decoreba-prompt dq-prose">${formatted("descricaoAposImagem")}</div>` : "";
     const code = fields.codigo ? `<pre class="decoreba-code"><code>${render("codigo")}</code></pre>` : "";
     const statements = (question.afirmacoes || []).map((item, index) =>
       `<li><strong>${escapeHtml(typeof item === "string" ? `${index + 1}.` : item.id)}</strong><span>${render(`afirmacoes.${index}`)}</span></li>`

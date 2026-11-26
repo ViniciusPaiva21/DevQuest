@@ -39,7 +39,30 @@
     return comparableAnswer(selected) === comparableAnswer(expected);
   }
 
+  // PDF line wraps are not paragraph breaks. Keep actual lists and asserções separate.
+  function proseBlocks(value) {
+    const blocks = [];
+    let current = null;
+    const begin = (kind, text) => { current = { kind, text }; blocks.push(current); };
+    for (const raw of String(value ?? "").replace(/\r\n?/g, "\n").split("\n")) {
+      const line = raw.trim();
+      if (!line) { current = null; continue; }
+      if (/^(?:PORQUE|POIS)$/i.test(line)) { begin("connector", line); continue; }
+      if (/^(?:VIII|VII|III|VI|IV|IX|II|I|V|X)[.)]\s+/.test(line)) { begin("statement", line); continue; }
+      if (/^(?:\(\s*\)|[-•–]|\d+[.)])\s+/.test(line)) { begin("list", line); continue; }
+      const instruction = /^(?:A respeito dess[ae]s|É correto|Est[áã] (?:\(ão\)\s*correta?|corret[ao]s?|\(ao\)\s*correta?)|Assinale|Marque|Selecione|Qual (?:das|dos|é|afirmação)|Com (?:base|relação)|Considerando|Avalie|Analise|Associe)\b/i.test(line);
+      if (!current || current.kind === "connector" || instruction) begin("paragraph", line);
+      else current.text += "\n" + line;
+    }
+    return blocks;
+  }
+  function renderProse(value, render = escapeHtml) {
+    return proseBlocks(value).map(({kind,text}) => '<div class="dq-prose-' + kind + '">' + render(text).replace(/\n/g, " ") + '</div>').join('');
+  }
+
   window.DevQuestUtils = Object.freeze({
+    proseBlocks,
+    renderProse,
     answersMatch,
     escapeHtml,
     getOptionContent,

@@ -2392,6 +2392,21 @@
       }
     },
     "empreendedorismo": {
+      "75339318": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Sociológicos"
+          },
+          {
+            "campo": "descricao",
+            "texto": "políticas"
+          }
+        ],
+        "resposta": [
+          "II, I, IV, III."
+        ]
+      },
       "814f6c9a": {
         "pergunta": [
           {
@@ -2494,18 +2509,6 @@
           "público-alvo"
         ]
       },
-      "e9888bb8": {
-        "pergunta": [
-          {
-            "campo": "descricao",
-            "texto": "empreendedorismo"
-          }
-        ],
-        "resposta": [
-          "positivo",
-          "lucro"
-        ]
-      },
       "ae0b749c": {
         "pergunta": [
           {
@@ -2586,21 +2589,6 @@
           "II, III e IV"
         ]
       },
-      "0a65a047": {
-        "pergunta": [
-          {
-            "campo": "descricao",
-            "texto": "comportamento empreendedor"
-          },
-          {
-            "campo": "descricao",
-            "texto": "empreendedorismo"
-          }
-        ],
-        "resposta": [
-          "apenas as opções I, II"
-        ]
-      },
       "be39ae57": {
         "pergunta": [
           {
@@ -2659,34 +2647,6 @@
           "IV, II, III e I."
         ]
       },
-      "f6ec5d2e": {
-        "pergunta": [
-          {
-            "campo": "descricao",
-            "texto": "Empreendedorismo"
-          }
-        ],
-        "resposta": [
-          "I e II são proposições verdadeiras",
-          "não é uma justificativa"
-        ]
-      },
-      "3c63b840": {
-        "pergunta": [
-          {
-            "campo": "descricao",
-            "texto": "Plano de Negócios"
-          },
-          {
-            "campo": "descricao",
-            "texto": "chave"
-          }
-        ],
-        "resposta": [
-          "I e II são proposições verdadeiras",
-          "não é uma justificativa"
-        ]
-      },
       "709acd6f": {
         "pergunta": [
           {
@@ -2697,21 +2657,6 @@
         "resposta": [
           "objetivos do negócio",
           "meios financeiros"
-        ]
-      },
-      "61a48468": {
-        "pergunta": [
-          {
-            "campo": "descricao",
-            "texto": "Sociológicos"
-          },
-          {
-            "campo": "descricao",
-            "texto": "políticas"
-          }
-        ],
-        "resposta": [
-          "II, I, IV, III."
         ]
       },
       "c00cd5a5": {
@@ -2727,6 +2672,61 @@
         ],
         "resposta": [
           "III e IV."
+        ]
+      },
+      "80cf3743": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "empreendedorismo"
+          }
+        ],
+        "resposta": [
+          "positivo",
+          "lucro"
+        ]
+      },
+      "d8086184": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "comportamento empreendedor"
+          },
+          {
+            "campo": "descricao",
+            "texto": "empreendedorismo"
+          }
+        ],
+        "resposta": [
+          "apenas as opções I, II"
+        ]
+      },
+      "a35a7dc8": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Empreendedorismo"
+          }
+        ],
+        "resposta": [
+          "I e II são proposições verdadeiras",
+          "não é uma justificativa"
+        ]
+      },
+      "4270e128": {
+        "pergunta": [
+          {
+            "campo": "descricao",
+            "texto": "Plano de Negócios"
+          },
+          {
+            "campo": "descricao",
+            "texto": "chave"
+          }
+        ],
+        "resposta": [
+          "I e II são proposições verdadeiras",
+          "não é uma justificativa"
         ]
       }
     },

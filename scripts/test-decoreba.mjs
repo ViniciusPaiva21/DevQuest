@@ -182,8 +182,8 @@ console.log('Piloto: 90 questões, chaves por conteúdo, sem revelação antecip
 const sample={question:{descricao:'Uma linha quebrada\ncontinua aqui.\nI. Primeira afirmação.\nII. Segunda afirmação.',opcoes:['Sim','Não'],resposta:'Sim'}, cues:{pergunta:[{campo:'descricao',texto:'linha'}],resposta:['Sim']},options:['Sim','Não']};
 const sampleHtml=core.renderQuestion(sample);
 assert.ok(sampleHtml.includes('quebrada continua aqui.'));
-assert.ok(sampleHtml.includes('<br><br>I.'));
-assert.ok(sampleHtml.includes('<br><br>II.'));
+assert.ok(sampleHtml.includes('class="dq-prose-statement">I.'));
+assert.ok(sampleHtml.includes('class="dq-prose-statement">II.'));
 console.log('Layout: brilho dentro do texto, sem etiquetas, parágrafos/afirmações preservados e linhas laterais de 100% até 0% em 5s validados.');
 
 assert.equal(pilotData.delayMs, 5000);
