@@ -1,0 +1,57 @@
+/* Compact home: approved layout, scoped so catalog and multiplayer are unchanged. */
+.dq-home-compact {
+  --home-accent:#a78bfa; --home-text:#f4f3fa; --home-muted:#aaa6b7;
+  --home-line:#292636; --home-surface:#141318;
+  width:min(calc(100% - 48px),1240px); margin:0 auto; padding:30px 0 26px;
+  position:relative;
+}
+html[data-theme="classic"] .dq-home-compact {--home-accent:#245bac;--home-text:#17263c;--home-muted:#52657b;--home-line:#d1dae7;--home-surface:#fff;}
+html[data-theme="christmas"] .dq-home-compact {--home-accent:#e5c379;--home-text:#fff5db;--home-muted:#c1ccb9;--home-line:#334c3d;--home-surface:#14281e;}
+html[data-theme="pixel"] .dq-home-compact {--home-accent:#dab0ff;--home-text:#fff1d2;--home-muted:#c7bceb;--home-line:#564572;--home-surface:#2b2245;}
+.dq-home-heading {display:flex;justify-content:space-between;align-items:flex-end;gap:15px;margin-bottom:15px;}
+.dq-home-kicker {color:var(--home-accent);font-size:10px;text-transform:uppercase;letter-spacing:.15em;font-weight:800;}
+.dq-home-heading h1 {font-size:clamp(27px,3vw,39px);margin:4px 0 2px;line-height:1.12;letter-spacing:-.045em;font-weight:850;color:var(--home-text);}
+.dq-home-heading p {font-size:14px;margin:4px 0 0;color:var(--home-muted);}
+.dq-home-heading .dq-ag-hint {font-size:12px;white-space:nowrap;margin:0;}
+.dq-home-compact .dq-ag-gallery {height:clamp(340px,48vh,460px);}
+.dq-home-compact .dq-ag-top {top:15px;}
+.dq-home-compact .dq-ag-content {bottom:23px;}
+.dq-home-compact .dq-ag-content h3 {max-width:460px;}
+.dq-home-compact .dq-ag-bottom {margin-top:10px;}
+.dq-home-quick-grid {display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:14px;margin-top:24px;}
+.dq-home-quick {min-height:126px;display:flex;align-items:center;gap:15px;padding:19px 20px;border:1px solid var(--home-line);border-radius:15px;background:var(--home-surface);color:var(--home-text);transition:border-color .2s,transform .2s;position:relative;text-decoration:none;}
+.dq-home-quick:hover {border-color:var(--home-accent);transform:translateY(-2px);}
+.dq-home-infernus {border-color:#67473a;background:linear-gradient(135deg,#22261e,#1d1515);color:#e3e5d9;}
+.dq-home-infernus:hover {border-color:#aaa991;}
+.dq-home-quick-icon {width:50px;height:50px;border-radius:12px;background:#a78bfa13;border:1px solid #a78bfa38;display:grid;place-items:center;flex:none;color:var(--home-accent);}
+.dq-home-infernus .dq-home-quick-icon {color:#b7c2a5;background:#0c110e;border-color:#767e6155;}
+.dq-home-quick-icon svg {width:25px;height:25px;}
+.dq-home-quick-copy {flex:1;min-width:0;}
+.dq-home-quick-copy .dq-home-kicker {font-size:9px;letter-spacing:.13em;}
+.dq-home-infernus .dq-home-kicker {color:#a5ad94;}
+.dq-home-quick-copy h2 {font-size:21px;font-weight:800;letter-spacing:-.035em;line-height:1.2;margin:3px 0 5px;}
+.dq-home-quick-copy p {font-size:12px;color:var(--home-muted);margin:0;line-height:1.5;}
+.dq-home-infernus .dq-home-quick-copy p,.dq-home-infernus .dq-home-arrow {color:#b0b4a6;}
+.dq-home-arrow {font-size:20px;color:var(--home-muted);}
+.dq-home-quick:focus-visible {outline:3px solid var(--home-accent);outline-offset:3px;}
+body[data-layout="compact"] #cat-svg {width:105px;height:105px;}
+body[data-layout="compact"] .site-footer > div {padding-block:15px;}
+@media(min-width:641px) and (max-height:820px) {
+  .dq-home-compact .dq-ag-collapsed {font-size:clamp(12px,1.3vw,16px);}
+}
+@media(max-width:900px) {
+  .dq-home-compact .dq-ag-gallery {height:390px;}
+  .dq-home-quick {padding:14px;}
+  body[data-layout="compact"] #cat-svg {width:70px;height:70px;}
+}
+@media(max-width:640px) {
+  .dq-home-compact {width:calc(100% - 28px);padding:20px 0;}
+  .dq-home-compact .dq-ag-gallery {height:630px;}
+  .dq-home-compact .dq-ag-content {bottom:16px;}
+  .dq-home-quick-grid {grid-template-columns:1fr;gap:10px;margin-top:18px;}
+  .dq-home-quick {min-height:100px;}
+  .dq-home-quick-copy h2 {font-size:18px;}
+  .dq-home-heading p {font-size:12px;}
+  body[data-layout="compact"] #cat-svg {width:64px;height:64px;}
+}
+@media(prefers-reduced-motion:reduce) {.dq-home-quick {transition:none;}.dq-home-quick:hover {transform:none;}}

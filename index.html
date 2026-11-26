@@ -14,9 +14,10 @@
   <link rel="stylesheet" href="css/decoreba.css">
   <link rel="stylesheet" href="css/mode-nav.css">
   <link rel="stylesheet" href="css/featured-accordion.css?v=1">
+  <link rel="stylesheet" href="css/home-compact.css?v=1">
 </head>
 
-<body data-page="home" class="min-h-screen flex flex-col selection:bg-violet-500 selection:text-white overflow-x-hidden">
+<body data-page="home" data-layout="compact" class="min-h-screen flex flex-col selection:bg-violet-500 selection:text-white overflow-x-hidden">
   <header class="site-header w-full px-5 md:px-6 py-4 sticky top-0 z-50">
     <div class="max-w-7xl mx-auto decoreba-nav-shell flex items-center justify-between gap-4">
       <a href="index.html" class="brand flex items-center gap-3 group" aria-label="Página inicial do DevQuest">
@@ -46,104 +47,51 @@
     <div class="ambient ambient--blue" aria-hidden="true"></div>
     <div class="ambient ambient--violet" aria-hidden="true"></div>
 
-    <section class="max-w-7xl mx-auto px-5 md:px-6 pt-14 md:pt-20 pb-20">
-      <div class="hero max-w-4xl mx-auto text-center">
-        <span class="hero-eyebrow">
-          <i data-lucide="sparkles" class="w-4 h-4"></i>
-          Destaques ADS e CC
-        </span>
-
-        <h1 class="text-4xl sm:text-5xl md:text-7xl font-black tracking-[-0.055em] leading-[0.95] mt-6 mb-6">
-          Cinco novas matérias em destaque,<br>
-          <span class="hero-gradient">prontas para revisar.</span>
-        </h1>
-
-        <p class="text-zinc-400 text-base md:text-lg leading-relaxed max-w-2xl mx-auto">
-          Estrutura de Dados II, Álgebra Linear e Geometria Analítica, Empreendedorismo e Negócios, Sistemas de Apoio à Tomada de Decisão e Segurança da Informação. Questões originais dos materiais de revisão.
-        </p>
-
-        <div class="course-jumps" aria-label="Atalhos principais">
-          <a href="#destaques" class="course-jump course-jump--ads">
-            <span class="course-jump-dot" aria-hidden="true"></span>
-            <span class="course-jump-copy">
-              <strong>Destaques</strong>
-              <small>5 matérias</small>
-            </span>
-            <i data-lucide="arrow-down" class="w-4 h-4"></i>
-          </a>
-
-          <a href="disciplinas.html" class="course-jump course-jump--cc">
-            <span class="course-jump-dot" aria-hidden="true"></span>
-            <span class="course-jump-copy">
-              <strong>Catálogo completo</strong>
-              <small>24 cards</small>
-            </span>
-            <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
-          </a>
-        </div>
-      </div>
-
-      <section id="destaques" class="course-section course-section--ads scroll-mt-28" aria-labelledby="featured-heading">
-        <div class="catalog-intro">
-          <span>Destaques ADS e CC</span>
-          <h2 id="featured-heading">Novas disciplinas em destaque</h2>
-          <p>Cinco novas matérias de ADS e CC, cada uma com cor própria e acesso direto ao quiz.</p>
-        </div>
-
-        <div class="dq-ag-shell">
+    <div class="dq-home-compact">
+      <section id="destaques" class="scroll-mt-28" aria-labelledby="featured-heading">
+        <div class="dq-home-heading">
+          <div>
+            <span class="dq-home-kicker">ADS e Ciência da Computação</span>
+            <h1 id="featured-heading">Disciplinas em destaque</h1>
+            <p>Escolha uma matéria e comece a estudar.</p>
+          </div>
           <p class="dq-ag-hint">Passe o mouse para explorar <span aria-hidden="true">↔</span></p>
+        </div>
+        <div class="dq-ag-shell">
           <div id="dq-ag-gallery" class="dq-ag-gallery" aria-label="Disciplinas de ADS e CC em destaque"></div>
           <div class="dq-ag-bottom"><span id="dq-ag-indicator" aria-live="polite"></span><div id="dq-ag-dots" class="dq-ag-dots" aria-label="Selecionar disciplina"></div><span id="dq-ag-count"></span></div>
         </div>
       </section>
 
-      <section id="infernus" class="infernus-section" aria-labelledby="infernus-heading">
-        <a href="infernus.html" class="infernus-card group">
-          <span class="infernus-scratch infernus-scratch--one" aria-hidden="true"></span>
-          <span class="infernus-scratch infernus-scratch--two" aria-hidden="true"></span>
-
-          <div class="infernus-symbol" aria-hidden="true">
-            <i data-lucide="skull" class="w-9 h-9"></i>
-            <span>III</span>
+      <section class="dq-home-quick-grid" aria-label="Outras opções de estudo">
+        <a id="infernus" class="dq-home-quick dq-home-infernus" href="infernus.html">
+          <span class="dq-home-quick-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a8 8 0 0 0-5 14v3h10v-3a8 8 0 0 0-5-14Z"/><circle cx="9" cy="11" r="1.5"/><circle cx="15" cy="11" r="1.5"/><path d="M12 15v1M10 18v2M14 18v2"/></svg>
+          </span>
+          <div class="dq-home-quick-copy">
+            <span class="dq-home-kicker">Modo especial</span>
+            <h2>Modo Infernus</h2>
+            <p>Enfrente questões embaralhadas com limite de erros.</p>
           </div>
-
-          <div class="infernus-copy">
-            <span class="infernus-kicker">
-              <span class="infernus-status-dot"></span>
-              Protocolo interditado · modo especial
-            </span>
-            <h2 id="infernus-heading">Modo Infernus</h2>
-            <p>Escolha suas matérias e enfrente tudo embaralhado: com 1 matéria, 1 erro reinicia o desafio; com 2 ou mais, o limite é de 3 erros.</p>
-            <div class="infernus-tags" aria-label="Regras do modo Infernus">
-              <span>A partir de 1 matéria</span>
-              <span>1 matéria: 1 erro · 2 ou mais: 3 erros</span>
-              <span>Ordem caótica</span>
-            </div>
+          <span class="dq-home-arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="dq-home-quick" href="disciplinas.html">
+          <span class="dq-home-quick-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="7" height="16" rx="1.5"/><rect x="14" y="4" width="7" height="16" rx="1.5"/><path d="M6 8h1m10 0h1M6 12h1m10 0h1"/></svg>
+          </span>
+          <div class="dq-home-quick-copy">
+            <span class="dq-home-kicker">ADS + CC</span>
+            <h2>Acervo completo</h2>
+            <p>Explore os 24 cards de disciplinas organizados por curso.</p>
           </div>
-
-          <div class="infernus-action">
-            <span>Entrar por sua conta</span>
-            <i data-lucide="arrow-up-right" class="w-5 h-5"></i>
-          </div>
+          <span class="dq-home-arrow" aria-hidden="true">↗</span>
         </a>
       </section>
-
-      <section class="catalog-gateway" aria-labelledby="catalog-gateway-heading">
-        <div>
-          <span class="catalog-gateway-kicker">ADS + Ciência da Computação</span>
-          <h2 id="catalog-gateway-heading">Quer ver o acervo inteiro?</h2>
-          <p>Abra a página de disciplinas para navegar pelos 24 cards, separados por curso e com cores exclusivas.</p>
-        </div>
-        <a href="disciplinas.html" class="catalog-gateway-action">
-          Ver todas as disciplinas
-          <i data-lucide="arrow-right" class="w-5 h-5"></i>
-        </a>
-      </section>
-    </section>
+    </div>
   </main>
 
   <footer class="site-footer w-full relative z-10">
-    <div class="max-w-7xl mx-auto px-6 py-8 flex flex-col md:flex-row justify-between items-center gap-4">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex flex-col md:flex-row justify-between items-center gap-4">
       <div class="text-center md:text-left">
         <p class="text-zinc-500 text-sm flex items-center justify-center md:justify-start gap-1.5">
           Feito com
