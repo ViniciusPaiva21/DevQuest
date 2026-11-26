@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex"><title>DevQuest — Modo Dev</title>
+<link rel="stylesheet" href="css/dev-mode.css">
+</head>
+<body>
+<canvas id="dev-grid" aria-hidden="true"></canvas>
+<header><a href="index.html" class="brand"><span class="terminal" aria-hidden="true">&gt;_</span> Dev<span>Quest</span></a><span class="mode-tag">MODO DEV</span><a class="exit" href="index.html">Sair ↗</a></header>
+<main>
+<section id="setup" class="panel" hidden>
+  <p class="eyebrow">ACESSO SECRETO · MODO DEV</p><h1>Treine até dominar.</h1>
+  <p class="muted">Escolha sua disciplina e complete todas as rodadas de revisão.</p>
+  <label for="course">Trilha</label><select id="course"><option value="ADS">Análise e Desenvolvimento de Sistemas</option><option value="CC">Ciência da Computação</option></select>
+  <label for="subject">Disciplina</label><select id="subject"></select>
+  <button id="start" class="primary" type="button">Iniciar treinamento ↗</button><p id="load-status" role="status" class="muted"></p>
+</section>
+<section id="session" hidden>
+  <div class="session-heading"><div><p class="eyebrow">MODO DEV</p><h1 id="subject-title"></h1></div><span id="round" class="mode-tag"></span></div>
+  <div class="progress-label"><span id="position"></span><span id="correct-count"></span></div><progress id="progress" value="0" max="1"></progress>
+  <article class="panel question-panel" id="question"></article>
+  <div class="options" id="options" role="group" aria-label="Alternativas"></div>
+  <button id="next" class="primary" hidden>Próxima questão →</button>
+  <button id="back" class="quiet" type="button">Voltar à seleção</button>
+</section>
+<section id="result" class="panel" hidden aria-live="polite">
+  <p class="eyebrow">TREINAMENTO CONCLUÍDO</p><h1 tabindex="-1" id="result-title">Você dominou o desafio.</h1>
+  <p>Todas as questões foram respondidas corretamente dentro do limite em pelo menos uma tentativa.</p><p id="result-detail" class="muted"></p>
+  <button id="restart" class="primary">Treinar novamente</button><button id="choose" class="quiet">Escolher outra disciplina</button>
+</section>
+</main>
+<dialog id="welcome" aria-labelledby="welcome-title"><div class="modal-icon" aria-hidden="true">&lt;/&gt;</div><p class="eyebrow">EASTER EGG DESBLOQUEADO</p><h1 id="welcome-title">VOCÊ DESCOBRIU O MODO DEV</h1><p>Acertar não é suficiente. Aqui, você treina conhecimento e velocidade.</p><p>Um relógio invisível mede suas respostas. Se você errar ou demorar mais de 5 segundos, a questão voltará em uma rodada de revisão, sem nenhum aviso de lentidão durante o quiz.</p><p>As rodadas continuam até você responder corretamente a todas as questões em até 5 segundos. Não há limite de tentativas.</p><button id="ok" class="primary" autofocus>OK</button></dialog>
+<script src="js/subjects.js"></script><script src="js/utils.js"></script><script src="js/dev-grid.js"></script><script src="js/dev-mode.js"></script>
+</body></html>
