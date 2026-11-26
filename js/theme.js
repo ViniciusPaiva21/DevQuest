@@ -184,8 +184,86 @@
     document.body.appendChild(atmosphere);
   }
 
+
+  // One lightweight, theme-aware favicon shared by every application page.
+  function initializeFavicon() {
+    if (!document.head || !document.createElement || !window.matchMedia) return;
+    if (document.getElementById("devquest-favicon")) return;
+
+    const palette = {
+      dark:      { bg: "#18181f", border: "#45405a", ink: "#c4a5ff" },
+      classic:   { bg: "#e9f2ff", border: "#b8c9e4", ink: "#2459a8" },
+      christmas: { bg: "#102d25", border: "#53634c", ink: "#f6cf79" },
+      pixel:     { bg: "#211936", border: "#604c87", ink: "#dfbaff" }
+    };
+    const shapes = ["M 11 10 L 4.5 16 L 11 22", "M 19 7 L 13 25", "M 21 10 L 27.5 16 L 21 22"];
+    const icon = document.createElement("link");
+    icon.id = "devquest-favicon";
+    icon.rel = "icon";
+    icon.type = "image/svg+xml";
+    icon.setAttribute("sizes", "any");
+    document.head.appendChild(icon);
+
+    const motion = window.matchMedia("(prefers-reduced-motion: reduce)");
+    const ease = x => { const t = Math.max(0, Math.min(1, x)); return t * t * (3 - 2 * t); };
+    // Full symbol remains visible for most of the cycle. No abrupt flashes.
+    // Fade down in sequence, then gently draw the three symbols back in.
+    const frames = [];
+    let timer = null;
+    let index = 0;
+    function createFrame(theme, levels) {
+      const color = palette[theme] || palette.dark;
+      const lines = shapes.map((d, i) =>
+        '<path d="' + d + '" opacity="' + levels[i].toFixed(3) + '"/>'
+      ).join("");
+      const svg = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">' +
+        '<rect x="1" y="1" width="30" height="30" rx="7" fill="' + color.bg + '" stroke="' + color.border + '"/>' +
+        '<g fill="none" stroke="' + color.ink + '" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">' + lines + '</g></svg>';
+      return "data:image/svg+xml," + encodeURIComponent(svg);
+    }
+    function stop() {
+      if (timer !== null) window.clearTimeout(timer);
+      timer = null;
+    }
+    function rebuild() {
+      stop();
+      const theme = document.documentElement.dataset.theme;
+      const full = createFrame(theme, [1, 1, 1]);
+      icon.href = full;
+      frames.length = 0;
+      index = 0;
+      if (motion.matches || document.hidden) return;
+      const steps = 18;
+      for (let j = 0; j <= steps; j++) {
+        const t = j / steps;
+        frames.push(createFrame(theme, shapes.map((_, i) => 1 - .78 * ease((t - i * .13) / .65))));
+      }
+      for (let j = 1; j <= steps; j++) {
+        const t = j / steps;
+        frames.push(createFrame(theme, shapes.map((_, i) => .22 + .78 * ease((t - i * .13) / .65))));
+      }
+      function advance() {
+        if (motion.matches || document.hidden) { stop(); icon.href = full; return; }
+        icon.href = frames[index++];
+        if (index === frames.length) {
+          index = 0;
+          timer = window.setTimeout(advance, 3200);
+        } else {
+          timer = window.setTimeout(advance, 115);
+        }
+      }
+      timer = window.setTimeout(advance, 3200);
+    }
+    window.addEventListener("devquest:themechange", rebuild);
+    document.addEventListener("visibilitychange", rebuild);
+    if (motion.addEventListener) motion.addEventListener("change", rebuild);
+    else if (motion.addListener) motion.addListener(rebuild);
+    rebuild();
+  }
+
   const initialTheme = readSavedTheme();
   applyTheme(initialTheme, false);
+  initializeFavicon();
 
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", initializeThemeControls, { once: true });
