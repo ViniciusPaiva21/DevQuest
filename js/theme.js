@@ -2,9 +2,9 @@
   "use strict";
 
   const STORAGE_KEY = "devquest-theme";
-  const DEFAULT_THEME = "christmas";
+  const DEFAULT_THEME = "dark";
   const SETTINGS_KEY = "devquest-night-settings";
-  const defaults = Object.freeze({ effect: true, interactive: true, paw: true, opacity: 16 });
+  const defaults = Object.freeze({ effect: true, interactive: true, paw: true, opacity: 45 });
   function readSettings() {
     try {
       const saved = JSON.parse(window.localStorage.getItem(SETTINGS_KEY) || "{}");
@@ -157,7 +157,7 @@
           <section class="dq-night-settings" data-night-settings hidden aria-label="Efeitos do tema Noite">
             <div class="dq-settings-heading"><strong>Tema Noite</strong><span>Letter Glitch</span></div>
             <label class="dq-settings-range">
-              <span>Intensidade do fundo <output data-night-opacity>16%</output></span>
+              <span>Intensidade do fundo <output data-night-opacity>45%</output></span>
               <input type="range" min="0" max="45" step="1" data-night-setting="opacity" aria-label="Intensidade do fundo">
             </label>
             <label class="dq-settings-toggle"><span>Fundo de letras</span><input type="checkbox" data-night-setting="effect"></label>
