@@ -261,9 +261,66 @@
     rebuild();
   }
 
+
+  // Mouse cursor states exclusive to Noite. Native cursor, no overlay or lag.
+  function initializeNightCursor() {
+    if (!window.matchMedia || !document.head || !document.createElement) return;
+    const root = document.documentElement;
+    const mouse = window.matchMedia("(any-hover: hover) and (any-pointer: fine)");
+    const reduced = window.matchMedia("(prefers-reduced-motion: reduce)");
+    const scriptUrl = document.currentScript?.src;
+    let releaseTimer = null;
+    let down = false;
+    const enabled = () => root.dataset.theme === "dark" && mouse.matches;
+    function reset() {
+      if (releaseTimer !== null) window.clearTimeout(releaseTimer);
+      releaseTimer = null;
+      down = false;
+      delete root.dataset.dqPaw;
+    }
+    function preload() {
+      if (!enabled() || !scriptUrl || !window.Image) return;
+      for (const name of ["normal", "hover", "click"]) {
+        const img = new window.Image();
+        img.src = new URL("../assets/cursors/night-" + name + ".png", scriptUrl).href;
+      }
+    }
+    function onDown(event) {
+      if (!enabled() || event.pointerType !== "mouse" || event.button !== 0) return;
+      if (event.target?.closest?.('textarea,[contenteditable]:not([contenteditable="false"]),input:not([type="button"]):not([type="submit"]):not([type="reset"]):not([type="checkbox"]):not([type="radio"]),:disabled,[aria-disabled="true"]')) return;
+      reset();
+      down = true;
+      root.dataset.dqPaw = "pressed";
+    }
+    function onUp(event) {
+      if (event.pointerType !== "mouse" || event.button !== 0 || !down) return;
+      down = false;
+      if (!enabled()) { reset(); return; }
+      const finish = () => {
+        releaseTimer = null;
+        root.dataset.dqPaw = "rest";
+      };
+      if (reduced.matches) finish();
+      else releaseTimer = window.setTimeout(finish, 130);
+    }
+    function onMove(event) {
+      if (event.pointerType === "mouse" && root.dataset.dqPaw === "rest") delete root.dataset.dqPaw;
+    }
+    document.addEventListener("pointerdown", onDown, true);
+    window.addEventListener("pointerup", onUp, true);
+    document.addEventListener("pointermove", onMove, true);
+    document.addEventListener("pointercancel", reset, true);
+    window.addEventListener("blur", reset);
+    window.addEventListener("pagehide", reset);
+    window.addEventListener("devquest:themechange", () => { reset(); preload(); });
+    if (mouse.addEventListener) mouse.addEventListener("change", () => { reset(); preload(); });
+    preload();
+  }
+
   const initialTheme = readSavedTheme();
   applyTheme(initialTheme, false);
   initializeFavicon();
+  initializeNightCursor();
 
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", initializeThemeControls, { once: true });

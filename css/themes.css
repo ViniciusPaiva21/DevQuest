@@ -977,3 +977,35 @@ html[data-theme="pixel"] { --dq-statement-border: #8072a9; --dq-statement-bg: #2
 html[data-theme="pixel"] #question-area .dq-prose { font-size: clamp(16px, 2vw, 19px); }
 .decoreba-statements li { border: 1px solid var(--dec-border); border-radius: 10px; padding: 12px 14px; background: var(--dec-option); margin-bottom: 8px; }
 .decoreba-statements span, .decoreba-option-copy { white-space: normal; }
+
+/* Noite: original cat-paw assets, native cursor with accurate hotspot. */
+@media (any-hover: hover) and (any-pointer: fine) {
+  html[data-theme="dark"] {
+    --dq-paw-normal: url("../assets/cursors/night-normal.png") 8 3;
+    --dq-paw-hover: url("../assets/cursors/night-hover.png") 8 3;
+    --dq-paw-click: url("../assets/cursors/night-click.png") 13 7;
+    --dq-paw-current: var(--dq-paw-normal);
+    --dq-paw-action: var(--dq-paw-hover);
+    cursor: var(--dq-paw-current), auto;
+  }
+  html[data-theme="dark"][data-dq-paw="pressed"] {
+    --dq-paw-current: var(--dq-paw-click);
+    --dq-paw-action: var(--dq-paw-click);
+  }
+  html[data-theme="dark"][data-dq-paw="rest"] {
+    --dq-paw-action: var(--dq-paw-normal);
+  }
+  html[data-theme="dark"] :where(*) { cursor: inherit !important; }
+  html[data-theme="dark"] :is(a[href],button,summary,label[for],select,input[type="checkbox"],input[type="radio"],input[type="button"],input[type="submit"],input[type="reset"],[role="button"],[role="link"],[role="menuitem"],[role="menuitemradio"],[role="option"],[role="tab"],[onclick],.cursor-pointer):hover {
+    cursor: var(--dq-paw-action), pointer !important;
+  }
+  html[data-theme="dark"] :is(textarea,[contenteditable]:not([contenteditable="false"]),input:not([type="checkbox"]):not([type="radio"]):not([type="button"]):not([type="submit"]):not([type="reset"]):not([type="range"]):not([type="file"]),.cursor-text) {
+    cursor: text !important;
+  }
+  html[data-theme="dark"] :is(:disabled,[aria-disabled="true"],.cursor-not-allowed) {
+    cursor: not-allowed !important;
+  }
+  html[data-theme="dark"] :is(.cursor-grab,input[type="range"]) { cursor: grab !important; }
+  html[data-theme="dark"] .cursor-grabbing { cursor: grabbing !important; }
+  html[data-theme="dark"] .cursor-wait { cursor: wait !important; }
+}
