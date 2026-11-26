@@ -981,9 +981,9 @@ html[data-theme="pixel"] #question-area .dq-prose { font-size: clamp(16px, 2vw, 
 /* Noite: original cat-paw assets, native cursor with accurate hotspot. */
 @media (any-hover: hover) and (any-pointer: fine) {
   html[data-theme="dark"] {
-    --dq-paw-normal: url("../assets/cursors/night-normal.png") 8 3;
-    --dq-paw-hover: url("../assets/cursors/night-hover.png") 8 3;
-    --dq-paw-click: url("../assets/cursors/night-click.png") 13 7;
+    --dq-paw-normal: url("../assets/cursors/night-normal.png") 10 4;
+    --dq-paw-hover: url("../assets/cursors/night-hover.png") 10 4;
+    --dq-paw-click: url("../assets/cursors/night-click.png") 16 8;
     --dq-paw-current: var(--dq-paw-normal);
     --dq-paw-action: var(--dq-paw-hover);
     cursor: var(--dq-paw-current), auto;
